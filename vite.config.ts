@@ -167,6 +167,18 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-react': ['react', 'react-dom'],
+          'vendor-trpc': ['@trpc/client', '@trpc/react-query', '@tanstack/react-query'],
+          'vendor-ui': ['framer-motion', 'lucide-react', 'sonner'],
+          'vendor-audio': ['tone'],
+          'vendor-radix': ['@radix-ui/react-dialog', '@radix-ui/react-dropdown-menu', '@radix-ui/react-select', '@radix-ui/react-tooltip', '@radix-ui/react-tabs', '@radix-ui/react-popover'],
+          'vendor-utils': ['superjson', 'wouter', 'date-fns', 'class-variance-authority', 'clsx'],
+        },
+      },
+    },
   },
   server: {
     host: true,
