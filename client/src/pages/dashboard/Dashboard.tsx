@@ -4,6 +4,7 @@ import { useStore } from '@/lib/store';
 import DashboardLayout from '@/components/DashboardLayout';
 import { DOMAINS } from '@/lib/types';
 import { Plus, Play, BookOpen, Tv, Brain } from 'lucide-react';
+import TrialBanner from '@/components/TrialBanner';
 
 const DASH_IMG = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663407626762/iASgnCeomTwRZiq44kFhuJ/hero-dashboard-8f9Rjm2F7LJezrppKeK7F9.webp';
 
@@ -21,15 +22,7 @@ export default function Dashboard() {
   return (
     <DashboardLayout title="Dashboard">
       {/* Trial banner */}
-      {profile?.plan_type === 'free' && trialDaysLeft > 0 && trialDaysLeft <= 5 && (
-        <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="bg-[#FBBF24]/20 border-2 border-[#FBBF24] rounded-2xl p-4 mb-6 flex items-center justify-between">
-          <div>
-            <p className="font-bold text-sm" style={{ fontFamily: 'var(--font-display)' }}>Your free trial ends in {trialDaysLeft} days!</p>
-            <p className="text-xs text-[#555]">Keep the learning going for just $4.99/month.</p>
-          </div>
-          <Link href="/dashboard/upgrade" className="btn-gigi !py-2 !px-4 !text-sm">Upgrade</Link>
-        </motion.div>
-      )}
+      <TrialBanner />
 
       {/* Children cards */}
       <section className="mb-8">

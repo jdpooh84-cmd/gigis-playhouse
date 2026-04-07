@@ -4,9 +4,10 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import { lazy, Suspense } from "react";
+import { lazy, Suspense, useState, useCallback } from "react";
 import { useStore } from "./lib/store";
 import LoadingScreen from "./components/LoadingScreen";
+import SplashScreen from "./components/SplashScreen";
 
 // Lazy-loaded pages for code splitting
 const Landing = lazy(() => import("./pages/Landing"));
@@ -15,6 +16,7 @@ const Signup = lazy(() => import("./pages/Signup"));
 const Pricing = lazy(() => import("./pages/Pricing"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const Terms = lazy(() => import("./pages/Terms"));
+const About = lazy(() => import("./pages/About"));
 const OnboardWelcome = lazy(() => import("./pages/onboard/Welcome"));
 const OnboardChild = lazy(() => import("./pages/onboard/AddChild"));
 const OnboardPreferences = lazy(() => import("./pages/onboard/Preferences"));
@@ -57,6 +59,7 @@ function Router() {
         <Route path="/pricing" component={Pricing} />
         <Route path="/privacy" component={Privacy} />
         <Route path="/terms" component={Terms} />
+        <Route path="/about" component={About} />
         <Route path="/upgrade">{() => <ProtectedRoute component={Upgrade} />}</Route>
         <Route path="/success" component={PaymentSuccess} />
         <Route path="/cancel" component={PaymentCancel} />
@@ -96,11 +99,23 @@ function Router() {
 }
 
 function App() {
+  const [showSplash, setShowSplash] = useState(() => {
+    // Only show splash once per browser session
+    const shown = sessionStorage.getItem("gigi-splash-shown");
+    return !shown;
+  });
+
+  const handleSplashComplete = useCallback(() => {
+    sessionStorage.setItem("gigi-splash-shown", "true");
+    setShowSplash(false);
+  }, []);
+
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
+          {showSplash && <SplashScreen onComplete={handleSplashComplete} />}
           <Router />
         </TooltipProvider>
       </ThemeProvider>

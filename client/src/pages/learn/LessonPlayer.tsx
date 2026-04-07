@@ -4,6 +4,9 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { DOMAINS } from '@/lib/types';
 import { ArrowLeft, ArrowRight, Check, Play, Hand, Lightbulb, MessageCircle, Star } from 'lucide-react';
+import { getCharacterByDomain } from '@/lib/characters';
+import CharacterAvatar from '@/components/CharacterAvatar';
+import MovementBreak from '@/components/MovementBreak';
 
 const STEPS = [
   { key: 'watch', label: 'Watch', icon: Play, color: '#4361EE' },
@@ -18,11 +21,13 @@ export default function LessonPlayer() {
   const lesson = useStore((s) => s.lessons.find((l) => l.id === lessonId));
   const updateLessonProgress = useStore((s) => s.updateLessonProgress);
   const [step, setStep] = useState(0);
+  const [showMovementBreak, setShowMovementBreak] = useState(false);
   const [, navigate] = useLocation();
 
   if (!child || !lesson) return <div className="min-h-screen bg-[#FAFAF5] flex items-center justify-center"><p>Lesson not found</p></div>;
 
   const domain = DOMAINS.find((d) => d.id === lesson.domain);
+  const character = getCharacterByDomain(lesson.domain);
   const currentStep = STEPS[step];
 
   const completeStep = () => {
@@ -32,8 +37,13 @@ export default function LessonPlayer() {
     if (step === 2) updates.apply_complete = true;
     if (step === 3) { updates.reflect_complete = true; updates.completion_status = 'done'; }
     updateLessonProgress({ child_id: childId!, lesson_id: lessonId!, ...updates });
-    if (step < 3) setStep(step + 1);
-    else navigate(`/learn/${childId}/quiz/${lessonId}`);
+    if (step < 3) {
+      setStep(step + 1);
+      // Show movement break between Do and Apply steps
+      if (step === 1) setShowMovementBreak(true);
+    } else {
+      navigate(`/learn/${childId}/quiz/${lessonId}`);
+    }
   };
 
   return (
@@ -113,13 +123,24 @@ export default function LessonPlayer() {
           </motion.div>
         </AnimatePresence>
 
-        <div className="flex gap-3 mt-8">
+        {/* Character guide */}
+        <div className="flex items-center gap-3 mt-6 p-4 bg-white rounded-2xl border-2 border-[#E5E5E0]">
+          <CharacterAvatar character={character} size="sm" state="teaching" />
+          <p className="text-sm text-[#555]" style={{ fontFamily: "'Lexend', sans-serif" }}>
+            {character.encouragements[step % character.encouragements.length]}
+          </p>
+        </div>
+
+        <div className="flex gap-3 mt-6">
           {step > 0 && <button onClick={() => setStep(step - 1)} className="btn-gigi !bg-[#E5E5E0] !text-[#1C1B2E] !shadow-[0_4px_0_#C5C5C0] flex-1"><ArrowLeft className="w-5 h-5" /> Previous</button>}
           <button onClick={completeStep} className="btn-gigi flex-1" style={{ backgroundColor: currentStep.color }}>
             {step < 3 ? <>Complete & Next <ArrowRight className="w-5 h-5" /></> : <><Star className="w-5 h-5" /> Finish & Take Quiz</>}
           </button>
         </div>
       </div>
+
+      {/* Movement Break Overlay */}
+      {showMovementBreak && <MovementBreak onComplete={() => setShowMovementBreak(false)} />}
     </div>
   );
 }

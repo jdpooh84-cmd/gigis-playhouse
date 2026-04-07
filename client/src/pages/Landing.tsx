@@ -263,8 +263,40 @@ export default function Landing() {
         </div>
       </section>
 
+      {/* Built Different */}
+      <section className="py-20 bg-white">
+        <div className="container">
+          <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} className="text-center mb-12">
+            <motion.p variants={fadeUp} custom={0} className="text-[#7C3AED] font-bold text-sm tracking-wider uppercase mb-2">Why We're Different</motion.p>
+            <motion.h2 variants={fadeUp} custom={1} className="text-3xl md:text-4xl font-black text-[#1C1B2E]" style={{ fontFamily: 'var(--font-display)' }}>
+              Built From Our Home. For Yours.
+            </motion.h2>
+            <motion.p variants={fadeUp} custom={2} className="text-[#555] mt-3 max-w-2xl mx-auto">
+              Created by Justin &amp; Rachel Poole — parents who couldn't find the app they wanted for their own kids.
+            </motion.p>
+          </motion.div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              { icon: '🎓', title: 'The Poole Method™', desc: 'A research-backed 5-principle approach: Structured Curiosity, Scaffolded Mastery, Joyful Repetition, Multi-Sensory Engagement, and Parental Partnership.' },
+              { icon: '🏠', title: 'Family-First Design', desc: 'No ads, no tracking kids, no dark patterns. Built by a family LLC (Dreamz In Ink) that puts children\'s safety above growth metrics.' },
+              { icon: '📚', title: 'Real Curriculum', desc: '540 lessons across 6 domains, each following a 5-phase micro-step progression. Not random activities — a real learning path.' },
+            ].map((item, i) => (
+              <motion.div key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i}
+                className="bg-[#FAFAF5] rounded-3xl p-8 border-3 border-[#E5E5E0] text-center">
+                <div className="text-4xl mb-4">{item.icon}</div>
+                <h3 className="font-black text-lg text-[#1C1B2E] mb-2" style={{ fontFamily: 'var(--font-display)' }}>{item.title}</h3>
+                <p className="text-[#555] text-sm leading-relaxed">{item.desc}</p>
+              </motion.div>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link href="/about" className="text-[#7C3AED] font-bold text-sm hover:underline">Learn more about The Poole Method™ →</Link>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing */}
-      <section id="pricing" className="py-20 bg-white">
+      <section id="pricing" className="py-20 bg-[#FAFAF5]">
         <div className="container">
           <h2 className="text-3xl md:text-4xl font-black text-center text-[#1C1B2E] mb-4" style={{ fontFamily: 'var(--font-display)' }}>
             Simple, Honest Pricing
@@ -382,7 +414,9 @@ export default function Landing() {
                 <span className="text-2xl">🐱</span>
                 <span className="font-black text-lg text-white" style={{ fontFamily: 'var(--font-display)' }}>Gigi's Playhouse</span>
               </div>
-              <p className="text-sm">The learning app your child will actually ask for. Built by Dreamz In Ink LLC.</p>
+              <p className="text-sm">The learning app your child will actually ask for.</p>
+              <p className="text-xs mt-2 text-white/50">Built with love by Dreamz In Ink LLC</p>
+              <p className="text-xs text-white/40">Founded by Justin Poole, MBA, MS &amp; Rachel Poole</p>
             </div>
             <div>
               <h4 className="font-bold text-white mb-3 text-sm" style={{ fontFamily: 'var(--font-display)' }}>Product</h4>
@@ -402,7 +436,8 @@ export default function Landing() {
             <div>
               <h4 className="font-bold text-white mb-3 text-sm" style={{ fontFamily: 'var(--font-display)' }}>Support</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="mailto:support@gigisplayhouse.app" className="hover:text-white transition-colors">Contact Us</a></li>
+                <li><a href="mailto:hello@gigisplayhouse.com" className="hover:text-white transition-colors">Contact Us</a></li>
+                <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
               </ul>
             </div>
           </div>

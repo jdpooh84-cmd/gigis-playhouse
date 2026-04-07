@@ -4,6 +4,8 @@ import { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { DOMAINS } from '@/lib/types';
 import { ArrowLeft, BookOpen, Brain, Tv, Star } from 'lucide-react';
+import { getCharacterByDomain } from '@/lib/characters';
+import CharacterAvatar from '@/components/CharacterAvatar';
 
 const LEARN_IMG = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663407626762/iASgnCeomTwRZiq44kFhuJ/hero-learning-FKJmUMTLG3C2SueDA8HK76.webp';
 
@@ -94,7 +96,7 @@ export default function LearnHome() {
               <motion.div key={d.id} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="card-gigi !p-0 overflow-hidden" style={{ borderColor: d.color + '40' }}>
                 <div className="p-5">
                   <div className="flex items-center gap-3 mb-3">
-                    <div className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl" style={{ backgroundColor: d.color + '20' }}>{d.emoji}</div>
+                    <CharacterAvatar character={getCharacterByDomain(d.id)} size="sm" state={isEnrolled ? 'teaching' : 'idle'} />
                     <div>
                       <h3 className="font-black text-lg" style={{ fontFamily: 'var(--font-display)', color: d.color }}>{d.name}</h3>
                       <p className="text-xs text-[#888]">{d.character}</p>
