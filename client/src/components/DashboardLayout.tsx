@@ -1,9 +1,12 @@
 import { Link, useLocation } from 'wouter';
 import { useStore } from '@/lib/store';
 import { Home, Users, Tv, BarChart3, FileText, Bell, Settings, LogOut, Play, Crown } from 'lucide-react';
+import ChildSwitcher from './ChildSwitcher';
+import CharacterHeadshot from './CharacterHeadshot';
 
 const NAV_ITEMS = [
   { href: '/dashboard', icon: Home, label: 'Home' },
+  { href: '/dashboard/family', icon: Users, label: 'Family Hub' },
   { href: '/dashboard/channels', icon: Tv, label: 'Channels' },
   { href: '/dashboard/compliance', icon: FileText, label: 'Compliance' },
   { href: '/dashboard/alerts', icon: Bell, label: 'Alerts' },
@@ -17,6 +20,7 @@ export default function DashboardLayout({ children, title }: { children: React.R
   const childList = useStore((s) => s.children);
   const logout = useStore((s) => s.logout);
   const unreadAlerts = alerts.filter((a) => !a.read).length;
+  const activeChildren = childList.filter(c => c.is_active);
 
   return (
     <div className="min-h-screen bg-[#FAFAF5]">
@@ -24,17 +28,20 @@ export default function DashboardLayout({ children, title }: { children: React.R
       <header className="sticky top-0 z-50 bg-white border-b-2 border-[#E5E5E0]">
         <div className="container flex items-center justify-between h-14">
           <Link href="/dashboard" className="flex items-center gap-2">
-            <span className="text-xl">🐱</span>
+            <CharacterHeadshot character="cat" size={28} color="#F59E0B" />
             <span className="font-black text-lg text-[#7C3AED] hidden sm:inline" style={{ fontFamily: 'var(--font-display)' }}>Gigi's Playhouse</span>
           </Link>
           <div className="flex items-center gap-3">
+            {/* Child switcher for multi-child families */}
+            <ChildSwitcher />
+
             {profile?.plan_type === 'free' && (
               <Link href="/dashboard/upgrade" className="hidden sm:inline-flex items-center gap-1.5 bg-[#FBBF24] text-[#1C1B2E] rounded-full px-3 py-1.5 text-xs font-black" style={{ fontFamily: 'var(--font-display)' }}>
                 <Crown className="w-3.5 h-3.5" /> Upgrade
               </Link>
             )}
-            {childList.length > 0 && (
-              <Link href={`/learn/${childList[0].id}`} className="inline-flex items-center gap-1.5 bg-[#7C3AED] text-white rounded-full px-3 py-1.5 text-xs font-bold">
+            {activeChildren.length > 0 && (
+              <Link href={`/learn/${activeChildren[0].id}`} className="inline-flex items-center gap-1.5 bg-[#7C3AED] text-white rounded-full px-3 py-1.5 text-xs font-bold">
                 <Play className="w-3.5 h-3.5" /> Learn
               </Link>
             )}
@@ -55,7 +62,7 @@ export default function DashboardLayout({ children, title }: { children: React.R
         {/* Sidebar - desktop */}
         <aside className="hidden md:flex flex-col w-56 bg-white border-r-2 border-[#E5E5E0] min-h-[calc(100vh-56px)] sticky top-14 p-4 gap-1">
           {NAV_ITEMS.map((item) => {
-            const active = location === item.href;
+            const active = location === item.href || (item.href !== '/dashboard' && location.startsWith(item.href));
             return (
               <Link key={item.href} href={item.href} className={`flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-semibold transition-colors ${active ? 'bg-[#7C3AED]/10 text-[#7C3AED]' : 'text-[#555] hover:bg-[#F5F5F0]'}`}>
                 <item.icon className="w-5 h-5" />

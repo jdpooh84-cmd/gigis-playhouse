@@ -132,6 +132,14 @@ const storeCreator = (set: SetState, get: GetState): AppState => ({
           },
           approvedChannels: channels,
           onboardingComplete: false,
+          children: [],
+          activeChildId: null,
+          enrolledPaths: [],
+          lessonProgress: [],
+          quizResults: [],
+          flashcardProgress: [],
+          alerts: [],
+          complianceLogs: [],
         });
       },
 

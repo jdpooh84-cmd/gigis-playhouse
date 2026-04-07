@@ -1,44 +1,55 @@
 /**
  * SplashScreen — Gigi appears first on every app open
+ * Music & Lyrics © 2026 Dreamz In Ink LLC
  * Design: "Playroom Canvas" — Bold Geometric Toybox
- * Plays theme song, shows Gigi character, fades to app
+ * Plays Tone.js theme song with scrolling lyrics, shows Gigi character, fades to app
  */
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { audioManager } from "@/lib/audio-manager";
+import { playGigiTheme, stopGigiTheme, type LyricLine } from "@/lib/GigiTheme";
+import CharacterAvatar from "./CharacterAvatar";
+import { getCharacterById } from "@/lib/characters";
 
 interface SplashScreenProps {
   onComplete: () => void;
-  duration?: number; // ms to show splash, default 4500
+  duration?: number;
 }
 
-export default function SplashScreen({ onComplete, duration = 4500 }: SplashScreenProps) {
+export default function SplashScreen({ onComplete, duration = 12000 }: SplashScreenProps) {
   const [phase, setPhase] = useState<"enter" | "playing" | "exit">("enter");
+  const [currentLyric, setCurrentLyric] = useState<LyricLine | null>(null);
+  const [audioStarted, setAudioStarted] = useState(false);
+  const stopRef = useRef<(() => void) | null>(null);
+  const gigi = getCharacterById("gigi");
 
   const handleComplete = useCallback(() => {
     setPhase("exit");
+    stopGigiTheme();
     setTimeout(() => {
       onComplete();
     }, 600);
   }, [onComplete]);
 
+  const startAudio = useCallback(async () => {
+    if (audioStarted) return;
+    setAudioStarted(true);
+    try {
+      const stop = await playGigiTheme((line) => {
+        setCurrentLyric(line);
+      });
+      stopRef.current = stop;
+    } catch {
+      // Web Audio blocked — continue silently
+    }
+  }, [audioStarted]);
+
   useEffect(() => {
-    // Start theme song
-    audioManager.playThemeSong().catch(() => {
-      // Autoplay blocked — continue silently
-    });
-
-    // Enter phase
     const enterTimer = setTimeout(() => setPhase("playing"), 800);
-
-    // Auto-dismiss after duration
-    const dismissTimer = setTimeout(() => {
-      handleComplete();
-    }, duration);
-
+    const dismissTimer = setTimeout(() => handleComplete(), duration);
     return () => {
       clearTimeout(enterTimer);
       clearTimeout(dismissTimer);
+      if (stopRef.current) stopRef.current();
     };
   }, [duration, handleComplete]);
 
@@ -50,39 +61,26 @@ export default function SplashScreen({ onComplete, duration = 4500 }: SplashScre
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
-          className="fixed inset-0 z-[9999] flex flex-col items-center justify-center overflow-hidden"
+          className="fixed inset-0 z-[9999] flex flex-col items-center justify-center overflow-hidden cursor-pointer"
           style={{ background: "linear-gradient(135deg, #FFF8E1 0%, #FFF3E0 30%, #FCE4EC 70%, #F3E5F5 100%)" }}
-          onClick={handleComplete}
+          onClick={() => { startAudio(); handleComplete(); }}
         >
           {/* Floating shapes background */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
             {[...Array(12)].map((_, i) => (
               <motion.div
                 key={i}
-                className="absolute rounded-full"
+                className="absolute"
                 style={{
-                  width: 20 + Math.random() * 60,
-                  height: 20 + Math.random() * 60,
-                  left: `${Math.random() * 100}%`,
-                  top: `${Math.random() * 100}%`,
-                  background: [
-                    "#7C3AED33", "#F59E0B33", "#10B98133",
-                    "#EC489933", "#3B82F633", "#F97316AA",
-                  ][i % 6],
+                  width: 20 + (i * 7) % 60,
+                  height: 20 + (i * 11) % 60,
+                  left: `${(i * 8.3) % 100}%`,
+                  top: `${(i * 7.7) % 100}%`,
+                  background: ["#7C3AED33","#F59E0B33","#10B98133","#EC489933","#3B82F633","#F97316AA"][i % 6],
                   borderRadius: i % 3 === 0 ? "50%" : i % 3 === 1 ? "30% 70% 70% 30% / 30% 30% 70% 70%" : "8px",
                 }}
-                animate={{
-                  y: [0, -30, 0],
-                  x: [0, 15, 0],
-                  rotate: [0, 180, 360],
-                  scale: [1, 1.1, 1],
-                }}
-                transition={{
-                  duration: 4 + Math.random() * 4,
-                  repeat: Infinity,
-                  delay: Math.random() * 2,
-                  ease: "easeInOut",
-                }}
+                animate={{ y: [0, -30, 0], x: [0, 15, 0], rotate: [0, 180, 360], scale: [1, 1.1, 1] }}
+                transition={{ duration: 4 + (i % 4), repeat: Infinity, delay: i * 0.3, ease: "easeInOut" }}
               />
             ))}
           </div>
@@ -94,42 +92,7 @@ export default function SplashScreen({ onComplete, duration = 4500 }: SplashScre
             transition={{ type: "spring", stiffness: 200, damping: 15, delay: 0.3 }}
             className="relative z-10 mb-6"
           >
-            <div className="w-40 h-40 rounded-full bg-white shadow-2xl flex items-center justify-center border-4 border-amber-300 relative overflow-hidden">
-              {/* Gigi cat face */}
-              <div className="text-8xl leading-none select-none" role="img" aria-label="Gigi the cat">
-                🐱
-              </div>
-              {/* Graduation cap */}
-              <motion.div
-                className="absolute -top-2 -right-1 text-3xl"
-                animate={{ rotate: [0, -10, 10, 0] }}
-                transition={{ duration: 2, repeat: Infinity, delay: 1 }}
-              >
-                🎓
-              </motion.div>
-            </div>
-            {/* Sparkles around Gigi */}
-            {[0, 1, 2, 3].map((i) => (
-              <motion.div
-                key={i}
-                className="absolute text-2xl"
-                style={{
-                  top: [-10, 10, -5, 20][i],
-                  left: [-15, 145, 60, -20][i],
-                }}
-                animate={{
-                  opacity: [0, 1, 0],
-                  scale: [0.5, 1.2, 0.5],
-                }}
-                transition={{
-                  duration: 1.5,
-                  repeat: Infinity,
-                  delay: i * 0.4,
-                }}
-              >
-                ✨
-              </motion.div>
-            ))}
+            <CharacterAvatar character={gigi} size="xl" state="celebrating" />
           </motion.div>
 
           {/* Title */}
@@ -151,58 +114,106 @@ export default function SplashScreen({ onComplete, duration = 4500 }: SplashScre
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9, duration: 0.5 }}
-            className="text-lg md:text-xl text-gray-600 font-medium relative z-10 mb-8"
+            className="text-lg md:text-xl text-gray-600 font-medium relative z-10 mb-4"
             style={{ fontFamily: "'Lexend', sans-serif" }}
           >
             Learn, Play, Grow — Every Day!
           </motion.p>
 
-          {/* Music note animation */}
+          {/* Scrolling lyrics */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.2 }}
-            className="flex gap-3 relative z-10"
+            className="relative z-10 h-16 flex items-center justify-center overflow-hidden"
           >
-            {["🎵", "🎶", "🎵"].map((note, i) => (
-              <motion.span
-                key={i}
-                className="text-2xl"
-                animate={{
-                  y: [0, -15, 0],
-                  opacity: [0.5, 1, 0.5],
-                }}
-                transition={{
-                  duration: 1.5,
-                  repeat: Infinity,
-                  delay: i * 0.3,
-                }}
-              >
-                {note}
-              </motion.span>
-            ))}
+            <AnimatePresence mode="wait">
+              {currentLyric ? (
+                <motion.p
+                  key={currentLyric.time}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                  className="text-center text-lg md:text-xl font-bold px-6 max-w-lg"
+                  style={{
+                    fontFamily: "'Lexend', sans-serif",
+                    color: currentLyric.section === "chorus" || currentLyric.section === "finalchorus"
+                      ? "#7C3AED"
+                      : currentLyric.section === "bridge"
+                      ? "#F72585"
+                      : "#555",
+                  }}
+                >
+                  {currentLyric.text}
+                </motion.p>
+              ) : (
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  className="flex gap-3"
+                >
+                  {["♪", "♫", "♪"].map((note, i) => (
+                    <motion.span
+                      key={i}
+                      className="text-2xl text-purple-400"
+                      animate={{ y: [0, -15, 0], opacity: [0.5, 1, 0.5] }}
+                      transition={{ duration: 1.5, repeat: Infinity, delay: i * 0.3 }}
+                    >
+                      {note}
+                    </motion.span>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
           </motion.div>
+
+          {/* Start audio prompt (before user interaction) */}
+          {!audioStarted && (
+            <motion.button
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 1.5 }}
+              onClick={(e) => { e.stopPropagation(); startAudio(); }}
+              className="relative z-10 mt-6 px-6 py-3 bg-purple-600 text-white rounded-2xl font-bold text-sm hover:bg-purple-700 transition-colors shadow-lg"
+              style={{ fontFamily: "'Nunito', sans-serif" }}
+            >
+              🔊 Play Theme Song
+            </motion.button>
+          )}
 
           {/* Tap to continue hint */}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: [0, 0.6, 0] }}
-            transition={{ delay: 2.5, duration: 2, repeat: Infinity }}
-            className="absolute bottom-12 text-sm text-gray-400 font-medium relative z-10"
+            transition={{ delay: 3, duration: 2, repeat: Infinity }}
+            className="absolute bottom-12 text-sm text-gray-400 font-medium z-10"
           >
             Tap anywhere to continue
           </motion.p>
 
           {/* Audio indicator */}
-          <motion.div
+          {audioStarted && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 0.6 }}
+              transition={{ delay: 0.3 }}
+              className="absolute bottom-6 right-6 flex items-center gap-2 text-gray-500 text-xs z-10"
+            >
+              <span className="text-base">🔊</span>
+              <span style={{ fontFamily: "'Lexend', sans-serif" }}>Theme song playing</span>
+            </motion.div>
+          )}
+
+          {/* Copyright */}
+          <motion.p
             initial={{ opacity: 0 }}
-            animate={{ opacity: 0.5 }}
-            transition={{ delay: 1.5 }}
-            className="absolute bottom-6 right-6 flex items-center gap-2 text-gray-400 text-xs"
+            animate={{ opacity: 0.3 }}
+            transition={{ delay: 2 }}
+            className="absolute bottom-6 left-6 text-[10px] text-gray-400 z-10"
           >
-            <span>🔊</span>
-            <span>Theme song playing</span>
-          </motion.div>
+            © 2026 Dreamz In Ink LLC
+          </motion.p>
         </motion.div>
       )}
     </AnimatePresence>

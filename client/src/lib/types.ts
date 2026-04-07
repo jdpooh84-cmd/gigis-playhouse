@@ -13,6 +13,22 @@ export type AlertType = 'quiz-fail' | 'milestone' | 'streak' | 'path-complete';
 export type AgeTag = 'toddler' | 'preschool' | 'k3' | 'all';
 export type FlashcardResult = 'knew' | 'almost' | 'learning';
 export type DomainId = 'literacy' | 'math' | 'science' | 'social-studies' | 'social-emotional' | 'executive-function';
+export type GuideAnimal = 'cat' | 'dog' | 'bunny' | 'bear';
+export type ChildColor = '#7C3AED' | '#0F6E56' | '#D85A30' | '#3B6D11';
+
+export const CHILD_COLORS: { value: ChildColor; name: string }[] = [
+  { value: '#7C3AED', name: 'Purple' },
+  { value: '#0F6E56', name: 'Teal' },
+  { value: '#D85A30', name: 'Coral' },
+  { value: '#3B6D11', name: 'Green' },
+];
+
+export const GUIDE_ANIMALS: { value: GuideAnimal; name: string; personality: string }[] = [
+  { value: 'cat', name: 'Gigi the Cat', personality: 'Warm, curious, loves words' },
+  { value: 'dog', name: 'Dexter the Dog', personality: 'Energetic, loves numbers and puzzles' },
+  { value: 'bunny', name: 'Luna the Bunny', personality: 'Gentle, loves science and discovery' },
+  { value: 'bear', name: 'Bear', personality: 'Steady, loves social-emotional stories' },
+];
 
 export interface Profile {
   id: string;
@@ -36,6 +52,10 @@ export interface Child {
   short_day_mode: boolean;
   sensory_notes: string;
   language: string;
+  display_color: string;
+  avatar_animal: GuideAnimal;
+  sort_order: number;
+  is_active: boolean;
   created_at: string;
 }
 
@@ -198,7 +218,7 @@ export const PLAN_GATES = {
   family: {
     lessons_per_path: Infinity,
     channel_slots: Infinity,
-    child_profiles: 5,
+    child_profiles: 4,
     languages: 'all' as const,
     pdf_export: true,
     all_domains: true,

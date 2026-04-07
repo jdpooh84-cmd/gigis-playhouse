@@ -2,6 +2,7 @@ import { Link, useLocation } from 'wouter';
 import { useStore } from '@/lib/store';
 import { motion } from 'framer-motion';
 import { Check, Crown, Users, Building2, ArrowLeft, Zap, Shield, BookOpen, Tv, FileText, Star } from 'lucide-react';
+import AffiliateLink from '@/components/AffiliateLink';
 import { toast } from 'sonner';
 
 const PLANS = [
@@ -137,6 +138,11 @@ export default function Upgrade() {
               </button>
             </motion.div>
           ))}
+        </div>
+
+        {/* Affiliate Links */}
+        <div className="max-w-md mx-auto mt-10">
+          <AffiliateLink placement="upgrade_page" maxLinks={2} />
         </div>
 
         {/* Trust badges */}

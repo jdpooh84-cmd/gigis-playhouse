@@ -5,6 +5,8 @@ import DashboardLayout from '@/components/DashboardLayout';
 import { DOMAINS } from '@/lib/types';
 import { Plus, Play, BookOpen, Tv, Brain } from 'lucide-react';
 import TrialBanner from '@/components/TrialBanner';
+import AffiliateLink from '@/components/AffiliateLink';
+import CharacterHeadshot, { emojiToCharacter } from '@/components/CharacterHeadshot';
 
 const DASH_IMG = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663407626762/iASgnCeomTwRZiq44kFhuJ/hero-dashboard-8f9Rjm2F7LJezrppKeK7F9.webp';
 
@@ -46,7 +48,7 @@ export default function Dashboard() {
                 <motion.div key={child.id} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="card-gigi">
                   <div className="flex items-start justify-between mb-4">
                     <div className="flex items-center gap-3">
-                      <div className="w-14 h-14 rounded-2xl bg-[#7C3AED]/10 flex items-center justify-center text-3xl">{child.avatar_emoji}</div>
+                      <CharacterHeadshot character={emojiToCharacter(child.avatar_emoji)} size={56} color={child.display_color || '#7C3AED'} />
                       <div>
                         <h3 className="font-black text-lg text-[#1C1B2E]" style={{ fontFamily: 'var(--font-display)' }}>{child.display_name}</h3>
                         <p className="text-xs text-[#888] capitalize">{child.grade_band.replace('-', ' ')} · Age {child.age}</p>
@@ -91,7 +93,7 @@ export default function Dashboard() {
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
           {DOMAINS.map((d) => (
             <div key={d.id} className="card-gigi !p-4 flex items-center gap-3" style={{ borderColor: d.color + '40' }}>
-              <div className="w-10 h-10 rounded-xl flex items-center justify-center text-xl" style={{ backgroundColor: d.color + '20' }}>{d.emoji}</div>
+              <CharacterHeadshot character={emojiToCharacter(d.emoji)} size={40} color={d.color} />
               <div>
                 <p className="font-bold text-sm text-[#1C1B2E]" style={{ fontFamily: 'var(--font-display)' }}>{d.name}</p>
                 <p className="text-[10px] text-[#888]">{d.character}</p>
@@ -99,6 +101,10 @@ export default function Dashboard() {
             </div>
           ))}
         </div>
+      </section>
+      {/* Affiliate Links — parent-facing only */}
+      <section className="mt-8">
+        <AffiliateLink placement="parent_dashboard" maxLinks={2} />
       </section>
     </DashboardLayout>
   );

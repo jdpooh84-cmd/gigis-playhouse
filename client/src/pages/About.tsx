@@ -3,7 +3,8 @@
  * Design: "Playroom Canvas" — Bold Geometric Toybox
  */
 import { motion } from "framer-motion";
-import { Link } from "wouter";
+import { Link } from 'wouter';
+import AffiliateLink from '@/components/AffiliateLink';
 import { ArrowLeft, Heart, BookOpen, Brain, Users, Sparkles, GraduationCap, Mail, FileText } from "lucide-react";
 
 const fadeUp = {
@@ -192,6 +193,13 @@ export default function About() {
               </tbody>
             </table>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Affiliate Links */}
+      <section className="py-8 px-4">
+        <div className="max-w-md mx-auto">
+          <AffiliateLink placement="about_page" maxLinks={2} />
         </div>
       </section>
 

@@ -39,6 +39,20 @@ const ChannelHub = lazy(() => import("./pages/learn/ChannelHub"));
 const ChannelPlayer = lazy(() => import("./pages/learn/ChannelPlayer"));
 const PaymentSuccess = lazy(() => import("./pages/PaymentSuccess"));
 const PaymentCancel = lazy(() => import("./pages/PaymentCancel"));
+const SponsorWithUs = lazy(() => import("./pages/SponsorWithUs"));
+
+// Admin pages
+const AdminDashboard = lazy(() => import("./pages/admin/AdminDashboard"));
+const AdminUsers = lazy(() => import("./pages/admin/AdminUsers"));
+const AdminSponsors = lazy(() => import("./pages/admin/AdminSponsors"));
+const AdminAffiliates = lazy(() => import("./pages/admin/AdminAffiliates"));
+const AdminRevenue = lazy(() => import("./pages/admin/AdminRevenue"));
+const AdminAlerts = lazy(() => import("./pages/admin/AdminAlerts"));
+const AdminSettings = lazy(() => import("./pages/admin/AdminSettings"));
+const AdminCurriculum = lazy(() => import("./pages/admin/AdminCurriculum"));
+const FamilyHub = lazy(() => import("./pages/dashboard/FamilyHub"));
+const FamilyProgress = lazy(() => import("./pages/dashboard/FamilyProgress"));
+const AdminPublishReadiness = lazy(() => import("./pages/admin/AdminPublishReadiness"));
 
 function ProtectedRoute({ component: Component }: { component: React.ComponentType }) {
   const isAuthenticated = useStore((s) => s.isAuthenticated);
@@ -63,6 +77,7 @@ function Router() {
         <Route path="/upgrade">{() => <ProtectedRoute component={Upgrade} />}</Route>
         <Route path="/success" component={PaymentSuccess} />
         <Route path="/cancel" component={PaymentCancel} />
+        <Route path="/sponsor-with-us" component={SponsorWithUs} />
 
         {/* Onboarding */}
         <Route path="/onboard/welcome">{() => <ProtectedRoute component={OnboardWelcome} />}</Route>
@@ -73,6 +88,8 @@ function Router() {
 
         {/* Parent Dashboard */}
         <Route path="/dashboard">{() => <ProtectedRoute component={Dashboard} />}</Route>
+        <Route path="/dashboard/family">{() => <ProtectedRoute component={FamilyHub} />}</Route>
+        <Route path="/dashboard/family/progress">{() => <ProtectedRoute component={FamilyProgress} />}</Route>
         <Route path="/dashboard/child/:id">{() => <ProtectedRoute component={DashboardChild} />}</Route>
         <Route path="/dashboard/paths/:childId">{() => <ProtectedRoute component={DashboardPaths} />}</Route>
         <Route path="/dashboard/channels">{() => <ProtectedRoute component={DashboardChannels} />}</Route>
@@ -90,6 +107,17 @@ function Router() {
         <Route path="/learn/:childId/flashcards/:domain">{() => <ProtectedRoute component={FlashcardSession} />}</Route>
         <Route path="/learn/:childId/channels">{() => <ProtectedRoute component={ChannelHub} />}</Route>
         <Route path="/learn/:childId/channels/:channelId">{() => <ProtectedRoute component={ChannelPlayer} />}</Route>
+
+        {/* Admin Panel */}
+        <Route path="/admin">{() => <ProtectedRoute component={AdminDashboard} />}</Route>
+        <Route path="/admin/users">{() => <ProtectedRoute component={AdminUsers} />}</Route>
+        <Route path="/admin/sponsors">{() => <ProtectedRoute component={AdminSponsors} />}</Route>
+        <Route path="/admin/affiliates">{() => <ProtectedRoute component={AdminAffiliates} />}</Route>
+        <Route path="/admin/revenue">{() => <ProtectedRoute component={AdminRevenue} />}</Route>
+        <Route path="/admin/alerts">{() => <ProtectedRoute component={AdminAlerts} />}</Route>
+        <Route path="/admin/settings">{() => <ProtectedRoute component={AdminSettings} />}</Route>
+        <Route path="/admin/curriculum">{() => <ProtectedRoute component={AdminCurriculum} />}</Route>
+        <Route path="/admin/publish-readiness">{() => <ProtectedRoute component={AdminPublishReadiness} />}</Route>
 
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
