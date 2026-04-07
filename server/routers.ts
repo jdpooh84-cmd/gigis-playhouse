@@ -7,6 +7,7 @@ import { learningRouter } from "./routers/learning";
 import { channelsRouter } from "./routers/channels";
 import { parentRouter } from "./routers/parent";
 import { adminRouter } from "./routers/admin";
+import { stripeRouter } from "./routers/stripe";
 
 export const appRouter = router({
   system: systemRouter,
@@ -25,6 +26,7 @@ export const appRouter = router({
   channels: channelsRouter,
   parent: parentRouter,
   admin: adminRouter,
+  stripe: stripeRouter,
 });
 
 export type AppRouter = typeof appRouter;

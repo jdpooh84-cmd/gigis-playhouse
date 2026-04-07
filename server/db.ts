@@ -307,3 +307,12 @@ export async function getFeatureFlagByKey(key: string) {
   const result = await db.select().from(featureFlags).where(eq(featureFlags.key, key)).limit(1);
   return result.length > 0 ? result[0] : undefined;
 }
+
+// ─── Stripe Helpers ─────────────────────────────────────────────────────────
+
+export async function findUserByStripeCustomerId(customerId: string) {
+  const db = await getDb();
+  if (!db) return null;
+  const rows = await db.select().from(users).where(eq(users.stripeCustomerId, customerId)).limit(1);
+  return rows[0] || null;
+}

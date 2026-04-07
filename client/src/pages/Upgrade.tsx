@@ -1,17 +1,21 @@
 import { Link, useLocation } from 'wouter';
 import { useAuth } from '@/_core/hooks/useAuth';
+import { trpc } from '@/lib/trpc';
 import { motion } from 'framer-motion';
-import { Check, Crown, Users, Building2, ArrowLeft, Zap, Shield, BookOpen, Tv, FileText, Star } from 'lucide-react';
+import { Check, Crown, Users, Building2, ArrowLeft, Zap, Shield, BookOpen, Tv, FileText, Star, Loader2 } from 'lucide-react';
 import AffiliateLink from '@/components/AffiliateLink';
 import { toast } from 'sonner';
+import { useState } from 'react';
 
 const PLANS = [
   {
-    id: 'gold' as const,
+    id: 'gold_monthly' as const,
+    planGroup: 'gold',
     name: 'Gold',
-    price: '$4.99',
+    price: '$9.99',
     period: '/month',
-    annual: '$49.99/year',
+    annual: '$79.99/year (save 33%)',
+    annualKey: 'gold_annual',
     icon: Crown,
     color: '#FBBF24',
     popular: true,
@@ -26,10 +30,12 @@ const PLANS = [
   },
   {
     id: 'family' as const,
+    planGroup: 'family',
     name: 'Family',
-    price: '$9.99',
+    price: '$14.99',
     period: '/month',
-    annual: '$99.99/year',
+    annual: '',
+    annualKey: '',
     icon: Users,
     color: '#7C3AED',
     popular: false,
@@ -44,10 +50,12 @@ const PLANS = [
   },
   {
     id: 'coop' as const,
+    planGroup: 'coop',
     name: 'Co-op',
     price: '$19.99',
     period: '/month',
-    annual: '$199.99/year',
+    annual: '',
+    annualKey: '',
     icon: Building2,
     color: '#4361EE',
     popular: false,
@@ -66,10 +74,31 @@ export default function Upgrade() {
   const { user, isAuthenticated } = useAuth();
   const [, navigate] = useLocation();
   const planType = (user as any)?.planType || 'free';
+  const [loadingPlan, setLoadingPlan] = useState<string | null>(null);
+  const createCheckout = trpc.stripe.createCheckout.useMutation();
 
-  const handleUpgrade = (planId: string) => {
+  const handleUpgrade = async (planKey: string) => {
     if (!isAuthenticated) { navigate('/signup'); return; }
-    toast.info('Stripe payment integration coming soon!');
+
+    // Co-op plan is not yet available
+    if (planKey === 'coop') {
+      toast.info('Co-op plan coming soon! Contact us for group pricing.');
+      return;
+    }
+
+    setLoadingPlan(planKey);
+    try {
+      const { url } = await createCheckout.mutateAsync({
+        planKey: planKey as "gold_monthly" | "gold_annual" | "family",
+        origin: window.location.origin,
+      });
+      toast.info('Redirecting to checkout...');
+      window.open(url, '_blank');
+    } catch (err: any) {
+      toast.error(err.message || 'Failed to start checkout');
+    } finally {
+      setLoadingPlan(null);
+    }
   };
 
   return (
@@ -104,34 +133,55 @@ export default function Upgrade() {
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-6">
-          {PLANS.map((plan, i) => (
-            <motion.div key={plan.id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 + i * 0.1 }} className={`card-gigi relative ${plan.popular ? '!border-[#FBBF24] ring-2 ring-[#FBBF24]/30' : ''}`}>
-              {plan.popular && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#FBBF24] text-[#1C1B2E] text-xs font-black px-4 py-1 rounded-full" style={{ fontFamily: 'var(--font-display)' }}>
-                  Most Popular
+          {PLANS.map((plan, i) => {
+            const isCurrentPlan = planType === plan.planGroup;
+            return (
+              <motion.div key={plan.id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 + i * 0.1 }} className={`card-gigi relative ${plan.popular ? '!border-[#FBBF24] ring-2 ring-[#FBBF24]/30' : ''}`}>
+                {plan.popular && (
+                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#FBBF24] text-[#1C1B2E] text-xs font-black px-4 py-1 rounded-full" style={{ fontFamily: 'var(--font-display)' }}>
+                    Most Popular
+                  </div>
+                )}
+                <div className="text-center mb-6 pt-2">
+                  <div className="w-14 h-14 rounded-2xl mx-auto mb-3 flex items-center justify-center" style={{ backgroundColor: plan.color + '20' }}>
+                    <plan.icon className="w-7 h-7" style={{ color: plan.color }} />
+                  </div>
+                  <h3 className="text-xl font-black" style={{ fontFamily: 'var(--font-display)', color: plan.color }}>{plan.name}</h3>
+                  <div className="mt-2">
+                    <span className="text-3xl font-black text-[#1C1B2E]" style={{ fontFamily: 'var(--font-display)' }}>{plan.price}</span>
+                    <span className="text-sm text-[#888]">{plan.period}</span>
+                  </div>
+                  {plan.annual && <p className="text-xs text-[#888] mt-1">or {plan.annual}</p>}
                 </div>
-              )}
-              <div className="text-center mb-6 pt-2">
-                <div className="w-14 h-14 rounded-2xl mx-auto mb-3 flex items-center justify-center" style={{ backgroundColor: plan.color + '20' }}>
-                  <plan.icon className="w-7 h-7" style={{ color: plan.color }} />
+                <ul className="space-y-3 mb-6">
+                  {plan.features.map((f) => (
+                    <li key={f} className="flex items-start gap-2 text-sm"><Check className="w-4 h-4 shrink-0 mt-0.5" style={{ color: plan.color }} />{f}</li>
+                  ))}
+                </ul>
+                <div className="space-y-2">
+                  <button
+                    onClick={() => handleUpgrade(plan.id)}
+                    disabled={isCurrentPlan || loadingPlan === plan.id}
+                    className="btn-gigi w-full !text-sm flex items-center justify-center gap-2"
+                    style={isCurrentPlan ? { opacity: 0.5 } : { backgroundColor: plan.color }}
+                  >
+                    {loadingPlan === plan.id && <Loader2 className="w-4 h-4 animate-spin" />}
+                    {isCurrentPlan ? 'Current Plan' : 'Start Free Trial'}
+                  </button>
+                  {plan.annualKey && !isCurrentPlan && (
+                    <button
+                      onClick={() => handleUpgrade(plan.annualKey)}
+                      disabled={loadingPlan === plan.annualKey}
+                      className="w-full text-xs text-center py-2 text-[#888] hover:text-[#555] transition-colors flex items-center justify-center gap-1"
+                    >
+                      {loadingPlan === plan.annualKey && <Loader2 className="w-3 h-3 animate-spin" />}
+                      or save with annual billing
+                    </button>
+                  )}
                 </div>
-                <h3 className="text-xl font-black" style={{ fontFamily: 'var(--font-display)', color: plan.color }}>{plan.name}</h3>
-                <div className="mt-2">
-                  <span className="text-3xl font-black text-[#1C1B2E]" style={{ fontFamily: 'var(--font-display)' }}>{plan.price}</span>
-                  <span className="text-sm text-[#888]">{plan.period}</span>
-                </div>
-                <p className="text-xs text-[#888] mt-1">or {plan.annual}</p>
-              </div>
-              <ul className="space-y-3 mb-6">
-                {plan.features.map((f) => (
-                  <li key={f} className="flex items-start gap-2 text-sm"><Check className="w-4 h-4 shrink-0 mt-0.5" style={{ color: plan.color }} />{f}</li>
-                ))}
-              </ul>
-              <button onClick={() => handleUpgrade(plan.id)} disabled={planType === plan.id} className="btn-gigi w-full !text-sm" style={planType === plan.id ? { opacity: 0.5 } : { backgroundColor: plan.color }}>
-                {planType === plan.id ? 'Current Plan' : 'Start Free Trial'}
-              </button>
-            </motion.div>
-          ))}
+              </motion.div>
+            );
+          })}
         </div>
 
         <div className="max-w-md mx-auto mt-10">
