@@ -192,3 +192,19 @@ export const featureFlags = mysqlTable("featureFlags", {
 
 export type FeatureFlag = typeof featureFlags.$inferSelect;
 export type InsertFeatureFlag = typeof featureFlags.$inferInsert;
+
+/**
+ * Lesson feedback/ratings from parents or children.
+ */
+export const lessonFeedback = mysqlTable("lessonFeedback", {
+  id: int("id").autoincrement().primaryKey(),
+  childId: int("childId").notNull(),
+  userId: int("userId").notNull(),
+  lessonId: varchar("lessonId", { length: 64 }).notNull(),
+  domain: varchar("domain", { length: 64 }).notNull(),
+  rating: int("rating").notNull(), // 1-5 stars
+  comment: text("comment"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+export type LessonFeedback = typeof lessonFeedback.$inferSelect;
+export type InsertLessonFeedback = typeof lessonFeedback.$inferInsert;

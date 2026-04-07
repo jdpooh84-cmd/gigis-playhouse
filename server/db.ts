@@ -12,6 +12,7 @@ import {
   alerts, InsertAlert,
   sponsors, InsertSponsor,
   featureFlags, InsertFeatureFlag,
+  lessonFeedback, InsertLessonFeedback,
 } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
@@ -315,4 +316,33 @@ export async function findUserByStripeCustomerId(customerId: string) {
   if (!db) return null;
   const rows = await db.select().from(users).where(eq(users.stripeCustomerId, customerId)).limit(1);
   return rows[0] || null;
+}
+
+// ─── Lesson Feedback ────────────────────────────────────────────────────
+
+export async function getLessonFeedbackByChild(childId: number) {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(lessonFeedback).where(eq(lessonFeedback.childId, childId)).orderBy(desc(lessonFeedback.createdAt));
+}
+
+export async function getLessonFeedbackByLesson(lessonId: string) {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(lessonFeedback).where(eq(lessonFeedback.lessonId, lessonId)).orderBy(desc(lessonFeedback.createdAt));
+}
+
+export async function addLessonFeedback(feedback: InsertLessonFeedback) {
+  const db = await getDb();
+  if (!db) return;
+  await db.insert(lessonFeedback).values(feedback);
+}
+
+export async function getAverageRatingByDomain(domain: string) {
+  const db = await getDb();
+  if (!db) return null;
+  const rows = await db.select({ rating: lessonFeedback.rating }).from(lessonFeedback).where(eq(lessonFeedback.domain, domain));
+  if (rows.length === 0) return null;
+  const avg = rows.reduce((sum, r) => sum + r.rating, 0) / rows.length;
+  return { average: Math.round(avg * 10) / 10, count: rows.length };
 }

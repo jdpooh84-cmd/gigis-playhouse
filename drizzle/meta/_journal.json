@@ -15,6 +15,13 @@
       "when": 1775580907113,
       "tag": "0001_foamy_inertia",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1775584502272,
+      "tag": "0002_cultured_nuke",
+      "breakpoints": true
     }
   ]
 }

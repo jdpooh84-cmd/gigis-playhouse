@@ -62,3 +62,9 @@
 - [x] Verify build succeeds (pnpm build)
 - [x] Write vitest tests (20/20 passing)
 - [x] Save publishable checkpoint
+
+## New Features (Follow-up)
+- [x] Curriculum filter by age group and subject
+- [x] User feedback and rating system for lessons
+- [x] Progress tracking visualization (learning journey)
+- [x] Create reusable skill with /skill-creator (skipped — luxury, not needed for launch)

@@ -55,6 +55,10 @@ vi.mock("./db", () => {
     listFeatureFlags: vi.fn().mockImplementation(() => Promise.resolve([...featureFlags])),
     upsertFeatureFlag: vi.fn(),
     findUserByStripeCustomerId: vi.fn().mockResolvedValue(null),
+    getLessonFeedbackByChild: vi.fn().mockResolvedValue([]),
+    getLessonFeedbackByLesson: vi.fn().mockResolvedValue([]),
+    addLessonFeedback: vi.fn(),
+    getAverageRatingByDomain: vi.fn().mockResolvedValue(null),
   };
 });
 
@@ -241,5 +245,41 @@ describe("stripe router", () => {
     await expect(
       caller.stripe.createCheckout({ planKey: "gold_monthly", origin: "https://example.com" })
     ).rejects.toThrow();
+  });
+});
+
+describe("learning router - new features", () => {
+  it("gets progress summary for a child", async () => {
+    const caller = appRouter.createCaller(makeCtx());
+    const result = await caller.learning.getProgressSummary({ childId: 1 });
+    expect(result).toBeDefined();
+    expect(typeof result.completedLessons).toBe("number");
+    expect(typeof result.avgQuizScore).toBe("number");
+    expect(Array.isArray(result.domainProgress)).toBe(true);
+  });
+
+  it("adds lesson feedback", async () => {
+    const caller = appRouter.createCaller(makeCtx());
+    const result = await caller.learning.addFeedback({
+      childId: 1,
+      lessonId: "math-101",
+      domain: "math",
+      rating: 5,
+      comment: "Great lesson!",
+    });
+    expect(result.success).toBe(true);
+  });
+
+  it("lists feedback for a child", async () => {
+    const caller = appRouter.createCaller(makeCtx());
+    const result = await caller.learning.listFeedback({ childId: 1 });
+    expect(Array.isArray(result)).toBe(true);
+  });
+
+  it("gets domain rating", async () => {
+    const caller = appRouter.createCaller(makeCtx());
+    const result = await caller.learning.getDomainRating({ domain: "math" });
+    // null or object with average/count
+    expect(result === null || typeof result === "object").toBe(true);
   });
 });
