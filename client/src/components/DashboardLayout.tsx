@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'wouter';
-import { useStore } from '@/lib/store';
-import { Home, Users, Tv, BarChart3, FileText, Bell, Settings, LogOut, Play, Crown } from 'lucide-react';
+import { useAuth } from '@/_core/hooks/useAuth';
+import { trpc } from '@/lib/trpc';
+import { Home, Users, Tv, FileText, Bell, Settings, LogOut, Play, Crown } from 'lucide-react';
 import ChildSwitcher from './ChildSwitcher';
 import CharacterHeadshot from './CharacterHeadshot';
 
@@ -15,12 +16,13 @@ const NAV_ITEMS = [
 
 export default function DashboardLayout({ children, title }: { children: React.ReactNode; title?: string }) {
   const [location] = useLocation();
-  const profile = useStore((s) => s.currentProfile);
-  const alerts = useStore((s) => s.alerts);
-  const childList = useStore((s) => s.children);
-  const logout = useStore((s) => s.logout);
-  const unreadAlerts = alerts.filter((a) => !a.read).length;
-  const activeChildren = childList.filter(c => c.is_active);
+  const { user, logout } = useAuth();
+  const { data: childList = [] } = trpc.children.list.useQuery();
+  const { data: alertList = [] } = trpc.parent.listAlerts.useQuery();
+
+  const unreadAlerts = alertList.filter((a) => !a.isRead).length;
+  const activeChildren = childList.filter(c => c.isActive);
+  const planType = user?.planType ?? 'free';
 
   return (
     <div className="min-h-screen bg-[#FAFAF5]">
@@ -32,16 +34,15 @@ export default function DashboardLayout({ children, title }: { children: React.R
             <span className="font-black text-lg text-[#7C3AED] hidden sm:inline" style={{ fontFamily: 'var(--font-display)' }}>Gigi's Playhouse</span>
           </Link>
           <div className="flex items-center gap-3">
-            {/* Child switcher for multi-child families */}
             <ChildSwitcher />
 
-            {profile?.plan_type === 'free' && (
+            {planType === 'free' && (
               <Link href="/dashboard/upgrade" className="hidden sm:inline-flex items-center gap-1.5 bg-[#FBBF24] text-[#1C1B2E] rounded-full px-3 py-1.5 text-xs font-black" style={{ fontFamily: 'var(--font-display)' }}>
                 <Crown className="w-3.5 h-3.5" /> Upgrade
               </Link>
             )}
             {activeChildren.length > 0 && (
-              <Link href={`/learn/${activeChildren[0].id}`} className="inline-flex items-center gap-1.5 bg-[#7C3AED] text-white rounded-full px-3 py-1.5 text-xs font-bold">
+              <Link href={`/learn/${activeChildren[0].uuid}`} className="inline-flex items-center gap-1.5 bg-[#7C3AED] text-white rounded-full px-3 py-1.5 text-xs font-bold">
                 <Play className="w-3.5 h-3.5" /> Learn
               </Link>
             )}
@@ -51,7 +52,7 @@ export default function DashboardLayout({ children, title }: { children: React.R
                 <span className="absolute -top-0.5 -right-0.5 bg-[#F72585] text-white text-[10px] font-bold rounded-full w-4 h-4 flex items-center justify-center">{unreadAlerts}</span>
               )}
             </Link>
-            <button onClick={() => { logout(); window.location.href = '/'; }} className="p-2 text-[#888] hover:text-[#555]" title="Log out">
+            <button onClick={async () => { await logout(); window.location.href = '/'; }} className="p-2 text-[#888] hover:text-[#555]" title="Log out">
               <LogOut className="w-5 h-5" />
             </button>
           </div>
@@ -75,8 +76,8 @@ export default function DashboardLayout({ children, title }: { children: React.R
           })}
           <div className="mt-auto pt-4 border-t border-[#E5E5E0]">
             <div className="text-xs text-[#888] px-3">
-              <p className="font-bold capitalize">{profile?.plan_type} Plan</p>
-              <p>{profile?.email}</p>
+              <p className="font-bold capitalize">{planType} Plan</p>
+              <p>{user?.email}</p>
             </div>
           </div>
         </aside>

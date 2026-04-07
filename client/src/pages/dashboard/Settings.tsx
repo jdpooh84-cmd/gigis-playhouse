@@ -4,7 +4,7 @@
  */
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { useStore } from "@/lib/store";
+import { useAuth } from "@/_core/hooks/useAuth";
 import DashboardLayout from "@/components/DashboardLayout";
 import { Volume2, VolumeX, Globe, Shield, Trash2, Download, Bell, Moon, Sun, Clock } from "lucide-react";
 import { toast } from "sonner";
@@ -52,7 +52,7 @@ const LANGUAGES = [
 ];
 
 export default function Settings() {
-  const profile = useStore((s) => s.currentProfile);
+  const { user: profile } = useAuth();
   const [settings, setSettings] = useState<GigiSettings>(DEFAULT_SETTINGS);
 
   useEffect(() => {
@@ -94,7 +94,7 @@ export default function Settings() {
             <div className="flex items-center justify-between py-3 border-b border-gray-100">
               <div>
                 <p className="font-bold text-gray-900 text-sm">Plan</p>
-                <p className="text-gray-500 text-sm capitalize">{profile?.plan_type || "free"}</p>
+                <p className="text-gray-500 text-sm capitalize">{profile?.planType || "free"}</p>
               </div>
               <a href="/upgrade" className="text-sm font-bold text-purple-600 hover:text-purple-700">
                 Upgrade

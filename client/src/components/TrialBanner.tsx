@@ -7,15 +7,17 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "wouter";
 import { X, Clock, Crown } from "lucide-react";
-import { useStore } from "@/lib/store";
+import { useAuth } from "@/_core/hooks/useAuth";
 
 export default function TrialBanner() {
-  const profile = useStore((s) => s.currentProfile);
+  const { user: profile } = useAuth();
   const [dismissed, setDismissed] = useState(false);
 
-  if (!profile || profile.plan_type !== "free" || dismissed) return null;
+  if (!profile || profile.planType !== "free" || dismissed) return null;
 
-  const trialStart = new Date(profile.trial_started_at);
+  const trialStart = profile.trialStart ? new Date(profile.trialStart) : null;
+  if (!trialStart) return null;
+
   const trialEnd = new Date(trialStart.getTime() + 7 * 24 * 60 * 60 * 1000);
   const now = new Date();
   const daysLeft = Math.max(0, Math.ceil((trialEnd.getTime() - now.getTime()) / (24 * 60 * 60 * 1000)));

@@ -5,7 +5,7 @@ import { Route, Switch, Redirect } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { lazy, Suspense, useState, useCallback } from "react";
-import { useStore } from "./lib/store";
+import { useAuth } from "./_core/hooks/useAuth";
 import LoadingScreen from "./components/LoadingScreen";
 import SplashScreen from "./components/SplashScreen";
 
@@ -55,10 +55,16 @@ const FamilyProgress = lazy(() => import("./pages/dashboard/FamilyProgress"));
 const AdminPublishReadiness = lazy(() => import("./pages/admin/AdminPublishReadiness"));
 
 function ProtectedRoute({ component: Component }: { component: React.ComponentType }) {
-  const isAuthenticated = useStore((s) => s.isAuthenticated);
-  if (!isAuthenticated) {
-    return <Redirect to="/login" />;
+  const { isAuthenticated, loading } = useAuth();
+
+  if (loading) {
+    return <LoadingScreen />;
   }
+
+  if (!isAuthenticated) {
+    return <Redirect to="/landing" />;
+  }
+
   return <Component />;
 }
 
@@ -68,6 +74,7 @@ function Router() {
       <Switch>
         {/* Public */}
         <Route path="/" component={Landing} />
+        <Route path="/landing" component={Landing} />
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
         <Route path="/pricing" component={Pricing} />
@@ -128,7 +135,6 @@ function Router() {
 
 function App() {
   const [showSplash, setShowSplash] = useState(() => {
-    // Only show splash once per browser session
     const shown = sessionStorage.getItem("gigi-splash-shown");
     return !shown;
   });

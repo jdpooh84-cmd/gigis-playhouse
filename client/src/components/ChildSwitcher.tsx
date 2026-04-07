@@ -1,26 +1,32 @@
 import { useState, useRef, useEffect } from 'react';
-import { useStore } from '@/lib/store';
+import { useAuth } from '@/_core/hooks/useAuth';
+import { trpc } from '@/lib/trpc';
 import { useLocation } from 'wouter';
 import { ChevronDown, Check, Plus } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import type { Child } from '@/lib/types';
-import { PLAN_GATES } from '@/lib/types';
+import type { Child } from '../../../drizzle/schema';
+
+const PLAN_CHILD_LIMITS: Record<string, number> = {
+  free: 1,
+  gold: 1,
+  family: 4,
+};
 
 export default function ChildSwitcher() {
-  const children = useStore((s) => s.children);
-  const profile = useStore((s) => s.currentProfile);
+  const { data: childList = [] } = trpc.children.list.useQuery();
+  const { user } = useAuth();
   const [open, setOpen] = useState(false);
   const [confirmSwitch, setConfirmSwitch] = useState<Child | null>(null);
   const ref = useRef<HTMLDivElement>(null);
   const [, navigate] = useLocation();
 
-  // Get active child from URL or first child
   const [location] = useLocation();
   const urlChildId = location.match(/\/learn\/([^/]+)/)?.[1];
-  const activeChildren = children.filter(c => c.is_active);
-  const activeChild = activeChildren.find(c => c.id === urlChildId) || activeChildren[0];
+  const activeChildren = childList.filter(c => c.isActive);
+  const activeChild = activeChildren.find(c => c.uuid === urlChildId) || activeChildren[0];
 
-  const maxChildren = profile ? PLAN_GATES[profile.plan_type].child_profiles : 1;
+  const planType = user?.planType ?? 'free';
+  const maxChildren = PLAN_CHILD_LIMITS[planType] ?? 1;
   const canAddMore = activeChildren.length < maxChildren;
 
   useEffect(() => {
@@ -36,9 +42,8 @@ export default function ChildSwitcher() {
   if (activeChildren.length < 2) return null;
 
   const handleSwitch = (child: Child) => {
-    // Check if we're in a lesson or quiz
     const inLesson = location.includes('/lesson/') || location.includes('/quiz/');
-    if (inLesson && child.id !== activeChild?.id) {
+    if (inLesson && child.uuid !== activeChild?.uuid) {
       setConfirmSwitch(child);
       return;
     }
@@ -48,7 +53,16 @@ export default function ChildSwitcher() {
   const doSwitch = (child: Child) => {
     setOpen(false);
     setConfirmSwitch(null);
-    navigate(`/learn/${child.id}`);
+    navigate(`/learn/${child.uuid}`);
+  };
+
+  const profileColorMap: Record<string, string> = {
+    coral: '#D85A30',
+    sky: '#4361EE',
+    mint: '#0F6E56',
+    lavender: '#7C3AED',
+    sunshine: '#F59E0B',
+    peach: '#F97316',
   };
 
   return (
@@ -57,9 +71,9 @@ export default function ChildSwitcher() {
         onClick={() => setOpen(!open)}
         className="flex items-center gap-2 px-3 py-1.5 rounded-xl border-2 border-[#E5E5E0] hover:border-[#7C3AED]/50 transition-all bg-white"
       >
-        <div className="w-3 h-3 rounded-full" style={{ backgroundColor: activeChild?.display_color || '#7C3AED' }} />
+        <div className="w-3 h-3 rounded-full" style={{ backgroundColor: profileColorMap[activeChild?.profileColor || 'lavender'] || '#7C3AED' }} />
         <span className="font-bold text-sm text-[#1C1B2E]" style={{ fontFamily: 'var(--font-display)' }}>
-          {activeChild?.display_name || 'Select Child'}
+          {activeChild?.displayName || 'Select Child'}
         </span>
         <ChevronDown className={`w-4 h-4 text-[#888] transition-transform ${open ? 'rotate-180' : ''}`} />
       </button>
@@ -76,14 +90,14 @@ export default function ChildSwitcher() {
               <button
                 key={child.id}
                 onClick={() => handleSwitch(child)}
-                className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-[#FAFAF5] transition-colors ${child.id === activeChild?.id ? 'bg-[#FAFAF5]' : ''}`}
+                className={`w-full flex items-center gap-3 px-4 py-3 hover:bg-[#FAFAF5] transition-colors ${child.uuid === activeChild?.uuid ? 'bg-[#FAFAF5]' : ''}`}
               >
-                <div className="w-4 h-4 rounded-full flex-shrink-0" style={{ backgroundColor: child.display_color }} />
+                <div className="w-4 h-4 rounded-full flex-shrink-0" style={{ backgroundColor: profileColorMap[child.profileColor] || '#7C3AED' }} />
                 <div className="text-left flex-1">
-                  <div className="font-bold text-sm text-[#1C1B2E]">{child.display_name}</div>
-                  <div className="text-xs text-[#888]">Age {child.age} · {child.grade_band.replace('-', ' ')}</div>
+                  <div className="font-bold text-sm text-[#1C1B2E]">{child.displayName}</div>
+                  <div className="text-xs text-[#888]">Age {child.age} · Grade {child.grade}</div>
                 </div>
-                {child.id === activeChild?.id && <Check className="w-4 h-4 text-[#7C3AED]" />}
+                {child.uuid === activeChild?.uuid && <Check className="w-4 h-4 text-[#7C3AED]" />}
               </button>
             ))}
             {canAddMore && (
@@ -108,7 +122,6 @@ export default function ChildSwitcher() {
         )}
       </AnimatePresence>
 
-      {/* Confirmation modal for mid-lesson switch */}
       <AnimatePresence>
         {confirmSwitch && (
           <motion.div
@@ -126,17 +139,17 @@ export default function ChildSwitcher() {
               onClick={(e) => e.stopPropagation()}
             >
               <h3 className="text-lg font-black text-[#1C1B2E] mb-2" style={{ fontFamily: 'var(--font-display)' }}>
-                Switch to {confirmSwitch.display_name}?
+                Switch to {confirmSwitch.displayName}?
               </h3>
               <p className="text-sm text-[#555] mb-5">
-                {activeChild?.display_name}'s progress will be saved. Ready to switch?
+                {activeChild?.displayName}'s progress will be saved. Ready to switch?
               </p>
               <div className="flex gap-3">
                 <button
                   onClick={() => setConfirmSwitch(null)}
                   className="btn-gigi !bg-[#E5E5E0] !text-[#1C1B2E] !shadow-[0_4px_0_#C5C5C0] flex-1 justify-center text-sm"
                 >
-                  Stay with {activeChild?.display_name}
+                  Stay with {activeChild?.displayName}
                 </button>
                 <button
                   onClick={() => doSwitch(confirmSwitch)}

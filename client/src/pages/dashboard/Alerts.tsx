@@ -4,7 +4,6 @@
  */
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useStore } from "@/lib/store";
 import DashboardLayout from "@/components/DashboardLayout";
 import { Bell, BellOff, Check, AlertTriangle, Star, BookOpen, Clock, Trash2, CheckCheck } from "lucide-react";
 import { toast } from "sonner";
