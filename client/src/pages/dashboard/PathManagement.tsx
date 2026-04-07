@@ -5,7 +5,7 @@
 import { useMemo } from "react";
 import { useParams } from "wouter";
 import { motion } from "framer-motion";
-import { useStore } from "@/lib/store";
+import { trpc } from "@/lib/trpc";
 import type { DomainId } from "@/lib/types";
 import DashboardLayout from "@/components/DashboardLayout";
 import { BookOpen, Play, Pause, Trash2, Plus, ArrowLeft, Calculator, Microscope, Palette, Globe, Heart } from "lucide-react";
@@ -41,13 +41,8 @@ const ALL_PATHS = [
 
 export default function PathManagement() {
   const { childId } = useParams<{ childId: string }>();
-  const children = useStore((s) => s.children);
-  const enrolledPaths = useStore((s) => s.enrolledPaths);
-  const enrollPath = useStore((s) => s.enrollPath);
-
-  const child = useMemo(() => children.find((c) => c.id === childId), [children, childId]);
-  const childPaths = useMemo(() => enrolledPaths.filter((p) => p.child_id === childId), [enrolledPaths, childId]);
-  const enrolledDomains = useMemo(() => new Set(childPaths.map((p) => p.path_id)), [childPaths]);
+  const { data: childList = [] } = trpc.children.list.useQuery();
+  const child = useMemo(() => childList.find((c) => c.uuid === childId), [childList, childId]);
 
   if (!child) {
     return (
@@ -61,67 +56,19 @@ export default function PathManagement() {
   }
 
   const handleEnroll = (pathId: string) => {
-    if (childId) {
-      enrollPath(childId, pathId as DomainId);
-      toast.success(`Enrolled in ${ALL_PATHS.find((p) => p.id === pathId)?.name}`);
-    }
+    toast.info(`Enrollment for ${ALL_PATHS.find((p) => p.id === pathId)?.name} coming soon!`);
   };
 
   const handleAction = (action: string, pathName: string) => {
-    toast.success(`${pathName} ${action} (demo)`);
+    toast.info(`${pathName} ${action} — feature coming soon`);
   };
 
   return (
-    <DashboardLayout title={`${child.display_name}'s Learning Paths`}>
+    <DashboardLayout title={`${child.displayName}'s Learning Paths`}>
       <div className="max-w-4xl mx-auto space-y-8 pb-12">
         <Link to="/dashboard" className="inline-flex items-center gap-2 text-sm font-bold text-gray-500 hover:text-purple-600 transition-colors">
           <ArrowLeft className="w-4 h-4" /> Back to Dashboard
         </Link>
-
-        {/* Enrolled Paths */}
-        {childPaths.length > 0 && (
-          <section>
-            <h2 className="text-xl font-black text-gray-900 mb-4" style={{ fontFamily: "'Nunito', sans-serif" }}>
-              Active Paths ({childPaths.length})
-            </h2>
-            <div className="grid md:grid-cols-2 gap-4">
-              {childPaths.map((ep) => {
-                const path = ALL_PATHS.find((p) => p.id === ep.path_id);
-                if (!path) return null;
-                const colors = DOMAIN_COLORS[path.domain] || "bg-gray-100 text-gray-600 border-gray-200";
-                return (
-                  <motion.div key={ep.id} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
-                    className={`bg-white rounded-2xl border-2 p-5 ${colors.split(" ")[2]}`}>
-                    <div className="flex items-start gap-4">
-                      <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${colors.split(" ").slice(0, 2).join(" ")}`}>
-                        {DOMAIN_ICONS[path.domain] || <BookOpen className="w-6 h-6" />}
-                      </div>
-                      <div className="flex-1">
-                        <h3 className="font-bold text-gray-900" style={{ fontFamily: "'Nunito', sans-serif" }}>{path.name}</h3>
-                        <p className="text-gray-500 text-xs mt-1">{path.description}</p>
-                        <p className="text-xs text-gray-400 mt-2">Status: <span className="font-bold text-green-600 capitalize">{ep.status}</span></p>
-                      </div>
-                    </div>
-                    <div className="flex gap-2 mt-4">
-                      {ep.status === "active" ? (
-                        <button onClick={() => handleAction("paused", path.name)} className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-100 text-amber-700 hover:bg-amber-200 transition-colors">
-                          <Pause className="w-3 h-3" />Pause
-                        </button>
-                      ) : (
-                        <button onClick={() => handleAction("resumed", path.name)} className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-bold bg-green-100 text-green-700 hover:bg-green-200 transition-colors">
-                          <Play className="w-3 h-3" />Resume
-                        </button>
-                      )}
-                      <button onClick={() => handleAction("dropped", path.name)} className="flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-bold bg-red-100 text-red-600 hover:bg-red-200 transition-colors">
-                        <Trash2 className="w-3 h-3" />Drop
-                      </button>
-                    </div>
-                  </motion.div>
-                );
-              })}
-            </div>
-          </section>
-        )}
 
         {/* Available Paths */}
         <section>
@@ -129,11 +76,11 @@ export default function PathManagement() {
             Available Paths
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            {ALL_PATHS.filter((p) => !enrolledDomains.has(p.id)).map((path) => {
+            {ALL_PATHS.map((path) => {
               const colors = DOMAIN_COLORS[path.domain] || "bg-gray-100 text-gray-600 border-gray-200";
               return (
                 <motion.div key={path.id} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
-                  className="bg-white rounded-2xl border-2 border-gray-100 p-5 opacity-80 hover:opacity-100 transition-opacity">
+                  className="bg-white rounded-2xl border-2 border-gray-100 p-5 hover:opacity-100 transition-opacity">
                   <div className="flex items-start gap-4">
                     <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${colors.split(" ").slice(0, 2).join(" ")}`}>
                       {DOMAIN_ICONS[path.domain] || <BookOpen className="w-6 h-6" />}
@@ -151,11 +98,6 @@ export default function PathManagement() {
                 </motion.div>
               );
             })}
-            {ALL_PATHS.filter((p) => !enrolledDomains.has(p.id)).length === 0 && (
-              <div className="col-span-2 text-center py-8">
-                <p className="text-gray-400 font-bold">All paths enrolled!</p>
-              </div>
-            )}
           </div>
         </section>
       </div>

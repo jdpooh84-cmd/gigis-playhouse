@@ -35,13 +35,13 @@
 - [x] Add db query helpers for all entities
 
 ## Frontend Integration
-- [ ] Wire auth from localStorage to Manus OAuth (useAuth hook)
-- [ ] Update ProtectedRoute to use useAuth instead of useStore
-- [ ] Migrate child management to tRPC
-- [ ] Migrate learning progress to tRPC
-- [ ] Migrate channel management to tRPC
-- [ ] Migrate dashboard data to tRPC
-- [ ] Migrate admin panel to tRPC
+- [x] Wire auth from localStorage to Manus OAuth (useAuth hook)
+- [x] Update ProtectedRoute to use useAuth instead of useStore
+- [x] Migrate child management to tRPC
+- [x] Migrate learning progress to tRPC
+- [x] Migrate channel management to tRPC
+- [x] Migrate dashboard data to tRPC (Dashboard, Settings, DashboardLayout, ChildSwitcher, TrialBanner)
+- [x] Migrate admin panel to tRPC
 
 ## Stripe Integration
 - [ ] Set up Stripe products/prices

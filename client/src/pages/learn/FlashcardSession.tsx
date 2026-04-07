@@ -1,24 +1,32 @@
 import { useParams, Link } from 'wouter';
-import { useStore } from '@/lib/store';
+import { trpc } from '@/lib/trpc';
 import { useState, useMemo } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { DOMAINS } from '@/lib/types';
-import type { DomainId, FlashcardResult } from '@/lib/types';
-import { ArrowLeft, RotateCcw, ChevronLeft, ChevronRight, Shuffle } from 'lucide-react';
+import type { DomainId } from '@/lib/types';
+import { ArrowLeft, ChevronLeft, ChevronRight, Shuffle } from 'lucide-react';
+
+// Sample flashcards until curriculum is loaded from DB
+const SAMPLE_CARDS = [
+  { id: '1', front: 'A', back: 'Apple', emoji: '🍎', domain: 'literacy' as DomainId, phonics_notation: '/æ/' },
+  { id: '2', front: 'B', back: 'Bear', emoji: '🐻', domain: 'literacy' as DomainId, phonics_notation: '/b/' },
+  { id: '3', front: '1 + 1', back: '2', emoji: '🔢', domain: 'math' as DomainId, phonics_notation: null },
+  { id: '4', front: '2 + 3', back: '5', emoji: '➕', domain: 'math' as DomainId, phonics_notation: null },
+  { id: '5', front: 'Red + Blue', back: 'Purple', emoji: '🎨', domain: 'creative' as DomainId, phonics_notation: null },
+  { id: '6', front: 'Sun', back: 'Star', emoji: '☀️', domain: 'science' as DomainId, phonics_notation: null },
+];
 
 export default function FlashcardSession() {
   const { childId, domain: domainParam } = useParams<{ childId: string; domain?: string }>();
-  const child = useStore((s) => s.children.find((c) => c.id === childId));
-  const allCards = useStore((s) => s.flashcards);
-  const updateFlashcardProgress = useStore((s) => s.updateFlashcardProgress);
+  const { data: childList = [] } = trpc.children.list.useQuery();
+  const child = childList.find((c) => c.uuid === childId);
   const [activeDomain, setActiveDomain] = useState<DomainId | 'all'>(domainParam as DomainId || 'all');
   const [cardIndex, setCardIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
 
   const cards = useMemo(() => {
-    const filtered = activeDomain === 'all' ? allCards : allCards.filter((c) => c.domain === activeDomain);
-    return filtered;
-  }, [allCards, activeDomain]);
+    return activeDomain === 'all' ? SAMPLE_CARDS : SAMPLE_CARDS.filter((c) => c.domain === activeDomain);
+  }, [activeDomain]);
 
   if (!child) return <div className="min-h-screen bg-[#FAFAF5] flex items-center justify-center"><p>Child not found</p></div>;
 
@@ -29,10 +37,7 @@ export default function FlashcardSession() {
   const handlePrev = () => { setCardIndex((i) => (i - 1 + cards.length) % cards.length); setFlipped(false); };
   const handleShuffle = () => { setCardIndex(Math.floor(Math.random() * cards.length)); setFlipped(false); };
 
-  const handleRate = (result: FlashcardResult) => {
-    if (card) {
-      updateFlashcardProgress({ child_id: childId!, card_id: card.id, next_review_date: new Date(Date.now() + 86400000).toISOString(), interval_days: 1, ease_factor: 2.5, repetitions: 1, last_result: result });
-    }
+  const handleRate = (_result: string) => {
     handleNext();
   };
 
@@ -42,7 +47,7 @@ export default function FlashcardSession() {
         <div className="container flex items-center justify-between h-14">
           <Link href={`/learn/${childId}`} className="flex items-center gap-1 text-sm font-bold text-[#7C3AED]"><ArrowLeft className="w-4 h-4" /> Back</Link>
           <span className="font-black text-sm" style={{ fontFamily: 'var(--font-display)' }}>Flashcards</span>
-          <span className="text-xs text-[#888]">{cardIndex + 1}/{cards.length}</span>
+          <span className="text-xs text-[#888]">{cards.length > 0 ? `${cardIndex + 1}/${cards.length}` : '0/0'}</span>
         </div>
       </header>
 
@@ -50,10 +55,11 @@ export default function FlashcardSession() {
         {/* Domain filter */}
         <div className="flex gap-2 overflow-x-auto pb-4 mb-6">
           <button onClick={() => { setActiveDomain('all'); setCardIndex(0); setFlipped(false); }} className={`shrink-0 px-4 py-2 rounded-full text-xs font-bold border-2 transition-all ${activeDomain === 'all' ? 'bg-[#7C3AED] text-white border-[#7C3AED]' : 'border-[#E5E5E0] text-[#888]'}`}>
-            All ({allCards.length})
+            All ({SAMPLE_CARDS.length})
           </button>
           {DOMAINS.map((d) => {
-            const count = allCards.filter((c) => c.domain === d.id).length;
+            const count = SAMPLE_CARDS.filter((c) => c.domain === d.id).length;
+            if (count === 0) return null;
             return (
               <button key={d.id} onClick={() => { setActiveDomain(d.id); setCardIndex(0); setFlipped(false); }} className={`shrink-0 px-4 py-2 rounded-full text-xs font-bold border-2 transition-all ${activeDomain === d.id ? 'text-white' : 'text-[#888] border-[#E5E5E0]'}`} style={activeDomain === d.id ? { backgroundColor: d.color, borderColor: d.color } : undefined}>
                 {d.emoji} {d.name} ({count})

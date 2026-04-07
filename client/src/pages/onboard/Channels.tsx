@@ -1,12 +1,24 @@
 import { motion } from 'framer-motion';
 import { Link, useLocation } from 'wouter';
-import { useStore } from '@/lib/store';
+import { trpc } from '@/lib/trpc';
 import { ArrowRight, ArrowLeft } from 'lucide-react';
+import { toast } from 'sonner';
 
 export default function Channels() {
-  const channels = useStore((s) => s.approvedChannels);
-  const removeChannel = useStore((s) => s.removeChannel);
+  const { data: channels = [] } = trpc.channels.list.useQuery();
+  const removeChannel = trpc.channels.remove.useMutation();
+  const utils = trpc.useUtils();
   const [, navigate] = useLocation();
+
+  const handleRemove = async (id: number) => {
+    try {
+      await removeChannel.mutateAsync({ id });
+      await utils.channels.list.invalidate();
+      toast.success('Channel removed');
+    } catch {
+      toast.error('Failed to remove channel');
+    }
+  };
 
   return (
     <div className="min-h-screen bg-[#FAFAF5] flex items-center justify-center p-4">
@@ -17,13 +29,13 @@ export default function Channels() {
         </div>
         <div className="card-gigi">
           <div className="max-h-80 overflow-y-auto space-y-2 mb-6">
-            {channels.filter(c => c.is_preloaded).map((ch) => (
+            {channels.map((ch) => (
               <div key={ch.id} className="flex items-center justify-between p-3 rounded-xl border-2 border-[#E5E5E0] hover:border-[#7C3AED]/30 transition-colors">
                 <div className="flex items-center gap-3">
                   <span className="text-2xl">{ch.emoji}</span>
                   <span className="font-semibold text-sm">{ch.nickname}</span>
                 </div>
-                <button onClick={() => removeChannel(ch.id)} className="text-xs text-red-400 hover:text-red-600 font-bold px-3 py-1 rounded-lg hover:bg-red-50 transition-colors">Remove</button>
+                <button onClick={() => handleRemove(ch.id)} className="text-xs text-red-400 hover:text-red-600 font-bold px-3 py-1 rounded-lg hover:bg-red-50 transition-colors">Remove</button>
               </div>
             ))}
           </div>

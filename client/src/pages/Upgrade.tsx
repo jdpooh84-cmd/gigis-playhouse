@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'wouter';
-import { useStore } from '@/lib/store';
+import { useAuth } from '@/_core/hooks/useAuth';
 import { motion } from 'framer-motion';
 import { Check, Crown, Users, Building2, ArrowLeft, Zap, Shield, BookOpen, Tv, FileText, Star } from 'lucide-react';
 import AffiliateLink from '@/components/AffiliateLink';
@@ -63,24 +63,20 @@ const PLANS = [
 ];
 
 export default function Upgrade() {
-  const profile = useStore((s) => s.currentProfile);
-  const upgradePlan = useStore((s) => s.upgradePlan);
+  const { user, isAuthenticated } = useAuth();
   const [, navigate] = useLocation();
-  const isLoggedIn = useStore((s) => s.isAuthenticated);
+  const planType = (user as any)?.planType || 'free';
 
-  const handleUpgrade = (planId: 'gold' | 'family' | 'coop') => {
-    if (!isLoggedIn) { navigate('/signup'); return; }
-    // Simulate Stripe checkout
-    upgradePlan(planId);
-    toast.success(`Upgraded to ${planId.charAt(0).toUpperCase() + planId.slice(1)} plan!`);
-    navigate('/payment-success');
+  const handleUpgrade = (planId: string) => {
+    if (!isAuthenticated) { navigate('/signup'); return; }
+    toast.info('Stripe payment integration coming soon!');
   };
 
   return (
     <div className="min-h-screen bg-[#FAFAF5]">
       <header className="bg-white border-b-2 border-[#E5E5E0] sticky top-0 z-50">
         <div className="container flex items-center justify-between h-14">
-          <Link href={isLoggedIn ? '/dashboard' : '/landing'} className="flex items-center gap-1 text-sm font-bold text-[#7C3AED]"><ArrowLeft className="w-4 h-4" /> Back</Link>
+          <Link href={isAuthenticated ? '/dashboard' : '/landing'} className="flex items-center gap-1 text-sm font-bold text-[#7C3AED]"><ArrowLeft className="w-4 h-4" /> Back</Link>
           <span className="font-black text-sm" style={{ fontFamily: 'var(--font-display)' }}>Choose Your Plan</span>
           <div />
         </div>
@@ -94,11 +90,10 @@ export default function Upgrade() {
           <p className="text-lg text-[#555] max-w-lg mx-auto">Every plan includes a 7-day free trial. Cancel anytime, no questions asked.</p>
         </motion.div>
 
-        {/* Free plan comparison */}
         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="card-gigi !bg-[#F5F5F0] mb-8">
           <div className="flex items-center gap-3 mb-3">
             <Zap className="w-5 h-5 text-[#888]" />
-            <h3 className="font-black text-lg" style={{ fontFamily: 'var(--font-display)' }}>Free Plan (Current)</h3>
+            <h3 className="font-black text-lg" style={{ fontFamily: 'var(--font-display)' }}>Free Plan {planType === 'free' ? '(Current)' : ''}</h3>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm">
             <div className="flex items-center gap-2"><BookOpen className="w-4 h-4 text-[#888]" /> 3 lessons/path</div>
@@ -108,7 +103,6 @@ export default function Upgrade() {
           </div>
         </motion.div>
 
-        {/* Plan cards */}
         <div className="grid md:grid-cols-3 gap-6">
           {PLANS.map((plan, i) => (
             <motion.div key={plan.id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 + i * 0.1 }} className={`card-gigi relative ${plan.popular ? '!border-[#FBBF24] ring-2 ring-[#FBBF24]/30' : ''}`}>
@@ -133,19 +127,17 @@ export default function Upgrade() {
                   <li key={f} className="flex items-start gap-2 text-sm"><Check className="w-4 h-4 shrink-0 mt-0.5" style={{ color: plan.color }} />{f}</li>
                 ))}
               </ul>
-              <button onClick={() => handleUpgrade(plan.id)} disabled={profile?.plan_type === plan.id} className="btn-gigi w-full !text-sm" style={profile?.plan_type === plan.id ? { opacity: 0.5 } : { backgroundColor: plan.color }}>
-                {profile?.plan_type === plan.id ? 'Current Plan' : 'Start Free Trial'}
+              <button onClick={() => handleUpgrade(plan.id)} disabled={planType === plan.id} className="btn-gigi w-full !text-sm" style={planType === plan.id ? { opacity: 0.5 } : { backgroundColor: plan.color }}>
+                {planType === plan.id ? 'Current Plan' : 'Start Free Trial'}
               </button>
             </motion.div>
           ))}
         </div>
 
-        {/* Affiliate Links */}
         <div className="max-w-md mx-auto mt-10">
           <AffiliateLink placement="upgrade_page" maxLinks={2} />
         </div>
 
-        {/* Trust badges */}
         <div className="flex flex-wrap items-center justify-center gap-6 mt-10 text-sm text-[#888]">
           <div className="flex items-center gap-2"><Shield className="w-4 h-4 text-[#22C55E]" /> COPPA Compliant</div>
           <div className="flex items-center gap-2"><Star className="w-4 h-4 text-[#FBBF24]" /> 7-Day Free Trial</div>

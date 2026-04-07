@@ -1,21 +1,25 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'wouter';
 import { motion } from 'framer-motion';
-import { useStore } from '@/lib/store';
+import { trpc } from '@/lib/trpc';
 import { ArrowRight, ArrowLeft } from 'lucide-react';
-import type { AttentionSpan, LearningStyle } from '@/lib/types';
+
+type AttentionSpan = 'short' | 'medium' | 'long';
+type LearningStyle = 'visual' | 'hands-on' | 'auditory' | 'mixed';
 
 export default function Preferences() {
-  const children = useStore((s) => s.children);
-  const updateChild = useStore((s) => s.updateChild);
-  const child = children[children.length - 1];
-  const [attention, setAttention] = useState<AttentionSpan>(child?.attention_span || 'medium');
-  const [style, setStyle] = useState<LearningStyle>(child?.learning_style || 'mixed');
-  const [shortDay, setShortDay] = useState(child?.short_day_mode || false);
+  const { data: childList = [] } = trpc.children.list.useQuery();
+  const child = childList[childList.length - 1];
+  const [attention, setAttention] = useState<AttentionSpan>('medium');
+  const [style, setStyle] = useState<LearningStyle>('mixed');
+  const [shortDay, setShortDay] = useState(false);
   const [, navigate] = useLocation();
 
   const handleNext = () => {
-    if (child) updateChild(child.id, { attention_span: attention, learning_style: style, short_day_mode: shortDay });
+    // Store preferences locally for now (these are UI-level settings)
+    if (child) {
+      localStorage.setItem(`gigi-prefs-${child.id}`, JSON.stringify({ attention, style, shortDay }));
+    }
     navigate('/onboard/channels');
   };
 
@@ -24,14 +28,14 @@ export default function Preferences() {
       <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="w-full max-w-lg">
         <div className="text-center mb-8">
           <h1 className="text-2xl md:text-3xl font-black text-[#1C1B2E]" style={{ fontFamily: 'var(--font-display)' }}>Learning Preferences</h1>
-          <p className="text-[#555] mt-2">Help us personalize {child?.display_name || 'your child'}'s experience.</p>
+          <p className="text-[#555] mt-2">Help us personalize {child?.displayName || 'your child'}'s experience.</p>
         </div>
         <div className="card-gigi space-y-6">
           <div>
             <label className="block text-sm font-bold mb-2" style={{ fontFamily: 'var(--font-display)' }}>Attention Span</label>
             <div className="grid grid-cols-3 gap-3">
               {([['short', '5 min', '⚡'], ['medium', '10 min', '⏱️'], ['long', '15 min', '🎯']] as const).map(([val, label, icon]) => (
-                <button key={val} onClick={() => setAttention(val)} className={`p-4 rounded-xl border-2 text-center transition-all ${attention === val ? 'border-[#7C3AED] bg-[#7C3AED]/10' : 'border-[#E5E5E0] hover:border-[#7C3AED]/50'}`}>
+                <button key={val} onClick={() => setAttention(val as AttentionSpan)} className={`p-4 rounded-xl border-2 text-center transition-all ${attention === val ? 'border-[#7C3AED] bg-[#7C3AED]/10' : 'border-[#E5E5E0] hover:border-[#7C3AED]/50'}`}>
                   <div className="text-2xl mb-1">{icon}</div>
                   <div className="text-xs font-bold capitalize">{val}</div>
                   <div className="text-xs text-[#888]">{label} focus</div>
@@ -43,7 +47,7 @@ export default function Preferences() {
             <label className="block text-sm font-bold mb-2" style={{ fontFamily: 'var(--font-display)' }}>Learning Style</label>
             <div className="grid grid-cols-2 gap-3">
               {([['visual', '👁️', 'Likes pictures & videos'], ['hands-on', '🤲', 'Likes doing activities'], ['auditory', '👂', 'Likes listening & songs'], ['mixed', '🌈', 'A bit of everything']] as const).map(([val, icon, desc]) => (
-                <button key={val} onClick={() => setStyle(val)} className={`p-4 rounded-xl border-2 text-left transition-all ${style === val ? 'border-[#7C3AED] bg-[#7C3AED]/10' : 'border-[#E5E5E0] hover:border-[#7C3AED]/50'}`}>
+                <button key={val} onClick={() => setStyle(val as LearningStyle)} className={`p-4 rounded-xl border-2 text-left transition-all ${style === val ? 'border-[#7C3AED] bg-[#7C3AED]/10' : 'border-[#E5E5E0] hover:border-[#7C3AED]/50'}`}>
                   <div className="text-2xl mb-1">{icon}</div>
                   <div className="text-xs font-bold capitalize">{val}</div>
                   <div className="text-xs text-[#888]">{desc}</div>

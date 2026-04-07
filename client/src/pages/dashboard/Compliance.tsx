@@ -4,7 +4,7 @@
  */
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import { useStore } from "@/lib/store";
+import { trpc } from "@/lib/trpc";
 import DashboardLayout from "@/components/DashboardLayout";
 import { FileText, Download, Clock, BookOpen, Calculator, Microscope, Palette, Globe, Heart } from "lucide-react";
 import { toast } from "sonner";
@@ -29,7 +29,7 @@ const WEEKLY_LOG = [
 ];
 
 export default function Compliance() {
-  const children = useStore((s) => s.children);
+  const { data: children = [] } = trpc.children.list.useQuery();
   const totalHours = useMemo(() => DOMAIN_CONFIG.reduce((sum, d) => sum + d.hours, 0), []);
 
   const handleExportPDF = () => {

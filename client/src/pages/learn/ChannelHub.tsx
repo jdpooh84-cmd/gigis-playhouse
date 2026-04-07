@@ -1,5 +1,5 @@
 import { useParams, Link } from 'wouter';
-import { useStore } from '@/lib/store';
+import { trpc } from '@/lib/trpc';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Tv } from 'lucide-react';
 
@@ -7,8 +7,9 @@ const YT_IMG = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663407626762/iASgnCe
 
 export default function ChannelHub() {
   const { childId } = useParams<{ childId: string }>();
-  const child = useStore((s) => s.children.find((c) => c.id === childId));
-  const channels = useStore((s) => s.approvedChannels);
+  const { data: childList = [] } = trpc.children.list.useQuery();
+  const { data: channels = [] } = trpc.channels.list.useQuery();
+  const child = childList.find((c) => c.uuid === childId);
 
   if (!child) return <div className="min-h-screen bg-[#FAFAF5] flex items-center justify-center"><p>Child not found</p></div>;
 
@@ -23,20 +24,18 @@ export default function ChannelHub() {
       </header>
 
       <div className="container pt-6">
-        {/* Banner */}
         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="relative rounded-3xl overflow-hidden mb-8 bg-[#F72585]">
           <img src={YT_IMG} alt="" className="w-full h-36 object-cover opacity-30" />
           <div className="absolute inset-0 flex items-center p-6">
             <div>
               <h1 className="text-2xl font-black text-white mb-1" style={{ fontFamily: 'var(--font-display)' }}>
-                {child.display_name}'s Videos 📺
+                {child.displayName}'s Videos 📺
               </h1>
               <p className="text-white/80 text-sm">Only parent-approved channels. No search, no ads.</p>
             </div>
           </div>
         </motion.div>
 
-        {/* Channel grid */}
         {channels.length === 0 ? (
           <div className="card-gigi text-center py-12">
             <Tv className="w-10 h-10 text-[#888] mx-auto mb-3" />
@@ -53,7 +52,7 @@ export default function ChannelHub() {
                   </div>
                   <div className="p-3">
                     <p className="font-bold text-sm text-[#1C1B2E] truncate" style={{ fontFamily: 'var(--font-display)' }}>{ch.nickname}</p>
-                    <p className="text-[10px] text-[#888]">{ch.is_preloaded ? 'Educational' : 'Custom'}</p>
+                    <p className="text-[10px] text-[#888]">Educational</p>
                   </div>
                 </Link>
               </motion.div>

@@ -1,72 +1,90 @@
 import { useState, useMemo } from 'react';
 import { Link, useLocation } from 'wouter';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useStore } from '@/lib/store';
+import { useAuth } from '@/_core/hooks/useAuth';
+import { trpc } from '@/lib/trpc';
 import { ArrowRight, ArrowLeft, Check } from 'lucide-react';
-import type { GradeBand, GuideAnimal, ChildColor } from '@/lib/types';
-import { GUIDE_ANIMALS, CHILD_COLORS, PLAN_GATES } from '@/lib/types';
+import { GUIDE_ANIMALS, CHILD_COLORS } from '@/lib/types';
+import type { GuideAnimal, ChildColor } from '@/lib/types';
+import { toast } from 'sonner';
 
-const GRADES: { value: GradeBand; label: string }[] = [
-  { value: 'pre-k', label: 'Pre-K' },
-  { value: 'kindergarten', label: 'Kindergarten' },
-  { value: 'grade-1', label: 'Grade 1' },
-  { value: 'grade-2', label: 'Grade 2' },
-  { value: 'grade-3', label: 'Grade 3' },
+const GRADES = [
+  { value: 0, label: 'Pre-K' },
+  { value: 0, label: 'Kindergarten' },
+  { value: 1, label: 'Grade 1' },
+  { value: 2, label: 'Grade 2' },
+  { value: 3, label: 'Grade 3' },
 ];
 
 const ANIMAL_EMOJIS: Record<GuideAnimal, string> = {
   cat: '🐱', dog: '🐶', bunny: '🐰', bear: '🐻',
 };
 
-function getGradeFromAge(age: number): GradeBand {
-  if (age <= 3) return 'pre-k';
-  if (age <= 5) return 'kindergarten';
-  if (age === 6) return 'grade-1';
-  if (age === 7) return 'grade-2';
-  return 'grade-3';
+const COLOR_TO_ENUM: Record<string, "coral" | "sky" | "mint" | "lavender" | "sunshine" | "peach"> = {
+  '#D85A30': 'coral',
+  '#4361EE': 'sky',
+  '#0F6E56': 'mint',
+  '#7C3AED': 'lavender',
+  '#F59E0B': 'sunshine',
+  '#F97316': 'peach',
+};
+
+function getGradeFromAge(age: number): number {
+  if (age <= 4) return 0;
+  if (age <= 5) return 0;
+  if (age === 6) return 1;
+  if (age === 7) return 2;
+  return 3;
 }
 
 export default function AddChild() {
   const [step, setStep] = useState(1);
   const [name, setName] = useState('');
   const [age, setAge] = useState(6);
-  const [grade, setGrade] = useState<GradeBand>('grade-1');
+  const [grade, setGrade] = useState(1);
   const [animal, setAnimal] = useState<GuideAnimal>('cat');
   const [color, setColor] = useState<ChildColor>('#7C3AED');
-  const addChild = useStore((s) => s.addChild);
-  const children = useStore((s) => s.children);
-  const profile = useStore((s) => s.currentProfile);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { user: profile } = useAuth();
+  const { data: childList = [] } = trpc.children.list.useQuery();
+  const createChild = trpc.children.create.useMutation();
+  const utils = trpc.useUtils();
   const [, navigate] = useLocation();
 
-  const usedColors = useMemo(() => children.filter(c => c.is_active).map(c => c.display_color), [children]);
-  const maxChildren = profile ? PLAN_GATES[profile.plan_type].child_profiles : 1;
-  const activeChildren = children.filter(c => c.is_active).length;
-  const atCap = activeChildren >= maxChildren;
+  const activeChildren = childList.filter(c => c.isActive);
+  const planType = profile?.planType ?? 'free';
+  const maxChildren = planType === 'family' ? 4 : 1;
+  const atCap = activeChildren.length >= maxChildren;
 
-  const handleNext = () => {
+  const usedColors = useMemo(() => activeChildren.map(c => c.profileColor), [activeChildren]);
+
+  const handleNext = async () => {
     if (step < 3) {
       if (step === 1 && !name.trim()) return;
       if (step === 1) setGrade(getGradeFromAge(age));
       setStep(step + 1);
       return;
     }
-    if (!name.trim() || atCap) return;
-    addChild({
-      display_name: name.trim(),
-      age,
-      grade_band: grade,
-      avatar_emoji: ANIMAL_EMOJIS[animal],
-      attention_span: 'medium',
-      learning_style: 'mixed',
-      short_day_mode: false,
-      sensory_notes: '',
-      language: 'en',
-      display_color: color,
-      avatar_animal: animal,
-      sort_order: activeChildren,
-      is_active: true,
-    });
-    navigate('/onboard/preferences');
+    if (!name.trim() || atCap || isSubmitting) return;
+
+    setIsSubmitting(true);
+    try {
+      await createChild.mutateAsync({
+        displayName: name.trim(),
+        age,
+        grade,
+        guideAnimal: animal,
+        profileColor: COLOR_TO_ENUM[color] || 'lavender',
+        avatarEmoji: ANIMAL_EMOJIS[animal],
+      });
+      await utils.children.list.invalidate();
+      toast.success(`${name.trim()}'s profile created!`);
+      navigate('/onboard/preferences');
+    } catch (err: any) {
+      toast.error(err.message || 'Failed to create child profile');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleBack = () => {
@@ -113,13 +131,13 @@ export default function AddChild() {
                   <div>
                     <label className="block text-sm font-bold mb-1.5" style={{ fontFamily: 'var(--font-display)' }}>How old?</label>
                     <select value={age} onChange={(e) => { setAge(Number(e.target.value)); setGrade(getGradeFromAge(Number(e.target.value))); }} className="w-full border-2 border-[#E5E5E0] rounded-xl px-4 py-3 text-base focus:border-[#7C3AED] focus:outline-none bg-white">
-                      {[2,3,4,5,6,7,8,9].map((a) => <option key={a} value={a}>{a} years old</option>)}
+                      {[3,4,5,6,7,8,9,10,11,12].map((a) => <option key={a} value={a}>{a} years old</option>)}
                     </select>
                   </div>
                   <div>
                     <label className="block text-sm font-bold mb-1.5" style={{ fontFamily: 'var(--font-display)' }}>Grade</label>
-                    <select value={grade} onChange={(e) => setGrade(e.target.value as GradeBand)} className="w-full border-2 border-[#E5E5E0] rounded-xl px-4 py-3 text-base focus:border-[#7C3AED] focus:outline-none bg-white">
-                      {GRADES.map((g) => <option key={g.value} value={g.value}>{g.label}</option>)}
+                    <select value={grade} onChange={(e) => setGrade(Number(e.target.value))} className="w-full border-2 border-[#E5E5E0] rounded-xl px-4 py-3 text-base focus:border-[#7C3AED] focus:outline-none bg-white">
+                      {GRADES.map((g, i) => <option key={i} value={g.value}>{g.label}</option>)}
                     </select>
                   </div>
                 </div>
@@ -149,7 +167,8 @@ export default function AddChild() {
               <motion.div key="step3" initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} className="space-y-4">
                 <div className="grid grid-cols-2 gap-3">
                   {CHILD_COLORS.map((c) => {
-                    const taken = usedColors.includes(c.value);
+                    const colorEnum = COLOR_TO_ENUM[c.value] || 'lavender';
+                    const taken = usedColors.includes(colorEnum);
                     return (
                       <button key={c.value} onClick={() => !taken && setColor(c.value)} disabled={taken} className={`relative p-5 rounded-2xl border-3 text-center transition-all ${taken ? 'opacity-30 cursor-not-allowed border-[#E5E5E0]' : color === c.value ? 'border-[#1C1B2E] scale-[1.02]' : 'border-[#E5E5E0] hover:border-[#1C1B2E]/50'}`}>
                         <div className="w-16 h-16 rounded-full mx-auto mb-2" style={{ backgroundColor: c.value }} />
@@ -174,8 +193,8 @@ export default function AddChild() {
             ) : (
               <button onClick={handleBack} className="btn-gigi !bg-[#E5E5E0] !text-[#1C1B2E] !shadow-[0_4px_0_#C5C5C0] flex-1 justify-center"><ArrowLeft className="w-5 h-5" /> Back</button>
             )}
-            <button onClick={handleNext} disabled={step === 1 ? !name.trim() : atCap} className="btn-gigi flex-1 justify-center disabled:opacity-50">
-              {step === 3 ? 'Create Profile' : 'Next'} <ArrowRight className="w-5 h-5" />
+            <button onClick={handleNext} disabled={step === 1 ? !name.trim() : atCap || isSubmitting} className="btn-gigi flex-1 justify-center disabled:opacity-50">
+              {isSubmitting ? 'Creating...' : step === 3 ? 'Create Profile' : 'Next'} <ArrowRight className="w-5 h-5" />
             </button>
           </div>
         </div>

@@ -1,10 +1,9 @@
 import { useParams, Link } from 'wouter';
-import { useStore } from '@/lib/store';
+import { trpc } from '@/lib/trpc';
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Play, Clock, ThumbsUp, AlertTriangle } from 'lucide-react';
 
-// Mock video data for demo
 const MOCK_VIDEOS = [
   { id: 'v1', title: 'Counting to 100 Song', duration: '4:32', thumbnail: '🔢' },
   { id: 'v2', title: 'ABC Phonics Adventure', duration: '6:15', thumbnail: '🔤' },
@@ -18,8 +17,10 @@ const MOCK_VIDEOS = [
 
 export default function ChannelPlayer() {
   const { childId, channelId } = useParams<{ childId: string; channelId: string }>();
-  const child = useStore((s) => s.children.find((c) => c.id === childId));
-  const channel = useStore((s) => s.approvedChannels.find((c) => c.id === channelId));
+  const { data: childList = [] } = trpc.children.list.useQuery();
+  const { data: channels = [] } = trpc.channels.list.useQuery();
+  const child = childList.find((c) => c.uuid === childId);
+  const channel = channels.find((c) => String(c.id) === channelId);
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
   const [showReport, setShowReport] = useState(false);
 
@@ -40,7 +41,6 @@ export default function ChannelPlayer() {
       </header>
 
       <div className="container py-6 max-w-3xl">
-        {/* Video player area */}
         {activeVideo && currentVideo ? (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mb-6">
             <div className="bg-[#1C1B2E] rounded-2xl aspect-video flex items-center justify-center mb-4 relative overflow-hidden">
@@ -70,7 +70,6 @@ export default function ChannelPlayer() {
           </div>
         )}
 
-        {/* Report modal */}
         {showReport && (
           <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} className="card-gigi !border-[#F72585]/40 mb-6">
             <div className="flex items-center gap-2 mb-3"><AlertTriangle className="w-5 h-5 text-[#F72585]" /><h3 className="font-bold text-sm" style={{ fontFamily: 'var(--font-display)' }}>Report a Video</h3></div>
@@ -79,7 +78,6 @@ export default function ChannelPlayer() {
           </motion.div>
         )}
 
-        {/* Video list */}
         <h3 className="font-black text-lg text-[#1C1B2E] mb-4" style={{ fontFamily: 'var(--font-display)' }}>Videos</h3>
         <div className="grid sm:grid-cols-2 gap-3">
           {videos.map((video, i) => (

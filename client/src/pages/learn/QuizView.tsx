@@ -1,16 +1,20 @@
 import { useParams, Link, useLocation } from 'wouter';
-import { useStore } from '@/lib/store';
-import { useState, useMemo } from 'react';
+import { trpc } from '@/lib/trpc';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { DOMAINS } from '@/lib/types';
 import { ArrowLeft, Check, X, Star, RotateCcw } from 'lucide-react';
+
+// Placeholder quiz questions until curriculum is loaded from DB
+const SAMPLE_QUESTIONS = [
+  { question: 'What color do you get when you mix red and blue?', options: ['Green', 'Purple', 'Orange', 'Yellow'], correct_answer: 1, explanation: 'Red and blue make purple!' },
+  { question: 'How many legs does a cat have?', options: ['2', '4', '6', '8'], correct_answer: 1, explanation: 'Cats have 4 legs.' },
+  { question: 'What sound does a cow make?', options: ['Woof', 'Meow', 'Moo', 'Baa'], correct_answer: 2, explanation: 'Cows say "Moo"!' },
+];
 
 export default function QuizView() {
   const { childId, lessonId } = useParams<{ childId: string; lessonId: string }>();
-  const child = useStore((s) => s.children.find((c) => c.id === childId));
-  const lesson = useStore((s) => s.lessons.find((l) => l.id === lessonId));
-  const addQuizResult = useStore((s) => s.addQuizResult);
-  const allQuizResults = useStore((s) => s.quizResults);
+  const { data: childList = [] } = trpc.children.list.useQuery();
+  const child = childList.find((c) => c.uuid === childId);
   const [qIndex, setQIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
@@ -19,17 +23,10 @@ export default function QuizView() {
   const [finalScore, setFinalScore] = useState(0);
   const [, navigate] = useLocation();
 
-  const relevantResults = useMemo(
-    () => allQuizResults.filter((r) => r.child_id === childId && r.lesson_id === lessonId),
-    [allQuizResults, childId, lessonId]
-  );
+  if (!child) return <div className="min-h-screen bg-[#FAFAF5] flex items-center justify-center"><p>Quiz not found</p></div>;
 
-  if (!child || !lesson) return <div className="min-h-screen bg-[#FAFAF5] flex items-center justify-center"><p>Quiz not found</p></div>;
-
-  const domain = DOMAINS.find((d) => d.id === lesson.domain);
-  const questions = lesson.quiz;
+  const questions = SAMPLE_QUESTIONS;
   const currentQ = questions[qIndex];
-  const attempt = relevantResults.length + 1;
 
   const handleAnswer = (idx: number) => {
     if (showResult) return;
@@ -44,9 +41,7 @@ export default function QuizView() {
       setSelected(null);
       setShowResult(false);
     } else {
-      const computedScore = selected === currentQ.correct_answer ? score : score;
-      const passed = computedScore >= Math.ceil(questions.length * 0.7);
-      addQuizResult({ child_id: childId!, lesson_id: lessonId!, score: computedScore, total: questions.length, passed, attempt_number: attempt, parent_notified: false });
+      const computedScore = selected === currentQ.correct_answer ? score + 1 : score;
       setFinalScore(computedScore);
       setFinished(true);
     }
@@ -94,15 +89,14 @@ export default function QuizView() {
       <header className="bg-white border-b-2 border-[#E5E5E0] sticky top-0 z-50">
         <div className="container flex items-center justify-between h-14">
           <Link href={`/learn/${childId}`} className="flex items-center gap-1 text-sm font-bold text-[#7C3AED]"><ArrowLeft className="w-4 h-4" /> Back</Link>
-          <span className="font-black text-sm" style={{ fontFamily: 'var(--font-display)' }}>Quiz: {lesson.title}</span>
+          <span className="font-black text-sm" style={{ fontFamily: 'var(--font-display)' }}>Quiz</span>
           <span className="text-xs text-[#888]">{qIndex + 1}/{questions.length}</span>
         </div>
       </header>
 
       <div className="container py-6 max-w-lg">
-        {/* Progress bar */}
         <div className="h-3 bg-[#E5E5E0] rounded-full mb-6 overflow-hidden">
-          <motion.div className="h-full rounded-full" style={{ backgroundColor: domain?.color || '#7C3AED' }} animate={{ width: `${((qIndex + 1) / questions.length) * 100}%` }} />
+          <motion.div className="h-full rounded-full bg-[#7C3AED]" animate={{ width: `${((qIndex + 1) / questions.length) * 100}%` }} />
         </div>
 
         <AnimatePresence mode="wait">
