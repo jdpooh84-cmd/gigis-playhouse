@@ -286,6 +286,32 @@ export async function updateSponsor(sponsorId: number, updates: Partial<InsertSp
   await db.update(sponsors).set(updates).where(eq(sponsors.id, sponsorId));
 }
 
+export async function getActiveSponsors() {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(sponsors).where(eq(sponsors.status, "active")).orderBy(desc(sponsors.createdAt));
+}
+
+export async function getActiveSponsorsByDomain(domain: string) {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(sponsors).where(
+    and(eq(sponsors.status, "active"), eq(sponsors.sponsoredDomain, domain))
+  );
+}
+
+export async function incrementSponsorImpressions(sponsorId: number) {
+  const db = await getDb();
+  if (!db) return;
+  await db.update(sponsors).set({ impressions: sql`impressions + 1` }).where(eq(sponsors.id, sponsorId));
+}
+
+export async function incrementSponsorClicks(sponsorId: number) {
+  const db = await getDb();
+  if (!db) return;
+  await db.update(sponsors).set({ clicks: sql`clicks + 1` }).where(eq(sponsors.id, sponsorId));
+}
+
 // ─── Feature Flags (Admin) ───────────────────────────────────────────────────
 
 export async function listFeatureFlags() {

@@ -26,12 +26,15 @@ export const adminRouter = router({
   createSponsor: adminProcedure
     .input(z.object({
       companyName: z.string().min(1),
+      contactName: z.string().optional(),
+      contactEmail: z.string().optional(),
+      companyWebsite: z.string().optional(),
       logoUrl: z.string().optional(),
-      tagline: z.string().optional(),
-      ctaUrl: z.string().optional(),
-      ctaLabel: z.string().optional(),
-      status: z.enum(["active", "paused", "expired"]).default("active"),
-      monthlyBudget: z.number().default(0),
+      shortDescription: z.string().max(150).optional(),
+      tierId: z.enum(["TIER-FRIEND", "TIER-SUPPORTER", "TIER-CHAMPION"]),
+      sponsoredDomain: z.string().optional(),
+      billingCycle: z.enum(["monthly", "annually"]).default("monthly"),
+      status: z.enum(["pending_review", "active", "paused", "expired", "rejected"]).default("pending_review"),
     }))
     .mutation(async ({ input }) => {
       await db.createSponsor(input);
@@ -42,16 +45,40 @@ export const adminRouter = router({
     .input(z.object({
       id: z.number(),
       companyName: z.string().optional(),
+      contactName: z.string().optional(),
+      contactEmail: z.string().optional(),
+      companyWebsite: z.string().optional(),
       logoUrl: z.string().optional(),
-      tagline: z.string().optional(),
-      ctaUrl: z.string().optional(),
-      ctaLabel: z.string().optional(),
-      status: z.enum(["active", "paused", "expired"]).optional(),
-      monthlyBudget: z.number().optional(),
+      shortDescription: z.string().max(150).optional(),
+      tierId: z.enum(["TIER-FRIEND", "TIER-SUPPORTER", "TIER-CHAMPION"]).optional(),
+      sponsoredDomain: z.string().optional(),
+      billingCycle: z.enum(["monthly", "annually"]).optional(),
+      status: z.enum(["pending_review", "active", "paused", "expired", "rejected"]).optional(),
     }))
     .mutation(async ({ input }) => {
       const { id, ...updates } = input;
       await db.updateSponsor(id, updates);
+      return { success: true };
+    }),
+
+  approveSponsor: adminProcedure
+    .input(z.object({ id: z.number() }))
+    .mutation(async ({ input }) => {
+      await db.updateSponsor(input.id, { status: "active", activatedAt: new Date() });
+      return { success: true };
+    }),
+
+  rejectSponsor: adminProcedure
+    .input(z.object({ id: z.number() }))
+    .mutation(async ({ input }) => {
+      await db.updateSponsor(input.id, { status: "rejected" });
+      return { success: true };
+    }),
+
+  pauseSponsor: adminProcedure
+    .input(z.object({ id: z.number() }))
+    .mutation(async ({ input }) => {
+      await db.updateSponsor(input.id, { status: "paused" });
       return { success: true };
     }),
 

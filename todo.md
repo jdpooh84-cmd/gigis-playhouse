@@ -100,3 +100,12 @@
 
 ## Pricing Fix
 - [x] Update subscription prices to real values ($18.99/mo, $35.99/yr, $45.99/mo family)
+
+## Sponsor System Integration
+- [x] Update sponsors DB schema with tier, billing, stripe, status fields
+- [x] Update sponsor landing page with 3 tiers and signup flow
+- [x] Update admin sponsor management (approve/reject/pause)
+- [x] Add kid-safety sponsor placement rules
+- [x] Create public sponsor router for active sponsor queries
+- [x] Update SponsorCard component with tier badges
+- [x] Zero TypeScript errors, 24/24 tests passing, build verified

@@ -1,12 +1,18 @@
 /**
- * SponsorCard — Appears in YouTube Channel Hub only
- * Shows every 6th card position. COPPA-compliant: no tracking, no behavioral targeting.
- * Clearly labeled "Sponsored" with parent-facing CTA.
+ * SponsorCard — Appears in YouTube Channel Hub and lesson loading screens.
+ * COPPA-compliant: no tracking, no behavioral targeting.
+ * Clearly labeled "Sponsored" — links only visible to parents.
  */
 import { motion } from "framer-motion";
-import { ExternalLink, Star } from "lucide-react";
+import { ExternalLink, Star, Award, Heart } from "lucide-react";
 import { trpc } from "@/lib/trpc";
 import { useMemo, useCallback } from "react";
+
+const TIER_CONFIG = {
+  "TIER-FRIEND": { label: "Friend", color: "amber", icon: Heart },
+  "TIER-SUPPORTER": { label: "Supporter", color: "blue", icon: Star },
+  "TIER-CHAMPION": { label: "Champion", color: "purple", icon: Award },
+} as const;
 
 interface SponsorCardProps {
   /** Position index in the channel grid (0-based) */
@@ -14,28 +20,26 @@ interface SponsorCardProps {
 }
 
 export default function SponsorCard({ position }: SponsorCardProps) {
-  const { data: sponsors = [] } = trpc.admin.listSponsors.useQuery(undefined, {
+  const { data: sponsors = [] } = trpc.sponsor.listActive.useQuery(undefined, {
     retry: false,
-    // Silently fail if user is not admin
+    staleTime: 60_000,
   });
 
-  const eligibleSponsors = useMemo(
-    () => sponsors.filter((s) => s.status === "active"),
-    [sponsors]
-  );
-
   const sponsor = useMemo(() => {
-    if (eligibleSponsors.length === 0) return null;
-    return eligibleSponsors[position % eligibleSponsors.length];
-  }, [eligibleSponsors, position]);
+    if (sponsors.length === 0) return null;
+    return sponsors[position % sponsors.length];
+  }, [sponsors, position]);
 
   const handleClick = useCallback(() => {
-    if (sponsor?.ctaUrl) {
-      window.open(sponsor.ctaUrl, "_blank", "noopener,noreferrer");
+    if (sponsor?.companyWebsite) {
+      window.open(sponsor.companyWebsite, "_blank", "noopener,noreferrer");
     }
   }, [sponsor]);
 
   if (!sponsor) return null;
+
+  const tierCfg = TIER_CONFIG[sponsor.tierId as keyof typeof TIER_CONFIG] || TIER_CONFIG["TIER-FRIEND"];
+  const TierIcon = tierCfg.icon;
 
   return (
     <motion.div
@@ -46,31 +50,37 @@ export default function SponsorCard({ position }: SponsorCardProps) {
     >
       <div className="absolute top-2 right-2 z-10">
         <span className="px-2 py-0.5 bg-amber-100 text-amber-700 text-[10px] font-bold rounded-full uppercase tracking-wider flex items-center gap-1">
-          <Star className="w-2.5 h-2.5" /> Sponsored
+          <TierIcon className="w-2.5 h-2.5" /> Sponsored
         </span>
       </div>
 
       <div className="p-5">
-        <div className="w-12 h-12 rounded-xl bg-amber-200 flex items-center justify-center mb-3">
-          <span className="text-lg font-black text-amber-700" style={{ fontFamily: "'Nunito', sans-serif" }}>
-            {sponsor.companyName.charAt(0)}
-          </span>
-        </div>
+        {sponsor.logoUrl ? (
+          <img src={sponsor.logoUrl} alt={sponsor.companyName} className="w-12 h-12 rounded-xl object-contain mb-3" />
+        ) : (
+          <div className="w-12 h-12 rounded-xl bg-amber-200 flex items-center justify-center mb-3">
+            <span className="text-lg font-black text-amber-700" style={{ fontFamily: "'Nunito', sans-serif" }}>
+              {sponsor.companyName.charAt(0)}
+            </span>
+          </div>
+        )}
 
         <h4 className="font-bold text-gray-900 text-sm mb-1 line-clamp-2" style={{ fontFamily: "'Nunito', sans-serif" }}>
           {sponsor.companyName}
         </h4>
 
-        {sponsor.tagline && (
+        {sponsor.shortDescription && (
           <p className="text-xs text-gray-600 mb-3 line-clamp-2" style={{ fontFamily: "'Lexend', sans-serif" }}>
-            {sponsor.tagline}
+            {sponsor.shortDescription}
           </p>
         )}
 
-        <div className="flex items-center gap-1.5 text-amber-600 text-xs font-semibold">
-          <span>{sponsor.ctaLabel || "Learn More"}</span>
-          <ExternalLink className="w-3 h-3" />
-        </div>
+        {sponsor.companyWebsite && (
+          <div className="flex items-center gap-1.5 text-amber-600 text-xs font-semibold">
+            <span>Learn More</span>
+            <ExternalLink className="w-3 h-3" />
+          </div>
+        )}
       </div>
     </motion.div>
   );
