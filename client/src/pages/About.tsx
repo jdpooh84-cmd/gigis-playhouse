@@ -66,7 +66,7 @@ export default function About() {
                     Justin Poole is a father, educator, and entrepreneur who built Gigi's Playhouse 
                     after watching his own children struggle with screen time that taught nothing and 
                     educational apps that felt like homework. He holds an MBA and an MS, and brings 
-                    years of experience in education technology and curriculum design.
+                    years of experience in education technology and learning experience design.
                   </p>
                   <p>
                     Together with his wife Rachel, Justin developed The Poole Method™ — a structured 
@@ -235,6 +235,9 @@ export default function About() {
           <p className="mt-1 text-xs text-gray-400">
             Gigi Character IP: GIGI-FND-PX002 | The Poole Method™
           </p>
+          <p className="mt-3 text-xs text-gray-400 max-w-lg mx-auto">
+            This platform provides supplemental learning experiences and is not a substitute for accredited education or homeschooling programs.
+          </p>
         </motion.div>
       </section>
     </div>
@@ -293,7 +296,7 @@ const BUILT_DIFFERENT = [
 ];
 
 const COMPARISON_DATA = [
-  { feature: "Structured K-3 Curriculum", gigis: true, khan: true, abc: true, ytk: false },
+  { feature: "Structured K-3 Learning", gigis: true, khan: true, abc: true, ytk: false },
   { feature: "Parent-Curated YouTube Hub", gigis: true, khan: false, abc: false, ytk: false },
   { feature: "ADHD-Friendly Design", gigis: true, khan: false, abc: false, ytk: false },
   { feature: "Homeschool Compliance Logs", gigis: true, khan: false, abc: false, ytk: false },

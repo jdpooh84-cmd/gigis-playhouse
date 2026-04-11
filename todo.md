@@ -81,3 +81,9 @@
 - [x] Add legal disclaimer to footer/settings
 - [x] Validate zero remaining instances of "curriculum"
 - [x] Confirm zero errors and all flows work
+
+## Legal & Compliance — Round 2
+- [x] Add legal disclaimer to Settings page
+- [x] Review About page for educational claims that need softening
+- [x] Create Terms of Service page with expanded legal language
+- [x] Wire Terms of Service route in App.tsx (already existed)

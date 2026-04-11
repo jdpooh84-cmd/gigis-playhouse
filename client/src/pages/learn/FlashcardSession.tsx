@@ -6,7 +6,7 @@ import { DOMAINS } from '@/lib/types';
 import type { DomainId } from '@/lib/types';
 import { ArrowLeft, ChevronLeft, ChevronRight, Shuffle } from 'lucide-react';
 
-// Sample flashcards until curriculum is loaded from DB
+// Sample flashcards until learning content is loaded from DB
 const SAMPLE_CARDS = [
   { id: '1', front: 'A', back: 'Apple', emoji: '🍎', domain: 'literacy' as DomainId, phonics_notation: '/æ/' },
   { id: '2', front: 'B', back: 'Bear', emoji: '🐻', domain: 'literacy' as DomainId, phonics_notation: '/b/' },

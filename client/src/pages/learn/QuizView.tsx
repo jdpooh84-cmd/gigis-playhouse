@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowLeft, Check, X, Star, RotateCcw } from 'lucide-react';
 
-// Placeholder quiz questions until curriculum is loaded from DB
+// Placeholder quiz questions until learning content is loaded from DB
 const SAMPLE_QUESTIONS = [
   { question: 'What color do you get when you mix red and blue?', options: ['Green', 'Purple', 'Orange', 'Yellow'], correct_answer: 1, explanation: 'Red and blue make purple!' },
   { question: 'How many legs does a cat have?', options: ['2', '4', '6', '8'], correct_answer: 1, explanation: 'Cats have 4 legs.' },

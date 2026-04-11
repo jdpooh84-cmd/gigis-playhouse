@@ -160,7 +160,7 @@ export default function Settings() {
             <div className="flex items-center justify-between py-3 border-b border-gray-100">
               <div>
                 <p className="font-bold text-gray-900 text-sm">Language</p>
-                <p className="text-gray-500 text-xs">Changes curriculum language for all children</p>
+                <p className="text-gray-500 text-xs">Changes learning language for all children</p>
               </div>
               <select
                 value={settings.language}
@@ -280,6 +280,9 @@ export default function Settings() {
         {/* Footer info */}
         <p className="text-center text-xs text-gray-400 pt-4">
           Gigi's Playhouse v1.0 — Dreamz In Ink LLC — The Poole Method™
+        </p>
+        <p className="text-center text-xs text-gray-400 mt-2 max-w-lg mx-auto">
+          This platform provides supplemental learning experiences and is not a substitute for accredited education or homeschooling programs.
         </p>
       </div>
     </DashboardLayout>

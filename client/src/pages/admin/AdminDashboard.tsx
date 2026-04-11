@@ -74,7 +74,7 @@ export default function AdminDashboard() {
         </div>
 
         <div>
-          <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Curriculum</h3>
+          <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">Learning Content</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <MetricCard title="Active Lessons" value="540" icon={BookOpen} color="bg-purple-500" />
             <MetricCard title="Completions Today" value="—" icon={TrendingUp} color="bg-green-500" />

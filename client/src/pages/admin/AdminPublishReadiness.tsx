@@ -42,8 +42,8 @@ const GATES: Gate[] = [
     ],
   },
   {
-    id: 'curriculum',
-    name: 'Curriculum Content',
+    id: 'learning-content',
+    name: 'Learning Content',
     description: 'Learning content is complete and reviewed',
     icon: <BookOpen className="w-5 h-5" />,
     checks: [
@@ -52,7 +52,7 @@ const GATES: Gate[] = [
       { label: 'Flashcard decks per domain', status: 'pass' },
       { label: 'Content reviewed for age-appropriateness', status: 'warn', note: 'Needs human review of all content' },
       { label: 'Lesson progression logic tested', status: 'pass' },
-      { label: 'All 540 lessons populated', status: 'fail', note: 'Currently 6 seed lessons — needs full curriculum' },
+      { label: 'All 540 lessons populated', status: 'fail', note: 'Currently 6 seed lessons — needs full learning content' },
     ],
   },
   {
