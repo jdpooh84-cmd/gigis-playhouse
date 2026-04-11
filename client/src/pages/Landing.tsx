@@ -342,9 +342,9 @@ export default function Landing() {
               <h3 className="text-xl font-black text-[#7C3AED] mb-1" style={{ fontFamily: 'var(--font-display)' }}>Gigi's Gold</h3>
               <p className="text-[#888] text-sm mb-4">Full learning experience</p>
               <div className="text-4xl font-black text-[#1C1B2E] mb-1" style={{ fontFamily: 'var(--font-display)' }}>
-                {annual ? '$3.33' : '$4.99'}<span className="text-lg font-semibold text-[#888]">/mo</span>
+                {annual ? '$3.00' : '$18.99'}<span className="text-lg font-semibold text-[#888]">/mo</span>
               </div>
-              {annual && <p className="text-xs text-[#22C55E] font-bold mb-4">$39.99 billed annually</p>}
+              {annual && <p className="text-xs text-[#22C55E] font-bold mb-4">$35.99 billed annually</p>}
               {!annual && <p className="text-xs text-[#888] mb-4">&nbsp;</p>}
               <ul className="text-left space-y-3 mb-8 text-sm">
                 {['540 lessons, all domains', 'Unlimited YouTube channels', '1 child profile', '17 languages', 'PDF compliance exports', 'All flashcards'].map((f) => (
@@ -361,9 +361,9 @@ export default function Landing() {
               <h3 className="text-xl font-black text-[#1C1B2E] mb-1" style={{ fontFamily: 'var(--font-display)' }}>Family Plan</h3>
               <p className="text-[#888] text-sm mb-4">For families with multiple kids</p>
               <div className="text-4xl font-black text-[#1C1B2E] mb-1" style={{ fontFamily: 'var(--font-display)' }}>
-                {annual ? '$5.00' : '$7.99'}<span className="text-lg font-semibold text-[#888]">/mo</span>
+                {annual ? '$3.83' : '$45.99'}<span className="text-lg font-semibold text-[#888]">/mo</span>
               </div>
-              {annual && <p className="text-xs text-[#22C55E] font-bold mb-4">$59.99 billed annually</p>}
+              {annual && <p className="text-xs text-[#22C55E] font-bold mb-4">$45.99 billed annually</p>}
               {!annual && <p className="text-xs text-[#888] mb-4">&nbsp;</p>}
               <ul className="text-left space-y-3 mb-8 text-sm">
                 {['Everything in Gold', 'Up to 5 child profiles', 'Individual progress tracking', 'Family compliance dashboard'].map((f) => (

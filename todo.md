@@ -97,3 +97,6 @@
 - [x] Wire QuizView to use lesson-specific quizzes (already wired via seed-data)
 - [x] Wire FlashcardSession to use real flashcard data (already wired via seed-data)
 - [x] Verify zero errors, 24/24 tests, build succeeds
+
+## Pricing Fix
+- [x] Update subscription prices to real values ($18.99/mo, $35.99/yr, $45.99/mo family)
