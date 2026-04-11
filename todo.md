@@ -109,3 +109,14 @@
 - [x] Create public sponsor router for active sponsor queries
 - [x] Update SponsorCard component with tier badges
 - [x] Zero TypeScript errors, 24/24 tests passing, build verified
+
+## Competitive Pricing Update
+- [x] Update Gold Monthly from $18.99 to $7.99/mo
+- [x] Update Gold Annual from $35.99/yr to $59.99/yr
+- [x] Update Family Monthly from $45.99/mo to $12.99/mo
+- [x] Add Family Annual option at $99.99/yr
+- [x] Update Stripe products with new prices (products.ts)
+- [x] Update Upgrade page with new prices + monthly/annual toggle
+- [x] Update Landing page with new prices
+- [x] Update Stripe router to accept family_monthly/family_annual plan keys
+- [x] Zero TypeScript errors, 24/24 tests, build verified

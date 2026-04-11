@@ -13,7 +13,7 @@ export const stripeRouter = router({
    */
   createCheckout: protectedProcedure
     .input(z.object({
-      planKey: z.enum(["gold_monthly", "gold_annual", "family"]),
+      planKey: z.enum(["gold_monthly", "gold_annual", "family_monthly", "family_annual"]),
       origin: z.string().url(),
     }))
     .mutation(async ({ ctx, input }) => {

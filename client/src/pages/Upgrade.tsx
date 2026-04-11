@@ -11,51 +11,58 @@ const PLANS = [
   {
     id: 'gold_monthly' as const,
     planGroup: 'gold',
-    name: 'Gold',
-    price: '$18.99',
-    period: '/month',
-    annual: '$35.99/year (save 84%)',
-    annualKey: 'gold_annual',
+    name: "Gigi's Gold",
+    subtitle: 'Full learning experience',
+    price: '$7.99',
+    period: '/mo',
+    annualPrice: '$59.99',
+    annualPeriod: '/year',
+    annualPerMonth: '$5.00',
+    annualKey: 'gold_annual' as const,
     icon: Crown,
     color: '#FBBF24',
     popular: true,
     features: [
-      'All 540 lessons across 6 domains',
-      'Unlimited flashcards & quizzes',
+      '540 lessons, all domains',
       'Unlimited YouTube channels',
-      'PDF compliance reports',
-      'Up to 4 child profiles',
-      'Priority support',
+      '1 child profile',
+      '17 languages',
+      'PDF compliance exports',
+      'All flashcards',
     ],
   },
   {
-    id: 'family' as const,
+    id: 'family_monthly' as const,
     planGroup: 'family',
-    name: 'Family',
-    price: '$45.99',
-    period: '/month',
-    annual: '',
-    annualKey: '',
+    name: 'Family Plan',
+    subtitle: 'For families with multiple kids',
+    price: '$12.99',
+    period: '/mo',
+    annualPrice: '$99.99',
+    annualPeriod: '/year',
+    annualPerMonth: '$8.33',
+    annualKey: 'family_annual' as const,
     icon: Users,
-    color: '#7C3AED',
+    color: '#EC4899',
     popular: false,
     features: [
       'Everything in Gold',
-      'Up to 8 child profiles',
-      'Family progress dashboard',
-      'Shared channel library',
-      'Multi-device sync',
-      'Early access to new content',
+      'Up to 5 child profiles',
+      'Individual progress tracking',
+      'Family compliance dashboard',
     ],
   },
   {
     id: 'coop' as const,
     planGroup: 'coop',
     name: 'Co-op',
-    price: '$59.99',
-    period: '/month',
-    annual: '',
-    annualKey: '',
+    subtitle: 'For homeschool groups',
+    price: 'Contact Us',
+    period: '',
+    annualPrice: '',
+    annualPeriod: '',
+    annualPerMonth: '',
+    annualKey: '' as const,
     icon: Building2,
     color: '#4361EE',
     popular: false,
@@ -75,6 +82,7 @@ export default function Upgrade() {
   const [, navigate] = useLocation();
   const planType = (user as any)?.planType || 'free';
   const [loadingPlan, setLoadingPlan] = useState<string | null>(null);
+  const [showAnnual, setShowAnnual] = useState(true);
   const createCheckout = trpc.stripe.createCheckout.useMutation();
 
   const handleUpgrade = async (planKey: string) => {
@@ -89,7 +97,7 @@ export default function Upgrade() {
     setLoadingPlan(planKey);
     try {
       const { url } = await createCheckout.mutateAsync({
-        planKey: planKey as "gold_monthly" | "gold_annual" | "family",
+        planKey: planKey as "gold_monthly" | "gold_annual" | "family_monthly" | "family_annual",
         origin: window.location.origin,
       });
       toast.info('Redirecting to checkout...');
@@ -112,29 +120,48 @@ export default function Upgrade() {
       </header>
 
       <div className="container py-8 max-w-4xl">
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-10">
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-black text-[#1C1B2E] mb-3" style={{ fontFamily: 'var(--font-display)' }}>
             Unlock the Full Playhouse
           </h1>
-          <p className="text-lg text-[#555] max-w-lg mx-auto">Every plan includes a 7-day free trial. Cancel anytime, no questions asked.</p>
+          <p className="text-lg text-[#555] max-w-lg mx-auto mb-6">Every plan includes a 7-day free trial. Cancel anytime, no questions asked.</p>
+
+          {/* Monthly / Annual Toggle */}
+          <div className="inline-flex items-center gap-3 bg-white rounded-full px-4 py-2 shadow-sm border border-gray-200">
+            <span className={`text-sm font-semibold ${!showAnnual ? 'text-[#1C1B2E]' : 'text-[#888]'}`}>Monthly</span>
+            <button
+              onClick={() => setShowAnnual(!showAnnual)}
+              className={`relative w-12 h-6 rounded-full transition-colors ${showAnnual ? 'bg-[#7C3AED]' : 'bg-gray-300'}`}
+            >
+              <div className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform ${showAnnual ? 'translate-x-6' : 'translate-x-0.5'}`} />
+            </button>
+            <span className={`text-sm font-semibold ${showAnnual ? 'text-[#1C1B2E]' : 'text-[#888]'}`}>Annual</span>
+            {showAnnual && <span className="text-xs font-bold text-green-600 bg-green-50 px-2 py-0.5 rounded-full">Save 33%</span>}
+          </div>
         </motion.div>
 
         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="card-gigi !bg-[#F5F5F0] mb-8">
           <div className="flex items-center gap-3 mb-3">
             <Zap className="w-5 h-5 text-[#888]" />
-            <h3 className="font-black text-lg" style={{ fontFamily: 'var(--font-display)' }}>Free Plan {planType === 'free' ? '(Current)' : ''}</h3>
+            <h3 className="font-black text-lg" style={{ fontFamily: 'var(--font-display)' }}>Free Forever {planType === 'free' ? '(Current)' : ''}</h3>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-sm">
             <div className="flex items-center gap-2"><BookOpen className="w-4 h-4 text-[#888]" /> 3 lessons/path</div>
             <div className="flex items-center gap-2"><Tv className="w-4 h-4 text-[#888]" /> 5 channels max</div>
-            <div className="flex items-center gap-2"><Users className="w-4 h-4 text-[#888]" /> 2 children</div>
-            <div className="flex items-center gap-2"><FileText className="w-4 h-4 text-[#888]" /> No PDF export</div>
+            <div className="flex items-center gap-2"><Users className="w-4 h-4 text-[#888]" /> 1 child profile</div>
+            <div className="flex items-center gap-2"><FileText className="w-4 h-4 text-[#888]" /> Basic flashcards</div>
           </div>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-6">
           {PLANS.map((plan, i) => {
             const isCurrentPlan = planType === plan.planGroup;
+            const isCoop = plan.id === 'coop';
+            const displayPrice = showAnnual && plan.annualPerMonth ? plan.annualPerMonth : plan.price;
+            const displayPeriod = isCoop ? '' : '/mo';
+            const billingNote = showAnnual && plan.annualPrice ? `${plan.annualPrice} billed annually` : '';
+            const checkoutKey = showAnnual && plan.annualKey ? plan.annualKey : plan.id;
+
             return (
               <motion.div key={plan.id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 + i * 0.1 }} className={`card-gigi relative ${plan.popular ? '!border-[#FBBF24] ring-2 ring-[#FBBF24]/30' : ''}`}>
                 {plan.popular && (
@@ -147,11 +174,12 @@ export default function Upgrade() {
                     <plan.icon className="w-7 h-7" style={{ color: plan.color }} />
                   </div>
                   <h3 className="text-xl font-black" style={{ fontFamily: 'var(--font-display)', color: plan.color }}>{plan.name}</h3>
+                  <p className="text-xs text-[#888] mt-0.5">{plan.subtitle}</p>
                   <div className="mt-2">
-                    <span className="text-3xl font-black text-[#1C1B2E]" style={{ fontFamily: 'var(--font-display)' }}>{plan.price}</span>
-                    <span className="text-sm text-[#888]">{plan.period}</span>
+                    <span className="text-3xl font-black text-[#1C1B2E]" style={{ fontFamily: 'var(--font-display)' }}>{displayPrice}</span>
+                    {displayPeriod && <span className="text-sm text-[#888]">{displayPeriod}</span>}
                   </div>
-                  {plan.annual && <p className="text-xs text-[#888] mt-1">or {plan.annual}</p>}
+                  {billingNote && <p className="text-xs text-green-600 font-medium mt-1">{billingNote}</p>}
                 </div>
                 <ul className="space-y-3 mb-6">
                   {plan.features.map((f) => (
@@ -160,24 +188,14 @@ export default function Upgrade() {
                 </ul>
                 <div className="space-y-2">
                   <button
-                    onClick={() => handleUpgrade(plan.id)}
-                    disabled={isCurrentPlan || loadingPlan === plan.id}
+                    onClick={() => handleUpgrade(isCoop ? 'coop' : checkoutKey)}
+                    disabled={isCurrentPlan || (loadingPlan === checkoutKey)}
                     className="btn-gigi w-full !text-sm flex items-center justify-center gap-2"
                     style={isCurrentPlan ? { opacity: 0.5 } : { backgroundColor: plan.color }}
                   >
-                    {loadingPlan === plan.id && <Loader2 className="w-4 h-4 animate-spin" />}
-                    {isCurrentPlan ? 'Current Plan' : 'Start Free Trial'}
+                    {loadingPlan === checkoutKey && <Loader2 className="w-4 h-4 animate-spin" />}
+                    {isCurrentPlan ? 'Current Plan' : isCoop ? 'Contact Us' : 'Start 7-Day Free Trial'}
                   </button>
-                  {plan.annualKey && !isCurrentPlan && (
-                    <button
-                      onClick={() => handleUpgrade(plan.annualKey)}
-                      disabled={loadingPlan === plan.annualKey}
-                      className="w-full text-xs text-center py-2 text-[#888] hover:text-[#555] transition-colors flex items-center justify-center gap-1"
-                    >
-                      {loadingPlan === plan.annualKey && <Loader2 className="w-3 h-3 animate-spin" />}
-                      or save with annual billing
-                    </button>
-                  )}
                 </div>
               </motion.div>
             );
