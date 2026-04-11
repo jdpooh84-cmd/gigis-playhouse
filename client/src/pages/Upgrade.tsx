@@ -64,7 +64,7 @@ const PLANS = [
       'Up to 30 child profiles',
       'Admin dashboard for co-op leaders',
       'Group compliance reporting',
-      'Custom curriculum paths',
+      'Custom learning paths',
       'Dedicated support channel',
     ],
   },

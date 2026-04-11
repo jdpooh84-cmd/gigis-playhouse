@@ -90,7 +90,7 @@ export default function Landing() {
                 </span>
               </motion.h1>
               <motion.p variants={fadeUp} custom={2} className="text-lg md:text-xl text-[#555] max-w-lg">
-                Curriculum + their favorite YouTube channels. In one safe place. Free to try.
+                Guided learning experiences + their favorite YouTube channels. In one safe place. Free to try.
               </motion.p>
               <motion.div variants={fadeUp} custom={3} className="flex flex-wrap gap-4">
                 <Link href="/signup" className="btn-gigi text-xl">
@@ -99,7 +99,7 @@ export default function Landing() {
               </motion.div>
               <motion.div variants={fadeUp} custom={4} className="flex flex-wrap gap-6 pt-2">
                 <div className="flex items-center gap-2 text-sm font-semibold text-[#444]">
-                  <span className="text-xl">🏆</span> K-3 Curriculum
+                  <span className="text-xl">🏆</span> K-3 Learning
                 </div>
                 <div className="flex items-center gap-2 text-sm font-semibold text-[#444]">
                   <span className="text-xl">📺</span> YouTube Hub
@@ -137,7 +137,7 @@ export default function Landing() {
               Two Apps in One
             </motion.h2>
             <motion.p variants={fadeUp} custom={1} className="text-lg text-[#555] max-w-2xl mx-auto">
-              Full K-3 curriculum AND a safe YouTube hub where your child watches only parent-approved channels. No more app-switching.
+              Full K-3 learning experiences AND a safe YouTube hub where your child watches only parent-approved channels. No more app-switching.
             </motion.p>
           </motion.div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -279,7 +279,7 @@ export default function Landing() {
             {[
               { icon: '🎓', title: 'The Poole Method™', desc: 'A research-backed 5-principle approach: Structured Curiosity, Scaffolded Mastery, Joyful Repetition, Multi-Sensory Engagement, and Parental Partnership.' },
               { icon: '🏠', title: 'Family-First Design', desc: 'No ads, no tracking kids, no dark patterns. Built by a family LLC (Dreamz In Ink) that puts children\'s safety above growth metrics.' },
-              { icon: '📚', title: 'Real Curriculum', desc: '540 lessons across 6 domains, each following a 5-phase micro-step progression. Not random activities — a real learning path.' },
+              { icon: '📚', title: 'Structured Learning', desc: '540 lessons across 6 domains, each following a 5-phase micro-step progression. Not random activities — a real learning path.' },
             ].map((item, i) => (
               <motion.div key={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={i}
                 className="bg-[#FAFAF5] rounded-3xl p-8 border-3 border-[#E5E5E0] text-center">
@@ -445,6 +445,9 @@ export default function Landing() {
             <p>&copy; {new Date().getFullYear()} Dreamz In Ink LLC. All rights reserved.</p>
             <p className="mt-1 flex items-center justify-center gap-2">
               <Shield className="w-4 h-4" /> COPPA Compliant <span className="mx-1">|</span> <Globe className="w-4 h-4" /> 17 Languages
+            </p>
+            <p className="mt-3 text-xs text-white/40 max-w-2xl mx-auto">
+              This platform provides supplemental learning experiences and is not a substitute for accredited education or homeschooling programs.
             </p>
           </div>
         </div>

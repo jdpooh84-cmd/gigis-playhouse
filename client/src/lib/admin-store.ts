@@ -183,7 +183,7 @@ const SEED_ALERTS: AdminAlert[] = [
   { id: "al-2", type: "trial_expired_no_upgrade", title: "Trial Expired", description: "15 users' trials expired this week without upgrading.", is_read: false, is_archived: false, created_at: "2026-04-05T08:00:00Z" },
   { id: "al-3", type: "sponsor_cap_reached", title: "Sponsor Cap Alert", description: "ABC Learning Co. has reached 32% of their monthly impression cap.", is_read: true, is_archived: false, created_at: "2026-04-03T14:00:00Z" },
   { id: "al-4", type: "payment_failed", title: "Payment Failed", description: "Stripe payment failed for user jane@example.com (Gold plan).", is_read: false, is_archived: false, created_at: "2026-04-06T09:00:00Z" },
-  { id: "al-5", type: "high_quiz_fail_rate", title: "High Quiz Fail Rate", description: "Lesson 'literacy-g1-int-d1' has a 45% fail rate. Review curriculum quality.", is_read: false, is_archived: false, created_at: "2026-04-04T11:00:00Z" },
+  { id: "al-5", type: "high_quiz_fail_rate", title: "High Quiz Fail Rate", description: "Lesson 'literacy-g1-int-d1' has a 45% fail rate. Review learning content quality.", is_read: false, is_archived: false, created_at: "2026-04-04T11:00:00Z" },
 ];
 
 const SEED_SETTINGS: AppSetting[] = [

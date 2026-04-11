@@ -75,3 +75,9 @@
 - [x] Test and fix: Add child flow end-to-end
 - [x] Test and fix: Learning/lesson flow end-to-end
 - [x] Test and fix: All dashboard features
+
+## Terminology & Compliance Update
+- [x] Replace all user-facing "curriculum" with legally safe language
+- [x] Add legal disclaimer to footer/settings
+- [x] Validate zero remaining instances of "curriculum"
+- [x] Confirm zero errors and all flows work

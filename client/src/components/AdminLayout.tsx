@@ -25,7 +25,7 @@ const NAV_ITEMS = [
   { path: "/admin/revenue", label: "Revenue", icon: DollarSign },
   { path: "/admin/alerts", label: "Alerts", icon: Bell },
   { path: "/admin/settings", label: "Settings", icon: Settings },
-  { path: "/admin/curriculum", label: "Curriculum", icon: BookOpen },
+  { path: "/admin/curriculum", label: "Learning Content", icon: BookOpen },
 ];
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {

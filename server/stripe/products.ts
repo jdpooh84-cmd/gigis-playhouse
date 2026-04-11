@@ -15,7 +15,7 @@ export interface PlanConfig {
 export const PLANS: Record<string, PlanConfig> = {
   gold_monthly: {
     name: "Gigi's Playhouse Gold — Monthly",
-    description: "Full curriculum access for one child. Billed monthly.",
+    description: "Full learning access for one child. Billed monthly.",
     priceAmount: 999, // $9.99/mo
     interval: "month",
     planType: "gold",
@@ -23,7 +23,7 @@ export const PLANS: Record<string, PlanConfig> = {
   },
   gold_annual: {
     name: "Gigi's Playhouse Gold — Annual",
-    description: "Full curriculum access for one child. Billed annually (save 33%).",
+    description: "Full learning access for one child. Billed annually (save 33%).",
     priceAmount: 7999, // $79.99/yr
     interval: "year",
     planType: "gold",
@@ -31,7 +31,7 @@ export const PLANS: Record<string, PlanConfig> = {
   },
   family: {
     name: "Gigi's Playhouse Family",
-    description: "Full curriculum access for up to 4 children. Billed monthly.",
+    description: "Full learning access for up to 4 children. Billed monthly.",
     priceAmount: 1499, // $14.99/mo
     interval: "month",
     planType: "family",

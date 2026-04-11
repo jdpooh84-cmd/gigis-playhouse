@@ -1,5 +1,5 @@
 /**
- * AdminCurriculum — /admin/curriculum — Curriculum management overview
+ * AdminCurriculum — /admin/curriculum — Learning content management overview
  */
 import { motion } from "framer-motion";
 import { BookOpen } from "lucide-react";
@@ -21,7 +21,7 @@ export default function AdminCurriculum() {
       <div className="space-y-6">
         <div>
           <h1 className="text-2xl font-bold text-gray-900" style={{ fontFamily: "'Nunito', sans-serif" }}>
-            Curriculum Management
+            Learning Content Management
           </h1>
           <p className="text-sm text-gray-500 mt-1">540 lessons across 6 domains (The Poole Method)</p>
         </div>
@@ -60,7 +60,7 @@ export default function AdminCurriculum() {
         <Card className="border-0 shadow-sm">
           <CardContent className="py-12 text-center">
             <BookOpen className="w-12 h-12 text-gray-300 mx-auto mb-4" />
-            <p className="text-gray-500 font-bold">Curriculum content is managed via The Poole Method</p>
+            <p className="text-gray-500 font-bold">Learning content is managed via The Poole Method</p>
             <p className="text-gray-400 text-sm mt-1">540 lessons across 6 domains, 3 grade bands, 3 difficulty levels</p>
           </CardContent>
         </Card>
