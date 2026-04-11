@@ -280,4 +280,27 @@ export const PRELOADED_CHANNELS: Omit<ApprovedChannel, 'id' | 'parent_id' | 'cre
   { nickname: 'Scratch Garden', emoji: '🌱', youtube_channel_id: 'UCU0fJJqFGBvjJJkMO-IUEMA', age_tag: 'k3', is_preloaded: true, sort_order: 15 },
   { nickname: 'Crash Course Kids', emoji: '🚀', youtube_channel_id: 'UC7DdEm33SyaTDtWYGO2CwdA', age_tag: 'k3', is_preloaded: true, sort_order: 16 },
   { nickname: "Asher's Day", emoji: '💛', youtube_channel_id: 'UCnYzLjkT1RCOonUBMXBFnDg', age_tag: 'preschool', is_preloaded: true, sort_order: 17 },
+
+  // New channels from Apify research
+  { nickname: 'Sesame Street', emoji: '📺', youtube_channel_id: 'UCoookXUzPciGrEZEXmh4Jjg', age_tag: 'k3', is_preloaded: true, sort_order: 18 },
+  { nickname: 'SciShow Kids', emoji: '🎬', youtube_channel_id: 'UCRFIPG2u1DxKLNuE3y2SjHA', age_tag: 'k3', is_preloaded: true, sort_order: 19 },
+  { nickname: 'Art for Kids Hub', emoji: '🎥', youtube_channel_id: 'UC5XMF3Inoi8R9nSI8ChOsdQ', age_tag: 'k3', is_preloaded: true, sort_order: 20 },
+  { nickname: 'Crash Course Kids', emoji: '📡', youtube_channel_id: 'UCONtPx56PSebXJOxbFv-2jQ', age_tag: 'k3', is_preloaded: true, sort_order: 21 },
+  { nickname: 'Cosmic Kids Yoga', emoji: '🖥️', youtube_channel_id: 'UC5uIZ2KOZZeQDQo_Gsi_qbQ', age_tag: 'k3', is_preloaded: true, sort_order: 22 },
+  { nickname: 'ChuChu TV Nursery Rhymes & Kids Songs', emoji: '🎞️', youtube_channel_id: 'UCBnZ16ahKA2DZ_T5W0FPUXg', age_tag: 'k3', is_preloaded: true, sort_order: 23 },
+  { nickname: 'Super Simple Songs - Kids Songs', emoji: '📹', youtube_channel_id: 'UCLsooMJoIpl_7ux2jvdPB-Q', age_tag: 'k3', is_preloaded: true, sort_order: 24 },
+  { nickname: 'BabyBus - Kids Songs and Cartoons', emoji: '🎦', youtube_channel_id: 'UCpYye8D5fFMUPf9nSfgd4bA', age_tag: 'k3', is_preloaded: true, sort_order: 25 },
+  { nickname: 'Mother Goose Club', emoji: '📺', youtube_channel_id: 'UCJkWoS4RsldA1coEIot5yDA', age_tag: 'k3', is_preloaded: true, sort_order: 26 },
+  { nickname: 'Jack Hartmann Kids Music Channel', emoji: '🎬', youtube_channel_id: 'UCVcQH8A634mauPrGbWs7QlQ', age_tag: 'k3', is_preloaded: true, sort_order: 27 },
+  { nickname: 'Gracie\'s Corner', emoji: '🎥', youtube_channel_id: 'UCQ2FzqIvWSE7ysvL1sLWQ5Q', age_tag: 'k3', is_preloaded: true, sort_order: 28 },
+  { nickname: 'Harry Kindergarten Music', emoji: '📡', youtube_channel_id: 'UCNTakNQwoAqVtPSORzswT_A', age_tag: 'k3', is_preloaded: true, sort_order: 29 },
+  { nickname: 'Free School', emoji: '🖥️', youtube_channel_id: 'UCebMFnw6WxozGmqGekJHOJg', age_tag: 'k3', is_preloaded: true, sort_order: 30 },
+  { nickname: 'Homeschool Pop', emoji: '🎞️', youtube_channel_id: 'UCfPyVJEBD7Di1YYjTdS2v8g', age_tag: 'k3', is_preloaded: true, sort_order: 31 },
+  { nickname: 'TheDadLab', emoji: '📹', youtube_channel_id: 'UCc_-hy0u9-oKlNdMKHBudcQ', age_tag: 'k3', is_preloaded: true, sort_order: 32 },
+  { nickname: 'BrainPOP', emoji: '🎦', youtube_channel_id: 'UCJ5dVwsCLKlWuOZyi7WDwfw', age_tag: 'k3', is_preloaded: true, sort_order: 33 },
+  { nickname: 'TED-Ed', emoji: '📺', youtube_channel_id: 'UCsooa4yRKGN_zEE8iknghZA', age_tag: 'k3', is_preloaded: true, sort_order: 34 },
+  { nickname: 'Socratica Kids', emoji: '🎬', youtube_channel_id: 'UCgppk8qs5kcgtjaDi0mAzjw', age_tag: 'k3', is_preloaded: true, sort_order: 35 },
+  { nickname: 'Khan Academy Kids', emoji: '🎥', youtube_channel_id: 'UC2ri4rEb8abnNwXvTjg5ARw', age_tag: 'k3', is_preloaded: true, sort_order: 36 },
+  { nickname: 'mathantics', emoji: '📡', youtube_channel_id: 'UCBuMwlP7kHkNxdPAqtFSJTw', age_tag: 'k3', is_preloaded: true, sort_order: 37 },
+  { nickname: 'Peekaboo Kidz', emoji: '🖥️', youtube_channel_id: 'UCB7u3w8o8Tu8ve1LBfIvtkA', age_tag: 'k3', is_preloaded: true, sort_order: 38 }
 ];

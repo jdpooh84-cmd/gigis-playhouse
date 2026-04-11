@@ -87,3 +87,13 @@
 - [x] Review About page for educational claims that need softening
 - [x] Create Terms of Service page with expanded legal language
 - [x] Wire Terms of Service route in App.tsx (already existed)
+
+## Content Integration (Apify JSON)
+- [x] Transform 48 lessons to match app Lesson schema
+- [x] Transform 48 quiz sets to match app QuizQuestion schema
+- [x] Transform 60 flashcards to match app Flashcard schema
+- [x] Add 21 new YouTube channels as preloaded channels (2 duplicates skipped)
+- [x] Map domain names (social_studies→social-studies, creative_arts→social-emotional, life_skills→executive-function)
+- [x] Wire QuizView to use lesson-specific quizzes (already wired via seed-data)
+- [x] Wire FlashcardSession to use real flashcard data (already wired via seed-data)
+- [x] Verify zero errors, 24/24 tests, build succeeds
