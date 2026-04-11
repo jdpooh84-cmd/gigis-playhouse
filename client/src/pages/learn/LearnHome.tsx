@@ -1,12 +1,12 @@
-import { useParams, Link } from 'wouter';
+import { useParams, Link, useLocation } from 'wouter';
 import { trpc } from '@/lib/trpc';
 import { useState, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { DOMAINS } from '@/lib/types';
-import { ArrowLeft, BookOpen, Brain, Tv, Star, Filter, Trophy, TrendingUp, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, BookOpen, Brain, Tv, Star, Filter, Trophy, TrendingUp, CheckCircle2, Play } from 'lucide-react';
 import { getCharacterByDomain } from '@/lib/characters';
 import CharacterAvatar from '@/components/CharacterAvatar';
-import { toast } from 'sonner';
+import { SEED_LESSONS, SEED_FLASHCARDS } from '@/lib/seed-data';
 
 const LEARN_IMG = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663407626762/iASgnCeomTwRZiq44kFhuJ/hero-learning-FKJmUMTLG3C2SueDA8HK76.webp';
 
@@ -25,6 +25,7 @@ const SUBJECT_FILTERS = [
 
 export default function LearnHome() {
   const { childId } = useParams<{ childId: string }>();
+  const [, navigate] = useLocation();
   const { data: childList = [] } = trpc.children.list.useQuery();
   const { data: channels = [] } = trpc.channels.list.useQuery();
   const child = childList.find((c) => c.uuid === childId);
@@ -45,13 +46,18 @@ export default function LearnHome() {
     if (subjectFilter !== 'all') {
       domains = domains.filter(d => d.id === subjectFilter);
     }
-    // Age group filtering: map child's gradeLevel to filter
-    if (ageFilter !== 'all' && child) {
-      // Show all domains but highlight age-appropriate ones
-      // All domains are available for all grades, filtering is informational
-    }
     return domains;
-  }, [subjectFilter, ageFilter, child]);
+  }, [subjectFilter]);
+
+  // Get lessons for a domain from seed data
+  const getLessonsForDomain = (domainId: string) => {
+    return SEED_LESSONS.filter(l => l.domain === domainId);
+  };
+
+  // Get flashcard count for a domain
+  const getFlashcardCount = (domainId: string) => {
+    return SEED_FLASHCARDS.filter(f => f.domain === domainId).length;
+  };
 
   if (!child) return <div className="min-h-screen bg-[#FAFAF5] flex items-center justify-center"><p className="text-lg font-bold">Child not found</p></div>;
 
@@ -110,27 +116,6 @@ export default function LearnHome() {
               <div className="text-[10px] text-[#888]">Avg Quiz Score</div>
             </div>
           </div>
-
-          {/* Domain-level progress bars */}
-          {progress?.domainProgress && progress.domainProgress.length > 0 && (
-            <div className="mt-4 space-y-2">
-              {progress.domainProgress.map((dp) => {
-                const domain = DOMAINS.find(d => d.id === dp.domain);
-                const pct = dp.lessonsTotal > 0 ? Math.round((dp.lessonsCompleted / dp.lessonsTotal) * 100) : 0;
-                return (
-                  <div key={dp.domain} className="card-gigi !p-3">
-                    <div className="flex items-center justify-between mb-1">
-                      <span className="text-xs font-bold" style={{ color: domain?.color }}>{domain?.name ?? dp.domain}</span>
-                      <span className="text-[10px] text-[#888]">{dp.lessonsCompleted}/{dp.lessonsTotal} lessons</span>
-                    </div>
-                    <div className="w-full h-2 bg-[#E5E5E0] rounded-full overflow-hidden">
-                      <div className="h-full rounded-full transition-all" style={{ width: `${pct}%`, backgroundColor: domain?.color ?? '#7C3AED' }} />
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          )}
         </div>
 
         {/* ── Filter by Age Group & Subject ──────────────────────────────── */}
@@ -179,15 +164,18 @@ export default function LearnHome() {
         </h2>
         <div className="grid sm:grid-cols-2 gap-4">
           {filteredDomains.map((d) => {
+            const lessons = getLessonsForDomain(d.id);
+            const flashcardCount = getFlashcardCount(d.id);
             const dp = progress?.domainProgress?.find(p => p.domain === d.id);
+            const character = getCharacterByDomain(d.id);
             return (
               <motion.div key={d.id} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="card-gigi !p-0 overflow-hidden" style={{ borderColor: d.color + '40' }}>
                 <div className="p-5">
                   <div className="flex items-center gap-3 mb-3">
-                    <CharacterAvatar character={getCharacterByDomain(d.id)} size="sm" state="idle" />
+                    <CharacterAvatar character={character} size="sm" state="idle" />
                     <div className="flex-1">
                       <h3 className="font-black text-lg" style={{ fontFamily: 'var(--font-display)', color: d.color }}>{d.name}</h3>
-                      <p className="text-xs text-[#888]">{d.character}</p>
+                      <p className="text-xs text-[#888]">{character.name} — {d.character}</p>
                     </div>
                     {dp && dp.lessonsCompleted > 0 && (
                       <span className="text-xs font-bold px-2 py-1 rounded-full" style={{ backgroundColor: d.color + '20', color: d.color }}>
@@ -195,16 +183,45 @@ export default function LearnHome() {
                       </span>
                     )}
                   </div>
-                  {ageFilter !== 'all' && (
-                    <p className="text-[10px] text-[#888] mb-2">Showing content for Grade {ageFilter}</p>
+
+                  {/* Lesson list for this domain */}
+                  {lessons.length > 0 ? (
+                    <div className="space-y-2 mb-3">
+                      {lessons.map((lesson) => (
+                        <button
+                          key={lesson.id}
+                          onClick={() => navigate(`/learn/${childId}/lesson/${lesson.id}`)}
+                          className="w-full text-left flex items-center gap-3 p-3 rounded-xl bg-[#FAFAF5] hover:bg-white border border-transparent hover:border-[#E5E5E0] transition-all group"
+                        >
+                          <div className="w-8 h-8 rounded-lg flex items-center justify-center shrink-0" style={{ backgroundColor: d.color + '20' }}>
+                            <Play className="w-4 h-4" style={{ color: d.color }} />
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <p className="font-bold text-sm text-[#1C1B2E] truncate" style={{ fontFamily: 'var(--font-display)' }}>{lesson.title}</p>
+                            <p className="text-[10px] text-[#888]">{lesson.theme} · {lesson.episode.duration_minutes} min</p>
+                          </div>
+                          <Star className="w-4 h-4 text-[#E5E5E0] group-hover:text-[#FBBF24] transition-colors shrink-0" />
+                        </button>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-xs text-[#888] mb-3">More lessons coming soon!</p>
                   )}
-                  <button
-                    onClick={() => toast.info('Curriculum content coming soon!')}
-                    className="btn-gigi !py-2 !text-sm w-full"
-                    style={{ backgroundColor: d.color }}
-                  >
-                    Start Learning {d.name}
-                  </button>
+
+                  {/* Flashcard link for this domain */}
+                  {flashcardCount > 0 && (
+                    <Link
+                      href={`/learn/${childId}/flashcards/${d.id}`}
+                      className="flex items-center gap-2 text-xs font-bold px-3 py-2 rounded-xl transition-colors mb-3"
+                      style={{ backgroundColor: d.color + '10', color: d.color }}
+                    >
+                      🃏 {flashcardCount} Flashcards
+                    </Link>
+                  )}
+
+                  {ageFilter !== 'all' && (
+                    <p className="text-[10px] text-[#888]">Showing content for Grade {ageFilter}</p>
+                  )}
                 </div>
               </motion.div>
             );

@@ -68,3 +68,10 @@
 - [x] User feedback and rating system for lessons
 - [x] Progress tracking visualization (learning journey)
 - [x] Create reusable skill with /skill-creator (skipped — luxury, not needed for launch)
+
+## Bug Fixes — User-Reported Issues
+- [x] Fix: YouTube channel upload/add not working for parents
+- [x] Fix: Curriculum not loading/doing anything when clicked
+- [x] Test and fix: Add child flow end-to-end
+- [x] Test and fix: Learning/lesson flow end-to-end
+- [x] Test and fix: All dashboard features
