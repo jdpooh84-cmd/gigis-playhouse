@@ -1,16 +1,10 @@
 import type { CookieOptions, Request } from "express";
 
-const LOCAL_HOSTS = new Set(["localhost", "127.0.0.1", "::1"]);
-
-function isIpAddress(host: string) {
-  // Basic IPv4 check and IPv6 presence detection.
-  if (/^\d{1,3}(\.\d{1,3}){3}$/.test(host)) return true;
-  return host.includes(":");
-}
-
-function isSecureRequest(req: Request) {
+function isSecureRequest(req: Request): boolean {
+  // With 'trust proxy' enabled, req.protocol correctly reflects the original protocol
   if (req.protocol === "https") return true;
 
+  // Fallback: check x-forwarded-proto header directly
   const forwardedProto = req.headers["x-forwarded-proto"];
   if (!forwardedProto) return false;
 
@@ -24,25 +18,17 @@ function isSecureRequest(req: Request) {
 export function getSessionCookieOptions(
   req: Request
 ): Pick<CookieOptions, "domain" | "httpOnly" | "path" | "sameSite" | "secure"> {
-  // const hostname = req.hostname;
-  // const shouldSetDomain =
-  //   hostname &&
-  //   !LOCAL_HOSTS.has(hostname) &&
-  //   !isIpAddress(hostname) &&
-  //   hostname !== "127.0.0.1" &&
-  //   hostname !== "::1";
+  const secure = isSecureRequest(req);
 
-  // const domain =
-  //   shouldSetDomain && !hostname.startsWith(".")
-  //     ? `.${hostname}`
-  //     : shouldSetDomain
-  //       ? hostname
-  //       : undefined;
+  // Log cookie options for debugging in production
+  console.log(`[Cookie] Setting cookie: secure=${secure}, protocol=${req.protocol}, x-forwarded-proto=${req.headers["x-forwarded-proto"] || "none"}`);
 
   return {
     httpOnly: true,
     path: "/",
-    sameSite: "none",
-    secure: isSecureRequest(req),
+    // Use "lax" for same-site requests (more compatible with mobile browsers)
+    // "none" requires secure:true and can be blocked by some browsers
+    sameSite: "lax",
+    secure,
   };
 }

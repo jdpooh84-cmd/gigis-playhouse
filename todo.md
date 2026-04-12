@@ -135,3 +135,12 @@
 - [x] Verify admin panel access and features — all 9 admin pages render
 - [x] Fix all browser console errors — zero errors in console log
 - [x] Verify all routes render without errors — all tested
+
+## Published Site Bug Fix — Buttons Not Working
+- [x] Test published site (gigiplayhub-iasgnceo.manus.space) in browser
+- [x] Root cause: Missing trust proxy + sameSite:none cookie blocked by mobile browsers
+- [x] Fix: Added app.set('trust proxy', 1) to server/_core/index.ts
+- [x] Fix: Changed sameSite from 'none' to 'lax' for better mobile browser compatibility
+- [x] Fix: OAuth callback now redirects to /dashboard instead of / (splash screen)
+- [x] Updated logout test to match new sameSite:lax
+- [x] Zero TypeScript errors, 24/24 tests, build verified
