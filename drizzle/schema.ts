@@ -18,6 +18,7 @@ export const users = mysqlTable("users", {
   coppaConsent: boolean("coppaConsent").default(false).notNull(),
   affiliateCode: varchar("affiliateCode", { length: 32 }),
   referredBy: varchar("referredBy", { length: 32 }),
+  locale: varchar("locale", { length: 10 }).default("en").notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
   updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
   lastSignedIn: timestamp("lastSignedIn").defaultNow().notNull(),
@@ -25,6 +26,21 @@ export const users = mysqlTable("users", {
 
 export type User = typeof users.$inferSelect;
 export type InsertUser = typeof users.$inferInsert;
+
+/**
+ * User roles — separate table for security (never on profiles).
+ * Supports parent/admin roles with SECURITY DEFINER pattern.
+ */
+export const userRoles = mysqlTable("userRoles", {
+  id: int("id").autoincrement().primaryKey(),
+  userId: int("userId").notNull(),
+  role: mysqlEnum("role", ["parent", "admin", "moderator"]).notNull(),
+  grantedAt: timestamp("grantedAt").defaultNow().notNull(),
+  grantedBy: int("grantedBy"),
+});
+
+export type UserRole = typeof userRoles.$inferSelect;
+export type InsertUserRole = typeof userRoles.$inferInsert;
 
 /**
  * Children profiles — managed by parent.
@@ -37,14 +53,37 @@ export const children = mysqlTable("children", {
   avatarEmoji: varchar("avatarEmoji", { length: 10 }).default("🦄").notNull(),
   age: int("age").default(6).notNull(),
   grade: int("grade").default(1).notNull(),
+  ageBand: varchar("ageBand", { length: 20 }).default("grade-1").notNull(),
+  primaryLanguage: varchar("primaryLanguage", { length: 10 }).default("en").notNull(),
   guideAnimal: mysqlEnum("guideAnimal", ["cat", "dog", "bunny", "bear"]).default("cat").notNull(),
   profileColor: mysqlEnum("profileColor", ["coral", "sky", "mint", "lavender", "sunshine", "peach"]).default("coral").notNull(),
+  attentionSpan: mysqlEnum("attentionSpan", ["short", "medium", "long"]).default("medium").notNull(),
+  learningStyle: mysqlEnum("learningStyle", ["visual", "hands-on", "auditory", "mixed"]).default("mixed").notNull(),
+  iepFlag: boolean("iepFlag").default(false).notNull(),
+  adhdFlag: boolean("adhdFlag").default(false).notNull(),
+  sensoryNotes: text("sensoryNotes"),
   isActive: boolean("isActive").default(true).notNull(),
   createdAt: timestamp("createdAt").defaultNow().notNull(),
 });
 
 export type Child = typeof children.$inferSelect;
 export type InsertChild = typeof children.$inferInsert;
+
+/**
+ * Child placement assessment results.
+ */
+export const childPlacement = mysqlTable("childPlacement", {
+  id: int("id").autoincrement().primaryKey(),
+  childId: int("childId").notNull(),
+  subject: varchar("subject", { length: 32 }).notNull(),
+  placedLevel: varchar("placedLevel", { length: 32 }).notNull(),
+  score: int("score"),
+  totalQuestions: int("totalQuestions"),
+  assessedAt: timestamp("assessedAt").defaultNow().notNull(),
+});
+
+export type ChildPlacement = typeof childPlacement.$inferSelect;
+export type InsertChildPlacement = typeof childPlacement.$inferInsert;
 
 /**
  * Enrolled learning paths per child.
@@ -59,6 +98,28 @@ export const enrolledPaths = mysqlTable("enrolledPaths", {
 
 export type EnrolledPath = typeof enrolledPaths.$inferSelect;
 export type InsertEnrolledPath = typeof enrolledPaths.$inferInsert;
+
+/**
+ * Daily learning plan per child — the Explore → Practice → Try It → Share rhythm.
+ */
+export const dailyPlan = mysqlTable("dailyPlan", {
+  id: int("id").autoincrement().primaryKey(),
+  childId: int("childId").notNull(),
+  date: varchar("date", { length: 10 }).notNull(),
+  exploreRef: varchar("exploreRef", { length: 64 }),
+  practiceRef: varchar("practiceRef", { length: 64 }),
+  tryItRef: varchar("tryItRef", { length: 64 }),
+  shareRef: varchar("shareRef", { length: 64 }),
+  exploreCompleted: boolean("exploreCompleted").default(false).notNull(),
+  practiceCompleted: boolean("practiceCompleted").default(false).notNull(),
+  tryItCompleted: boolean("tryItCompleted").default(false).notNull(),
+  shareCompleted: boolean("shareCompleted").default(false).notNull(),
+  completedAt: timestamp("completedAt"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+});
+
+export type DailyPlan = typeof dailyPlan.$inferSelect;
+export type InsertDailyPlan = typeof dailyPlan.$inferInsert;
 
 /**
  * Lesson progress tracking per child.
@@ -94,13 +155,17 @@ export type QuizResult = typeof quizResults.$inferSelect;
 export type InsertQuizResult = typeof quizResults.$inferInsert;
 
 /**
- * Flashcard progress per child.
+ * Flashcard progress per child — SM-2 spaced repetition.
  */
 export const flashcardProgress = mysqlTable("flashcardProgress", {
   id: int("id").autoincrement().primaryKey(),
   childId: int("childId").notNull(),
   flashcardId: varchar("flashcardId", { length: 64 }).notNull(),
   bucket: int("bucket").default(1).notNull(),
+  easeFactor: float("easeFactor").default(2.5).notNull(),
+  intervalDays: int("intervalDays").default(1).notNull(),
+  repetitions: int("repetitions").default(0).notNull(),
+  dueAt: timestamp("dueAt").defaultNow().notNull(),
   lastReviewed: timestamp("lastReviewed").defaultNow().notNull(),
   timesCorrect: int("timesCorrect").default(0).notNull(),
   timesIncorrect: int("timesIncorrect").default(0).notNull(),
@@ -108,6 +173,48 @@ export const flashcardProgress = mysqlTable("flashcardProgress", {
 
 export type FlashcardProgress = typeof flashcardProgress.$inferSelect;
 export type InsertFlashcardProgress = typeof flashcardProgress.$inferInsert;
+
+/**
+ * Watch history — tracks YouTube video views per child.
+ */
+export const watchHistory = mysqlTable("watchHistory", {
+  id: int("id").autoincrement().primaryKey(),
+  childId: int("childId").notNull(),
+  youtubeId: varchar("youtubeId", { length: 16 }).notNull(),
+  title: varchar("title", { length: 300 }),
+  channelId: varchar("channelId", { length: 64 }),
+  durationWatched: int("durationWatched").default(0).notNull(),
+  totalDuration: int("totalDuration"),
+  watchedAt: timestamp("watchedAt").defaultNow().notNull(),
+});
+
+export type WatchHistory = typeof watchHistory.$inferSelect;
+export type InsertWatchHistory = typeof watchHistory.$inferInsert;
+
+/**
+ * Curated videos — server-side YouTube cache with admin moderation.
+ * Populated by nightly cron / admin action. Client reads from here instead of YouTube API.
+ */
+export const curatedVideos = mysqlTable("curatedVideos", {
+  id: int("id").autoincrement().primaryKey(),
+  youtubeId: varchar("youtubeId", { length: 16 }).notNull().unique(),
+  title: varchar("title", { length: 300 }).notNull(),
+  channelId: varchar("channelId", { length: 64 }).notNull(),
+  channelName: varchar("channelName", { length: 200 }),
+  thumbnailUrl: varchar("thumbnailUrl", { length: 500 }),
+  duration: int("duration"),
+  ageBand: varchar("ageBand", { length: 20 }).notNull(),
+  domain: varchar("domain", { length: 32 }),
+  approvedByAdmin: boolean("approvedByAdmin").default(false).notNull(),
+  rejectedByAdmin: boolean("rejectedByAdmin").default(false).notNull(),
+  moderatedAt: timestamp("moderatedAt"),
+  moderatedBy: int("moderatedBy"),
+  fetchedAt: timestamp("fetchedAt").defaultNow().notNull(),
+  publishedAt: timestamp("publishedAt"),
+});
+
+export type CuratedVideo = typeof curatedVideos.$inferSelect;
+export type InsertCuratedVideo = typeof curatedVideos.$inferInsert;
 
 /**
  * Parent-approved YouTube channels.
@@ -119,6 +226,7 @@ export const approvedChannels = mysqlTable("approvedChannels", {
   nickname: varchar("nickname", { length: 100 }).notNull(),
   emoji: varchar("emoji", { length: 10 }).default("📺").notNull(),
   ageTag: varchar("ageTag", { length: 20 }).default("K-3").notNull(),
+  blocked: boolean("blocked").default(false).notNull(),
   addedAt: timestamp("addedAt").defaultNow().notNull(),
 });
 
@@ -126,7 +234,7 @@ export type ApprovedChannel = typeof approvedChannels.$inferSelect;
 export type InsertApprovedChannel = typeof approvedChannels.$inferInsert;
 
 /**
- * Compliance logs for homeschool record-keeping.
+ * Compliance logs for record-keeping.
  */
 export const complianceLogs = mysqlTable("complianceLogs", {
   id: int("id").autoincrement().primaryKey(),

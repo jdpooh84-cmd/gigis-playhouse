@@ -372,3 +372,204 @@ export async function getAverageRatingByDomain(domain: string) {
   const avg = rows.reduce((sum, r) => sum + r.rating, 0) / rows.length;
   return { average: Math.round(avg * 10) / 10, count: rows.length };
 }
+
+// ─── User Roles ──────────────────────────────────────────────────────────────
+
+import {
+  userRoles, InsertUserRole,
+  childPlacement, InsertChildPlacement,
+  dailyPlan, InsertDailyPlan,
+  watchHistory, InsertWatchHistory,
+  curatedVideos, InsertCuratedVideo,
+} from "../drizzle/schema";
+
+export async function getUserRoles(userId: number) {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(userRoles).where(eq(userRoles.userId, userId));
+}
+
+export async function hasRole(userId: number, role: string) {
+  const db = await getDb();
+  if (!db) return false;
+  const result = await db.select().from(userRoles).where(
+    and(eq(userRoles.userId, userId), eq(userRoles.role, role as any))
+  ).limit(1);
+  return result.length > 0;
+}
+
+export async function grantRole(data: InsertUserRole) {
+  const db = await getDb();
+  if (!db) return;
+  await db.insert(userRoles).values(data);
+}
+
+export async function revokeRole(userId: number, role: string) {
+  const db = await getDb();
+  if (!db) return;
+  await db.delete(userRoles).where(
+    and(eq(userRoles.userId, userId), eq(userRoles.role, role as any))
+  );
+}
+
+// ─── Child Placement ─────────────────────────────────────────────────────────
+
+export async function getPlacementsByChild(childId: number) {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(childPlacement).where(eq(childPlacement.childId, childId));
+}
+
+export async function upsertPlacement(placement: InsertChildPlacement) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.insert(childPlacement).values(placement).onDuplicateKeyUpdate({
+    set: {
+      placedLevel: placement.placedLevel,
+      score: placement.score,
+      totalQuestions: placement.totalQuestions,
+      assessedAt: placement.assessedAt,
+    },
+  });
+}
+
+// ─── Daily Plan ──────────────────────────────────────────────────────────────
+
+export async function getDailyPlan(childId: number, date: string) {
+  const db = await getDb();
+  if (!db) return undefined;
+  const result = await db.select().from(dailyPlan)
+    .where(and(eq(dailyPlan.childId, childId), eq(dailyPlan.date, date)))
+    .limit(1);
+  return result.length > 0 ? result[0] : undefined;
+}
+
+export async function upsertDailyPlan(plan: InsertDailyPlan) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.insert(dailyPlan).values(plan).onDuplicateKeyUpdate({
+    set: {
+      exploreRef: plan.exploreRef,
+      practiceRef: plan.practiceRef,
+      tryItRef: plan.tryItRef,
+      shareRef: plan.shareRef,
+      exploreCompleted: plan.exploreCompleted,
+      practiceCompleted: plan.practiceCompleted,
+      tryItCompleted: plan.tryItCompleted,
+      shareCompleted: plan.shareCompleted,
+      completedAt: plan.completedAt,
+    },
+  });
+}
+
+export async function updateDailyPlanStep(childId: number, date: string, step: string, completed: boolean) {
+  const db = await getDb();
+  if (!db) return;
+  const updates: Record<string, any> = {};
+  if (step === 'explore') updates.exploreCompleted = completed;
+  if (step === 'practice') updates.practiceCompleted = completed;
+  if (step === 'tryIt') updates.tryItCompleted = completed;
+  if (step === 'share') updates.shareCompleted = completed;
+  await db.update(dailyPlan).set(updates)
+    .where(and(eq(dailyPlan.childId, childId), eq(dailyPlan.date, date)));
+}
+
+// ─── Watch History ───────────────────────────────────────────────────────────
+
+export async function getWatchHistoryByChild(childId: number) {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(watchHistory).where(eq(watchHistory.childId, childId)).orderBy(desc(watchHistory.watchedAt));
+}
+
+export async function addWatchHistory(entry: InsertWatchHistory) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.insert(watchHistory).values(entry);
+}
+
+// ─── Curated Videos ──────────────────────────────────────────────────────────
+
+export async function getCuratedVideos(filters?: { ageBand?: string; domain?: string; approvedOnly?: boolean }) {
+  const db = await getDb();
+  if (!db) return [];
+  const conditions = [];
+  if (filters?.ageBand) conditions.push(eq(curatedVideos.ageBand, filters.ageBand));
+  if (filters?.domain) conditions.push(eq(curatedVideos.domain, filters.domain));
+  if (filters?.approvedOnly) conditions.push(eq(curatedVideos.approvedByAdmin, true));
+  conditions.push(eq(curatedVideos.rejectedByAdmin, false));
+
+  if (conditions.length > 0) {
+    return db.select().from(curatedVideos).where(and(...conditions)).orderBy(desc(curatedVideos.fetchedAt));
+  }
+  return db.select().from(curatedVideos).where(eq(curatedVideos.rejectedByAdmin, false)).orderBy(desc(curatedVideos.fetchedAt));
+}
+
+export async function upsertCuratedVideo(video: InsertCuratedVideo) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.insert(curatedVideos).values(video).onDuplicateKeyUpdate({
+    set: {
+      title: video.title,
+      channelName: video.channelName,
+      thumbnailUrl: video.thumbnailUrl,
+      duration: video.duration,
+      ageBand: video.ageBand,
+      domain: video.domain,
+      fetchedAt: new Date(),
+    },
+  });
+}
+
+export async function moderateVideo(youtubeId: string, approved: boolean, moderatorId: number) {
+  const db = await getDb();
+  if (!db) return;
+  await db.update(curatedVideos).set({
+    approvedByAdmin: approved,
+    rejectedByAdmin: !approved,
+    moderatedAt: new Date(),
+    moderatedBy: moderatorId,
+  }).where(eq(curatedVideos.youtubeId, youtubeId));
+}
+
+export async function getPendingModerationVideos() {
+  const db = await getDb();
+  if (!db) return [];
+  return db.select().from(curatedVideos)
+    .where(and(
+      eq(curatedVideos.approvedByAdmin, false),
+      eq(curatedVideos.rejectedByAdmin, false)
+    ))
+    .orderBy(desc(curatedVideos.fetchedAt));
+}
+
+// ─── Flashcard SRS (SM-2) ────────────────────────────────────────────────────
+
+export async function getFlashcardsDueToday(childId: number) {
+  const db = await getDb();
+  if (!db) return [];
+  const now = new Date();
+  return db.select().from(flashcardProgress)
+    .where(and(
+      eq(flashcardProgress.childId, childId),
+      sql`${flashcardProgress.dueAt} <= ${now}`
+    ))
+    .orderBy(flashcardProgress.dueAt);
+}
+
+export async function upsertFlashcardSRS(data: InsertFlashcardProgress) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  await db.insert(flashcardProgress).values(data).onDuplicateKeyUpdate({
+    set: {
+      bucket: data.bucket,
+      easeFactor: data.easeFactor,
+      intervalDays: data.intervalDays,
+      repetitions: data.repetitions,
+      dueAt: data.dueAt,
+      lastReviewed: data.lastReviewed,
+      timesCorrect: data.timesCorrect,
+      timesIncorrect: data.timesIncorrect,
+    },
+  });
+}

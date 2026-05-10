@@ -9,6 +9,10 @@ import { parentRouter } from "./routers/parent";
 import { adminRouter } from "./routers/admin";
 import { stripeRouter } from "./routers/stripe";
 import { sponsorRouter } from "./routers/sponsor";
+import { srsRouter } from "./routers/srs";
+import { curatedVideosRouter } from "./routers/curatedVideos";
+import { dailyPlanRouter } from "./routers/dailyPlan";
+import { progressEmailRouter } from "./routers/progressEmail";
 
 export const appRouter = router({
   system: systemRouter,
@@ -29,6 +33,10 @@ export const appRouter = router({
   admin: adminRouter,
   stripe: stripeRouter,
   sponsor: sponsorRouter,
+  srs: srsRouter,
+  curatedVideos: curatedVideosRouter,
+  dailyPlan: dailyPlanRouter,
+  progressEmail: progressEmailRouter,
 });
 
 export type AppRouter = typeof appRouter;

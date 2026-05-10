@@ -1,14 +1,35 @@
 {
   "name": "Gigi's Playhouse",
-  "short_name": "Gigi",
-  "description": "K-3 Learning + YouTube Hub for Kids",
+  "short_name": "Gigi's",
+  "description": "A magical supplemental learning adventure for Pre-K through Grade 3",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FAFAF5",
   "theme_color": "#7C3AED",
+  "orientation": "portrait-primary",
+  "categories": ["education", "kids"],
+  "lang": "en",
   "icons": [
-    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
-  "categories": ["education", "kids"]
+  "screenshots": [
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Home Screen"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's Learning",
+      "short_name": "Learn",
+      "description": "Jump to today's learning activities",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
 }
