@@ -72,6 +72,7 @@ Doc 5 re-affirms Parts 1–4 cleanly and adds a few **new** locked details I'm l
 - Running scene (origin runner + Man With The Folding Chair + fictional restaurant) | LOCKED
 - Ratatouille backstage scene | LOCKED
 - TÌ sacrifice + Daniel's compassion + Daniel rises | LOCKED
+- "The Choice" beat (real Fracture-caused injury → Wren recognizes/chooses Daniel with certainty; replaces faked injury/hand-off) | PROPOSED→pending Showrunner lock (see dance-competition-the-choice-beat.md)
 - Shadow Iguanas (GECKO/SCALE/CREST/BLAZE) | LOCKED (original IP)
 
 **CULTURE / REPRESENTATION**
@@ -126,9 +127,9 @@ Doc 5 re-affirms Parts 1–4 cleanly and adds a few **new** locked details I'm l
 - Agent 02 / Part 3 Level structure: betrayal at **Level One (local/school)**; the final must be *earned back* from there.
 - **Recommendation:** adopt **Level One (local/school)** — it gives Daniel the longest climb back and matches the three-level ladder. Agent 01's "regionals" should be corrected to "local." Showrunner confirm.
 
-**FLAG 3 (Moral-physics) — the faked injury (new Act-3 mechanism).**
-- "Main dancer fakes an injury so Daniel must step forward" risks reading as a *deception* rewarded — inside a film whose physics punish self-interest and honor truth.
-- **Recommendation:** make it a **self-giving act, not a trick** — the lead *steps aside on purpose* (a gift: "this is yours") or has a real, honest reason — so the mechanism *expresses* the moral spine instead of contradicting it. Keep the outcome (Daniel must step up); change the motive from deceit to sacrifice.
+**FLAG 3 (Moral-physics) — the faked injury (new Act-3 mechanism). — RESOLVED.**
+- "Main dancer fakes an injury so Daniel must step forward" risks reading as a *deception* rewarded — inside a film whose physics punish self-interest and honor truth. The first fix proposed (a "this is yours" hand-off) was rejected by the Showrunner as overplayed — it makes the moment about the giver's nobility and renders Daniel passive.
+- **RESOLUTION (Showrunner-directed, locked as proposal):** replaced with **"The Choice" beat** — a **real injury** (the Fracture's attack on the crew's lead, so it's honest *and* raises supernatural stakes) and then the drama is **recognition, not generosity**: Coach Wren chooses Daniel out of the whole cast *with certainty* ("I'm not guessing. I saw it.") because she secretly witnessed his true self dance earlier. Pays off Daniel's exact wound (never picked → chosen first by the one who sees him); he still must earn it via the praise dance; the Fracture's division-move backfires by forcing forward the one dancer who completes the Circle. Full development: **`content/dance-competition-the-choice-beat.md`**. Supervisor checklist: GREEN across theme, moral physics, character, narrative, north star.
 
 **FLAG 4 (Representation/Moral-physics) — carried, still top priority.**
 - **Abilities-vs-diagnosis (O12):** Doc 5 Agent 04 restates "chosen because of how their minds work." Without the Part 2 decoupling (gift is *bloodline*, neurotype is *access*, ≥1 neurotypical carrier), this still reads as magical-disability. *Recommendation: lock the decoupling; route through a neurodiversity consultant with story authority.*
@@ -153,7 +154,7 @@ The hierarchy is genuinely strong — it turns the vision into checkable gates a
 The system is installed and has surfaced the calls only you two can make. In rough priority:
 1. **Co-parenting vs. united household** (Conflict 1) — pick the family structure.
 2. **Betrayal at local, not regionals** (Conflict 2) — confirm.
-3. **Faked injury → self-giving hand-off** (Flag 3) — confirm the motive change.
+3. **Faked injury → "The Choice" beat** (Flag 3, RESOLVED & developed) — confirm Wren as chooser (vs. cold-captain alternate), the Fracture-caused injury framing, and lock the Act-2 plant scene. See `dance-competition-the-choice-beat.md`.
 4. **Lock abilities-decoupling + TÌ temporary-grip** (Flag 4) — confirm direction; hire ND consultant.
 5. **Restaurant/Iguanas → YELLOW pending IP counsel** (Flag 5) — confirm; brief a lawyer.
 6. **Lock Mamá Àbèní + her passing scene** (O8) and **the threaded motif** (O6).
