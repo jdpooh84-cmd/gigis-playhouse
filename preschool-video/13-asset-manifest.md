@@ -62,7 +62,7 @@
 | Asset | Status |
 |-------|--------|
 | Final mixed audio | ✅ COMPLETE — `preschool-video/FINAL_AUDIO_ZoomyZoomFreeze.mp3` (3.7MB, 2:39.84) |
-| Final assembled video | ✅ COMPLETE — `preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4` (27MB, 2:39.80, 1280×720 H.264/AAC) |
+| Final assembled video | ✅ COMPLETE — `preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4` (51MB, 2:39.80, 1920×1080 H.264/AAC) |
 
 ---
 
@@ -72,4 +72,4 @@
 - 12/12 video scenes: ✅ (VID-06, VID-07 retries succeeded; VID-09 uses VID-08 as substitute)
 - Music bed: ✅ (Zoomy_Zoom_Freeze.mp3)
 - FINAL_AUDIO mix: ✅ (FINAL_AUDIO_ZoomyZoomFreeze.mp3, 3.7MB, 2:39.84)
-- Final video: ✅ COMPLETE (FINAL_VIDEO_ZoomyZoomFreeze.mp4, 27MB, 2:39.80, 1280×720 H.264/AAC)
+- Final video: ✅ COMPLETE (FINAL_VIDEO_ZoomyZoomFreeze.mp4, 51MB, 2:39.80, 1920×1080 H.264/AAC)
