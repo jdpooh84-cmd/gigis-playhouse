@@ -14,8 +14,8 @@
  *   1. Tests the API key (GET /v3/users/me)
  *   2. Downloads Leo and Zoe reference images from Higgsfield CDN
  *   3. Uploads each image to HeyGen assets (POST /v1/asset)
- *   4. Creates a Photo Avatar for each (POST /v2/photo_avatar/photo/create)
- *   5. Polls for completion (GET /v2/photo_avatar/{avatar_group_id})
+ *   4. Creates a Photo Avatar for each (POST /v3/avatars with type=photo)
+ *   5. Polls for completion (GET /v3/avatars/{avatar_id})
  *   6. Writes HEYGEN_LEO_AVATAR_ID and HEYGEN_ZOE_AVATAR_ID to .env
  */
 
@@ -136,56 +136,56 @@ async function uploadAsset(imageBuffer, filename, mimeType = "image/png") {
 }
 
 async function createPhotoAvatar(name, assetId) {
-  console.log(`  Creating Photo Avatar "${name}"…`);
-  const res = await fetchJson("https://api.heygen.com/v2/photo_avatar/photo/create", {
+  console.log(`  Creating Photo Avatar "${name}" via POST /v3/avatars…`);
+  const res = await fetchJson("https://api.heygen.com/v3/avatars", {
     method: "POST",
     headers: {
       "x-api-key": API_KEY,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
+      type: "photo",
       name,
       image_asset_id: assetId,
-      // train_type: "expressiveness_lipsync"  — default is fine for photo avatars
     }),
   });
 
-  const groupId = res.data?.avatar_group_id ?? res.data?.group_id ?? res.avatar_group_id;
-  if (!groupId) throw new Error(`No avatar_group_id in create response: ${JSON.stringify(res).slice(0, 300)}`);
-  console.log(`  Avatar group created: ${groupId} (training…)`);
-  return groupId;
+  // v3 response: { code, data: { avatar_id, status }, message }
+  const avatarId = res.data?.avatar_id ?? res.data?.id ?? res.avatar_id;
+  if (!avatarId) throw new Error(`No avatar_id in create response: ${JSON.stringify(res).slice(0, 300)}`);
+  console.log(`  Avatar created: ${avatarId} (status: ${res.data?.status ?? "unknown"})`);
+  return avatarId;
 }
 
-async function pollAvatarReady(groupId, maxWaitMs = 300_000) {
+async function pollAvatarReady(avatarId, maxWaitMs = 300_000) {
   const start = Date.now();
   let attempt = 0;
   while (Date.now() - start < maxWaitMs) {
     attempt++;
     const res = await fetchJson(
-      `https://api.heygen.com/v2/photo_avatar/${groupId}`,
+      `https://api.heygen.com/v3/avatars/${avatarId}`,
       { method: "GET", headers: { "x-api-key": API_KEY } }
     );
 
-    const status = res.data?.status ?? res.data?.train_status ?? res.status;
-    const avatarId = res.data?.avatar_id ?? res.data?.id;
+    // v3 response: { code, data: { avatar_id, status, name, ... }, message }
+    const status = res.data?.status ?? res.status;
     const elapsed = ((Date.now() - start) / 1000).toFixed(0);
 
     console.log(`    [${elapsed}s] Status: ${status}`);
 
-    if (status === "completed" || status === "active" || status === "done") {
-      const finalId = avatarId ?? groupId;
-      console.log(`  Ready! Avatar ID: ${finalId}`);
-      return finalId;
+    if (status === "active" || status === "completed" || status === "done") {
+      console.log(`  Ready! Avatar ID: ${avatarId}`);
+      return avatarId;
     }
     if (status === "failed" || status === "error") {
-      throw new Error(`Avatar training failed (group=${groupId}): ${JSON.stringify(res.data).slice(0, 300)}`);
+      throw new Error(`Avatar training failed (id=${avatarId}): ${JSON.stringify(res.data).slice(0, 300)}`);
     }
 
     // Poll every 10s for first minute, then every 20s
     const delay = attempt < 6 ? 10_000 : 20_000;
     await sleep(delay);
   }
-  throw new Error(`Timeout waiting for avatar ${groupId} after ${maxWaitMs / 1000}s`);
+  throw new Error(`Timeout waiting for avatar ${avatarId} after ${maxWaitMs / 1000}s`);
 }
 
 function writeEnvVar(key, value) {
@@ -218,13 +218,13 @@ function writeEnvVar(key, value) {
       const mimeType = char.imageUrl.endsWith(".png") ? "image/png" : "image/jpeg";
 
       const assetId = await uploadAsset(imgBuffer, `${char.name.toLowerCase()}-ref.${mimeType === "image/png" ? "png" : "jpg"}`, mimeType);
-      const groupId = await createPhotoAvatar(char.avatarName, assetId);
+      const avatarId = await createPhotoAvatar(char.avatarName, assetId);
 
       console.log(`  Polling for training completion (may take 1–3 minutes)…`);
-      const avatarId = await pollAvatarReady(groupId);
+      const finalAvatarId = await pollAvatarReady(avatarId);
 
-      results[char.name] = { assetId, groupId, avatarId };
-      writeEnvVar(char.envKey, avatarId);
+      results[char.name] = { assetId, avatarId: finalAvatarId };
+      writeEnvVar(char.envKey, finalAvatarId);
     }
 
     console.log("\n=== DONE ===");
