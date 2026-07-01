@@ -71,7 +71,7 @@
 | Asset | Status |
 |-------|--------|
 | Final mixed audio | ✅ COMPLETE — `preschool-video/FINAL_AUDIO_ZoomyZoomFreeze.mp3` (3.7MB, 2:39.84) |
-| Final assembled video | ⏳ REASSEMBLING — Leo+Zoe human characters via GitHub Actions |
+| Final assembled video | ✅ COMPLETE — `preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4` (94MB, 2:39.84, 1920×1080 H.264/AAC, Leo+Zoe human characters) |
 
 ---
 
@@ -81,4 +81,4 @@
 - 12/12 video scenes: ✅ (VID-09 uses VID-08 as substitute; all Leo+Zoe human characters)
 - Music bed: ✅ (Zoomy_Zoom_Freeze.mp3)
 - FINAL_AUDIO mix: ✅ (FINAL_AUDIO_ZoomyZoomFreeze.mp3, 3.7MB, 2:39.84)
-- Final video: ⏳ Reassembling with Leo+Zoe via GitHub Actions
+- Final video: ✅ COMPLETE (FINAL_VIDEO_ZoomyZoomFreeze.mp4, 94MB, 2:39.84, 1920×1080 H.264/AAC, Leo+Zoe human characters)
