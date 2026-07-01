@@ -1,7 +1,7 @@
 # 13 — Asset Manifest
 
 ## Song: ZOOMY ZOOM FREEZE!
-## Status: In Progress — Awaiting Video Generation + Outro Vocal + Music Bed
+## Status: COMPLETE ✅
 
 ---
 
@@ -62,23 +62,14 @@
 | Asset | Status |
 |-------|--------|
 | Final mixed audio | ✅ COMPLETE — `preschool-video/FINAL_AUDIO_ZoomyZoomFreeze.mp3` (3.7MB, 2:39.84) |
-| Final assembled video | ⏳ PENDING — run `preschool-video/assemble_final_video.sh` from a machine with unrestricted internet |
-
-### Assembly blocker
-The cloud execution environment's egress proxy policy (HTTP 403) blocks HTTPS CONNECT to `d8j0ntlcm91z4.cloudfront.net`.
-All 12 video clips are generated and available at that domain; they cannot be downloaded within this session.
-
-**To complete the video:**
-1. Clone the repo locally (or open a terminal outside this cloud session)
-2. `cd preschool-video && bash assemble_final_video.sh`
-3. The script downloads all 12 clips, assembles `FINAL_VIDEO_ZoomyZoomFreeze.mp4`, and prints a commit command
+| Final assembled video | ✅ COMPLETE — `preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4` (27MB, 2:39.80, 1280×720 H.264/AAC) |
 
 ---
 
 ## Summary
 - 4/4 image references: ✅
-- 7/7 ElevenLabs vocal sections: ✅ (V07 Outro generated and staged locally)
+- 7/7 ElevenLabs vocal sections: ✅
 - 12/12 video scenes: ✅ (VID-06, VID-07 retries succeeded; VID-09 uses VID-08 as substitute)
-- Music bed: ✅ (Zoomy_Zoom_Freeze.mp3 staged locally)
-- FINAL_AUDIO mix: ✅ (FINAL_AUDIO_ZoomyZoomFreeze.mp3 assembled, 3.7MB, 2:39.84)
-- Final video: ⏳ BLOCKED — egress proxy policy denies HTTPS to d8j0ntlcm91z4.cloudfront.net (403); run assemble_final_video.sh from a machine with unrestricted internet access
+- Music bed: ✅ (Zoomy_Zoom_Freeze.mp3)
+- FINAL_AUDIO mix: ✅ (FINAL_AUDIO_ZoomyZoomFreeze.mp3, 3.7MB, 2:39.84)
+- Final video: ✅ COMPLETE (FINAL_VIDEO_ZoomyZoomFreeze.mp4, 27MB, 2:39.80, 1280×720 H.264/AAC)
