@@ -1,0 +1,101 @@
+name: Render and QA — Remotion Animation
+
+on:
+  push:
+    branches:
+      - claude/preschool-cartoon-video-y50npq
+    paths:
+      - preschool-animation/timeline.json
+      - preschool-animation/src/**
+      - preschool-animation/scripts/**
+      - .github/workflows/render-and-qa.yml
+
+permissions:
+  contents: write
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  render-and-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: claude/preschool-cartoon-video-y50npq
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+          cache-dependency-path: preschool-animation/package-lock.json
+
+      - name: Install dependencies
+        working-directory: preschool-animation
+        run: npm ci --prefer-offline || npm install
+
+      - name: Install system deps (ffmpeg + ImageMagick)
+        run: sudo apt-get install -y ffmpeg imagemagick
+
+      - name: Prepare assets
+        working-directory: preschool-animation
+        run: node scripts/download-assets.js
+
+      - name: Render draft
+        working-directory: preschool-animation
+        run: |
+          mkdir -p out
+          npx remotion render ZoomyZoomFreeze out/draft.mp4 --overwrite
+          ls -lh out/draft.mp4
+
+      - name: Verify freeze frames
+        working-directory: preschool-animation
+        run: node scripts/verify-freeze-frames.js out/draft.mp4
+
+      - name: Submit to Apify QA
+        working-directory: preschool-animation
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: node scripts/qa-submit.js out/draft.mp4
+
+      - name: Upload QA result artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-result
+          path: preschool-animation/qa-result.json
+          retention-days: 14
+
+      - name: Upload freeze verify artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: freeze-verify-results
+          path: preschool-animation/freeze-verify-results.json
+          retention-days: 14
+
+      - name: Upload rendered draft
+        uses: actions/upload-artifact@v4
+        with:
+          name: draft-mp4
+          path: preschool-animation/out/draft.mp4
+          retention-days: 7
+
+      - name: Publish FINAL as GitHub Release
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="remotion-animation-v$(date +%Y%m%dT%H%M%S)"
+          cp preschool-animation/out/draft.mp4 \
+             "preschool-animation/out/FINAL_Zoomy_Zoom_Freeze_Animation.mp4"
+          gh release create "$TAG" \
+            --repo jdpooh84-cmd/gigis-playhouse \
+            --title "Zoomy Zoom Freeze — Remotion Animation (QA Passed)" \
+            --notes "Deterministic Remotion render | All freeze events verified | QA passed" \
+            "preschool-animation/out/FINAL_Zoomy_Zoom_Freeze_Animation.mp4"
