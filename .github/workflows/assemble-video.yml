@@ -27,18 +27,18 @@ jobs:
           mkdir -p preschool-video/video/episode1
           cd preschool-video/video/episode1
 
-          curl -fL -o VID-01.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_141716_50ddc7f3-a425-4fa8-bf39-cb5833b31fbf.mp4"
-          curl -fL -o VID-02.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_142109_fc4426f6-f34f-4c7e-89db-9557011f7d68.mp4"
-          curl -fL -o VID-03.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_141720_831664cb-3289-4d88-8718-c4bc078103bc.mp4"
-          curl -fL -o VID-04.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_141723_f03f1ba5-f69e-42c1-b2ba-5bb436cce90f.mp4"
-          curl -fL -o VID-05.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_141725_dafb2f3e-8718-485c-803c-2f9dcb1d4367.mp4"
-          curl -fL -o VID-06.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_142153_754a7b3b-439c-4a16-918b-085a88bde0e2.mp4"
-          curl -fL -o VID-07.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_141731_ea9a2d6f-dd1a-419e-a78d-e0f5376f8279.mp4"
-          curl -fL -o VID-08.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_141733_0ccfe7e1-ac26-45e8-b3c5-51465b06cbba.mp4"
-          curl -fL -o VID-09.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_141735_d84b4159-7cbc-4482-9eef-0647f3e145cd.mp4"
-          curl -fL -o VID-10.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_142113_d59a0659-d19a-4dcd-8011-0db34260a611.mp4"
-          curl -fL -o VID-11.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_142115_86d9e26d-8555-44d0-b243-a15b5332d288.mp4"
-          curl -fL -o VID-12.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_142157_e974e0ac-cc0b-41ec-ad84-af3ac147e876.mp4"
+          curl -fL -o VID-01.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_145826_b41205c5-bfae-40a2-87db-411a4594d060.mp4"
+          curl -fL -o VID-02.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_145829_7703dbac-a384-4d7b-a939-7577bf75f903.mp4"
+          curl -fL -o VID-03.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_150308_18b3d6d1-8cda-4740-8771-973101600132.mp4"
+          curl -fL -o VID-04.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_145834_8eb6d581-0cfb-4e7b-82f1-080293d7f75e.mp4"
+          curl -fL -o VID-05.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_145837_b058a320-bfac-41dc-9f06-e2826d31be9e.mp4"
+          curl -fL -o VID-06.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_145839_69c8611f-8ea5-45b3-949b-e9685b71b6aa.mp4"
+          curl -fL -o VID-07.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_150643_a8f135ed-35e0-4b22-83ff-0f35f901c88c.mp4"
+          curl -fL -o VID-08.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_145845_05878720-bc5f-4fa3-b829-c3c0e89bb95f.mp4"
+          curl -fL -o VID-09.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_145848_cafaba72-9b75-4ff0-b381-aef76123ff47.mp4"
+          curl -fL -o VID-10.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_150311_f2c59bc4-69c8-43b9-9d43-5b5de54312a5.mp4"
+          curl -fL -o VID-11.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_150313_88f9ac96-1621-4dcc-b26d-4a3048190727.mp4"
+          curl -fL -o VID-12.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_150316_bdaaaa12-b831-43bb-992d-fafc2ccd8f59.mp4"
 
           echo '=== Downloaded clips ==='
           ls -lh VID-*.mp4
@@ -55,7 +55,7 @@ jobs:
         run: |
           VIDEO_DIR="$GITHUB_WORKSPACE/preschool-video/video/episode1"
           AUDIO="$GITHUB_WORKSPACE/preschool-video/audio/episode1/Zoomy_Zoom_Freeze.mp3"
-          OUTPUT="$GITHUB_WORKSPACE/preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4"
+          OUTPUT="$GITHUB_WORKSPACE/preschool-video/Zoomy_Zoom_Freeze_Episode1_FINAL.mp4"
           STRIPPED_DIR="$VIDEO_DIR/stripped"
           CONCAT="$VIDEO_DIR/concat.txt"
 
@@ -87,8 +87,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          OUTPUT="$GITHUB_WORKSPACE/preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4"
-          TAG="zoomy-zoom-freeze-ep1"
+          OUTPUT="$GITHUB_WORKSPACE/preschool-video/Zoomy_Zoom_Freeze_Episode1_FINAL.mp4"
+          TAG="zoomy-zoom-freeze-ep1-v2"
 
           # Delete prior release with same tag if it exists
           gh release delete "$TAG" --repo jdpooh84-cmd/gigis-playhouse --yes 2>/dev/null || true
@@ -96,10 +96,10 @@ jobs:
 
           gh release create "$TAG" \
             --repo jdpooh84-cmd/gigis-playhouse \
-            --title "ZOOMY ZOOM FREEZE — Episode 1 (Preschool Dance Song)" \
-            --notes "Leo+Zoe lip+action sync | Suno audio only | 1920×1080 H.264/AAC | 2:40" \
+            --title "ZOOMY ZOOM FREEZE — Episode 1 v2 (Preschool Dance Song)" \
+            --notes "Leo+Zoe lip+action sync v2 | Suno audio only | 1920×1080 H.264/AAC | CRF 22" \
             "$OUTPUT"
 
           echo ""
           echo "=== DIRECT DOWNLOAD LINK ==="
-          echo "https://github.com/jdpooh84-cmd/gigis-playhouse/releases/download/$TAG/FINAL_VIDEO_ZoomyZoomFreeze.mp4"
+          echo "https://github.com/jdpooh84-cmd/gigis-playhouse/releases/download/$TAG/Zoomy_Zoom_Freeze_Episode1_FINAL.mp4"
