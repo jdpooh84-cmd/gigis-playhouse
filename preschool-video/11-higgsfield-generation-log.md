@@ -36,9 +36,9 @@ Character references passed as `image_references`. Background passed as `start_i
 | VID-09 | S08 Hook 3 | Stage | `90db82a6-ef40-4ff8-81c9-a1b1bea44e29` | 🔄 IN PROGRESS | TBD |
 | VID-10 | S09 Bridge - count/freeze | Stage | `95515711-51d3-4022-ae0e-430b8e4e3048` | 🔄 IN PROGRESS | TBD |
 | VID-11 | S10 Final Hook | Stage | `96e3b087-bf43-4c1d-b5d0-5a95aa2c8bc5` | 🔄 IN PROGRESS | TBD |
-| VID-12 | S11 Outro - wave/goodbye | Meadow | PENDING | ⏳ RATE LIMITED | TBD |
+| VID-12 | S11 Outro - wave/goodbye | Meadow | `bcf26b1f-435f-4053-a0bd-9b638a471f7a` | 🔄 IN PROGRESS | TBD |
 
-Status: 11/12 submitted. VID-12 held by rate limit; retrying.
+Status: 12/12 submitted — all in progress.
 
 ---
 

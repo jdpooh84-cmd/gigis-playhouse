@@ -53,7 +53,7 @@
 | VID-09 | Hook 3 | Stage | `90db82a6` | 🔄 IN PROGRESS |
 | VID-10 | Bridge count/freeze | Stage | `95515711` | 🔄 IN PROGRESS |
 | VID-11 | Final Hook | Stage | `96e3b087` | 🔄 IN PROGRESS |
-| VID-12 | Outro goodbye | Meadow | PENDING | ⏳ RATE LIMITED |
+| VID-12 | Outro goodbye | Meadow | `bcf26b1f` | 🔄 IN PROGRESS |
 
 ---
 
@@ -69,6 +69,6 @@
 ## Summary
 - 4/4 image references: ✅
 - 6/7 ElevenLabs vocal sections: ✅ (1 pending regen)
-- 8/12 video scenes: 🔄 (in progress); 4/12 queued pending rate limit
+- 12/12 video scenes: 🔄 (all in progress — awaiting completion)
 - Music bed: ❌ (tool limitation)
 - Final video: ❌ (pending above)
