@@ -38,22 +38,22 @@
 
 ---
 
-## VIDEO ASSETS — Scene Clips (8/12 Submitted)
+## VIDEO ASSETS — Scene Clips (9/12 Complete)
 
-| Shot | Scene | Background | Job ID | Status |
-|------|-------|-----------|--------|--------|
-| VID-01 | Intro wave/bounce | Meadow | `69ab762b` | 🔄 IN PROGRESS |
-| VID-02 | Hook zoom run | Meadow | `624ab9bc` | 🔄 IN PROGRESS |
-| VID-03 | Hook freeze pose | Meadow | `e4786021` | 🔄 IN PROGRESS |
-| VID-04 | Verse 1a run | Meadow | `9fc84309` | 🔄 IN PROGRESS |
-| VID-05 | Verse 1b wiggle | Meadow | `5b0a8fc6` | 🔄 IN PROGRESS |
-| VID-06 | Hook 2 | Meadow | `cd3899ec` | 🔄 IN PROGRESS |
-| VID-07 | Verse 2a slow-mo | Stage | `ca2d072a` | 🔄 IN PROGRESS |
-| VID-08 | Verse 2b spin/jump | Stage | `e1903d87` | 🔄 IN PROGRESS |
-| VID-09 | Hook 3 | Stage | `90db82a6` | 🔄 IN PROGRESS |
-| VID-10 | Bridge count/freeze | Stage | `95515711` | 🔄 IN PROGRESS |
-| VID-11 | Final Hook | Stage | `96e3b087` | 🔄 IN PROGRESS |
-| VID-12 | Outro goodbye | Meadow | `bcf26b1f` | 🔄 IN PROGRESS |
+| Shot | Scene | Background | Job ID | Status | URL |
+|------|-------|-----------|--------|--------|-----|
+| VID-01 | Intro wave/bounce | Meadow | `69ab762b` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_021940_69ab762b-05e7-4722-aa07-cd6d535c5c1a.mp4 |
+| VID-02 | Hook zoom run | Meadow | `624ab9bc` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_021952_624ab9bc-2f5f-439e-a020-97b0c3a5d47a.mp4 |
+| VID-03 | Hook freeze pose | Meadow | `e4786021` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_021954_e4786021-5efb-4a80-a1d3-8239d8a5c1d4.mp4 |
+| VID-04 | Verse 1a run | Meadow | `9fc84309` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_021957_9fc84309-8343-41ea-bde6-0627ecdbd549.mp4 |
+| VID-05 | Verse 1b wiggle | Meadow | `5b0a8fc6` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022000_5b0a8fc6-c95f-484e-8aef-83c038cd52ee.mp4 |
+| VID-06 | Hook 2 | Meadow | `d260314d` | 🔄 IN PROGRESS (retry) | TBD |
+| VID-07 | Verse 2a slow-mo | Stage | `c0382875` | 🔄 IN PROGRESS (retry) | TBD |
+| VID-08 | Verse 2b spin/jump | Stage | `e1903d87` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022010_e1903d87-9422-481d-9a07-5d9495ad7d5e.mp4 |
+| VID-09 | Hook 3 | Stage | `4a820362` | 🔄 IN PROGRESS (retry) | TBD |
+| VID-10 | Bridge count/freeze | Stage | `95515711` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022401_95515711-51d3-4022-ae0e-430b8e4e3048.mp4 |
+| VID-11 | Final Hook | Stage | `96e3b087` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022405_96e3b087-bf43-4c1d-b5d0-5a95aa2c8bc5.mp4 |
+| VID-12 | Outro goodbye | Meadow | `bcf26b1f` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022530_bcf26b1f-435f-4053-a0bd-9b638a471f7a.mp4 |
 
 ---
 
@@ -68,7 +68,7 @@
 
 ## Summary
 - 4/4 image references: ✅
-- 6/7 ElevenLabs vocal sections: ✅ (1 pending regen)
-- 12/12 video scenes: 🔄 (all in progress — awaiting completion)
-- Music bed: ❌ (tool limitation)
-- Final video: ❌ (pending above)
+- 6/7 ElevenLabs vocal sections: ✅ (V07 Outro blocked — api.elevenlabs.io rejected by egress proxy; ElevenLabs/Laughing Lab MCP not present in session)
+- 9/12 video scenes: ✅ (VID-06, VID-07, VID-09 retrying after failure)
+- Music bed: ❌ (Suno MCP not present in session; no API key located)
+- Final video: ❌ (pending V07 vocal + music bed + 3 remaining video clips)
