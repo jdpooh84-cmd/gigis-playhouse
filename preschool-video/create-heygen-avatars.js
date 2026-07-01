@@ -146,7 +146,10 @@ async function createPhotoAvatar(name, assetId) {
     body: JSON.stringify({
       type: "photo",
       name,
-      image_asset_id: assetId,
+      file: {
+        type: "asset_id",
+        asset_id: assetId,
+      },
     }),
   });
 
