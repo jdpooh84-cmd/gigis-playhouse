@@ -1,6 +1,10 @@
 name: Assemble ZOOMY ZOOM FREEZE Video
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - claude/preschool-cartoon-video-y50npq
+    paths:
+      - .github/workflows/.video-assembly-trigger
 
 permissions:
   contents: write
@@ -48,14 +52,11 @@ jobs:
           OUTPUT="$GITHUB_WORKSPACE/preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4"
           CONCAT="$VIDEO_DIR/concat.txt"
 
-          # Build concat list with absolute paths
           rm -f "$CONCAT"
           for i in 01 02 03 04 05 06 07 08 09 10 11 12; do
             echo "file '$VIDEO_DIR/VID-$i.mp4'" >> "$CONCAT"
           done
-          cat "$CONCAT"
 
-          # Assemble: loop 60s of clips to fill 2:39 audio
           ffmpeg -y \
             -stream_loop -1 -f concat -safe 0 -i "$CONCAT" \
             -i "$AUDIO" \
