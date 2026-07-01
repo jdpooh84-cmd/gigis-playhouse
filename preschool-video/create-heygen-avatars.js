@@ -153,11 +153,13 @@ async function createPhotoAvatar(name, assetId) {
     }),
   });
 
-  // v3 response: { code, data: { avatar_id, status }, message }
-  const avatarId = res.data?.avatar_id ?? res.data?.id ?? res.avatar_id;
-  if (!avatarId) throw new Error(`No avatar_id in create response: ${JSON.stringify(res).slice(0, 300)}`);
-  console.log(`  Avatar created: ${avatarId} (status: ${res.data?.status ?? "unknown"})`);
-  return avatarId;
+  // v3 response: { data: { avatar_group: { id }, avatar_item: { id } } }
+  const avatarItemId = res.data?.avatar_item?.id;
+  const avatarGroupId = res.data?.avatar_group?.id;
+  if (!avatarItemId) throw new Error(`No avatar_item.id in create response: ${JSON.stringify(res).slice(0, 300)}`);
+  console.log(`  Avatar item ID: ${avatarItemId}`);
+  console.log(`  Avatar group ID: ${avatarGroupId}`);
+  return avatarItemId;
 }
 
 async function pollAvatarReady(avatarId, maxWaitMs = 300_000) {
@@ -170,8 +172,8 @@ async function pollAvatarReady(avatarId, maxWaitMs = 300_000) {
       { method: "GET", headers: { "x-api-key": API_KEY } }
     );
 
-    // v3 response: { code, data: { avatar_id, status, name, ... }, message }
-    const status = res.data?.status ?? res.status;
+    // v3 response: { data: { avatar_item: { id, status } } } or flat { data: { status } }
+    const status = res.data?.avatar_item?.status ?? res.data?.status ?? res.status;
     const elapsed = ((Date.now() - start) / 1000).toFixed(0);
 
     console.log(`    [${elapsed}s] Status: ${status}`);
