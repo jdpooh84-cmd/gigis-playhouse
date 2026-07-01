@@ -54,12 +54,12 @@
 | VID-01 | Intro wave/bounce | Meadow | `d3e9a9b0` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_092542_d3e9a9b0-e7c1-4e2a-8dc6-ffd4ee9507a3.mp4 |
 | VID-02 | Hook zoom run | Meadow | `c853e75d` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_092543_c853e75d-f3c2-4ab1-b2a3-613067a4289f.mp4 |
 | VID-03 | Hook freeze pose | Meadow | `71155554` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_092545_71155554-1a61-4b9d-ab25-9466372c0520.mp4 |
-| VID-04 | Verse 1a run | Meadow | `3580af8a` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_092548_3580af8a-1e6d-4ed9-9518-c5ed8c0441b8.mp4 |
+| VID-04 | Verse 1a circle run | Meadow | `85644a8e` | ✅ REGENERATED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_135704_85644a8e-6106-4702-a495-63fd3d347921.mp4 |
 | VID-05 | Verse 1b wiggle | Meadow | `d77a4c6b` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_092550_d77a4c6b-68af-4427-b433-118ec194158e.mp4 |
 | VID-06 | Hook 2 | Meadow | `8b4f037f` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_092551_8b4f037f-b791-4397-974a-775b08efbfa6.mp4 |
 | VID-07 | Verse 2a slow-mo | Stage | `33ab0824` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_092943_33ab0824-911b-437a-9f56-407ef8b50096.mp4 |
-| VID-08 | Verse 2b spin/jump | Stage | `35d9c669` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_092945_35d9c669-b3b3-4b79-a5ac-cf338d5d7e7a.mp4 |
-| VID-09 | Hook 3 | Stage | copy of VID-08 | ✅ SUBSTITUTE | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_092945_35d9c669-b3b3-4b79-a5ac-cf338d5d7e7a.mp4 |
+| VID-08 | Verse 2b spinning tops | Stage | `9f2f1360` | ✅ REGENERATED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_135705_9f2f1360-82ca-459c-aed4-dc72e33a98a1.mp4 |
+| VID-09 | Hook 3 frozen still | Stage | `30d93b7d` | ✅ REGENERATED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_135708_30d93b7d-56a5-4ccd-98ca-b58ae9677acd.mp4 |
 | VID-10 | Bridge count/freeze | Stage | `5e064ed8` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_092949_5e064ed8-94c1-4c94-a6c3-ae81b2c972ff.mp4 |
 | VID-11 | Final Hook | Stage | `eafdaeb0` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_093051_eafdaeb0-d720-477b-82a8-79689ebb2aa1.mp4 |
 | VID-12 | Outro goodbye | Meadow | `39233460` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_103909_39233460-7d56-4d5e-affc-e877adfdb0f6.mp4 |
@@ -70,15 +70,14 @@
 
 | Asset | Status |
 |-------|--------|
-| Final mixed audio | ✅ COMPLETE — `preschool-video/FINAL_AUDIO_ZoomyZoomFreeze.mp3` (3.7MB, 2:39.84) |
-| Final assembled video | ✅ COMPLETE — `preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4` (94MB, 2:39.84, 1920×1080 H.264/AAC, Leo+Zoe human characters) |
+| Audio source | ✅ Suno track only — `preschool-video/audio/episode1/Zoomy_Zoom_Freeze.mp3` (no ElevenLabs stems) |
+| Final assembled video | ✅ REASSEMBLING — `preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4` (1920×1080 H.264/AAC, Leo+Zoe human characters, lyric-matched clips) |
 
 ---
 
 ## Summary
 - 4/4 image references: ✅
 - 7/7 ElevenLabs vocal sections: ✅
-- 12/12 video scenes: ✅ (VID-09 uses VID-08 as substitute; all Leo+Zoe human characters)
-- Music bed: ✅ (Zoomy_Zoom_Freeze.mp3)
-- FINAL_AUDIO mix: ✅ (FINAL_AUDIO_ZoomyZoomFreeze.mp3, 3.7MB, 2:39.84)
-- Final video: ✅ COMPLETE (FINAL_VIDEO_ZoomyZoomFreeze.mp4, 94MB, 2:39.84, 1920×1080 H.264/AAC, Leo+Zoe human characters)
+- 12/12 video scenes: ✅ (VID-04/08/09 regenerated to match lyrics; all Leo+Zoe human characters)
+- Audio: ✅ Suno Zoomy_Zoom_Freeze.mp3 only (no ElevenLabs)
+- Final video: REASSEMBLING via GitHub Actions (1920×1080 H.264/AAC, lyric-matched clips)
