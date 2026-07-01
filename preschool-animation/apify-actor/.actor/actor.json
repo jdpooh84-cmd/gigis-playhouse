@@ -1,0 +1,33 @@
+{
+  "actorSpecification": 1,
+  "name": "animation-qa-analyzer",
+  "title": "Animation QA Analyzer — Children's Video Release Gate",
+  "description": "Strict frame-by-frame QA service for children's animation videos. Extracts keyframes at timeline event boundaries and evaluates freeze immediacy, lyric-action sync, mouth sync, exaggeration, and idle motion using a vision LLM.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "environmentVariables": {},
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "input": ".actor/input_schema.json",
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "views": {
+        "overview": {
+          "title": "QA Result",
+          "transformation": {
+            "fields": ["schemaVersion", "overall", "summary", "freeze_events_passed", "freeze_events_failed"]
+          },
+          "display": {
+            "component": "table",
+            "properties": {
+              "schemaVersion": { "label": "Schema", "format": "text" },
+              "overall":       { "label": "Result", "format": "text" },
+              "summary":       { "label": "Summary", "format": "text" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

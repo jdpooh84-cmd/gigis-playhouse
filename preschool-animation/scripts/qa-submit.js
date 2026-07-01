@@ -1,23 +1,24 @@
 #!/usr/bin/env node
 /**
- * Submits a rendered MP4 to Apify for video LLM QA.
+ * Submits a rendered MP4 to the custom animation-qa-analyzer Apify actor.
  *
- * Strategy: pass a public video URL rather than base64 (Apify input limit is ~9MB;
- * a full-length MP4 is 100–300MB). The video must already be accessible at a URL.
- * In CI, the video is uploaded as a GitHub Actions artifact first and the artifact
- * download URL is passed here. Locally, you can host via `npx serve out/` and pass
- * http://localhost:3000/draft.mp4, or upload it anywhere publicly accessible.
+ * Uses the `run-sync-get-dataset-items` endpoint — a single HTTP call that starts
+ * the run and returns dataset items synchronously (waits up to 5 minutes).
  *
  * Usage:
  *   node scripts/qa-submit.js --url <https://...video.mp4>
  *   node scripts/qa-submit.js --file out/draft.mp4   (uploads to Apify KV store first)
  *
- * Requires env var: APIFY_TOKEN
+ * Required env vars:
+ *   APIFY_TOKEN          — Apify API token
+ *   APIFY_QA_ACTOR_ID    — deployed actor ID, e.g. "yourname/animation-qa-analyzer"
+ *   ANTHROPIC_API_KEY    — passed through to the actor as anthropicApiKey
+ *
  * Outputs: qa-result.json in the project root
  *
  * Exit codes:
  *   0 = QA PASS
- *   1 = error (network, missing token, Apify failure, malformed response)
+ *   1 = error (network, missing token, Apify failure, malformed response, schema mismatch)
  *   2 = QA FAIL (video evaluated, defects found)
  */
 
@@ -32,6 +33,14 @@ if (!APIFY_TOKEN) {
   console.error("Set it via: export APIFY_TOKEN=apify_api_...");
   process.exit(1);
 }
+
+const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
+if (!ANTHROPIC_API_KEY) {
+  console.error("FATAL: ANTHROPIC_API_KEY environment variable is not set.");
+  process.exit(1);
+}
+
+const EXPECTED_SCHEMA_VERSION = "1.0";
 
 // Parse args
 let videoUrl = null;
@@ -52,61 +61,14 @@ if (localFile && !fs.existsSync(localFile)) {
   process.exit(1);
 }
 
-// QA prompt — strict per the project requirements
-const QA_PROMPT = `You are a strict QA engineer evaluating a preschool children's animation video.
-The song is "ZOOMY ZOOM FREEZE." The lyrics ARE commands. Leo and Zoe are human child characters.
-
-MANDATORY CHECKS — every one must PASS:
-
-1. FREEZE_IMMEDIACY [critical]
-   On every "FREEZE!" lyric: ALL body motion (arms, legs, torso, head) must stop within 1 video frame.
-   Mouth may remain open if the vocalist continues singing. Idle drift, sway, or residual physics motion are NOT allowed.
-   Rate EACH freeze occurrence separately.
-
-2. LYRIC_ACTION_SYNC [critical]
-   For every command lyric (Zoom, Wiggle, Shake, Spin, Jump, Pump arms, Point camera):
-   The matching body action must begin on the exact beat of that lyric, not before or after.
-   If the action is wrong (e.g., wiggling when the lyric says "jump") — FAIL.
-   If the action starts more than 0.3 seconds late — FAIL.
-
-3. MOUTH_SYNC [major]
-   Mouth must be open when words are being sung. Mouth must close during rests and pauses.
-   Acceptable drift: ≤ 2 frames (0.067s at 30fps).
-
-4. ACTION_DURATION [major]
-   Actions must continue for the full lyric phrase duration and stop when the phrase ends.
-   Early stop before the lyric ends: FAIL.
-   Overrun into the next phrase: FAIL.
-
-5. NO_IDLE_MOTION [critical]
-   During any FREEZE event: zero body drift, sway, or idle physics. Characters must look like statues.
-
-6. EXAGGERATION [major]
-   Every action (zoom run, wiggle, jump, spin, arm pump) must be visually large and immediately
-   readable by a 4-year-old. Subtle or small movements are a FAIL.
-
-For each rule found to be FAIL or PARTIAL, output one finding entry.
-For rules that fully pass, also output them (status: "PASS").
-
-Return ONLY this JSON structure (no markdown, no explanation text, raw JSON only):
-{
-  "overall": "PASS" | "FAIL",
-  "critical_failures": <integer count of critical severity findings>,
-  "findings": [
-    {
-      "rule": "<rule name from list above>",
-      "status": "PASS" | "FAIL" | "PARTIAL",
-      "severity": "critical" | "major" | "minor",
-      "lyric_event": "<the lyric text where the issue occurs, or 'n/a'>",
-      "frame_estimate": <time in seconds as a number, or null>,
-      "description": "<one sentence describing exactly what you observed>"
-    }
-  ],
-  "freeze_events_total": <integer>,
-  "freeze_events_passed": <integer>,
-  "freeze_events_failed": <integer>,
-  "summary": "<one sentence overall verdict>"
-}`;
+// Load timeline.json to pass as grounding context to the actor
+let timelineJson = null;
+try {
+  const tlPath = path.join(__dirname, "..", "timeline.json");
+  if (fs.existsSync(tlPath)) timelineJson = JSON.parse(fs.readFileSync(tlPath, "utf8"));
+} catch (e) {
+  console.warn("[qa-submit] Could not load timeline.json — actor will run without event context.");
+}
 
 function httpsPost(options, body) {
   return new Promise((resolve, reject) => {
@@ -191,32 +153,28 @@ async function run() {
     console.log(`Uploaded. URL: ${videoUrl.split("?")[0]}...`);
   }
 
-  console.log("Submitting QA job to Apify…");
-
-  // Use the real Apify video analysis actor
-  // apify/movie-cast-extractor and similar exist, but for LLM-based QA we use
-  // the multimodal analysis approach via the standard REST API with a video URL.
-  // Actor: "apify/web-scraper" is not right. Using GPT-4V or Claude multimodal
-  // via the Apify platform requires a custom actor. We document the correct actor
-  // below and the caller must have it published in their Apify account.
-  //
-  // Required: deploy scripts/apify-qa-actor/ to your Apify account and set
-  // APIFY_QA_ACTOR_ID env var, OR use the public actor if available.
-  const actorId = process.env.APIFY_QA_ACTOR_ID || "apify/claude-video-analyzer";
+  const actorId = process.env.APIFY_QA_ACTOR_ID;
+  if (!actorId) {
+    console.error("FATAL: APIFY_QA_ACTOR_ID environment variable is not set.");
+    console.error("Deploy the actor from preschool-animation/apify-actor/ and set APIFY_QA_ACTOR_ID.");
+    process.exit(1);
+  }
 
   const inputPayload = JSON.stringify({
     videoUrl,
-    prompt: QA_PROMPT,
+    anthropicApiKey: ANTHROPIC_API_KEY,
+    timelineJson,
     modelName: process.env.QA_MODEL || "claude-haiku-4-5-20251001",
-    maxTokens: 3000,
-    outputJsonOnly: true,
+    expectedSchemaVersion: EXPECTED_SCHEMA_VERSION,
   });
 
-  let runResult;
+  // run-sync-get-dataset-items: one call, waits for completion, returns dataset directly
+  console.log(`Submitting to Apify actor ${actorId} (run-sync-get-dataset-items)…`);
+  let items;
   try {
-    runResult = await httpsPost({
+    items = await httpsPost({
       hostname: "api.apify.com",
-      path: `/v2/acts/${encodeURIComponent(actorId)}/runs?token=${APIFY_TOKEN}&waitForFinish=300`,
+      path: `/v2/acts/${encodeURIComponent(actorId)}/run-sync-get-dataset-items?token=${APIFY_TOKEN}&timeout=300`,
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -224,34 +182,8 @@ async function run() {
       },
     }, inputPayload);
   } catch (err) {
-    console.error(`Apify run submission failed: ${err.message}`);
-    console.error("Check APIFY_QA_ACTOR_ID and that the actor is deployed in your account.");
-    process.exit(1);
-  }
-
-  if (!runResult?.data) {
-    console.error("Apify returned no run data:", JSON.stringify(runResult).slice(0, 400));
-    process.exit(1);
-  }
-
-  const runStatus = runResult.data.status;
-  const runId = runResult.data.id;
-  console.log(`Run ${runId} status: ${runStatus}`);
-
-  if (runStatus !== "SUCCEEDED") {
-    console.error(`Run did not succeed (status: ${runStatus}). Check https://console.apify.com/actors/runs/${runId}`);
-    process.exit(1);
-  }
-
-  // Fetch dataset items
-  const datasetId = runResult.data.defaultDatasetId;
-  let items;
-  try {
-    items = await httpsGet(
-      `https://api.apify.com/v2/datasets/${datasetId}/items?token=${APIFY_TOKEN}`
-    );
-  } catch (err) {
-    console.error(`Failed to fetch dataset ${datasetId}: ${err.message}`);
+    console.error(`Apify run-sync failed: ${err.message}`);
+    console.error("Check APIFY_QA_ACTOR_ID, APIFY_TOKEN, and that the actor is deployed.");
     process.exit(1);
   }
 
@@ -278,36 +210,61 @@ async function run() {
     process.exit(1);
   }
 
-  // STRICT: validate required fields exist
-  if (typeof qa.overall !== "string") {
-    console.error("FATAL: QA output missing 'overall' field. Cannot determine pass/fail.");
+  // STRICT: validate schemaVersion before trusting any other field
+  if (typeof qa.schemaVersion !== "string" || qa.schemaVersion.trim() === "") {
+    console.error("FATAL: QA output missing 'schemaVersion'. Actor may be misconfigured or wrong version.");
     console.error("Output:", JSON.stringify(qa).slice(0, 400));
+    process.exit(1);
+  }
+  if (qa.schemaVersion !== EXPECTED_SCHEMA_VERSION) {
+    console.error(`FATAL: Schema version mismatch. Got "${qa.schemaVersion}", expected "${EXPECTED_SCHEMA_VERSION}".`);
+    console.error("Re-deploy the actor or update EXPECTED_SCHEMA_VERSION in this script.");
+    process.exit(1);
+  }
+
+  // STRICT: validate remaining required fields
+  if (typeof qa.overall !== "string") {
+    console.error("FATAL: QA output missing 'overall' field.");
     process.exit(1);
   }
   if (!Array.isArray(qa.findings)) {
     console.error("FATAL: QA output missing 'findings' array.");
     process.exit(1);
   }
-  if (typeof qa.freeze_events_failed !== "number") {
-    console.error("FATAL: QA output missing 'freeze_events_failed' count.");
+  if (qa.findings.length === 0) {
+    console.error("FATAL: QA findings array is empty. Actor produced no evaluation.");
     process.exit(1);
   }
+
+  // Compute freeze counts from findings (new schema — no top-level freeze_events_* fields)
+  const freezeFindings = qa.findings.filter((f) => f.category === "FREEZE_IMMEDIACY");
+  const freezeTotal = freezeFindings.length;
+  const freezePassed = freezeFindings.filter((f) => f.pass_or_fail === "PASS").length;
+  const freezeFailed = freezeTotal - freezePassed;
+  const criticalFails = qa.findings.filter(
+    (f) => f.pass_or_fail === "FAIL" && f.severity === "critical"
+  ).length;
+
+  // Augment result with computed counts for release-gate.js compatibility
+  qa._computed = { freezeTotal, freezePassed, freezeFailed, criticalFails };
 
   const outputPath = path.join(__dirname, "..", "qa-result.json");
   fs.writeFileSync(outputPath, JSON.stringify(qa, null, 2));
   console.log(`QA result written to qa-result.json`);
 
   console.log("\n=== QA RESULT ===");
-  console.log(`Overall:          ${qa.overall}`);
-  console.log(`Critical failures: ${qa.critical_failures}`);
-  console.log(`Freeze passed:     ${qa.freeze_events_passed} / total ${qa.freeze_events_total}`);
-  console.log(`Freeze failed:     ${qa.freeze_events_failed}`);
+  console.log(`Schema version:    ${qa.schemaVersion}`);
+  console.log(`Overall:           ${qa.overall}`);
+  console.log(`Critical failures: ${criticalFails}`);
+  console.log(`Freeze passed:     ${freezePassed} / total ${freezeTotal}`);
   console.log(`Summary:           ${qa.summary}`);
 
-  if (qa.findings.filter((f) => f.status !== "PASS").length > 0) {
-    console.log("\nFindings:");
-    for (const f of qa.findings.filter((f) => f.status !== "PASS")) {
-      console.log(`  [${f.severity.toUpperCase()}] ${f.rule} — ${f.description}`);
+  const fails = qa.findings.filter((f) => f.pass_or_fail === "FAIL");
+  if (fails.length > 0) {
+    console.log("\nFailed checks:");
+    for (const f of fails) {
+      console.log(`  [${f.severity.toUpperCase()}] ${f.category}  event=${f.event_id}  t=${f.timestamp_start}–${f.timestamp_end}s`);
+      console.log(`      ${f.correction_note}`);
     }
   }
 

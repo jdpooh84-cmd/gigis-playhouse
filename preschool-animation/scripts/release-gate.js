@@ -63,9 +63,47 @@ if (Array.isArray(qaRaw)) {
   qa = qaRaw;
 }
 
-if (!qa || typeof qa.overall !== "string" || !Array.isArray(qa.findings)) {
-  blocks.push("qa-result.json is missing required fields (overall, findings)");
+// STRICT: malformed response = hard block
+if (!qa || typeof qa !== "object") {
+  blocks.push("qa-result.json is not a valid object — actor response is malformed");
+} else {
+  if (typeof qa.schemaVersion !== "string" || qa.schemaVersion.trim() === "") {
+    blocks.push("qa-result.json missing 'schemaVersion' — actor may be wrong version or misconfigured");
+  } else if (qa.schemaVersion !== "1.0") {
+    blocks.push(`qa-result.json schemaVersion "${qa.schemaVersion}" !== expected "1.0" — re-deploy actor`);
+  }
+  if (typeof qa.overall !== "string") {
+    blocks.push("qa-result.json missing 'overall' field");
+  }
+  if (!Array.isArray(qa.findings)) {
+    blocks.push("qa-result.json missing 'findings' array");
+  } else if (qa.findings.length === 0) {
+    blocks.push("qa-result.json 'findings' array is empty — actor produced no evaluation");
+  }
 }
+
+// If basic schema is broken, emit report and exit immediately — downstream checks would crash
+if (blocks.length > 0 && (!qa?.findings)) {
+  const report = { generated_at: new Date().toISOString(), overall: "FAIL", block_count: blocks.length, blocks, events: [] };
+  fs.writeFileSync(path.join(ROOT, "qa_report.json"), JSON.stringify(report, null, 2));
+  fs.writeFileSync(path.join(ROOT, "release_gate_report.md"),
+    `# QA & Release Gate Report\n\n## RELEASE GATE: ❌ BLOCKED\n\n### Blocking Issues\n${blocks.map((b, i) => `${i + 1}. ${b}`).join("\n")}\n`);
+  console.error(`\n❌ RELEASE BLOCKED — ${blocks.length} issue(s):`);
+  blocks.forEach((b, i) => console.error(`  ${i + 1}. ${b}`));
+  process.exit(1);
+}
+
+// Compute freeze counts from findings (new schema uses category/pass_or_fail, not top-level fields)
+const _computed = qa._computed ?? (() => {
+  const ff = (qa.findings ?? []).filter((f) => f.category === "FREEZE_IMMEDIACY");
+  const freezeTotal = ff.length;
+  const freezePassed = ff.filter((f) => f.pass_or_fail === "PASS").length;
+  const freezeFailed = freezeTotal - freezePassed;
+  const criticalFails = (qa.findings ?? []).filter(
+    (f) => f.pass_or_fail === "FAIL" && f.severity === "critical"
+  ).length;
+  return { freezeTotal, freezePassed, freezeFailed, criticalFails };
+})();
 
 // --- Check 1: All freeze events passed pixel-diff verification ---
 
@@ -86,9 +124,9 @@ if (freezeEventsFailed.length > 0) {
 
 // --- Check 2: Apify QA freeze counts ---
 
-if (qa && typeof qa.freeze_events_failed === "number" && qa.freeze_events_failed > 0) {
+if (_computed.freezeFailed > 0) {
   blocks.push(
-    `Apify QA: ${qa.freeze_events_failed} freeze event(s) failed LLM evaluation`
+    `Apify QA: ${_computed.freezeFailed} freeze event(s) failed LLM evaluation`
   );
 }
 
@@ -100,8 +138,8 @@ if (qa && qa.overall !== "PASS") {
 
 // --- Check 4: Critical failures count ---
 
-if (qa && typeof qa.critical_failures === "number" && qa.critical_failures > 0) {
-  blocks.push(`Apify QA: ${qa.critical_failures} critical failure(s) reported`);
+if (_computed.criticalFails > 0) {
+  blocks.push(`Apify QA: ${_computed.criticalFails} critical failure(s) reported`);
 }
 
 // --- Check 5: LYRIC_ACTION_SYNC and NO_IDLE_MOTION ---
@@ -109,25 +147,25 @@ if (qa && typeof qa.critical_failures === "number" && qa.critical_failures > 0) 
 if (qa?.findings) {
   const hardBlocks = qa.findings.filter(
     (f) =>
-      f.status !== "PASS" &&
-      (f.rule === "LYRIC_ACTION_SYNC" || f.rule === "NO_IDLE_MOTION")
+      f.pass_or_fail !== "PASS" &&
+      (f.category === "LYRIC_ACTION_SYNC" || f.category === "NO_IDLE_MOTION")
   );
   for (const f of hardBlocks) {
     blocks.push(
-      `Apify QA [${f.rule}/${f.severity}]: "${f.lyric_event ?? "?"}" at t=${f.frame_estimate}s — ${f.description}`
+      `Apify QA [${f.category}/${f.severity}]: "${f.lyric ?? "?"}" event=${f.event_id} t=${f.timestamp_start}–${f.timestamp_end}s — ${f.correction_note}`
     );
   }
 
   // Check EXAGGERATION at major/critical severity
   const exagFails = qa.findings.filter(
     (f) =>
-      f.status !== "PASS" &&
-      f.rule === "EXAGGERATION" &&
+      f.pass_or_fail !== "PASS" &&
+      f.category === "EXAGGERATION" &&
       (f.severity === "major" || f.severity === "critical")
   );
   for (const f of exagFails) {
     blocks.push(
-      `Apify QA [EXAGGERATION/${f.severity}]: "${f.lyric_event ?? "?"}" at t=${f.frame_estimate}s — ${f.description}`
+      `Apify QA [EXAGGERATION/${f.severity}]: "${f.lyric ?? "?"}" event=${f.event_id} t=${f.timestamp_start}–${f.timestamp_end}s — ${f.correction_note}`
     );
   }
 }
@@ -155,15 +193,18 @@ const allEvents = timeline.events.map((ev) => {
   const freezeR = freezeByEvent[ev.id];
   let qaFinding = null;
   if (qa?.findings) {
-    const ft = ev.start_sec;
+    // Match by event_id first, then fall back to timestamp proximity
     qaFinding = qa.findings.find(
-      (f) => f.frame_estimate != null && Math.abs(f.frame_estimate - ft) < 1.0 && f.status !== "PASS"
+      (f) => f.pass_or_fail !== "PASS" && f.event_id === ev.id
+    ) ?? qa.findings.find(
+      (f) => f.pass_or_fail !== "PASS" &&
+             Math.abs(f.timestamp_start - ev.start_sec) < 1.0
     );
   }
 
   const isFreezeEvent = ev.action === "freeze" || ev.freeze_state === true;
   const freezeStatus = freezeR ? freezeR.status : (isFreezeEvent ? "MISSING" : "N/A");
-  const qaStatus = qaFinding ? `${qaFinding.status}(${qaFinding.rule}/${qaFinding.severity})` : "PASS";
+  const qaStatus = qaFinding ? `${qaFinding.pass_or_fail}(${qaFinding.category}/${qaFinding.severity})` : "PASS";
   const eventStatus =
     (freezeStatus === "PASS" || freezeStatus === "N/A") && qaStatus === "PASS" ? "PASS" : "FAIL";
 
@@ -188,10 +229,11 @@ const qaReport = {
   overall: blocks.length === 0 ? "PASS" : "FAIL",
   block_count: blocks.length,
   blocks,
+  apify_schema_version: qa?.schemaVersion ?? "MISSING",
   apify_overall: qa?.overall ?? "MISSING",
-  apify_critical_failures: qa?.critical_failures ?? "MISSING",
-  apify_freeze_passed: qa?.freeze_events_passed ?? "MISSING",
-  apify_freeze_failed: qa?.freeze_events_failed ?? "MISSING",
+  apify_critical_failures: _computed.criticalFails,
+  apify_freeze_passed: _computed.freezePassed,
+  apify_freeze_failed: _computed.freezeFailed,
   pixel_diff_freeze_passed: freezeResults.filter((r) => r.status === "PASS").length,
   pixel_diff_freeze_failed: freezeResults.filter((r) => r.status !== "PASS").length,
   events: allEvents,
@@ -225,8 +267,8 @@ const blockList = blocks.length > 0
   : "";
 
 const apifyFindings = (qa?.findings ?? [])
-  .filter((f) => f.status !== "PASS")
-  .map((f) => `| ${f.rule} | ${f.severity} | ${f.status} | ${(f.lyric_event ?? "").slice(0, 40)} | ${f.frame_estimate ?? "?"} | ${(f.description ?? "").slice(0, 80)} |`)
+  .filter((f) => f.pass_or_fail !== "PASS")
+  .map((f) => `| ${f.category} | ${f.severity} | ${f.pass_or_fail} | ${(f.lyric ?? "").slice(0, 40)} | ${f.timestamp_start ?? "?"}–${f.timestamp_end ?? "?"} | ${(f.correction_note ?? "").slice(0, 80)} |`)
   .join("\n");
 
 const reportMd = `# QA & Release Gate Report
@@ -246,12 +288,13 @@ ${rows}
 
 ## Apify QA Findings
 
+**Schema version:** ${qa?.schemaVersion ?? "MISSING"}
 **Overall:** ${qa?.overall ?? "MISSING"}
-**Critical failures:** ${qa?.critical_failures ?? "MISSING"}
-**Freeze events passed:** ${qa?.freeze_events_passed ?? "MISSING"} / total ${qa?.freeze_events_total ?? "MISSING"}
+**Critical failures:** ${_computed.criticalFails}
+**Freeze events passed:** ${_computed.freezePassed} / total ${_computed.freezeTotal}
 **Summary:** ${qa?.summary ?? "MISSING"}
 
-${apifyFindings ? `| Rule | Severity | Status | Lyric Event | Time (s) | Description |\n|------|----------|--------|-------------|----------|-------------|\n${apifyFindings}` : "_No non-PASS findings._"}
+${apifyFindings ? `| Category | Severity | Verdict | Lyric | Time (s) | Correction Note |\n|----------|----------|---------|-------|----------|----------------|\n${apifyFindings}` : "_No failed findings._"}
 
 ---
 
@@ -277,7 +320,7 @@ console.log(
   `Pixel-diff freeze: ${qaReport.pixel_diff_freeze_passed} PASS / ${qaReport.pixel_diff_freeze_failed} FAIL`
 );
 console.log(
-  `Apify QA: ${qa?.overall ?? "MISSING"} — ${qa?.critical_failures ?? "?"} critical failures`
+  `Apify QA: ${qa?.overall ?? "MISSING"} — ${_computed.criticalFails} critical failures (schema ${qa?.schemaVersion ?? "MISSING"})`
 );
 
 if (blocks.length > 0) {

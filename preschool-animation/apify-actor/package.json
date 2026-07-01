@@ -1,0 +1,16 @@
+{
+  "name": "animation-qa-analyzer",
+  "version": "0.1.0",
+  "description": "Strict frame-by-frame QA service for children's animation videos",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "apify": "^3.2.2",
+    "@anthropic-ai/sdk": "^0.30.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

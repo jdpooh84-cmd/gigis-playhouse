@@ -76,6 +76,7 @@ jobs:
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           APIFY_QA_ACTOR_ID: ${{ secrets.APIFY_QA_ACTOR_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           # Pass the video URL if available from a public artifact URL,
           # otherwise fall back to the local file (will upload to Apify KV store)

@@ -1,0 +1,73 @@
+{
+  "title": "Animation QA Analyzer — Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "videoUrl": {
+      "title": "Video URL",
+      "type": "string",
+      "description": "Public HTTPS URL to the rendered MP4. Must be directly downloadable (no auth redirect). Recommended: Apify KV store public URL, GitHub Release asset public URL, or S3 pre-signed URL. Do NOT pass base64 data here.",
+      "editor": "textfield"
+    },
+    "timelineJson": {
+      "title": "Timeline JSON (events array)",
+      "type": "object",
+      "description": "The full timeline.json object from the animation project. If omitted, the actor evaluates the video without event-specific context — lower accuracy.",
+      "editor": "json"
+    },
+    "anthropicApiKey": {
+      "title": "Anthropic API Key",
+      "type": "string",
+      "description": "Anthropic API key for Claude vision calls. Required if modelProvider is 'anthropic'. Keep this secret.",
+      "editor": "textfield",
+      "isSecret": true
+    },
+    "modelName": {
+      "title": "Model Name",
+      "type": "string",
+      "description": "Vision-capable LLM to use for evaluation. claude-haiku-4-5-20251001 is recommended for speed and cost; claude-sonnet-5 for higher accuracy.",
+      "default": "claude-haiku-4-5-20251001",
+      "editor": "textfield"
+    },
+    "expectedSchemaVersion": {
+      "title": "Expected Output Schema Version",
+      "type": "string",
+      "description": "The pipeline uses this to guard against actor version drift. Must match the actor's output schemaVersion field.",
+      "default": "1.0",
+      "editor": "textfield"
+    },
+    "keyframeIntervalSec": {
+      "title": "Keyframe interval (seconds)",
+      "type": "number",
+      "description": "Extract one keyframe every N seconds as a baseline scan. Freeze events always get additional frames regardless of this setting.",
+      "default": 2.0,
+      "minimum": 0.5,
+      "maximum": 10
+    },
+    "maxKeyframes": {
+      "title": "Max keyframes",
+      "type": "integer",
+      "description": "Hard cap on total keyframes extracted. Keeps API cost bounded. 80 is sufficient for a 2.5-minute video at 2s intervals.",
+      "default": 80,
+      "minimum": 10,
+      "maximum": 300
+    },
+    "frameWidth": {
+      "title": "Keyframe width (pixels)",
+      "type": "integer",
+      "description": "Width to resize each extracted keyframe before sending to the LLM. 640px is enough for motion/pose evaluation and keeps token usage low.",
+      "default": 640,
+      "minimum": 320,
+      "maximum": 1280
+    },
+    "batchSize": {
+      "title": "Frames per LLM batch",
+      "type": "integer",
+      "description": "Number of keyframes sent to the LLM in one API call. Lower = more focused analysis per call, higher = fewer API calls.",
+      "default": 10,
+      "minimum": 3,
+      "maximum": 20
+    }
+  },
+  "required": ["videoUrl", "anthropicApiKey"]
+}
