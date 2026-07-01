@@ -47,47 +47,96 @@ jobs:
         run: node scripts/download-assets.js
 
       - name: Render draft
+        id: render
         working-directory: preschool-animation
         run: |
           mkdir -p out
           npx remotion render ZoomyZoomFreeze out/draft.mp4 --overwrite
           ls -lh out/draft.mp4
 
-      - name: Verify freeze frames
+      # Freeze pixel-diff verification — exits 1 on any failure
+      - name: Verify freeze frames (pixel-diff)
+        id: freeze-verify
         working-directory: preschool-animation
         run: node scripts/verify-freeze-frames.js out/draft.mp4
 
-      - name: Submit to Apify QA
+      # Upload video so qa-submit.js can pass a URL instead of base64
+      - name: Upload draft video for QA URL access
+        id: upload-draft
+        uses: actions/upload-artifact@v4
+        with:
+          name: draft-for-qa
+          path: preschool-animation/out/draft.mp4
+          retention-days: 1
+
+      # Apify LLM video QA — exits 2 on QA fail, exits 1 on error
+      - name: Submit to Apify video QA
+        id: apify-qa
         working-directory: preschool-animation
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-        run: node scripts/qa-submit.js out/draft.mp4
+          APIFY_QA_ACTOR_ID: ${{ secrets.APIFY_QA_ACTOR_ID }}
+        run: |
+          # Pass the video URL if available from a public artifact URL,
+          # otherwise fall back to the local file (will upload to Apify KV store)
+          node scripts/qa-submit.js --file out/draft.mp4
 
-      - name: Upload QA result artifact
+      # Release gate — reads both freeze-verify-results.json and qa-result.json
+      # and produces qa_report.json + release_gate_report.md
+      # This step is the AUTHORITATIVE pass/fail for the release decision
+      - name: Release gate
+        id: release-gate
+        working-directory: preschool-animation
+        run: node scripts/release-gate.js
+
+      # --- Artifacts (always uploaded so failures are diagnosable) ---
+
+      - name: Upload qa_report.json
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: qa-result
-          path: preschool-animation/qa-result.json
-          retention-days: 14
+          name: qa-report-json
+          path: preschool-animation/qa_report.json
+          retention-days: 30
 
-      - name: Upload freeze verify artifact
+      - name: Upload release_gate_report.md
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-gate-report
+          path: preschool-animation/release_gate_report.md
+          retention-days: 30
+
+      - name: Upload freeze-verify-results.json
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: freeze-verify-results
           path: preschool-animation/freeze-verify-results.json
-          retention-days: 14
+          retention-days: 30
+
+      - name: Upload qa-result.json
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: apify-qa-result
+          path: preschool-animation/qa-result.json
+          retention-days: 30
 
       - name: Upload rendered draft
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: draft-mp4
           path: preschool-animation/out/draft.mp4
           retention-days: 7
 
+      # --- Release: ONLY if the release gate step explicitly passed ---
+      # `steps.release-gate.outcome == 'success'` requires release-gate.js
+      # to exit 0. A skipped or failed release-gate step will block this.
+
       - name: Publish FINAL as GitHub Release
-        if: success()
+        if: steps.release-gate.outcome == 'success'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -97,5 +146,6 @@ jobs:
           gh release create "$TAG" \
             --repo jdpooh84-cmd/gigis-playhouse \
             --title "Zoomy Zoom Freeze — Remotion Animation (QA Passed)" \
-            --notes "Deterministic Remotion render | All freeze events verified | QA passed" \
-            "preschool-animation/out/FINAL_Zoomy_Zoom_Freeze_Animation.mp4"
+            --notes "$(cat preschool-animation/release_gate_report.md)" \
+            "preschool-animation/out/FINAL_Zoomy_Zoom_Freeze_Animation.mp4" \
+            "preschool-animation/qa_report.json"
