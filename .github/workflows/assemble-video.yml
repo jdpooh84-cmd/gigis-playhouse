@@ -1,0 +1,82 @@
+name: Assemble ZOOMY ZOOM FREEZE Video
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: claude/preschool-cartoon-video-y50npq
+          fetch-depth: 1
+
+      - name: Install ffmpeg
+        run: sudo apt-get install -y ffmpeg
+
+      - name: Download video clips
+        run: |
+          mkdir -p preschool-video/video/episode1
+          cd preschool-video/video/episode1
+
+          dl() { local n="$1" u="$2"; echo "Downloading $n ..."; curl -fsSL --retry 3 --retry-delay 2 -o "$n" "$u"; echo "  done: $(du -sh $n)"; }
+
+          dl VID-01.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_021940_69ab762b-05e7-4722-aa07-cd6d535c5c1a.mp4"
+          dl VID-02.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_021952_624ab9bc-2f5f-439e-a020-97b0c3a5d47a.mp4"
+          dl VID-03.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_021954_e4786021-5efb-4a80-a1d3-8239d8a5c1d4.mp4"
+          dl VID-04.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_021957_9fc84309-8343-41ea-bde6-0627ecdbd549.mp4"
+          dl VID-05.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022000_5b0a8fc6-c95f-484e-8aef-83c038cd52ee.mp4"
+          dl VID-06.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_070744_d260314d-e517-4aa7-95a5-0bb75eeb262f.mp4"
+          dl VID-07.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_070745_c0382875-1157-491e-b0c7-d1d77a339a50.mp4"
+          dl VID-08.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022010_e1903d87-9422-481d-9a07-5d9495ad7d5e.mp4"
+          cp VID-08.mp4 VID-09.mp4 && echo "  VID-09.mp4 (copy of VID-08)"
+          dl VID-10.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022401_95515711-51d3-4022-ae0e-430b8e4e3048.mp4"
+          dl VID-11.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022405_96e3b087-bf43-4c1d-b5d0-5a95aa2c8bc5.mp4"
+          dl VID-12.mp4 "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022530_bcf26b1f-435f-4053-a0bd-9b638a471f7a.mp4"
+
+          echo "=== All clips ==="
+          ls -lh *.mp4
+
+      - name: Assemble final video
+        run: |
+          VIDEO_DIR="$GITHUB_WORKSPACE/preschool-video/video/episode1"
+          AUDIO="$GITHUB_WORKSPACE/preschool-video/FINAL_AUDIO_ZoomyZoomFreeze.mp3"
+          OUTPUT="$GITHUB_WORKSPACE/preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4"
+          CONCAT="$VIDEO_DIR/concat.txt"
+
+          # Build concat list with absolute paths
+          rm -f "$CONCAT"
+          for i in 01 02 03 04 05 06 07 08 09 10 11 12; do
+            echo "file '$VIDEO_DIR/VID-$i.mp4'" >> "$CONCAT"
+          done
+          cat "$CONCAT"
+
+          # Assemble: loop 60s of clips to fill 2:39 audio
+          ffmpeg -y \
+            -stream_loop -1 -f concat -safe 0 -i "$CONCAT" \
+            -i "$AUDIO" \
+            -vf "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,fade=t=in:st=0:d=1,fade=t=out:st=158:d=1" \
+            -af "afade=t=in:st=0:d=1,afade=t=out:st=158:d=1" \
+            -c:v libx264 -preset medium -crf 23 \
+            -c:a aac -b:a 192k -ar 48000 \
+            -pix_fmt yuv420p \
+            -map 0:v -map 1:a \
+            -shortest \
+            "$OUTPUT"
+
+          echo "=== Quality Check ==="
+          ffmpeg -i "$OUTPUT" 2>&1 | grep -E 'Duration|Video:|Audio:' || true
+          echo "File size: $(du -sh $OUTPUT)"
+
+      - name: Commit and push
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add preschool-video/video/episode1/
+          git add preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4
+          git commit -m "ZOOMY ZOOM FREEZE — final video assembled"
+          git push origin claude/preschool-cartoon-video-y50npq
