@@ -46,8 +46,6 @@ jobs:
       - name: Verify clips present
         run: |
           cd preschool-video/video/episode1
-          echo '=== Clip inventory ==='
-          ls -lh VID-*.mp4
           for i in 01 02 03 04 05 06 07 08 09 10 11 12; do
             [ -s "VID-$i.mp4" ] || { echo "MISSING: VID-$i.mp4"; exit 1; }
           done
@@ -74,7 +72,7 @@ jobs:
             -i "$AUDIO" \
             -vf "scale=1920:1080:force_original_aspect_ratio=decrease,pad=1920:1080:(ow-iw)/2:(oh-ih)/2,fade=t=in:st=0:d=1,fade=t=out:st=158:d=1" \
             -af "afade=t=in:st=0:d=1,afade=t=out:st=158:d=1" \
-            -c:v libx264 -preset medium -crf 26 \
+            -c:v libx264 -preset medium -crf 22 \
             -c:a aac -b:a 192k -ar 48000 \
             -pix_fmt yuv420p \
             -map 0:v -map 1:a \
@@ -85,10 +83,23 @@ jobs:
           ffmpeg -i "$OUTPUT" 2>&1 | grep -E 'Duration|Video:|Audio:' || true
           echo "File size: $(du -sh $OUTPUT)"
 
-      - name: Commit and push
+      - name: Publish as GitHub Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4
-          git commit -m "ZOOMY ZOOM FREEZE — lip+action sync, Suno audio only, 1920x1080"
-          git push origin claude/preschool-cartoon-video-y50npq
+          OUTPUT="$GITHUB_WORKSPACE/preschool-video/FINAL_VIDEO_ZoomyZoomFreeze.mp4"
+          TAG="zoomy-zoom-freeze-ep1"
+
+          # Delete prior release with same tag if it exists
+          gh release delete "$TAG" --repo jdpooh84-cmd/gigis-playhouse --yes 2>/dev/null || true
+          git push origin --delete "refs/tags/$TAG" 2>/dev/null || true
+
+          gh release create "$TAG" \
+            --repo jdpooh84-cmd/gigis-playhouse \
+            --title "ZOOMY ZOOM FREEZE — Episode 1 (Preschool Dance Song)" \
+            --notes "Leo+Zoe lip+action sync | Suno audio only | 1920×1080 H.264/AAC | 2:40" \
+            "$OUTPUT"
+
+          echo ""
+          echo "=== DIRECT DOWNLOAD LINK ==="
+          echo "https://github.com/jdpooh84-cmd/gigis-playhouse/releases/download/$TAG/FINAL_VIDEO_ZoomyZoomFreeze.mp4"
