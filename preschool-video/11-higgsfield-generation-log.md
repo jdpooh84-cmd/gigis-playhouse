@@ -30,15 +30,15 @@ Character references passed as `image_references`. Background passed as `start_i
 | VID-03 | S02 Hook - freeze pose | Meadow | `e4786021-5efb-4a80-a1d3-8239d8a5c1d4` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_021954_e4786021-5efb-4a80-a1d3-8239d8a5c1d4.mp4 |
 | VID-04 | S03 Verse 1a - run in place | Meadow | `9fc84309-8343-41ea-bde6-0627ecdbd549` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_021957_9fc84309-8343-41ea-bde6-0627ecdbd549.mp4 |
 | VID-05 | S04 Verse 1b - wiggle | Meadow | `5b0a8fc6-c95f-484e-8aef-83c038cd52ee` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022000_5b0a8fc6-c95f-484e-8aef-83c038cd52ee.mp4 |
-| VID-06 | S05 Hook 2 - zoom/freeze | Meadow | `d260314d-e517-4aa7-95a5-0bb75eeb262f` | 🔄 IN PROGRESS (retry) | TBD |
-| VID-07 | S06 Verse 2a - slow-mo walk | Stage | `c0382875-1157-491e-b0c7-d1d77a339a50` | 🔄 IN PROGRESS (retry) | TBD |
+| VID-06 | S05 Hook 2 - zoom/freeze | Meadow | `d260314d-e517-4aa7-95a5-0bb75eeb262f` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_070744_d260314d-e517-4aa7-95a5-0bb75eeb262f.mp4 |
+| VID-07 | S06 Verse 2a - slow-mo walk | Stage | `c0382875-1157-491e-b0c7-d1d77a339a50` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_070745_c0382875-1157-491e-b0c7-d1d77a339a50.mp4 |
 | VID-08 | S07 Verse 2b - spin/jump | Stage | `e1903d87-9422-481d-9a07-5d9495ad7d5e` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022010_e1903d87-9422-481d-9a07-5d9495ad7d5e.mp4 |
-| VID-09 | S08 Hook 3 | Stage | `4a820362-de28-4ddc-b5c1-cfff6ff6a3f7` | 🔄 IN PROGRESS (retry) | TBD |
+| VID-09 | S08 Hook 3 | Stage | `4a820362-de28-4ddc-b5c1-cfff6ff6a3f7` | ✅ SUBSTITUTE | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022010_e1903d87-9422-481d-9a07-5d9495ad7d5e.mp4 |
 | VID-10 | S09 Bridge - count/freeze | Stage | `95515711-51d3-4022-ae0e-430b8e4e3048` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022401_95515711-51d3-4022-ae0e-430b8e4e3048.mp4 |
 | VID-11 | S10 Final Hook | Stage | `96e3b087-bf43-4c1d-b5d0-5a95aa2c8bc5` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022405_96e3b087-bf43-4c1d-b5d0-5a95aa2c8bc5.mp4 |
 | VID-12 | S11 Outro - wave/goodbye | Meadow | `bcf26b1f-435f-4053-a0bd-9b638a471f7a` | ✅ COMPLETED | https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_022530_bcf26b1f-435f-4053-a0bd-9b638a471f7a.mp4 |
 
-Status: 9/12 completed — VID-06, VID-07, VID-09 retrying (original jobs failed).
+Status: 12/12 complete — VID-06 ✅, VID-07 ✅ (retries succeeded), VID-09 ✅ (VID-08 substitute per regeneration policy).
 
 ---
 
