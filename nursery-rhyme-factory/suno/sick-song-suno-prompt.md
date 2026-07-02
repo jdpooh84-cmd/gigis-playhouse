@@ -1,18 +1,25 @@
 # Suno Prompt — GP-001
 ## "What Should We Do? (The Feel Better Song)"
-## READY TO PASTE
+## READY TO PASTE — Advanced Mode v5.5 (Mobile)
 
 ---
 
-## STEP 1: PASTE INTO "STYLE OF MUSIC" FIELD
+## SETTINGS BEFORE YOU PASTE
 
-```
-gentle upbeat children's nursery rhyme, warm piano melody, bright ukulele strums, soft hand percussion, tender female lead vocalist with nurturing quality, warm kids choir on chorus, clear diction for toddlers, 100 bpm verse 85 bpm bridge, C major, lullaby feel in bridge section, cheerful resolution in final chorus, acoustic instruments, no distortion, no minor chords, soothing and safe, toddler-friendly, catchy repeating hook, whimsical bells on chorus, warm reverb, clean mix, emotional arc from worried to happy
-```
+| Setting | Value | Why |
+|---------|-------|-----|
+| Mode | Advanced | Required for custom lyrics + styles |
+| Model | v5.5 | Use latest available |
+| Vocal Gender | Female | Nurturing, warm — right for toddler content |
+| Weirdness | 15–20% | Low — keep it clean and predictable |
+| Style Influence | 60–70% | Higher = styles followed more strictly |
+| Instrumental | OFF | You are providing lyrics |
 
 ---
 
-## STEP 2: PASTE INTO "LYRICS" FIELD
+## FIELD 1: LYRICS
+
+Tap the **Lyrics** field and paste:
 
 ```
 [Intro]
@@ -112,46 +119,85 @@ And love makes the sick go away!
 
 ---
 
-## STEP 3: SET TITLE
+## FIELD 2: STYLES
+
+Tap the **Styles** field and paste:
 
 ```
-What Should We Do? (The Feel Better Song) - Gigi's Playhouse
-```
-
----
-
-## GENERATION INSTRUCTIONS
-
-1. Generate **3 variants**
-2. Listen for:
-   - Clear "What should we do?" hook — must be catchy and memorable
-   - Noticeable energy drop in [Bridge] — should feel tender/lullaby
-   - Energy return in final [Chorus] — must feel celebratory
-   - "Achoo!" — should be sung as a sound effect, not as regular lyric
-   - Clean child vocal on verse, choir added on chorus
-
-3. **Reject if:**
-   - Vocals are unintelligible on chorus
-   - Bridge doesn't slow down noticeably
-   - Total duration is under 3:30 or over 5:30
-   - Heavy bass or adult-sounding vocal
-
-4. **Save best variant as:** `output/sick-song-v1/audio/sick-song-v1-FINAL.mp3`
-
----
-
-## BACKUP STYLE PROMPT (if first attempt produces wrong energy)
-
-```
-sweet children's nursery rhyme song, acoustic piano, gentle ukulele, kids choir, warm female vocalist, 100 bpm, major key, simple and catchy, toddler singalong, cheerful and loving, soft percussion, no electronic sounds, storybook feel, cozy and bright, repeating hook, call and response chorus, lullaby bridge
+gentle upbeat children's nursery rhyme, warm acoustic piano, bright ukulele strums, soft hand percussion, tender female lead vocalist, warm kids choir on chorus, clear diction for toddlers, 100 bpm verse 85 bpm bridge, C major, lullaby feel in bridge, cheerful resolution in final chorus, acoustic instruments only, no distortion, no minor chords, soothing and safe, catchy repeating hook, whimsical bells on chorus, warm reverb, clean mix, emotional arc from worried to happy
 ```
 
 ---
 
-## KNOWN SUNO QUIRKS TO WATCH FOR
+## FIELD 3: EXCLUDE STYLES (under More Options)
 
-- If chorus sounds too adult: add "children's choir lead" to style prompt
-- If bridge doesn't slow: add "half-time bridge, lullaby tempo drop" to style
-- If "Achoo!" is ignored: try writing it as "Ah-CHOO!" in lyrics
-- If energy is flat throughout: add "dynamic contrast, quiet verses loud chorus"
-- If outro doesn't fade: add "gentle fade out ending" to style prompt
+Tap **Exclude styles** and paste:
+
+```
+adult voice, minor chords, distortion, rap, heavy bass, dark tones, electronic beats, synthesizer, edgy, aggressive, sad ending
+```
+
+---
+
+## FIELD 4: SONG TITLE
+
+Tap **Song Title** and type:
+
+```
+What Should We Do? (The Feel Better Song)
+```
+
+---
+
+## THEN: HIT CREATE
+
+Generate **3 variants**. Listen to all 3 before choosing.
+
+---
+
+## WHAT TO LISTEN FOR
+
+| Element | Pass | Fail — regenerate |
+|---------|------|-------------------|
+| Chorus hook | "What should we do?" is catchy, singable | Mumbled or unclear |
+| Bridge energy | Noticeably slower, softer, lullaby feel | Same energy as verse |
+| Final chorus | More energetic than first chorus | Flat throughout |
+| "Achoo!" | Sung as a sound effect, fun | Read as flat lyric |
+| Vocal | Warm female, child choir on chorus | Adult male, robotic |
+| Duration | 3:30 – 5:00 | Under 3:30 or over 5:30 |
+
+---
+
+## IF THE FIRST GENERATION IS WRONG
+
+**Problem: Chorus sounds too adult**
+Add to Styles: `children's choir lead, young female vocalist, kindergarten choir`
+
+**Problem: Bridge doesn't slow down**
+Add to Styles: `half-time bridge, lullaby tempo drop, dramatic slowdown at bridge`
+
+**Problem: "Achoo!" ignored or flat**
+Change in lyrics: `Ah-CHOO!` (capitalize the second syllable)
+
+**Problem: Energy is flat throughout**
+Add to Styles: `dynamic contrast, whisper quiet verses, big loud chorus`
+
+**Problem: Too weird / unexpected sounds**
+Lower Weirdness slider to 10%
+
+**Problem: Outro doesn't fade**
+Add to Styles: `gentle fade out ending, music box fade`
+
+---
+
+## BACKUP STYLES PROMPT (if primary produces wrong energy)
+
+```
+sweet children's nursery rhyme, acoustic piano, gentle ukulele, kids choir, warm female vocalist, 100 bpm, major key, simple and catchy, toddler singalong, cheerful and loving, soft percussion, no electronic sounds, storybook feel, cozy and bright, repeating hook, call and response chorus, lullaby bridge
+```
+
+---
+
+## SAVE AS
+
+`output/sick-song-v1/audio/sick-song-v1-FINAL.mp3`

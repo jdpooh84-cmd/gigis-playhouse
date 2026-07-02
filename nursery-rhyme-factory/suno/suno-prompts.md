@@ -6,17 +6,26 @@ Formula library for generating nursery rhyme tracks on Suno AI.
 
 ## HOW TO USE SUNO FOR NURSERY RHYMES
 
-### Interface
-1. Go to Suno → Custom Mode
-2. Paste STYLE PROMPT into the "Style of Music" field
-3. Paste formatted lyrics (with [Verse], [Chorus] tags) into the Lyrics field
-4. Set title
-5. Generate — always generate 2–3 variants, pick best
+### Interface (Advanced Mode v5.5 — Mobile)
+
+The fields in Advanced mode are:
+
+| Field | What to paste |
+|-------|--------------|
+| **Lyrics** | Full formatted lyrics with [section tags] |
+| **Styles** | Style description (instruments, BPM, feel) |
+| **Exclude styles** (More Options) | Negative prompt — what to avoid |
+| **Vocal Gender** | Set to **Female** for all Gigi's Playhouse songs |
+| **Weirdness** | Set to **15–20%** (low = predictable, clean output) |
+| **Style Influence** | Set to **60–70%** (higher = styles followed more strictly) |
+| **Song Title** | Song name only (no channel name needed here) |
 
 ### Critical Suno Settings
-- Always use **Custom Mode** — never use Simple Mode for these songs
+- Always use **Advanced** mode — not Simple/Basic
 - Always include **[section tags]** in lyrics: [Intro], [Verse 1], [Chorus], [Bridge], [Outro]
-- Always include **Suno end tokens** if song should fade: add `[End]` on final line
+- Always include **[End]** on final line if song should fade out
+- **Vocal Gender: Female** — always for this channel
+- **Weirdness: 15–20%** — toddler content needs clean, predictable output
 
 ---
 
