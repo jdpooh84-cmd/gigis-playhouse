@@ -19,19 +19,19 @@ gentle upbeat children's nursery rhyme, warm piano melody, bright ukulele strums
 (cheerful piano, soft humming, birds chirping)
 
 [Verse 1]
-Oh Gigi woke up in the morning light
-She tip-toed down the hall just right
-She peeked inside and what did she see?
-Little Boo was sick as could be!
+Oh someone woke up in the morning light
+And tip-toed down the hall just right
+They peeked inside and what did they see?
+The little one was sick as could be!
 
-Boo was in bed with a red little nose
-Wrapped up tight in a blanket of those
-Achoo! Achoo! Poor Boo said with a sneeze
-"Gigi, Gigi, help me please!"
+There in bed with a red little nose
+All wrapped up tight from head to toes
+Achoo! Achoo! A great big sneeze
+"Oh someone come, come help me please!"
 
 [Chorus]
 What should we do? What should we do?
-Boo doesn't feel well today!
+Someone doesn't feel well today!
 What should we do? What should we do?
 We're going to make it okay!
 
@@ -41,19 +41,19 @@ What should we do? What should we do?
 We'll take care of you!
 
 [Verse 2]
-Gigi got the blanket soft and warm
-She tucked in Boo nice and snug from the storm
-She said "I'll bring you something good to eat!"
+They got a blanket soft and warm
+And tucked the little one snug from the storm
+Said "I'll bring you something good to eat!"
 A warm bowl of soup — a yummy treat!
 
-Mama came in with the gentlest face
-She kissed Boo's forehead in the sweetest place
-"Rest your eyes," said Mama with a song
+Then someone came with the gentlest face
+And kissed a forehead in the sweetest place
+"Rest your eyes," they sang a song
 "We're right here, and we love you strong"
 
 [Chorus]
 What should we do? What should we do?
-Boo doesn't feel well today!
+Someone doesn't feel well today!
 What should we do? What should we do?
 We're going to make it okay!
 
@@ -70,23 +70,23 @@ Love so warm, love so wide
 
 Sleep and rest, you'll feel better, it's true
 We're going to take good care of you
-Mama's here and Gigi's here too
-We love you, Boo... we love you...
+We're all here and we love you too
+We love you... we love you...
 
 [Verse 3]
 The sunshine came through the window bright
-Little Boo slowly opened their eyes
-"I feel a little better!" Boo said with a smile
-Gigi cheered, "You'll be well in a while!"
+The little one slowly opened their eyes
+"I feel a little better!" they said with a smile
+"You'll be well again in just a while!"
 
-Boo wiggled toes and sneezed one more time
-Achoo! — then giggled in a little rhyme
-Gigi laughed and clapped her hands with glee
+The little one wiggled their toes with delight
+Achoo! — one last sneeze, but they felt alright!
+Everyone laughed and clapped with glee
 "You're getting better! Now I can see!"
 
 [Chorus]
 We knew what to do! We knew what to do!
-Boo is feeling better today!
+Someone's feeling better today!
 We knew what to do! We knew what to do!
 We made the sick go away!
 
@@ -96,10 +96,10 @@ We knew what to do! We knew what to do!
 We took care of you!
 
 [Outro]
-Gigi hugged Boo nice and tight
+They hugged so nice and tight
 "Now you're feeling alright!"
-Boo said "Thank you, Gigi, my friend"
-"For taking care of me — right to the end!"
+"Thank you, thank you, my dear friend
+For taking care of me — right to the end!"
 
 When someone you love doesn't feel well today
 You know just what to do, you know what to say

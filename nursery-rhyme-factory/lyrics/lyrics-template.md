@@ -125,10 +125,18 @@ CLOSING_TAGLINE
 - Max 8 lines
 - Final chorus should differ slightly — past tense or "we did it" variation
 
+### NO CHARACTER NAMES IN SUNG LYRICS — NON-NEGOTIABLE
+- Never use character names (Gigi, Boo, Mama, Dada, Pip, Sunny) in any sung line
+- Names in lyrics isolate children by name, gender, and purpose — making the song non-inclusive
+- Any child watching must be able to see themselves in the song
+- Replace names with: "someone", "little one", "they", "we", "everyone", "your friend"
+- Replace gendered pronouns: "she/he" → "they" or rewrite to avoid pronouns entirely
+- Names ARE allowed in stage directions, production notes, and visual prompts (not sung content)
+
 ### Character Dialogue
 - Use quotation lines sparingly — max 2–3 per verse
 - Dialogue should be 4–6 words max
-- Always attribute: "'[words],' said [character]"
+- Attribute without names: "came the call:" / "they said:" / "a voice sang:"
 
 ### Sound Effects
 - "Achoo!" "Splash!" "Clap clap clap!" work well
