@@ -25,6 +25,20 @@
 
 ---
 
+## HEYGEN PHOTO AVATARS ✅ (confirmed created 2026-07-01)
+
+| Character | Avatar Item ID | Avatar Group ID | GitHub Secret |
+|-----------|---------------|-----------------|---------------|
+| Leo | `2b3a0fd598e2419e975a28a405345772` | `c835d519c91747199d19dc42b7de0f62` | `HEYGEN_LEO_AVATAR_ID` / `HEYGEN_LEO_GROUP_ID` |
+| Zoe | `9dbe36d431b142b5ab0bd1994eb29349` | `83314e0e958d40e6b0f24da2ccbbabf5` | `HEYGEN_ZOE_AVATAR_ID` / `HEYGEN_ZOE_GROUP_ID` |
+
+> Reference images: Higgsfield CDN URLs above (bc8b28c3 = Leo, 8b8e6589 = Zoe).
+> Script: `preschool-video/create-heygen-avatars.js`
+> Generation script: `preschool-video/generate-heygen-clips.js`
+> Output manifest: `preschool-video/heygen-clips-manifest.json`
+
+---
+
 ## AUDIO ASSETS — ElevenLabs Vocals (6/7 Complete)
 
 | Asset Name | Section | Job ID | URL |
