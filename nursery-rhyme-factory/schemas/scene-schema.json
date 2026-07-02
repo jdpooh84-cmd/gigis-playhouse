@@ -1,0 +1,226 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NurseryRhymeScene",
+  "description": "Single scene unit for a nursery rhyme video storyboard",
+  "type": "object",
+  "required": [
+    "scene_id",
+    "start_time",
+    "end_time",
+    "duration_seconds",
+    "lyrics_line",
+    "story_beat",
+    "emotion",
+    "characters",
+    "location",
+    "visual_prompt"
+  ],
+  "properties": {
+    "scene_id": {
+      "type": "string",
+      "description": "Unique identifier, format: SCN-001, SCN-002, ...",
+      "pattern": "^SCN-[0-9]{3}$"
+    },
+    "start_time": {
+      "type": "string",
+      "description": "Scene start in mm:ss format",
+      "pattern": "^[0-9]{1,2}:[0-5][0-9]$"
+    },
+    "end_time": {
+      "type": "string",
+      "description": "Scene end in mm:ss format",
+      "pattern": "^[0-9]{1,2}:[0-5][0-9]$"
+    },
+    "duration_seconds": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 30,
+      "description": "Scene duration. Target 4–8s. Max 30s for extended chorus loops."
+    },
+    "lyrics_line": {
+      "type": "string",
+      "description": "Exact lyric line(s) sung during this scene. Max 12 words."
+    },
+    "chorus_flag": {
+      "type": "boolean",
+      "description": "True if this scene is part of a chorus repeat. Used for loop detection."
+    },
+    "story_beat": {
+      "type": "string",
+      "enum": [
+        "intro",
+        "problem",
+        "reaction",
+        "action",
+        "care",
+        "comfort",
+        "resolution",
+        "celebration",
+        "chorus",
+        "bridge",
+        "outro",
+        "learning_moment",
+        "transition"
+      ],
+      "description": "Narrative function of this scene in the story arc."
+    },
+    "educational_goal": {
+      "type": "string",
+      "description": "What toddler learns or reinforces in this scene. Can be null for pure story beats.",
+      "examples": [
+        "empathy: caring for someone sick",
+        "vocabulary: names of feelings",
+        "counting: 1-2-3",
+        "colors: red",
+        "behavior: sharing"
+      ]
+    },
+    "emotion": {
+      "type": "string",
+      "enum": [
+        "worried",
+        "sad",
+        "happy",
+        "excited",
+        "scared",
+        "comforted",
+        "curious",
+        "proud",
+        "loving",
+        "playful",
+        "tired",
+        "surprised",
+        "determined"
+      ],
+      "description": "Primary emotional tone for this scene. Drives character facial expressions."
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "role_in_scene"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Character name from the Gigi's Playhouse universe"
+          },
+          "role_in_scene": {
+            "type": "string",
+            "description": "What the character is doing in this scene"
+          },
+          "expression": {
+            "type": "string",
+            "description": "Facial/body expression for animation or image prompt"
+          },
+          "position": {
+            "type": "string",
+            "enum": ["center", "left", "right", "background", "off-screen", "close-up"],
+            "description": "Character position in frame"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "location": {
+      "type": "string",
+      "enum": [
+        "bedroom",
+        "living_room",
+        "kitchen",
+        "bathroom",
+        "backyard",
+        "playground",
+        "forest",
+        "meadow",
+        "doctor_office",
+        "school",
+        "car",
+        "beach",
+        "custom"
+      ],
+      "description": "Primary scene location. Drives background asset selection."
+    },
+    "location_custom": {
+      "type": "string",
+      "description": "Custom location name if location = 'custom'"
+    },
+    "background_description": {
+      "type": "string",
+      "description": "Detailed background visual description for asset generation. Include time of day, colors, key props."
+    },
+    "camera_direction": {
+      "type": "string",
+      "enum": [
+        "wide_shot",
+        "medium_shot",
+        "close_up",
+        "extreme_close_up",
+        "over_shoulder",
+        "birds_eye",
+        "panning_left",
+        "panning_right",
+        "zoom_in",
+        "zoom_out",
+        "static"
+      ],
+      "description": "Camera direction. Used for animation/editing instructions."
+    },
+    "action": {
+      "type": "string",
+      "description": "Primary action happening in the scene. 1–2 sentences, present tense."
+    },
+    "prop_list": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of props visible in this scene. Each prop should be simple and toddler-recognizable."
+    },
+    "visual_prompt": {
+      "type": "string",
+      "description": "Full prompt for AI image generation. Should include style, characters, action, setting, color palette, and mood. Avoid copyrighted references."
+    },
+    "thumbnail_candidate": {
+      "type": "boolean",
+      "description": "True if this scene has strong thumbnail potential: clear emotion, expressive character, readable at small size."
+    },
+    "caption_text": {
+      "type": "string",
+      "description": "Text overlay or closed caption for this scene. Usually matches lyrics_line."
+    },
+    "transition_type": {
+      "type": "string",
+      "enum": [
+        "cut",
+        "fade",
+        "wipe_left",
+        "wipe_right",
+        "zoom_transition",
+        "dissolve",
+        "bounce",
+        "sparkle"
+      ],
+      "description": "Transition INTO this scene from the previous scene."
+    },
+    "repeatable_loop_flag": {
+      "type": "boolean",
+      "description": "True if this scene can be looped without jarring the viewer. Used for chorus scenes and background loops."
+    },
+    "audio_cue": {
+      "type": "string",
+      "description": "Any non-lyric audio note: sound effect, pause, instrumental break, etc."
+    },
+    "color_palette_hint": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Dominant colors for this scene. Max 4. Used for visual consistency across batch.",
+      "maxItems": 4
+    },
+    "notes": {
+      "type": "string",
+      "description": "Production notes for animators or editors. Optional."
+    }
+  }
+}

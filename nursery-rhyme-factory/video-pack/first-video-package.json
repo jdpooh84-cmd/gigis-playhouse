@@ -1,0 +1,146 @@
+{
+  "package_id": "GP-001",
+  "version": "1.0.0",
+  "created_date": "2026-07-02",
+  "status": "draft",
+  "title": {
+    "primary": "What Should We Do? | Feel Better Song | Gigi's Playhouse",
+    "variant_a": "Sick Day Song for Kids | Gigi & Boo | Nursery Rhymes",
+    "variant_b": "Feel Better Song | Taking Care of Baby | Kids Songs"
+  },
+  "concept": "Gigi discovers her baby sibling Boo is sick and leads the whole family in a song about how to take care of someone who doesn't feel well — with rest, soup, and hugs.",
+  "scenario_type": "sick_day",
+  "target_age": {
+    "min": 2,
+    "max": 5
+  },
+  "runtime_target_seconds": 270,
+  "learning_objective": "Children learn 4 basic sick-care behaviors: rest in bed, drink warm soup, give a hug, and get lots of love.",
+  "emotional_objective": "Children experience that being sick is scary but love and care make everything better, and they are always safe.",
+  "characters": [
+    {
+      "name": "Gigi",
+      "description": "3-year-old girl with brown pigtails, pink star pajamas, curious and loving",
+      "age": "3",
+      "role": "protagonist and helper"
+    },
+    {
+      "name": "Boo",
+      "description": "Baby sibling toddler, round face, big eyes, blue onesie, expressive",
+      "age": "1",
+      "role": "in need of care"
+    },
+    {
+      "name": "Mama",
+      "description": "Warm nurturing mother, brown hair, soft colors, appears in comfort scenes",
+      "age": "adult",
+      "role": "secondary caregiver"
+    },
+    {
+      "name": "Pip",
+      "description": "Small stuffed brown bear, Gigi's comfort toy, held by Boo when sick",
+      "age": "prop",
+      "role": "comfort prop"
+    }
+  ],
+  "song": {
+    "title": "What Should We Do? (The Feel Better Song)",
+    "bpm": 100,
+    "key": "C Major",
+    "time_signature": "4/4",
+    "structure": [
+      {
+        "section": "intro",
+        "lyrics": "(Instrumental — cheerful piano, birds chirping, Gigi hums softly)",
+        "duration_seconds": 20
+      },
+      {
+        "section": "verse_1",
+        "lyrics": "Oh Gigi woke up in the morning light\nShe tip-toed down the hall just right\nShe peeked inside and what did she see?\nLittle Boo was sick as could be!\n\nBoo was in bed with a red little nose\nWrapped up tight in a blanket of those\nAchoo! Achoo! Poor Boo said with a sneeze\n\"Gigi, Gigi, help me please!\"",
+        "duration_seconds": 35
+      },
+      {
+        "section": "chorus",
+        "lyrics": "What should we do? What should we do?\nBoo doesn't feel well today!\nWhat should we do? What should we do?\nWe're going to make it okay!\n\nRest in bed, drink some soup\nGive a hug, feel better soon!\nWhat should we do? What should we do?\nWe'll take care of you!",
+        "duration_seconds": 25
+      },
+      {
+        "section": "verse_2",
+        "lyrics": "Gigi got the blanket soft and warm\nShe tucked in Boo nice and snug from the storm\nShe said \"I'll bring you something good to eat!\"\nA warm bowl of soup — a yummy treat!\n\nMama came in with the gentlest face\nShe kissed Boo's forehead in the sweetest place\n\"Rest your eyes,\" said Mama with a song\n\"We're right here, and we love you strong\"",
+        "duration_seconds": 35
+      },
+      {
+        "section": "chorus_repeat",
+        "lyrics": "What should we do? What should we do?\nBoo doesn't feel well today!\nWhat should we do? What should we do?\nWe're going to make it okay!\n\nRest in bed, drink some soup\nGive a hug, feel better soon!\nWhat should we do? What should we do?\nWe'll take care of you!",
+        "duration_seconds": 25
+      },
+      {
+        "section": "bridge",
+        "lyrics": "Close your eyes, little one\nFeeling sick is no fun\nBut we're here by your side\nLove so warm, love so wide\n\nSleep and rest, you'll feel better, it's true\nWe're going to take good care of you\nMama's here and Gigi's here too\nWe love you, Boo... we love you...",
+        "duration_seconds": 30
+      },
+      {
+        "section": "verse_3",
+        "lyrics": "The sunshine came through the window bright\nLittle Boo slowly opened their eyes\n\"I feel a little better!\" Boo said with a smile\nGigi cheered, \"You'll be well in a while!\"\n\nBoo wiggled toes and sneezed one more time\nAchoo! — then giggled in a little rhyme\nGigi laughed and clapped her hands with glee\n\"You're getting better! Now I can see!\"",
+        "duration_seconds": 35
+      },
+      {
+        "section": "chorus_final",
+        "lyrics": "We knew what to do! We knew what to do!\nBoo is feeling better today!\nWe knew what to do! We knew what to do!\nWe made the sick go away!\n\nRest in bed, drank some soup\nGot a hug, felt better soon!\nWe knew what to do! We knew what to do!\nWe took care of you!",
+        "duration_seconds": 25
+      },
+      {
+        "section": "outro",
+        "lyrics": "Gigi hugged Boo nice and tight\n\"Now you're feeling alright!\"\nBoo said \"Thank you, Gigi, my friend\"\n\"For taking care of me — right to the end!\"\n\nWhen someone you love doesn't feel well today\nYou know just what to do, you know what to say\nRest and soup and hugs are the way\nAnd love makes the sick go away!\n\n(Fade out with cheerful instrumental, giggles)",
+        "duration_seconds": 40
+      }
+    ],
+    "full_lyrics": "[Intro]\n(cheerful piano, birds, soft humming)\n\n[Verse 1]\nOh Gigi woke up in the morning light\nShe tip-toed down the hall just right\nShe peeked inside and what did she see?\nLittle Boo was sick as could be!\n\nBoo was in bed with a red little nose\nWrapped up tight in a blanket of those\nAchoo! Achoo! Poor Boo said with a sneeze\n\"Gigi, Gigi, help me please!\"\n\n[Chorus]\nWhat should we do? What should we do?\nBoo doesn't feel well today!\nWhat should we do? What should we do?\nWe're going to make it okay!\n\nRest in bed, drink some soup\nGive a hug, feel better soon!\nWhat should we do? What should we do?\nWe'll take care of you!\n\n[Verse 2]\nGigi got the blanket soft and warm\nShe tucked in Boo nice and snug from the storm\nShe said \"I'll bring you something good to eat!\"\nA warm bowl of soup — a yummy treat!\n\nMama came in with the gentlest face\nShe kissed Boo's forehead in the sweetest place\n\"Rest your eyes,\" said Mama with a song\n\"We're right here, and we love you strong\"\n\n[Chorus]\nWhat should we do? What should we do?\nBoo doesn't feel well today!\nWhat should we do? What should we do?\nWe're going to make it okay!\n\nRest in bed, drink some soup\nGive a hug, feel better soon!\nWhat should we do? What should we do?\nWe'll take care of you!\n\n[Bridge]\nClose your eyes, little one\nFeeling sick is no fun\nBut we're here by your side\nLove so warm, love so wide\n\nSleep and rest, you'll feel better, it's true\nWe're going to take good care of you\nMama's here and Gigi's here too\nWe love you, Boo... we love you...\n\n[Verse 3]\nThe sunshine came through the window bright\nLittle Boo slowly opened their eyes\n\"I feel a little better!\" Boo said with a smile\nGigi cheered, \"You'll be well in a while!\"\n\nBoo wiggled toes and sneezed one more time\nAchoo! — then giggled in a little rhyme\nGigi laughed and clapped her hands with glee\n\"You're getting better! Now I can see!\"\n\n[Chorus]\nWe knew what to do! We knew what to do!\nBoo is feeling better today!\nWe knew what to do! We knew what to do!\nWe made the sick go away!\n\nRest in bed, drank some soup\nGot a hug, felt better soon!\nWe knew what to do! We knew what to do!\nWe took care of you!\n\n[Outro]\nGigi hugged Boo nice and tight\n\"Now you're feeling alright!\"\nBoo said \"Thank you, Gigi, my friend\"\n\"For taking care of me — right to the end!\"\n\nWhen someone you love doesn't feel well today\nYou know just what to do, you know what to say\nRest and soup and hugs are the way\nAnd love makes the sick go away!\n\n[End]\n(cheerful piano fade, giggles)"
+  },
+  "scenes": "See storyboards/sick-song-storyboard.json for full 30-scene breakdown",
+  "suno_prompt": {
+    "style_prompt": "gentle upbeat children's nursery rhyme, warm piano melody, bright ukulele strums, soft hand percussion, tender female lead vocalist with nurturing quality, warm kids choir on chorus, clear diction for toddlers, 100 bpm verse 85 bpm bridge, C major, lullaby feel in bridge section, cheerful resolution in final chorus, acoustic instruments, no distortion, no minor chords, soothing and safe, toddler-friendly, catchy repeating hook, whimsical bells on chorus, warm reverb, clean mix, emotional arc from worried to happy",
+    "vocal_prompt": "female lead voice age 5-7, clear and bright, warm kids choir on choruses, nurturing and safe",
+    "lyrics_for_suno": "See suno/sick-song-suno-prompt.md for complete formatted version",
+    "negative_prompt": "no adult voice, no minor chords, no distortion, no rap, no heavy bass, no dark tones"
+  },
+  "thumbnail": {
+    "scene_reference": "SCN-029",
+    "concept": "Gigi and Boo side-by-side, both waving and smiling big, Boo's red nose gone, hearts and sparkles around them",
+    "text_overlay": "FEEL BETTER!",
+    "dominant_colors": ["#FFD700", "#FFB6C1", "#87CEEB"],
+    "character_expression": "Gigi: big triumphant smile. Boo: laughing, fully recovered.",
+    "design_brief": "Bright yellow background. Both characters center-left. Text 'FEEL BETTER!' in bold yellow with pink outline, right side. Hearts and sparkle effects. Both faces must be clear and expressive at thumbnail size (1280x720). Small red heart above 'FEEL BETTER!' text. Channel logo bottom-right. Characters should take up 60% of frame. Expression is pure joy — the 'after' moment."
+  },
+  "metadata": {
+    "youtube_description": "🌟 What Should We Do? | The Feel Better Song | Gigi's Playhouse 🌟\n\nLittle Boo doesn't feel well today! Oh no! But don't worry — Gigi knows just what to do! Join Gigi, Boo, and Mama as they sing about how to take care of someone who's sick. Rest in bed, drink some yummy soup, get lots of hugs — and most importantly, love makes everything better!\n\n🎵 This fun and caring song teaches toddlers:\n✅ What to do when someone feels sick\n✅ How to show you care (rest, soup, hugs, love)\n✅ That being sick is okay — you'll feel better!\n✅ Empathy and caring for others\n\nSing along with the catchy chorus: \"What should we do? What should we do?\"\n\n🌈 Perfect for:\n👶 Toddlers ages 2-5\n👨‍👩‍👧 Families dealing with a sick day\n🏫 Preschool and daycare\n😴 Quiet time viewing\n❤️ Building empathy in young children\n\n📌 Key moments:\n0:20 - Gigi finds Boo is sick!\n0:55 - \"What should we do?\" chorus\n2:20 - Cozy bridge: lullaby moment with Mama\n2:50 - Boo starts to feel better!\n3:25 - Celebration chorus!\n\n🎶 Songs in this video:\n\"What Should We Do? (The Feel Better Song)\" — Original song by Gigi's Playhouse\n\n🌟 Subscribe to Gigi's Playhouse for more nursery rhymes and kids songs!\n\n#NurseryRhymes #KidsSongs #ToddlerSongs #FeelBetterSong #GigisPlayhouse #SickDay #KidsMusic #ChildrensSongs #EarlyChildhood #ParentingToddlers",
+    "tags": [
+      "nursery rhymes",
+      "kids songs",
+      "toddler songs",
+      "feel better song",
+      "sick day song",
+      "children's music",
+      "preschool songs",
+      "gigi's playhouse",
+      "caring song for kids",
+      "empathy song children",
+      "nursery rhymes 2025",
+      "baby songs",
+      "toddler learning songs",
+      "family songs",
+      "songs for 2 year olds",
+      "songs for 3 year olds",
+      "educational songs kids",
+      "what should we do song",
+      "kids comfort song",
+      "taking care of baby song"
+    ],
+    "playlist": "Gigi's Playhouse — Nursery Rhymes & Learning Songs",
+    "category": "Education",
+    "language": "en",
+    "made_for_kids": true
+  },
+  "production_notes": "Priority video — establish character designs for Gigi, Boo, and Mama that will be reused across all future videos. Invest time in these 3 character sheets. All bedroom assets are reusable. Kitchen scene (SCN-016) is brief — use simple background. Focus quality effort on: SCN-006/007 (Boo sick face), SCN-019/020 (bridge warmth), SCN-029 (final resolution — thumbnail candidate).",
+  "reuse_assets": []
+}

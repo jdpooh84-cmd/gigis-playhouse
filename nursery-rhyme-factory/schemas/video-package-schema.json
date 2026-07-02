@@ -1,0 +1,256 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "NurseryRhymeVideoPackage",
+  "description": "Complete video production package for one nursery rhyme video",
+  "type": "object",
+  "required": [
+    "package_id",
+    "title",
+    "concept",
+    "target_age",
+    "runtime_target_seconds",
+    "learning_objective",
+    "emotional_objective",
+    "characters",
+    "song",
+    "scenes",
+    "metadata",
+    "suno_prompt",
+    "thumbnail"
+  ],
+  "properties": {
+    "package_id": {
+      "type": "string",
+      "description": "Unique package identifier, e.g. GP-001",
+      "pattern": "^GP-[0-9]{3}$"
+    },
+    "version": {
+      "type": "string",
+      "default": "1.0.0"
+    },
+    "created_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "in_production", "audio_complete", "visual_complete", "editing", "published"],
+      "default": "draft"
+    },
+    "title": {
+      "type": "object",
+      "required": ["primary"],
+      "properties": {
+        "primary": {
+          "type": "string",
+          "description": "Primary YouTube title. Max 70 chars.",
+          "maxLength": 70
+        },
+        "variant_a": {
+          "type": "string",
+          "description": "A/B test title variant A"
+        },
+        "variant_b": {
+          "type": "string",
+          "description": "A/B test title variant B"
+        }
+      }
+    },
+    "concept": {
+      "type": "string",
+      "description": "One sentence concept summary. Plain language."
+    },
+    "scenario_type": {
+      "type": "string",
+      "enum": [
+        "sick_day",
+        "animal_friend",
+        "sharing",
+        "boo_boo",
+        "colors_learning",
+        "counting",
+        "bedtime",
+        "mealtime",
+        "bath_time",
+        "playground",
+        "family_activity",
+        "holiday",
+        "weather",
+        "shapes",
+        "alphabet"
+      ]
+    },
+    "target_age": {
+      "type": "object",
+      "properties": {
+        "min": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "max": { "type": "integer", "minimum": 2, "maximum": 8 }
+      }
+    },
+    "runtime_target_seconds": {
+      "type": "integer",
+      "description": "Target video runtime in seconds. Typical: 180–600.",
+      "minimum": 120,
+      "maximum": 720
+    },
+    "learning_objective": {
+      "type": "string",
+      "description": "What the child learns. One sentence."
+    },
+    "emotional_objective": {
+      "type": "string",
+      "description": "What emotional experience the video delivers. One sentence."
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "description"],
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "age": { "type": "string" },
+          "role": { "type": "string" }
+        }
+      }
+    },
+    "song": {
+      "type": "object",
+      "required": ["title", "structure", "bpm", "key"],
+      "properties": {
+        "title": { "type": "string" },
+        "bpm": {
+          "type": "integer",
+          "description": "Beats per minute. Typical nursery rhyme: 90–120.",
+          "minimum": 60,
+          "maximum": 160
+        },
+        "key": { "type": "string" },
+        "time_signature": {
+          "type": "string",
+          "default": "4/4"
+        },
+        "structure": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["section", "lyrics"],
+            "properties": {
+              "section": {
+                "type": "string",
+                "enum": ["intro", "verse_1", "chorus", "verse_2", "chorus_repeat", "bridge", "verse_3", "chorus_final", "outro"]
+              },
+              "lyrics": { "type": "string" },
+              "duration_seconds": { "type": "integer" }
+            }
+          }
+        },
+        "full_lyrics": {
+          "type": "string",
+          "description": "Complete lyrics as a single string with section markers"
+        }
+      }
+    },
+    "scenes": {
+      "type": "array",
+      "description": "Array of scene objects conforming to scene-schema.json",
+      "items": {
+        "$ref": "scene-schema.json"
+      },
+      "minItems": 10
+    },
+    "suno_prompt": {
+      "type": "object",
+      "required": ["style_prompt", "vocal_prompt"],
+      "properties": {
+        "style_prompt": {
+          "type": "string",
+          "description": "Suno style tag string"
+        },
+        "vocal_prompt": {
+          "type": "string",
+          "description": "Voice character description for Suno"
+        },
+        "lyrics_for_suno": {
+          "type": "string",
+          "description": "Formatted lyrics with [Verse], [Chorus] section markers for Suno"
+        },
+        "negative_prompt": {
+          "type": "string",
+          "description": "What to avoid in the generation"
+        }
+      }
+    },
+    "thumbnail": {
+      "type": "object",
+      "required": ["scene_reference", "concept"],
+      "properties": {
+        "scene_reference": {
+          "type": "string",
+          "description": "scene_id of the scene to use as thumbnail base"
+        },
+        "concept": {
+          "type": "string",
+          "description": "One sentence thumbnail visual concept"
+        },
+        "text_overlay": {
+          "type": "string",
+          "description": "Bold text to overlay on thumbnail. Max 4 words."
+        },
+        "dominant_colors": {
+          "type": "array",
+          "items": { "type": "string" },
+          "maxItems": 3
+        },
+        "character_expression": {
+          "type": "string",
+          "description": "Primary character expression for thumbnail"
+        },
+        "design_brief": {
+          "type": "string",
+          "description": "Full thumbnail design brief"
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["youtube_description", "tags"],
+      "properties": {
+        "youtube_description": {
+          "type": "string",
+          "description": "Full YouTube video description. 200–500 words."
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 10,
+          "maxItems": 30
+        },
+        "playlist": {
+          "type": "string",
+          "description": "Recommended playlist name"
+        },
+        "category": {
+          "type": "string",
+          "default": "Education"
+        },
+        "language": {
+          "type": "string",
+          "default": "en"
+        },
+        "made_for_kids": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    },
+    "production_notes": {
+      "type": "string"
+    },
+    "reuse_assets": {
+      "type": "array",
+      "description": "List of asset IDs from previous videos that can be reused",
+      "items": { "type": "string" }
+    }
+  }
+}

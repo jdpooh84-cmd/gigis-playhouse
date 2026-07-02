@@ -1,0 +1,1048 @@
+{
+  "storyboard_id": "SB-GP-001",
+  "video_package_id": "GP-001",
+  "title": "What Should We Do? (The Feel Better Song)",
+  "total_runtime_seconds": 270,
+  "total_scenes": 30,
+  "created": "2026-07-02",
+  "scenes": [
+    {
+      "scene_id": "SCN-001",
+      "start_time": "0:00",
+      "end_time": "0:08",
+      "duration_seconds": 8,
+      "lyrics_line": "(Instrumental intro — cheerful piano)",
+      "chorus_flag": false,
+      "story_beat": "intro",
+      "educational_goal": null,
+      "emotion": "happy",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Sleeping peacefully in bed",
+          "expression": "peaceful, eyes closed, slight smile",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Gigi's cozy bedroom at dawn. Soft pink and yellow tones. Stuffed animals on shelf. Curtains with light coming through. Stars-to-sun transition on ceiling mobile.",
+      "camera_direction": "wide_shot",
+      "action": "Camera slowly pans across Gigi's room. Birds begin chirping. Light brightens slowly. Gigi stirs.",
+      "prop_list": ["bed", "pink blanket", "stuffed animals on shelf", "curtains", "ceiling mobile"],
+      "visual_prompt": "3D cartoon style, cozy children's bedroom at sunrise, warm pink and yellow color palette, a cute 3-year-old girl with brown pigtails sleeping peacefully in a pink bed surrounded by stuffed animals, soft morning light through curtains, cheerful and inviting, bright 3D animation style, toddler-friendly, no dark shadows",
+      "thumbnail_candidate": false,
+      "caption_text": "",
+      "transition_type": "fade",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Piano intro begins. Birds chirping SFX.",
+      "color_palette_hint": ["#FFE5B4", "#FFB6C1", "#87CEEB", "#FFFACD"]
+    },
+    {
+      "scene_id": "SCN-002",
+      "start_time": "0:08",
+      "end_time": "0:15",
+      "duration_seconds": 7,
+      "lyrics_line": "(Intro continues — Gigi wakes up)",
+      "chorus_flag": false,
+      "story_beat": "intro",
+      "educational_goal": null,
+      "emotion": "happy",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Waking up, stretching, yawning",
+          "expression": "sleepy then bright and awake",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Same room, now brighter. Sun visible through window. Yellow curtains glow.",
+      "camera_direction": "medium_shot",
+      "action": "Gigi sits up, stretches arms wide, yawns big, then grins at the camera. Bouncy piano melody plays.",
+      "prop_list": ["pink bed", "blanket", "window with sunshine"],
+      "visual_prompt": "3D cartoon style, cute 3-year-old girl with brown pigtails waking up in a bright cozy bedroom, arms stretched wide yawning, big smile, warm morning light, pink pajamas with stars, cheerful expression, toddler-friendly animation, bright colors, round cute features",
+      "thumbnail_candidate": false,
+      "caption_text": "",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": null,
+      "color_palette_hint": ["#FFE5B4", "#FFD700", "#FFB6C1"]
+    },
+    {
+      "scene_id": "SCN-003",
+      "start_time": "0:15",
+      "end_time": "0:20",
+      "duration_seconds": 5,
+      "lyrics_line": "(Gigi tip-toes in hallway)",
+      "chorus_flag": false,
+      "story_beat": "intro",
+      "educational_goal": null,
+      "emotion": "curious",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Tip-toeing down hallway toward Boo's room",
+          "expression": "curious, quiet, finger to lips",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Warm hallway with soft carpet. Family photos on wall. Boo's door at end of hallway with a small star on it.",
+      "camera_direction": "wide_shot",
+      "action": "Gigi tip-toes in slow motion down a cheerful hallway, arms out for balance, looking toward Boo's room.",
+      "prop_list": ["hallway carpet", "family photos on wall", "Boo's door with star"],
+      "visual_prompt": "3D cartoon style, cute 3-year-old girl tip-toeing down a cheerful hallway in pink star pajamas, exaggerated quiet tip-toe pose, finger to lips, warm hallway with family photos and colorful rug, door with star at end of hallway, soft morning light, toddler animation style",
+      "thumbnail_candidate": false,
+      "caption_text": "",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Tip-toe sound effect — quiet piano notes",
+      "color_palette_hint": ["#FFE5B4", "#DDA0DD", "#87CEEB"]
+    },
+    {
+      "scene_id": "SCN-004",
+      "start_time": "0:20",
+      "end_time": "0:27",
+      "duration_seconds": 7,
+      "lyrics_line": "Oh Gigi woke up in the morning light",
+      "chorus_flag": false,
+      "story_beat": "intro",
+      "educational_goal": null,
+      "emotion": "happy",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Peering around Boo's door, opening it slowly",
+          "expression": "curious, excited",
+          "position": "left"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Boo's room door opening. Soft blue and yellow room visible inside. Small night light glowing.",
+      "camera_direction": "medium_shot",
+      "action": "Gigi slowly opens Boo's door and peeks her head in. Her expression is cheerful as song begins.",
+      "prop_list": ["door with star", "nightlight inside room"],
+      "visual_prompt": "3D cartoon girl with pigtails peeking her head around a cheerful blue door with a small star, curious happy expression, soft glow from inside room, warm color palette, toddler animation style, cute round features",
+      "thumbnail_candidate": false,
+      "caption_text": "Oh Gigi woke up in the morning light",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Song vocals begin",
+      "color_palette_hint": ["#87CEEB", "#FFE5B4", "#FFD700"]
+    },
+    {
+      "scene_id": "SCN-005",
+      "start_time": "0:27",
+      "end_time": "0:34",
+      "duration_seconds": 7,
+      "lyrics_line": "She tip-toed down the hall just right",
+      "chorus_flag": false,
+      "story_beat": "intro",
+      "educational_goal": null,
+      "emotion": "curious",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Walking into Boo's room, looking around",
+          "expression": "curious and bright",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Boo's blue and yellow bedroom. Crib or toddler bed. Star mobile hanging. Soft clouds on wall.",
+      "camera_direction": "wide_shot",
+      "action": "Gigi enters Boo's room. Camera shows the whole room. A lump under blankets in the bed.",
+      "prop_list": ["toddler bed", "blue blanket", "star mobile", "cloud wall art"],
+      "visual_prompt": "3D cartoon style, bright toddler bedroom in blue and yellow, star mobile, cloud decorations on wall, small bed with blue blanket, cozy and cheerful, morning light, cute nursery aesthetic, toddler-friendly animation",
+      "thumbnail_candidate": false,
+      "caption_text": "She tip-toed down the hall just right",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": null,
+      "color_palette_hint": ["#87CEEB", "#FFD700", "#FFFFFF"]
+    },
+    {
+      "scene_id": "SCN-006",
+      "start_time": "0:34",
+      "end_time": "0:41",
+      "duration_seconds": 7,
+      "lyrics_line": "She peeked inside and what did she see?",
+      "chorus_flag": false,
+      "story_beat": "problem",
+      "educational_goal": "vocabulary: sick",
+      "emotion": "surprised",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Looking toward Boo's bed with surprise",
+          "expression": "eyes wide, mouth open, surprised",
+          "position": "left"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "Visible under blanket, peeking out",
+          "expression": "sad, tired, red nose",
+          "position": "right"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Boo's bed in foreground. Boo peeking out from blue blanket. Red nose visible. Eyes droopy.",
+      "camera_direction": "medium_shot",
+      "action": "Gigi spots Boo. Boo's face is visible above blanket — red nose, droopy eyes. Gigi's expression changes from happy to worried.",
+      "prop_list": ["blue blanket", "Pip the bear (in Boo's arms)"],
+      "visual_prompt": "3D cartoon, young toddler baby character with round face and big eyes peeking from under a blue blanket, red nose, slightly droopy sad eyes, holding a small stuffed bear, cute but clearly not feeling well, warm bedroom background, toddler animation style",
+      "thumbnail_candidate": false,
+      "caption_text": "She peeked inside and what did she see?",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": null,
+      "color_palette_hint": ["#87CEEB", "#FFB6C1", "#FF6B6B"]
+    },
+    {
+      "scene_id": "SCN-007",
+      "start_time": "0:41",
+      "end_time": "0:48",
+      "duration_seconds": 7,
+      "lyrics_line": "Little Boo was sick as could be!",
+      "chorus_flag": false,
+      "story_beat": "problem",
+      "educational_goal": "vocabulary: sick",
+      "emotion": "sad",
+      "characters": [
+        {
+          "name": "Boo",
+          "role_in_scene": "Lying in bed, clearly sick",
+          "expression": "sad, tired, red nose, droopy eyes",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Close-up on Boo in bed. Tissues on bedside table. Thermometer visible. Small cup of water.",
+      "camera_direction": "close_up",
+      "action": "Close-up on Boo's face. Red nose, watery eyes, sad expression. Small sniffle.",
+      "prop_list": ["blue blanket", "tissues", "thermometer", "small water cup", "Pip the bear"],
+      "visual_prompt": "3D cartoon close-up of a baby toddler character with round chubby face, big sad eyes, red nose, wrapped in blue blanket, clearly sick but in a cute non-scary way, tissues and small water cup on nightstand, warm bedroom, toddler animation style, emotional but safe",
+      "thumbnail_candidate": false,
+      "caption_text": "Little Boo was sick as could be!",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Soft sniffle sound effect",
+      "color_palette_hint": ["#87CEEB", "#FF6B6B", "#FFFFFF"]
+    },
+    {
+      "scene_id": "SCN-008",
+      "start_time": "0:48",
+      "end_time": "0:55",
+      "duration_seconds": 7,
+      "lyrics_line": "Achoo! Achoo! Poor Boo said with a sneeze",
+      "chorus_flag": false,
+      "story_beat": "problem",
+      "educational_goal": "empathy: recognizing when someone needs help",
+      "emotion": "sad",
+      "characters": [
+        {
+          "name": "Boo",
+          "role_in_scene": "Sneezing dramatically",
+          "expression": "sneeze face, then sad",
+          "position": "center"
+        },
+        {
+          "name": "Gigi",
+          "role_in_scene": "Watching Boo sneeze, worried expression",
+          "expression": "worried, concerned",
+          "position": "right"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Boo in bed mid-sneeze. Gigi standing at bedside watching.",
+      "camera_direction": "medium_shot",
+      "action": "Boo sneezes twice — big exaggerated cartoon sneezes. Blanket puffs up. Gigi's eyes go wide.",
+      "prop_list": ["blue blanket", "tissues"],
+      "visual_prompt": "3D cartoon toddler baby character mid-sneeze, exaggerated cartoon sneeze face, blanket puffing up, tissue box nearby, other cartoon girl character watching with wide worried eyes, bedroom background, fun but empathetic tone, toddler animation",
+      "thumbnail_candidate": false,
+      "caption_text": "Achoo! Achoo!",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Big cartoon sneeze SFX × 2",
+      "color_palette_hint": ["#87CEEB", "#FF6B6B", "#FFE5B4"]
+    },
+    {
+      "scene_id": "SCN-009",
+      "start_time": "0:55",
+      "end_time": "1:00",
+      "duration_seconds": 5,
+      "lyrics_line": "Gigi, Gigi, help me please!",
+      "chorus_flag": false,
+      "story_beat": "reaction",
+      "educational_goal": "empathy: asking for help",
+      "emotion": "worried",
+      "characters": [
+        {
+          "name": "Boo",
+          "role_in_scene": "Reaching arms out toward Gigi, asking for help",
+          "expression": "sad, pleading, arms out",
+          "position": "left"
+        },
+        {
+          "name": "Gigi",
+          "role_in_scene": "Responding with determined expression",
+          "expression": "determined, loving, I-will-help face",
+          "position": "right"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Boo reaching toward camera/Gigi. Gigi stepping forward with purpose.",
+      "camera_direction": "medium_shot",
+      "action": "Boo reaches arms out. Gigi steps forward, fists on hips, determined expression — 'I will help!'",
+      "prop_list": ["blanket", "Pip the bear"],
+      "visual_prompt": "3D cartoon toddler baby reaching arms out with sad pleading expression, other cartoon girl character stepping forward with determined loving face, hands on hips, warm bedroom, toddler animation, emotional connection between characters, bright colors",
+      "thumbnail_candidate": false,
+      "caption_text": "Gigi, Gigi, help me please!",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Music builds toward chorus",
+      "color_palette_hint": ["#FFE5B4", "#87CEEB", "#FF6B6B"]
+    },
+    {
+      "scene_id": "SCN-010",
+      "start_time": "1:00",
+      "end_time": "1:07",
+      "duration_seconds": 7,
+      "lyrics_line": "What should we do? What should we do?",
+      "chorus_flag": true,
+      "story_beat": "chorus",
+      "educational_goal": "problem-solving: what do we do when someone is sick?",
+      "emotion": "determined",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Facing camera, singing chorus, arms spread wide",
+          "expression": "energetic, engaged, asking",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Bright bedroom backdrop, Gigi at center, sparkles around her as chorus begins. Color palette brightens.",
+      "camera_direction": "medium_shot",
+      "action": "Gigi faces camera directly, spreads arms wide, sings to the viewer. Call-and-response pose — inviting participation.",
+      "prop_list": [],
+      "visual_prompt": "3D cartoon girl with pigtails facing camera directly, arms spread wide in question pose, bright energetic expression, sparkles and stars around her, bright cheerful bedroom background, toddler animation style, warm yellows and pinks, engaging and participatory",
+      "thumbnail_candidate": false,
+      "caption_text": "What should we do? What should we do?",
+      "transition_type": "bounce",
+      "repeatable_loop_flag": true,
+      "audio_cue": "Chorus begins — full choir joins",
+      "color_palette_hint": ["#FFD700", "#FFB6C1", "#87CEEB", "#FFFFFF"]
+    },
+    {
+      "scene_id": "SCN-011",
+      "start_time": "1:07",
+      "end_time": "1:12",
+      "duration_seconds": 5,
+      "lyrics_line": "Boo doesn't feel well today!",
+      "chorus_flag": true,
+      "story_beat": "chorus",
+      "educational_goal": "vocabulary: feel well",
+      "emotion": "worried",
+      "characters": [
+        {
+          "name": "Boo",
+          "role_in_scene": "In bed, showing sick face",
+          "expression": "sad, red nose, droopy",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Cut to Boo in bed for visual reference. Quick cut back to Gigi.",
+      "camera_direction": "medium_shot",
+      "action": "Quick cut to Boo looking sick — visual reference for the lyric. Boo makes sad face at camera.",
+      "prop_list": ["blanket", "tissues"],
+      "visual_prompt": "3D cartoon baby toddler in bed, sad face, red nose, blue blanket pulled up, cute but clearly unwell, warm bedroom, sympathetic and safe, not scary, toddler animation style",
+      "thumbnail_candidate": false,
+      "caption_text": "Boo doesn't feel well today!",
+      "transition_type": "cut",
+      "repeatable_loop_flag": true,
+      "audio_cue": null,
+      "color_palette_hint": ["#87CEEB", "#FF6B6B", "#FFFFFF"]
+    },
+    {
+      "scene_id": "SCN-012",
+      "start_time": "1:12",
+      "end_time": "1:20",
+      "duration_seconds": 8,
+      "lyrics_line": "We're going to make it okay! / Rest in bed, drink some soup",
+      "chorus_flag": true,
+      "story_beat": "chorus",
+      "educational_goal": "care behaviors: rest and soup",
+      "emotion": "determined",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Showing actions — mime rest (hands under cheek) then soup (sipping motion)",
+          "expression": "energetic, teaching, big smile",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Chorus action sequence. Bright backgrounds. Icons appear showing BED and SOUP as Gigi mimes them.",
+      "camera_direction": "medium_shot",
+      "action": "Gigi does action mimes in rhythm: hands-under-cheek for 'rest', pretend sipping spoon for 'soup'. Icons pulse on screen.",
+      "prop_list": ["floating bed icon", "floating soup bowl icon"],
+      "visual_prompt": "3D cartoon girl doing action mimes enthusiastically, hands under cheek pose for 'rest', pretend sipping soup spoon, bright colorful icons appearing beside her, energetic and fun, bright yellow and pink, toddler participation song style, cheerful",
+      "thumbnail_candidate": false,
+      "caption_text": "Rest in bed, drink some soup!",
+      "transition_type": "sparkle",
+      "repeatable_loop_flag": true,
+      "audio_cue": null,
+      "color_palette_hint": ["#FFD700", "#FF6B6B", "#FFFFFF"]
+    },
+    {
+      "scene_id": "SCN-013",
+      "start_time": "1:20",
+      "end_time": "1:28",
+      "duration_seconds": 8,
+      "lyrics_line": "Give a hug, feel better soon! / We'll take care of you!",
+      "chorus_flag": true,
+      "story_beat": "chorus",
+      "educational_goal": "care behaviors: hugs and reassurance",
+      "emotion": "loving",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Hugging herself (mime hug), then pointing at camera with big smile",
+          "expression": "warm, loving, pointing at viewer",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Bright chorus backdrop, hearts appear as Gigi mimes the hug.",
+      "camera_direction": "medium_shot",
+      "action": "Gigi hugs herself (mime for 'give a hug'), then points at camera on 'We'll take care of YOU!' Heart icons appear.",
+      "prop_list": ["floating heart icons"],
+      "visual_prompt": "3D cartoon girl hugging herself warmly with big smile, then pointing directly at camera with loving expression, colorful hearts floating around her, bright cheerful background, toddler animation, warm and inclusive",
+      "thumbnail_candidate": false,
+      "caption_text": "Give a hug, feel better soon!",
+      "transition_type": "cut",
+      "repeatable_loop_flag": true,
+      "audio_cue": null,
+      "color_palette_hint": ["#FF6B6B", "#FFD700", "#FFB6C1"]
+    },
+    {
+      "scene_id": "SCN-014",
+      "start_time": "1:28",
+      "end_time": "1:35",
+      "duration_seconds": 7,
+      "lyrics_line": "Gigi got the blanket soft and warm",
+      "chorus_flag": false,
+      "story_beat": "action",
+      "educational_goal": "care behavior: blanket/warmth",
+      "emotion": "loving",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Carrying a soft blanket to Boo",
+          "expression": "focused, loving, determined",
+          "position": "left"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "In bed watching Gigi",
+          "expression": "hopeful, watching",
+          "position": "right"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Boo's bedroom. Gigi approaching bed with a soft blanket.",
+      "camera_direction": "medium_shot",
+      "action": "Gigi carries a big soft blanket to Boo's bed, walking with purpose. Boo watches with hopeful eyes.",
+      "prop_list": ["soft pink blanket", "bed"],
+      "visual_prompt": "3D cartoon girl carrying a large soft pink blanket toward a bed, purposeful loving expression, toddler sibling in bed watching with hopeful eyes, warm bedroom, bright colors, toddler animation",
+      "thumbnail_candidate": false,
+      "caption_text": "Gigi got the blanket soft and warm",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": null,
+      "color_palette_hint": ["#FFB6C1", "#87CEEB", "#FFE5B4"]
+    },
+    {
+      "scene_id": "SCN-015",
+      "start_time": "1:35",
+      "end_time": "1:42",
+      "duration_seconds": 7,
+      "lyrics_line": "She tucked in Boo nice and snug from the storm",
+      "chorus_flag": false,
+      "story_beat": "care",
+      "educational_goal": "care behavior: tucking in",
+      "emotion": "loving",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Tucking blanket around Boo",
+          "expression": "gentle, caring, concentrated",
+          "position": "left"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "Being tucked in, looking grateful",
+          "expression": "grateful, warm, slightly more comfortable",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Close on bed, Gigi tucking blanket edges. Boo's face visible above blanket.",
+      "camera_direction": "close_up",
+      "action": "Gigi carefully tucks the blanket all around Boo. Close-up on hands tucking. Boo sighs with comfort.",
+      "prop_list": ["pink blanket", "Pip the bear"],
+      "visual_prompt": "3D cartoon close-up of small girl's hands carefully tucking a soft pink blanket around a baby toddler in bed, baby's face visible looking more comfortable, loving gentle moment, warm lighting, toddler animation, heartwarming",
+      "thumbnail_candidate": false,
+      "caption_text": "She tucked in Boo nice and snug",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Soft cozy sound effect",
+      "color_palette_hint": ["#FFB6C1", "#FFE5B4", "#87CEEB"]
+    },
+    {
+      "scene_id": "SCN-016",
+      "start_time": "1:42",
+      "end_time": "1:55",
+      "duration_seconds": 13,
+      "lyrics_line": "She said 'I'll bring you something good to eat!' / A warm bowl of soup — a yummy treat!",
+      "chorus_flag": false,
+      "story_beat": "action",
+      "educational_goal": "care behavior: soup when sick",
+      "emotion": "happy",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Running to kitchen and returning with soup bowl",
+          "expression": "excited, proud, careful",
+          "position": "center"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "Watching Gigi, eyes brightening at sight of soup",
+          "expression": "hopeful, then brightening",
+          "position": "right"
+        }
+      ],
+      "location": "kitchen",
+      "background_description": "Quick cut to bright kitchen — yellow walls, simple stove. Then back to bedroom with soup delivery.",
+      "camera_direction": "medium_shot",
+      "action": "Quick kitchen shot: soup bowl being prepared. Cut to Gigi carefully carrying soup bowl to Boo. Boo's eyes light up.",
+      "prop_list": ["soup bowl", "steam rising from soup", "spoon", "tray"],
+      "visual_prompt": "3D cartoon bright yellow kitchen with simple stove and cheerful decor, then cartoon girl carefully carrying a steaming soup bowl on a small tray to a sick baby in bed, happy proud expression, steam curling up from bowl, bright warm colors, toddler animation",
+      "thumbnail_candidate": false,
+      "caption_text": "A warm bowl of soup — a yummy treat!",
+      "transition_type": "wipe_right",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Cheerful kitchen sounds, then 'mmmm' sound",
+      "color_palette_hint": ["#FFD700", "#FF6B6B", "#FFE5B4"]
+    },
+    {
+      "scene_id": "SCN-017",
+      "start_time": "1:55",
+      "end_time": "2:05",
+      "duration_seconds": 10,
+      "lyrics_line": "Mama came in with the gentlest face / She kissed Boo's forehead",
+      "chorus_flag": false,
+      "story_beat": "care",
+      "educational_goal": "emotional support: parental comfort",
+      "emotion": "loving",
+      "characters": [
+        {
+          "name": "Mama",
+          "role_in_scene": "Entering room softly, approaching Boo's bed",
+          "expression": "warm, gentle, loving",
+          "position": "left"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "Looking up at Mama with relief",
+          "expression": "relieved, comforted",
+          "position": "right"
+        },
+        {
+          "name": "Gigi",
+          "role_in_scene": "Watching Mama and Boo with a smile",
+          "expression": "warm smile, satisfied",
+          "position": "background"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Bedroom now warm and cozy. Mama entering doorway. Soft warm light.",
+      "camera_direction": "medium_shot",
+      "action": "Mama enters softly. She walks to Boo, leans down, kisses forehead gently. Boo relaxes visibly.",
+      "prop_list": ["bed", "doorway", "soft lighting"],
+      "visual_prompt": "3D cartoon warm and nurturing mother character entering a child's bedroom doorway, soft warm lighting, approaching a sick baby toddler in bed, gentle loving expression, other child character in background smiling, heartwarming family scene, toddler animation style, warm color palette",
+      "thumbnail_candidate": false,
+      "caption_text": "Mama came in with the gentlest face",
+      "transition_type": "dissolve",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Music softens, warmer tone",
+      "color_palette_hint": ["#FFE5B4", "#FFD700", "#FFDAB9"]
+    },
+    {
+      "scene_id": "SCN-018",
+      "start_time": "2:05",
+      "end_time": "2:20",
+      "duration_seconds": 15,
+      "lyrics_line": "What should we do? What should we do? (Chorus 2 repeat)",
+      "chorus_flag": true,
+      "story_beat": "chorus",
+      "educational_goal": "reinforcement: care behaviors repeated",
+      "emotion": "determined",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Leading chorus again, bigger energy",
+          "expression": "energetic, joyful, teaching",
+          "position": "center"
+        },
+        {
+          "name": "Mama",
+          "role_in_scene": "Visible in background, smiling",
+          "expression": "warm, approving",
+          "position": "background"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Bright chorus backdrop. Stars and sparkles. Both characters visible.",
+      "camera_direction": "medium_shot",
+      "action": "Chorus 2 repeat. Gigi and Mama both do the action mimes — mirroring. More sparkles this time.",
+      "prop_list": ["sparkle effects", "floating icons"],
+      "visual_prompt": "3D cartoon girl and mother character doing action mimes together in bright bedroom, girl leading enthusiastically, mother mirroring with warm smile, sparkles and colorful icons, bright cheerful chorus energy, toddler animation",
+      "thumbnail_candidate": false,
+      "caption_text": "What should we do?",
+      "transition_type": "bounce",
+      "repeatable_loop_flag": true,
+      "audio_cue": "Full choir chorus",
+      "color_palette_hint": ["#FFD700", "#FFB6C1", "#87CEEB"]
+    },
+    {
+      "scene_id": "SCN-019",
+      "start_time": "2:20",
+      "end_time": "2:30",
+      "duration_seconds": 10,
+      "lyrics_line": "Close your eyes, little one / Feeling sick is no fun",
+      "chorus_flag": false,
+      "story_beat": "comfort",
+      "educational_goal": "emotional literacy: it's okay to feel sick",
+      "emotion": "comforted",
+      "characters": [
+        {
+          "name": "Mama",
+          "role_in_scene": "Sitting beside Boo's bed, holding hand, singing softly",
+          "expression": "tender, loving, peaceful",
+          "position": "left"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "Eyes closing slowly",
+          "expression": "peaceful, sleepy, comforted",
+          "position": "right"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Bedroom now in soft evening tones. Nightlight on. Star mobile slowly turning. Very warm and safe.",
+      "camera_direction": "close_up",
+      "action": "Bridge begins. Music slows to lullaby tempo. Mama holds Boo's hand. Boo's eyes close slowly.",
+      "prop_list": ["nightlight", "star mobile", "blanket", "Pip the bear"],
+      "visual_prompt": "3D cartoon soft lullaby scene, nurturing mother character sitting beside a small bed holding a baby toddler's hand, baby's eyes slowly closing, soft warm nightlight, star mobile turning gently, cozy safe bedroom, warm amber tones, peaceful and tender, toddler animation style",
+      "thumbnail_candidate": false,
+      "caption_text": "Close your eyes, little one",
+      "transition_type": "dissolve",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Music drops to lullaby half-tempo",
+      "color_palette_hint": ["#FFDAB9", "#FFE5B4", "#87CEEB", "#DDA0DD"]
+    },
+    {
+      "scene_id": "SCN-020",
+      "start_time": "2:30",
+      "end_time": "2:50",
+      "duration_seconds": 20,
+      "lyrics_line": "But we're here by your side / Love so warm, love so wide / Sleep and rest, you'll feel better it's true / We love you Boo... we love you...",
+      "chorus_flag": false,
+      "story_beat": "comfort",
+      "educational_goal": "emotional security: you are loved and safe",
+      "emotion": "comforted",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Sitting on other side of Boo's bed, holding Boo's other hand",
+          "expression": "gentle, loving, protective",
+          "position": "right"
+        },
+        {
+          "name": "Mama",
+          "role_in_scene": "Softly humming, stroking Boo's hair",
+          "expression": "serene, loving",
+          "position": "left"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "Eyes closed, resting peacefully, Pip the bear clutched",
+          "expression": "peaceful, asleep",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Warm dream-like quality. Stars appearing on ceiling. Very soft. Family around bed.",
+      "camera_direction": "wide_shot",
+      "action": "Wide shot: Gigi and Mama on either side of Boo's bed. Boo sleeping peacefully. Stars and soft glow. The warmest, safest image in the video.",
+      "prop_list": ["Pip the bear", "blanket", "star nightlight", "soft glow effects"],
+      "visual_prompt": "3D cartoon heartwarming family scene, young girl and nurturing mother sitting on either side of a small bed where a baby toddler sleeps peacefully holding a stuffed bear, warm amber soft glow, stars on ceiling, most tender scene of the video, wide shot, cozy and safe, toddler animation, maximum warmth",
+      "thumbnail_candidate": false,
+      "caption_text": "We love you, Boo...",
+      "transition_type": "dissolve",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Softest point of song — near whisper vocal, music minimal",
+      "color_palette_hint": ["#FFDAB9", "#FFE5B4", "#DDA0DD", "#87CEEB"]
+    },
+    {
+      "scene_id": "SCN-021",
+      "start_time": "2:50",
+      "end_time": "2:58",
+      "duration_seconds": 8,
+      "lyrics_line": "The sunshine came through the window bright",
+      "chorus_flag": false,
+      "story_beat": "resolution",
+      "educational_goal": null,
+      "emotion": "happy",
+      "characters": [
+        {
+          "name": "Boo",
+          "role_in_scene": "Eyes opening, sunshine on face",
+          "expression": "waking up, slightly better, soft smile beginning",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Morning returns. Bright sunbeam through curtains. Boo's room is warm and golden again.",
+      "camera_direction": "close_up",
+      "action": "Time has passed. Sun comes through window. Boo's eyes flutter open. Music begins to pick up energy.",
+      "prop_list": ["sunshine beam", "curtains", "Pip the bear"],
+      "visual_prompt": "3D cartoon close-up of a baby toddler's face waking up from sleep, warm golden sunbeam coming through blue curtains, eyes fluttering open, soft smile beginning, warm golden morning light, cozy and hopeful, toddler animation, beautiful morning moment",
+      "thumbnail_candidate": false,
+      "caption_text": "The sunshine came through the window bright",
+      "transition_type": "fade",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Music brightens — tempo begins to lift",
+      "color_palette_hint": ["#FFD700", "#FFE5B4", "#87CEEB"]
+    },
+    {
+      "scene_id": "SCN-022",
+      "start_time": "2:58",
+      "end_time": "3:05",
+      "duration_seconds": 7,
+      "lyrics_line": "'I feel a little better!' Boo said with a smile",
+      "chorus_flag": false,
+      "story_beat": "resolution",
+      "educational_goal": "vocabulary: feel better",
+      "emotion": "happy",
+      "characters": [
+        {
+          "name": "Boo",
+          "role_in_scene": "Sitting up slightly, small but genuine smile",
+          "expression": "small smile, still a little tired but better",
+          "position": "center"
+        },
+        {
+          "name": "Gigi",
+          "role_in_scene": "Beside bed, face lighting up with joy",
+          "expression": "joy, relief, excitement",
+          "position": "left"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Boo sitting up slightly in bed. Brighter room. Gigi at bedside.",
+      "camera_direction": "medium_shot",
+      "action": "Boo pushes up to sitting position. Small smile appears. Gigi's face lights up completely. First big smile of the resolution.",
+      "prop_list": ["blanket, slightly pushed down", "Pip the bear"],
+      "visual_prompt": "3D cartoon baby toddler sitting up in bed with a small but genuine smile, red nose starting to fade, blanket pushed down, other girl character beside bed with face lighting up with pure joy and relief, bright bedroom, hopeful moment, toddler animation",
+      "thumbnail_candidate": false,
+      "caption_text": "I feel a little better!",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": null,
+      "color_palette_hint": ["#FFD700", "#FFB6C1", "#FFE5B4"]
+    },
+    {
+      "scene_id": "SCN-023",
+      "start_time": "3:05",
+      "end_time": "3:12",
+      "duration_seconds": 7,
+      "lyrics_line": "Boo wiggled toes and sneezed one more time / Achoo!",
+      "chorus_flag": false,
+      "story_beat": "resolution",
+      "educational_goal": null,
+      "emotion": "playful",
+      "characters": [
+        {
+          "name": "Boo",
+          "role_in_scene": "Wiggling toes from under blanket, then one last sneeze",
+          "expression": "playful, then sneeze, then giggle",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Focus on Boo's feet wiggling under blanket, then face for sneeze.",
+      "camera_direction": "medium_shot",
+      "action": "Boo wiggles toes under blanket (visible toe bumps moving). Then one last sneeze — but this time followed immediately by a giggle.",
+      "prop_list": ["blanket", "toe wiggles effect"],
+      "visual_prompt": "3D cartoon of a toddler's feet wiggling under a blue blanket creating bumps, then same toddler sneezing one more time but immediately giggling after, playful scene, pink nose, cute and funny, toddler animation, more colorful and energetic than earlier sick scenes",
+      "thumbnail_candidate": false,
+      "caption_text": "Achoo! — then giggled!",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Last sneeze SFX then giggle SFX",
+      "color_palette_hint": ["#87CEEB", "#FFD700", "#FFB6C1"]
+    },
+    {
+      "scene_id": "SCN-024",
+      "start_time": "3:12",
+      "end_time": "3:25",
+      "duration_seconds": 13,
+      "lyrics_line": "Gigi laughed and clapped her hands with glee / 'You're getting better! Now I can see!'",
+      "chorus_flag": false,
+      "story_beat": "celebration",
+      "educational_goal": null,
+      "emotion": "excited",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Laughing, clapping, jumping slightly",
+          "expression": "pure joy, laughing, clapping",
+          "position": "left"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "Laughing in bed, more energetic now",
+          "expression": "laughing, more energy, red nose fading",
+          "position": "right"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Bright, warm, joyful. Stars and sparkles appearing. Both characters happy.",
+      "camera_direction": "medium_shot",
+      "action": "Gigi laughs and claps. Boo laughs in bed. Stars and sparkles appear. Energy builds toward final chorus.",
+      "prop_list": ["sparkle effects", "star effects"],
+      "visual_prompt": "3D cartoon girl laughing and clapping hands with pure joy, toddler baby sibling laughing in bed with more energy, red nose fading, sparkles and stars appearing around both characters, joyful and bright bedroom, warm yellows and pinks, celebration energy building, toddler animation",
+      "thumbnail_candidate": false,
+      "caption_text": "You're getting better! Now I can see!",
+      "transition_type": "sparkle",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Music builds to final chorus energy",
+      "color_palette_hint": ["#FFD700", "#FFB6C1", "#87CEEB", "#FFFFFF"]
+    },
+    {
+      "scene_id": "SCN-025",
+      "start_time": "3:25",
+      "end_time": "3:40",
+      "duration_seconds": 15,
+      "lyrics_line": "We knew what to do! We knew what to do! / Boo is feeling better today!",
+      "chorus_flag": true,
+      "story_beat": "chorus",
+      "educational_goal": "reinforcement: we learned the care behaviors",
+      "emotion": "excited",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Leading final chorus with maximum energy, arms up",
+          "expression": "triumphant, joyful, proud",
+          "position": "center"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "Sitting up in bed, arms raised, happy",
+          "expression": "excited, much better, big smile",
+          "position": "right"
+        },
+        {
+          "name": "Mama",
+          "role_in_scene": "Clapping in doorway",
+          "expression": "proud, happy",
+          "position": "left"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Full celebration energy. All characters together. Maximum sparkles and stars. Rainbow colors.",
+      "camera_direction": "wide_shot",
+      "action": "Final chorus — all three characters visible. Maximum energy. Boo is visibly much better. Gigi leads. Mama claps. Stars and confetti.",
+      "prop_list": ["confetti effect", "star effects", "sparkle burst"],
+      "visual_prompt": "3D cartoon wide shot of three characters celebrating together in bright bedroom, girl leading with arms raised in triumph, baby sibling sitting up in bed with arms raised and big smile, nurturing mother clapping in doorway, confetti and stars falling, maximum joy, bright rainbow celebration colors, toddler animation",
+      "thumbnail_candidate": false,
+      "caption_text": "We knew what to do!",
+      "transition_type": "bounce",
+      "repeatable_loop_flag": true,
+      "audio_cue": "Final chorus — biggest energy, full choir",
+      "color_palette_hint": ["#FFD700", "#FF6B6B", "#87CEEB", "#90EE90"]
+    },
+    {
+      "scene_id": "SCN-026",
+      "start_time": "3:40",
+      "end_time": "3:50",
+      "duration_seconds": 10,
+      "lyrics_line": "Rest in bed, drank some soup / Got a hug, felt better soon! / We took care of you!",
+      "chorus_flag": true,
+      "story_beat": "chorus",
+      "educational_goal": "summary: all 4 care behaviors reviewed",
+      "emotion": "proud",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Counting behaviors on fingers",
+          "expression": "proud, teaching, counting",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Split-screen or quick montage showing each behavior: rest (Boo in bed), soup (soup bowl), hug (hug moment), better (Boo smiling).",
+      "camera_direction": "medium_shot",
+      "action": "Quick icon recap — 4 icons flash as Gigi counts: REST, SOUP, HUG, BETTER. Toddler can count along.",
+      "prop_list": ["icon overlays: bed, soup, heart, star"],
+      "visual_prompt": "3D cartoon girl counting on fingers with proud expression, colorful educational icons appearing beside her: bed icon, soup bowl icon, heart/hug icon, star icon, bright educational sequence, toddler animation, clear and simple",
+      "thumbnail_candidate": false,
+      "caption_text": "Rest, soup, hugs — we took care of you!",
+      "transition_type": "cut",
+      "repeatable_loop_flag": true,
+      "audio_cue": null,
+      "color_palette_hint": ["#FFD700", "#FFB6C1", "#90EE90"]
+    },
+    {
+      "scene_id": "SCN-027",
+      "start_time": "3:50",
+      "end_time": "4:00",
+      "duration_seconds": 10,
+      "lyrics_line": "Gigi hugged Boo nice and tight / 'Now you're feeling alright!'",
+      "chorus_flag": false,
+      "story_beat": "resolution",
+      "educational_goal": "empathy: celebrating recovery together",
+      "emotion": "loving",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Hugging Boo",
+          "expression": "big smile, warm hug",
+          "position": "left"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "Being hugged, giggling",
+          "expression": "happy, laughing, healed",
+          "position": "right"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Bright, warm, resolution energy. Boo now out of blanket or sitting up fully. Hug shot.",
+      "camera_direction": "close_up",
+      "action": "Gigi gives Boo a big warm hug. Boo laughs. Red nose is almost gone. This is the resolution hug.",
+      "prop_list": [],
+      "visual_prompt": "3D cartoon close-up of an older toddler girl giving a big warm hug to a younger baby sibling, both laughing, baby's red nose almost gone, bright warm lighting, love and connection, toddler animation, most heartwarming close-up in the video",
+      "thumbnail_candidate": true,
+      "caption_text": "Now you're feeling alright!",
+      "transition_type": "dissolve",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Warm music, slightly slower",
+      "color_palette_hint": ["#FFB6C1", "#FFD700", "#FFE5B4"]
+    },
+    {
+      "scene_id": "SCN-028",
+      "start_time": "4:00",
+      "end_time": "4:10",
+      "duration_seconds": 10,
+      "lyrics_line": "When someone you love doesn't feel well today / You know just what to do",
+      "chorus_flag": false,
+      "story_beat": "outro",
+      "educational_goal": "generalization: apply care behaviors to any situation",
+      "emotion": "proud",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Talking directly to camera, warm and confident",
+          "expression": "warm, direct, teaching",
+          "position": "center"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Gigi facing camera. Soft warm background. Simple and clear.",
+      "camera_direction": "medium_shot",
+      "action": "Gigi faces camera directly and delivers the lesson to the viewer. Simple, warm, clear.",
+      "prop_list": [],
+      "visual_prompt": "3D cartoon girl facing camera directly with warm confident expression, simple warm bedroom background, delivering lesson to viewer, educational but friendly, toddler animation, bright and clear",
+      "thumbnail_candidate": false,
+      "caption_text": "You know just what to do!",
+      "transition_type": "cut",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Music softens to gentle outro",
+      "color_palette_hint": ["#FFE5B4", "#FFD700", "#FFB6C1"]
+    },
+    {
+      "scene_id": "SCN-029",
+      "start_time": "4:10",
+      "end_time": "4:22",
+      "duration_seconds": 12,
+      "lyrics_line": "Rest and soup and hugs are the way / And love makes the sick go away!",
+      "chorus_flag": false,
+      "story_beat": "outro",
+      "educational_goal": "summary: 3 key behaviors + love",
+      "emotion": "happy",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Beside Boo, both waving at camera",
+          "expression": "big smile, waving",
+          "position": "left"
+        },
+        {
+          "name": "Boo",
+          "role_in_scene": "Waving, fully recovered, happy",
+          "expression": "big laugh, waving both arms, fully better",
+          "position": "right"
+        }
+      ],
+      "location": "bedroom",
+      "background_description": "Bright, fully lit room. Both characters together, happy. Flowers or sun decoration visible. Maximum cheerful energy.",
+      "camera_direction": "medium_shot",
+      "action": "Both Gigi and Boo wave at the camera together. Boo is fully recovered — bouncing with energy. Final happy image.",
+      "prop_list": ["sparkle effects", "heart effects"],
+      "visual_prompt": "3D cartoon two young sibling characters side by side waving happily at camera, older girl with pigtails and younger baby toddler both fully happy and energetic, baby's red nose fully gone, bright cheerful bedroom, sparkles and hearts, warm joyful colors, perfect ending shot, toddler animation",
+      "thumbnail_candidate": true,
+      "caption_text": "Love makes the sick go away!",
+      "transition_type": "fade",
+      "repeatable_loop_flag": false,
+      "audio_cue": null,
+      "color_palette_hint": ["#FFD700", "#FFB6C1", "#87CEEB", "#90EE90"]
+    },
+    {
+      "scene_id": "SCN-030",
+      "start_time": "4:22",
+      "end_time": "4:30",
+      "duration_seconds": 8,
+      "lyrics_line": "(Outro — instrumental fade)",
+      "chorus_flag": false,
+      "story_beat": "outro",
+      "educational_goal": null,
+      "emotion": "happy",
+      "characters": [
+        {
+          "name": "Gigi",
+          "role_in_scene": "Logo/title card pose",
+          "expression": "waving, smiling",
+          "position": "center"
+        }
+      ],
+      "location": "living_room",
+      "background_description": "Channel logo / outro screen. Gigi's Playhouse title. Subscribe button prompt. End screen.",
+      "camera_direction": "static",
+      "action": "Outro card appears. Channel branding. Subscribe prompt. Recommended video thumbnails appear in end screen.",
+      "prop_list": ["channel logo", "subscribe button", "end screen thumbnails"],
+      "visual_prompt": "3D cartoon channel outro card, colorful playful logo for children's channel, cute girl character waving, bright colors, cheerful and inviting, toddler-friendly branding, space for subscribe button and end screen",
+      "thumbnail_candidate": false,
+      "caption_text": "Subscribe for more Gigi's Playhouse songs!",
+      "transition_type": "fade",
+      "repeatable_loop_flag": false,
+      "audio_cue": "Piano fade, giggles",
+      "color_palette_hint": ["#FFD700", "#FFB6C1", "#87CEEB"]
+    }
+  ]
+}
