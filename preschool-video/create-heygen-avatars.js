@@ -44,17 +44,23 @@ if (!API_KEY) {
 }
 
 // Reference image URLs from asset manifest (Higgsfield CDN)
+// Leo's avatar was already created — skip upload/create and go straight to Zoe.
 const CHARACTERS = [
   {
     name: "Leo",
     envKey: "HEYGEN_LEO_AVATAR_ID",
+    groupEnvKey: "HEYGEN_LEO_GROUP_ID",
     avatarName: "Leo - Zoomy Zoom Freeze",
     imageUrl: "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_004409_bc8b28c3-e37d-459d-a016-93a5713103f3.png",
     description: "Dark curly hair, red shirt yellow lightning bolt, golden cape, blue sneakers, dark brown skin",
+    // Already created — skip upload/create and just write these to .env
+    existingAvatarItemId: "2b3a0fd598e2419e975a28a405345772",
+    existingAvatarGroupId: "c835d519c91747199d19dc42b7de0f62",
   },
   {
     name: "Zoe",
     envKey: "HEYGEN_ZOE_AVATAR_ID",
+    groupEnvKey: "HEYGEN_ZOE_GROUP_ID",
     avatarName: "Zoe - Zoomy Zoom Freeze",
     imageUrl: "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260701_004410_8b8e6589-ee42-4626-8bb2-203daa70c95b.png",
     description: "Red pom pom puffs, green tracksuit purple bow tie, warm brown skin",
@@ -157,40 +163,26 @@ async function createPhotoAvatar(name, assetId) {
   const avatarItemId = res.data?.avatar_item?.id;
   const avatarGroupId = res.data?.avatar_group?.id;
   if (!avatarItemId) throw new Error(`No avatar_item.id in create response: ${JSON.stringify(res).slice(0, 300)}`);
-  console.log(`  Avatar item ID: ${avatarItemId}`);
+  if (!avatarGroupId) throw new Error(`No avatar_group.id in create response: ${JSON.stringify(res).slice(0, 300)}`);
+  console.log(`  Avatar item ID:  ${avatarItemId}`);
   console.log(`  Avatar group ID: ${avatarGroupId}`);
-  return avatarItemId;
+  return { avatarItemId, avatarGroupId };
 }
 
-async function pollAvatarReady(avatarId, maxWaitMs = 300_000) {
-  const start = Date.now();
-  let attempt = 0;
-  while (Date.now() - start < maxWaitMs) {
-    attempt++;
-    const res = await fetchJson(
-      `https://api.heygen.com/v3/avatars/${avatarId}`,
-      { method: "GET", headers: { "x-api-key": API_KEY } }
-    );
-
-    // v3 response: { data: { avatar_item: { id, status } } } or flat { data: { status } }
-    const status = res.data?.avatar_item?.status ?? res.data?.status ?? res.status;
-    const elapsed = ((Date.now() - start) / 1000).toFixed(0);
-
-    console.log(`    [${elapsed}s] Status: ${status}`);
-
-    if (status === "active" || status === "completed" || status === "done") {
-      console.log(`  Ready! Avatar ID: ${avatarId}`);
-      return avatarId;
-    }
-    if (status === "failed" || status === "error") {
-      throw new Error(`Avatar training failed (id=${avatarId}): ${JSON.stringify(res.data).slice(0, 300)}`);
-    }
-
-    // Poll every 10s for first minute, then every 20s
-    const delay = attempt < 6 ? 10_000 : 20_000;
-    await sleep(delay);
+async function checkAvatarStatus(avatarGroupId) {
+  // Poll using group ID — GET /v3/avatars/{group_id}
+  // Photo avatars are usually active immediately; we do one quick check and proceed.
+  const res = await fetchJson(
+    `https://api.heygen.com/v3/avatars/${avatarGroupId}`,
+    { method: "GET", headers: { "x-api-key": API_KEY } }
+  );
+  const status = res.data?.avatar_item?.status ?? res.data?.status ?? "unknown";
+  console.log(`  Status check: ${status}`);
+  if (status === "failed" || status === "error") {
+    throw new Error(`Avatar processing failed (group=${avatarGroupId}): ${JSON.stringify(res.data).slice(0, 300)}`);
   }
-  throw new Error(`Timeout waiting for avatar ${avatarId} after ${maxWaitMs / 1000}s`);
+  // Any non-failure status (active, processing, pending, unknown) — proceed
+  return status;
 }
 
 function writeEnvVar(key, value) {
@@ -202,7 +194,7 @@ function writeEnvVar(key, value) {
     content = content.trimEnd() + `\n${key}=${value}\n`;
   }
   fs.writeFileSync(ENV_PATH, content);
-  console.log(`  Written to .env: ${key}=${value}`);
+  console.log(`  .env: ${key}=${value}`);
 }
 
 // --- Main ---
@@ -214,6 +206,18 @@ function writeEnvVar(key, value) {
     const results = {};
 
     for (const char of CHARACTERS) {
+      // Fast-path: avatar already created from a previous run
+      if (char.existingAvatarItemId && char.existingAvatarGroupId) {
+        console.log(`\n[Skip] ${char.name} already created — writing known IDs to .env`);
+        writeEnvVar(char.envKey, char.existingAvatarItemId);
+        writeEnvVar(char.groupEnvKey, char.existingAvatarGroupId);
+        results[char.name] = {
+          avatarItemId: char.existingAvatarItemId,
+          avatarGroupId: char.existingAvatarGroupId,
+        };
+        continue;
+      }
+
       console.log(`\n[Step 2–4] Processing ${char.name}…`);
       console.log(`  Description: ${char.description}`);
       console.log(`  Reference: ${char.imageUrl}`);
@@ -221,21 +225,27 @@ function writeEnvVar(key, value) {
       console.log(`  Downloading reference image…`);
       const imgBuffer = await downloadBuffer(char.imageUrl);
       const mimeType = char.imageUrl.endsWith(".png") ? "image/png" : "image/jpeg";
+      const ext = mimeType === "image/png" ? "png" : "jpg";
 
-      const assetId = await uploadAsset(imgBuffer, `${char.name.toLowerCase()}-ref.${mimeType === "image/png" ? "png" : "jpg"}`, mimeType);
-      const avatarId = await createPhotoAvatar(char.avatarName, assetId);
+      const assetId = await uploadAsset(imgBuffer, `${char.name.toLowerCase()}-ref.${ext}`, mimeType);
+      const { avatarItemId, avatarGroupId } = await createPhotoAvatar(char.avatarName, assetId);
 
-      console.log(`  Polling for training completion (may take 1–3 minutes)…`);
-      const finalAvatarId = await pollAvatarReady(avatarId);
+      // Single status check — photo avatars are usually active immediately
+      console.log(`  Checking avatar status…`);
+      await checkAvatarStatus(avatarGroupId);
 
-      results[char.name] = { assetId, avatarId: finalAvatarId };
-      writeEnvVar(char.envKey, finalAvatarId);
+      results[char.name] = { assetId, avatarItemId, avatarGroupId };
+      writeEnvVar(char.envKey, avatarItemId);
+      writeEnvVar(char.groupEnvKey, avatarGroupId);
     }
 
     console.log("\n=== DONE ===");
-    console.log(`Leo  avatar ID: ${results.Leo.avatarId}`);
-    console.log(`Zoe  avatar ID: ${results.Zoe.avatarId}`);
-    console.log("\n.env updated. Add HEYGEN_LEO_AVATAR_ID and HEYGEN_ZOE_AVATAR_ID to your");
+    for (const [name, r] of Object.entries(results)) {
+      console.log(`${name}  item_id:  ${r.avatarItemId}`);
+      console.log(`${name}  group_id: ${r.avatarGroupId}`);
+    }
+    console.log("\n.env updated. Add HEYGEN_LEO_AVATAR_ID, HEYGEN_LEO_GROUP_ID,");
+    console.log("HEYGEN_ZOE_AVATAR_ID, and HEYGEN_ZOE_GROUP_ID to your");
     console.log("GitHub Actions secrets before running the video generation workflow.");
     console.log("\nHeyGen dashboard: https://app.heygen.com/avatars");
 
