@@ -19,7 +19,7 @@
   "emotional_objective": "Children experience that being sick is scary but love and care make everything better, and they are always safe.",
   "characters": [
     {
-      "name": "Gigi",
+      "name": "Lily",
       "description": "3-year-old girl with brown pigtails, pink star pajamas, curious and loving",
       "age": "3",
       "role": "protagonist and helper"
@@ -38,7 +38,7 @@
     },
     {
       "name": "Pip",
-      "description": "Small stuffed brown bear, Gigi's comfort toy, held by Boo when sick",
+      "description": "Small stuffed brown bear, Lily's comfort toy, held by Boo when sick",
       "age": "prop",
       "role": "comfort prop"
     }
@@ -141,6 +141,6 @@
     "language": "en",
     "made_for_kids": true
   },
-  "production_notes": "Priority video — establish character designs for Gigi, Boo, and Mama that will be reused across all future videos. Invest time in these 3 character sheets. All bedroom assets are reusable. Kitchen scene (SCN-016) is brief — use simple background. Focus quality effort on: SCN-006/007 (Boo sick face), SCN-019/020 (bridge warmth), SCN-029 (final resolution — thumbnail candidate).",
+  "production_notes": "Priority video — establish character designs for Lily, Boo, and Mama that will be reused across all future videos. Invest time in these 3 character sheets. All bedroom assets are reusable. Kitchen scene (SCN-016) is brief — use simple background. Focus quality effort on: SCN-006/007 (Boo sick face), SCN-019/020 (bridge warmth), SCN-029 (final resolution — thumbnail candidate).",
   "reuse_assets": []
 }

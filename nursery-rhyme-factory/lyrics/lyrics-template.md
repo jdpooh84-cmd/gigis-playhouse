@@ -126,7 +126,7 @@ CLOSING_TAGLINE
 - Final chorus should differ slightly — past tense or "we did it" variation
 
 ### NO CHARACTER NAMES IN SUNG LYRICS — NON-NEGOTIABLE
-- Never use character names (Gigi, Boo, Mama, Dada, Pip, Sunny) in any sung line
+- Never use character names (Lily, Boo, Mama, Dada, Pip, Sunny) in any sung line
 - Names in lyrics isolate children by name, gender, and purpose — making the song non-inclusive
 - Any child watching must be able to see themselves in the song
 - Replace names with: "someone", "little one", "they", "we", "everyone", "your friend"
