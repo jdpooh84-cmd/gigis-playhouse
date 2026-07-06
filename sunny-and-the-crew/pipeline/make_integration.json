@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "document": "make_integration.json",
+    "note": "Make.com integration details for Sunny and the Crew delivery pipeline. DO NOT TOUCH WILLO scenarios."
+  },
+
+  "team": {
+    "team_id": 86702
+  },
+
+  "active_scenarios": [
+    {
+      "scenario_id": 5575994,
+      "name": "Sunny Kling Video Generation Engine",
+      "webhook": "hook.us2.make.com/s1x1l9d89ryqdjy3m3dc6c4gyxetqlr3",
+      "purpose": "Video clip generation from Higgsfield Kling model",
+      "status": "active",
+      "do_not_delete": true
+    }
+  ],
+
+  "delivery_blueprint": {
+    "name": "EP## [Title] — Download and Upload to Google Drive",
+    "pattern": "HTTP ActionGetFile → Google Drive ActionUploadFile",
+    "modules": {
+      "module_1": {
+        "id": 1,
+        "module": "http:ActionGetFile",
+        "version": 3,
+        "parameters": {"handleErrors": false},
+        "mapper": {
+          "url": "{{HIGGSFIELD_CDN_URL}}",
+          "method": "get",
+          "serializeUrl": false,
+          "shareCookies": false
+        }
+      },
+      "module_2": {
+        "id": 2,
+        "module": "google-drive:ActionUploadFile",
+        "version": 3,
+        "parameters": {"account": 9554897},
+        "mapper": {
+          "destination": "personal",
+          "folderId": "{{FULL_FOLDER_PATH}}",
+          "fileName": "{{FILE_NAME}}",
+          "data": "{{1.data}}",
+          "convert": false
+        }
+      }
+    },
+    "folder_id_format": "/rootFolderId/parentFolderId/targetFolderId",
+    "ep01_folder_path": "/10mtwmiNFKY6_VGqM62RTfx8aMN2SjNY2/1SiyWpFUs5rz-aDqQwmt82EB_IvNf9LuE/1mojorVb70YDIgPyHtF75Ocr8NMRJ7K2Y",
+    "lesson_learned": "folderId must use full path string — leaf folder ID alone causes isinvalid: true server error"
+  },
+
+  "willo_scenarios_DO_NOT_TOUCH": {
+    "ids": [5106170, 5106176, 5106181, 5111331],
+    "warning": "These scenarios belong to a different project (WILLO). Never modify, delete, or run these."
+  }
+}

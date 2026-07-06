@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "document": "show_bible.json",
+    "show": "Sunny and the Crew",
+    "version": "1.0",
+    "locked": true,
+    "last_updated": "2026-07-06",
+    "note": "This is the single source of truth. Do not override any locked value without explicit creator approval."
+  },
+
+  "show": {
+    "title": "Sunny and the Crew",
+    "tagline": "Ask. Share. Try. Together.",
+    "format": "Preschool animated music series",
+    "target_age": "4-7",
+    "distribution": "YouTube",
+    "episode_length_min": 300,
+    "episode_length_max": 480,
+    "episode_length_label": "5–8 minutes",
+    "season_count": 1,
+    "episodes_per_season": 15,
+    "content_rating": "Made for Kids (YouTube)",
+    "style": "3D Pixar/Illumination quality, warm saturated colors, bright safe neighborhood world"
+  },
+
+  "episode_formula": {
+    "act_1": "Theme song intro — 0:44 locked duration",
+    "act_2": "Brief dialogue and story setup — establish the lesson/problem clearly, no more than 60-90 seconds",
+    "act_3": "Episode song — full duration, visuals synced to lyric structure",
+    "act_4": "Sunny goodbye outro — Sunny faces camera, participatory moment, wave goodbye"
+  },
+
+  "character_lock_header": "ALWAYS prepend this block to every Higgsfield image generation prompt:\n\n[CHARACTER LOCK — SUNNY AND THE CREW]\nSUNNY: 6-year-old girl, warm golden-brown skin, bright sunflower-yellow dress, big curious brown eyes, two pom-pom pigtails with yellow scrunchies tied tight, cheerful confident expression, 3D Pixar-style render, consistent across all episodes.\nLEO: 7-year-old boy, light tan skin, spiky dark hair, royal blue hoodie with a small lightning bolt patch on the left chest, round glasses with thin silver frames, thoughtful expression, 3D Pixar-style render.\nMIA: 5-year-old girl, deep brown skin, curly natural afro puffs with pink hair ties, pink overalls with a daisy patch on the bib, shy but warm smile, big bright dark eyes, 3D Pixar-style render.\nSETTING: Bright colorful safe American suburb neighborhood. Sunny skies, lush green grass, clean sidewalks, warm saturated colors. Child-safe joyful 3D animated world. Pixar/Illumination quality. 16:9 widescreen.\n[END CHARACTER LOCK]",
+
+  "higgsfield": {
+    "sunny_element_id_locked": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+    "confirmed_generation_model": "nano_banana_2",
+    "clip_max_duration_seconds": 15,
+    "rule": "Never generate Sunny from scratch. Always reference locked element ID. Use nano_banana_2 for all character image generation."
+  },
+
+  "make_integration": {
+    "team_id": 86702,
+    "active_scenario_id": 5575994,
+    "active_scenario_name": "Sunny Kling Video Generation Engine",
+    "webhook": "hook.us2.make.com/s1x1l9d89ryqdjy3m3dc6c4gyxetqlr3",
+    "willo_scenarios_DO_NOT_TOUCH": [5106170, 5106176, 5106181, 5111331],
+    "delivery_method": "Make downloads from Higgsfield CDN and uploads to Google Drive"
+  },
+
+  "google_drive": {
+    "production_root_folder_id": "10mtwmiNFKY6_VGqM62RTfx8aMN2SjNY2",
+    "episodes_folder_id": "1SiyWpFUs5rz-aDqQwmt82EB_IvNf9LuE",
+    "ep01_folder_id": "1mojorVb70YDIgPyHtF75Ocr8NMRJ7K2Y",
+    "characters_sunny_folder_id": "1Fg4uL05IR_hiKBnD9uCY9CR2_ekD4ppW",
+    "finals_upload_folder": "FINALS — READY TO UPLOAD",
+    "make_folderId_format": "/parentId/childId/leafId"
+  },
+
+  "hard_rules": [
+    "Never loop clips — every clip must appear only once in the episode",
+    "Never redesign Sunny — always use locked element ID a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+    "Never touch WILLO Make.com scenarios: 5106170, 5106176, 5106181, 5111331",
+    "Never ask the creator to paste API keys into chat",
+    "Never connect JD Life With FND to any business activity",
+    "Sunny and the Crew is legally and organizationally separate from Gigi's Playhouse",
+    "Do not pad episodes with random looping footage — use structured participatory beats only",
+    "All generation prompts must begin with the CHARACTER LOCK HEADER",
+    "Use nano_banana_2 model only for character image generation",
+    "Made for Kids must be set on all YouTube uploads"
+  ]
+}

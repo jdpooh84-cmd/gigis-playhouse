@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "document": "episode_template.json",
+    "note": "This is the template for every episode. Copy this and fill in episode-specific values. Do not alter the structure."
+  },
+
+  "episode": {
+    "number": "EP##",
+    "title": "",
+    "slug": "",
+    "folder_id_google_drive": "",
+    "status": "not_started",
+    "lesson": "",
+    "crew_members_featured": ["SUNNY", "LEO", "MIA"],
+    "locations_used": [],
+    "song_id": ""
+  },
+
+  "runtime": {
+    "theme_song_seconds": 44,
+    "dialogue_setup_seconds": 0,
+    "episode_song_seconds": 0,
+    "participation_seconds": 0,
+    "outro_seconds": 30,
+    "total_seconds": 0,
+    "total_label": "0:00",
+    "gap_analysis": "Calculate: 300 - (theme + song) = minimum dialogue/outro needed"
+  },
+
+  "acts": {
+    "ACT_1": {
+      "name": "Theme Song Intro",
+      "duration_seconds": 44,
+      "music": "MUSIC_THEME",
+      "shots": []
+    },
+    "ACT_2": {
+      "name": "Dialogue Setup",
+      "duration_seconds": 0,
+      "music": null,
+      "shots": []
+    },
+    "ACT_3": {
+      "name": "Episode Song",
+      "duration_seconds": 0,
+      "music": "",
+      "shots": []
+    },
+    "ACT_4": {
+      "name": "Outro",
+      "duration_seconds": 30,
+      "music": "MUSIC_THEME_STING",
+      "shots": []
+    }
+  },
+
+  "shot_template": {
+    "shot_id": "EP##-S##",
+    "act": "ACT_#",
+    "beat_number": 0,
+    "start_sec": 0,
+    "end_sec": 0,
+    "duration_seconds": 0,
+    "purpose": "establish_location | show_emotion | show_interaction | support_lyric | transition | outro | participation",
+    "location_id": "",
+    "characters_visible": [],
+    "existing_asset_id": null,
+    "generation_needed": false,
+    "generation_prompt": "",
+    "higgsfield_clip_job_id": null,
+    "clip_status": "pending | generating | complete",
+    "music_cue": "",
+    "lyric_line": "",
+    "dialog_cue": "",
+    "transition_note": "cut"
+  }
+}

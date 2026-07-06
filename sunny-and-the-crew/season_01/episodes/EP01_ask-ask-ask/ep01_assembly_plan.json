@@ -1,0 +1,147 @@
+{
+  "_meta": {
+    "document": "ep01_assembly_plan.json",
+    "episode": "EP01 — Ask Ask Ask",
+    "note": "Execute steps in exact order. Do not skip steps. Do not proceed to step N+1 until step N is verified complete."
+  },
+
+  "diagnosis": {
+    "why_old_system_looped": [
+      "Only 6 images existed for 8.5 minutes of content — 6 clips × 15s = 90s. The remaining 420+ seconds had nothing to fill it.",
+      "explainer_video reused the same 6 clip IDs repeatedly to reach target duration — that is by definition looping.",
+      "No beat sheet existed — there was no story arc, no act structure, no lyric sync plan.",
+      "No Suno timing map — clips were not matched to song sections.",
+      "No participatory structure — the gap between songs and target runtime was ignored.",
+      "No editing pass — assembly tool received 6 IDs and looped them without any editorial logic."
+    ],
+    "root_cause": "The pipeline went Idea → 6 random images → loop → deliver. There was no production architecture between the idea and the output.",
+    "fix": "Beat sheet with 24 unique beats. One image per beat. One clip per beat. Clips used once. Story arc. Song sync. Participation beats fill the gap. No looping."
+  },
+
+  "pre_production_checklist": [
+    {"step": "P1", "task": "Confirm show_bible.json is loaded and all hard rules are read", "status": "complete"},
+    {"step": "P2", "task": "Confirm ep01_data.json is loaded", "status": "complete"},
+    {"step": "P3", "task": "Confirm ep01_beat_sheet.json is loaded — 24 beats confirmed", "status": "complete"},
+    {"step": "P4", "task": "Confirm ep01_music_timing.json is loaded — song sections confirmed", "status": "complete"},
+    {"step": "P5", "task": "Confirm ep01_shot_list.json is loaded — 24 shots, generation queue ready", "status": "complete"},
+    {"step": "P6", "task": "Pull audio files from Google Drive or local scratchpad", "status": "pending"},
+    {"step": "P7", "task": "Confirm 9 existing Higgsfield image assets are accessible by their IDs", "status": "pending"}
+  ],
+
+  "production_steps": [
+    {
+      "step": "S1",
+      "phase": "GENERATION",
+      "task": "Convert existing image assets to video clips — Priority 1",
+      "details": "Convert these 9 existing Higgsfield image IDs to 10–15s video clips using kling3_0_turbo or the Sunny Kling Video Generation Engine (Make scenario 5575994). Generate in this order: B02(8bdc26c0), B03(36c855fa), B04(315b284c), B07(97c88d99), B09(8bdc26c0), B12(a0850a65), B13(36c855fa), B17(315b284c), B18(97c88d99), B24(3d56c3cb). Record each clip job ID in timeline file.",
+      "status": "pending",
+      "output": "10 Higgsfield clip job IDs"
+    },
+    {
+      "step": "S2",
+      "phase": "GENERATION",
+      "task": "Generate 13 new images using nano_banana_2 — Priority 2",
+      "details": "Generate new images for beats: B05, B08, B10, B11, B14, B15, B16, B19, B20, B21, B22, B23. Use CHARACTER LOCK HEADER + full_prompt from ep01_shot_list.json for each. Use Sunny element ID a40e2d56-573f-4bf2-bdcd-28c64014fdb9 for any Sunny-featuring shot. Record each image ID.",
+      "status": "pending",
+      "output": "13 new Higgsfield image job IDs"
+    },
+    {
+      "step": "S3",
+      "phase": "GENERATION",
+      "task": "Create title card for B01",
+      "details": "B01 is the show title card. Options: (a) generate a static image using nano_banana_2 with a sunburst background and 'Sunny and the Crew' text, OR (b) use a pre-existing logo graphic from Google Drive if one exists. Duration: 8 seconds.",
+      "status": "pending",
+      "output": "1 title card clip"
+    },
+    {
+      "step": "S4",
+      "phase": "GENERATION",
+      "task": "Convert 13 new images to video clips",
+      "details": "For each new image from S2, generate a video clip using kling3_0_turbo. Target duration matches beat duration from beat sheet. Record each clip job ID.",
+      "status": "pending",
+      "output": "13 new Higgsfield clip job IDs"
+    },
+    {
+      "step": "S5",
+      "phase": "VERIFICATION",
+      "task": "Verify 24 clip IDs are ready — no duplicates",
+      "details": "List all 24 clip job IDs in beat order B01→B24. Confirm: (a) all 24 are present, (b) no clip ID appears twice, (c) all clips are marked complete in Higgsfield. If any clip failed, regenerate it before proceeding.",
+      "status": "pending",
+      "output": "Verified ordered list of 24 unique clip IDs"
+    },
+    {
+      "step": "S6",
+      "phase": "ASSEMBLY",
+      "task": "Assemble episode using Higgsfield explainer_video",
+      "details": "Pass all 24 clip IDs to Higgsfield explainer_video in order B01→B24. Attach audio: theme song to ACT 1 (B01-B04), episode song starting at B08 through B18, theme sting to B24.",
+      "status": "pending",
+      "output": "Higgsfield assembled video job ID"
+    },
+    {
+      "step": "S7",
+      "phase": "DELIVERY",
+      "task": "Download assembled episode and upload to Google Drive",
+      "details": "Use Make.com scenario 5575994 (Sunny Kling Video Generation Engine) OR the confirmed working blueprint pattern: HTTP ActionGetFile (Higgsfield CDN URL) → Google Drive ActionUploadFile. Destination folder: 1mojorVb70YDIgPyHtF75Ocr8NMRJ7K2Y (EP01 folder). File name: EP01-Ask-Ask-Ask-FINAL.mp4. Use full folderId path format: /10mtwmiNFKY6_VGqM62RTfx8aMN2SjNY2/1SiyWpFUs5rz-aDqQwmt82EB_IvNf9LuE/1mojorVb70YDIgPyHtF75Ocr8NMRJ7K2Y",
+      "status": "pending",
+      "output": "EP01-Ask-Ask-Ask-FINAL.mp4 in Google Drive EP01 folder"
+    },
+    {
+      "step": "S8",
+      "phase": "DELIVERY",
+      "task": "Prepare YouTube upload metadata",
+      "details": "Title: Ask Ask Ask | Sunny and the Crew | Episode 1. Description: [to be written]. Tags: preschool, kids songs, social emotional learning, animated, Sunny and the Crew, 4-7, YouTube Kids. Category: Education. Made for Kids: YES.",
+      "status": "pending",
+      "output": "YouTube metadata document ready for upload"
+    }
+  ],
+
+  "missing_assets_and_automations": {
+    "critical": [
+      "13 new Higgsfield images not yet generated (B05, B08, B10, B11, B14, B15, B16, B19, B20, B21, B22, B23) — these are BLOCKING",
+      "Leo has zero existing Higgsfield images — all Leo shots must be generated fresh",
+      "Mia has zero existing Higgsfield images — all Mia shots must be generated fresh",
+      "Title card for B01 does not exist yet"
+    ],
+    "audio": [
+      "Theme song and episode song files exist in scratchpad and were previously imported to Higgsfield",
+      "Dialogue/narration for ACT 2 and ACT 4 is not yet recorded or voiced — text script exists in ep01_data.json",
+      "No voiceover for Sunny currently exists — options: (a) text on screen, (b) AI voice, (c) creator records"
+    ],
+    "automation": [
+      "Make scenario 5575994 exists and delivery pipeline is confirmed working from EP01 test",
+      "No automated beat-to-clip generation pipeline exists yet — currently manual Higgsfield calls",
+      "No automated quality check (clip count vs beat count) — currently manual verification"
+    ],
+    "nice_to_have": [
+      "Soft ambient underscore for ACT 2 dialogue (60s) and ACT 4 participation (69s)",
+      "Leo and Mia character reference images saved to Google Drive CHARACTERS folder",
+      "Title card motion graphic / logo animation"
+    ]
+  },
+
+  "runtime_verification": {
+    "B01": 8, "B02": 12, "B03": 11, "B04": 13,
+    "B05": 14, "B06": 14, "B07": 13, "B08": 24,
+    "B09": 10, "B10": 12, "B11": 13, "B12": 12,
+    "B13": 11, "B14": 14, "B15": 13, "B16": 12,
+    "B17": 12, "B18": 15, "B19": 15, "B20": 13,
+    "B21": 11, "B22": 14, "B23": 13, "B24": 11,
+    "total_seconds_calculated": 310,
+    "total_label": "5:10",
+    "within_target_5_to_8_min": true,
+    "can_expand_to": "6:00 by adding 2-3 more dialogue beats or extending participation beats"
+  },
+
+  "next_actions_in_order": [
+    "ACTION 1: Generate new images for B05, B08, B10, B11 using nano_banana_2 with CHARACTER LOCK HEADER",
+    "ACTION 2: Generate new images for B14, B15, B16 (the crew collaboration/celebration shots)",
+    "ACTION 3: Generate new images for B19, B20, B21, B22, B23 (participation and celebration beats)",
+    "ACTION 4: Create title card for B01",
+    "ACTION 5: Convert all new images to 10-15s clips using kling3_0_turbo",
+    "ACTION 6: Convert 9 existing image assets to clips (B02, B03, B04, B07, B09, B12, B13, B17, B18, B24)",
+    "ACTION 7: Verify 24 unique clip IDs in beat order — confirm no duplicates",
+    "ACTION 8: Assemble episode with Higgsfield explainer_video — clips B01→B24 in order",
+    "ACTION 9: Deliver to Google Drive via Make scenario 5575994",
+    "ACTION 10: Prepare YouTube upload metadata"
+  ]
+}

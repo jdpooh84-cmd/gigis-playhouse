@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "document": "music_library.json",
+    "locked": true,
+    "note": "Music assets are locked. Do not replace or regenerate locked songs without creator approval."
+  },
+
+  "music_assets": [
+    {
+      "id": "MUSIC_THEME",
+      "title": "Sunny and the Crew Theme Song",
+      "role": "theme",
+      "duration_seconds": 44,
+      "duration_label": "0:44",
+      "file_name": "sunny-and-the-crew-THEME.mp3",
+      "local_path_scratchpad": "/tmp/claude-0/-home-user-gigis-playhouse/5ee5707e-fc45-5244-ba08-62a6a25d1186/scratchpad/sunny-and-the-crew.mp3",
+      "higgsfield_import_status": "imported via raw.githubusercontent.com workaround",
+      "used_in": ["ACT_1_THEME_INTRO", "ACT_4_OUTRO_sting"],
+      "visual_direction": "Wide shots, high energy, all characters, bright neighborhood, introduce the crew",
+      "locked": true
+    },
+    {
+      "id": "MUSIC_EP01_SONG",
+      "title": "Ask Ask Ask",
+      "episode": "EP01",
+      "role": "episode_song",
+      "duration_seconds": 124,
+      "duration_label": "2:04",
+      "file_name": "ask-ask-ask.mp3",
+      "local_path_scratchpad": "/tmp/claude-0/-home-user-gigis-playhouse/5ee5707e-fc45-5244-ba08-62a6a25d1186/scratchpad/ask-ask-ask.mp3",
+      "higgsfield_import_status": "imported via raw.githubusercontent.com workaround",
+      "theme": "Asking for help is brave and smart",
+      "song_structure": {
+        "intro": {"start_sec": 0, "end_sec": 10, "energy": "building", "label": "Intro"},
+        "verse_1": {"start_sec": 10, "end_sec": 35, "energy": "medium", "label": "Verse 1"},
+        "chorus_1": {"start_sec": 35, "end_sec": 57, "energy": "HIGH", "label": "Chorus 1"},
+        "verse_2": {"start_sec": 57, "end_sec": 82, "energy": "medium", "label": "Verse 2"},
+        "chorus_2": {"start_sec": 82, "end_sec": 104, "energy": "HIGH", "label": "Chorus 2"},
+        "outro": {"start_sec": 104, "end_sec": 124, "energy": "winding down", "label": "Outro"}
+      },
+      "note": "Song structure timestamps are estimates. Verify against actual audio file before final assembly.",
+      "locked": true
+    }
+  ],
+
+  "future_episode_songs": [
+    {"episode": "EP02", "title": "Try Try Try Again", "genre": "upbeat pop", "status": "needs_creation"},
+    {"episode": "EP03", "title": "Share the Sunshine", "genre": "feel-good", "status": "needs_creation"},
+    {"episode": "EP04", "title": "Big Feelings Big Heart", "genre": "gentle", "status": "needs_creation"},
+    {"episode": "EP05", "title": "Hard Things Song", "genre": "empowering", "status": "needs_creation"},
+    {"episode": "EP06", "title": "Are You Listening", "genre": "playful", "status": "needs_creation"},
+    {"episode": "EP07", "title": "We're All Different We're All Crew", "genre": "anthem", "status": "needs_creation"},
+    {"episode": "EP08", "title": "I'm Sorry and I Mean It", "genre": "heartfelt", "status": "needs_creation"},
+    {"episode": "EP09", "title": "Friend Like You", "genre": "warm pop", "status": "needs_creation"},
+    {"episode": "EP10", "title": "Brave Enough", "genre": "gentle uplift", "status": "needs_creation"},
+    {"episode": "EP11", "title": "Let's Clean It Up Together", "genre": "fun march", "status": "needs_creation"},
+    {"episode": "EP12", "title": "Good Things Take Time", "genre": "slow build", "status": "needs_creation"},
+    {"episode": "EP13", "title": "Say What You Feel", "genre": "rhythmic", "status": "needs_creation"},
+    {"episode": "EP14", "title": "Better Together", "genre": "upbeat group song", "status": "needs_creation"},
+    {"episode": "EP15", "title": "Just As You Are", "genre": "finale anthem", "status": "needs_creation"}
+  ]
+}

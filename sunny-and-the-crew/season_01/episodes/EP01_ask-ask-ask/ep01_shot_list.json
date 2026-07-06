@@ -1,0 +1,111 @@
+{
+  "_meta": {
+    "document": "ep01_shot_list.json",
+    "episode": "EP01 — Ask Ask Ask",
+    "total_shots": 24,
+    "shots_using_existing_assets": 9,
+    "shots_requiring_generation": 15,
+    "note": "Shot list maps 1:1 to beat sheet. Each shot = one Higgsfield clip. Generate in order B01→B24."
+  },
+
+  "generation_queue": {
+    "priority_1_existing_assets": {
+      "description": "These shots use existing Higgsfield image IDs — convert to video clips first (fastest)",
+      "shots": [
+        {"shot": "B02", "image_id": "8bdc26c0", "clip_duration": 12},
+        {"shot": "B03", "image_id": "36c855fa", "clip_duration": 11},
+        {"shot": "B04", "image_id": "315b284c", "clip_duration": 13},
+        {"shot": "B07", "image_id": "97c88d99", "clip_duration": 13},
+        {"shot": "B09", "image_id": "8bdc26c0", "clip_duration": 10},
+        {"shot": "B12", "image_id": "a0850a65", "clip_duration": 12},
+        {"shot": "B13", "image_id": "36c855fa", "clip_duration": 11},
+        {"shot": "B17", "image_id": "315b284c", "clip_duration": 12},
+        {"shot": "B18", "image_id": "97c88d99", "clip_duration": 15},
+        {"shot": "B24", "image_id": "3d56c3cb", "clip_duration": 11}
+      ]
+    },
+    "priority_2_new_generation": {
+      "description": "These shots require new image generation using nano_banana_2. Generate each image, then convert to clip.",
+      "shots": [
+        {
+          "shot": "B01",
+          "type": "title_card",
+          "method": "static_graphic",
+          "description": "Title card — 'Sunny and the Crew' logo on warm yellow sunburst background. May be created as a static image or motion graphic rather than Higgsfield generation."
+        },
+        {
+          "shot": "B05",
+          "model": "nano_banana_2",
+          "duration_target": 14,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nSUNNY: 6-year-old girl, warm golden-brown skin, bright sunflower-yellow dress, big curious brown eyes, two pom-pom pigtails with yellow scrunchies tied tight, cheerful confident expression, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B05: Sunny standing and facing directly into the camera with a big warm welcoming smile, slightly leaning forward in a friendly way. Simple warm yellow gradient background. She is greeting her audience — open, joyful, direct-address pose. Pigtails slightly bouncy. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B08",
+          "model": "nano_banana_2",
+          "duration_target": 24,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nSUNNY: 6-year-old girl, warm golden-brown skin, bright sunflower-yellow dress, big curious brown eyes, two pom-pom pigtails with yellow scrunchies tied tight, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B08: Sunny faces directly into the camera, tapping her chin with one finger in a playful thinking pose. She has a knowing smile — like she's about to share a secret. Her pigtails bounce slightly. The background is a soft warm yellow-to-orange gradient. Playful and confident energy. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B10",
+          "model": "nano_banana_2",
+          "duration_target": 12,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nLEO: 7-year-old boy, light tan skin, spiky dark hair, royal blue hoodie with a small lightning bolt patch on the left chest, round glasses with thin silver frames, thoughtful expression, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B10: Close-up of Leo's face. He is looking down, sad and uncertain, holding the two broken pieces of a toy rocket ship in his hands. His brow is slightly furrowed, lips pressed together nervously. Soft warm afternoon backyard light. Gentle emotional framing. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B11",
+          "model": "nano_banana_2",
+          "duration_target": 13,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nSUNNY: 6-year-old girl, warm golden-brown skin, bright sunflower-yellow dress, big curious brown eyes, two pom-pom pigtails with yellow scrunchies tied tight, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B11: Sunny is walking across a bright backyard toward the left side of frame, looking ahead with a gentle caring expression. She has noticed something (Leo off-camera) and is walking toward him warmly and encouragingly. Bright green grass, afternoon light. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B14",
+          "model": "nano_banana_2",
+          "duration_target": 14,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nLEO: 7-year-old boy, light tan skin, spiky dark hair, royal blue hoodie with lightning bolt patch, round glasses, 3D Pixar-style render.\nMIA: 5-year-old girl, deep brown skin, curly natural afro puffs with pink hair ties, pink overalls with a daisy patch on the bib, big bright dark eyes, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B14: Mia is kneeling beside Leo in a bright backyard, gently pointing at the two broken pieces of a toy rocket ship that Leo holds. Mia has a gentle helpful smile, explaining something. Leo is watching carefully, expression starting to shift from sad to hopeful. Warm afternoon light on green grass. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B15",
+          "model": "nano_banana_2",
+          "duration_target": 13,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nLEO: 7-year-old boy, light tan skin, spiky dark hair, royal blue hoodie with lightning bolt patch, round glasses with thin silver frames, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B15: Leo is standing tall and confident in a bright backyard, his right arm raised straight up confidently — asking for help! He has a big proud smile, posture tall and brave. His glasses catch the warm sunlight. This mirrors Sunny's classroom raising-hand moment. Empowered energy. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B16",
+          "model": "nano_banana_2",
+          "duration_target": 12,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nSUNNY: 6-year-old girl, warm golden-brown skin, bright sunflower-yellow dress, big curious brown eyes, two pom-pom pigtails with yellow scrunchies, 3D Pixar-style render.\nLEO: 7-year-old boy, light tan skin, spiky dark hair, royal blue hoodie with lightning bolt patch, round glasses, 3D Pixar-style render.\nMIA: 5-year-old girl, deep brown skin, curly natural afro puffs with pink hair ties, pink overalls with daisy patch, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B16: All three — Sunny (left), Leo (center), Mia (right) — standing together in the backyard. All three have arms raised in celebration, huge joyful smiles. Leo holds a FIXED toy rocket ship high above his head with both hands. The rocket is complete and shiny. Golden confetti or sparkle effects in the air around them. Peak celebration energy. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B19",
+          "model": "nano_banana_2",
+          "duration_target": 15,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nSUNNY: 6-year-old girl, warm golden-brown skin, bright sunflower-yellow dress, big curious brown eyes, two pom-pom pigtails with yellow scrunchies, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B19: Sunny facing directly into the camera, both arms raised slightly at her sides in celebration, enormous warm proud smile, pigtails extra bouncy. She is celebrating with the audience. Bright warm yellow background. Direct address. Pure joy. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B20",
+          "model": "nano_banana_2",
+          "duration_target": 13,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nSUNNY: 6-year-old girl, warm golden-brown skin, bright sunflower-yellow dress, big curious brown eyes, two pom-pom pigtails with yellow scrunchies, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B20: Sunny facing directly into camera, leaning slightly forward, one hand cupped playfully behind her ear in the 'I'm listening!' pose. Eyebrows raised, expectant and playful expression — waiting for the audience to respond. Bright warm background. Call-and-response energy. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B21",
+          "model": "nano_banana_2",
+          "duration_target": 11,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nSUNNY: 6-year-old girl, warm golden-brown skin, bright sunflower-yellow dress, big curious brown eyes, two pom-pom pigtails with yellow scrunchies, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B21: Sunny facing directly into camera, clapping her hands together in a happy rhythm, smiling and bobbing slightly with the beat. Movement and joy. Pigtails swinging. Looking at camera with bright playful eyes. Bright warm yellow background. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B22",
+          "model": "nano_banana_2",
+          "duration_target": 14,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nLEO: 7-year-old boy, light tan skin, spiky dark hair, royal blue hoodie with lightning bolt patch, round glasses with thin silver frames, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B22: Leo standing in the bright backyard, holding a fully repaired toy rocket ship high above his head with both hands, beaming with pride and joy. His glasses catch the sunlight. Posture is tall and triumphant. The rocket is shiny and complete. Warm afternoon light. 3D Pixar-style. 16:9."
+        },
+        {
+          "shot": "B23",
+          "model": "nano_banana_2",
+          "duration_target": 13,
+          "full_prompt": "[CHARACTER LOCK — SUNNY AND THE CREW]\nSUNNY: 6-year-old girl, warm golden-brown skin, bright sunflower-yellow dress, big curious brown eyes, two pom-pom pigtails with yellow scrunchies, 3D Pixar-style render.\n[END CHARACTER LOCK]\n\nSCENE B23: Sunny facing directly into camera, head tilted slightly, warm confident smile, one finger pointing gently and playfully toward the viewer. She is delivering the final lesson — 'You can always ask.' Warm knowing energy. Bright warm background. Direct address. 3D Pixar-style. 16:9."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "_meta": {
+    "document": "production_rules.json",
+    "locked": true,
+    "note": "These rules govern ALL episode production. Any automation, agent, or pipeline step must check this file first."
+  },
+
+  "pipeline_order": [
+    "1. Load show_bible.json and confirm locked rules",
+    "2. Load episode data file (ep##_data.json)",
+    "3. Load episode beat sheet (ep##_beat_sheet.json)",
+    "4. Pull character assets from Google Drive CHARACTERS folder",
+    "5. Pull location reference images if available",
+    "6. Pull song assets from Google Drive MUSIC folder",
+    "7. Load episode music timing map (ep##_music_timing.json)",
+    "8. Generate missing images using nano_banana_2 — one image per beat — with CHARACTER LOCK HEADER prepended to every prompt",
+    "9. Generate video clips shot-by-shot from the timeline file — one clip per beat",
+    "10. Verify no clip is used more than once",
+    "11. Assemble clips in timeline order using Higgsfield explainer_video",
+    "12. Sync dialogue and music",
+    "13. Export final episode to Google Drive FINALS — READY TO UPLOAD folder",
+    "14. Prepare YouTube Studio upload metadata — mark Made for Kids"
+  ],
+
+  "generation_rules": {
+    "model": "nano_banana_2",
+    "sunny_element_id": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+    "max_clip_duration_seconds": 15,
+    "prompt_rule": "Every prompt MUST begin with the CHARACTER LOCK HEADER from show_bible.json",
+    "clip_looping": "PROHIBITED — every clip must be unique and used only once",
+    "clip_generation_order": "Generate clips in timeline order (Beat 1 first, final beat last)",
+    "existing_asset_preference": "Use existing Higgsfield image IDs before generating new images"
+  },
+
+  "timing_rules": {
+    "theme_song_duration_seconds": 44,
+    "episode_minimum_seconds": 300,
+    "episode_maximum_seconds": 480,
+    "padding_allowed": ["reaction beats", "participatory moments", "movement moments", "call-and-response", "character facial reactions"],
+    "padding_prohibited": ["random clip loops", "duplicate scene cuts", "unrelated filler footage"]
+  },
+
+  "assembly_rules": {
+    "shot_sequence": "Clips are sequenced in ascending beat order — no random ordering",
+    "transition": "Simple cuts only — no effects between clips unless creator-specified",
+    "music_sync": "Theme song attached to ACT 1; episode song attached to ACT 3; outro sting to ACT 4",
+    "no_gap": "No silent black frames between clips — assembly must be seamless"
+  },
+
+  "delivery_rules": {
+    "google_drive_destination": "Sunny and the Crew — Production → FINALS — READY TO UPLOAD",
+    "file_naming": "EP##-[Slug]-FINAL.mp4 (example: EP01-Ask-Ask-Ask-FINAL.mp4)",
+    "youtube_metadata": {
+      "made_for_kids": true,
+      "category": "Education",
+      "tags": ["preschool", "kids songs", "social emotional learning", "animated", "Sunny and the Crew", "children's show", "4-7", "YouTube Kids"]
+    },
+    "make_delivery": "Use Make.com scenario 5575994 to download from Higgsfield CDN and upload to Google Drive"
+  },
+
+  "prohibited_actions": [
+    "Touching WILLO Make.com scenarios: 5106170, 5106176, 5106181, 5111331",
+    "Asking creator to paste API keys into chat",
+    "Connecting JD Life With FND to any Sunny and the Crew activity",
+    "Connecting Gigi's Playhouse assets or folders to this production",
+    "Redesigning Sunny's appearance",
+    "Using any model other than nano_banana_2 for character generation",
+    "Looping clips",
+    "Random scene generation not based on beat sheet"
+  ],
+
+  "quality_checks": [
+    "Verify clip count matches beat count before assembly",
+    "Verify no clip ID appears twice in timeline",
+    "Verify CHARACTER LOCK HEADER was used in every image prompt",
+    "Verify total runtime is between 5:00 and 8:00",
+    "Verify outro ends with Sunny wave goodbye (asset 3d56c3cb or equivalent)",
+    "Verify theme song is at the start of ACT 1",
+    "Verify episode song covers full duration of ACT 3"
+  ]
+}

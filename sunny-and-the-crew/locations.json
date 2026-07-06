@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "document": "locations.json",
+    "locked": false,
+    "note": "Locations are reusable across episodes. Each location has a canonical prompt description to ensure visual consistency. Always use location description from this file — do not improvise new settings."
+  },
+
+  "locations": [
+    {
+      "id": "LOC_NEIGHBORHOOD_STREET",
+      "name": "Sunny's Street",
+      "description": "Wide sunny neighborhood street with clean sidewalks, green lawns, colorful houses. Blue sky with fluffy white clouds. Warm afternoon light. 3D Pixar-style.",
+      "used_in_acts": ["ACT_1_THEME", "ACT_2_SETUP", "ACT_3_SONG"],
+      "existing_assets": ["8bdc26c0", "315b284c"],
+      "energy": "medium-high, welcoming, safe"
+    },
+    {
+      "id": "LOC_SUNNY_PORCH",
+      "name": "Sunny's Front Porch",
+      "description": "Warm wooden front porch with a yellow front door, potted flowers, welcome mat. Steps leading to a green lawn. Cozy neighborhood backdrop. 3D Pixar-style.",
+      "used_in_acts": ["ACT_2_SETUP", "ACT_4_OUTRO"],
+      "existing_assets": ["97c88d99", "3d56c3cb"],
+      "energy": "calm, intimate, safe"
+    },
+    {
+      "id": "LOC_BACKYARD",
+      "name": "Sunny's Backyard",
+      "description": "Bright backyard with a wooden fence, green grass, a small garden with sunflowers, and a picnic table. Morning or afternoon warm light. 3D Pixar-style.",
+      "used_in_acts": ["ACT_2_SETUP", "ACT_3_SONG"],
+      "existing_assets": [],
+      "energy": "medium, playful, cooperative"
+    },
+    {
+      "id": "LOC_CLASSROOM",
+      "name": "Sunny's Classroom",
+      "description": "Bright colorful preschool classroom. Small desks, alphabet posters on walls, bookshelves with picture books, big windows with sunshine. A teacher's desk at the front. 3D Pixar-style.",
+      "used_in_acts": ["ACT_3_SONG"],
+      "existing_assets": ["a0850a65"],
+      "energy": "learning, safe, community"
+    },
+    {
+      "id": "LOC_PARK",
+      "name": "The Neighborhood Park",
+      "description": "A cheerful neighborhood park with a playground, swings, slide, green grass and big trees. Other children playing in background. Blue sky. 3D Pixar-style.",
+      "used_in_acts": ["ACT_3_SONG"],
+      "existing_assets": [],
+      "energy": "high energy, playful, social"
+    },
+    {
+      "id": "LOC_DIRECT_ADDRESS",
+      "name": "Camera Direct Address (No Background)",
+      "description": "Sunny faces directly into the camera. Simple warm background — solid warm yellow or soft sky-blue gradient. Used for talking-to-audience moments, participatory beats, and outro.",
+      "used_in_acts": ["ACT_2_SETUP", "ACT_4_OUTRO"],
+      "existing_assets": [],
+      "energy": "intimate, engaging, participatory"
+    }
+  ]
+}

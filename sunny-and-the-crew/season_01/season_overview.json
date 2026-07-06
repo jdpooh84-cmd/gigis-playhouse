@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "document": "season_overview.json",
+    "season": 1,
+    "show": "Sunny and the Crew"
+  },
+
+  "episodes": [
+    {"number": "EP01", "title": "Ask Ask Ask", "lesson": "It is brave to ask for help", "status": "in_production", "song": "Ask Ask Ask", "folder": "EP01_ask-ask-ask"},
+    {"number": "EP02", "title": "Try Again", "lesson": "Mistakes are how we learn", "status": "planned", "song": "Try Try Try Again", "folder": "EP02_try-again"},
+    {"number": "EP03", "title": "Your Turn to Share", "lesson": "Sharing and taking turns", "status": "planned", "song": "Share the Sunshine", "folder": "EP03_share-the-sunshine"},
+    {"number": "EP04", "title": "It's Okay to Feel Big Feelings", "lesson": "Emotional regulation — feelings are okay", "status": "planned", "song": "Big Feelings Big Heart", "folder": "EP04_big-feelings"},
+    {"number": "EP05", "title": "I Can Do Hard Things", "lesson": "Persistence and grit", "status": "planned", "song": "Hard Things Song", "folder": "EP05_hard-things"},
+    {"number": "EP06", "title": "Listen Up!", "lesson": "Active listening", "status": "planned", "song": "Are You Listening", "folder": "EP06_listen-up"},
+    {"number": "EP07", "title": "Different is Good", "lesson": "Diversity and inclusion", "status": "planned", "song": "We're All Different We're All Crew", "folder": "EP07_different-is-good"},
+    {"number": "EP08", "title": "Sorry Means Something", "lesson": "Real apologies and repair", "status": "planned", "song": "I'm Sorry and I Mean It", "folder": "EP08_sorry-means-something"},
+    {"number": "EP09", "title": "Be a Good Friend", "lesson": "What friendship looks like in action", "status": "planned", "song": "Friend Like You", "folder": "EP09_good-friend"},
+    {"number": "EP10", "title": "Scared? That's Okay", "lesson": "Courage despite fear", "status": "planned", "song": "Brave Enough", "folder": "EP10_scared-thats-okay"},
+    {"number": "EP11", "title": "Clean It Up!", "lesson": "Taking care of shared spaces", "status": "planned", "song": "Let's Clean It Up Together", "folder": "EP11_clean-it-up"},
+    {"number": "EP12", "title": "Wait For It", "lesson": "Patience", "status": "planned", "song": "Good Things Take Time", "folder": "EP12_wait-for-it"},
+    {"number": "EP13", "title": "Use Your Words", "lesson": "Expressing feelings with words not actions", "status": "planned", "song": "Say What You Feel", "folder": "EP13_use-your-words"},
+    {"number": "EP14", "title": "Teamwork Makes It Work", "lesson": "Collaboration", "status": "planned", "song": "Better Together", "folder": "EP14_teamwork"},
+    {"number": "EP15", "title": "You Are Enough", "lesson": "Self-worth and confidence — Season 1 finale", "status": "planned", "song": "Just As You Are", "folder": "EP15_you-are-enough"}
+  ],
+
+  "production_pipeline_per_episode": {
+    "estimated_days": "1-2 days per episode for full generation and assembly",
+    "parallel_capable": true,
+    "shared_assets": ["MUSIC_THEME", "show_bible.json", "characters.json", "locations.json"]
+  }
+}

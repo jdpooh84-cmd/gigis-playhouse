@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "document": "ep01_music_timing.json",
+    "episode": "EP01 — Ask Ask Ask",
+    "note": "Song section timestamps are estimates based on typical preschool pop structure. Verify against actual audio file before final clip generation. Adjust beat start/end times to match real audio."
+  },
+
+  "theme_song": {
+    "id": "MUSIC_THEME",
+    "file": "sunny-and-the-crew-THEME.mp3",
+    "total_duration_seconds": 44,
+    "plays_during_beats": ["B01", "B02", "B03", "B04"],
+    "episode_timeline_start": 0,
+    "episode_timeline_end": 44
+  },
+
+  "episode_song": {
+    "id": "MUSIC_EP01_SONG",
+    "title": "Ask Ask Ask",
+    "file": "ask-ask-ask.mp3",
+    "total_duration_seconds": 124,
+    "plays_during_beats": ["B08_fade_in", "B09", "B10", "B11", "B12", "B13", "B14", "B15", "B16", "B17", "B18"],
+    "episode_timeline_start": 105,
+    "episode_timeline_end": 233,
+    "sections": [
+      {
+        "section": "intro",
+        "song_start_sec": 0,
+        "song_end_sec": 10,
+        "episode_start_sec": 109,
+        "episode_end_sec": 119,
+        "energy": "building",
+        "visual_direction": "Big welcoming shot — Sunny arms open on street",
+        "beats_covered": ["B09"],
+        "existing_asset": "8bdc26c0"
+      },
+      {
+        "section": "verse_1",
+        "song_start_sec": 10,
+        "song_end_sec": 35,
+        "episode_start_sec": 119,
+        "episode_end_sec": 144,
+        "energy": "medium",
+        "visual_direction": "Leo's sad problem moment, Sunny notices",
+        "beats_covered": ["B10", "B11"],
+        "notes": "Gentle, emotional. Close-up of Leo's face. Story setup continues inside the song."
+      },
+      {
+        "section": "chorus_1",
+        "song_start_sec": 35,
+        "song_end_sec": 57,
+        "episode_start_sec": 144,
+        "episode_end_sec": 167,
+        "energy": "HIGH — peak of episode energy",
+        "visual_direction": "HERO SHOT: Sunny raises hand. Then Sunny jumping joy.",
+        "beats_covered": ["B12", "B13"],
+        "existing_assets": ["a0850a65", "36c855fa"],
+        "notes": "This is the climax visual moment. Classroom raising hand is the exact lyric match for Ask Ask Ask."
+      },
+      {
+        "section": "verse_2",
+        "song_start_sec": 57,
+        "song_end_sec": 82,
+        "episode_start_sec": 167,
+        "episode_end_sec": 194,
+        "energy": "medium — story resolution building",
+        "visual_direction": "Mia helps Leo, then Leo raises HIS hand",
+        "beats_covered": ["B14", "B15"],
+        "notes": "Resolution of the story arc happens here. Leo's transformation mirrors Sunny's chorus moment."
+      },
+      {
+        "section": "chorus_2",
+        "song_start_sec": 82,
+        "song_end_sec": 104,
+        "episode_start_sec": 194,
+        "episode_end_sec": 218,
+        "energy": "HIGH — full crew celebration",
+        "visual_direction": "All three celebrate, fixed rocket, Sunny running",
+        "beats_covered": ["B16", "B17"],
+        "notes": "Second chorus = payoff moment. All three characters visible. Full joy."
+      },
+      {
+        "section": "outro",
+        "song_start_sec": 104,
+        "song_end_sec": 124,
+        "episode_start_sec": 218,
+        "episode_end_sec": 233,
+        "energy": "gentle, winding down",
+        "visual_direction": "Sunny on porch, calm and warm",
+        "beats_covered": ["B18"],
+        "existing_asset": "97c88d99",
+        "notes": "Song resolution. Emotional warmth. Sets up the participation segment."
+      }
+    ]
+  },
+
+  "theme_sting": {
+    "description": "Last 8 seconds of theme song used as outro sting",
+    "plays_during_beat": "B24",
+    "episode_timeline_start": 302,
+    "episode_timeline_end": 310
+  },
+
+  "audio_gaps": {
+    "ACT_2_dialogue": {
+      "start_sec": 44,
+      "end_sec": 105,
+      "duration": 61,
+      "type": "ambient background music or light underscore",
+      "note": "Dialogue setup — no prominent song. Can use soft ambient underscore version of theme or silence with ambient neighborhood sounds."
+    },
+    "ACT_4_participation": {
+      "start_sec": 233,
+      "end_sec": 302,
+      "duration": 69,
+      "type": "ambient background or light reprise",
+      "note": "Participation segment — could use a soft reprise of the episode song chorus melody as background."
+    }
+  }
+}

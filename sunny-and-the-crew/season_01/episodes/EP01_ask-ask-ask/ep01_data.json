@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "document": "ep01_data.json",
+    "episode": "EP01",
+    "status": "IN_PRODUCTION",
+    "last_updated": "2026-07-06"
+  },
+
+  "episode": {
+    "number": "EP01",
+    "title": "Ask Ask Ask",
+    "slug": "ask-ask-ask",
+    "folder_id_google_drive": "1mojorVb70YDIgPyHtF75Ocr8NMRJ7K2Y",
+    "final_file_name": "EP01-Ask-Ask-Ask-FINAL.mp4",
+    "status": "in_production",
+    "lesson": "It is brave and smart to ask for help when you need it",
+    "lesson_age_appropriate": "If you don't know something, you can ask — and that's a superpower.",
+    "crew_members_featured": ["SUNNY", "LEO", "MIA"],
+    "locations_used": ["LOC_NEIGHBORHOOD_STREET", "LOC_SUNNY_PORCH", "LOC_BACKYARD", "LOC_CLASSROOM", "LOC_DIRECT_ADDRESS"],
+    "song_id": "MUSIC_EP01_SONG",
+    "theme_song_id": "MUSIC_THEME"
+  },
+
+  "runtime": {
+    "theme_song_seconds": 44,
+    "dialogue_setup_seconds": 65,
+    "episode_song_seconds": 124,
+    "participation_seconds": 45,
+    "outro_seconds": 32,
+    "total_seconds": 310,
+    "total_label": "5:10",
+    "within_target": true,
+    "target_range": "5:00 – 8:00"
+  },
+
+  "runtime_math": {
+    "theme_song": "0:44",
+    "episode_song": "2:04",
+    "total_songs": "2:48",
+    "target_minimum": "5:00",
+    "gap_to_fill": "2:12",
+    "gap_breakdown": {
+      "dialogue_setup": "1:05 (4 scene beats, 12-18 sec each)",
+      "participation_beats": "0:45 (3 call-and-response moments after song)",
+      "outro": "0:32 (Sunny goodbye + wave)"
+    },
+    "total_filled": "2:22",
+    "final_runtime": "5:10",
+    "note": "Runtime can expand to 5:30-6:00 by adding 2-3 more dialogue beats or extending participation. This is the minimum viable build."
+  },
+
+  "story_concept": {
+    "opening_situation": "Sunny and Leo are in the backyard. Leo has a broken toy rocket and looks really sad. He doesn't know how to fix it — but he's too shy to ask for help.",
+    "problem": "Leo won't ask for help because he thinks asking means he's not smart.",
+    "turning_point": "Sunny shows Leo that SHE asks for help all the time, and it makes her stronger — not weaker.",
+    "resolution": "Leo raises his hand (or asks Mia) and gets the help he needs. The toy is fixed. Everyone celebrates.",
+    "lesson_delivered": "Asking for help is BRAVE. Asking is how we learn. You can always ask.",
+    "audience_takeaway": "Next time you need help, raise your hand, say the words, and ask."
+  },
+
+  "dialogue_lines": {
+    "ACT_2_SETUP": [
+      "[Sunny faces camera] Hey Crew! It's me, Sunny! And today — something happened that made me think.",
+      "[Cut to Leo] Leo has his rocket ship — and it's broken. Oh no!",
+      "[Sunny reacts] Leo looks really sad. I wonder... does he need help?",
+      "[Sunny turns to Leo] Leo, do you need some help?",
+      "[Leo shakes head — too shy to say yes]",
+      "[Sunny to camera] Hmm. Sometimes it feels hard to ask for help. But you know what? I know a secret.",
+      "[Sunny big smile, taps chin] Asking for help — is actually REALLY brave. Want to hear a song about it?"
+    ],
+    "ACT_4_PARTICIPATION": [
+      "[Sunny faces camera] Did you hear that? Asking for help is BRAVE!",
+      "[Call and response] Can you say it with me? I — can — ask — for — help!",
+      "[Clapping beat] Let's clap it out! (clap) Ask! (clap) Ask! (clap) Ask!",
+      "[Sunny smiles warmly] And guess what Leo did? He asked Mia for help. And she knew exactly how to fix it!",
+      "[Sunny holds up fixed rocket] The rocket is all better. And Leo feels SO proud.",
+      "[Direct address] So next time you need help — what do you do? That's right. You ASK."
+    ],
+    "ACT_4_OUTRO": [
+      "[Sunny waves from porch] Thank you for watching with me today, Crew!",
+      "Remember — asking for help is brave. You are brave.",
+      "See you next time! Bye bye!"
+    ]
+  }
+}

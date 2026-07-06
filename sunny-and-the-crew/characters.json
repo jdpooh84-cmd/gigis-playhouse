@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "document": "characters.json",
+    "locked": true,
+    "note": "Character descriptions are locked. Never alter appearance without creator approval. Always prepend CHARACTER LOCK HEADER to Higgsfield prompts."
+  },
+
+  "characters": [
+    {
+      "id": "SUNNY",
+      "full_name": "Sunny",
+      "role": "Main character / host",
+      "age": 6,
+      "gender": "girl",
+      "appearance": {
+        "skin": "warm golden-brown",
+        "eyes": "big curious brown eyes",
+        "hair": "two pom-pom pigtails with yellow scrunchies tied tight",
+        "outfit": "bright sunflower-yellow dress",
+        "style": "3D Pixar-style render, cheerful confident expression"
+      },
+      "personality": "Curious, brave, warm, loves to ask questions, natural leader of the crew",
+      "catchphrase": "Let's ask! Let's find out! Come on, Crew!",
+      "higgsfield_element_id_LOCKED": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+      "google_drive_folder_id": "1Fg4uL05IR_hiKBnD9uCY9CR2_ekD4ppW",
+      "generation_model": "nano_banana_2",
+      "existing_higgsfield_image_ids": {
+        "8bdc26c0": "Sunny on street, arms wide open, big smile — use for: joy, welcome, chorus peaks, theme song",
+        "36c855fa": "Sunny jumping, fists raised, eyes closed, pure joy — use for: chorus peak, celebration, theme song",
+        "97c88d99": "Sunny on porch steps, curious, hands on cheeks — use for: wondering, setup, bridge moments",
+        "a0850a65": "Sunny raising hand in classroom — use for: asking for help, key Ask Ask Ask visual, chorus hero shot",
+        "315b284c": "Sunny running down sidewalk toward camera — use for: transitions, energy, theme song, verse movement",
+        "3d56c3cb": "Sunny waving goodbye on porch — LOCKED for outro/goodbye only"
+      },
+      "direct_address_to_camera": true,
+      "note": "Sunny speaks directly to the audience. She is the emotional anchor for every episode."
+    },
+    {
+      "id": "LEO",
+      "full_name": "Leo",
+      "role": "Supporting crew member",
+      "age": 7,
+      "gender": "boy",
+      "appearance": {
+        "skin": "light tan",
+        "eyes": "round glasses with thin silver frames",
+        "hair": "spiky dark hair",
+        "outfit": "royal blue hoodie with a small lightning bolt patch on the left chest",
+        "style": "3D Pixar-style render, thoughtful expression"
+      },
+      "personality": "Thoughtful, slightly hesitant, loves to think things through, often the one who has the problem that the episode solves",
+      "google_drive_folder_id": null,
+      "generation_model": "nano_banana_2",
+      "existing_higgsfield_image_ids": {},
+      "note": "Leo is a recurring supporting character. Generate using CHARACTER LOCK HEADER + nano_banana_2. No existing Higgsfield assets yet."
+    },
+    {
+      "id": "MIA",
+      "full_name": "Mia",
+      "role": "Supporting crew member",
+      "age": 5,
+      "gender": "girl",
+      "appearance": {
+        "skin": "deep brown",
+        "eyes": "big bright dark eyes",
+        "hair": "curly natural afro puffs with pink hair ties",
+        "outfit": "pink overalls with a daisy patch on the bib",
+        "style": "3D Pixar-style render, shy but warm smile"
+      },
+      "personality": "Shy but sweet, warm-hearted, often the youngest energy in the group, responds well to encouragement",
+      "google_drive_folder_id": null,
+      "generation_model": "nano_banana_2",
+      "existing_higgsfield_image_ids": {},
+      "note": "Mia is a recurring supporting character. Generate using CHARACTER LOCK HEADER + nano_banana_2. No existing Higgsfield assets yet."
+    }
+  ]
+}
