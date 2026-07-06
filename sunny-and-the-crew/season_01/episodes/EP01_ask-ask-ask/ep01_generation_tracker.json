@@ -178,8 +178,10 @@
       "03c22898-9316-4fcc-9c82-8520ea31031b"
     ],
     "assembled_job_id": "bb9ed13e-ef84-4bfb-a2ea-5b99e140b178",
-    "assembled_status": "pending",
-    "delivery_status": "not_started",
+    "assembled_status": "completed",
+    "assembled_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260706_051805_bb9ed13e-ef84-4bfb-a2ea-5b99e140b178.mp4",
+    "delivery_status": "assembled_ready_manual_delivery_needed",
+    "delivery_note": "Assembled video is complete on Higgsfield CDN. Remote env proxy blocks direct download. User must download from assembled_url and upload to Google Drive EP01 folder (1mojorVb70YDIgPyHtF75Ocr8NMRJ7K2Y). File name: EP01-Ask-Ask-Ask-FINAL.mp4",
     "google_drive_file_id": null
   },
 
@@ -189,7 +191,7 @@
     "model_used_for_clips": "kling3_0_turbo — 5 second clips at 7.5 credits each",
     "model_used_for_b01": "openai_hazel — best text rendering for title card",
     "clip_generation_status": "24/24 clips completed. B14 re-submitted and completed (4e40a36a).",
-    "assembly_status": "explainer_video submitted 2026-07-06 — job bb9ed13e-ef84-4bfb-a2ea-5b99e140b178 pending.",
-    "next_step": "Wait for assembly to complete, then deliver to Google Drive via Make scenario 5575994."
+    "assembly_status": "COMPLETE — explainer_video job bb9ed13e completed 2026-07-06.",
+    "next_step": "User to download EP01 from assembled_url and upload to Google Drive EP01 folder. Then prepare YouTube metadata."
   }
 }
