@@ -177,7 +177,8 @@
       "793063bd-c7be-432a-bad0-9b17b042d89f",
       "03c22898-9316-4fcc-9c82-8520ea31031b"
     ],
-    "assembled_job_id": null,
+    "assembled_job_id": "bb9ed13e-ef84-4bfb-a2ea-5b99e140b178",
+    "assembled_status": "pending",
     "delivery_status": "not_started",
     "google_drive_file_id": null
   },
@@ -187,7 +188,8 @@
     "model_used_for_images": "nano_banana_flash (original session) + element reference versions",
     "model_used_for_clips": "kling3_0_turbo — 5 second clips at 7.5 credits each",
     "model_used_for_b01": "openai_hazel — best text rendering for title card",
-    "clip_generation_status": "23/24 clips completed. B14 re-submitted (4e40a36a) — original stuck in_progress.",
-    "next_step": "Wait for B14 (4e40a36a) to complete, then call explainer_video with all 24 clip IDs."
+    "clip_generation_status": "24/24 clips completed. B14 re-submitted and completed (4e40a36a).",
+    "assembly_status": "explainer_video submitted 2026-07-06 — job bb9ed13e-ef84-4bfb-a2ea-5b99e140b178 pending.",
+    "next_step": "Wait for assembly to complete, then deliver to Google Drive via Make scenario 5575994."
   }
 }
