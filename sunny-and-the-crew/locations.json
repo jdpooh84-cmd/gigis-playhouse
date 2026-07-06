@@ -1,58 +1,175 @@
 {
   "_meta": {
     "document": "locations.json",
+    "version": "2.0",
+    "last_updated": "2026-07-06",
     "locked": false,
-    "note": "Locations are reusable across episodes. Each location has a canonical prompt description to ensure visual consistency. Always use location description from this file — do not improvise new settings."
+    "note": "All 13 canonical locations for Sunny and the Crew. Always use the canonical prompt anchor and existing Higgsfield job IDs — do not improvise new settings. InVideo element references listed per location."
   },
 
   "locations": [
     {
-      "id": "LOC_NEIGHBORHOOD_STREET",
-      "name": "Sunny's Street",
-      "description": "Wide sunny neighborhood street with clean sidewalks, green lawns, colorful houses. Blue sky with fluffy white clouds. Warm afternoon light. 3D Pixar-style.",
-      "used_in_acts": ["ACT_1_THEME", "ACT_2_SETUP", "ACT_3_SONG"],
-      "existing_assets": ["8bdc26c0", "315b284c"],
-      "energy": "medium-high, welcoming, safe"
+      "id": "LOC_SUNNY_BEDROOM",
+      "name": "Sunny's Bedroom",
+      "description": "Sunny's cozy bedroom with warm yellow walls, a sunflower-patterned bedspread, a bookshelf full of colorful books, fairy lights strung above the bed, a small desk near the window with afternoon light streaming in. A cork board above the desk with drawings and photos pinned to it. Plush cloud rug on the floor. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "yellow bedroom, sunflower bedspread, fairy lights, bookshelf, cork board, plush cloud rug, warm afternoon window light",
+      "invideo_element": "@SunnyBedroom",
+      "higgsfield_job_ids": [],
+      "existing_assets": [],
+      "energy": "intimate, cozy, safe, imaginative",
+      "used_in_episodes": []
+    },
+    {
+      "id": "LOC_CORNER_STORE",
+      "name": "Corner Store / Bodega",
+      "description": "A bright neighborhood corner store with a colorful awning (yellow and green stripes), an open produce stand out front with fruits and vegetables, a hand-painted sign, a screen door that jingles, and a warm amber interior with wooden shelves. Friendly neighborhood vibe. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "yellow green striped awning, produce stand, screen door, wooden shelves, warm amber interior, neighborhood corner store",
+      "invideo_element": "@CornerStore",
+      "higgsfield_job_ids": [],
+      "existing_assets": [],
+      "energy": "warm, community, vibrant, familiar",
+      "used_in_episodes": []
+    },
+    {
+      "id": "LOC_COOP_EXTERIOR",
+      "name": "The Coop — Exterior",
+      "description": "A converted two-story brick building painted bright yellow with a cheerful green roof. A hand-painted sign reads 'THE COOP' in bold colorful letters. A wide front stoop with potted plants and a welcome mat. Children's murals painted on the side wall. Sunny neighborhood block backdrop. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "bright yellow brick building, green roof, THE COOP sign, front stoop, children's murals, neighborhood block",
+      "invideo_element": "@CoopExterior",
+      "higgsfield_job_ids": [],
+      "existing_assets": [],
+      "energy": "welcoming, community hub, energetic",
+      "used_in_episodes": []
+    },
+    {
+      "id": "LOC_COOP_CLASSROOM",
+      "name": "The Coop — Classroom",
+      "description": "Bright, cheerful classroom inside The Coop. Small round tables with chairs, alphabet posters and children's artwork on the walls, a large window with sunshine pouring in, a reading corner with a cozy rug and cushions, a whiteboard at the front. Warm and inviting learning space. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "round tables, alphabet wall posters, children's artwork, reading corner rug and cushions, whiteboard, large sunny window",
+      "invideo_element": "@CoopClassroom",
+      "higgsfield_job_ids": {
+        "raising_hand_hero_shot": "a0850a65-3720-4b28-936b-f412d06ededf"
+      },
+      "existing_assets": ["a0850a65"],
+      "energy": "learning, safe, community, participatory",
+      "used_in_episodes": ["EP01", "EP02"]
+    },
+    {
+      "id": "LOC_MUSIC_CLASSROOM",
+      "name": "The Coop — Music Room",
+      "description": "A vibrant music room with colorful instruments on the walls (tambourines, maracas, ukuleles), a small stage area at one end, music note bunting hanging from the ceiling, a piano in the corner, and a large open floor space for dancing. Warm bright lighting. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "instruments on walls, tambourines maracas ukuleles, small stage, music note bunting, piano corner, open dance floor",
+      "invideo_element": "@MusicRoom",
+      "higgsfield_job_ids": [],
+      "existing_assets": [],
+      "energy": "high energy, joyful, creative, musical",
+      "used_in_episodes": []
+    },
+    {
+      "id": "LOC_COOP_PLAYGROUND",
+      "name": "The Coop — Outdoor Playground",
+      "description": "A cheerful outdoor play area behind The Coop. Colorful painted hopscotch on the ground, a small climbing structure, a sandbox, raised garden beds with vegetables and flowers, picnic tables under a shade tree. Enclosed by a bright painted fence. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "hopscotch painted ground, climbing structure, sandbox, raised garden beds, picnic tables, shade tree, painted fence",
+      "invideo_element": "@CoopPlayground",
+      "higgsfield_job_ids": [],
+      "existing_assets": [],
+      "energy": "active, cooperative, outdoor, community",
+      "used_in_episodes": []
+    },
+    {
+      "id": "LOC_MAYOR_OFFICE",
+      "name": "Mayor Mary's Office",
+      "description": "A welcoming, slightly over-decorated office with a large wooden desk covered in papers, a big window overlooking the neighborhood, framed photos of community events on the walls, a bookshelf full of binders and trophies, a small couch with a local map above it, and fresh flowers on the windowsill. Warm natural light. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "large wooden desk, neighborhood window view, framed community photos, bookshelf trophies, local map, fresh flowers on windowsill",
+      "invideo_element": "@MayorOffice",
+      "higgsfield_job_ids": [],
+      "existing_assets": [],
+      "energy": "official but friendly, community-serving, slightly comedic",
+      "used_in_episodes": []
+    },
+    {
+      "id": "LOC_SUNNY_SIDE_STREET",
+      "name": "Sunny Side Street",
+      "description": "A quiet, tree-lined side street off the main neighborhood. Dappled light through oak trees, a fire hydrant painted red and yellow, chalk drawings on the sidewalk, a neighbor's garden with a white picket fence. Peaceful neighborhood energy. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "tree-lined side street, dappled oak tree light, chalk sidewalk drawings, red yellow fire hydrant, garden with white picket fence",
+      "invideo_element": "@SunnySideStreet",
+      "higgsfield_job_ids": [],
+      "existing_assets": [],
+      "energy": "calm, exploratory, neighborhood safe-zone",
+      "used_in_episodes": []
+    },
+    {
+      "id": "LOC_NANA_PORCH",
+      "name": "Nana Blossom's Porch",
+      "description": "A wide, shaded front porch with a porch swing, potted plants of every kind, wind chimes hanging from the eave, a woven rug, a small wooden table with a tea tray, and Nana's garden visible past the porch railing. Warm golden afternoon light. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "wide shaded porch, porch swing, potted plants, wind chimes, woven rug, tea tray table, lush garden visible, golden afternoon light",
+      "invideo_element": "@NanaPorch",
+      "higgsfield_job_ids": [],
+      "existing_assets": [],
+      "energy": "nurturing, wisdom, slow-paced, warm, safe",
+      "used_in_episodes": []
     },
     {
       "id": "LOC_SUNNY_PORCH",
       "name": "Sunny's Front Porch",
-      "description": "Warm wooden front porch with a yellow front door, potted flowers, welcome mat. Steps leading to a green lawn. Cozy neighborhood backdrop. 3D Pixar-style.",
-      "used_in_acts": ["ACT_2_SETUP", "ACT_4_OUTRO"],
+      "description": "Warm wooden front porch with a yellow front door, potted sunflowers in terracotta pots, a welcome mat that says WELCOME in bright letters, porch steps leading down to a green lawn. Cozy neighborhood backdrop with neighbor houses visible on either side. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "yellow front door, sunflowers in terracotta pots, WELCOME mat, porch steps, green lawn, neighbor houses backdrop",
+      "invideo_element": "@SunnyPorch",
+      "higgsfield_job_ids": {
+        "porch_steps_curious": "97c88d99-c903-4112-b771-d8b7512d0116",
+        "porch_song_outro": "97c88d99-c903-4112-b771-d8b7512d0116",
+        "goodbye_wave_outro": "3d56c3cb-2867-4a6c-bd90-01720ed14b2d"
+      },
       "existing_assets": ["97c88d99", "3d56c3cb"],
-      "energy": "calm, intimate, safe"
+      "energy": "calm, intimate, safe, welcoming",
+      "used_in_episodes": ["EP01"]
     },
     {
       "id": "LOC_BACKYARD",
       "name": "Sunny's Backyard",
-      "description": "Bright backyard with a wooden fence, green grass, a small garden with sunflowers, and a picnic table. Morning or afternoon warm light. 3D Pixar-style.",
-      "used_in_acts": ["ACT_2_SETUP", "ACT_3_SONG"],
+      "description": "Bright backyard with a wooden fence painted white, green grass, a small garden patch with sunflowers and tomatoes, a red picnic table with benches, and a clothesline strung with colorful fabric. Morning or warm afternoon light. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "white wooden fence, green grass, sunflower and tomato garden patch, red picnic table, colorful clothesline, warm afternoon light",
+      "invideo_element": "@Backyard",
+      "higgsfield_job_ids": {},
       "existing_assets": [],
-      "energy": "medium, playful, cooperative"
+      "energy": "medium, playful, cooperative, problem-solving",
+      "used_in_episodes": ["EP01"]
     },
     {
-      "id": "LOC_CLASSROOM",
-      "name": "Sunny's Classroom",
-      "description": "Bright colorful preschool classroom. Small desks, alphabet posters on walls, bookshelves with picture books, big windows with sunshine. A teacher's desk at the front. 3D Pixar-style.",
-      "used_in_acts": ["ACT_3_SONG"],
-      "existing_assets": ["a0850a65"],
-      "energy": "learning, safe, community"
-    },
-    {
-      "id": "LOC_PARK",
-      "name": "The Neighborhood Park",
-      "description": "A cheerful neighborhood park with a playground, swings, slide, green grass and big trees. Other children playing in background. Blue sky. 3D Pixar-style.",
-      "used_in_acts": ["ACT_3_SONG"],
-      "existing_assets": [],
-      "energy": "high energy, playful, social"
+      "id": "LOC_NEIGHBORHOOD_STREET",
+      "name": "Sunny's Neighborhood Street",
+      "description": "Wide, sunny neighborhood street with clean sidewalks, well-kept green lawns, colorful houses in yellow, blue, green, and coral. Mailboxes at each house. Blue sky with fluffy white clouds. Warm afternoon light. Tree-lined with oak and maple. Friendly neighborhood energy. 3D cartoon-style render.",
+      "canonical_prompt_anchor": "wide sunny street, colorful houses, clean sidewalk, mailboxes, oak and maple trees, blue sky fluffy clouds, warm afternoon light",
+      "invideo_element": "@NeighborhoodStreet",
+      "higgsfield_job_ids": {
+        "arms_wide_open": "8bdc26c0-6762-4be9-9044-d314fbf3b973",
+        "running_toward_camera": "315b284c-905c-48ad-9c5d-bc3517dc827d"
+      },
+      "existing_assets": ["8bdc26c0", "315b284c"],
+      "energy": "medium-high, welcoming, community, safe",
+      "used_in_episodes": ["EP01"]
     },
     {
       "id": "LOC_DIRECT_ADDRESS",
-      "name": "Camera Direct Address (No Background)",
-      "description": "Sunny faces directly into the camera. Simple warm background — solid warm yellow or soft sky-blue gradient. Used for talking-to-audience moments, participatory beats, and outro.",
-      "used_in_acts": ["ACT_2_SETUP", "ACT_4_OUTRO"],
-      "existing_assets": [],
-      "energy": "intimate, engaging, participatory"
+      "name": "Camera Direct Address",
+      "description": "Character faces directly into the camera against a simple warm background. Solid warm yellow gradient or soft sky-blue gradient. Clean, minimal, no location detail. Used exclusively for talking-to-audience moments, participatory beats, call-and-response beats, and outro sequences.",
+      "canonical_prompt_anchor": "facing directly into camera, simple warm yellow gradient background, clean minimal, direct address to audience",
+      "invideo_element": "@DirectAddress",
+      "higgsfield_job_ids": {
+        "sunny_jumping_joy": "36c855fa-b696-4500-bc36-bc6004f764ab"
+      },
+      "existing_assets": ["36c855fa"],
+      "energy": "intimate, engaging, participatory, breaking fourth wall",
+      "used_in_episodes": ["EP01"]
     }
+  ],
+
+  "location_rules": [
+    "Always use the canonical_prompt_anchor as the base for any Higgsfield or InVideo location prompt — do not improvise new settings",
+    "If a location has existing Higgsfield job IDs, reference those images first before generating new assets",
+    "New location asset generations must be added to higgsfield_job_ids immediately after generation",
+    "InVideo element references use the @Element format exactly as listed — no substitutions",
+    "LOC_DIRECT_ADDRESS is not a physical location — it is a cinematographic convention for participatory beats only",
+    "The Coop and Sunny's neighborhood are the primary recurring locations across all episodes"
   ]
 }

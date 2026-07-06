@@ -57,8 +57,8 @@
       "image_job_id": "f16e2e0e-cd82-48c5-b65a-009e899e1616",
       "image_status": "completed",
       "clip_job_id": "4e40a36a-fcbc-4ce0-b025-aba66c4b3bd3",
-      "clip_status": "pending",
-      "note": "Original clip a0d6cd81 was stuck in_progress for over an hour — re-submitted 2026-07-06"
+      "clip_status": "completed",
+      "note": "Original clip a0d6cd81 was stuck in_progress — re-submitted 2026-07-06 as 4e40a36a; completed and included in assembly bb9ed13e"
     },
     {
       "beat": "B15",
