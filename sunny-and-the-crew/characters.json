@@ -2,7 +2,9 @@
   "_meta": {
     "document": "characters.json",
     "locked": true,
-    "note": "Character descriptions are locked. Never alter appearance without creator approval. Always prepend CHARACTER LOCK HEADER to Higgsfield prompts."
+    "version": "1.1",
+    "last_updated": "2026-07-06",
+    "note": "Character descriptions are locked. Never alter appearance without creator approval. Always prepend CHARACTER LOCK HEADER to Higgsfield prompts. NEVER generate Leo or Mia clips without locked Higgsfield element IDs."
   },
 
   "characters": [
@@ -12,6 +14,7 @@
       "role": "Main character / host",
       "age": 6,
       "gender": "girl",
+      "ethnicity": null,
       "appearance": {
         "skin": "warm golden-brown",
         "eyes": "big curious brown eyes",
@@ -21,7 +24,9 @@
       },
       "personality": "Curious, brave, warm, loves to ask questions, natural leader of the crew",
       "catchphrase": "Let's ask! Let's find out! Come on, Crew!",
+      "language_notes": null,
       "higgsfield_element_id_LOCKED": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "google_drive_folder_id": "1Fg4uL05IR_hiKBnD9uCY9CR2_ekD4ppW",
       "generation_model": "nano_banana_2",
       "existing_higgsfield_image_ids": {
@@ -37,41 +42,82 @@
     },
     {
       "id": "LEO",
-      "full_name": "Leo",
-      "role": "Supporting crew member",
-      "age": 7,
+      "full_name": "Leo Rivera",
+      "role": "Main crew member",
+      "age": 5,
       "gender": "boy",
+      "ethnicity": "Mexican-American",
       "appearance": {
-        "skin": "light tan",
-        "eyes": "round glasses with thin silver frames",
-        "hair": "spiky dark hair",
-        "outfit": "royal blue hoodie with a small lightning bolt patch on the left chest",
-        "style": "3D Pixar-style render, thoughtful expression"
+        "skin": "warm medium-brown with golden undertone",
+        "eyes": "large dark brown eyes",
+        "hair": "thick wavy black hair, short on sides, soft poof on top with one cowlick",
+        "face": "round face, full cheeks, gap-toothed grin with one missing bottom tooth",
+        "glasses": "round tortoiseshell glasses, slightly too large, always sliding down nose",
+        "outfit": "bright red short-sleeve t-shirt with small white rocket graphic on chest, dark navy cargo shorts, white sneakers with red laces",
+        "signature_prop": "small silver toy rocket carried everywhere",
+        "color_theme": "red and navy",
+        "build": "compact and sturdy",
+        "movement": "bouncy and chaotic",
+        "style": "3D Pixar-style render"
       },
-      "personality": "Thoughtful, slightly hesitant, loves to think things through, often the one who has the problem that the episode solves",
-      "google_drive_folder_id": null,
+      "personality": "Energetic, curious, slightly chaotic, heart-forward. Loves rockets and anything that goes fast.",
+      "language_notes": "Naturally drops in light Spanish: ¡Órale!, mira, ¡Sí!, gracias. Always followed immediately by English context so children understand without stopping the show.",
+      "higgsfield_element_id_LOCKED": null,
+      "higgsfield_element_status": "PENDING — DO NOT GENERATE CLIPS UNTIL ELEMENT ID IS CONFIRMED AND LOCKED HERE",
+      "google_drive_folder_id": "1m4x9nhN8TuOcI-HFzMmkySWyySoaw6sZ",
+      "google_drive_folder_name": "LEO — Character References",
       "generation_model": "nano_banana_2",
+      "generation_rules": [
+        "NEVER generate Leo clips without a locked Higgsfield element ID",
+        "ALWAYS pull reference images from google_drive_folder_id before generating",
+        "NEVER use text-prompt-only generation",
+        "Element ID will be provided once reference images are approved and uploaded"
+      ],
       "existing_higgsfield_image_ids": {},
-      "note": "Leo is a recurring supporting character. Generate using CHARACTER LOCK HEADER + nano_banana_2. No existing Higgsfield assets yet."
+      "direct_address_to_camera": false,
+      "note": "Leo's character design has been fully redefined as of 2026-07-06. Previous placeholder entry (age 7, royal blue hoodie, lightning bolt patch) is SUPERSEDED and must not be used. All new production uses this locked entry only."
     },
     {
       "id": "MIA",
-      "full_name": "Mia",
-      "role": "Supporting crew member",
+      "full_name": "Mia Chen",
+      "role": "Main crew member",
       "age": 5,
       "gender": "girl",
+      "ethnicity": "Chinese-American",
       "appearance": {
-        "skin": "deep brown",
-        "eyes": "big bright dark eyes",
-        "hair": "curly natural afro puffs with pink hair ties",
-        "outfit": "pink overalls with a daisy patch on the bib",
-        "style": "3D Pixar-style render, shy but warm smile"
+        "skin": "light golden-beige warm honey",
+        "eyes": "almond-shaped dark brown eyes with slight upward tilt, thin straight dark brown brows",
+        "hair": "pure black perfectly straight silky hair in two LOW pigtails at base of skull, falling to shoulder level, tied with small round teal scrunchies, blunt cut ends, wispy baby hairs across forehead",
+        "face": "soft oval face, small rounded nose",
+        "outfit": "teal long-sleeve fitted shirt with small yellow star patch on left sleeve near shoulder, light grey pleated polka dot skirt falling above knee, full-length white leggings underneath, white mary jane shoes with single teal buckle strap",
+        "signature_prop_bag": "small teal canvas crossbody tote bag with hand-drawn yellow star on front",
+        "signature_prop_notebook": "small teal hardcover notebook with yellow star on cover",
+        "color_theme": "teal and yellow",
+        "build": "slender, slightly taller than Sunny and Leo",
+        "movement": "calm and graceful",
+        "style": "3D Pixar-style render"
       },
-      "personality": "Shy but sweet, warm-hearted, often the youngest energy in the group, responds well to encouragement",
-      "google_drive_folder_id": null,
+      "personality": "Thoughtful, observant, quietly confident. Notices details others miss. Warm once she opens up.",
+      "language_notes": "Naturally drops in light Mandarin: Wā! (wow), Xièxie (thank you), Jiā yóu (you can do it!). Always followed immediately by English context so children understand without stopping the show.",
+      "higgsfield_element_id_LOCKED": null,
+      "higgsfield_element_status": "PENDING — DO NOT GENERATE CLIPS UNTIL ELEMENT ID IS CONFIRMED AND LOCKED HERE",
+      "google_drive_folder_id": "17SS-8Co0u8wVweHn2VFj4hp2u0bZtbqq",
+      "google_drive_folder_name": "MIA — Character References",
       "generation_model": "nano_banana_2",
+      "generation_rules": [
+        "NEVER generate Mia clips without a locked Higgsfield element ID",
+        "ALWAYS pull reference images from google_drive_folder_id before generating",
+        "NEVER use text-prompt-only generation",
+        "Element ID will be provided once reference images are approved and uploaded"
+      ],
       "existing_higgsfield_image_ids": {},
-      "note": "Mia is a recurring supporting character. Generate using CHARACTER LOCK HEADER + nano_banana_2. No existing Higgsfield assets yet."
+      "direct_address_to_camera": false,
+      "note": "Mia's character design has been fully redefined as of 2026-07-06. Previous placeholder entry (age 5, deep brown skin, pink overalls, afro puffs) is SUPERSEDED and must not be used. All new production uses this locked entry only."
     }
-  ]
+  ],
+
+  "additional_characters_in_production": {
+    "note": "The following characters appear in the Google Drive production folder. They are not yet defined in this document. Do not generate any of these without a full character bible entry here first.",
+    "observed_in_drive": ["MIMI", "KODA", "PIPA", "BRAM", "Commander", "Mayor Mary", "Nana Blossom"]
+  }
 }
