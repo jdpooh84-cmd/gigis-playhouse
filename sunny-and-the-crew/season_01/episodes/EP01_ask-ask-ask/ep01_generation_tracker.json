@@ -1,0 +1,163 @@
+{
+  "_meta": {
+    "document": "ep01_generation_tracker.json",
+    "episode": "EP01 — Ask Ask Ask",
+    "last_updated": "2026-07-06",
+    "note": "Live tracking of all image and clip job IDs for EP01. Update status as jobs complete."
+  },
+
+  "new_image_generations": [
+    {
+      "beat": "B05",
+      "scene": "Sunny direct address greeting camera",
+      "image_job_id": "b4ff3f25-d34c-435d-908b-8357deabc779",
+      "image_status": "completed",
+      "note": "Used Sunny element reference a40e2d56 — best consistency version",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B06",
+      "scene": "Leo broken rocket — all three in backyard",
+      "image_job_id": "6410d8e2-38f9-40d9-9d5a-bc5ce69f1242",
+      "image_status": "completed",
+      "note": "Text prompt only (no element reference for Leo/Mia yet)",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B08",
+      "scene": "Sunny chin-tap secret pose",
+      "image_job_id": "07f03648-c9f0-4023-88df-e613d1cc9c80",
+      "image_status": "completed",
+      "note": "Used Sunny element reference a40e2d56 — best consistency version",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B10",
+      "scene": "Leo close-up sad with broken rocket",
+      "image_job_id": "f0caf353-e1ac-4318-a005-7b6b4706700d",
+      "image_status": "completed",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B11",
+      "scene": "Sunny walking toward Leo to help",
+      "image_job_id": "bb2538fe-ce2a-40e5-bbda-bfda65f231c2",
+      "image_status": "completed",
+      "note": "Used Sunny element reference a40e2d56 — best consistency version",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B14",
+      "scene": "Mia helping Leo with rocket",
+      "image_job_id": "f16e2e0e-cd82-48c5-b65a-009e899e1616",
+      "image_status": "completed",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B15",
+      "scene": "Leo raises hand brave and proud",
+      "image_job_id": "e3145355-528a-487c-bc92-b094caa7abe0",
+      "image_status": "completed",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B16",
+      "scene": "Full crew celebration fixed rocket",
+      "image_job_id": "201fd9ac-db0a-45ce-8f76-bc00aa41c79c",
+      "image_status": "completed",
+      "note": "Used Sunny element reference a40e2d56 + text descriptions for Leo/Mia",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B19",
+      "scene": "Sunny celebration to camera",
+      "image_job_id": "1f35043d-e602-48fc-acfa-ea134dd0202c",
+      "image_status": "completed",
+      "note": "Used Sunny element reference a40e2d56 — best consistency version",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B20",
+      "scene": "Sunny listening hand-to-ear pose",
+      "image_job_id": "02a76d33-665b-4881-8e59-6ecf05891509",
+      "image_status": "completed",
+      "note": "Used Sunny element reference a40e2d56 — best consistency version",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B21",
+      "scene": "Sunny clapping rhythm",
+      "image_job_id": "87a236b8-246c-406c-b3d9-8848071ffff8",
+      "image_status": "completed",
+      "note": "Used Sunny element reference a40e2d56 — best consistency version",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B22",
+      "scene": "Leo holding fixed rocket triumphant",
+      "image_job_id": "b3723f31-6aaa-4cc7-b355-2cb0f95393cc",
+      "image_status": "completed",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    },
+    {
+      "beat": "B23",
+      "scene": "Sunny final lesson pointing to viewer",
+      "image_job_id": "c3f7b5a7-9cd2-424a-98da-08830d72d3eb",
+      "image_status": "completed",
+      "note": "Used Sunny element reference a40e2d56 — best consistency version",
+      "clip_job_id": null,
+      "clip_status": "not_started"
+    }
+  ],
+
+  "existing_asset_clips": [
+    {"beat": "B02", "scene": "Sunny arms wide open on street", "image_id": "8bdc26c0-1e39-48ac-9c0c-bd02b8e2ee38", "clip_duration": 12, "clip_job_id": null, "clip_status": "not_started"},
+    {"beat": "B03", "scene": "Sunny jumping fists raised joy", "image_id": "36c855fa-67c4-4d7c-be6c-e7e10213c4d2", "clip_duration": 11, "clip_job_id": null, "clip_status": "not_started"},
+    {"beat": "B04", "scene": "Sunny running toward camera", "image_id": "315b284c-905c-48ad-9c5d-bc3517dc827d", "clip_duration": 13, "clip_job_id": null, "clip_status": "not_started"},
+    {"beat": "B07", "scene": "Sunny on porch steps curious", "image_id": "97c88d99-a0f3-4c3a-8e7e-fc1a03fecf7a", "clip_duration": 13, "clip_job_id": null, "clip_status": "not_started"},
+    {"beat": "B09", "scene": "Sunny arms open song launch", "image_id": "8bdc26c0-1e39-48ac-9c0c-bd02b8e2ee38", "clip_duration": 10, "clip_job_id": null, "clip_status": "not_started"},
+    {"beat": "B12", "scene": "Sunny raising hand classroom HERO", "image_id": "a0850a65-3720-4b28-936b-f412d06ededf", "clip_duration": 12, "clip_job_id": null, "clip_status": "not_started"},
+    {"beat": "B13", "scene": "Sunny jumping chorus joy", "image_id": "36c855fa-67c4-4d7c-be6c-e7e10213c4d2", "clip_duration": 11, "clip_job_id": null, "clip_status": "not_started"},
+    {"beat": "B17", "scene": "Sunny running chorus energy", "image_id": "315b284c-905c-48ad-9c5d-bc3517dc827d", "clip_duration": 12, "clip_job_id": null, "clip_status": "not_started"},
+    {"beat": "B18", "scene": "Sunny porch song outro", "image_id": "97c88d99-a0f3-4c3a-8e7e-fc1a03fecf7a", "clip_duration": 15, "clip_job_id": null, "clip_status": "not_started"},
+    {"beat": "B24", "scene": "Sunny goodbye wave LOCKED OUTRO", "image_id": "3d56c3cb-2867-4a6c-bd90-01720ed14b2d", "clip_duration": 11, "clip_job_id": null, "clip_status": "not_started"}
+  ],
+
+  "special": [
+    {"beat": "B01", "scene": "Title card — Sunny and the Crew logo", "method": "static_graphic", "image_job_id": null, "status": "not_started"}
+  ],
+
+  "assembly": {
+    "final_clip_order": ["B01","B02","B03","B04","B05","B06","B07","B08","B09","B10","B11","B12","B13","B14","B15","B16","B17","B18","B19","B20","B21","B22","B23","B24"],
+    "assembled_job_id": null,
+    "delivery_status": "not_started",
+    "google_drive_file_id": null
+  },
+
+  "credit_status": {
+    "balance_checked": "2026-07-06",
+    "credits_available": 2.9,
+    "credits_needed_estimate": "230+ (23 clips × ~10 credits each via kling3_0_turbo + B01 title card generation)",
+    "status": "BLOCKED — insufficient credits. Top up required before clip generation can begin.",
+    "top_up_action": "User needs to purchase credits via Higgsfield billing"
+  },
+
+  "notes": {
+    "sunny_element_id": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9 — WORKING. Used successfully for B05, B08, B11, B16, B19, B20, B21, B23.",
+    "model_used": "nano_banana_flash (auto-selected by system when nano_banana_2 was requested)",
+    "image_generation_complete": "All 13 new scene images are COMPLETE and verified in Higgsfield. Two versions exist for some Sunny shots — tracker uses the newer element-reference versions for better character consistency.",
+    "next_step": "Purchase credits, then run clip generation for all 23 beats (B02-B24), then generate B01 title card, then assemble."
+  }
+}
