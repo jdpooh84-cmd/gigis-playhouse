@@ -14,7 +14,7 @@
       "image_status": "completed",
       "note": "Used Sunny element reference a40e2d56 — best consistency version",
       "clip_job_id": "9ba0eeb4-53ca-470a-baff-c48cda91ce96",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B06",
@@ -23,7 +23,7 @@
       "image_status": "completed",
       "note": "Text prompt only (no element reference for Leo/Mia yet)",
       "clip_job_id": "a8e70fbc-2a7a-4869-8cf8-31c1361bd129",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B08",
@@ -32,7 +32,7 @@
       "image_status": "completed",
       "note": "Used Sunny element reference a40e2d56 — best consistency version",
       "clip_job_id": "5c2e166b-a329-4948-aaad-a04a9b8941a1",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B10",
@@ -40,7 +40,7 @@
       "image_job_id": "f0caf353-e1ac-4318-a005-7b6b4706700d",
       "image_status": "completed",
       "clip_job_id": "113a57cf-e784-46d4-9b37-62744443a561",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B11",
@@ -49,15 +49,16 @@
       "image_status": "completed",
       "note": "Used Sunny element reference a40e2d56 — best consistency version",
       "clip_job_id": "0fd18f4c-3cb1-4bbb-aa1c-0ada581e8d42",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B14",
       "scene": "Mia helping Leo with rocket",
       "image_job_id": "f16e2e0e-cd82-48c5-b65a-009e899e1616",
       "image_status": "completed",
-      "clip_job_id": "a0d6cd81-3b51-4c7e-a3fa-69fc4784d557",
-      "clip_status": "pending"
+      "clip_job_id": "4e40a36a-fcbc-4ce0-b025-aba66c4b3bd3",
+      "clip_status": "pending",
+      "note": "Original clip a0d6cd81 was stuck in_progress for over an hour — re-submitted 2026-07-06"
     },
     {
       "beat": "B15",
@@ -65,7 +66,7 @@
       "image_job_id": "e3145355-528a-487c-bc92-b094caa7abe0",
       "image_status": "completed",
       "clip_job_id": "c6e993a1-2471-44b5-9b2d-315e1c01aa7e",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B16",
@@ -74,7 +75,7 @@
       "image_status": "completed",
       "note": "Used Sunny element reference a40e2d56 + text descriptions for Leo/Mia. Retried after preset recommendation decline.",
       "clip_job_id": "1fc05146-bc12-49fd-9111-ae832d5de96c",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B19",
@@ -83,7 +84,7 @@
       "image_status": "completed",
       "note": "Used Sunny element reference a40e2d56 — best consistency version",
       "clip_job_id": "6e485477-ced6-495a-a273-35198e2f493a",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B20",
@@ -92,7 +93,7 @@
       "image_status": "completed",
       "note": "Used Sunny element reference a40e2d56. Retried after preset recommendation decline.",
       "clip_job_id": "cf4e8824-6cd6-4919-910c-8e83a08ff0f6",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B21",
@@ -101,7 +102,7 @@
       "image_status": "completed",
       "note": "Used Sunny element reference a40e2d56 — best consistency version",
       "clip_job_id": "7928010e-b01f-45c4-8979-38aeed9740a9",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B22",
@@ -109,7 +110,7 @@
       "image_job_id": "b3723f31-6aaa-4cc7-b355-2cb0f95393cc",
       "image_status": "completed",
       "clip_job_id": "a6f1d589-9ca8-44bc-a326-11c6e715108e",
-      "clip_status": "pending"
+      "clip_status": "completed"
     },
     {
       "beat": "B23",
@@ -118,29 +119,64 @@
       "image_status": "completed",
       "note": "Used Sunny element reference a40e2d56 — best consistency version",
       "clip_job_id": "793063bd-c7be-432a-bad0-9b17b042d89f",
-      "clip_status": "pending"
+      "clip_status": "completed"
     }
   ],
 
   "existing_asset_clips": [
-    {"beat": "B02", "scene": "Sunny arms wide open on street", "image_id": "8bdc26c0-6762-4be9-9044-d314fbf3b973", "clip_duration": 12, "clip_job_id": "a2f26f5b-604a-4cce-bc93-04f53e1e29c6", "clip_status": "pending"},
-    {"beat": "B03", "scene": "Sunny jumping fists raised joy", "image_id": "36c855fa-b696-4500-bc36-bc6004f764ab", "clip_duration": 11, "clip_job_id": "84c0c8e5-31a6-42a5-a7a6-ed6ce626e351", "clip_status": "pending"},
-    {"beat": "B04", "scene": "Sunny running toward camera", "image_id": "315b284c-905c-48ad-9c5d-bc3517dc827d", "clip_duration": 13, "clip_job_id": "52f86dc3-b700-48dc-b0ac-faeafb2341e3", "clip_status": "pending"},
-    {"beat": "B07", "scene": "Sunny on porch steps curious", "image_id": "97c88d99-c903-4112-b771-d8b7512d0116", "clip_duration": 13, "clip_job_id": "c6475b12-2d30-44d3-92f6-755f519dd0fa", "clip_status": "pending"},
-    {"beat": "B09", "scene": "Sunny arms open song launch", "image_id": "8bdc26c0-6762-4be9-9044-d314fbf3b973", "clip_duration": 10, "clip_job_id": "ed18e34e-1561-4fd1-af75-b72c95f42e4f", "clip_status": "pending"},
-    {"beat": "B12", "scene": "Sunny raising hand classroom HERO", "image_id": "a0850a65-3720-4b28-936b-f412d06ededf", "clip_duration": 12, "clip_job_id": "18409372-cd74-426f-bd6b-406bf5da7dea", "clip_status": "pending"},
-    {"beat": "B13", "scene": "Sunny jumping chorus joy", "image_id": "36c855fa-b696-4500-bc36-bc6004f764ab", "clip_duration": 11, "clip_job_id": "1afbd03a-d682-4392-a450-aade56b56c7c", "clip_status": "pending"},
-    {"beat": "B17", "scene": "Sunny running chorus energy", "image_id": "315b284c-905c-48ad-9c5d-bc3517dc827d", "clip_duration": 12, "clip_job_id": "790aeb4c-805e-400c-bac3-1ec5c0b18a7e", "clip_status": "pending"},
-    {"beat": "B18", "scene": "Sunny porch song outro", "image_id": "97c88d99-c903-4112-b771-d8b7512d0116", "clip_duration": 15, "clip_job_id": "a6ad43dd-68a4-48ec-a727-2b4c400880fe", "clip_status": "pending"},
-    {"beat": "B24", "scene": "Sunny goodbye wave LOCKED OUTRO", "image_id": "3d56c3cb-2867-4a6c-bd90-01720ed14b2d", "clip_duration": 11, "clip_job_id": "03c22898-9316-4fcc-9c82-8520ea31031b", "clip_status": "pending"}
+    {"beat": "B02", "scene": "Sunny arms wide open on street", "image_id": "8bdc26c0-6762-4be9-9044-d314fbf3b973", "clip_duration": 12, "clip_job_id": "a2f26f5b-604a-4cce-bc93-04f53e1e29c6", "clip_status": "completed"},
+    {"beat": "B03", "scene": "Sunny jumping fists raised joy", "image_id": "36c855fa-b696-4500-bc36-bc6004f764ab", "clip_duration": 11, "clip_job_id": "84c0c8e5-31a6-42a5-a7a6-ed6ce626e351", "clip_status": "completed"},
+    {"beat": "B04", "scene": "Sunny running toward camera", "image_id": "315b284c-905c-48ad-9c5d-bc3517dc827d", "clip_duration": 13, "clip_job_id": "52f86dc3-b700-48dc-b0ac-faeafb2341e3", "clip_status": "completed"},
+    {"beat": "B07", "scene": "Sunny on porch steps curious", "image_id": "97c88d99-c903-4112-b771-d8b7512d0116", "clip_duration": 13, "clip_job_id": "c6475b12-2d30-44d3-92f6-755f519dd0fa", "clip_status": "completed"},
+    {"beat": "B09", "scene": "Sunny arms open song launch", "image_id": "8bdc26c0-6762-4be9-9044-d314fbf3b973", "clip_duration": 10, "clip_job_id": "ed18e34e-1561-4fd1-af75-b72c95f42e4f", "clip_status": "completed"},
+    {"beat": "B12", "scene": "Sunny raising hand classroom HERO", "image_id": "a0850a65-3720-4b28-936b-f412d06ededf", "clip_duration": 12, "clip_job_id": "18409372-cd74-426f-bd6b-406bf5da7dea", "clip_status": "completed"},
+    {"beat": "B13", "scene": "Sunny jumping chorus joy", "image_id": "36c855fa-b696-4500-bc36-bc6004f764ab", "clip_duration": 11, "clip_job_id": "1afbd03a-d682-4392-a450-aade56b56c7c", "clip_status": "completed"},
+    {"beat": "B17", "scene": "Sunny running chorus energy", "image_id": "315b284c-905c-48ad-9c5d-bc3517dc827d", "clip_duration": 12, "clip_job_id": "790aeb4c-805e-400c-bac3-1ec5c0b18a7e", "clip_status": "completed"},
+    {"beat": "B18", "scene": "Sunny porch song outro", "image_id": "97c88d99-c903-4112-b771-d8b7512d0116", "clip_duration": 15, "clip_job_id": "a6ad43dd-68a4-48ec-a727-2b4c400880fe", "clip_status": "completed"},
+    {"beat": "B24", "scene": "Sunny goodbye wave LOCKED OUTRO", "image_id": "3d56c3cb-2867-4a6c-bd90-01720ed14b2d", "clip_duration": 11, "clip_job_id": "03c22898-9316-4fcc-9c82-8520ea31031b", "clip_status": "completed"}
   ],
 
   "special": [
-    {"beat": "B01", "scene": "Title card — Sunny and the Crew logo", "method": "openai_hazel", "image_job_id": "fe8e1d13-63ea-484a-87d1-2b1864296e41", "clip_job_id": null, "status": "image_generating", "note": "openai_hazel used 3:2 aspect ratio (closest to 16:9 it supports). Will review and convert to clip once complete."}
+    {
+      "beat": "B01",
+      "scene": "Title card — Sunny and the Crew logo",
+      "method": "openai_hazel",
+      "image_job_id": "fe8e1d13-63ea-484a-87d1-2b1864296e41",
+      "image_status": "completed",
+      "clip_job_id": "89b53695-6072-4d6e-8323-83e37ce05fbb",
+      "clip_status": "completed",
+      "note": "openai_hazel used 3:2 aspect ratio (1536x1024), clip rendered at 1280x720. Clip converted and completed."
+    }
   ],
 
   "assembly": {
     "final_clip_order": ["B01","B02","B03","B04","B05","B06","B07","B08","B09","B10","B11","B12","B13","B14","B15","B16","B17","B18","B19","B20","B21","B22","B23","B24"],
+    "clip_ids_in_order": [
+      "89b53695-6072-4d6e-8323-83e37ce05fbb",
+      "a2f26f5b-604a-4cce-bc93-04f53e1e29c6",
+      "84c0c8e5-31a6-42a5-a7a6-ed6ce626e351",
+      "52f86dc3-b700-48dc-b0ac-faeafb2341e3",
+      "9ba0eeb4-53ca-470a-baff-c48cda91ce96",
+      "a8e70fbc-2a7a-4869-8cf8-31c1361bd129",
+      "c6475b12-2d30-44d3-92f6-755f519dd0fa",
+      "5c2e166b-a329-4948-aaad-a04a9b8941a1",
+      "ed18e34e-1561-4fd1-af75-b72c95f42e4f",
+      "113a57cf-e784-46d4-9b37-62744443a561",
+      "0fd18f4c-3cb1-4bbb-aa1c-0ada581e8d42",
+      "18409372-cd74-426f-bd6b-406bf5da7dea",
+      "1afbd03a-d682-4392-a450-aade56b56c7c",
+      "4e40a36a-fcbc-4ce0-b025-aba66c4b3bd3",
+      "c6e993a1-2471-44b5-9b2d-315e1c01aa7e",
+      "1fc05146-bc12-49fd-9111-ae832d5de96c",
+      "790aeb4c-805e-400c-bac3-1ec5c0b18a7e",
+      "a6ad43dd-68a4-48ec-a727-2b4c400880fe",
+      "6e485477-ced6-495a-a273-35198e2f493a",
+      "cf4e8824-6cd6-4919-910c-8e83a08ff0f6",
+      "7928010e-b01f-45c4-8979-38aeed9740a9",
+      "a6f1d589-9ca8-44bc-a326-11c6e715108e",
+      "793063bd-c7be-432a-bad0-9b17b042d89f",
+      "03c22898-9316-4fcc-9c82-8520ea31031b"
+    ],
     "assembled_job_id": null,
     "delivery_status": "not_started",
     "google_drive_file_id": null
@@ -151,7 +187,7 @@
     "model_used_for_images": "nano_banana_flash (original session) + element reference versions",
     "model_used_for_clips": "kling3_0_turbo — 5 second clips at 7.5 credits each",
     "model_used_for_b01": "openai_hazel — best text rendering for title card",
-    "clip_generation_status": "23/23 clips submitted and pending. B01 title card image generating.",
-    "next_step": "Wait for all 23 clips to complete, then convert B01 image to clip, then assemble with explainer_video."
+    "clip_generation_status": "23/24 clips completed. B14 re-submitted (4e40a36a) — original stuck in_progress.",
+    "next_step": "Wait for B14 (4e40a36a) to complete, then call explainer_video with all 24 clip IDs."
   }
 }
