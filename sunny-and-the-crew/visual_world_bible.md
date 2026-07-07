@@ -1,5 +1,5 @@
 # Sunny and the Crew! — Visual World Bible
-Version 1.0 | 2026-07-06 | SOURCE OF TRUTH
+Version 2.0 | 2026-07-07 | SOURCE OF TRUTH
 
 > All character designs, locations, color values, and motif behaviors in this document are LOCKED
 > unless the creator explicitly approves a change. Do not override. Do not improvise.
@@ -39,9 +39,9 @@ Version 1.0 | 2026-07-06 | SOURCE OF TRUTH
 | Grass Green | #6ABF69 | Lawns, nature backdrops, garden elements |
 | Warm Coral | #FF7F5C | Porch tones, warm accents, sunset light |
 | Cream White | #FFF8ED | Clouds, highlight tones, background fill |
-| Soft Purple | #C89FE0 | Secondary accent pops, Mia's warmth tone |
+| Mia Teal | #2EC4B6 | Mia's signature color, teal accent pops |
 | Golden Brown | #C47A35 | Skin tone anchor (Sunny's palette) |
-| Lightning Blue | #2B5FA6 | Leo's hoodie, shadow accents |
+| Leo Red | #CC2200 | Leo's signature color, energy accents |
 
 **Saturation Level:** Mid-to-vivid. Reads clean and bright on consumer screens and children's tablets at all times. No desaturated, gray-dominant, or low-contrast scenes ever.
 
@@ -185,33 +185,32 @@ Never generate a character from scratch if a Higgsfield element ID exists.
 
 | Field | Value |
 |---|---|
-| **Role** | Supporting crew member |
-| **Age** | 7 |
+| **Role** | Co-lead — The Big Dreamer |
+| **Ethnicity** | Mexican-American |
+| **Higgsfield Element ID** | ab579f47-e94f-406e-ae63-dd4fd6dd1b18 (LOCKED — always use) |
 | **Generation Model** | nano_banana_2 |
 
-**Personality:** Leo thinks before he speaks — sometimes too long. He notices the interesting details everyone else misses. He gets flustered when plans go sideways but always tries again, and his persistence becomes the example every episode.
+**Personality:** Energetic, curious, slightly chaotic, heart-forward. Loves rockets and anything that goes fast. Naturally drops in light Spanish — ¡Órale!, mira, ¡Sí!, gracias — always followed immediately by English context so children understand without stopping the show.
 
-**Skin Tone:** Light tan
+**Skin Tone:** Warm medium-brown with golden undertone
 
-**Hair:** Spiky dark hair, naturally messy. Points in multiple directions. No product — just movement.
+**Hair:** Thick wavy black, short on sides, soft poof on top. One stubborn cowlick that never stays flat.
 
-**Face Shape:** Oval, slightly longer than Sunny's
+**Face Shape:** Round with full cheeks. Gap-toothed grin — one missing bottom tooth. Always present in every expression.
 
-**Body Type:** Slightly taller than Sunny, lean
+**Body Type:** Compact and sturdy. Slightly taller than Sunny.
 
-**Eyes:** Medium brown, partially framed by round glasses with thin silver frames. Glasses sit slightly low on his nose when he concentrates.
+**Eyes:** Large dark brown eyes, framed by round tortoiseshell glasses — slightly too large, always sliding down nose.
 
-**Everyday Outfit:** Royal blue hoodie with a small lightning bolt patch on the left chest (yellow bolt on a dark navy square patch). Dark gray shorts. White sneakers.
+**Everyday Outfit:** Bright RED short-sleeve t-shirt with a small WHITE rocket graphic centered on chest. DARK NAVY cargo shorts. WHITE sneakers with RED laces.
 
-**Outfit Color Theme:** #2B5FA6 (hoodie), #444444 (shorts), #FFF8ED (shoe base)
+**Outfit Color Theme:** Red and navy — bright red shirt, dark navy shorts, white/red sneakers
 
-**Alternate Outfit 1:** Same hoodie with a yellow raincoat layered over it — outdoor rainy scenes.
+**Signature Prop:** Small silver toy rocket — 8 inches, red flame painted on side. He carries it everywhere.
 
-**Signature Prop:** Small red notebook and a stubby pencil tucked behind his right ear.
+**Movement Style:** Fast, bouncy, slightly chaotic. Hard to predict what direction he'll move next.
 
-**Movement Style:** Deliberate and slightly careful — he looks where he steps. Breaks into an excited run when something surprises him.
-
-**Signature Expression:** Index finger on chin, head tilted left, glasses slightly slipped — his "thinking face."
+**Signature Expression:** Mouth wide open gap-toothed grin (one missing bottom tooth), glasses crooked on nose, both eyebrows all the way up — pure excitement.
 
 **First Appears In:** EP01, Beat B06 (Leo with broken rocket, backyard scene)
 
@@ -221,33 +220,32 @@ Never generate a character from scratch if a Higgsfield element ID exists.
 
 | Field | Value |
 |---|---|
-| **Role** | Supporting crew member |
-| **Age** | 5 |
+| **Role** | Supporting — The Thoughtful Strategist |
+| **Ethnicity** | Chinese-American |
+| **Higgsfield Element ID** | 36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590 (LOCKED — always use) |
 | **Generation Model** | nano_banana_2 |
 
-**Personality:** Mia is the youngest energy in the group — she follows the fun first and asks questions second. She's braver than she looks, and almost always surprises everyone (including herself) when she tries something new. Her courage models exactly what the viewer is being asked to do.
+**Personality:** Thoughtful, observant, quietly confident. Notices details others miss. Warm once she opens up. Naturally drops in light Mandarin — Wā! (wow), Xièxie (thank you), Jiā yóu (you can do it!) — always followed immediately by English context so children understand without stopping the show.
 
-**Skin Tone:** Deep brown (#4B2A14 anchor)
+**Skin Tone:** Light golden-beige warm honey — NOT pale white, NOT yellow, NOT olive
 
-**Hair:** Two large natural afro puffs secured with pink hair ties. Full, round, slightly asymmetric. No product — natural shape.
+**Hair:** Pure black, perfectly straight, silky. TWO LOW pigtails at the base of the skull, falling to shoulder level. Blunt-cut ends. Both tied with small round TEAL scrunchies. Fine wispy baby hairs across the entire forehead — always present.
 
-**Face Shape:** Round, with wide, soft cheeks
+**Face Shape:** Soft oval, small rounded nose
 
-**Body Type:** Compact and small — smallest of the three
+**Body Type:** Slender, slightly taller than Sunny and Leo
 
-**Eyes:** Big, bright dark eyes with wide pupils. Excitement shows in her eyes first.
+**Eyes:** Almond-shaped dark brown eyes with slight upward tilt at outer corners. Thin straight dark brown brows.
 
-**Everyday Outfit:** Pink overalls with a white daisy patch on the bib pocket. White short-sleeve shirt underneath. Pink sneakers with a small flower charm on each lace.
+**Everyday Outfit:** TEAL long-sleeve fitted shirt (#2EC4B6) with small YELLOW STAR patch on the LEFT SLEEVE near the shoulder. LIGHT GREY pleated polka dot skirt above the knee over WHITE full-length leggings. WHITE mary jane shoes with single TEAL buckle strap. Small TEAL canvas crossbody tote bag with hand-drawn YELLOW STAR on front.
 
-**Outfit Color Theme:** #FF9EC4 (overalls), #FFF8ED (shirt), #4B2A14 (skin anchor)
+**Outfit Color Theme:** Teal and yellow — #2EC4B6 (shirt/bag/scrunchies), #FFD700 (star patches)
 
-**Alternate Outfit 1:** Pink raincoat over overalls — rainy outdoor scenes.
+**Signature Props:** Small teal canvas crossbody tote bag (hand-drawn yellow star on front). Small teal hardcover notebook with yellow star on cover and 4 colored pencils tucked in the spine.
 
-**Signature Prop:** A small stuffed bunny named "Bun" that she carries but rarely mentions aloud. Bun is cream-colored with pink stitched eyes.
+**Movement Style:** Calm, precise, intentional. Quiet flat-handed clap when excited.
 
-**Movement Style:** Skips more than walks. Lags a half-step behind, watching — then rushes forward the moment she decides to join.
-
-**Signature Expression:** Shoulders raised, hands clasped near chin, bottom lip slightly bitten — her "I want to try but I'm a little nervous" face.
+**Signature Expression:** Head tilted left, one finger on chin, eyes narrowed slightly — then both eyes wide with a big closed-mouth smile when the answer arrives.
 
 **First Appears In:** EP01, Beat B06 (Leo with broken rocket, backyard scene)
 
