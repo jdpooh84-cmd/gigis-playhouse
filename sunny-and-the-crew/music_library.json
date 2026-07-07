@@ -2,9 +2,9 @@
   "_meta": {
     "document": "music_library.json",
     "locked": true,
-    "version": "2.0",
-    "last_updated": "2026-07-06",
-    "note": "Music assets are locked. Do not replace or regenerate locked songs without creator approval."
+    "version": "3.0",
+    "last_updated": "2026-07-07",
+    "note": "Music assets are locked. Do not replace or regenerate locked songs without creator approval. A Is Amazing is now EP01 featured song per Rachel Poole creative decision 2026-07-07. Ask Ask Ask archived to EP02 candidate."
   },
 
   "music_assets": [
@@ -14,6 +14,7 @@
       "role": "theme",
       "duration_seconds": 44,
       "duration_label": "0:44",
+      "bpm": 105,
       "style": "Kids pop, ukulele, hand claps, 105 BPM",
       "file_name": "sunny-and-the-crew-THEME.mp3",
       "used_in": ["ACT_1_THEME_INTRO", "ACT_4_OUTRO_sting"],
@@ -22,26 +23,63 @@
     },
     {
       "id": "MUSIC_EP01_SONG",
-      "title": "Ask Ask Ask",
+      "title": "A Is Amazing",
       "episode": "EP01",
       "role": "episode_song",
-      "duration_seconds": 124,
-      "duration_label": "2:04",
-      "style": "Kids pop, cartoon energy",
-      "learning_goal": "Asking for help is brave and smart",
-      "file_name": "ask-ask-ask.mp3",
-      "locked": true
-    },
-    {
-      "id": "MUSIC_EP02_SONG",
-      "title": "A Is Amazing",
-      "episode": "EP02",
-      "role": "episode_song",
-      "duration_seconds": 104,
-      "duration_label": "1:44",
-      "style": "Kids pop",
-      "learning_goal": "Letter A — Apple, Airplane",
-      "locked": true
+      "duration_seconds": 140,
+      "duration_label": "2:20",
+      "bpm": 110,
+      "style": "upbeat kids pop, bouncy ukulele, glockenspiel, hand claps, light bouncy drums, major key, bright cheerful, preschool sing-along, ages 2-5",
+      "negatives": "no electric guitar, no dark mood, no minor key, not sad, not slow, not adult, not atmospheric, not electro",
+      "learning_goal": "Letter A — Apple and Airplane — A is Amazing",
+      "age_target": "2-5",
+      "file_name": "a-is-amazing.mp3",
+      "locked": true,
+      "song_structure": {
+        "intro": { "start": "0:00", "end": "0:06", "duration": "6s", "lyric_count": 2 },
+        "verse_1": { "start": "0:06", "end": "0:30", "duration": "24s", "lyric_count": 4, "subject": "Apple" },
+        "chorus_1": { "start": "0:30", "end": "0:48", "duration": "18s", "lyric_count": 4 },
+        "verse_2": { "start": "0:48", "end": "1:12", "duration": "24s", "lyric_count": 4, "subject": "Airplane" },
+        "chorus_2": { "start": "1:12", "end": "1:30", "duration": "18s", "lyric_count": 4 },
+        "bridge": { "start": "1:30", "end": "1:45", "duration": "15s", "lyric_count": 4 },
+        "final_chorus": { "start": "1:45", "end": "2:05", "duration": "20s", "lyric_count": 4 },
+        "outro": { "start": "2:05", "end": "2:20", "duration": "15s", "lyric_count": 3 }
+      },
+      "lyrics_locked": {
+        "intro": [
+          "Hey friends it's time to play!",
+          "Let's learn our A words today!"
+        ],
+        "verse_1": [
+          "Apple apple big and red",
+          "Apple apple overhead",
+          "Crunch it up from core to top",
+          "An apple snack that just won't stop!"
+        ],
+        "chorus": [
+          "A is amazing A is the best",
+          "A is the letter we love the most",
+          "Sing it with me — A A A!",
+          "A words are awesome every day!"
+        ],
+        "verse_2": [
+          "Airplane airplane in the sky",
+          "Airplane airplane flying high",
+          "Spreading wings and zooming free",
+          "An airplane goes where it wants to be!"
+        ],
+        "bridge": [
+          "Apple makes our tummies glad!",
+          "Airplane is the best we've had!",
+          "A words make the whole day bright",
+          "A words always feel just right!"
+        ],
+        "outro": [
+          "Great job friends you did it today!",
+          "We learned our A words — hip hip hooray!",
+          "See you next time — bye bye bye!"
+        ]
+      }
     },
     {
       "id": "MUSIC_MOVE_LIKE_THE_ANIMAL",
@@ -108,6 +146,16 @@
   ],
 
   "future_episode_songs": [
+    {
+      "episode": "EP02",
+      "title": "Ask Ask Ask",
+      "genre": "kids pop, cartoon energy",
+      "duration_seconds": 124,
+      "duration_label": "2:04",
+      "learning_goal": "Asking for help is brave and smart",
+      "status": "complete — archived from EP01 per Rachel creative decision 2026-07-07",
+      "note": "Song is production-ready. Animatic and dialogue exist. Promote to EP02 active when ready."
+    },
     {"episode": "EP03", "title": "Try Try Try Again", "genre": "upbeat pop", "status": "needs_creation"},
     {"episode": "EP04", "title": "Share the Sunshine", "genre": "feel-good", "status": "needs_creation"},
     {"episode": "EP05", "title": "Big Feelings Big Heart", "genre": "gentle", "status": "needs_creation"},
