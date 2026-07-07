@@ -2,9 +2,9 @@
   "_meta": {
     "document": "characters.json",
     "locked": true,
-    "version": "2.0",
+    "version": "3.0",
     "last_updated": "2026-07-07",
-    "note": "Character descriptions are locked. Never alter appearance without creator approval. Always prepend CHARACTER LOCK HEADER to Higgsfield prompts. NEVER generate any character without their locked Higgsfield element ID — use Drive images as reference. nano_banana_2 is the confirmed working model. Never use age descriptors or the word 'Pixar' in Higgsfield prompts — triggers safety filter."
+    "note": "All 14 Higgsfield element IDs are now LOCKED. Every character in this file has a confirmed element ID as of 2026-07-07. Always use element IDs — never use text-prompt-only generation for any character. Never use age descriptors or the word 'Pixar' in Higgsfield prompts — triggers safety filter. nano_banana_2 is the confirmed working model."
   },
 
   "main_crew": [
@@ -65,8 +65,8 @@
       },
       "personality": "Confident builder, problem-solver, jumps in without being asked, celebrates with fist pumps",
       "signature_expression": "Arms crossed confident smile → instant fist pump when something works",
-      "higgsfield_element_id_LOCKED": null,
-      "higgsfield_element_status": "NO element ID — use pose job IDs for generation",
+      "higgsfield_element_id_LOCKED": "2ea4d86d-1978-4764-8620-8f771ee28b4b",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "pose_1_default": "eb81f712-c1a1-4316-ab7f-8c29575f93e4",
         "pose_2_fist_pump_victory": "regenerate from pose_1",
@@ -77,7 +77,7 @@
       "generation_model": "nano_banana_2",
       "existing_higgsfield_image_ids": {},
       "direct_address_to_camera": false,
-      "note": "Koda is Sunny's older brother. Visibly older and taller on screen."
+      "note": "Koda is Sunny's older brother. Visibly older and taller on screen. NOT a dog — human character."
     },
     {
       "id": "MIMI",
@@ -100,8 +100,8 @@
         "Slow deliberate clap with wide eyes",
         "Silent giggle with shoulders shaking"
       ],
-      "higgsfield_element_id_LOCKED": null,
-      "higgsfield_element_status": "NO element ID — use pose job IDs for generation",
+      "higgsfield_element_id_LOCKED": "f9cf5374-9cce-4a5a-bf60-d973c354f4f6",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "pose_1_default": "d21cc872-3688-4435-bf48-1741ed3ca897",
         "pose_2_slow_clap": "regenerate from pose_1",
@@ -134,8 +134,8 @@
         "style": "3D animated"
       },
       "personality": "Everything is BEST EVER or WORST EVER. No middle setting. Arms wide open or dramatic pout.",
-      "higgsfield_element_id_LOCKED": null,
-      "higgsfield_element_status": "NO element ID — use pose job IDs for generation",
+      "higgsfield_element_id_LOCKED": "c0ef05b4-dca9-4c8b-be45-6415f140cabc",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "pose_1_default": "08a4f193-294c-4b90-afa3-513f7229c797",
         "pose_2_arms_wide_excited": "regenerate from pose_1",
@@ -164,8 +164,8 @@
       },
       "personality": "Calm, deliberate, chin-tap thinker. Celebrates quietly but fully.",
       "signature_expression": "Chin tap with head tilt → full fist pump celebration when answer lands",
-      "higgsfield_element_id_LOCKED": null,
-      "higgsfield_element_status": "NO element ID — use pose job IDs for generation",
+      "higgsfield_element_id_LOCKED": "9e376c16-24b6-442a-a642-07d6093bd6f7",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "pose_1_default": "43fa73d8-9f8b-40b4-bfab-0477bc04829f",
         "pose_2_chin_tap_thinking": "regenerate from pose_1",
@@ -206,7 +206,7 @@
       "google_drive_folder_name": "LEO — Character References",
       "generation_model": "nano_banana_2",
       "generation_rules": [
-        "NEVER generate Leo clips without a locked Higgsfield element ID",
+        "NEVER generate Leo clips without his locked Higgsfield element ID",
         "ALWAYS pull reference images from google_drive_folder_id before generating",
         "NEVER use text-prompt-only generation"
       ],
@@ -244,7 +244,7 @@
       "google_drive_folder_name": "MIA — Character References",
       "generation_model": "nano_banana_2",
       "generation_rules": [
-        "NEVER generate Mia clips without a locked Higgsfield element ID",
+        "NEVER generate Mia clips without her locked Higgsfield element ID",
         "ALWAYS pull reference images from google_drive_folder_id before generating",
         "NEVER use text-prompt-only generation"
       ],
@@ -274,6 +274,8 @@
         "Crouching to child level to listen",
         "Belly laugh hands on hips"
       ],
+      "higgsfield_element_id_LOCKED": "89ae3644-087a-412b-ab87-2315bf188b6b",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "original_reference": "91e37e5c-298e-415d-a475-6800d6db9ed9",
         "pose_1_welcome_arms_wide": "f9e27584-93aa-40e8-8862-05ffb501c55c",
@@ -299,7 +301,8 @@
         "style": "3D animated"
       },
       "personality": "Authoritative but kind. Speaks clearly and warmly to children. Gets things done.",
-      "element_id": "3c1b33d2-ba1b-408c-8d69-b08c656de4bf",
+      "higgsfield_element_id_LOCKED": "3c1b33d2-ba1b-408c-8d69-b08c656de4bf",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "pose_1_standing": "55122193-47b5-41b9-b615-eae22c0fbd20"
       },
@@ -323,6 +326,8 @@
         "style": "3D animated"
       },
       "personality": "Welcoming presenter, patient listener, excited aha-moment teacher",
+      "higgsfield_element_id_LOCKED": "72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "pose_1_welcome_arms_out": "c18df2b0-d11f-4b00-8e64-3ab712a15e27",
         "pose_2_crouching_listening": "bc79a2bf-da74-4084-bcd3-74994db57b14",
@@ -346,6 +351,8 @@
       },
       "personality": "Athletic, confident, generous with effort",
       "signature_prop": "basketball",
+      "higgsfield_element_id_LOCKED": "aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "original": "b7ae3b5c-4621-40ae-920e-81b2a0f62aa8",
         "pose_1_sidewalk_with_basketball": "f661c59c-7bbc-4c1f-beb0-7cef8547fa44"
@@ -368,13 +375,16 @@
         "style": "3D animated"
       },
       "personality": "Creative, expressive, always making something",
+      "higgsfield_element_id_LOCKED": "9c55b6aa-7d09-45c9-abb8-cec46a39a61d",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "original": "731cad3b-7a58-4add-84dd-d6d2244dfc66",
         "pose_1_garden_paintbrush_raised": "449409c2-ecee-43e8-8745-f104ced0f0af"
       },
       "invideo_elements": ["@Rena"],
       "google_drive_folder_id": "1RbUdbFm87tBTr_BmXnySi0xWr4wPslWq",
-      "generation_model": "nano_banana_2"
+      "generation_model": "nano_banana_2",
+      "hard_rules": ["LEFT CHEEK paint smudge — always present in multiple colors, NEVER missing"]
     },
     {
       "id": "BELLA",
@@ -394,6 +404,8 @@
       },
       "personality": "No one knows where she lives. She appears when needed. Answers questions as if she already knew they would be asked.",
       "voice": "female second soprano — melodic like a popstar",
+      "higgsfield_element_id_LOCKED": "3faaac30-5b05-4b1b-a2f4-deb996643a5d",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "pose_1_sitting_dignified": "da604e85-98f9-492e-9cd9-c4d83be8082d",
         "pose_2_walking_with_purpose": "34c6569d-2025-4c52-acae-00d83c8bb1b7",
@@ -402,7 +414,7 @@
       "invideo_elements": ["@Bella", "@BellaWalking", "@BellaSinging"],
       "google_drive_folder_id": "18k8GoD4e5riQ1FXmexlpEneDl4tti1ig",
       "generation_model": "nano_banana_2",
-      "hard_rules": ["Bella is NOT Commander. Never confuse them."]
+      "hard_rules": ["Bella is NOT Commander. Never confuse them.", "NEVER in same shot as Commander"]
     },
     {
       "id": "COMMANDER",
@@ -420,6 +432,8 @@
         "body": "compact barrel-shaped, short sturdy legs"
       },
       "personality": "Always happy, always underfoot, accidentally helpful",
+      "higgsfield_element_id_LOCKED": "f35f85da-590d-4a74-80d5-a3931befa4bb",
+      "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "original_reference": "b598ede1-38d5-4af2-8519-1aad351ff192",
         "pose_1_good_boy_sit_head_tilt": "0a837a71-1a69-4172-bd50-b020b2983045",
@@ -429,7 +443,7 @@
       "invideo_elements": ["@Commander", "@CommanderRun", "@CommanderPlay"],
       "google_drive_folder_id": "1CB5R9wyvMzAOZAGkhoX0641PGYNYjOO3",
       "generation_model": "nano_banana_2",
-      "hard_rules": ["Commander is NOT Bella. Never confuse them."]
+      "hard_rules": ["Commander is NOT Bella. Never confuse them.", "NEVER in same shot as Bella"]
     },
     {
       "id": "RANDY",

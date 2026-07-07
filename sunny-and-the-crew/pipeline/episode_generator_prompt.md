@@ -1,20 +1,20 @@
 # SUNNY AND THE CREW — UNIVERSAL EPISODE GENERATOR PROMPT
 # For: Higgsfield AI clip generation queue
-# Output format: ep01_shot_list.json (see FORMAT REFERENCE below)
-# Version: 1.0 | 2026-07-07
+# Output format: ep##_shot_list.json (see FORMAT REFERENCE below)
+# Version: 2.0 | 2026-07-07 — All 14 character element IDs now locked
 
 ---
 
 ## PURPOSE
 
-This prompt template takes a song title, lyrics, episode number, and learning goal 
-as inputs and outputs a complete Higgsfield clip generation queue in the exact JSON 
-format used for production (matching ep01_shot_list.json). It enforces all 
-production rules from production_rules.json, loads character references from 
+This prompt template takes a song title, lyrics, episode number, and learning goal
+as inputs and outputs a complete Higgsfield clip generation queue in the exact JSON
+format used for production (matching ep01_shot_list.json). It enforces all
+production rules from production_rules.json, loads character references from
 characters.json, and ensures all safety constraints are met.
 
-Use this prompt with any capable AI agent (Claude, GPT-4, etc.) to generate 
-episode shot lists without manual prompt writing.
+Use this prompt with any capable AI agent to generate episode shot lists without
+manual prompt writing.
 
 ---
 
@@ -53,61 +53,57 @@ SONG_LYRICS:
 
 ---
 
-You are a production coordinator for **Sunny and the Crew**, a 3D animated 
-children's educational series. Your job is to generate a complete Higgsfield AI 
+You are a production coordinator for **Sunny and the Crew**, a 3D animated
+children's educational series. Your job is to generate a complete Higgsfield AI
 clip generation queue for one episode song.
 
-You will receive a song title, lyrics, and episode context. You must output a 
+You will receive a song title, lyrics, and episode context. You must output a
 complete JSON file matching the production format exactly.
 
 ---
 
 ## WORLD BIBLE SUMMARY (loaded automatically)
 
-**Show:** Sunny and the Crew  
-**Format:** 3D animated, cartoon style — warm, bright, slightly saturated palette  
-**Audience:** Young children — direct address, participatory moments, clear simple emotions  
+**Show:** Sunny and the Crew
+**Format:** 3D animated, cartoon style — warm, bright, slightly saturated palette
+**Audience:** Young children — direct address, participatory moments, clear simple emotions
 **Tone:** Joyful, warm, encouraging. No conflict without resolution. No negative framing.
 
 **Primary Locations:**
-- `LOC_BACKYARD` — Sunny's sunny backyard, picnic table, easel, green grass, wooden fence
-- `LOC_SUNNY_PORCH` — Sunny's front porch steps, warm wood, potted plants, street visible
+- `LOC_BACKYARD` — Sunny's sunny backyard, picnic table, easel, green grass, wooden fence, sunflower garden
+- `LOC_SUNNY_PORCH` — Sunny's front porch with yellow front door, sunflower pots, warm wood steps
 - `LOC_NEIGHBORHOOD_STREET` — Bright suburban sidewalk, colorful houses, trees, mailboxes
-- `LOC_DIRECT_ADDRESS` — Camera-facing position; character speaks to viewer; no fixed BG
+- `LOC_DIRECT_ADDRESS` — Camera-facing position; character speaks to viewer; warm yellow gradient BG
 - `LOC_PARK` — Community park with benches, play areas, open green space
-- `LOC_GARDEN` — Nana Blossom's garden; sunflowers, herbs, terra cotta pots, climbing vines
+- `LOC_NANA_PORCH` — Nana Blossom's front porch; wicker chairs, hanging plants, warm wood
+- `LOC_GARDEN` — Nana Blossom's garden; sunflowers, herbs, terra cotta pots, climbing vines on trellis
 - `LOC_COMMUNITY_CENTER` — Bright neighborhood meeting space, steps, banners, pavilion
+- `LOC_COOP_PLAYGROUND` — Homeschool co-op playground; hopscotch, slide, swings, sandbox
 
 ---
 
 ## CHARACTER ELEMENT ID LOOKUP TABLE
 
-The following characters have locked Higgsfield element IDs. Include the 
-`<<<UUID>>>` tag INLINE inside the image prompt text for every shot they appear in.
+**All 14 characters now have locked Higgsfield element IDs.**
+Include the `<<<UUID>>>` tag INLINE inside the image prompt text for EVERY shot
+they appear in. No exceptions. No text-description-only generation for any character.
 
-| Character | Description | Element ID Tag |
-|-----------|-------------|----------------|
-| **Sunny** | Lead character. Coral-and-yellow outfit. Pigtails. Expressive, bold, warm. Always direct addresses the camera. | `<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>` |
-| **Leo Rivera** | Main crew. Blue-and-white striped shirt. Red notebook always nearby. Glasses always on. Careful, curious, analytical. | `<<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>` |
-| **Mia Chen** | Main crew. Lavender-and-teal sporty outfit. Ponytail. Athletic. Always in motion. Cartwheels, jumps, full-body expression. | `<<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>` |
-
-The following characters have NO locked element ID. Use their pose job ID as 
-`start_image` in the medias array, and describe them physically in the prompt text.
-
-| Character | Physical Description | Pose Job ID (use as start_image) | Hard Rules |
-|-----------|---------------------|----------------------------------|------------|
-| **Koda** | Mixed-breed dog. Colorful bandana around neck. Energetic, loyal, always bounding. | `eb81f712-c1a1-4316-ab7f-8c29575f93e4` | — |
-| **Mimi** | Girl with wild full curly hair. Small frame. **ALWAYS BAREFOOT — no shoes, no socks, ever. ALWAYS the SMALLEST character on screen.** | `d21cc872-3688-4435-bf48-1741ed3ca897` | BAREFOOT. SMALLEST. |
-| **Pipa** | Girl with artistic braids or locs, beaded. Paint-stained fingers. Flowy patterned top. Creative, expressive. | `08a4f193-294c-4b90-afa3-513f7229c797` | — |
-| **Bram** | Boy with helmet and knee pads. Colorful skateboard with distinctive graphic. Confident, cool, always on or near his board. | `43fa73d8-9f8b-40b4-bfab-0477bc04829f` | — |
-| **Nana Blossom** | Tall elder woman. Natural silver-white hair. Warm deep brown skin. Colorful floral apron. **ALWAYS the TALLEST character on screen.** | `f9e27584` (welcome_arms_wide) | TALLEST. |
-| **Mayor Mary** | Cheerful official. Mayor's sash prominently displayed. ROYAL PURPLE blazer, GOLD mayoral pin on lapel. | `<<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>` + start_image: `55122193-47b5-41b9-b615-eae22c0fbd20` | — |
-| **Ava** | Warm, expressive girl. Big open eyes. Natural welcoming posture. | `c18df2b0` (welcome) | — |
-| **Rico** | Confident boy. Basketball always present. Sneakers prominent. Relaxed sidewalk stance. | `f661c59c` (sidewalk_basketball) | — |
-| **Rena** | Creative girl. Paint-stained hands and smock. **Small multicolor paint smudge on LEFT CHEEK — always present, never missing.** | `449409c2` (garden_paintbrush) | LEFT CHEEK smudge. |
-| **Bella** | Elegant orange tabby cat. Dignified sitting posture. Regal, knowing expression. | `da604e85` (sitting_dignified) | **NEVER in same shot as Commander.** |
-| **Commander** | Large good-natured dog. Upright attentive sit. Collar with metal tag. Warm intelligent eyes. | `0a837a71` (good_boy_sit) | **NEVER in same shot as Bella.** |
-| **Captain Blue** | Warm jovial older gentleman. Deep warm brown skin. White beard, neatly trimmed. Worn navy captain's hat (tips it in greeting). Faded blue jacket with brass buttons. Moves with slow dignity. | Text description only — element ID PENDING | Element ID not yet locked. Do not generate clips until confirmed. |
+| Character | Role | Locked Element ID Tag | Hard Rules |
+|-----------|------|-----------------------|------------|
+| **Sunny** | Lead. Yellow t-shirt with white cloud emblem, orange shorts, yellow-and-white sneakers. Two LARGE HIGH puff buns — PINK tie on RIGHT, YELLOW tie on LEFT. Direct address to camera. | `<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>` | Direct address every episode |
+| **Koda** | Sunny's older brother. Solid RED t-shirt, KHAKI shorts, RED sneakers. Short neat twists. Deep warm brown skin. Visibly older and taller than Sunny. NOT a dog — human character. | `<<<2ea4d86d-1978-4764-8620-8f771ee28b4b>>>` | Always visibly taller than Sunny |
+| **Mimi** | Sunny's baby sister. Solid MINT GREEN onesie. TWO TINY pigtails with PINK ties. ALWAYS BAREFOOT. ALWAYS SMALLEST on screen. Communicates through reactions only. | `<<<f9cf5374-9cce-4a5a-bf60-d973c354f4f6>>>` | BAREFOOT always. SMALLEST on screen always. |
+| **Pipa** | Dramatic one. Twin sister of Bram. PURPLE t-shirt, PINK A-line skirt, PURPLE shoes. TWO LONG BRAIDS, dark red-brown, PURPLE bows on ends. Enormous bright BLUE eyes. | `<<<c0ef05b4-dca9-4c8b-be45-6415f140cabc>>>` | — |
+| **Bram** | Thinker. Twin brother of Pipa. TEAL short-sleeve shirt, DARK BLUE pants, BROWN sandals. Short straight black hair with cowlick. Chin-tap thinker expression. | `<<<9e376c16-24b6-442a-a642-07d6093bd6f7>>>` | — |
+| **Leo Rivera** | Co-lead. Bright RED t-shirt with small WHITE rocket graphic on chest. DARK NAVY cargo shorts. WHITE sneakers with RED laces. Round tortoiseshell glasses (always sliding down). Thick wavy black hair. Carries small silver toy rocket everywhere. Gap-toothed grin. | `<<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>` | Glasses always present |
+| **Mia Chen** | Supporting lead. TEAL long-sleeve fitted shirt with small YELLOW STAR patch on LEFT SLEEVE. LIGHT GREY pleated polka-dot skirt over WHITE leggings. WHITE mary jane shoes with TEAL buckle. Small TEAL crossbody bag with yellow star. Straight black hair in TWO LOW pigtails with TEAL scrunchies. | `<<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>` | Bag always present |
+| **Nana Blossom** | Wise neighbor/mentor. TEAL dress under FLORAL APRON (white/cream base, multicolor flowers). Silver-white LOCS piled HIGH with LAVENDER tie. Deep mahogany brown skin. PEARL STUD earrings. | `<<<89ae3644-087a-412b-ab87-2315bf188b6b>>>` | ALWAYS TALLEST on screen |
+| **Mayor Mary** | Community leader. SHORT FULL CURLY AUBURN hair. ROYAL PURPLE blazer. GOLD mayoral pin on lapel. Very light warm ivory skin. | `<<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>` | — |
+| **Ava** | Teacher. AMBER-GOLD long-sleeve top under MEDIUM BLUE DENIM OVERALLS with full bib and chest pocket. Dark chocolate brown natural curly hair in LOOSE HIGH BUN. Warm golden tan skin with rosy cheeks. | `<<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>>` | — |
+| **Rico** | Sporty older kid. Solid GREEN athletic t-shirt, GREY athletic shorts, WHITE sneakers with ORANGE accent dots on heel. Short clean FADE haircut. Always has a basketball. | `<<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>` | Basketball always present |
+| **Rena** | Creative older kid. Solid ORANGE t-shirt, BLUE denim jeans with ankle cuff, RAINBOW multicolor patchwork sneakers. Big voluminous DARK CURLY AFRO with bright YELLOW headband. **Small MULTICOLOR paint smudge on LEFT CHEEK — NEVER missing.** | `<<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>>` | LEFT CHEEK paint smudge ALWAYS present |
+| **Bella** | Wise wanderer dog. Ivory white body with brindle markings. Floppy CHOCOLATE BROWN ears. DEEP TEAL collar. Subtle warm golden glow around edges. Medium-to-large, elegant. | `<<<3faaac30-5b05-4b1b-a2f4-deb996643a5d>>>` | NEVER in same shot as Commander |
+| **Commander** | Koda's dog. Compact. Cream white base with warm brown spots. Very long floppy CHOCOLATE BROWN ears. Large glossy black nose. Curled upward tail. | `<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>` | NEVER in same shot as Bella |
 
 ---
 
@@ -117,7 +113,7 @@ Violation of these rules will trigger Higgsfield content filtering.
 
 1. **NEVER** use age descriptors: "6-year-old", "7-year-old", "child", "toddler", "kid", "young child", "little girl", "little boy" — FORBIDDEN in all prompts
 2. **NEVER** use the word "Pixar" — write "3D animated, cartoon style" instead
-3. **ALWAYS** include `<<<UUID>>>` element ID tags inline in the prompt text for Sunny, Leo, and Mia
+3. **ALWAYS** include `<<<UUID>>>` element ID tags inline in the prompt text for EVERY character in EVERY shot — all 14 characters now have locked element IDs
 4. **ALWAYS** verify: Mimi is barefoot (bare feet visible) and smallest character on screen
 5. **ALWAYS** verify: Nana Blossom is the tallest character on screen
 6. **NEVER** put Bella and Commander in the same shot
@@ -134,7 +130,7 @@ Violation of these rules will trigger Higgsfield content filtering.
 - **Shot order:** Ascending beat order — B01, B02, B03... do not skip or reorder
 - **No silent frames:** Every shot must have clear action or emotion
 - **Assembly:** Simple cuts only — no dissolves or effects in the clip queue itself
-- **Character lock:** Include `<<<UUID>>>` for Sunny/Leo/Mia in EVERY prompt they appear in. No exceptions.
+- **Character lock:** Include `<<<UUID>>>` for ALL characters in EVERY prompt they appear in. No exceptions.
 - **Padding:** Only use reaction beats, participatory beats, or call-and-response beats as padding. No random looping.
 - **Made for Kids:** Set `made_for_kids: true` on all YouTube uploads
 
@@ -142,16 +138,26 @@ Violation of these rules will trigger Higgsfield content filtering.
 
 ## CHARACTER LOCK HEADER (include in every full_prompt block)
 
-Every `full_prompt` in the JSON output must begin with this block, filled in for 
+Every `full_prompt` in the JSON output must begin with this block, listing ONLY
 the characters appearing in that specific shot:
 
 ```
 CHARACTER LOCK — [EPISODE NUMBER] [SHOT ID]
 [LIST ONLY CHARACTERS IN THIS SHOT:]
-- SUNNY: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> [include if Sunny is in shot]
-- LEO: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> [include if Leo is in shot]
-- MIA: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> [include if Mia is in shot]
-[For other characters, note their pose job ID and physical description]
+- SUNNY: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> [if Sunny is in shot]
+- KODA: <<<2ea4d86d-1978-4764-8620-8f771ee28b4b>>> [if Koda is in shot]
+- MIMI: <<<f9cf5374-9cce-4a5a-bf60-d973c354f4f6>>> [if Mimi is in shot]
+- PIPA: <<<c0ef05b4-dca9-4c8b-be45-6415f140cabc>>> [if Pipa is in shot]
+- BRAM: <<<9e376c16-24b6-442a-a642-07d6093bd6f7>>> [if Bram is in shot]
+- LEO: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> [if Leo is in shot]
+- MIA: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> [if Mia is in shot]
+- NANA_BLOSSOM: <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> [if Nana is in shot]
+- MAYOR_MARY: <<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>> [if Mayor Mary is in shot]
+- AVA: <<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>> [if Ava is in shot]
+- RICO: <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>> [if Rico is in shot]
+- RENA: <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> [if Rena is in shot]
+- BELLA: <<<3faaac30-5b05-4b1b-a2f4-deb996643a5d>>> [if Bella is in shot — NEVER with Commander]
+- COMMANDER: <<<f35f85da-590d-4a74-80d5-a3931befa4bb>>> [if Commander is in shot — NEVER with Bella]
 
 SAFETY CHECK:
 - No age descriptors used: CONFIRMED
@@ -180,12 +186,12 @@ Output a single valid JSON file with this exact structure:
     "episode": "[EPISODE_NUMBER]",
     "song_title": "[SONG_TITLE]",
     "learning_goal": "[LEARNING_GOAL]",
-    "generated_by": "episode_generator_prompt.md v1.0",
+    "generated_by": "episode_generator_prompt.md v2.0",
     "generation_date": "[YYYY-MM-DD]",
     "model": "nano_banana_2",
-    "total_shots": [NUMBER],
-    "existing_assets_reused": [NUMBER],
-    "new_generations_required": [NUMBER]
+    "total_shots": "[NUMBER]",
+    "existing_assets_reused": "[NUMBER]",
+    "new_generations_required": "[NUMBER]"
   },
 
   "generation_queue": {
@@ -211,12 +217,7 @@ Output a single valid JSON file with this exact structure:
         "characters": ["[character names in this shot]"],
         "location": "[LOC_CODE]",
         "energy_level": "[LOW / MED / HIGH / PEAK]",
-        "medias": [
-          {
-            "type": "start_image",
-            "job_id": "[pose job ID for non-element-ID characters, or omit if using element ID only]"
-          }
-        ],
+        "medias": [],
         "full_prompt": "[CHARACTER LOCK HEADER + SCENE PROMPT — see format above]"
       }
     ]
@@ -225,10 +226,10 @@ Output a single valid JSON file with this exact structure:
 ```
 
 **Rules for the medias array:**
-- For Sunny, Leo, Mia: DO NOT include a `start_image` media entry — their `<<<UUID>>>` in the prompt handles the reference
-- For other characters with pose job IDs: include `{ "type": "start_image", "job_id": "[pose_job_id]" }`
-- For Mayor Mary: include her `<<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>` element ID inline in the prompt AND include `{ "type": "start_image", "job_id": "55122193-47b5-41b9-b615-eae22c0fbd20" }` in the medias array
-- Multiple characters with pose job IDs in one shot: include one entry per character
+- All characters now have element IDs. The `<<<UUID>>>` inline tags in the prompt handle references.
+- medias array should be empty `[]` for most shots.
+- Exception — if you have a previously generated pose image you want to use as start_image for a specific motion, include: `{ "type": "start_image", "job_id": "[pose_job_id]" }`
+- Bella and Commander: NEVER in the same shot.
 
 **Rules for shot IDs:**
 - Use the episode's beat sheet IDs where they exist: B01, B02... B24
@@ -251,14 +252,25 @@ When you receive the song lyrics and episode context:
 
 3. **Determine character usage per shot** — only include characters relevant to that story beat. Do not crowd shots with characters who aren't part of that scene.
 
-4. **Write the full_prompt for each shot** — follow the CHARACTER LOCK HEADER format exactly. Be specific: describe the exact pose, expression, body language, camera angle, and what makes this shot emotionally clear.
+4. **Write the full_prompt for each shot** — follow the CHARACTER LOCK HEADER format exactly. Be specific: describe the exact pose, expression, body language, camera angle, and what makes this shot emotionally clear. Use correct locked appearances from the CHARACTER ELEMENT ID LOOKUP TABLE above.
 
 5. **Flag existing assets** — if you have confirmed existing image or clip job IDs from a previous generation, place them in `priority_1_existing_assets`. Only generate new shots for beats not covered by existing assets.
 
 6. **Self-check before outputting:**
    - [ ] Every prompt with Sunny uses `<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>`
+   - [ ] Every prompt with Koda uses `<<<2ea4d86d-1978-4764-8620-8f771ee28b4b>>>`
+   - [ ] Every prompt with Mimi uses `<<<f9cf5374-9cce-4a5a-bf60-d973c354f4f6>>>`
+   - [ ] Every prompt with Pipa uses `<<<c0ef05b4-dca9-4c8b-be45-6415f140cabc>>>`
+   - [ ] Every prompt with Bram uses `<<<9e376c16-24b6-442a-a642-07d6093bd6f7>>>`
    - [ ] Every prompt with Leo uses `<<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>`
    - [ ] Every prompt with Mia uses `<<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>`
+   - [ ] Every prompt with Nana Blossom uses `<<<89ae3644-087a-412b-ab87-2315bf188b6b>>>`
+   - [ ] Every prompt with Mayor Mary uses `<<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>`
+   - [ ] Every prompt with Ava uses `<<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>>`
+   - [ ] Every prompt with Rico uses `<<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>`
+   - [ ] Every prompt with Rena uses `<<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>>`
+   - [ ] Every prompt with Bella uses `<<<3faaac30-5b05-4b1b-a2f4-deb996643a5d>>>`
+   - [ ] Every prompt with Commander uses `<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>`
    - [ ] No prompt contains age descriptors
    - [ ] No prompt contains the word "Pixar"
    - [ ] Mimi is barefoot and smallest in every shot she appears in
@@ -284,7 +296,7 @@ When you receive the song lyrics and episode context:
   "location": "LOC_BACKYARD",
   "energy_level": "LOW",
   "medias": [],
-  "full_prompt": "CHARACTER LOCK — EP01 B10\nLEO: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>\n\nSAFETY CHECK:\n- No age descriptors used: CONFIRMED\n- No word 'Pixar' used: CONFIRMED\n\nSCENE PROMPT:\n<<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> Leo Rivera sitting alone at the backyard picnic table with a broken toy rocket scattered in pieces in front of him. He's attempting to fit pieces back together, tongue slightly out in concentration, brow furrowed, glasses sliding down his nose. His red notebook is open and unused beside him. The backyard around him is empty — no one else is there. His posture is slightly hunched, closed-off, working alone. Morning golden light. 3D animated, cartoon style. Medium shot — Leo and the broken rocket at equal visual weight."
+  "full_prompt": "CHARACTER LOCK — EP01 B10\nLEO: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>\n\nSAFETY CHECK:\n- No age descriptors used: CONFIRMED\n- No word 'Pixar' used: CONFIRMED\n\nSCENE PROMPT:\n<<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> Leo Rivera sitting alone at the backyard picnic table with a broken toy rocket scattered in pieces in front of him. He is attempting to fit pieces back together, tongue slightly out in concentration, brow furrowed, round tortoiseshell glasses sliding down his nose. He wears his bright red t-shirt with white rocket graphic on chest and dark navy cargo shorts. The backyard around him is empty — no one else is there. His posture is slightly hunched, closed-off, working alone. Morning golden light. 3D animated, cartoon style. Medium shot — Leo and the broken rocket at equal visual weight. LOC_BACKYARD."
 }
 ```
 
@@ -292,7 +304,7 @@ When you receive the song lyrics and episode context:
 
 ## CALL TO ACTION
 
-Now that you have the world bible, character table, safety rules, production rules, 
+Now that you have the world bible, character table, safety rules, production rules,
 and output format:
 
 **Generate the complete clip generation queue for:**
@@ -309,7 +321,7 @@ and output format:
 [SONG_LYRICS]
 ```
 
-Output the complete JSON. Do not truncate. Include every shot from the first beat 
+Output the complete JSON. Do not truncate. Include every shot from the first beat
 of the song to the last note of the outro. The JSON must be valid and complete.
 
 ---
@@ -320,7 +332,7 @@ Never do any of the following, regardless of episode content:
 
 - Touch Make.com scenario IDs: 5106170, 5106176, 5106181, 5111331 (WILLO scenarios)
 - Use looping footage or repeat clips without structural justification
-- Omit element ID tags for Sunny, Leo, or Mia in any prompt they appear in
+- Omit element ID tags for ANY character in any prompt they appear in (all 14 are now locked)
 - Use age descriptors of any kind in any prompt
 - Use the word "Pixar" in any prompt
 - Put Bella and Commander in the same shot
@@ -333,6 +345,6 @@ Never do any of the following, regardless of episode content:
 
 ---
 
-*End of Episode Generator Prompt v1.0*
-*Generated by: pipeline/episode_generator_prompt.md*
+*End of Episode Generator Prompt v2.0*
+*Updated: 2026-07-07 — All 14 character element IDs locked; character descriptions corrected to match characters.json v3.0*
 *Apply to all future episodes: EP02 onward*
