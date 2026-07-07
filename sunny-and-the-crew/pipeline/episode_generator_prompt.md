@@ -107,6 +107,7 @@ The following characters have NO locked element ID. Use their pose job ID as
 | **Rena** | Creative girl. Paint-stained hands and smock. **Small multicolor paint smudge on LEFT CHEEK — always present, never missing.** | `449409c2` (garden_paintbrush) | LEFT CHEEK smudge. |
 | **Bella** | Elegant orange tabby cat. Dignified sitting posture. Regal, knowing expression. | `da604e85` (sitting_dignified) | **NEVER in same shot as Commander.** |
 | **Commander** | Large good-natured dog. Upright attentive sit. Collar with metal tag. Warm intelligent eyes. | `0a837a71` (good_boy_sit) | **NEVER in same shot as Bella.** |
+| **Captain Blue** | Warm jovial older gentleman. Deep warm brown skin. White beard, neatly trimmed. Worn navy captain's hat (tips it in greeting). Faded blue jacket with brass buttons. Moves with slow dignity. | Text description only — element ID PENDING | Element ID not yet locked. Do not generate clips until confirmed. |
 
 ---
 

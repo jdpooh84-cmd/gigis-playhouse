@@ -58,13 +58,13 @@ Sunny and the Crew — that's me and you!
 
 ---
 
-## ⚠ OPEN ITEMS
+## OPEN ITEMS
 
-**"Captain Blue" — UNRESOLVED (Verse 2, line 3)**
-The lyric "Nana Blossom Captain Blue" references a character name not confirmed in
-characters.json. Do NOT invent this character. Shot T13 holds with Nana Blossom only
-until creator confirms who "Captain Blue" is.
-**Creator action required before T13 can be finalized.**
+**Captain Blue element ID — PENDING**
+Captain Blue has been added to characters.json. No Higgsfield element ID or pose job
+ID exists yet — no reference images have been generated. Shot T13 uses text-description
+only for Captain Blue. Once his element ID is locked, upgrade T13's image prompt to
+include the `<<<UUID>>>` tag inline.
 
 ---
 
@@ -80,6 +80,7 @@ until creator confirms who "Captain Blue" is.
 - Use <<<UUID>>> element ID syntax for Sunny, Leo, and Mia in every prompt they appear in
 - Use pose job ID as start_image for characters with confirmed pose assets
 - Mayor Mary: element ID <<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>> + start_image: 55122193-47b5-41b9-b615-eae22c0fbd20
+- Captain Blue: TEXT DESCRIPTION ONLY — element ID PENDING — do not generate clips until element ID is locked
 
 ---
 
@@ -101,6 +102,7 @@ until creator confirms who "Captain Blue" is.
 | Rena | Supporting | start_image: 449409c2 (garden_paintbrush) |
 | Bella | Supporting | start_image: da604e85 (sitting_dignified) |
 | Commander | Supporting | start_image: 0a837a71 (good_boy_sit) |
+| Captain Blue | Supporting | Text description only — element ID PENDING |
 
 ---
 
@@ -656,12 +658,9 @@ HOLD: 2 beats — in and out
 TIME: 0:32-0:34
 LYRIC CUE: "Nana Blossom Captain Blue"
 ENERGY: WARM-MED
-BEAT-SYNC: "Nana" on the downbeat; hold warmly through the shot
-STORY BEAT: Nana Blossom gets her name-check. "Captain Blue" identity unconfirmed — see OPEN ITEMS.
-
-⚠ PRODUCTION NOTE: "Captain Blue" is an unconfirmed character name from the locked lyrics.
-Do NOT invent this character. This shot generates with Nana Blossom only.
-HOLD for creator confirmation before finalizing this shot's full content.
+BEAT-SYNC: "Nana" on the downbeat; "Blue" on the second half — both land with warm presence
+STORY BEAT: Two beloved neighborhood elders get their name-check side by side — Nana Blossom
+and Captain Blue, different energies, perfectly complementary
 ```
 
 **IMAGE PROMPT:**
@@ -670,33 +669,42 @@ CHARACTER LOCK — THEME T13
 [Nana Blossom: start_image: f9e27584 (welcome_arms_wide) — tall elder woman, natural silver-white hair,
 warm deep brown skin, colorful floral apron. ALWAYS TALLEST on screen.]
 
+[Captain Blue: TEXT DESCRIPTION ONLY — element ID PENDING]
+Captain Blue: warm jovial older gentleman, deep warm brown skin, white beard neatly trimmed,
+large kind eyes. Worn navy captain's hat, faded blue jacket with brass buttons. He is SHORTER
+than Nana Blossom — Nana is TALLEST on screen.
+
 SAFETY CHECK:
 - No age descriptors used: CONFIRMED
 - No word "Pixar" used: CONFIRMED
-- Nana Blossom is tallest character on screen: CONFIRMED — she is the only character in this shot
+- Nana Blossom is tallest character on screen: CONFIRMED — she stands visibly taller than Captain Blue
 
 SCENE PROMPT:
-Nana Blossom standing in her garden with arms open wide in her signature welcome pose —
-she is a tall elder woman with natural silver-white hair, warm deep brown skin, and her
-colorful floral apron. She is the TALLEST character in this world — her full height is
-visible and commanding in the warmest possible way. The garden behind her: sunflowers
-taller than the fence, herbs in clay pots, climbing vines on a wooden trellis. Golden
-afternoon light. She looks like she has been expecting everyone.
-3D animated, cartoon style. Full body shot, Nana at center. She is tallest in frame. LOC_GARDEN.
+Nana Blossom and Captain Blue standing together in front of Nana's garden. Nana Blossom —
+tall elder woman with natural silver-white hair, warm deep brown skin, colorful floral apron,
+arms open in her wide welcoming pose — stands clearly TALLER than Captain Blue beside her.
+Captain Blue is a warm jovial older gentleman with deep warm brown skin, a neatly trimmed
+white beard, and large kind eyes. He wears his worn navy captain's hat (tipping the brim
+hello with one hand) and a faded blue jacket with brass buttons. He stands beside Nana with
+a broad warm smile. The garden behind them: sunflowers, herbs in clay pots, climbing vines
+on a wooden trellis. Golden afternoon light. Two beloved elders — one tall and open-armed,
+one steady and hat-tipping — filling the frame with absolute warmth.
+3D animated, cartoon style. Medium-wide two-shot, both full body. Nana tallest. LOC_GARDEN.
 
-[⚠ PLACEHOLDER: "Captain Blue" — creator confirmation required before adding second character to this shot]
+⚠ CAPTAIN BLUE TEXT ONLY — upgrade this image prompt to include element ID tag once his
+Higgsfield element ID is locked. Do not generate clips before that.
 ```
 
 **CAMERA AND MOTION NOTES:**
 ```
-CAMERA: Level, wide enough to show her full height and the garden
-MOTION: Hold warmly — this is a presence, not action
+CAMERA: Level, wide enough to show both characters at full body height
+MOTION: Hold warmly — let their presence fill the frame; no need for action
 HOLD: 2 beats — gentle and warm
 ```
 
 **TRANSITION TO NEXT SHOT:** WARM FADE into the community celebration
 
-**STYLE CONSISTENCY TAGS:** `#nana-solo` `#nana-tallest` `#garden` `#captain-blue-placeholder` `#3d-cartoon`
+**STYLE CONSISTENCY TAGS:** `#nana-captain-blue` `#nana-tallest` `#garden` `#captain-blue-text-only` `#3d-cartoon`
 
 ---
 
@@ -1010,7 +1018,7 @@ HOLD: This IS the hold — 1 second, title card settled, DONE
 | T10 | 0:25-0:28 | 3s | CHORUS_1 | "Every single day we start brand new!" | Sunny | LOC_NEIGHBORHOOD_STREET | HIGH | Sunny element ID |
 | T11 | 0:28-0:30 | 2s | VERSE_2 | "Bram and Pipa Koda too" | Bram, Pipa, Koda | LOC_NEIGHBORHOOD_STREET | MED-HIGH | 3 start_images |
 | T12 | 0:30-0:32 | 2s | VERSE_2 | "Mimi's always got a clue" | Mimi | LOC_PARK | MED | Mimi start_image |
-| T13 | 0:32-0:34 | 2s | VERSE_2 | "Nana Blossom Captain Blue" | Nana Blossom ⚠ | LOC_GARDEN | WARM-MED | Nana start_image |
+| T13 | 0:32-0:34 | 2s | VERSE_2 | "Nana Blossom Captain Blue" | Nana Blossom + Captain Blue | LOC_GARDEN | WARM-MED | Nana start_image (Captain Blue text-only) |
 | T14 | 0:34-0:36 | 2s | VERSE_2 | "Everybody welcome to the crew!" | Mayor Mary, Ava, Rico, Rena | LOC_COMMUNITY_CENTER | HIGH | Mayor Mary element ID + 3 start_images |
 | T15 | 0:36-0:38 | 2s | FINAL_CHORUS | "Sunny and the Crew!" | Bella (no Commander) | LOC_SUNNY_PORCH | PEAK | Bella start_image |
 | T16 | 0:38-0:40 | 2s | FINAL_CHORUS | "We're coming through!" | Commander (no Bella) | LOC_NEIGHBORHOOD_STREET | HIGH | Commander start_image |

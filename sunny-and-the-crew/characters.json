@@ -310,6 +310,30 @@
       "generation_model": "nano_banana_2"
     },
     {
+      "id": "CAPTAIN_BLUE",
+      "full_name": "Captain Blue",
+      "role": "Supporting — The Neighborhood Adventurer",
+      "gender": "man",
+      "notes": "Beloved elder of the neighborhood. Always has a story. Children stop whatever they are doing when he starts talking.",
+      "appearance": {
+        "skin": "deep warm brown",
+        "hair": "white beard, neatly trimmed",
+        "eyes": "large and kind",
+        "outfit": "worn navy captain's hat, faded blue jacket with brass buttons",
+        "color_theme": "navy blue and brass gold",
+        "style": "3D animated"
+      },
+      "personality": "Warm, jovial, deliberate. Moves slowly but with great dignity. A natural storyteller.",
+      "signature_prop": "Worn navy captain's hat — tips it when greeting",
+      "movement_style": "Slow and deliberate, but carries great dignity in every step",
+      "hard_rules": [],
+      "element_id": "PENDING — no images generated yet. Do not generate clips until element ID is locked.",
+      "higgsfield_pose_job_ids": {},
+      "google_drive_image_ids": {},
+      "generation_model": "nano_banana_2",
+      "generation_status": "HOLD — element ID not yet locked. Use text description only."
+    },
+    {
       "id": "AVA",
       "full_name": "Ava",
       "role": "The Teacher — Homeschool Co-op teacher",

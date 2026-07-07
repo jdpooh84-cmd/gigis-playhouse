@@ -60,7 +60,7 @@ Sunny and the Crew — that's me and you!
 Hey! [ukulele hit]
 ```
 
-> ⚠ "Captain Blue" (Verse 2, line 3) is an unconfirmed character name. Identity requires creator confirmation before the T13 animatic shot can be finalized.
+> ✅ Captain Blue (Verse 2, line 3) is a confirmed character — see `characters.json`. T13 animatic is unholded; uses text-description-only until his Higgsfield element ID is locked.
 
 ---
 
