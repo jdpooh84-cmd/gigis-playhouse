@@ -60,11 +60,14 @@ Sunny and the Crew — that's me and you!
 
 ## OPEN ITEMS
 
-**Captain Blue element ID — PENDING**
-Captain Blue has been added to characters.json. No Higgsfield element ID or pose job
-ID exists yet — no reference images have been generated. Shot T13 uses text-description
-only for Captain Blue. Once his element ID is locked, upgrade T13's image prompt to
-include the `<<<UUID>>>` tag inline.
+**T13 — Commander confirmed ✅**
+"Captain Blue" in the lyric refers to Commander — Koda's dog. Commander is a confirmed
+character. Shot T13 uses Commander's pose job ID `0a837a71-1a69-4172-bd50-b020b2983045`
+alongside Nana Blossom's pose job ID `f9e27584-93aa-40e8-8862-05ffb501c55c`. No pending
+element ID is required — Commander has no Higgsfield element ID and uses pose_job_id as
+start_image per characters.json.
+
+**Remaining open items:** None for theme song. All characters confirmed.
 
 ---
 
@@ -659,52 +662,49 @@ TIME: 0:32-0:34
 LYRIC CUE: "Nana Blossom Captain Blue"
 ENERGY: WARM-MED
 BEAT-SYNC: "Nana" on the downbeat; "Blue" on the second half — both land with warm presence
-STORY BEAT: Two beloved neighborhood elders get their name-check side by side — Nana Blossom
-and Captain Blue, different energies, perfectly complementary
+STORY BEAT: Nana Blossom and Commander (Koda's dog) get their moment — the beloved neighbor
+and her familiar companion, warmth and tail-wagging energy perfectly complementary
+NOTE: "Captain Blue" in the lyric is Commander — Koda's dog. Commander confirmed in characters.json.
 ```
 
 **IMAGE PROMPT:**
 ```
 CHARACTER LOCK — THEME T13
-[Nana Blossom: start_image: f9e27584 (welcome_arms_wide) — tall elder woman, natural silver-white hair,
-warm deep brown skin, colorful floral apron. ALWAYS TALLEST on screen.]
+[Nana Blossom: start_image: f9e27584-93aa-40e8-8862-05ffb501c55c (welcome_arms_wide) —
+tall elder woman, natural silver-white locs piled high with lavender tie, warm deep mahogany
+brown skin, colorful floral apron. ALWAYS TALLEST on screen.]
 
-[Captain Blue: TEXT DESCRIPTION ONLY — element ID PENDING]
-Captain Blue: warm jovial older gentleman, deep warm brown skin, white beard neatly trimmed,
-large kind eyes. Worn navy captain's hat, faded blue jacket with brass buttons. He is SHORTER
-than Nana Blossom — Nana is TALLEST on screen.
+[Commander: start_image: 0a837a71-1a69-4172-bd50-b020b2983045 (good_boy_sit_head_tilt) —
+compact cartoon dog, cream white base with irregular warm medium brown spots, very long floppy
+chocolate brown ears, large glossy black nose, large round warm brown cartoon eyes, medium curled
+upward tail, short sturdy legs. No element ID — use pose_job_id as start_image.]
 
 SAFETY CHECK:
 - No age descriptors used: CONFIRMED
 - No word "Pixar" used: CONFIRMED
-- Nana Blossom is tallest character on screen: CONFIRMED — she stands visibly taller than Captain Blue
+- Nana Blossom is tallest character on screen: CONFIRMED
 
 SCENE PROMPT:
-Nana Blossom and Captain Blue standing together in front of Nana's garden. Nana Blossom —
-tall elder woman with natural silver-white hair, warm deep brown skin, colorful floral apron,
-arms open in her wide welcoming pose — stands clearly TALLER than Captain Blue beside her.
-Captain Blue is a warm jovial older gentleman with deep warm brown skin, a neatly trimmed
-white beard, and large kind eyes. He wears his worn navy captain's hat (tipping the brim
-hello with one hand) and a faded blue jacket with brass buttons. He stands beside Nana with
-a broad warm smile. The garden behind them: sunflowers, herbs in clay pots, climbing vines
-on a wooden trellis. Golden afternoon light. Two beloved elders — one tall and open-armed,
-one steady and hat-tipping — filling the frame with absolute warmth.
-3D animated, cartoon style. Medium-wide two-shot, both full body. Nana tallest. LOC_GARDEN.
-
-⚠ CAPTAIN BLUE TEXT ONLY — upgrade this image prompt to include element ID tag once his
-Higgsfield element ID is locked. Do not generate clips before that.
+Nana Blossom standing at the edge of her garden with Commander sitting proudly at her feet.
+Nana Blossom — tall elder woman with natural silver-white locs piled high, warm deep mahogany
+brown skin, colorful floral apron — arms open wide in her signature welcoming pose, beaming.
+Commander sits in a perfect good-boy sit beside her, head tilted to one side, tail curled up,
+eyes bright and warm. The garden behind them: sunflowers, herbs in clay pots, climbing vines
+on a wooden trellis. Golden afternoon light. The beloved neighbor and her faithful companion —
+warmth and tail-wagging joy filling the frame.
+3D animated, cartoon style. Medium-wide two-shot. Nana full body, Commander at her feet. LOC_GARDEN.
 ```
 
 **CAMERA AND MOTION NOTES:**
 ```
-CAMERA: Level, wide enough to show both characters at full body height
-MOTION: Hold warmly — let their presence fill the frame; no need for action
+CAMERA: Level, wide enough to show Nana full body and Commander at her feet
+MOTION: Hold warmly — Nana's open arms and Commander's head tilt carry the shot
 HOLD: 2 beats — gentle and warm
 ```
 
 **TRANSITION TO NEXT SHOT:** WARM FADE into the community celebration
 
-**STYLE CONSISTENCY TAGS:** `#nana-captain-blue` `#nana-tallest` `#garden` `#captain-blue-text-only` `#3d-cartoon`
+**STYLE CONSISTENCY TAGS:** `#nana-commander` `#nana-tallest` `#garden` `#commander-start-image` `#3d-cartoon`
 
 ---
 
@@ -1018,7 +1018,7 @@ HOLD: This IS the hold — 1 second, title card settled, DONE
 | T10 | 0:25-0:28 | 3s | CHORUS_1 | "Every single day we start brand new!" | Sunny | LOC_NEIGHBORHOOD_STREET | HIGH | Sunny element ID |
 | T11 | 0:28-0:30 | 2s | VERSE_2 | "Bram and Pipa Koda too" | Bram, Pipa, Koda | LOC_NEIGHBORHOOD_STREET | MED-HIGH | 3 start_images |
 | T12 | 0:30-0:32 | 2s | VERSE_2 | "Mimi's always got a clue" | Mimi | LOC_PARK | MED | Mimi start_image |
-| T13 | 0:32-0:34 | 2s | VERSE_2 | "Nana Blossom Captain Blue" | Nana Blossom + Captain Blue | LOC_GARDEN | WARM-MED | Nana start_image (Captain Blue text-only) |
+| T13 | 0:32-0:34 | 2s | VERSE_2 | "Nana Blossom Captain Blue" | Nana Blossom + Commander | LOC_GARDEN | WARM-MED | Nana start_image f9e27584 + Commander start_image 0a837a71 |
 | T14 | 0:34-0:36 | 2s | VERSE_2 | "Everybody welcome to the crew!" | Mayor Mary, Ava, Rico, Rena | LOC_COMMUNITY_CENTER | HIGH | Mayor Mary element ID + 3 start_images |
 | T15 | 0:36-0:38 | 2s | FINAL_CHORUS | "Sunny and the Crew!" | Bella (no Commander) | LOC_SUNNY_PORCH | PEAK | Bella start_image |
 | T16 | 0:38-0:40 | 2s | FINAL_CHORUS | "We're coming through!" | Commander (no Bella) | LOC_NEIGHBORHOOD_STREET | HIGH | Commander start_image |
@@ -1028,11 +1028,11 @@ HOLD: This IS the hold — 1 second, title card settled, DONE
 
 ---
 
-## OPEN ITEMS — REQUIRES CREATOR RESPONSE
+## OPEN ITEMS — RESOLVED
 
 | # | Item | Shot | Status |
 |---|------|------|--------|
-| 1 | **"Captain Blue"** — Lyric "Nana Blossom Captain Blue" references a character not in characters.json. Who is Captain Blue? | T13 | ⚠ AWAITING CREATOR |
+| 1 | **"Captain Blue"** — "Nana Blossom Captain Blue" lyric. Creator confirmed: Captain Blue = Commander (Koda's dog). T13 updated. | T13 | ✅ RESOLVED 2026-07-07 |
 
 ---
 

@@ -77,5 +77,25 @@
     "Verify outro ends with Sunny wave goodbye (asset 3d56c3cb or equivalent)",
     "Verify theme song is at the start of ACT 1",
     "Verify episode song covers full duration of ACT 3"
-  ]
+  ],
+
+  "VERIFICATION_PROTOCOL": {
+    "rule": "CHECK BEFORE DECLARING MISSING",
+    "description": "Before flagging any character, location, image, job ID, element ID, or asset as missing, pending, or ungenerated — complete ALL four steps below. Only after zero results across all four steps may you declare something missing.",
+    "steps": [
+      "STEP 1 — Search characters.json and locations.json for the item by ID, name, and all known aliases",
+      "STEP 2 — Search the Google Drive CHARACTERS folder and all subfolders for any document or image file containing the character name",
+      "STEP 3 — Search the Google Drive LOCATIONS folder and all subfolders for any document or image file containing the location name",
+      "STEP 4 — Search all past chat context, reference documents, and JSON files in Drive for job IDs, element IDs, or pose IDs"
+    ],
+    "if_found_in_drive_but_not_repo": "Import into repo immediately and update the relevant JSON file. Do not ask permission. Do not flag as open item. Fix it.",
+    "google_drive_folders": {
+      "CHARACTERS_root": "1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc",
+      "CHARACTERS_main_crew": "1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc",
+      "CHARACTERS_supporting_cast": "1XAEtTqETMbe6N_F4mX8ln0LuDvBBZfUi",
+      "PRODUCTION_root": "10mtwmiNFKY6_VGqM62RTfx8aMN2SjNY2"
+    },
+    "applies_to": "Every task, every session, every time — no exceptions",
+    "self_check": "I will not tell the creator something is missing until I have searched Drive. I will not ask the creator to provide information that is already in Drive."
+  }
 }

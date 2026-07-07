@@ -87,13 +87,17 @@
   },
 
   "open_items": [
-    "Mimi Higgsfield element ID — pending creation",
-    "Nana Blossom Higgsfield element ID — pending creation",
-    "Captain Blue Higgsfield element ID — pending creation (not in EP01 song, but in theme T13)",
-    "Koda Higgsfield element ID — pending creation",
-    "Rena Higgsfield element ID — pending creation",
+    "Mimi Higgsfield element ID — pending creation (use pose_job_id d21cc872 until locked)",
+    "Koda Higgsfield element ID — pending creation (use pose_job_id eb81f712 until locked)",
+    "Rena Higgsfield element ID — pending creation (use pose_job_id 449409c2 until locked)",
     "Video generation for all 28 A Is Amazing shots (animatic_prompt_bible.md A01-A28)",
-    "Video generation for theme song shots (T01-T19, T13 updated with Captain Blue text-only)",
+    "Video generation for theme song shots (T01-T19 — T13 updated: Nana Blossom f9e27584 + Commander 0a837a71)",
     "Assembly in Make.com — do NOT touch WILLO scenarios 5106170 / 5106176 / 5106181 / 5111331"
+  ],
+
+  "resolved_items": [
+    "Captain Blue does not exist — 'Captain Blue' in theme lyric is Commander (Koda's dog). Resolved 2026-07-07.",
+    "Nana Blossom all three pose job IDs confirmed in characters.json — no element ID needed.",
+    "Commander all three pose job IDs confirmed in characters.json."
   ]
 }

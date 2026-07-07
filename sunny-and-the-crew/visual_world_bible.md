@@ -60,7 +60,7 @@ Sunny and the Crew — that's me and you!
 Hey! [ukulele hit]
 ```
 
-> ✅ Captain Blue (Verse 2, line 3) is a confirmed character — see `characters.json`. T13 animatic is unholded; uses text-description-only until his Higgsfield element ID is locked.
+> ✅ "Captain Blue" in the Verse 2 lyric refers to Commander — Koda's dog. Commander is a confirmed character with locked pose job IDs in `characters.json`. Shot T13 uses Commander's pose job ID `0a837a71` alongside Nana Blossom's pose job ID `f9e27584`. No character named Captain Blue exists in this show.
 
 ---
 
