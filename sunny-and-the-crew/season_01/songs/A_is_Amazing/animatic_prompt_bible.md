@@ -1,56 +1,70 @@
-# "A is Amazing" — Lyric-to-Animatic Prompt Bible
-Episode: EP01 "Ask Ask Ask" | Song: A is Amazing | Letter of the Day: A
-Version 1.0 | 2026-07-06
+# "A Is Amazing" — Lyric-to-Animatic Prompt Bible
+Show: Sunny and the Crew | Season 1 | EP01
+Song: A Is Amazing | BPM: 110 | Runtime: 2:20
+Version 2.0 | 2026-07-07
 
-> This is the production-ready shot bible for the "A is Amazing" episode song.
+> This is the production-ready shot bible for the A Is Amazing episode song.
 > All character designs, locations, color values, and style anchors derive from
-> visual_world_bible.md. Read that document before using any prompt here.
-> Every image prompt below is paste-ready for Higgsfield or any equivalent tool.
-> ALWAYS prepend the CHARACTER LOCK HEADER from show_bible.json before any generation prompt.
+> visual_world_bible.md and characters.json. Read those documents before using any prompt here.
+> Every image prompt below is paste-ready for Higgsfield nano_banana_2.
+> ALWAYS prepend the CHARACTER LOCK HEADER embedded in each shot before any generation.
 
 ---
 
-## PRE-FLIGHT CHECK
+## OPEN ITEMS
 
-| Field | Value | Source |
+| Item | Status | Notes |
 |---|---|---|
-| Named characters in lyrics | Sunny (implied host), no others named | INFERRED — Sunny is the host of every song |
-| Supporting ensemble | Leo + Mia appear as co-performers | INFERRED from show bible; no other characters named in lyrics |
-| Core locations implied | Backyard, classroom, neighborhood street | INFERRED from song imagery (apple = kitchen/garden; airplane = sky/outdoors) |
-| Core themes identified | (1) Letter recognition, (2) Word-to-letter joy, (3) Participatory celebration | GIVEN via song lyrics |
-| Emotional arc | Opens as an invitation → builds through apple/airplane discovery → peaks at Final Chorus → lands on celebration and send-off | GIVEN + INFERRED |
-| Estimated total runtime | 74 seconds | ESTIMATED (BPM ~108, bouncy preschool pop) |
-| Platform | YouTube Kids / streaming 16:9 | GIVEN via show bible |
-| Age target | 4–7 years | GIVEN via show bible |
-| Animation style | 3D Pixar/Illumination quality — see Visual World Bible | GIVEN via show bible |
-| Genre energy level | Level 3 — Bouncy (100–120 BPM, snappy cuts on beat, bouncy push-ins) | ESTIMATED |
-| Ambiguities and resolutions | Song doesn't specify location → resolved as Sunny's Backyard (primary) with classroom and sky/outdoors sequences for airplane verse | INFERRED |
-
-**Pre-flight confirmed. Proceeding to full Animatic Prompt Bible.**
+| Sunny element ID | ✅ LOCKED | a40e2d56-573f-4bf2-bdcd-28c64014fdb9 |
+| Leo element ID | ✅ LOCKED | ab579f47-e94f-406e-ae63-dd4fd6dd1b18 |
+| Mia element ID | ✅ LOCKED | 36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590 |
+| Mayor Mary element ID | ✅ LOCKED | 3c1b33d2-ba1b-408c-8d69-b08c656de4bf |
+| Koda element ID | ❌ PENDING | No element ID — use pose job ID eb81f712 as start_image |
+| Mimi element ID | ❌ PENDING | No element ID — use pose job ID d21cc872 as start_image |
+| Nana Blossom element ID | ❌ PENDING | No element ID — use pose job IDs (f9e27584 welcome, 7b2b3970 listening) |
 
 ---
 
-## SHOW TITLE: Sunny and the Crew!
+## SAFETY RULES
 
-*For full Visual World Bible (style, character designs, locations, motifs, transitions):
-see `/sunny-and-the-crew/visual_world_bible.md`*
+> These rules apply to EVERY prompt in this file. Violations trigger content filter rejections.
+
+1. **NO age descriptors** — Never write "6-year-old," "toddler," "young child," age numbers of any kind. BANNED.
+2. **NO word "Pixar"** — Never write "Pixar," "Pixar-style," "Pixar quality." Use "3D animated, cartoon style." BANNED.
+3. **CHARACTER LOCK HEADER required** — Every image prompt must begin with the lock header shown in each shot.
+4. **Element ID syntax** — Element IDs go inline as `<<<UUID>>>` tags. Backend auto-injects the reference image.
+5. **Generation hold** — Do not generate clips for Koda, Mimi, Nana Blossom, Captain Blue until their element IDs are locked. Use text description and start_image only.
+
+---
+
+## CHARACTER ELEMENT ID TABLE
+
+| Character | Element ID | Status | Notes |
+|---|---|---|---|
+| Sunny | `<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>` | ✅ LOCKED | Use in every Sunny prompt |
+| Leo | `<<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>` | ✅ LOCKED | Use in every Leo prompt |
+| Mia | `<<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>` | ✅ LOCKED | Use in every Mia prompt |
+| Mayor Mary | `<<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>` | ✅ LOCKED | Final Chorus only |
+| Koda | TEXT + start_image: eb81f712 | ❌ PENDING | Deep warm brown skin, red shirt, khaki shorts |
+| Mimi | TEXT + start_image: d21cc872 | ❌ PENDING | Medium warm brown skin, mint green onesie, BAREFOOT |
+| Nana Blossom | TEXT + start_image | ❌ PENDING | ALWAYS TALLEST on screen |
 
 ---
 
 ## SONG STRUCTURE AND TIMING
 
-| Section | Start | End | Duration | Lines | Sec/Line | Notes |
-|---|---|---|---|---|---|---|
-| Intro | 0:00 | 0:04 | 4 sec | 2 | 2.0 sec | Energy BUILDS from silence |
-| Verse 1 (Apple) | 0:04 | 0:16 | 12 sec | 4 | 3.0 sec | Energy HOLDS — warm, playful |
-| Chorus 1 | 0:16 | 0:26 | 10 sec | 4 | 2.5 sec | Energy PEAKS — big bounce |
-| Verse 2 (Airplane) | 0:26 | 0:38 | 12 sec | 4 | 3.0 sec | Energy HOLDS — zooming, open |
-| Chorus 2 | 0:38 | 0:48 | 10 sec | 4 | 2.5 sec | Energy PEAKS — repeat with more crowd feeling |
-| Bridge | 0:48 | 0:56 | 8 sec | 4 | 2.0 sec | Energy DROPS slightly — emotional warmth |
-| Final Chorus | 0:56 | 1:06 | 10 sec | 4 | 2.5 sec | Energy MAXIMUM — everything + logo |
-| Outro | 1:06 | 1:14 | 8 sec | 3 | 2.7 sec | Energy RESOLVES — warm send-off |
+| Section | Start | End | Duration | Shot Count | Lyric Lines |
+|---|---|---|---|---|---|
+| Intro | 0:00 | 0:06 | 6s | 1 | "Hey friends..." / "Let's learn..." |
+| Verse 1 — Apple | 0:06 | 0:30 | 24s | 5 | 4 lines (apple) |
+| Chorus 1 | 0:30 | 0:48 | 18s | 4 | 4 lines |
+| Verse 2 — Airplane | 0:48 | 1:12 | 24s | 5 | 4 lines (airplane) |
+| Chorus 2 | 1:12 | 1:30 | 18s | 4 | 4 lines |
+| Bridge | 1:30 | 1:45 | 15s | 3 | 4 lines |
+| Final Chorus | 1:45 | 2:05 | 20s | 4 | 4 lines |
+| Outro | 2:05 | 2:20 | 15s | 2 | 3 lines |
 
-**Total: 74 seconds | 29 shots**
+**Total: 2:20 | 28 shots**
 
 ---
 
@@ -59,759 +73,1489 @@ see `/sunny-and-the-crew/visual_world_bible.md`*
 ---
 
 ══════════════════════════════════════
-SECTION: INTRO | 0:00–0:04 | 4 seconds
-Energy Level: 3 — Bouncy (building from 0)
-Narrative Purpose: Establish Sunny as the invitation-giver; make the viewer feel immediately welcomed into the song world.
-Visual Goal: By the last frame of the intro, the viewer should feel "I am in this — this is for me."
-Shot count: 2
+SECTION: INTRO | 0:00–0:06 | 6 seconds
+Energy Level: 3 — Bouncy (explodes from silence)
+Narrative Purpose: Sunny invites the viewer into the song world. First mention of A.
+Visual Goal: By end of intro, viewer feels "this is for me" and the letter A is on screen.
+Shot count: 1
 ══════════════════════════════════════
 
 ---
 
-**SHOT 01**
-Time Range: 0:00–0:02
-Lyric Line(s): *"Hey friends it's time to play!"*
-Energy Level: 3
-
-**Story Beat:**
-Sunny bursts into the backyard through the wooden gate, which swings dramatically behind her. She is mid-run, arms wide, pigtails flying. Leo and Mia are at the picnic table, and they both spin around at her arrival. The opening note of the song hits exactly as Sunny's feet clear the gate threshold. The viewer's first impression is pure kinetic joy.
-
-**Image Prompt:**
-6-year-old girl Sunny — warm golden-brown skin, bright sunflower-yellow sleeveless dress, two pom-pom pigtails with yellow scrunchies, big brown eyes wide open — bursting through an open wooden backyard gate mid-run, arms thrown wide to both sides, yellow dress mid-swing, pigtails trailing behind her head in motion. Background: Sunny's bright backyard, white wood fence, sunflower garden, picnic table where two children look up in surprise. Warm afternoon sunlight from camera-right. Low-angle medium shot, slightly below Sunny's eye level, camera tilted up 10 degrees. Energy: kinetic joy, arrival, invitation. 3D Pixar-style CGI, vivid warm colors, soft rounded forms.
-
-**Camera and Motion Notes:**
-Start: low-angle medium shot at gate level, gate filling left half of frame. Camera begins a quick push-in toward Sunny as she enters. Ending frame: Sunny in center frame, arms out, gate swinging behind her. Cut lands on the first beat of the melody at 0:02. This shot syncs to the opening melody hit — the cut IS the downbeat.
-
-**Transition to Next Shot:**
-TYPE A — Bounce Wipe. Sunny's silhouette fills frame as she runs forward — cut lands on her close-up in Shot 02.
-
-**Style Consistency Tags:**
-`loc-backyard` `char-sunny-yellow-dress` `energy-level-3` `time-afternoon` `section-intro` `3d-pixar-style` `entrance-shot`
-
----
-
-**SHOT 02**
-Time Range: 0:02–0:04
-Lyric Line(s): *"Let's learn our A words today!"*
-Energy Level: 3
-
-**Story Beat:**
-Close-up on Sunny's face. She is directly addressing the camera — leaning slightly forward with wide brown eyes, one eyebrow raised higher than the other, a grin that takes up her whole face. Her body bounces lightly on the downbeat. The Letter of the Day Badge (cream rectangle, coral border, bold "A") pops into the upper-right corner of frame and bounces once to settle. This is Sunny speaking directly to the child at home — the viewer is her friend.
-
-**Image Prompt:**
-6-year-old girl Sunny — warm golden-brown skin, bright sunflower-yellow dress, two pom-pom pigtails with yellow scrunchies, big curious brown eyes — in close-up, leaning slightly toward camera, one eyebrow raised higher, wide grin showing genuine excitement, body mid-bounce. In the upper-right corner of frame: a rounded cream rectangle badge with a bold coral-bordered letter A, slightly tilted as it arrives. Background: soft warm yellow gradient (Camera Direct Address zone). Camera: tight close-up on Sunny's face and upper chest. Mood: direct, warm, joyful invitation. 3D Pixar-style CGI, vivid palette.
-
-**Camera and Motion Notes:**
-Static frame — close-up with no camera movement. Sunny bounces in-place with the rhythm. The Letter A badge pops in at 0:03 on a downbeat — it rotates once clockwise and settles. Cut at 0:04 on the word "today!" — cut syncs to the final syllable landing.
-
-**Transition to Next Shot:**
-TYPE C — Star Burst. White flash from center frame transitions into Verse 1 wide shot.
-
-**Style Consistency Tags:**
-`loc-direct-address` `char-sunny-close-up` `energy-level-3` `section-intro` `letter-badge-A` `viewer-address` `3d-pixar-style`
-
----
-
-══════════════════════════════════════
-SECTION: VERSE 1 — Apple | 0:04–0:16 | 12 seconds
+**SHOT A01**
+Time Range: 0:00–0:06
+Lyric Cue: *"Hey friends it's time to play! / Let's learn our A words today!"*
 Energy Level: 3 — Bouncy
-Narrative Purpose: Introduce "apple" as the first A-word with sensory richness and physical engagement.
-Visual Goal: By the last frame, the viewer has seen, heard, and physically felt "apple" — the word is lodged in memory through joy.
-Shot count: 4
+Beat-Sync: "Hey!" lands on the first melody hit at 0:00. Letter A badge pops on "A words" at 0:04.
+
+**Story Beat:**
+Sunny bursts into frame on the opening note — arms wide, bouncing, beaming directly at the camera.
+She is the invitation. Leo and Mia are visible celebrating behind her. The Letter of the Day badge
+(cream rectangle, coral border, bold letter A) pops into the upper-right corner at 0:04 and bounces
+once to settle. This shot must feel like a door opening.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A01
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> bursting toward camera, arms flung wide, mid-bounce,
+beaming with pure joy, pigtails mid-swing, yellow t-shirt with white cloud emblem, orange shorts,
+yellow-and-white sneakers. She faces directly into the camera — this is an invitation.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> in background left, jumping with fist raised, red
+t-shirt with white rocket, navy cargo shorts, round glasses flying. Mia
+<<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> in background right, clapping overhead, teal star shirt,
+grey polka-dot skirt over white leggings, teal crossbody bag bouncing.
+In upper-right corner: rounded cream badge with bold coral letter A, tilted mid-arrival, just landing.
+Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
+Camera: medium shot, camera at Sunny's eye level, slight push-in.
+3D animated, cartoon style. Vivid warm palette. Energy: pure kinetic invitation.
+```
+
+**Camera and Motion Notes:**
+Start: medium shot at Sunny's eye level, slight camera push-in over 6 seconds. Letter A badge pops
+at 0:04 on the "A words" lyric — bounces once clockwise and settles. Sunny bounces in-place twice
+on the two "Hey friends" and "play" downbeats. Cut at 0:06 on "today!" — hard cut into verse energy.
+
+**Transition to Next Shot:**
+TYPE C — Star Burst. White flash from center frame, expands, reveals Verse 1 wide shot.
+
+**Style Tags:**
+`loc-direct-address` `char-sunny-leo-mia` `section-intro` `letter-badge-A` `energy-3` `viewer-address`
+
+---
+
+══════════════════════════════════════
+SECTION: VERSE 1 — Apple | 0:06–0:30 | 24 seconds
+Energy Level: 3 — Bouncy
+Narrative Purpose: Introduce "apple" with sensory richness — seeing, naming, tasting, sharing.
+Visual Goal: By the last frame of Verse 1, "apple" is lodged in memory through joy and body memory.
+Shot count: 5
 ══════════════════════════════════════
 
 ---
 
-**SHOT 03**
-Time Range: 0:04–0:07
-Lyric Line(s): *"Apple apple big and red"*
+**SHOT A02**
+Time Range: 0:06–0:12
+Lyric Cue: *"Apple apple big and red"*
 Energy Level: 3
+Beat-Sync: Chalk word APPLE floats in on the first "apple" at 0:06. Scale bounce on second "apple" at 0:08.
 
 **Story Beat:**
-Wide shot of the backyard. Sunny stands at the picnic table, holding a large, oversized bright red apple in both hands above her head — triumphant, like a sports trophy. Leo and Mia stand on either side of her, arms raised. The Chalk Word "APPLE" floats in beside the apple in coral-colored wobbly letters. The word "apple" is sung twice — the camera bounces slightly twice in sync, once per word.
+Wide shot of Sunny's backyard. Sunny stands at the picnic table holding a large, shiny, oversized red
+apple in both hands above her head like a sports trophy. Leo and Mia flank her, arms raised in
+celebration. The chalk word APPLE floats in beside the apple in coral wobbly letters.
 
 **Image Prompt:**
-6-year-old girl Sunny — warm golden-brown skin, sunflower-yellow dress, pom-pom pigtails — holding a large shiny bright red apple above her head in both hands, triumphant pose, wide grin. To her left: 7-year-old Leo — light tan skin, spiky dark hair, royal blue hoodie with lightning bolt patch, round silver glasses — arms raised, excited. To her right: 5-year-old Mia — deep brown skin, natural afro puffs with pink hair ties, pink overalls with daisy patch — jumping slightly, eyes huge. Background: Sunny's bright backyard, white fence, sunflower garden, warm afternoon light. Floating near the apple: coral-colored chalk-style text reading "APPLE." Wide medium shot, slightly low angle. 3D Pixar-style CGI, vivid warm palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A02
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> holding a large shiny bright red apple in both hands
+overhead, triumphant pose, full grin, yellow t-shirt with cloud emblem, orange shorts.
+To her left: Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> with both arms raised celebrating, red
+t-shirt with white rocket graphic, dark navy cargo shorts, round glasses.
+To her right: Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> jumping slightly with huge eyes, teal
+long-sleeve star shirt, grey polka-dot skirt, white leggings, teal crossbody bag swinging.
+Floating near the apple: coral chalk-style wobbly text "APPLE."
+Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
+Camera: wide medium shot, slightly low angle, slow push-in.
+3D animated, cartoon style. Vivid warm palette.
+```
 
 **Camera and Motion Notes:**
-Start: wide medium shot, all three characters visible. On first "apple" at 0:05: 2-frame scale bounce (105%→100%). On second "apple" at 0:06: another bounce. Camera very slightly pushes in over the 3-second hold. Chalk Word "APPLE" floats in at 0:05 on the first lyric landing. Cut at 0:07 on the downbeat of "big."
+Start: wide medium shot, slightly low angle. On first "apple" at 0:06: chalk APPLE floats in from left.
+On second "apple" at 0:08: 2-frame scale bounce (105%→100%). Camera slow push-in over 6 seconds.
+Cut at 0:12 on the downbeat of "red."
 
 **Transition to Next Shot:**
 Straight cut — energy match.
 
-**Style Consistency Tags:**
-`loc-backyard` `char-ensemble-three` `energy-level-3` `time-afternoon` `section-verse-1` `prop-apple` `chalk-word-apple` `3d-pixar-style`
+**Style Tags:**
+`loc-backyard` `char-sunny-leo-mia` `section-verse-1` `prop-apple` `chalk-word-apple` `energy-3`
 
 ---
 
-**SHOT 04**
-Time Range: 0:07–0:10
-Lyric Line(s): *"Apple apple overhead"*
+**SHOT A03**
+Time Range: 0:12–0:18
+Lyric Cue: *"Apple apple overhead"*
 Energy Level: 3
+Beat-Sync: Camera tilts upward on "overhead." Apple reaches frame peak on the lyric landing.
 
 **Story Beat:**
-The oversized red apple is now being tossed gently into the air — Sunny tosses it and Mia reaches up to catch it, barely managing, giggling. The apple catches the warm afternoon light. Both children look UP, following the apple's arc. Musical note trails drift upward from the characters as they sing. The word "overhead" lands as the apple reaches the peak of its arc, hanging in the frame for one pure moment.
+The oversized apple is tossed gently upward — Sunny tosses, Mia reaches up to catch it with both arms
+stretched overhead. Both look up following the arc. Musical note trails drift upward from the characters.
+The word "overhead" lands as the apple reaches peak arc — hanging for one clean beat against blue sky.
 
 **Image Prompt:**
-5-year-old Mia — deep brown skin, natural afro puffs with pink hair ties, pink overalls with daisy patch — reaching both arms up overhead, eyes wide and bright, mouth open in a delighted laugh, fingers stretching toward a large bright red apple at peak arc above her. To Mia's left: Sunny — warm golden-brown skin, yellow dress, pigtails — mid-toss pose, weight shifted, grin huge. Background: Sunny's backyard, white fence, blue sky above the fence line visible as the camera tilts slightly upward to follow the apple. Floating: translucent musical notes drifting upward in show palette colors. Medium shot, slight upward tilt, bright warm afternoon light. 3D Pixar-style CGI, vivid palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A03
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> center frame, both arms stretched overhead, mouth
+open in delight, fingers reaching toward a large shiny red apple at peak arc above her. Teal star shirt,
+grey polka-dot skirt, white leggings. Teal crossbody bag swinging from the motion.
+To Mia's left: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> in mid-toss follow-through pose,
+weight shifted forward, pigtails catching the motion, orange shorts, yellow cloud-emblem shirt.
+Background: LOC_BACKYARD — white fence, and above it: blue sky with white clouds as camera tilts up.
+Floating upward: soft translucent musical notes in show palette colors.
+Camera: medium shot, slow upward tilt 10 degrees to follow the apple arc.
+3D animated, cartoon style. Vivid palette, warm afternoon light.
+```
 
 **Camera and Motion Notes:**
-Start: medium shot at character level. Camera tilts upward 10 degrees over the shot duration to follow the apple arc. On "overhead" at 0:09: cut syncs to the apple reaching its visual peak — frame holds for one beat on the apple against the blue sky before cutting. Musical note trail begins at 0:08 and drifts upward through the cut.
+Start: medium shot at character level. Camera tilts upward 10 degrees over the 6-second shot to follow
+the apple arc. Musical note trail begins at 0:14 and drifts upward. On "overhead" at 0:16: the apple
+reaches its visual peak — frame holds one beat with apple against blue sky. Cut at 0:18.
 
 **Transition to Next Shot:**
 Straight cut — crunch sound effect bridges.
 
-**Style Consistency Tags:**
-`loc-backyard` `char-mia-sunny` `energy-level-3` `time-afternoon` `section-verse-1` `prop-apple-toss` `musical-note-trail` `3d-pixar-style`
+**Style Tags:**
+`loc-backyard-sky` `char-sunny-mia` `section-verse-1` `prop-apple-toss` `musical-note-trail` `energy-3`
 
 ---
 
-**SHOT 05**
-Time Range: 0:10–0:13
-Lyric Line(s): *"Crunch it up from core to top"*
+**SHOT A04**
+Time Range: 0:18–0:23
+Lyric Cue: *"Crunch it up from core to top"*
 Energy Level: 3
+Beat-Sync: Crunch sound effect hits exactly on the word "crunch" at 0:18. Bounce on "top" at 0:22.
 
 **Story Beat:**
-All three characters mime biting into an apple with maximum dramatic commitment — heads dipping, shoulders popping, big exaggerated open-mouth crunch faces. The crunch sound effect hits on beat. This is the most physically fun moment in Verse 1 — the viewer is meant to crunch along at home. Sunny looks directly at camera between bites with a "you try it" expression. The Bounce Underscore effect plays on the word "crunch."
+All three mime biting into an apple with maximum commitment — heads dipping, shoulders popping, enormous
+exaggerated crunch faces. Sunny looks directly at the camera mid-crunch with a "you try it" expression.
+This is the viewer-participation moment of the verse. The child at home is expected to crunch along.
 
 **Image Prompt:**
-6-year-old girl Sunny — warm golden-brown skin, yellow dress, pom-pom pigtails — facing camera directly with an enormous exaggerated open-mouth crunch expression, both hands holding an imaginary apple, head dipped forward, shoulders popping upward in crunch motion. 7-year-old Leo to her left — light tan skin, blue hoodie, glasses — mid-crunch, glasses askew from the motion, delighted. 5-year-old Mia to her right — deep brown skin, afro puffs, pink overalls — in the most dramatic crunch pose of all, whole body engaged, eyes squinted closed with the effort. Background: Sunny's backyard, picnic table behind them. Close-medium shot, all three characters from chest up. Bright afternoon light. 3D Pixar-style CGI, vivid palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A04
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center, facing camera directly mid-crunch, open-mouth
+expression, both hands holding an imaginary apple, head dipped forward, shoulders popping up. Yellow
+cloud-emblem shirt, orange shorts. Half-turning toward camera with a "your turn" expression.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> to Sunny's left — mid-crunch, round glasses askew
+from the motion, red rocket shirt mid-bounce, delighted grin visible past the crunch.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> to Sunny's right — most dramatic crunch of all,
+whole body engaged, eyes squeezed shut with the effort, teal star shirt, grey polka-dot skirt.
+Background: LOC_BACKYARD — red picnic table behind them, sunflower garden. Warm afternoon light.
+Camera: close-medium shot, all three from chest up, static.
+3D animated, cartoon style. Vivid palette. Energy: pure participatory joy.
+```
 
 **Camera and Motion Notes:**
-Start: close-medium shot, all three characters chest-up. On "crunch" at 0:10: 2-frame scale bounce (107%→100%) — the biggest bounce in the verse. Camera holds static for this shot so the characters' movement is the only kinetic element. Sunny briefly turns to camera between line one and line two (a half-second look at 0:11) — this is the call-to-participation moment. Cut at 0:13 on the word "top."
+Start: close-medium shot, all three chest-up. On "crunch" at 0:18: 2-frame scale bounce (107%→100%) —
+biggest bounce of the verse. Camera holds completely static so character movement is the kinetic force.
+Sunny briefly breaks to face camera at 0:20 — half-second direct look, the call-to-participate beat.
+Cut at 0:23 on "top."
 
 **Transition to Next Shot:**
 Straight cut — energy match, crunch echo carries.
 
-**Style Consistency Tags:**
-`loc-backyard` `char-ensemble-three` `energy-level-3` `time-afternoon` `section-verse-1` `action-crunch` `viewer-participation` `3d-pixar-style`
+**Style Tags:**
+`loc-backyard` `char-sunny-leo-mia` `section-verse-1` `action-crunch` `viewer-participation` `energy-3`
 
 ---
 
-**SHOT 06**
-Time Range: 0:13–0:16
-Lyric Line(s): *"An apple snack that just won't stop!"*
+**SHOT A05**
+Time Range: 0:23–0:27
+Lyric Cue: *"An apple snack that just won't stop!"*
 Energy Level: 3
+Beat-Sync: Cut syncs to Leo catching the apple on "stop!" at 0:26.
 
 **Story Beat:**
-Pull back to a wide shot. All three characters are laughing and staggering as they mime eating more and more apples — it's a joyful absurdist moment. The oversized apple rolls across the picnic table and off the edge, and Leo dives to catch it (and does). The whole shot has the energy of a commercial that sells joy rather than a product. The Verse 1 excitement peaks here just before the Chorus drop.
+Wide comedic shot — all three characters laughing and miming eating more and more apples in joyful
+absurdity. The oversized apple rolls across the picnic table and off the edge. Leo dives sideways to
+catch it. The whole shot has the energy of pure infectious delight. This is the pre-chorus peak of Verse 1.
 
 **Image Prompt:**
-Wide shot: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails — laughing with both arms wrapped around her belly, leaning back with happy exhaustion. 7-year-old Leo — light tan skin, blue hoodie, glasses — dramatically diving sideways to catch a large red apple rolling off a wooden picnic table, arms outstretched, glasses flying. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — mid-crunch on an imaginary apple, one leg kicked up behind her with the effort. Background: Sunny's bright backyard, full sunflower garden, white fence, warm afternoon light. Wide shot, slight Dutch tilt (5 degrees) for the playful absurdity. 3D Pixar-style CGI, vivid palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A05
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Wide shot: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center, laughing with both arms wrapped
+around her belly, leaning back in happy exhaustion, yellow cloud shirt, orange shorts.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> diving sideways to catch a large red apple rolling off
+the wooden picnic table, arms outstretched, round glasses slightly airborne from the dive, red rocket
+shirt, navy cargo shorts, one sneaker off the ground.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> mid-crunch on an imaginary apple, one leg kicked up
+behind her with the effort, teal star shirt, grey polka-dot skirt mid-flare, white leggings.
+Background: LOC_BACKYARD — full sunflower garden, white fence, warm afternoon light.
+Camera: wide shot, slight Dutch tilt (5 degrees) for the playful absurdity.
+3D animated, cartoon style. Vivid palette. Maximum joyful chaos energy.
+```
 
 **Camera and Motion Notes:**
-Start: wide shot, slight Dutch tilt (5 degrees camera-right). Camera holds static — the characters fill the frame with motion. On "stop!" at 0:15: cut syncs to Leo catching the apple — a satisfying visual payoff. This is the last frame before the Chorus drop at 0:16 — the energy in this shot must feel like a held breath before a big exhale.
+Start: wide shot, slight Dutch tilt camera-right. Camera holds static — characters fill the frame with
+chaos. On "stop!" at 0:26: cut syncs to Leo's catch — a satisfying visual payoff. This is the last
+held beat before the Chorus drop at 0:30.
 
 **Transition to Next Shot:**
 TYPE C — Star Burst. White flash on "stop!" expands outward, revealing the Chorus wide shot.
 
-**Style Consistency Tags:**
-`loc-backyard` `char-ensemble-three` `energy-level-3` `time-afternoon` `section-verse-1` `action-absurdist-comedy` `pre-chorus-peak` `3d-pixar-style`
+**Style Tags:**
+`loc-backyard` `char-sunny-leo-mia` `section-verse-1` `action-absurdist-comedy` `pre-chorus-peak` `energy-3`
+
+---
+
+**SHOT A06**
+Time Range: 0:27–0:30
+Lyric Cue: *(music only — instrumental fill into Chorus)*
+Energy Level: 3 (building to 3+)
+Beat-Sync: No lyric; this shot breathes before the chorus drop.
+
+**Story Beat:**
+Energy crest — Sunny looks directly at the camera with the biggest grin, takes a breath, and opens her
+arms wide. Leo holds the recovered apple up like a trophy. Mia is mid-spin, arms out. Three beats of
+held anticipation before the chorus explodes.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A06
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Close-medium shot: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center, arms spread wide, face tilted
+slightly up, grin at maximum, taking a visible breath — body language is pure anticipation. Yellow
+cloud-emblem shirt, orange shorts, pigtails catching light.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> to Sunny's left, holding the recovered red apple high
+in one hand like a trophy, triumphant grin, round glasses, red rocket shirt.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> to Sunny's right, mid-spin, arms spread, teal star shirt,
+grey polka-dot skirt mid-flare, white leggings, crossbody bag swinging.
+Background: LOC_BACKYARD — vivid saturated backyard behind them.
+Camera: close-medium, push-in accelerating slightly — building energy.
+3D animated, cartoon style. Maximum vibrancy.
+```
+
+**Camera and Motion Notes:**
+Start: close-medium shot. Camera push-in accelerates over 3 seconds — building energy toward the chorus.
+This shot is pure held breath. Cut at 0:30 hard on the first chorus downbeat.
+
+**Transition to Next Shot:**
+TYPE A — Bounce Wipe. Sunny's spread arms fill frame, cut explodes into Chorus hero shot.
+
+**Style Tags:**
+`loc-backyard` `char-sunny-leo-mia` `section-verse-1-crest` `anticipation` `energy-3-building`
 
 ---
 
 ══════════════════════════════════════
-SECTION: CHORUS 1 | 0:16–0:26 | 10 seconds
-Energy Level: 3 — Bouncy (maximum energy for this section)
-Narrative Purpose: Reinforce the letter A with pure celebration — this is the emotional peak of the first half.
-Visual Goal: The viewer should feel like they are IN the celebration, not watching it. Every shot invites movement and vocal participation.
+SECTION: CHORUS 1 | 0:30–0:48 | 18 seconds
+Energy Level: 3+ — Maximum for first half
+Narrative Purpose: Celebrate the letter A. First chorus is the emotional peak of the first half.
+Visual Goal: Viewer feels IN the celebration, not watching it. Call-and-response required.
+BEAT-SYNC REQUIREMENT (MANDATORY): Cut lands on A A A chant. Zoom completes on "amazing." Jump syncs to hand clap.
 Shot count: 4
 ══════════════════════════════════════
 
 ---
 
-**SHOT 07**
-Time Range: 0:16–0:18
-Lyric Line(s): *"A is amazing A is the best"*
-Energy Level: 3
+**SHOT A07**
+Time Range: 0:30–0:36
+Lyric Cue: *"A is amazing A is the best"*
+Energy Level: 3+
+Beat-Sync: ZOOM COMPLETES ON "AMAZING" AT 0:31. Scale bounce on both "A" appearances. Letter A badge bounces on "amazing" and "best."
 
 **Story Beat:**
-Hero wide shot — all three characters in Sunny's Backyard, arms spread wide, faces lit with peak joy. The letter A badge from the intro reappears, now large and centered in the upper frame, bouncing with each syllable. Musical note trails fill the space above the characters. This is the chorus reveal — the camera angle is low and wide to make the characters feel large and triumphant.
+Hero wide low-angle shot — all three characters in Sunny's backyard, arms spread fully wide, faces at
+peak joy. The Letter A badge reappears large in the upper frame, bouncing with each syllable. Musical
+note trails fill the space above them. The camera's low angle makes the characters feel huge and triumphant.
 
 **Image Prompt:**
-Hero wide low-angle shot: 6-year-old Sunny — warm golden-brown skin, yellow dress, pom-pom pigtails — center frame, both arms spread fully wide, face tilted slightly up, huge open grin, pure joy. 7-year-old Leo — light tan skin, blue hoodie with lightning bolt patch, round silver glasses — to Sunny's left, arms wide, jumping slightly. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — to Sunny's right, both arms above her head, feet leaving the ground in mid-jump. Background: Sunny's backyard, white fence, sunflower garden, blue sky with white clouds. Floating above them: large cream badge with bold coral letter A, bouncing. Translucent musical notes fill upper frame. Warm afternoon sun backlighting all three. Low-angle wide, camera at knee height. 3D Pixar-style CGI, vivid maximum saturation.
+```
+CHARACTER LOCK — A_IS_AMAZING A07
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Hero wide low-angle shot: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center frame, both arms spread
+fully wide, face tilted slightly upward, huge open grin, pure joy. Yellow cloud shirt, orange shorts,
+yellow-and-white sneakers.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> to Sunny's left, arms wide, jumping slightly, round glasses
+catching light, red rocket shirt, navy cargo shorts.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> to Sunny's right, both arms raised above head, feet leaving
+ground in mid-jump, teal star shirt, grey polka-dot skirt mid-flare, white leggings, teal bag swinging.
+Floating above them: large cream badge with bold coral letter A, bouncing. Translucent musical notes fill
+upper frame. Warm afternoon sun backlighting all three.
+Background: LOC_BACKYARD — white fence, sunflower garden, blue sky with white clouds.
+Camera: low-angle wide, camera at knee height, slow push-in beginning.
+3D animated, cartoon style. Maximum vivid saturation.
+```
 
 **Camera and Motion Notes:**
-Start: low-angle wide, camera at knee height — characters appear large and triumphant. On the first "A" at 0:16: full Bounce Underscore (107%→100%) — biggest bounce in the song so far. Camera begins a slow push-in from wide to medium over 2 seconds. Letter A badge bounces twice — once on "amazing" and once on "best." Cut at 0:18 on "best."
+Start: low-angle wide at knee height. Camera begins slow push-in. On first "A" at 0:30: full scale
+bounce (107%→100%). ZOOM COMPLETES ON "AMAZING" AT 0:31 — the push-in reaches medium-wide exactly on
+"amazing" and holds. Letter A badge bounces on "amazing" (0:31) and "best" (0:33). Cut at 0:36.
 
 **Transition to Next Shot:**
 Straight cut — momentum match.
 
-**Style Consistency Tags:**
-`loc-backyard` `char-ensemble-three` `energy-level-3` `time-afternoon` `section-chorus-1` `hero-wide-shot` `letter-badge-A` `3d-pixar-style`
+**Style Tags:**
+`loc-backyard` `char-sunny-leo-mia` `section-chorus-1` `hero-wide-low` `letter-badge-A` `beat-sync-zoom-on-amazing` `energy-3-max`
 
 ---
 
-**SHOT 08**
-Time Range: 0:18–0:21
-Lyric Line(s): *"A is the letter we love the most"*
+**SHOT A08**
+Time Range: 0:36–0:40
+Lyric Cue: *"A is the letter we love the most"*
 Energy Level: 3
+Beat-Sync: Sunny's hands open toward camera on "love" at 0:37. Chalk letter A floats in on "letter" at 0:36.
 
 **Story Beat:**
-Medium shot on Sunny alone. She places both hands over her heart in a genuine gesture of affection, then opens them outward toward the camera — as if offering the love to the viewer. Her expression shifts from peak excitement to something warmer: this is the emotional core of the chorus. Musical note trails drift from her heart outward. The Chalk Word "A" floats near her, large and wobbly.
+Medium shot on Sunny alone. She places both hands over her heart in a genuine gesture of affection,
+then opens them toward the camera — offering the feeling to the viewer. Expression shifts from peak
+excitement to something warmer. This is the emotional core of the chorus — love, not hype.
 
 **Image Prompt:**
-Medium shot on 6-year-old Sunny — warm golden-brown skin, sunflower-yellow dress, two pom-pom pigtails with yellow scrunchies — both hands placed flat over her heart, eyes soft and warm, smile wide but not frantic — this is love, not hype. Her hands begin to open outward toward camera as if offering the feeling to the viewer. Background: warm golden gradient (Camera Direct Address zone blended into backyard). Floating near her: a large chalk-style letter A in coral, slightly wobbly. Translucent musical notes drift outward from her heart position. Medium shot, camera at Sunny's eye level. 3D Pixar-style CGI, vivid palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A08
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Medium shot on Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> alone, both hands placed flat over her
+heart, eyes soft and warm, smile wide but not frantic — this is love, not hype. Yellow cloud-emblem shirt,
+orange shorts. Her hands begin to open outward toward camera as if offering the feeling to the viewer.
+Floating near her: large chalk-style letter A in coral, slightly wobbly.
+Translucent musical notes drift outward from her heart position.
+Background: warm golden gradient blending from LOC_DIRECT_ADDRESS — camera is at Sunny's eye level.
+Camera: medium shot, completely static — stillness amid bouncy energy.
+3D animated, cartoon style. Warm vivid palette.
+```
 
 **Camera and Motion Notes:**
-Start: medium shot, camera at Sunny's eye level. No camera movement — this shot is about stillness and warmth amid the bouncy energy. On "love" at 0:19: Sunny's hands open toward camera — this is the viewer-connection beat. The chalk "A" floats in at 0:19 on the lyric landing for "letter." Cut at 0:21 on "most."
+Start: medium shot at Sunny's eye level. No camera movement — this shot is about stillness. On "love"
+at 0:37: Sunny's hands open toward camera. Chalk A floats in at 0:36 on "letter." Cut at 0:40 on "most."
 
 **Transition to Next Shot:**
-Straight cut — Sunny's hand gesture carries into the next group shot.
+Straight cut — hand gesture energy carries into group shot.
 
-**Style Consistency Tags:**
-`loc-direct-address` `char-sunny-close-medium` `energy-level-3` `time-afternoon` `section-chorus-1` `emotional-warmth-beat` `chalk-word-A` `3d-pixar-style`
+**Style Tags:**
+`loc-direct-address` `char-sunny-solo` `section-chorus-1` `emotional-warmth` `chalk-A` `energy-3`
 
 ---
 
-**SHOT 09**
-Time Range: 0:21–0:23
-Lyric Line(s): *"Sing it with me — A A A!"*
-Energy Level: 3
+**SHOT A09**
+Time Range: 0:40–0:44
+Lyric Cue: *"Sing it with me — A A A!"*
+Energy Level: 3+
+Beat-Sync: CUT LANDS ON FIRST "A" AT 0:40. CHARACTER JUMPS SYNC TO HAND CLAP ON EACH A (0:40, 0:41, 0:42). Three chalk A's pop one per beat.
 
 **Story Beat:**
-All three characters face the camera together in a tight medium shot, leaning slightly forward as if urging the viewer to sing. Each "A" is a separate physical pop — a forward lean, a clap, a jump — one beat per letter. This is the call-and-response beat of the chorus. The three "A A A" letters appear in chalk style at the top of frame, popping in one at a time on each beat: A — A — A.
+All three face the camera in tight medium shot, leaning forward, urging the viewer to sing. Each "A"
+is a separate physical pop — forward lean, a clap, a jump — one beat per letter. This is the
+call-and-response beat of the chorus. Three chalk A's appear one at a time on each beat.
 
 **Image Prompt:**
-Medium shot: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails — center, leaning forward toward camera, mouth open mid-"A!", hands clapping in front of her chest. 7-year-old Leo — light tan, blue hoodie, glasses — to Sunny's left, both fists raised in the air on "A!", glasses slightly askew. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — to Sunny's right, mouth open on "A!", jumping, one foot off ground. All three look directly at camera. Background: simple warm yellow gradient. At the top of frame: three chalk-style coral-colored letter A's, appearing one at a time. Medium shot, camera at their collective eye level. 3D Pixar-style CGI, vivid palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A09
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Medium shot, all three facing camera directly:
+Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center, leaning forward toward camera, mouth open
+mid-"A!", hands clapping in front of her chest, yellow cloud shirt, orange shorts.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> to Sunny's left, both fists raised in the air on "A!",
+round glasses slightly askew, red rocket shirt, navy cargo shorts.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> to Sunny's right, mouth open on "A!", jumping, one foot
+off ground, teal star shirt, grey polka-dot skirt mid-flare, white leggings.
+All three looking directly at camera. Backgrounds: warm yellow gradient LOC_DIRECT_ADDRESS.
+Top of frame: three coral chalk-style letter A's — appearing one at a time, left to right.
+Camera: medium shot at their collective eye level, static.
+3D animated, cartoon style. Vivid palette. Maximum participatory energy.
+```
 
 **Camera and Motion Notes:**
-Start: medium shot, camera at their eye level. On first "A" at 0:21: first chalk A pops in upper-left, characters make first physical pop. On second "A" at 0:22: second chalk A pops in upper-center. On third "A" at 0:22.5: third chalk A pops upper-right — all three A's now visible. Cut at 0:23 — all three A's hold as the cut happens, carrying visually into Shot 10.
+Start: medium shot, camera at their eye level. Camera static. First "A" at 0:40: first chalk A pops
+upper-left, characters make first physical forward-lean-and-clap (CUT LANDS HERE). Second "A" at 0:41:
+chalk A pops upper-center, second clap-and-jump. Third "A" at 0:42: chalk A pops upper-right — all
+three A's now visible. Cut at 0:44 with all three A's visible in frame.
 
 **Transition to Next Shot:**
-Straight cut — three A's visible in both frames for visual continuity.
+Straight cut — three A's visible in both frames for continuity.
 
-**Style Consistency Tags:**
-`loc-direct-address` `char-ensemble-three-facing-camera` `energy-level-3` `section-chorus-1` `call-and-response` `chalk-word-A-triple` `3d-pixar-style`
+**Style Tags:**
+`loc-direct-address` `char-sunny-leo-mia` `section-chorus-1` `call-and-response` `chalk-A-triple` `beat-sync-cut-on-A-jump-on-clap` `energy-3-max`
 
 ---
 
-**SHOT 10**
-Time Range: 0:23–0:26
-Lyric Line(s): *"A words are awesome every day!"*
-Energy Level: 3
+**SHOT A10**
+Time Range: 0:44–0:48
+Lyric Cue: *"A words are awesome every day!"*
+Energy Level: 3+
+Beat-Sync: Bounce Underscore fires on "awesome" at 0:44. Sparkle Trail at 0:45. Cut at 0:48 hard.
 
 **Story Beat:**
-Wide jubilant shot — the Bounce Underscore fires on "awesome." The three characters are in full celebration: arms overhead, jumping, spinning. The backyard feels like a party. This is the last shot before the energy "settles" into Verse 2 — so it needs to be the highest-energy moment in the first half. A Sparkle Trail connects all three characters. The word "AWESOME" appears in chalk style — big, bouncy, and golden.
+Wide jubilant shot — all three in full celebration: arms overhead, jumping, spinning. Backyard feels
+like a party. The chalk word "AWESOME" appears in golden chalk letters. Cyan sparkle trail connects all
+three characters. This is the highest-energy shot of the first half.
 
 **Image Prompt:**
-Wide shot: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails mid-swing — center frame in full jump, both arms thrown overhead, feet off the ground, head tilted back in a laugh. 7-year-old Leo — light tan, blue hoodie with lightning bolt patch, glasses — to her left, spinning with arms wide, notebook falling from his pocket (will catch it later). 5-year-old Mia — deep brown skin, afro puffs, pink overalls — to Sunny's right, clapping above her head, one foot kicked behind her with joy. Background: Sunny's backyard full detail — sunflower garden, white fence, blue sky. A soft cyan sparkle trail connects all three. Chalk-style golden word "AWESOME" floats in upper frame. Wide shot, camera at mid-torso height, slight push-in. 3D Pixar-style CGI, maximum vivid palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A10
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Wide shot: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center, full jump, arms thrown overhead,
+feet off ground, head tilted back, mouth open in a laugh, yellow cloud shirt, orange shorts, pigtails
+mid-swing.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> to her left, one arm stretched toward sky, red rocket
+shirt, navy cargo shorts, glasses catching light.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> to Sunny's right, clapping above her head, one foot
+kicked behind her with joy, teal star shirt, grey polka-dot skirt airborne, white leggings.
+Floating above: chalk-style golden word "AWESOME." Soft cyan sparkle trail connecting all three.
+Background: LOC_BACKYARD — sunflower garden, white fence, blue sky.
+Camera: wide shot, mid-torso height, slight push-in.
+3D animated, cartoon style. Absolute maximum vivid saturation.
+```
 
 **Camera and Motion Notes:**
-Start: wide shot, camera mid-torso height. On "awesome" at 0:24: Bounce Underscore (107%→100%) — maximum amplitude bounce in the first half. Camera pushes in from wide to medium over 3 seconds. Sparkle Trail plays at 0:24 connecting all three characters. Chalk word "AWESOME" floats in on "awesome" lyric landing. Cut at 0:26 — hard cut to calm of Verse 2, creating a satisfying contrast.
+Start: wide shot, mid-torso height. On "awesome" at 0:44: Bounce Underscore (107%→100%) — maximum
+amplitude bounce. Sparkle trail plays at 0:45 connecting all three. Chalk "AWESOME" floats in at 0:44.
+Cut at 0:48 hard — into Verse 2.
 
 **Transition to Next Shot:**
-TYPE A — Bounce Wipe. Sunny's jump peaks, silhouette fills frame, cut reveals Verse 2 opening.
+TYPE A — Bounce Wipe. Sunny's jump peak, silhouette fills frame, cut reveals Verse 2.
 
-**Style Consistency Tags:**
-`loc-backyard` `char-ensemble-three` `energy-level-3` `time-afternoon` `section-chorus-1` `celebration-peak` `sparkle-trail` `chalk-word-awesome` `3d-pixar-style`
+**Style Tags:**
+`loc-backyard` `char-sunny-leo-mia` `section-chorus-1` `celebration-peak` `chalk-AWESOME` `sparkle-trail` `energy-3-max`
 
 ---
 
 ══════════════════════════════════════
-SECTION: VERSE 2 — Airplane | 0:26–0:38 | 12 seconds
+SECTION: VERSE 2 — Airplane | 0:48–1:12 | 24 seconds
 Energy Level: 3 — Bouncy (open, sky-focused, expansive)
-Narrative Purpose: Introduce "airplane" as the second A-word with movement and freedom as the sensory anchors.
-Visual Goal: By the last frame, "airplane" is as fully embedded as "apple" — the viewer has seen it, mimed it, and felt it.
+Narrative Purpose: Introduce "airplane" with movement and wonder as the sensory anchors.
+Visual Goal: By the last frame, "airplane" is as fully embedded as "apple" — movement is the hook.
+Shot count: 5
+══════════════════════════════════════
+
+---
+
+**SHOT A11**
+Time Range: 0:48–0:54
+Lyric Cue: *"Airplane airplane in the sky"*
+Energy Level: 3
+Beat-Sync: Chalk AIRPLANE floats in on second "airplane" at 0:51. Camera tilts upward on "sky."
+
+**Story Beat:**
+All three stand in the backyard with heads tilted up, shading eyes, looking at the sky. A stylized
+cartoonish red-and-yellow toy airplane on a visible string crosses above them. The chalk word AIRPLANE
+floats in coral. Wonder fills the shot — the sky opens above the backyard.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A11
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center, head tilted back, one hand shading her eyes,
+looking up with wonder and delight. Yellow cloud shirt, orange shorts.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> beside Sunny, also shading eyes, mouth slightly open in
+awe, round glasses lit from above. Red rocket shirt, navy cargo shorts.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> tiptoeing with excitement, pointing straight up at the
+sky with one finger, teal star shirt, grey polka-dot skirt, white leggings, teal crossbody bag.
+Above them: a bright cartoonish toy airplane — red body, yellow wings, wide and chunky — on a visible
+string, traveling camera-left to camera-right in a gentle arc. Coral chalk text "AIRPLANE" floats near it.
+Background: LOC_BACKYARD sky view — blue sky with white clouds above the white fence line.
+Camera: medium-wide shot, camera at character eye level, slow upward tilt beginning.
+3D animated, cartoon style. Vivid palette.
+```
+
+**Camera and Motion Notes:**
+Start: medium-wide shot at character level. Camera tilts upward 15 degrees over 6 seconds following the
+children's gaze. Chalk AIRPLANE floats in on second "airplane" at 0:51. Airplane crosses left to right.
+Cut at 0:54 on "sky" — airplane at its highest point in frame.
+
+**Transition to Next Shot:**
+Straight cut — camera keeps tilting up into overhead angle of A12.
+
+**Style Tags:**
+`loc-backyard-sky` `char-sunny-leo-mia` `section-verse-2` `prop-airplane` `chalk-AIRPLANE` `upward-tilt` `energy-3`
+
+---
+
+**SHOT A12**
+Time Range: 0:54–1:00
+Lyric Cue: *"Airplane airplane flying high"*
+Energy Level: 3
+Beat-Sync: Camera freeze frame at 1:00 on "high" — one beat at Sunny's peak spin.
+
+**Story Beat:**
+Overhead angle — looking down at the characters as they look up, the blue sky filling most of frame.
+Sunny and Mia spread arms like airplane wings, spinning slowly. Leo has his notebook out, drawing the
+airplane with focused earnestness. Musical note trails drift upward.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A12
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+35-degree overhead angle looking down: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> arms spread
+like airplane wings, spinning slowly, head tilted back laughing up toward camera. Yellow cloud shirt,
+orange shorts, pigtails trailing in the spin.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> beside Sunny, also in airplane-arms pose, twirling
+carefully, teal star shirt visible from above, grey polka-dot skirt spinning, white leggings.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> to their right, holding his small notebook open, drawing
+an airplane with a stubby pencil — concentrating, tongue slightly out, round glasses on. Red rocket shirt.
+Background: mostly vivid blue sky with two white clouds — backyard white fence barely visible at bottom.
+Soft translucent musical notes drift upward from all three.
+Camera: 35-degree overhead angle, slow push-in.
+3D animated, cartoon style. Vivid palette.
+```
+
+**Camera and Motion Notes:**
+Start: 35-degree overhead angle — characters look UP toward lens, creating shared gaze with viewer.
+Slow push-in over 6 seconds. Musical note trail begins at 0:55. On "high" at 1:00: one-frame freeze
+at the peak of Sunny's spin — held for one beat, then motion resumes as cut happens.
+Cut at 1:00 on the beat accent.
+
+**Transition to Next Shot:**
+Straight cut — from above to ground level, playful spatial flip.
+
+**Style Tags:**
+`loc-backyard-sky` `char-sunny-leo-mia` `section-verse-2` `airplane-arms` `overhead-angle` `energy-3`
+
+---
+
+**SHOT A13**
+Time Range: 1:00–1:06
+Lyric Cue: *"Spreading wings and zooming free"*
+Energy Level: 3
+Beat-Sync: Tracking pan accelerates on "zooming" at 1:03. Cut at 1:06 on "free" — Sunny at full wingspan centered.
+
+**Story Beat:**
+Sunny runs across the backyard like an airplane — arms out, body tilted, weaving between sunflowers
+and picnic table. Mia runs behind her in formation. Leo stays at the table cheering. Wide enough to
+see the full backyard action.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A13
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Wide shot of LOC_BACKYARD in full: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> running across
+yard, both arms spread like airplane wings, body tilted 20 degrees left in a banking turn, mouth open
+in joy, pigtails streaming behind, yellow cloud shirt, orange shorts, sneakers kicking up behind.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> two steps behind Sunny in identical airplane-arms pose,
+teal star shirt, grey polka-dot skirt, white leggings, teal crossbody bag bouncing.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> seated at red picnic table, both arms raised in enthusiastic
+cheering, notebook set aside, huge grin, round glasses, red rocket shirt.
+Background: LOC_BACKYARD — sunflower garden at center, white fence, warm afternoon light.
+Camera: wide shot at mid-height, slow tracking pan left to right following the runners.
+3D animated, cartoon style. Vivid warm palette.
+```
+
+**Camera and Motion Notes:**
+Start: wide shot at mid-height. Slow tracking pan left to right following Sunny and Mia. On "zooming"
+at 1:03: pan accelerates briefly — hint of whip-pan energy — then settles. Cut at 1:06 on "free" —
+Sunny's arms at full wingspan, perfectly centered.
+
+**Transition to Next Shot:**
+Straight cut — from running action to direct address.
+
+**Style Tags:**
+`loc-backyard` `char-sunny-leo-mia` `section-verse-2` `airplane-run` `tracking-pan` `energy-3`
+
+---
+
+**SHOT A14**
+Time Range: 1:06–1:09
+Lyric Cue: *"An airplane goes where it wants to be!"*
+Energy Level: 3
+Beat-Sync: Sunny's pointing gesture at camera lands on "where" at 1:07. Airplane final crossing at 1:08.
+
+**Story Beat:**
+Sunny stops running and faces the camera — slightly out of breath, beaming. She points at the viewer
+on "where it wants to be" — the gesture is inclusive. Mia collapses laughing against Sunny's shoulder.
+The toy airplane drifts back across the frame, completing its arc.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A14
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Medium shot: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> facing camera directly, slightly catching
+her breath, one arm pointing outward toward the lens, huge genuine smile. Pigtails slightly tousled from
+running. Yellow cloud shirt, orange shorts.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> leaning happily against Sunny's shoulder from the right,
+laughing, eyes crinkled shut. Teal star shirt, grey polka-dot skirt, white leggings, teal bag.
+Above their heads: the bright red cartoon airplane drifts past one final time, completing its crossing.
+Background: LOC_BACKYARD, warm afternoon light.
+Camera: medium shot at their combined eye level, static during gesture.
+3D animated, cartoon style. Vivid warm palette.
+```
+
+**Camera and Motion Notes:**
+Start: medium shot at eye level. On "where" at 1:07: Sunny's point lands directly at camera — camera
+does NOT move so the gesture reaches the viewer cleanly. Airplane crosses upper frame at 1:08.
+Cut at 1:09 on "be!" — syncing to Chorus 2 drop.
+
+**Transition to Next Shot:**
+TYPE C — Star Burst. Flash on "be!" — same as Chorus 1 entry, creating rhythmic pattern.
+
+**Style Tags:**
+`loc-backyard` `char-sunny-mia` `section-verse-2` `viewer-address-point` `airplane-final-pass` `energy-3`
+
+---
+
+**SHOT A15**
+Time Range: 1:09–1:12
+Lyric Cue: *(music only — instrumental fill into Chorus 2)*
+Energy Level: 3 (building)
+Beat-Sync: No lyric; energy building into chorus. Cut at 1:12 on chorus downbeat.
+
+**Story Beat:**
+Leo runs into frame from the right holding his notebook with the airplane drawing visible. He shows it to
+Sunny and Mia — they all look at it for one joyful beat, then turn to the camera together. Energy crests.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A15
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Close-medium shot: Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> running into frame, holding his open
+notebook toward Sunny and Mia — the page shows a sweet pencil drawing of an airplane, proud and earnest.
+Red rocket shirt, navy cargo shorts, round glasses. Sunny
+<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> reacting with delight at the drawing, turning to camera with
+a grin. Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> peering at the notebook, then looking at camera.
+Background: LOC_BACKYARD, all warm sunlight.
+Camera: close-medium, slight push-in building energy.
+3D animated, cartoon style. Vivid palette.
+```
+
+**Camera and Motion Notes:**
+Start: close-medium. Slight push-in accelerating. On the final beat before 1:12: all three turn to camera
+together — the turn IS the launch into Chorus 2. Cut hard at 1:12 on chorus downbeat.
+
+**Transition to Next Shot:**
+TYPE A — Bounce Wipe. The camera-turn energy launches into Chorus 2 wide shot.
+
+**Style Tags:**
+`loc-backyard` `char-sunny-leo-mia` `section-verse-2-crest` `prop-notebook-airplane` `energy-3-building`
+
+---
+
+══════════════════════════════════════
+SECTION: CHORUS 2 | 1:12–1:30 | 18 seconds
+Energy Level: 3+ — Same energy, new location signals expansion. Both A-words now fully known.
+Narrative Purpose: Viewer is now a full participant — they know apple, airplane, and A. This chorus celebrates that.
+BEAT-SYNC REQUIREMENT (MANDATORY): Cut lands on A A A chant. Zoom completes on "amazing." Jump syncs to hand clap.
 Shot count: 4
 ══════════════════════════════════════
 
 ---
 
-**SHOT 11**
-Time Range: 0:26–0:29
-Lyric Line(s): *"Airplane airplane in the sky"*
-Energy Level: 3
+**SHOT A16**
+Time Range: 1:12–1:18
+Lyric Cue: *"A is amazing A is the best"*
+Energy Level: 3+
+Beat-Sync: ZOOM COMPLETES ON "AMAZING" AT 1:13. Letter A badge bounces on "amazing" and "best."
 
 **Story Beat:**
-All three characters stand in the backyard with their heads tilted up, shading their eyes with their hands and looking at the sky. A stylized 3D toy airplane on a string crosses above them — bright red with yellow wings, oversized and cartoonish. The Chalk Word "AIRPLANE" appears in the sky in coral wobbly letters. The energy here is wonder — the sky opens up above the backyard and pulls the viewer's gaze upward.
+New location — the Coop Playground — signals the world has expanded. Sunny at the top of the playground
+slide in a hero pose with arms spread. Leo at the base pumping his fist. Mia on a swing mid-arc. The
+chorus here feels community-wide rather than backyard-wide. Letter A badge returns to upper frame.
 
 **Image Prompt:**
-6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails — standing in backyard with head tilted back, one hand shading her eyes, looking up with wonder and delight. 7-year-old Leo — light tan, blue hoodie, silver glasses — beside Sunny, also shading eyes, mouth slightly open in awe. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — tiptoeing with excitement, pointing straight up at the sky. Above them: a bright red cartoonish toy airplane on a visible string, wings wide, flying from camera-left to camera-right. Blue sky with white clouds. Coral chalk-style text "AIRPLANE" floats near the airplane. Medium-wide shot, camera slightly tilted upward. 3D Pixar-style CGI, vivid palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A16
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Wide shot of LOC_COOP_PLAYGROUND: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> standing at the top
+of a bright primary-color slide, arms spread wide in a hero pose, face lit with joy. Yellow cloud shirt,
+orange shorts.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> at the base of the slide, both fists pumped in the air,
+looking up at Sunny, grinning. Red rocket shirt, navy cargo shorts, round glasses.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> on the swing set mid-arc in background, feet kicked
+forward, laughing. Teal star shirt, grey polka-dot skirt, white leggings.
+Upper frame: large cream badge with coral letter A, bouncing.
+Background: LOC_COOP_PLAYGROUND — hopscotch ground, climbing structure, raised garden beds, picnic tables,
+blue sky with clouds. Warm afternoon light.
+Camera: wide low-angle shot, slow push-in beginning.
+3D animated, cartoon style. Vivid palette.
+```
 
 **Camera and Motion Notes:**
-Start: medium-wide shot, camera at character eye-level. Camera tilts upward 15 degrees over the 3-second shot to follow the children's gaze and reveal the airplane. The Chalk Word "AIRPLANE" floats in on the second "airplane" at 0:28. Airplane travels from camera-left to camera-right in a slow arc. Cut at 0:29 on "sky" — the airplane is at its highest point.
-
-**Transition to Next Shot:**
-Straight cut — camera keeps tilting up from the airplane into the sky.
-
-**Style Consistency Tags:**
-`loc-backyard-sky` `char-ensemble-three` `energy-level-3` `time-afternoon` `section-verse-2` `prop-airplane` `chalk-word-airplane` `sky-tilt` `3d-pixar-style`
-
----
-
-**SHOT 12**
-Time Range: 0:29–0:32
-Lyric Line(s): *"Airplane airplane flying high"*
-Energy Level: 3
-
-**Story Beat:**
-Cut to a shot from slightly above — looking down at the characters as they look up, the blue sky filling most of the background. The toy airplane now seems to soar high. Sunny and Mia are holding their arms out like airplane wings, slowly spinning. Leo has his notebook out and is DRAWING the airplane — a quick earnest sketch visible in the corner of his notebook. Musical note trails drift upward from all three.
-
-**Image Prompt:**
-Overhead-ish shot (35 degrees above) looking down at: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails — arms spread wide like airplane wings, spinning slowly, head tilted back, laughing up at the camera. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — beside Sunny, also arms spread like wings, taking careful twirling steps. 7-year-old Leo — light tan, blue hoodie, glasses — to their right, holding red notebook open, making a quick earnest drawing of an airplane with his stubby pencil, concentrating. Background: mostly vivid blue sky with two white clouds — backyard fence barely visible at bottom frame edges. Soft translucent musical notes drift upward. Elevated medium shot. 3D Pixar-style CGI, vivid palette.
-
-**Camera and Motion Notes:**
-Start: 35-degree overhead angle — characters look UP toward lens, creating a shared gaze with the viewer. Slow push-in over 3 seconds as the characters spin. Musical note trail begins at 0:30. On "high" at 0:31: cut syncs to the beat accent — camera freezes for one frame at the exact peak of Sunny's slow spin.
-
-**Transition to Next Shot:**
-Straight cut — from above to ground level, creating a playful spatial flip.
-
-**Style Consistency Tags:**
-`loc-backyard-sky` `char-ensemble-three` `energy-level-3` `time-afternoon` `section-verse-2` `action-airplane-arms` `overhead-angle` `3d-pixar-style`
-
----
-
-**SHOT 13**
-Time Range: 0:32–0:35
-Lyric Line(s): *"Spreading wings and zooming free"*
-Energy Level: 3
-
-**Story Beat:**
-Sunny runs across the backyard as an airplane — arms out, body tilted, weaving between the sunflowers and the picnic table, pure physical joy. Mia runs after her in formation. Leo stays at the table cheering — his character energy doesn't lend itself to zooming but he is wholly invested in watching them zoom. This is the most movement-forward shot of the Airplane verse — wide enough to see the whole backyard.
-
-**Image Prompt:**
-Wide shot of Sunny's bright backyard: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails streaming behind her in the motion — running across the yard with both arms out like airplane wings, body tilted 20 degrees to the left in a banking turn, mouth open in a joyful shout, feet kicking up behind her. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — running two steps behind Sunny in the same pose, mimicking perfectly. 7-year-old Leo — light tan, blue hoodie, glasses — seated at the picnic table, both arms raised above his head in enthusiastic cheering, notebook set aside. Background: full backyard — sunflower garden, white fence, afternoon light. Wide establishing shot, camera at mid-height, slight slow tracking pan as the running characters cross. 3D Pixar-style CGI, vivid palette.
-
-**Camera and Motion Notes:**
-Start: wide shot, camera at mid-height. Camera performs a slow tracking pan from camera-left to camera-right following Sunny and Mia's running path. On "zooming" at 0:33: camera pan accelerates slightly — a hint of whip-pan energy — then settles. Cut at 0:35 on "free" — Sunny's arms at full wingspan, perfectly centered.
-
-**Transition to Next Shot:**
-Straight cut — from running motion to the lyric closeup.
-
-**Style Consistency Tags:**
-`loc-backyard` `char-sunny-mia-running` `energy-level-3` `time-afternoon` `section-verse-2` `action-airplane-run` `tracking-pan` `3d-pixar-style`
-
----
-
-**SHOT 14**
-Time Range: 0:35–0:38
-Lyric Line(s): *"An airplane goes where it wants to be!"*
-Energy Level: 3
-
-**Story Beat:**
-Sunny stops running and faces the camera directly — she's slightly out of breath, hair messed up, beaming. She points at the camera on "where it wants to be" — the gesture is inclusive, landing the line on the viewer: YOU can go where you want to be. Mia pulls up behind her and collapses gently against Sunny's shoulder, laughing. The toy airplane drifts back across frame above them, completing its arc.
-
-**Image Prompt:**
-Medium shot: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails slightly tousled from running, cheeks slightly flushed — facing camera directly, slightly catching her breath, one arm pointing outward toward the lens, huge genuine smile. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — leaning happily against Sunny's shoulder from the right, laughing, eyes crinkled shut. Above their heads: the bright red cartoon airplane drifts past on its string, completing its crossing. Background: Sunny's backyard, warm afternoon light. Medium shot, camera at their combined eye level. 3D Pixar-style CGI, vivid palette.
-
-**Camera and Motion Notes:**
-Start: medium shot at their eye level. On "where" at 0:36: Sunny's pointing gesture lands directly at camera — this is the viewer-inclusion beat. Camera does NOT move during this gesture — it lets the gesture reach the viewer cleanly. Airplane crosses upper frame one final time at 0:37. Cut at 0:38 on "be!" — the exclamation — syncing to the Chorus 2 drop.
-
-**Transition to Next Shot:**
-TYPE C — Star Burst. Flash on "be!" — same as Chorus 1 entry, creating a rhythmic pattern.
-
-**Style Consistency Tags:**
-`loc-backyard` `char-sunny-mia` `energy-level-3` `time-afternoon` `section-verse-2` `viewer-address` `airplane-final-pass` `3d-pixar-style`
-
----
-
-══════════════════════════════════════
-SECTION: CHORUS 2 | 0:38–0:48 | 10 seconds
-Energy Level: 3 — Bouncy (same energy as Chorus 1 but now BOTH apple and airplane are earned)
-Narrative Purpose: Repeat the chorus with both A-words now fully known — the viewer is a full participant, not a learner.
-Visual Goal: This chorus feels bigger than the first because the viewer has earned it — change the setting or composition slightly to signal escalation without changing the content.
-Shot count: 4
-══════════════════════════════════════
-
----
-
-**SHOT 15**
-Time Range: 0:38–0:41
-Lyric Line(s): *"A is amazing A is the best"*
-Energy Level: 3
-
-**Story Beat:**
-This chorus opens at the Neighborhood Park — a new location signals that the world has expanded. All three characters are on the playground — Sunny on the slide at the top (elevated, hero position), Leo on the ground below (pumping fist), Mia on the swing mid-arc. The chorus energy here feels community-wide rather than backyard-wide. The Letter A badge returns to upper frame.
-
-**Image Prompt:**
-Wide shot of the Neighborhood Park playground: 6-year-old Sunny — warm golden-brown skin, yellow dress, pom-pom pigtails — standing at the top of a bright primary-color slide, arms spread wide in a hero pose, face lit with joy. 7-year-old Leo — light tan, blue hoodie with lightning bolt patch, round silver glasses — standing at the base of the slide, both fists pumped in the air, looking up at Sunny. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — mid-swing arc on a swing set in the background, feet kicked forward, laughing. Background: bright park, green grass, oak trees, blue sky with clouds. Upper frame: large cream badge with coral letter A, bouncing. Warm afternoon light. Wide shot, low angle. 3D Pixar-style CGI, vivid palette.
-
-**Camera and Motion Notes:**
-Start: wide low-angle shot — the slide and playground feel large and celebratory. On first "A" at 0:38: Bounce Underscore, full amplitude. Camera begins slow push-in over 3 seconds. Letter A badge bounces twice — "amazing" and "best." Cut at 0:41 on "best."
+Start: wide low-angle. ZOOM COMPLETES ON "AMAZING" AT 1:13 — the push-in reaches its medium-wide endpoint
+exactly on that word and holds. Letter A badge bounces on "amazing" (1:13) and "best" (1:15). Cut at 1:18.
 
 **Transition to Next Shot:**
 Straight cut — momentum match.
 
-**Style Consistency Tags:**
-`loc-park` `char-ensemble-three` `energy-level-3` `time-afternoon` `section-chorus-2` `playground-hero` `letter-badge-A` `3d-pixar-style`
+**Style Tags:**
+`loc-coop-playground` `char-sunny-leo-mia` `section-chorus-2` `playground-hero` `letter-badge-A` `beat-sync-zoom-on-amazing` `energy-3-max`
 
 ---
 
-**SHOT 16**
-Time Range: 0:41–0:44
-Lyric Line(s): *"A is the letter we love the most"*
+**SHOT A17**
+Time Range: 1:18–1:23
+Lyric Cue: *"A is the letter we love the most"*
 Energy Level: 3
+Beat-Sync: Mia's jump peak at 1:20 on "love." Heart Pop fires on her landing at 1:21.
 
 **Story Beat:**
-Medium shot on Mia — this is her hero moment in the chorus. She's swung to the front of the arc and in one brave move jumps off the swing at the peak, landing perfectly with both arms wide. It's slightly too brave for her usual character — and she looks SURPRISED she did it — then explodes into the biggest grin we've seen from her. Leo and Sunny react with gasps turning to cheers.
+Medium shot — Mia jumps off the swing at peak arc. Brave, accidental, spectacular. She lands with a
+face caught between "oh no" and "I DID IT" — then explodes into the biggest grin we've seen from her.
+Leo and Sunny react: gasps turning to cheers. Heart Pop fires from Mia's chest on landing.
 
 **Image Prompt:**
-Medium shot: 5-year-old Mia — deep brown skin, natural afro puffs with pink hair ties, pink overalls with daisy patch — mid-air having just jumped off a swing, both arms thrown wide in the air, feet below her, face in the transition between "oh no" and "I DID IT!" — pure accidental bravery becoming joy. Behind her: the empty swing returns on its arc. To her right: Sunny — warm golden-brown skin, yellow dress — mouth open in a delighted gasp. To her left: Leo — light tan, blue hoodie, glasses — one hand covering his mouth in surprise, then beginning to cheer. Background: bright park playground. Medium shot, camera at hip height to maximize the airtime feeling. 3D Pixar-style CGI, vivid palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A17
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Medium shot: Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> mid-air having just jumped from the swing,
+both arms thrown wide, expression transitioning from "oh no" to "I DID IT!" — teal star shirt, grey
+polka-dot skirt mid-flare, white leggings. The empty swing swings back behind her.
+Behind her to the right: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> mouth open in delighted gasp,
+hands moving toward a cheer. Yellow cloud shirt, orange shorts.
+Behind her to the left: Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> one hand covering mouth in
+surprise then transitioning to cheer, round glasses, red rocket shirt.
+From Mia's chest on landing: a small red heart floats upward.
+Camera: medium shot, hip height to maximize the airtime feeling.
+3D animated, cartoon style. Vivid warm palette.
+```
 
 **Camera and Motion Notes:**
-Start: medium shot, camera at hip height. On "love" at 0:42: Mia's peak airtime — one frame freeze on her at maximum height, then motion resumes on landing. Heart Pop effect fires from Mia's chest as she lands at 0:43. Cut at 0:44 on "most."
+Start: medium shot at hip height. On "love" at 1:20: Mia at maximum airtime — one-frame freeze.
+Motion resumes on landing. Heart Pop fires from Mia's chest at 1:21. Cut at 1:23 on "most."
 
 **Transition to Next Shot:**
-Straight cut — Mia's landing impact carries.
+Straight cut — Mia's landing energy carries.
 
-**Style Consistency Tags:**
-`loc-park` `char-mia-hero` `energy-level-3` `time-afternoon` `section-chorus-2` `action-swing-jump` `heart-pop` `mia-bravery` `3d-pixar-style`
-
----
-
-**SHOT 17**
-Time Range: 0:44–0:46
-Lyric Line(s): *"Sing it with me — A A A!"*
-Energy Level: 3
-
-**Story Beat:**
-The three A-call again — this time all three characters are in a tight group hug formation facing the camera, singing directly at the viewer. Each "A" is more confident than the last — the viewer now KNOWS this letter, this word, this song. Three chalk A's pop in as before. Mia is between Sunny and Leo, her bravery from the swing jump still glowing on her face.
-
-**Image Prompt:**
-Close-medium shot: all three characters in a loose group, arms around each other's shoulders, all facing camera directly. Center: 5-year-old Mia — deep brown skin, afro puffs, pink overalls — between the others, mouth wide open on "A!", beaming with post-jump confidence. Left: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails — arm around Mia's shoulder, singing to camera with pure warmth. Right: 7-year-old Leo — light tan, blue hoodie, glasses — arm around Mia's other shoulder, joining in on the "A"s with maximum enthusiasm, notebook nowhere in sight. Above them: three coral chalk "A" letters popping in one at a time. Background: warm yellow gradient. Close-medium shot, camera at their eye level. 3D Pixar-style CGI, vivid palette.
-
-**Camera and Motion Notes:**
-Start: close-medium shot. Three chalk A's pop in at 0:44, 0:45, 0:45.5 — one per lyric beat. Bounce Underscore on each A-pop. Cut at 0:46 on the third A landing.
-
-**Transition to Next Shot:**
-Straight cut — group formation carries into the chorus closer.
-
-**Style Consistency Tags:**
-`loc-direct-address` `char-ensemble-three-group` `energy-level-3` `section-chorus-2` `call-and-response` `chalk-word-A-triple` `3d-pixar-style`
+**Style Tags:**
+`loc-coop-playground` `char-mia-hero` `section-chorus-2` `swing-jump` `heart-pop` `mia-bravery` `energy-3`
 
 ---
 
-**SHOT 18**
-Time Range: 0:46–0:48
-Lyric Line(s): *"A words are awesome every day!"*
-Energy Level: 3
-
-**Story Beat:**
-Wide park shot — the biggest so far. The Sparkle Trail connects all three characters as they spread out across the frame. The chalk word "AWESOME" returns, even larger than Chorus 1. This is the peak of Chorus 2 — it should feel like the whole neighborhood is celebrating. Cut hard on "day!" for the Bridge's emotional pivot.
-
-**Image Prompt:**
-Wide shot of the Neighborhood Park: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails — center frame, spinning with arms wide, dress mid-flare, face to the sky. 7-year-old Leo — light tan, blue hoodie with lightning bolt patch, glasses — far left, jumping with notebook held high in a triumphant flourish. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — far right, spinning opposite direction to Sunny, one leg kicked up, tiny stuffed bunny "Bun" visible peeking from her overalls pocket. Background: full park, playground, oak trees, blue sky, other stylized children visible in background distance. Soft cyan sparkle trail connecting all three. Giant chalk "AWESOME" in gold above all. Wide shot, low angle. 3D Pixar-style CGI, maximum vivid palette.
-
-**Camera and Motion Notes:**
-Start: wide low-angle shot. Full Bounce Underscore on "awesome" at 0:46 — maximum amplitude. Sparkle Trail plays from Sunny to Leo to Mia. Camera holds static — characters fill the frame with energy. Cut hard at 0:48 on the final syllable of "day!" — the cut should feel like a door closing, pivoting to the Bridge's warmth.
-
-**Transition to Next Shot:**
-TYPE B — Warm Fade. Golden glow from edges — brief warm transition into the Bridge's softer energy.
-
-**Style Consistency Tags:**
-`loc-park` `char-ensemble-three` `energy-level-3` `time-afternoon` `section-chorus-2` `celebration-peak` `sparkle-trail` `chalk-word-awesome` `3d-pixar-style`
-
----
-
-══════════════════════════════════════
-SECTION: BRIDGE | 0:48–0:56 | 8 seconds
-Energy Level: 2 — Warm (energy drops for emotional resonance before the final chorus climax)
-Narrative Purpose: Connect both A-words back to positive feelings — apple to body-comfort, airplane to imagination-freedom — and set up the emotional build of the Final Chorus.
-Visual Goal: The viewer should feel warm and held here — this is the show's "hug" moment before the finale.
-Shot count: 4
-══════════════════════════════════════
-
----
-
-**SHOT 19**
-Time Range: 0:48–0:50
-Lyric Line(s): *"Apple makes our tummies glad!"*
-Energy Level: 2
-
-**Story Beat:**
-Gentle shot — Sunny and Mia sit side by side on the picnic table bench in the backyard, each holding a small apple. Mia takes a real (not dramatic) small bite. Sunny rubs her tummy and grins at Mia. The energy is quiet and cozy — two friends sharing a snack. The pace is slower than the choruses. This feels like a breath.
-
-**Image Prompt:**
-Medium shot: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails — and 5-year-old Mia — deep brown skin, afro puffs, pink overalls — seated side by side on a wooden picnic bench in the backyard. Sunny holds a small red apple against her chest with both hands, patting her tummy with one hand, smiling warmly at Mia. Mia takes a small genuine bite of her apple, eyes closing with enjoyment. Afternoon light is softer here — warm golden hour suggestion rather than bright midday. Background: backyard, sunflower garden visible, white fence. Medium shot, camera at their seated eye level. Mood: cozy, content, warm. 3D Pixar-style CGI, slightly softer saturation than choruses.
-
-**Camera and Motion Notes:**
-Start: medium shot, camera at their eye level. Gentle, slow 2-second push-in (no bounce — the Bounce Underscore does NOT play in the bridge). This shot breathes. On "glad!" at 0:49: tummy-pat by Sunny — this is the physical anchor for the lyric. Cut at 0:50 on the landing of "glad."
-
-**Transition to Next Shot:**
-Straight cut — gentle match, warm energy holds.
-
-**Style Consistency Tags:**
-`loc-backyard` `char-sunny-mia` `energy-level-2` `time-golden-hour` `section-bridge` `prop-apple-snack` `warm-cozy` `3d-pixar-style`
-
----
-
-**SHOT 20**
-Time Range: 0:50–0:52
-Lyric Line(s): *"Airplane is the best we've had!"*
-Energy Level: 2
-
-**Story Beat:**
-Leo sits at the picnic table with his notebook open — he's just finished drawing the airplane, and he holds the notebook up to show the page: a sweet, childlike drawing of an airplane, immediately recognizable. He grins at it, then grins at the camera. The toy airplane string is tied to the fence post behind him, the airplane bobbing gently in a soft breeze. It's a quiet, satisfied moment — Leo made something.
-
-**Image Prompt:**
-Medium shot: 7-year-old Leo — light tan skin, spiky dark hair, royal blue hoodie with lightning bolt patch, round silver glasses — seated at the wooden picnic table, holding up his small red notebook open to a page with a simple child-like drawing of an airplane (visible in the notebook). He looks at the drawing, then shifts his gaze to camera with a quiet, proud smile — the most content expression we've seen from him. Behind him: the wooden backyard fence with a toy airplane on a string tied to a post, bobbing gently. Background: backyard, soft golden-hour light. Medium shot, camera at Leo's eye level. Mood: quiet pride, satisfaction, warmth. 3D Pixar-style CGI, warm soft palette.
-
-**Camera and Motion Notes:**
-Start: medium shot at Leo's eye level. No camera movement — this shot is stillness. On "best" at 0:51: Leo's gaze shifts from notebook to camera — this is the viewer-connection moment of the bridge. Wonder Dots briefly appear near Leo's head as he looks at his drawing (then vanish — the Lightbulb-pop already happened; these are satisfaction dots, not confusion dots). Cut at 0:52 on "had."
-
-**Transition to Next Shot:**
-Straight cut — back to the trio for the bridge's third line.
-
-**Style Consistency Tags:**
-`loc-backyard` `char-leo-solo` `energy-level-2` `time-golden-hour` `section-bridge` `prop-notebook-drawing` `quiet-pride` `3d-pixar-style`
-
----
-
-**SHOT 21**
-Time Range: 0:52–0:54
-Lyric Line(s): *"A words make the whole day bright"*
-Energy Level: 2
-
-**Story Beat:**
-Wide, warm shot — all three characters together in the backyard in the golden-hour light. Nobody is jumping or shouting. They're just TOGETHER — standing close, smiling, light falling on them all. The warmth of the whole day is visible in this shot. The background has a soft lens-flare from the sun just going over the fence. This is the emotional peak of the bridge.
-
-**Image Prompt:**
-Wide golden-hour shot: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails catching the warm light — center, leaning gently against Leo on her left with one shoulder, smiling at something in the middle distance. 7-year-old Leo — light tan, blue hoodie, glasses catching a lens flare — notebook tucked under arm, quiet smile. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — pressed close to Sunny's other side, head resting lightly on Sunny's arm, eyes half-closed in contentment, holding her small stuffed bunny Bun. Background: Sunny's backyard in late-afternoon golden light — sun just cresting the white fence, casting long warm shadows, sunflowers glowing. Wide shot, camera at their waist height, looking slightly up — warm silhouette quality. 3D Pixar-style CGI, warm golden palette, saturation slightly softened.
-
-**Camera and Motion Notes:**
-Start: wide shot, waist height. No camera movement. Soft lens flare enters camera-right at 0:53 — created by the sun cresting the fence. This is the most visually soft and warm frame in the entire song. On "bright" at 0:53: the lens flare peaks — the warmest frame. Cut at 0:54 on "bright" — the cut should feel like taking a breath.
-
-**Transition to Next Shot:**
-Straight cut — the warmth carries into the last line of the bridge.
-
-**Style Consistency Tags:**
-`loc-backyard` `char-ensemble-three` `energy-level-2` `time-golden-hour` `section-bridge` `warm-silhouette` `emotional-peak-bridge` `3d-pixar-style`
-
----
-
-**SHOT 22**
-Time Range: 0:54–0:56
-Lyric Line(s): *"A words always feel just right!"*
-Energy Level: 2-to-3 (BUILDING — bridge ends with energy climbing back toward the Final Chorus)
-
-**Story Beat:**
-Close-up on Sunny's face in the golden light — she turns slowly to camera, and for one held moment it's just her, looking directly at the viewer with the most genuine expression in the song. Then a small smile grows. Then a bigger one. Then she takes a breath — and the Final Chorus is coming. The bridge ends not with a bang but with a promise.
-
-**Image Prompt:**
-Close-up on 6-year-old Sunny — warm golden-brown skin, bright sunflower-yellow dress, pom-pom pigtails catching golden-hour light — face turning slowly toward camera, expression beginning as quiet contentment, transitioning to a growing, genuine smile as she builds energy for what's coming. Big brown eyes catching the warm late-afternoon light. Background: soft warm golden blur of the backyard behind her. Close-up shot, camera at Sunny's eye level, very slight push-in. Mood: intimate → building → promise. 3D Pixar-style CGI, warm saturated palette, slightly soft focus on background.
-
-**Camera and Motion Notes:**
-Start: close-up at Sunny's eye level. Slow push-in begins at 0:54 and accelerates over 2 seconds — the push-in IS the energy building toward the Final Chorus. On "right!" at 0:55: Sunny's smile reaches full width — a tiny eyebrow raise signals what's coming. Cut at 0:56 hard on the Final Chorus drop — the push-in speed creates the launch feeling.
-
-**Transition to Next Shot:**
-TYPE C — Star Burst. The push-in's energy detonates into the Final Chorus Star Burst — white flash, expand, reveal.
-
-**Style Consistency Tags:**
-`loc-direct-address` `char-sunny-close-up` `energy-level-2-building` `time-golden-hour` `section-bridge-finale` `anticipation-beat` `3d-pixar-style`
-
----
-
-══════════════════════════════════════
-SECTION: FINAL CHORUS | 0:56–1:06 | 10 seconds
-Energy Level: 3+ — Maximum (this is the emotional summit of the entire song)
-Narrative Purpose: The final chorus with both A-words and the full world celebrating — everything the song built toward, paying off.
-Visual Goal: The viewer should feel PROUD and INCLUDED — this celebration is theirs too. The show logo arrives here.
-Shot count: 4
-══════════════════════════════════════
-
----
-
-**SHOT 23**
-Time Range: 0:56–0:59
-Lyric Line(s): *"A is amazing A is the best"*
+**SHOT A18**
+Time Range: 1:23–1:27
+Lyric Cue: *"Sing it with me — A A A!"*
 Energy Level: 3+
+Beat-Sync: CUT LANDS ON FIRST "A" AT 1:23. CHARACTER JUMPS SYNC TO HAND CLAP ON EACH A (1:23, 1:24, 1:25). Three chalk A's pop one per beat.
 
 **Story Beat:**
-The biggest shot in the song — Sunny's Street, the full neighborhood. The camera is wide and low. All three characters run toward camera down the sidewalk side by side, arms spread, the whole street behind them. Other children (stylized background figures in show palette) are on lawns and porches celebrating. The world has never been this big. The Letter A badge appears enormous in the upper sky, turning like a coin.
+All three in a loose group facing the camera — arms around each other's shoulders. Each "A" gets a
+physical pop. Mia is between Sunny and Leo, post-jump bravery still glowing on her face. Three chalk
+A's pop in with more confidence than Chorus 1.
 
 **Image Prompt:**
-Hero ultra-wide low-angle shot of Sunny's Street: 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails streaming — center frame, running toward camera with arms spread wide, pure joy. 7-year-old Leo — light tan, blue hoodie with lightning bolt patch, glasses — to her left, running in sync, one fist raised. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — to her right, running with tiny stuffed bunny Bun raised triumphantly in her hand. Background: Sunny's colorful neighborhood street — yellow, mint-green, coral houses, leafy trees, blue sky. Stylized rounded background children on lawns and porches waving and celebrating. In the sky: enormous cream badge with coral letter A rotating slowly once. Afternoon light, maximum saturation. Ultra-wide low-angle shot, camera at ankle height. 3D Pixar-style CGI, most vivid frame of the song.
+```
+CHARACTER LOCK — A_IS_AMAZING A18
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Close-medium shot: all three in a loose group, arms around each other's shoulders, all facing camera.
+Center: Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> between the others, mouth wide open on "A!",
+beaming with post-jump confidence. Teal star shirt, grey polka-dot skirt, white leggings.
+Left: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> arm around Mia's shoulder, singing to camera with
+pure warmth. Yellow cloud shirt, orange shorts.
+Right: Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> arm around Mia's other shoulder, calling "A!" with
+maximum enthusiasm. Red rocket shirt, round glasses. 
+Above them: three coral chalk A's popping in one at a time left to right.
+Background: warm yellow gradient LOC_DIRECT_ADDRESS.
+Camera: close-medium at their eye level, static.
+3D animated, cartoon style. Vivid palette.
+```
 
 **Camera and Motion Notes:**
-Start: ultra-wide low-angle at ankle height. On the first "A" at 0:56: maximum Bounce Underscore (108%→100%) — the biggest in the song. Camera does NOT move — the characters run toward it, growing in frame. Letter A badge rotates one full clockwise turn and settles, enormous. Cut at 0:59 on "best."
+Start: close-medium, static. Three chalk A's pop at 1:23, 1:24, 1:25. Bounce Underscore on each.
+Each A gets a clap-and-jump from the group. Cut at 1:27 on the third A landing.
 
 **Transition to Next Shot:**
-Straight cut — characters now fill frame.
+Straight cut — group formation carries into the Chorus 2 closer.
 
-**Style Consistency Tags:**
-`loc-neighborhood-street` `char-ensemble-three-running` `energy-level-3-max` `time-afternoon-max-saturation` `section-final-chorus` `hero-ultra-wide` `letter-badge-A-large` `3d-pixar-style`
+**Style Tags:**
+`loc-direct-address` `char-sunny-leo-mia` `section-chorus-2` `call-and-response` `chalk-A-triple` `beat-sync-cut-on-A-jump-on-clap` `energy-3-max`
 
 ---
 
-**SHOT 24**
-Time Range: 0:59–1:02
-Lyric Line(s): *"A is the letter we love the most"*
+**SHOT A19**
+Time Range: 1:27–1:30
+Lyric Cue: *"A words are awesome every day!"*
 Energy Level: 3+
+Beat-Sync: Bounce Underscore on "awesome" at 1:27. Sparkle Trail. Cut hard at 1:30 into Bridge warmth.
 
 **Story Beat:**
-The three characters stop running and throw their arms around each other in a group hug — facing camera. It's spontaneous and real-feeling. Sunny pulls Leo and Mia in. Mia laughs with her whole face. Leo looks surprised by the hug but immediately melts into it. The Heart Pop fires from the center of the group hug. Musical note trails shoot upward from all three. The neighborhood is visible and warm behind them.
+Wide playground shot — the biggest of Chorus 2. All three spread out across the frame. Sparkle trail
+connects them. Chalk "AWESOME" returns even larger than Chorus 1. The cut at 1:30 should feel like a
+door closing into the Bridge's quiet.
 
 **Image Prompt:**
-Medium shot: all three characters in a spontaneous group hug facing camera. 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails — center, arms pulling both friends in, face wide with joy. 7-year-old Leo — light tan, blue hoodie, glasses — to her left, expression transitioning from surprise to genuine warmth, glasses slightly askew from the hug impact. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — to Sunny's right, laughing with eyes crinkled shut, Bun the stuffed bunny visible pressed between them. From the center of the hug: a small red heart floats upward. Musical note trails drift above all three. Background: neighborhood street, warm afternoon light. Medium shot, camera at their collective eye level. 3D Pixar-style CGI, vivid warm palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A19
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Wide shot of LOC_COOP_PLAYGROUND: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center, spinning
+with arms wide, yellow cloud shirt, orange shorts, pigtails flying.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> far left, jumping with notebook held triumphantly high, red
+rocket shirt, navy cargo shorts, round glasses.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> far right, spinning opposite direction to Sunny, one leg
+kicked up, teal star shirt, grey polka-dot skirt airborne, white leggings, teal bag swinging.
+Cyan sparkle trail connecting all three. Giant chalk "AWESOME" in golden letters above them.
+Background: full playground, hopscotch, trees, blue sky. Stylized background figures celebrating.
+Camera: wide low-angle, static.
+3D animated, cartoon style. Maximum vivid palette.
+```
 
 **Camera and Motion Notes:**
-Start: medium shot, camera at their eye level. On "love" at 1:00: Heart Pop fires from hug center — floats upward and out of frame. Musical note trail begins at 1:00. Cut at 1:02 on "most" — the Heart Pop is still visible in the upper frame as the cut happens.
+Start: wide low-angle. Full Bounce Underscore on "awesome" at 1:27 — maximum amplitude. Sparkle Trail
+plays. Camera holds static. Cut hard at 1:30 on the final syllable of "day!" — the cut should feel like
+a door closing, pivoting into Bridge warmth.
 
 **Transition to Next Shot:**
-Straight cut — trio holds their group formation.
+TYPE B — Warm Fade. Golden glow from edges — brief transition into Bridge softer energy.
 
-**Style Consistency Tags:**
-`loc-neighborhood-street` `char-ensemble-three-hug` `energy-level-3-max` `time-afternoon` `section-final-chorus` `heart-pop` `musical-note-trail` `3d-pixar-style`
-
----
-
-**SHOT 25**
-Time Range: 1:02–1:04
-Lyric Line(s): *"Sing it with me — A A A!"*
-Energy Level: 3+
-
-**Story Beat:**
-The final "A A A" call — this time all three break from the hug and turn to camera simultaneously, each throwing their hands up as they call each "A." Their energy is maximum. Three chalk A's pop in the upper frame — but this time each one is larger than the last, the final A nearly filling the frame. The viewer is expected to shout along.
-
-**Image Prompt:**
-Close-medium shot: all three characters facing camera, simultaneously turning from their hug to address the viewer. 6-year-old Sunny — warm golden-brown skin, yellow dress, pigtails — center, both arms thrown up overhead, mouth open wide on "A!". 7-year-old Leo — light tan, blue hoodie, glasses — far left, left arm raised, right fist pumped at chest height, grinning. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — far right, both arms above her head, jumping, Bun the bunny clutched in one hand. Upper frame: three coral chalk A's — first small, second medium, third large and taking up much of the upper frame. Background: warm yellow gradient. Close-medium shot, camera slightly below eye level. 3D Pixar-style CGI, maximum vivid palette.
-
-**Camera and Motion Notes:**
-Start: close-medium shot, slightly below eye level. Three chalk A's pop in at 1:02, 1:03, 1:03.5 — each larger than the last. Bounce Underscore on each. Cut at 1:04 on the third and largest A — the frame is nearly full of that chalk letter.
-
-**Transition to Next Shot:**
-Straight cut — into the final hero shot where the show logo arrives.
-
-**Style Consistency Tags:**
-`loc-direct-address` `char-ensemble-three` `energy-level-3-max` `section-final-chorus` `call-and-response-maximum` `chalk-word-A-escalating` `3d-pixar-style`
-
----
-
-**SHOT 26**
-Time Range: 1:04–1:06
-Lyric Line(s): *"A words are awesome every day!"*
-Energy Level: 3+ (FINALE — show logo arrives this shot)
-
-**Story Beat:**
-The widest, most triumphant shot of the song. All three characters in the neighborhood street, arms wide, caught mid-celebration — the whole world behind them, the sky blue and full of floating musical notes. The show title logo "Sunny and the Crew!" animates in from above, letters bouncing in one by one on the downbeats. The logo settles above the characters on "every day!" The chalk word "AWESOME" appears one final time, larger than ever, golden, floating above the logo. This is the image that should burn into a child's memory.
-
-**Image Prompt:**
-Ultra-wide triumphant shot of Sunny's Street: 6-year-old Sunny — warm golden-brown skin, yellow dress mid-flare, pom-pom pigtails flying — center street, caught in mid-jump, arms spread fully, face to the sky in open-mouth joy. 7-year-old Leo — light tan, blue hoodie with lightning bolt patch, glasses — far left, one arm stretched toward the sky, notebook held high. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — far right, spinning, one arm up, Bun the bunny raised, overalls pocket flap flying. Background: full neighborhood street, colorful houses, leafy trees, pure blue sky. The sky is filled with translucent musical notes in show palette colors. From the top of frame, the show title "Sunny and the Crew!" in rounded bubble letters animates in — yellow "Sunny," white "and the Crew!" with coral outline, letters bouncing in on each beat, settling above the characters. A golden chalk word "AWESOME" floats above the logo. Sparkle Trail connects all three characters. Ultra-wide shot, lowest angle in the song. 3D Pixar-style CGI, absolute maximum vivid saturation.
-
-**Camera and Motion Notes:**
-Start: ultra-wide at street level. Logo letters animate in from frame top — one letter per downbeat from 1:04 to 1:05.5. Exclamation mark pops last with a starburst at 1:05.5. Logo holds. On "every day!" at 1:06: maximum Bounce Underscore. Sparkle Trail plays connecting all three characters. This is the hero image. Cut at 1:06 hard — into the Outro's warmth.
-
-**Transition to Next Shot:**
-TYPE B — Warm Fade. Golden glow from edges — a gentle exhale after the finale.
-
-**Style Consistency Tags:**
-`loc-neighborhood-street` `char-ensemble-three` `energy-level-3-max` `time-afternoon-max-saturation` `section-final-chorus` `show-logo-arrival` `chalk-word-awesome` `sparkle-trail` `3d-pixar-style`
+**Style Tags:**
+`loc-coop-playground` `char-sunny-leo-mia` `section-chorus-2` `celebration-max` `chalk-AWESOME` `sparkle-trail` `energy-3-max`
 
 ---
 
 ══════════════════════════════════════
-SECTION: OUTRO | 1:06–1:14 | 8 seconds
-Energy Level: 2 — Warm (gentle resolution, warm send-off)
-Narrative Purpose: Celebrate the child for completing the song, reinforce the learning, and send them off with love.
-Visual Goal: The viewer should feel proud, warm, and seen — the outro is a hug, not a performance.
+SECTION: BRIDGE | 1:30–1:45 | 15 seconds
+Energy Level: 2 — Warm (energy drops for emotional resonance before Final Chorus)
+Narrative Purpose: Connect both A-words to feelings. Apple → body joy. Airplane → imagination freedom.
+Visual Goal: Viewer feels warm and held. This is the show's "hug" moment.
 Shot count: 3
 ══════════════════════════════════════
 
 ---
 
-**SHOT 27**
-Time Range: 1:06–1:09
-Lyric Line(s): *"Great job friends you did it today!"*
+**SHOT A20**
+Time Range: 1:30–1:37
+Lyric Cue: *"Apple makes our tummies glad! / Airplane is the best we've had!"*
 Energy Level: 2
+Beat-Sync: Sunny's tummy-pat on "tummies" at 1:31. Leo's notebook-lift on "best" at 1:35.
 
 **Story Beat:**
-Sunny is on her front porch steps — the most intimate location in the show. She's seated, slightly lower than her normal standing height, at the viewer's eye level. She is talking directly to the child at home. She's not shouting or performing — she's speaking directly to one child. Her expression is warm, genuine, and slow. This is the show's most important beat: the child feels individually seen and praised.
+Two lyric lines combined — quiet, cozy. Sunny and Mia sit together on the picnic bench, each holding
+a small apple. Mia takes a real, small, contented bite. Sunny rubs her tummy with a warm smile.
+Then the toy airplane string (tied to the fence post) bobs in a breeze in the background, and Leo
+holds up his notebook drawing with quiet pride. The energy is a breath.
 
 **Image Prompt:**
-Close-medium shot: 6-year-old Sunny — warm golden-brown skin, bright sunflower-yellow dress, pom-pom pigtails settling from the day's activity — seated on her front porch steps, leaning slightly forward toward camera at the viewer's eye level. Expression: warm, direct, genuinely proud — this is real praise, not performance. One hand rests on her knee, one hand holds up a soft thumbs-up toward camera. Background: Sunny's front porch — warm wooden boards, yellow front door, marigold plants in pots, late-afternoon golden light. Close-medium shot, camera at Sunny's seated eye level. Mood: intimate, warm, individual. 3D Pixar-style CGI, warm golden-hour palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A20
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Medium shot: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> and Mia
+<<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> seated side by side on the wooden picnic bench in LOC_BACKYARD.
+Sunny holds a small red apple, one hand patting her tummy with a warm satisfied smile. Yellow cloud shirt,
+orange shorts. Mia takes a small genuine bite of her apple, eyes closing with enjoyment. Teal star shirt,
+grey polka-dot skirt, white leggings.
+To the side: Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> seated at the table, holding up his open
+notebook showing a simple pencil drawing of an airplane — looking at it with quiet pride, then shifting
+to camera with a small satisfied smile. Red rocket shirt. Behind him on the fence: the toy airplane
+string bobbing in a gentle breeze.
+Background: LOC_BACKYARD in golden-hour light — softer saturation, warm.
+Camera: medium shot at their seated eye level, gentle slow push-in (no Bounce Underscore in the bridge).
+3D animated, cartoon style. Slightly warmer and softer palette than choruses.
+```
 
 **Camera and Motion Notes:**
-Start: close-medium shot, seated eye level. No camera movement. This shot breathes. On "you did it" at 1:07: Sunny's thumbs-up lands — this is the direct praise beat. Hold through "today!" at 1:08. Cut at 1:09 — Leo and Mia arrive in the next shot.
+Start: medium shot at seated eye level. Gentle push-in — NO Bounce Underscore in the bridge.
+Tummy-pat by Sunny on "tummies" at 1:31. Leo's notebook-lift on "best" at 1:35.
+Cut at 1:37 on "had."
 
 **Transition to Next Shot:**
-Straight cut — Leo and Mia appear on the porch.
+Straight cut — warm energy holds.
 
-**Style Consistency Tags:**
-`loc-sunny-porch` `char-sunny-solo` `energy-level-2` `time-golden-hour` `section-outro` `viewer-address-praise` `intimate-close` `3d-pixar-style`
+**Style Tags:**
+`loc-backyard-golden-hour` `char-sunny-leo-mia` `section-bridge` `prop-apple-snack` `prop-notebook-drawing` `warm-cozy` `energy-2`
 
 ---
 
-**SHOT 28**
-Time Range: 1:09–1:12
-Lyric Line(s): *"We learned our A words — hip hip hooray!"*
-Energy Level: 2 (with one warm energy burst on "hooray!")
+**SHOT A21**
+Time Range: 1:37–1:41
+Lyric Cue: *"A words make the whole day bright"*
+Energy Level: 2
+Beat-Sync: Lens flare peaks on "bright" at 1:40.
 
 **Story Beat:**
-Leo and Mia join Sunny on the porch steps — all three are seated or crouching at the viewer's level. On "hip hip hooray!" they all do one shared arm-raise — not the high-energy chorus raise, but a warm, communal one. This is a celebration that includes the viewer. The show title logo reappears small and soft in the upper corner — a signature moment.
+Wide warm golden-hour shot — all three together in the backyard in the last light of afternoon.
+Nobody is jumping or performing. They're just together — standing close, warm light falling on all of
+them. This is the emotional peak of the bridge. Soft lens flare from the sun over the fence.
 
 **Image Prompt:**
-Medium shot: all three characters seated and crouching together on Sunny's front porch steps. 6-year-old Sunny — warm golden-brown skin, yellow dress — center, one arm raised in a gentle "hooray" gesture. 7-year-old Leo — light tan, blue hoodie, glasses — to Sunny's left, notebook closed on his knee, raising one arm with a quiet, satisfied smile. 5-year-old Mia — deep brown skin, afro puffs, pink overalls — to Sunny's right, both arms raised on "hooray!", Bun the bunny raised in one hand. Background: Sunny's warm front porch, yellow door, marigold plants, welcome mat. In upper-right corner: soft version of the show title "Sunny and the Crew!" logo, smaller, at rest. Late golden-afternoon light. Medium shot, camera at their seated eye level. 3D Pixar-style CGI, warm soft palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A21
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Wide golden-hour shot: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center, leaning gently against
+Leo with one shoulder, smiling softly at something in the middle distance. Yellow cloud shirt, orange
+shorts, pigtails catching the warm light.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> to Sunny's left, notebook tucked under arm, a quiet
+content smile, round glasses catching a soft lens flare. Red rocket shirt.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> pressed close to Sunny's other side, head resting lightly
+on Sunny's arm, eyes half-closed in contentment. Teal star shirt, grey polka-dot skirt, white leggings,
+teal crossbody bag.
+Background: LOC_BACKYARD in late golden-afternoon — sun just cresting the white fence, casting long warm
+shadows, sunflowers glowing. Soft lens flare entering camera-right.
+Camera: wide shot, waist height, looking slightly up. No camera movement.
+3D animated, cartoon style. Warm golden palette. Saturation slightly softer than choruses.
+```
 
 **Camera and Motion Notes:**
-Start: medium shot. On "hip hip hooray!" at 1:10: arm raises — this is the last beat-sync moment in the song. Bounce Underscore plays softly (103%→100% — the gentlest version). Show logo appears in upper-right at 1:10, soft and at rest. Hold through 1:12. Cut at 1:12 into the final goodbye shot.
+Start: wide shot, waist height. No camera movement — complete stillness. Soft lens flare enters
+camera-right at 1:38. On "bright" at 1:40: the flare peaks — warmest frame in the song. Cut at 1:41.
 
 **Transition to Next Shot:**
-Straight cut — to the goodbye close-up.
+Straight cut — warmth carries into the final bridge line.
 
-**Style Consistency Tags:**
-`loc-sunny-porch` `char-ensemble-three` `energy-level-2` `time-golden-hour` `section-outro` `show-logo-soft` `warm-celebration` `3d-pixar-style`
+**Style Tags:**
+`loc-backyard-golden-hour` `char-sunny-leo-mia` `section-bridge` `warm-silhouette` `lens-flare` `emotional-peak-bridge` `energy-2`
 
 ---
 
-**SHOT 29 — FINAL FRAME**
-Time Range: 1:12–1:14
-Lyric Line(s): *"See you next time — bye bye bye!"*
-Energy Level: 2 → Resolves to silence
+**SHOT A22**
+Time Range: 1:41–1:45
+Lyric Cue: *"A words always feel just right!"*
+Energy Level: 2 → building to 3
+Beat-Sync: Sunny's smile reaches full width on "right" at 1:44. Push-in acceleration IS the energy build.
 
 **Story Beat:**
-The last shot of the song — and of the episode. The camera is framed on Sunny alone in a soft close-up. She waves slowly with both hands — big, warm, deliberate waves, not rushed. Leo and Mia are visible just over her shoulders waving too. Sunny's wave is directed at the viewer as a child, not as an audience. The show title logo holds soft in the upper frame. On "bye bye bye" the camera begins a slow, gentle pull back. The frame freezes on the final wave. Music ends. Warm silence holds for 2 seconds.
+Close-up on Sunny's face — she turns slowly to camera, expression moving from quiet contentment to
+growing smile to a promise. One held moment of direct eye contact. Then she takes a breath — and the
+Final Chorus is coming. The bridge ends not with a bang but with anticipation.
 
 **Image Prompt:**
-Close-medium shot: 6-year-old Sunny — warm golden-brown skin, bright sunflower-yellow dress, pom-pom pigtails lit by warm golden-hour light from the porch — facing camera on the porch steps, waving slowly with both hands raised, a big warm genuine smile that reaches her eyes. Over her left shoulder: 7-year-old Leo — light tan, blue hoodie, glasses — waving one hand with a quiet grin. Over her right shoulder: 5-year-old Mia — deep brown skin, afro puffs, pink overalls — waving both hands enthusiastically, Bun the bunny visible in one hand. Background: Sunny's warm front porch in golden-hour light, soft and blurred. In upper frame: show title "Sunny and the Crew!" logo, soft and warm, at rest. Close-medium shot, camera at Sunny's seated eye level. Mood: warm, safe, loved. 3D Pixar-style CGI, golden-hour palette.
+```
+CHARACTER LOCK — A_IS_AMAZING A22
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Close-up on Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> face turning slowly toward camera.
+Expression begins as quiet contentment, transitions to a growing, genuine smile that builds visible energy
+for what's coming. Big brown eyes catching warm golden-hour light. Yellow cloud shirt, orange shorts.
+Background: soft warm golden blur of the backyard behind her — very soft focus.
+Camera: close-up at Sunny's eye level, slow push-in beginning to accelerate.
+3D animated, cartoon style. Warm saturated palette, soft background focus.
+```
 
 **Camera and Motion Notes:**
-Start: close-medium shot, Sunny's eye level. On "bye bye bye" at 1:12: camera begins a very slow, gentle pull back — the neighborhood world slowly revealed behind the porch. The pull back creates a feeling of the world remaining even after we leave. On the final "bye" at 1:14: MUSIC STING — outro sting. Show logo does a final gentle bounce and holds. Camera holds. Frame fades gently to warm black over 1 second. [END]
+Start: close-up at Sunny's eye level. Slow push-in begins at 1:41 and accelerates — the push-in IS the
+energy building toward Final Chorus. On "right!" at 1:44: Sunny's smile reaches full width — tiny eyebrow
+raise signals what's coming. Cut hard at 1:45 on the Final Chorus drop — push-in speed creates the launch.
+
+**Transition to Next Shot:**
+TYPE C — Star Burst. Push-in energy detonates into the Final Chorus flash.
+
+**Style Tags:**
+`loc-direct-address` `char-sunny-solo` `section-bridge-finale` `anticipation-build` `energy-2-to-3`
+
+---
+
+══════════════════════════════════════
+SECTION: FINAL CHORUS | 1:45–2:05 | 20 seconds
+Energy Level: 3+ MAX — Emotional summit of the entire song
+Narrative Purpose: Everything built to this. Both A-words, full world, show logo arrives.
+Visual Goal: Viewer feels PROUD and INCLUDED. This celebration is theirs.
+BEAT-SYNC REQUIREMENT (MANDATORY): Cut lands on A A A chant. Zoom completes on "amazing." Jump syncs to hand clap.
+Shot count: 4
+══════════════════════════════════════
+
+---
+
+**SHOT A23**
+Time Range: 1:45–1:52
+Lyric Cue: *"A is amazing A is the best"*
+Energy Level: 3+ MAX
+Beat-Sync: ZOOM COMPLETES ON "AMAZING" AT 1:46. Maximum scale bounce on first "A." A badge rotates once.
+
+**Story Beat:**
+The biggest shot of the song — the full neighborhood street. All three characters run toward camera
+down the sidewalk with arms wide. Mayor Mary appears in the background waving from her doorstep. The
+Letter A badge appears enormous in the sky, rotating once. Background figures celebrating on lawns.
+This frame is the hero image of the episode.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A23
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+[Mayor Mary: <<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Ultra-wide low-angle hero shot of LOC_NEIGHBORHOOD_STREET:
+Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center frame, running toward camera, arms spread fully
+wide, pure joy, pigtails streaming, yellow cloud shirt, orange shorts.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> to her left, running in sync, one fist raised. Red rocket
+shirt, navy cargo shorts, round glasses. 
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> to her right, running, teal crossbody bag bouncing. Teal
+star shirt, grey polka-dot skirt, white leggings.
+Background: Mayor Mary <<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>> visible on her doorstep in background,
+waving warmly in her royal purple blazer with gold mayoral pin.
+Sky: enormous cream badge with coral letter A rotating slowly once clockwise.
+Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, blue sky.
+Stylized rounded background figures on lawns celebrating.
+Camera: ultra-wide, ankle height. Characters grow in frame as they run toward lens.
+3D animated, cartoon style. Absolute maximum vivid saturation.
+```
+
+**Camera and Motion Notes:**
+Start: ultra-wide at ankle height. Camera static — characters run toward lens, growing in frame.
+ZOOM (scale bounce) COMPLETES ON "AMAZING" AT 1:46 — (107%→100%). Letter A badge rotates one full
+clockwise turn and settles enormous. Cut at 1:52 on "best."
+
+**Transition to Next Shot:**
+Straight cut — characters now fill frame.
+
+**Style Tags:**
+`loc-neighborhood-street` `char-sunny-leo-mia-mayor-mary` `section-final-chorus` `hero-ultra-wide` `beat-sync-zoom-on-amazing` `energy-3-max`
+
+---
+
+**SHOT A24**
+Time Range: 1:52–1:57
+Lyric Cue: *"A is the letter we love the most"*
+Energy Level: 3+ MAX
+Beat-Sync: Heart Pop fires from group hug center on "love" at 1:53. Musical note trails shoot upward.
+
+**Story Beat:**
+The three main characters stop running and throw their arms around each other in a spontaneous group hug
+facing the camera. Sunny pulls them in. Mia laughs with her whole face. Leo looks surprised by the hug
+but immediately melts into it. Heart Pop fires from the center. Mayor Mary visible behind them clapping.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A24
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+[Mayor Mary: <<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Medium shot: spontaneous group hug facing camera. Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center,
+arms pulling both friends in, face wide with joy. Yellow cloud shirt, orange shorts.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> left, transitioning from surprise to genuine warmth, glasses
+slightly askew from hug impact. Red rocket shirt.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> right, laughing with eyes crinkled shut. Teal star shirt,
+grey polka-dot skirt, white leggings.
+From the center of the hug: a small red heart floats upward. Musical note trails drift above all three.
+Background: LOC_NEIGHBORHOOD_STREET, Mayor Mary <<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>> visible behind
+them in her royal purple blazer, clapping warmly.
+Camera: medium shot at their collective eye level.
+3D animated, cartoon style. Vivid warm palette.
+```
+
+**Camera and Motion Notes:**
+Start: medium shot at their eye level. On "love" at 1:53: Heart Pop fires from hug center — floats upward.
+Musical note trail begins at 1:53. Cut at 1:57 on "most" — Heart Pop still visible in upper frame.
+
+**Transition to Next Shot:**
+Straight cut — trio holds group formation.
+
+**Style Tags:**
+`loc-neighborhood-street` `char-sunny-leo-mia` `section-final-chorus` `group-hug` `heart-pop` `musical-note-trail` `energy-3-max`
+
+---
+
+**SHOT A25**
+Time Range: 1:57–2:01
+Lyric Cue: *"Sing it with me — A A A!"*
+Energy Level: 3+ MAX
+Beat-Sync: CUT LANDS ON FIRST "A" AT 1:57. CHARACTER JUMPS SYNC TO HAND CLAP ON EACH A (1:57, 1:58, 1:59). Three chalk A's pop — each larger than the last. Final A nearly fills upper frame.
+
+**Story Beat:**
+All three break from the hug and turn to camera simultaneously — throwing hands up, calling each A at
+maximum volume. This is the biggest "Sing with me" beat of the entire song. Chalk A's escalate in size:
+small → medium → LARGE. The viewer is expected to shout their loudest A.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A25
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Close-medium shot: all three facing camera, turning from their hug to address the viewer.
+Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center, both arms thrown overhead, mouth open wide
+mid-"A!", maximum energy. Yellow cloud shirt, orange shorts.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> far left, one arm raised, other fist at chest, huge grin.
+Red rocket shirt, round glasses.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> far right, both arms above head, jumping. Teal star shirt,
+grey polka-dot skirt, white leggings, teal bag raised.
+Upper frame: three coral chalk A's — first small left, second medium center, third LARGE (fills upper
+third of frame) right.
+Background: warm yellow gradient LOC_DIRECT_ADDRESS.
+Camera: close-medium, slightly below eye level.
+3D animated, cartoon style. Absolute maximum vivid saturation.
+```
+
+**Camera and Motion Notes:**
+Start: close-medium, slightly below eye level. Three chalk A's pop at 1:57, 1:58, 1:59 — each larger
+than the last. Bounce Underscore on each. Each A: forward lean + clap + jump. Cut at 2:01 on the third
+A — that large chalk A nearly fills the frame.
+
+**Transition to Next Shot:**
+Straight cut — into the final hero shot where the show logo arrives.
+
+**Style Tags:**
+`loc-direct-address` `char-sunny-leo-mia` `section-final-chorus` `call-and-response-max` `chalk-A-escalating` `beat-sync-cut-on-A-jump-on-clap` `energy-3-max`
+
+---
+
+**SHOT A26**
+Time Range: 2:01–2:05
+Lyric Cue: *"A words are awesome every day!"*
+Energy Level: 3+ MAX | SHOW LOGO ARRIVES THIS SHOT
+Beat-Sync: Show logo exclamation mark pops on the final downbeat of "every day!" at 2:04. Maximum Bounce Underscore on "awesome."
+
+**Story Beat:**
+The widest, most triumphant shot of the song. All three in the neighborhood street, arms wide, caught
+mid-celebration — the entire world behind them, the sky filled with musical notes. The show title logo
+"Sunny and the Crew!" animates in from above, letters bouncing in one per downbeat, settling above the
+characters. The chalk word "AWESOME" returns golden, floating above the logo. This image burns into memory.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A26
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+[Mayor Mary: <<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Ultra-wide triumphant shot of LOC_NEIGHBORHOOD_STREET: Sunny
+<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> center street, caught mid-jump, arms spread fully, feet off
+ground, face to the sky in open-mouth joy. Yellow cloud shirt, orange shorts mid-flare, pigtails flying.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> far left, arm stretched toward sky, round glasses, red
+rocket shirt, navy cargo shorts.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> far right, spinning, teal star shirt, grey polka-dot skirt
+airborne, white leggings, teal crossbody bag swinging.
+Mayor Mary <<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>> background right, arms raised in celebration,
+royal purple blazer, gold mayoral pin gleaming.
+Sky: filled with translucent musical notes in show palette colors. Above: show title "Sunny and the Crew!"
+in rounded bubble letters animating in from top of frame — yellow "Sunny," white "and the Crew!" with
+coral outline, letters bouncing in on downbeats, exclamation mark last. Golden chalk "AWESOME" above logo.
+Sparkle Trail connecting all three main characters. Stylized background figures celebrating.
+Camera: ultra-wide, lowest angle of the song. Street level, ankle height.
+3D animated, cartoon style. Absolute maximum vivid saturation — most vivid frame of the episode.
+```
+
+**Camera and Motion Notes:**
+Start: ultra-wide, lowest angle. Logo letters animate in from frame top one per downbeat at 2:01–2:03.
+Exclamation mark pops last at 2:03.5 with a starburst. On "awesome" at 2:01: maximum Bounce Underscore
+(108%→100%). On "every day!" at 2:04: EXCLAMATION MARK OF LOGO POPS — final Bounce Underscore. Sparkle
+Trail plays. Camera holds completely static. Cut at 2:05 hard into Outro warmth.
+
+**Transition to Next Shot:**
+TYPE B — Warm Fade. Golden glow from edges — a gentle exhale after the finale.
+
+**Style Tags:**
+`loc-neighborhood-street` `char-sunny-leo-mia-mayor-mary` `section-final-chorus` `show-logo-arrival` `chalk-AWESOME` `sparkle-trail` `energy-3-absolute-max`
+
+---
+
+══════════════════════════════════════
+SECTION: OUTRO | 2:05–2:20 | 15 seconds
+Energy Level: 2 — Warm (gentle resolution; the song hugs the viewer goodbye)
+Narrative Purpose: Celebrate the child for completing the song. Reinforce the learning. Send off with love.
+Visual Goal: Viewer feels proud, warm, and seen. The outro is a hug, not a performance.
+Shot count: 2
+══════════════════════════════════════
+
+---
+
+**SHOT A27**
+Time Range: 2:05–2:12
+Lyric Cue: *"Great job friends you did it today! / We learned our A words — hip hip hooray!"*
+Energy Level: 2
+Beat-Sync: Sunny's thumbs-up on "you did it" at 2:06. Arm-raise on "hooray" at 2:10. Show logo appears soft at 2:10.
+
+**Story Beat:**
+Sunny on her front porch steps — the most intimate location in the show. She is at the viewer's eye
+level, not performing: speaking to one child. Her thumbs-up is genuine praise. Leo and Mia join at
+2:09 on "hooray" — all three do one warm shared arm-raise. Show logo appears soft and small in
+upper corner. No jumping. Just warmth.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A27
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Medium shot: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> seated on LOC_SUNNY_PORCH steps, leaning
+slightly forward at viewer's eye level. Expression: warm, direct, genuinely proud — real praise, not
+performance. One hand rests on knee, one hand holds a soft thumbs-up toward camera. Yellow cloud shirt,
+orange shorts, pigtails settling from the day's energy.
+Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> to Sunny's left on the porch step, arm raised in gentle
+"hooray" gesture, quiet satisfied smile, round glasses, red rocket shirt.
+Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> to Sunny's right, both arms raised on "hooray!", teal star
+shirt, grey polka-dot skirt, white leggings.
+Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
+Upper-right corner: show title "Sunny and the Crew!" logo, soft and small, at rest.
+Camera: medium shot at Sunny's seated eye level. No camera movement.
+3D animated, cartoon style. Warm golden-hour palette. Intimate and unhurried.
+```
+
+**Camera and Motion Notes:**
+Start: medium shot, seated eye level. No camera movement. On "you did it" at 2:06: Sunny's thumbs-up
+lands — the direct praise beat. Leo and Mia join at 2:09 — arm-raise on "hooray." Show logo appears
+soft at 2:10 in upper-right. Bounce Underscore plays SOFTLY (103%→100%) — gentlest version.
+Cut at 2:12 into the final goodbye.
+
+**Transition to Next Shot:**
+Straight cut — to the final goodbye close-up.
+
+**Style Tags:**
+`loc-sunny-porch` `char-sunny-leo-mia` `section-outro` `viewer-praise` `show-logo-soft` `warm-celebration` `energy-2`
+
+---
+
+**SHOT A28 — FINAL FRAME**
+Time Range: 2:12–2:20
+Lyric Cue: *"See you next time — bye bye bye!"*
+Energy Level: 2 → resolves to silence
+Beat-Sync: Camera pull-back begins on "bye bye" at 2:14. Music sting on final "bye!" at 2:18. Frame holds 2 seconds. Warm fade.
+
+**Story Beat:**
+The final shot of the song — and of the episode song segment. Sunny alone in soft close-up, waving
+slowly with both hands. Genuine waves, not rushed. Leo and Mia visible over her shoulders waving too.
+This is Sunny speaking to the viewer as a child, not as an audience. On "bye bye bye" the camera
+begins a slow, gentle pull-back — the world remaining as we leave it. Frame freezes on final wave.
+Music sting. Warm silence holds 2 seconds.
+
+**Image Prompt:**
+```
+CHARACTER LOCK — A_IS_AMAZING A28
+[Sunny: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+[Leo: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+[Mia: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
+
+SAFETY CHECK:
+- No age descriptors used: CONFIRMED
+- No word "Pixar" used: CONFIRMED
+
+SCENE PROMPT:
+Close-medium shot: Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> on LOC_SUNNY_PORCH steps, facing
+camera, waving slowly with both hands raised in a big warm genuine wave. A real smile that reaches her
+eyes. Yellow cloud shirt, orange shorts, pigtails lit by warm golden-hour light from the porch.
+Over her left shoulder: Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> waving one hand with a quiet grin,
+glasses, red rocket shirt.
+Over her right shoulder: Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> waving both hands enthusiastically.
+Teal star shirt, grey polka-dot skirt, white leggings.
+Background: LOC_SUNNY_PORCH in golden-hour light, soft and warm.
+Upper frame: show title "Sunny and the Crew!" logo, soft and warm, at rest and holding.
+Camera: close-medium at Sunny's eye level.
+3D animated, cartoon style. Golden-hour palette. Mood: warm, safe, loved.
+```
+
+**Camera and Motion Notes:**
+Start: close-medium at Sunny's eye level. On "bye bye" at 2:14: camera begins a slow, gentle pull-back —
+the neighborhood world slowly revealed behind the porch. On final "bye!" at 2:18: MUSIC STING — outro sting.
+Show logo does a final gentle bounce and holds. Camera holds. Frame fades gently to warm black over 1 second.
+[END]
 
 **Transition to Next Shot:**
 Gentle fade to warm black. No further shots.
 
-**Style Consistency Tags:**
-`loc-sunny-porch` `char-sunny-final-wave` `energy-level-2-resolving` `time-golden-hour` `section-outro-final` `show-logo-final` `pull-back-goodbye` `3d-pixar-style`
+**Style Tags:**
+`loc-sunny-porch` `char-sunny-leo-mia` `section-outro-final` `show-logo-final` `pull-back-goodbye` `music-sting` `energy-2-resolving`
 
 ---
 
 ## PRODUCTION-READY SHOT MAP
 
-| Shot | Time | Section | Lyric / MUSIC ONLY | Characters On Screen | Location | Camera | Main Action | Tags |
+| Shot | Time | Section | Lyric / MUSIC ONLY | Characters | Location | Camera | Beat-Sync | Element IDs |
 |---|---|---|---|---|---|---|---|---|
-| 01 | 0:00–0:02 | Intro | "Hey friends it's time to play!" | Sunny, Leo (BG), Mia (BG) | Backyard — gate | Low-angle medium, push-in | Sunny bursts through backyard gate, arms wide | `loc-backyard` `section-intro` `char-sunny` `energy-3` |
-| 02 | 0:02–0:04 | Intro | "Let's learn our A words today!" | Sunny | Direct Address | Close-up, static | Sunny addresses camera, Letter A badge pops | `loc-direct-address` `section-intro` `letter-badge-A` `energy-3` |
-| 03 | 0:04–0:07 | Verse 1 | "Apple apple big and red" | Sunny, Leo, Mia | Backyard | Wide medium, slow push-in | Sunny holds apple high; chalk APPLE floats in | `loc-backyard` `section-verse-1` `prop-apple` `energy-3` |
-| 04 | 0:07–0:10 | Verse 1 | "Apple apple overhead" | Sunny, Mia | Backyard — sky | Medium, upward tilt | Mia reaches for tossed apple; note trails | `loc-backyard-sky` `section-verse-1` `prop-apple-toss` `energy-3` |
-| 05 | 0:10–0:13 | Verse 1 | "Crunch it up from core to top" | Sunny, Leo, Mia | Backyard | Close-medium, static | All three perform dramatic crunch; viewer joins | `loc-backyard` `section-verse-1` `action-crunch` `energy-3` |
-| 06 | 0:13–0:16 | Verse 1 | "An apple snack that just won't stop!" | Sunny, Leo, Mia | Backyard | Wide, Dutch tilt | Leo dives for rolling apple; all three laughing | `loc-backyard` `section-verse-1` `pre-chorus` `energy-3` |
-| 07 | 0:16–0:18 | Chorus 1 | "A is amazing A is the best" | Sunny, Leo, Mia | Backyard | Low-angle wide, push-in | Hero wide — all arms spread; A badge bounces | `loc-backyard` `section-chorus-1` `hero-wide` `energy-3` |
-| 08 | 0:18–0:21 | Chorus 1 | "A is the letter we love the most" | Sunny | Direct Address | Medium, static | Sunny places hands on heart, opens toward camera | `loc-direct-address` `section-chorus-1` `emotional-warmth` `energy-3` |
-| 09 | 0:21–0:23 | Chorus 1 | "Sing it with me — A A A!" | Sunny, Leo, Mia | Direct Address | Medium, static | All three call "A" to camera; three chalk A's pop | `loc-direct-address` `section-chorus-1` `call-response` `energy-3` |
-| 10 | 0:23–0:26 | Chorus 1 | "A words are awesome every day!" | Sunny, Leo, Mia | Backyard | Wide, push-in | Full celebration; AWESOME chalk; sparkle trail | `loc-backyard` `section-chorus-1` `celebration-peak` `energy-3` |
-| 11 | 0:26–0:29 | Verse 2 | "Airplane airplane in the sky" | Sunny, Leo, Mia | Backyard — sky | Medium-wide, upward tilt | All three look up at toy airplane; chalk AIRPLANE | `loc-backyard-sky` `section-verse-2` `prop-airplane` `energy-3` |
-| 12 | 0:29–0:32 | Verse 2 | "Airplane airplane flying high" | Sunny, Mia, Leo | Backyard — overhead | Overhead 35°, push-in | Sunny + Mia do airplane arms; Leo draws | `loc-backyard-sky` `section-verse-2` `action-airplane-arms` `energy-3` |
-| 13 | 0:32–0:35 | Verse 2 | "Spreading wings and zooming free" | Sunny, Mia, Leo | Backyard | Wide, tracking pan | Sunny + Mia run as airplanes; Leo cheers | `loc-backyard` `section-verse-2` `action-airplane-run` `energy-3` |
-| 14 | 0:35–0:38 | Verse 2 | "An airplane goes where it wants to be!" | Sunny, Mia | Backyard | Medium, static | Sunny points at camera; airplane final pass | `loc-backyard` `section-verse-2` `viewer-address` `energy-3` |
-| 15 | 0:38–0:41 | Chorus 2 | "A is amazing A is the best" | Sunny, Leo, Mia | Park — playground | Low-angle wide, push-in | Sunny on slide top; Mia on swing; Leo below | `loc-park` `section-chorus-2` `playground-hero` `energy-3` |
-| 16 | 0:41–0:44 | Chorus 2 | "A is the letter we love the most" | Mia, Sunny, Leo | Park | Medium, hip height | Mia jumps off swing; heart pop fires | `loc-park` `section-chorus-2` `mia-hero` `heart-pop` `energy-3` |
-| 17 | 0:44–0:46 | Chorus 2 | "Sing it with me — A A A!" | Sunny, Mia, Leo | Direct Address | Close-medium, static | Group calls "A" together; three chalk A's pop | `loc-direct-address` `section-chorus-2` `call-response` `energy-3` |
-| 18 | 0:46–0:48 | Chorus 2 | "A words are awesome every day!" | Sunny, Leo, Mia | Park | Wide low-angle, static | Max celebration; AWESOME + sparkle trail | `loc-park` `section-chorus-2` `celebration-max` `energy-3` |
-| 19 | 0:48–0:50 | Bridge | "Apple makes our tummies glad!" | Sunny, Mia | Backyard — golden hour | Medium, slow push-in | Two friends share apple snack quietly | `loc-backyard` `section-bridge` `warm-cozy` `energy-2` |
-| 20 | 0:50–0:52 | Bridge | "Airplane is the best we've had!" | Leo | Backyard — golden hour | Medium, static | Leo shows notebook airplane drawing to camera | `loc-backyard` `section-bridge` `char-leo-solo` `energy-2` |
-| 21 | 0:52–0:54 | Bridge | "A words make the whole day bright" | Sunny, Leo, Mia | Backyard — golden hour | Wide, waist height | Three together in warm evening light; lens flare | `loc-backyard` `section-bridge` `warm-silhouette` `energy-2` |
-| 22 | 0:54–0:56 | Bridge | "A words always feel just right!" | Sunny | Direct Address | Close-up, push-in accelerating | Sunny turns to camera, smile grows; builds energy | `loc-direct-address` `section-bridge` `anticipation-build` `energy-2-to-3` |
-| 23 | 0:56–0:59 | Final Chorus | "A is amazing A is the best" | Sunny, Leo, Mia | Neighborhood Street | Ultra-wide, ankle height | All run toward camera; giant A badge in sky | `loc-street` `section-final-chorus` `hero-ultra-wide` `energy-3-max` |
-| 24 | 0:59–1:02 | Final Chorus | "A is the letter we love the most" | Sunny, Leo, Mia | Neighborhood Street | Medium, eye level | Spontaneous group hug; heart pop | `loc-street` `section-final-chorus` `group-hug` `heart-pop` `energy-3-max` |
-| 25 | 1:02–1:04 | Final Chorus | "Sing it with me — A A A!" | Sunny, Leo, Mia | Direct Address | Close-medium, slightly below | All call "A"; escalating chalk A's (small→large) | `loc-direct-address` `section-final-chorus` `call-response-max` `energy-3-max` |
-| 26 | 1:04–1:06 | Final Chorus | "A words are awesome every day!" | Sunny, Leo, Mia | Neighborhood Street | Ultra-wide, street level | **SHOW LOGO ARRIVES** — max celebration | `loc-street` `section-final-chorus` `show-logo-arrival` `energy-3-max` |
-| 27 | 1:06–1:09 | Outro | "Great job friends you did it today!" | Sunny | Front Porch | Close-medium, seated eye level | Sunny praises viewer directly; thumbs-up | `loc-porch` `section-outro` `viewer-praise` `energy-2` |
-| 28 | 1:09–1:12 | Outro | "We learned our A words — hip hip hooray!" | Sunny, Leo, Mia | Front Porch | Medium, seated eye level | All three do warm arm-raise; logo returns soft | `loc-porch` `section-outro` `warm-celebration` `energy-2` |
-| 29 | 1:12–1:14 | Outro | "See you next time — bye bye bye!" | Sunny (lead), Leo + Mia (BG) | Front Porch | Close-medium → pull back | **FINAL FRAME** — Sunny waves; slow pull back; fade | `loc-porch` `section-outro-final` `show-logo-final` `pull-back` `energy-2` |
+| A01 | 0:00–0:06 | Intro | "Hey friends… / Let's learn…" | Sunny, Leo, Mia | Direct Address | Medium, push-in | Letter A badge on "A words" | Sunny ✅, Leo ✅, Mia ✅ |
+| A02 | 0:06–0:12 | Verse 1 | "Apple apple big and red" | Sunny, Leo, Mia | Backyard | Wide med, push-in | Bounce on 2nd "apple" | Sunny ✅, Leo ✅, Mia ✅ |
+| A03 | 0:12–0:18 | Verse 1 | "Apple apple overhead" | Sunny, Mia | Backyard sky | Med, upward tilt | Apple peak on "overhead" | Sunny ✅, Mia ✅ |
+| A04 | 0:18–0:23 | Verse 1 | "Crunch it up from core to top" | Sunny, Leo, Mia | Backyard | Close-med, static | Bounce + crunch SFX on "crunch" | Sunny ✅, Leo ✅, Mia ✅ |
+| A05 | 0:23–0:27 | Verse 1 | "An apple snack that just won't stop!" | Sunny, Leo, Mia | Backyard | Wide, Dutch tilt | Cut on Leo's catch at "stop!" | Sunny ✅, Leo ✅, Mia ✅ |
+| A06 | 0:27–0:30 | Verse 1 crest | *(instrumental fill)* | Sunny, Leo, Mia | Backyard | Close-med, accelerating push-in | Energy crest before chorus | Sunny ✅, Leo ✅, Mia ✅ |
+| A07 | 0:30–0:36 | Chorus 1 | "A is amazing A is the best" | Sunny, Leo, Mia | Backyard | Low-wide, push-in → hold | **ZOOM COMPLETES ON "AMAZING" 0:31** | Sunny ✅, Leo ✅, Mia ✅ |
+| A08 | 0:36–0:40 | Chorus 1 | "A is the letter we love the most" | Sunny | Direct Address | Med, static | Hands open toward camera on "love" | Sunny ✅ |
+| A09 | 0:40–0:44 | Chorus 1 | "Sing it with me — A A A!" | Sunny, Leo, Mia | Direct Address | Med, static | **CUT ON FIRST A. JUMP SYNCS TO CLAP ON EACH A.** 3 chalk A's | Sunny ✅, Leo ✅, Mia ✅ |
+| A10 | 0:44–0:48 | Chorus 1 | "A words are awesome every day!" | Sunny, Leo, Mia | Backyard | Wide, push-in | Bounce on "awesome"; sparkle trail | Sunny ✅, Leo ✅, Mia ✅ |
+| A11 | 0:48–0:54 | Verse 2 | "Airplane airplane in the sky" | Sunny, Leo, Mia | Backyard sky | Med-wide, upward tilt | Chalk AIRPLANE on 2nd "airplane" | Sunny ✅, Leo ✅, Mia ✅ |
+| A12 | 0:54–1:00 | Verse 2 | "Airplane airplane flying high" | Sunny, Leo, Mia | Backyard sky | Overhead 35°, push-in | Freeze frame at "high" 1:00 | Sunny ✅, Leo ✅, Mia ✅ |
+| A13 | 1:00–1:06 | Verse 2 | "Spreading wings and zooming free" | Sunny, Mia, Leo | Backyard | Wide, tracking pan | Pan accelerates on "zooming" | Sunny ✅, Leo ✅, Mia ✅ |
+| A14 | 1:06–1:09 | Verse 2 | "An airplane goes where it wants to be!" | Sunny, Mia | Backyard | Med, static | Point at camera on "where" 1:07 | Sunny ✅, Mia ✅ |
+| A15 | 1:09–1:12 | Verse 2 crest | *(instrumental fill)* | Sunny, Leo, Mia | Backyard | Close-med, accelerating | Leo shows notebook; energy builds | Sunny ✅, Leo ✅, Mia ✅ |
+| A16 | 1:12–1:18 | Chorus 2 | "A is amazing A is the best" | Sunny, Leo, Mia | Coop Playground | Low-wide, push-in → hold | **ZOOM COMPLETES ON "AMAZING" 1:13** | Sunny ✅, Leo ✅, Mia ✅ |
+| A17 | 1:18–1:23 | Chorus 2 | "A is the letter we love the most" | Mia, Sunny, Leo | Coop Playground | Med, hip height | Mia jump peak freeze on "love" 1:20; heart pop landing | Sunny ✅, Leo ✅, Mia ✅ |
+| A18 | 1:23–1:27 | Chorus 2 | "Sing it with me — A A A!" | Sunny, Leo, Mia | Direct Address | Close-med, static | **CUT ON FIRST A. JUMP SYNCS TO CLAP.** 3 chalk A's | Sunny ✅, Leo ✅, Mia ✅ |
+| A19 | 1:27–1:30 | Chorus 2 | "A words are awesome every day!" | Sunny, Leo, Mia | Coop Playground | Wide low-angle, static | Bounce on "awesome"; sparkle trail | Sunny ✅, Leo ✅, Mia ✅ |
+| A20 | 1:30–1:37 | Bridge | "Apple… glad! / Airplane… had!" | Sunny, Leo, Mia | Backyard golden hour | Med, gentle push-in | Tummy-pat 1:31; notebook lift 1:35 | Sunny ✅, Leo ✅, Mia ✅ |
+| A21 | 1:37–1:41 | Bridge | "A words make the whole day bright" | Sunny, Leo, Mia | Backyard golden hour | Wide, waist height, static | Lens flare peaks on "bright" 1:40 | Sunny ✅, Leo ✅, Mia ✅ |
+| A22 | 1:41–1:45 | Bridge | "A words always feel just right!" | Sunny | Direct Address | Close-up, push-in accelerating | Smile peaks on "right" 1:44 | Sunny ✅ |
+| A23 | 1:45–1:52 | Final Chorus | "A is amazing A is the best" | Sunny, Leo, Mia, Mayor Mary | Neighborhood Street | Ultra-wide, ankle height | **ZOOM COMPLETES ON "AMAZING" 1:46.** A badge rotates once. | Sunny ✅, Leo ✅, Mia ✅, Mayor Mary ✅ |
+| A24 | 1:52–1:57 | Final Chorus | "A is the letter we love the most" | Sunny, Leo, Mia, Mayor Mary BG | Neighborhood Street | Med, eye level | Heart Pop on "love" 1:53 | Sunny ✅, Leo ✅, Mia ✅, Mayor Mary ✅ |
+| A25 | 1:57–2:01 | Final Chorus | "Sing it with me — A A A!" | Sunny, Leo, Mia | Direct Address | Close-med, below eye | **CUT ON FIRST A 1:57. JUMP SYNCS TO CLAP.** A's escalate small→med→LARGE | Sunny ✅, Leo ✅, Mia ✅ |
+| A26 | 2:01–2:05 | Final Chorus | "A words are awesome every day!" | Sunny, Leo, Mia, Mayor Mary | Neighborhood Street | Ultra-wide, street level | **SHOW LOGO ARRIVES.** Exclamation mark pops on final downbeat. Bounce + sparkle. | Sunny ✅, Leo ✅, Mia ✅, Mayor Mary ✅ |
+| A27 | 2:05–2:12 | Outro | "Great job… / We learned… hooray!" | Sunny, Leo, Mia | Sunny's Porch | Med, seated eye level | Thumbs-up on "you did it" 2:06; arm-raise on "hooray" 2:10 | Sunny ✅, Leo ✅, Mia ✅ |
+| A28 | 2:12–2:20 | Outro final | "See you next time — bye bye bye!" | Sunny (lead), Leo + Mia (BG) | Sunny's Porch | Close-med → pull back | **FINAL FRAME.** Music sting 2:18. Pull-back. Logo holds. Warm fade. | Sunny ✅, Leo ✅, Mia ✅ |
 
 ---
 
-*End of "A is Amazing" Animatic Prompt Bible v1.0*
-*All character designs: see visual_world_bible.md*
-*All shot prompts require CHARACTER LOCK HEADER from show_bible.json prepended before generation*
+*End of "A Is Amazing" Animatic Prompt Bible v2.0*
+*Version 1.0 (2026-07-06) superseded — wrong character descriptions, no element IDs, wrong timing*
+*All character designs: see characters.json and visual_world_bible.md*
+*All shot prompts require CHARACTER LOCK HEADER embedded above — do not generate without it*
+*4 element IDs confirmed and embedded: Sunny, Leo, Mia, Mayor Mary*
+*nano_banana_2 is the confirmed Higgsfield generation model for all shots*
