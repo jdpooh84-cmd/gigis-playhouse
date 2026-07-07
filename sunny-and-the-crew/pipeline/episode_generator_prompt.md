@@ -101,7 +101,7 @@ The following characters have NO locked element ID. Use their pose job ID as
 | **Pipa** | Girl with artistic braids or locs, beaded. Paint-stained fingers. Flowy patterned top. Creative, expressive. | `08a4f193-294c-4b90-afa3-513f7229c797` | — |
 | **Bram** | Boy with helmet and knee pads. Colorful skateboard with distinctive graphic. Confident, cool, always on or near his board. | `43fa73d8-9f8b-40b4-bfab-0477bc04829f` | — |
 | **Nana Blossom** | Tall elder woman. Natural silver-white hair. Warm deep brown skin. Colorful floral apron. **ALWAYS the TALLEST character on screen.** | `f9e27584` (welcome_arms_wide) | TALLEST. |
-| **Mayor Mary** | Cheerful official. Mayor's sash prominently displayed. Festive bright official outfit. Campaign button. | No confirmed pose job ID — use text description only | — |
+| **Mayor Mary** | Cheerful official. Mayor's sash prominently displayed. ROYAL PURPLE blazer, GOLD mayoral pin on lapel. | `<<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>` + start_image: `55122193-47b5-41b9-b615-eae22c0fbd20` | — |
 | **Ava** | Warm, expressive girl. Big open eyes. Natural welcoming posture. | `c18df2b0` (welcome) | — |
 | **Rico** | Confident boy. Basketball always present. Sneakers prominent. Relaxed sidewalk stance. | `f661c59c` (sidewalk_basketball) | — |
 | **Rena** | Creative girl. Paint-stained hands and smock. **Small multicolor paint smudge on LEFT CHEEK — always present, never missing.** | `449409c2` (garden_paintbrush) | LEFT CHEEK smudge. |
@@ -226,7 +226,7 @@ Output a single valid JSON file with this exact structure:
 **Rules for the medias array:**
 - For Sunny, Leo, Mia: DO NOT include a `start_image` media entry — their `<<<UUID>>>` in the prompt handles the reference
 - For other characters with pose job IDs: include `{ "type": "start_image", "job_id": "[pose_job_id]" }`
-- For Mayor Mary (no pose job ID): omit the medias array entirely for her shots
+- For Mayor Mary: include her `<<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>` element ID inline in the prompt AND include `{ "type": "start_image", "job_id": "55122193-47b5-41b9-b615-eae22c0fbd20" }` in the medias array
 - Multiple characters with pose job IDs in one shot: include one entry per character
 
 **Rules for shot IDs:**

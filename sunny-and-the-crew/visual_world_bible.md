@@ -22,6 +22,48 @@ Version 2.0 | 2026-07-07 | SOURCE OF TRUTH
 
 ---
 
+## 1B — Theme Song (Official Locked Lyrics)
+
+**Song:** "Sunny and the Crew Theme Song"
+**Duration:** 0:45 | **BPM:** 105 | **Style:** Kids pop, ukulele, hand claps
+
+```
+[INTRO — 0:00-0:04 — instrumental only, ukulele strum builds]
+
+[VERSE 1 — 0:04-0:12]
+Come on outside the day is new
+Got something fun for me and you
+Friends are waiting what do we do
+It's time to roll with the whole crew!
+
+[CHORUS — 0:12-0:28]
+Sunny and the Crew!
+We're coming through!
+Something to learn and something to do!
+Sunny and the Crew!
+Me and you!
+Every single day we start brand new!
+
+[VERSE 2 — 0:28-0:36]
+Bram and Pipa Koda too
+Mimi's always got a clue
+Nana Blossom Captain Blue
+Everybody welcome to the crew!
+
+[FINAL CHORUS — 0:36-0:44]
+Sunny and the Crew!
+We're coming through!
+Something to learn and something to do!
+Sunny and the Crew — that's me and you!
+
+[OUTRO STING — 0:44-0:45]
+Hey! [ukulele hit]
+```
+
+> ⚠ "Captain Blue" (Verse 2, line 3) is an unconfirmed character name. Identity requires creator confirmation before the T13 animatic shot can be finalized.
+
+---
+
 ## 2A — Global Style and Format
 
 **Animation Style:** 3D CGI in the tradition of Pixar and Illumination — characters have soft, round forms, expressive oversized eyes, and smooth motion with slight cartoon exaggeration. Think *Bluey* 's warmth in a 3D world. Every element is safe, bright, and child-friendly.

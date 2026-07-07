@@ -299,7 +299,10 @@
         "style": "3D animated"
       },
       "personality": "Authoritative but kind. Speaks clearly and warmly to children. Gets things done.",
-      "higgsfield_pose_job_ids": {},
+      "element_id": "3c1b33d2-ba1b-408c-8d69-b08c656de4bf",
+      "higgsfield_pose_job_ids": {
+        "pose_1_standing": "55122193-47b5-41b9-b615-eae22c0fbd20"
+      },
       "google_drive_image_ids": {
         "standing": "1h-oQ2bDiRRVv57wCgnvo4XeWogg3IlBi",
         "kneeling": "1hcYlihDT54mcYXc311N7xiPxLCzWkjdC"
