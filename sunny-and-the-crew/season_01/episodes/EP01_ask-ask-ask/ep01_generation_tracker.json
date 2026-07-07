@@ -2,7 +2,7 @@
   "_meta": {
     "document": "ep01_generation_tracker.json",
     "episode": "EP01 — Ask Ask Ask",
-    "last_updated": "2026-07-06",
+    "last_updated": "2026-07-07",
     "note": "Live tracking of all image and clip job IDs for EP01. Update status as jobs complete."
   },
 
@@ -19,10 +19,10 @@
     {
       "beat": "B06",
       "scene": "Leo broken rocket — all three in backyard",
-      "image_job_id": "6410d8e2-38f9-40d9-9d5a-bc5ce69f1242",
+      "image_job_id": "3f3b8f4f-f144-4e99-99fc-4f8a8a6db6e0",
       "image_status": "completed",
-      "note": "Text prompt only (no element reference for Leo/Mia yet)",
-      "clip_job_id": "a8e70fbc-2a7a-4869-8cf8-31c1361bd129",
+      "note": "REBUILT 2026-07-07 — locked elements: Sunny a40e2d56, Leo ab579f47, Mia 36f55b8e. Previous text-only generation superseded.",
+      "clip_job_id": "9fd1552b-e0b6-4ce7-8db4-62359679d51f",
       "clip_status": "completed"
     },
     {
@@ -37,18 +37,19 @@
     {
       "beat": "B10",
       "scene": "Leo close-up sad with broken rocket",
-      "image_job_id": "f0caf353-e1ac-4318-a005-7b6b4706700d",
+      "image_job_id": "37572bec-f2c0-48b4-a8c5-173dda225b6a",
       "image_status": "completed",
-      "clip_job_id": "113a57cf-e784-46d4-9b37-62744443a561",
+      "note": "REBUILT 2026-07-07 — locked element: Leo ab579f47. Previous text-only generation superseded.",
+      "clip_job_id": "d4add1c7-3846-4ca1-8374-da7b7296b490",
       "clip_status": "completed"
     },
     {
       "beat": "B11",
       "scene": "Sunny walking toward Leo to help",
-      "image_job_id": "bb2538fe-ce2a-40e5-bbda-bfda65f231c2",
+      "image_job_id": "23a05d42-047f-42d5-8a8b-32aa43c01a87",
       "image_status": "completed",
-      "note": "Used Sunny element reference a40e2d56 — best consistency version",
-      "clip_job_id": "0fd18f4c-3cb1-4bbb-aa1c-0ada581e8d42",
+      "note": "REBUILT 2026-07-07 — locked element: Sunny a40e2d56. Rebuilt to align with Leo/Mia element ID release.",
+      "clip_job_id": "e082971c-b81e-47fa-b317-c906a1792caf",
       "clip_status": "completed"
     },
     {
@@ -56,25 +57,28 @@
       "scene": "Mia helping Leo with rocket",
       "image_job_id": "f16e2e0e-cd82-48c5-b65a-009e899e1616",
       "image_status": "completed",
-      "clip_job_id": "4e40a36a-fcbc-4ce0-b025-aba66c4b3bd3",
+      "image_job_id": "f9c0c77b-e8d8-4202-8039-64151cf7119b",
+      "image_status": "completed",
+      "clip_job_id": "5d60b11c-a127-40b8-81e0-4e89b7100e19",
       "clip_status": "completed",
-      "note": "Original clip a0d6cd81 was stuck in_progress — re-submitted 2026-07-06 as 4e40a36a; completed and included in assembly bb9ed13e"
+      "note": "REBUILT 2026-07-07 — locked elements: Leo ab579f47, Mia 36f55b8e. Previous text-only generation superseded."
     },
     {
       "beat": "B15",
       "scene": "Leo raises hand brave and proud",
-      "image_job_id": "e3145355-528a-487c-bc92-b094caa7abe0",
+      "image_job_id": "f490b126-697d-4101-97b5-d468d508c7bf",
       "image_status": "completed",
-      "clip_job_id": "c6e993a1-2471-44b5-9b2d-315e1c01aa7e",
+      "note": "REBUILT 2026-07-07 — locked element: Leo ab579f47. Previous text-only generation superseded.",
+      "clip_job_id": "6715c7de-9da7-46d1-9131-ce6ee970b5d6",
       "clip_status": "completed"
     },
     {
       "beat": "B16",
       "scene": "Full crew celebration fixed rocket",
-      "image_job_id": "201fd9ac-db0a-45ce-8f76-bc00aa41c79c",
+      "image_job_id": "6218f483-a0c1-4182-ad6f-66eba2b93d8e",
       "image_status": "completed",
-      "note": "Used Sunny element reference a40e2d56 + text descriptions for Leo/Mia. Retried after preset recommendation decline.",
-      "clip_job_id": "1fc05146-bc12-49fd-9111-ae832d5de96c",
+      "note": "REBUILT 2026-07-07 — locked elements: Sunny a40e2d56, Leo ab579f47, Mia 36f55b8e. Previous partial-element generation superseded.",
+      "clip_job_id": "cc77e242-6719-4191-8294-d9304854b9c3",
       "clip_status": "completed"
     },
     {
@@ -107,9 +111,10 @@
     {
       "beat": "B22",
       "scene": "Leo holding fixed rocket triumphant",
-      "image_job_id": "b3723f31-6aaa-4cc7-b355-2cb0f95393cc",
+      "image_job_id": "742e4839-67aa-4792-b499-2ddc4b6300d2",
       "image_status": "completed",
-      "clip_job_id": "a6f1d589-9ca8-44bc-a326-11c6e715108e",
+      "note": "REBUILT 2026-07-07 — locked element: Leo ab579f47. Previous text-only generation superseded.",
+      "clip_job_id": "69bfbc44-c2ac-4eeb-94d8-ee1b20b740f6",
       "clip_status": "completed"
     },
     {
@@ -151,7 +156,7 @@
 
   "assembly": {
     "final_clip_order": ["B01","B02","B03","B04","B05","B06","B07","B08","B09","B10","B11","B12","B13","B14","B15","B16","B17","B18","B19","B20","B21","B22","B23","B24"],
-    "clip_ids_in_order": [
+    "clip_ids_in_order_v1": [
       "89b53695-6072-4d6e-8323-83e37ce05fbb",
       "a2f26f5b-604a-4cce-bc93-04f53e1e29c6",
       "84c0c8e5-31a6-42a5-a7a6-ed6ce626e351",
@@ -177,11 +182,40 @@
       "793063bd-c7be-432a-bad0-9b17b042d89f",
       "03c22898-9316-4fcc-9c82-8520ea31031b"
     ],
-    "assembled_job_id": "bb9ed13e-ef84-4bfb-a2ea-5b99e140b178",
-    "assembled_status": "completed",
-    "assembled_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260706_051805_bb9ed13e-ef84-4bfb-a2ea-5b99e140b178.mp4",
-    "delivery_status": "assembled_ready_manual_delivery_needed",
-    "delivery_note": "Assembled video is complete on Higgsfield CDN. Remote env proxy blocks direct download. User must download from assembled_url and upload to Google Drive EP01 folder (1mojorVb70YDIgPyHtF75Ocr8NMRJ7K2Y). File name: EP01-Ask-Ask-Ask-FINAL.mp4",
+    "clip_ids_in_order_v2": [
+      "89b53695-6072-4d6e-8323-83e37ce05fbb",
+      "a2f26f5b-604a-4cce-bc93-04f53e1e29c6",
+      "84c0c8e5-31a6-42a5-a7a6-ed6ce626e351",
+      "52f86dc3-b700-48dc-b0ac-faeafb2341e3",
+      "9ba0eeb4-53ca-470a-baff-c48cda91ce96",
+      "9fd1552b-e0b6-4ce7-8db4-62359679d51f",
+      "c6475b12-2d30-44d3-92f6-755f519dd0fa",
+      "5c2e166b-a329-4948-aaad-a04a9b8941a1",
+      "ed18e34e-1561-4fd1-af75-b72c95f42e4f",
+      "d4add1c7-3846-4ca1-8374-da7b7296b490",
+      "e082971c-b81e-47fa-b317-c906a1792caf",
+      "18409372-cd74-426f-bd6b-406bf5da7dea",
+      "1afbd03a-d682-4392-a450-aade56b56c7c",
+      "5d60b11c-a127-40b8-81e0-4e89b7100e19",
+      "6715c7de-9da7-46d1-9131-ce6ee970b5d6",
+      "cc77e242-6719-4191-8294-d9304854b9c3",
+      "790aeb4c-805e-400c-bac3-1ec5c0b18a7e",
+      "a6ad43dd-68a4-48ec-a727-2b4c400880fe",
+      "6e485477-ced6-495a-a273-35198e2f493a",
+      "cf4e8824-6cd6-4919-910c-8e83a08ff0f6",
+      "7928010e-b01f-45c4-8979-38aeed9740a9",
+      "69bfbc44-c2ac-4eeb-94d8-ee1b20b740f6",
+      "793063bd-c7be-432a-bad0-9b17b042d89f",
+      "03c22898-9316-4fcc-9c82-8520ea31031b"
+    ],
+    "assembled_job_id_v1": "bb9ed13e-ef84-4bfb-a2ea-5b99e140b178",
+    "assembled_status_v1": "superseded — rebuilt with locked Leo/Mia element IDs 2026-07-07",
+    "assembled_url_v1": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260706_051805_bb9ed13e-ef84-4bfb-a2ea-5b99e140b178.mp4",
+    "assembled_job_id_v2": "93ef087a-fe1b-4074-9af7-a1574fa30845",
+    "assembled_status_v2": "completed — 2026-07-07, 24 clips with locked Leo/Mia element IDs",
+    "assembled_url_v2": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260707_004927_93ef087a-fe1b-4074-9af7-a1574fa30845.mp4",
+    "delivery_status": "assembled_awaiting_drive_upload",
+    "delivery_note": "Assembly v2 complete. User must download from assembled_url_v2 and upload to Drive folder (1mojorVb70YDIgPyHtF75Ocr8NMRJ7K2Y) as EP01-Ask-Ask-Ask-FINAL.mp4",
     "google_drive_file_id": null
   },
 
@@ -191,7 +225,16 @@
     "model_used_for_clips": "kling3_0_turbo — 5 second clips at 7.5 credits each",
     "model_used_for_b01": "openai_hazel — best text rendering for title card",
     "clip_generation_status": "24/24 clips completed. B14 re-submitted and completed (4e40a36a).",
-    "assembly_status": "COMPLETE — explainer_video job bb9ed13e completed 2026-07-06.",
-    "next_step": "User to download EP01 from assembled_url and upload to Google Drive EP01 folder. Then prepare YouTube metadata."
+    "assembly_status": "COMPLETE — assembly v2 delivered 2026-07-07. 7 clips rebuilt with locked Leo/Mia element IDs. Awaiting Drive upload.",
+    "rebuild_clip_jobs": {
+      "B06": "9fd1552b-e0b6-4ce7-8db4-62359679d51f",
+      "B10": "d4add1c7-3846-4ca1-8374-da7b7296b490",
+      "B11": "e082971c-b81e-47fa-b317-c906a1792caf",
+      "B14": "5d60b11c-a127-40b8-81e0-4e89b7100e19",
+      "B15": "6715c7de-9da7-46d1-9131-ce6ee970b5d6",
+      "B16": "cc77e242-6719-4191-8294-d9304854b9c3",
+      "B22": "69bfbc44-c2ac-4eeb-94d8-ee1b20b740f6"
+    },
+    "next_step": "Download assembled_url_v2 and upload to Drive folder 1mojorVb70YDIgPyHtF75Ocr8NMRJ7K2Y as EP01-Ask-Ask-Ask-FINAL.mp4. Then update google_drive_file_id."
   }
 }
