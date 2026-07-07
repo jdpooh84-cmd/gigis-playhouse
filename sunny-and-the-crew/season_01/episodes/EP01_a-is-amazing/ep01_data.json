@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "document": "ep01_data.json",
+    "episode": "EP01",
+    "status": "IN_PRODUCTION",
+    "last_updated": "2026-07-07",
+    "note": "A Is Amazing is now EP01 featured episode per Rachel Poole creative decision 2026-07-07."
+  },
+
+  "episode": {
+    "number": "EP01",
+    "title": "A Is Amazing",
+    "slug": "a-is-amazing",
+    "folder": "EP01_a-is-amazing",
+    "status": "in_production",
+    "learning_goal": "Letter A — Apple and Airplane — A is Amazing",
+    "learning_goal_age_appropriate": "Words that start with the letter A — like apple and airplane — are amazing, and A is the first letter of the alphabet.",
+    "age_target": "2-5",
+    "crew_members_featured": ["SUNNY", "LEO", "MIA", "MIMI", "NANA_BLOSSOM"],
+    "crew_members_cameo": ["MAYOR_MARY"],
+    "locations_used": [
+      "LOC_DIRECT_ADDRESS",
+      "LOC_NANA_PORCH",
+      "LOC_BACKYARD",
+      "LOC_NEIGHBORHOOD_STREET",
+      "LOC_COOP_PLAYGROUND",
+      "LOC_SUNNY_PORCH"
+    ],
+    "song_id": "MUSIC_EP01_SONG",
+    "song_title": "A Is Amazing",
+    "theme_song_id": "MUSIC_THEME"
+  },
+
+  "runtime": {
+    "theme_song_seconds": 44,
+    "story_setup_seconds": 101,
+    "pre_song_build_seconds": 19,
+    "episode_song_seconds": 140,
+    "wrap_up_seconds": 32,
+    "closing_sting_seconds": 8,
+    "total_seconds": 344,
+    "total_label": "5:44",
+    "within_target": true,
+    "target_range": "5:00 – 8:00"
+  },
+
+  "runtime_breakdown": {
+    "part_1_theme_song": {"label": "0:00–0:44", "duration": "0:44", "content": "Theme song plays"},
+    "part_2_story_setup": {"label": "0:44–2:25", "duration": "1:41", "content": "8-beat story — apple and airplane discovery, warm mistake, letter A reveal, call-and-response, count-in"},
+    "part_3_song_block": {"label": "2:25–5:04", "duration": "2:20 + 0:19 build", "content": "Star burst transition + A Is Amazing full song"},
+    "part_4_wrap_up": {"label": "5:04–5:36", "duration": "0:32", "content": "Recap dialogue — apple, airplane, letter A — proud moment, take-home A challenge"},
+    "part_5_closing_sting": {"label": "5:36–5:44", "duration": "0:08", "content": "Show logo, ukulele hit, Sunny goodbye on yellow porch"}
+  },
+
+  "story_concept": {
+    "research_principle_1": "Object-first — show apple and airplane before naming the letter A",
+    "research_principle_2": "Call-and-response — viewer says A words with Sunny before song",
+    "research_principle_3": "Physical movement cues — crunch the apple, fly like a plane, jump on A A A",
+    "research_principle_4": "Goodbye as reward — wrap-up validates viewer's effort, take-home challenge gives agency",
+    "opening_situation": "Sunny invites viewers in and heads to Nana Blossom's porch. Nana is holding a basket of apples.",
+    "discovery_1": "Mia spots the apple — big red, shiny, delicious. Everyone investigates it.",
+    "discovery_2": "Leo's paper airplane sails in — he made it himself. Everyone investigates it.",
+    "warm_mistake": "Leo guesses apple and airplane are the same because they're both red. Mia gently points out the airplane is white. No shame — just noticing.",
+    "turning_point": "Nana Blossom holds up the letter A card — apple and airplane both start with A!",
+    "call_and_response": "Sunny leads viewers through two direct-address questions — what does apple start with? What does airplane start with? — with 3-second viewer response holds.",
+    "song_moment": "Mimi runs in barefoot and asks to sing. Count-in, Star Burst transition, full A Is Amazing song.",
+    "lesson_delivered": "Letter A — apple and airplane — and A is AMAZING.",
+    "audience_takeaway": "Find one A word at your home today."
+  },
+
+  "element_ids_used": {
+    "sunny": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+    "leo": "ab579f47-e94f-406e-ae63-dd4fd6dd1b18",
+    "mia": "36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590",
+    "mayor_mary": "3c1b33d2-ba1b-408c-8d69-b08c656de4bf",
+    "mimi": "PENDING — use pose_job_id d21cc872 until locked",
+    "nana_blossom": "PENDING — use pose_job_ids f9e27584 or 7b2b3970 until locked"
+  },
+
+  "higgsfield_model": "nano_banana_2",
+
+  "production_files": {
+    "episode_bible": "ep01_episode_bible.md",
+    "dialogue_script": "scripts/ep01_dialogue_a_is_amazing.md",
+    "song_animatic": "../../songs/A_is_Amazing/animatic_prompt_bible.md",
+    "theme_animatic": "../../songs/Sunny_and_the_Crew/animatic_prompt_bible.md"
+  },
+
+  "open_items": [
+    "Mimi Higgsfield element ID — pending creation",
+    "Nana Blossom Higgsfield element ID — pending creation",
+    "Captain Blue Higgsfield element ID — pending creation (not in EP01 song, but in theme T13)",
+    "Koda Higgsfield element ID — pending creation",
+    "Rena Higgsfield element ID — pending creation",
+    "Video generation for all 28 A Is Amazing shots (animatic_prompt_bible.md A01-A28)",
+    "Video generation for theme song shots (T01-T19, T13 updated with Captain Blue text-only)",
+    "Assembly in Make.com — do NOT touch WILLO scenarios 5106170 / 5106176 / 5106181 / 5111331"
+  ]
+}
