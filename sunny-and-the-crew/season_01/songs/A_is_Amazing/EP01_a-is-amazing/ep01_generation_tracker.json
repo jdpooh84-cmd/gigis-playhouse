@@ -7,7 +7,7 @@
   "model_video": "seedance_2_0",
   "total_shots": 28,
   "pipeline": "image_then_video",
-  "status": "videos_firing_batch2_pending",
+  "status": "videos_firing_batch3_A23_A28_pending",
   "shots": [
     {
       "shot": "A01",
@@ -176,8 +176,8 @@
       "characters": ["Sunny", "Leo", "Mia"],
       "image_job_id": "fe98659e-2995-4602-85f2-4875ef64e345",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "9189283e-a1e7-4596-9b1e-703a081c9d65",
+      "video_status": "pending"
     },
     {
       "shot": "A18",
@@ -186,8 +186,8 @@
       "characters": ["Sunny", "Leo", "Mia"],
       "image_job_id": "ee1547ab-3617-4be4-8002-7286f7a03194",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "972b1930-9ba7-4ad8-8e5a-92e791e74a83",
+      "video_status": "pending"
     },
     {
       "shot": "A19",
@@ -196,8 +196,8 @@
       "characters": ["Sunny", "Leo", "Mia"],
       "image_job_id": "aabe1336-4da8-4fde-88f9-c8b28b218167",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "23eee806-9ec2-4872-8218-0b7d746bcad4",
+      "video_status": "pending"
     },
     {
       "shot": "A20",
@@ -206,8 +206,8 @@
       "characters": ["Sunny", "Leo", "Mia"],
       "image_job_id": "ced75bb6-e154-4d4b-a40b-b610638a5c44",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "a8423624-5877-4386-b1f9-c46c2231fc05",
+      "video_status": "pending"
     },
     {
       "shot": "A21",
@@ -216,8 +216,8 @@
       "characters": ["Sunny", "Leo", "Mia"],
       "image_job_id": "54a611c5-9c5d-485c-9981-625c01f5acf6",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "c5fd3417-7ce3-4051-bc31-7f7b87ceae2f",
+      "video_status": "pending"
     },
     {
       "shot": "A22",
@@ -226,8 +226,8 @@
       "characters": ["Sunny"],
       "image_job_id": "aad5834a-a152-41e9-b0ee-a17b09cf011d",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "6f2cfc90-7784-4e9e-8b0a-8526611ea8df",
+      "video_status": "pending"
     },
     {
       "shot": "A23",
