@@ -166,8 +166,8 @@
       "characters": ["Sunny", "Leo", "Mia"],
       "image_job_id": "1d16d2d6-0dee-4a98-adc9-e01a1b5e58b0",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "d699e858-7f0c-45ed-b6b7-c5a479283beb",
+      "video_status": "pending"
     },
     {
       "shot": "A17",
