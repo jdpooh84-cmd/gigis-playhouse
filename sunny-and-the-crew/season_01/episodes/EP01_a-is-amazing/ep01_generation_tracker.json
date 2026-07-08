@@ -7,7 +7,7 @@
   "model_video": "seedance_2_0",
   "total_shots": 28,
   "pipeline": "image_then_video",
-  "status": "a03_nsfw_regenerating",
+  "status": "all_28_videos_complete",
   "shots": [
     {
       "shot": "A01",
@@ -43,7 +43,8 @@
       "video_url": null,
       "regen_image_job_id": "2dafa9eb-a9f6-4b23-a6fd-9e640ee17c6c",
       "regen_video_job_id": "285637f1-403d-4ab3-af7b-67af020840cd",
-      "regen_status": "video_generating"
+      "regen_video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260708_212741_285637f1-403d-4ab3-af7b-67af020840cd.mp4",
+      "regen_status": "completed"
     },
     {
       "shot": "A04",
@@ -339,5 +340,47 @@
     },
     "a03_nsfw_note": "A03 video job e2f72016 was NSFW-rejected by seedance_2_0. New image being generated with nano_banana_2 — regen_image_job_id to be filled when complete.",
     "status_updated": "2026-07-08 — all 27 completed video CDN URLs populated from show_generations API"
+  },
+
+  "assembly": {
+    "final_clip_order": ["A01","A02","A03","A04","A05","A06","A07","A08","A09","A10","A11","A12","A13","A14","A15","A16","A17","A18","A19","A20","A21","A22","A23","A24","A25","A26","A27","A28"],
+    "clip_ids_in_order": [
+      "b326a6a5-072e-432f-b853-cbfb158070a9",
+      "2249a67f-7e49-4685-8733-39b04ffdd35c",
+      "285637f1-403d-4ab3-af7b-67af020840cd",
+      "c16488d2-ce21-4fd9-a8c3-fb839012e0d5",
+      "fd05d2f0-3cfc-4597-bb79-27783ebb882e",
+      "0eff4549-eefd-4056-a7c6-d5e5d3ab4267",
+      "de049e21-5bf5-4bca-be52-bf5bd290fbe2",
+      "a341a789-b4a2-4a0f-9ab9-ca635ce23f9f",
+      "bcb32a4c-d7c3-4346-995d-0bd6ca175e3a",
+      "1e41fc8b-dd9a-4206-b084-8a0d3ad32bf9",
+      "32dd9414-de12-4d31-9275-281b0c0aceaa",
+      "6c1fa9c9-bea4-4928-af91-c88f942d0d37",
+      "c019048e-af56-49b5-8d89-6100227dd52f",
+      "d883ef66-5371-4af2-9106-455682cd9488",
+      "9c8c42d6-65ae-467b-8762-ee6ed2bdb93e",
+      "d699e858-7f0c-45ed-b6b7-c5a479283beb",
+      "9189283e-a1e7-4596-9b1e-703a081c9d65",
+      "972b1930-9ba7-4ad8-8e5a-92e791e74a83",
+      "23eee806-9ec2-4872-8218-0b7d746bcad4",
+      "a8423624-5877-4386-b1f9-c46c2231fc05",
+      "c5fd3417-7ce3-4051-bc31-7f7b87ceae2f",
+      "6f2cfc90-7784-4e9e-8b0a-8526611ea8df",
+      "9639ea7c-512b-4afa-b54f-346a5d912816",
+      "e52c393f-b175-4c8f-a04f-2dbdbbbb11ad",
+      "53bdd18c-0b2d-4d3c-8078-b0626174a51e",
+      "cf96cc7c-1e4b-420c-87ac-4cc4d73de2da",
+      "3197bd75-baee-41be-aacc-deb0567192fd",
+      "66298d07-6122-4b6e-a5bb-ec018a815459"
+    ],
+    "assembled_job_id": "ab2ca754-3bd0-4a13-8dc3-047435254197",
+    "assembled_status": "completed — 2026-07-08, 28 clips A01-A28 (A03 uses regen job 285637f1)",
+    "assembled_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260708_213948_ab2ca754-3bd0-4a13-8dc3-047435254197.mp4",
+    "audio_note": "Assembly is video-only. Mix a-is-amazing.mp3 (140s) in post before final delivery.",
+    "delivery_status": "assembled_awaiting_drive_upload",
+    "delivery_note": "Run Make.com scenario 5575994 to download from assembled_url and upload to Drive FINALS folder as EP01-A-Is-Amazing-FINAL.mp4",
+    "delivery_drive_folder": "Sunny and the Crew — Production → FINALS — READY TO UPLOAD",
+    "google_drive_file_id": null
   }
 }
