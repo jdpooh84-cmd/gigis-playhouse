@@ -1,0 +1,304 @@
+{
+  "episode": "EP01",
+  "song": "A Is Amazing",
+  "season": "01",
+  "generation_date": "2026-07-08",
+  "model_image": "nano_banana_flash",
+  "model_video": "seedance_2_0",
+  "total_shots": 28,
+  "pipeline": "image_then_video",
+  "status": "images_queued_videos_pending",
+  "shots": [
+    {
+      "shot": "A01",
+      "section": "Intro",
+      "time_range": "0:00-0:06",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "5f571248-e2bb-4f2c-ba47-999ec543fa28",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A02",
+      "section": "Verse 1 - Apple",
+      "time_range": "0:06-0:12",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "8c2bd138-f025-4307-bd45-5200de6ddcc5",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A03",
+      "section": "Verse 1 - Apple",
+      "time_range": "0:12-0:18",
+      "characters": ["Sunny", "Mia"],
+      "image_job_id": "deb1e612-631c-4201-96b6-13e787ad2e98",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A04",
+      "section": "Verse 1 - Apple",
+      "time_range": "0:18-0:23",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "a92b7ff8-7792-4f50-9790-56260a4eaac9",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A05",
+      "section": "Verse 1 - Apple",
+      "time_range": "0:23-0:27",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "3a113fbc-1978-45fd-8720-7a24e376450c",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A06",
+      "section": "Verse 1 crest",
+      "time_range": "0:27-0:30",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "a1455154-b09c-41da-ad9b-dcbb3d49d1b4",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A07",
+      "section": "Chorus 1",
+      "time_range": "0:30-0:36",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "e16db0b4-5538-4b69-afdb-b5bbae08fb4f",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A08",
+      "section": "Chorus 1",
+      "time_range": "0:36-0:40",
+      "characters": ["Sunny"],
+      "image_job_id": "a419ec4f-8fc6-4f17-93d4-418d6229ffb2",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A09",
+      "section": "Chorus 1",
+      "time_range": "0:40-0:44",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "57cad886-a8ad-4007-b1d2-6d1a9b663247",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A10",
+      "section": "Chorus 1",
+      "time_range": "0:44-0:48",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "fe5a2538-2397-4702-9956-eb0b1b6512cf",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A11",
+      "section": "Verse 2 - Airplane",
+      "time_range": "0:48-0:54",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "309a2f31-6b60-4486-837b-127f8efa4fe7",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A12",
+      "section": "Verse 2 - Airplane",
+      "time_range": "0:54-1:00",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "f13c0a4e-71e8-4088-951d-f0eb68e63a8a",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A13",
+      "section": "Verse 2 - Airplane",
+      "time_range": "1:00-1:06",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "7219cf22-23bd-4984-8c71-95596ce1aa11",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A14",
+      "section": "Verse 2 - Airplane",
+      "time_range": "1:06-1:09",
+      "characters": ["Sunny", "Mia"],
+      "image_job_id": "8bdd0f9f-d69a-4625-9b48-e4cc2ebf16c3",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A15",
+      "section": "Verse 2 crest",
+      "time_range": "1:09-1:12",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "530f2162-5421-4d75-9042-3991fbd57025",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A16",
+      "section": "Chorus 2",
+      "time_range": "1:12-1:18",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "1d16d2d6-0dee-4a98-adc9-e01a1b5e58b0",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A17",
+      "section": "Chorus 2",
+      "time_range": "1:18-1:23",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "fe98659e-2995-4602-85f2-4875ef64e345",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A18",
+      "section": "Chorus 2",
+      "time_range": "1:23-1:27",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "ee1547ab-3617-4be4-8002-7286f7a03194",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A19",
+      "section": "Chorus 2",
+      "time_range": "1:27-1:30",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "aabe1336-4da8-4fde-88f9-c8b28b218167",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A20",
+      "section": "Bridge",
+      "time_range": "1:30-1:37",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "ced75bb6-e154-4d4b-a40b-b610638a5c44",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A21",
+      "section": "Bridge",
+      "time_range": "1:37-1:41",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "54a611c5-9c5d-485c-9981-625c01f5acf6",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A22",
+      "section": "Bridge finale",
+      "time_range": "1:41-1:45",
+      "characters": ["Sunny"],
+      "image_job_id": "aad5834a-a152-41e9-b0ee-a17b09cf011d",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A23",
+      "section": "Final Chorus",
+      "time_range": "1:45-1:52",
+      "characters": ["Sunny", "Leo", "Mia", "Mayor Mary"],
+      "image_job_id": "8fc4f68a-aa79-4eab-9db8-0ea46dc73e6e",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A24",
+      "section": "Final Chorus",
+      "time_range": "1:52-1:57",
+      "characters": ["Sunny", "Leo", "Mia", "Mayor Mary"],
+      "image_job_id": "32d461aa-10ad-4330-bf35-77ebc8515b25",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A25",
+      "section": "Final Chorus",
+      "time_range": "1:57-2:01",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "b53a1793-8df3-446f-afb3-0a6ce4cc44b9",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A26",
+      "section": "Final Chorus",
+      "time_range": "2:01-2:05",
+      "characters": ["Sunny", "Leo", "Mia", "Mayor Mary"],
+      "image_job_id": "b796695e-cda5-4f7e-86cc-ed228781b2e7",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A27",
+      "section": "Outro",
+      "time_range": "2:05-2:12",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "a031599b-4861-4b3c-a8dc-041970a24257",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    },
+    {
+      "shot": "A28",
+      "section": "Outro final",
+      "time_range": "2:12-2:20",
+      "characters": ["Sunny", "Leo", "Mia"],
+      "image_job_id": "1c32d893-8561-4d42-8e68-511e73deac72",
+      "image_status": "pending",
+      "video_job_id": null,
+      "video_status": "not_started"
+    }
+  ],
+  "notes": {
+    "image_model_coercion": "nano_banana_2 requests are coerced by server to nano_banana_flash",
+    "video_model": "seedance_2_0 — use start_image: <image_job_id> for each shot",
+    "character_element_ids": {
+      "Sunny": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+      "Leo": "ab579f47-e94f-406e-ae63-dd4fd6dd1b18",
+      "Mia": "36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590",
+      "Mayor Mary": "3c1b33d2-ba1b-408c-8d69-b08c656de4bf"
+    },
+    "next_step": "Wait for image jobs to complete, then fire 28 seedance_2_0 video generations using each shot's image_job_id as start_image"
+  }
+}
