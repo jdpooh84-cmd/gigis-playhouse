@@ -2,9 +2,9 @@
   "_meta": {
     "document": "ep01_data.json",
     "episode": "EP01",
-    "status": "ASSEMBLED_AWAITING_AUDIO_MIX",
+    "status": "SONG_SECTION_FINAL_AWAITING_DRIVE_UPLOAD",
     "last_updated": "2026-07-08",
-    "note": "A Is Amazing is now EP01 featured episode per Rachel Poole creative decision 2026-07-07. Song section assembled 2026-07-08 (28 clips, video-only). Needs a-is-amazing.mp3 mixed in before final delivery."
+    "note": "A Is Amazing EP01. Song section assembled 2026-07-08 (28 clips, video-only: ab2ca754). Audio (a-is-amazing.mp3, 104.856s) baked in same day — final song section with audio: job 63e71138, 145s total. Ready for Make.com 5575994 → Drive FINALS."
   },
 
   "episode": {
@@ -12,7 +12,7 @@
     "title": "A Is Amazing",
     "slug": "a-is-amazing",
     "folder": "EP01_a-is-amazing",
-    "status": "assembled_awaiting_audio_mix",
+    "status": "song_section_final_awaiting_drive_upload",
     "learning_goal": "Letter A — Apple and Airplane — A is Amazing",
     "learning_goal_age_appropriate": "Words that start with the letter A — like apple and airplane — are amazing, and A is the first letter of the alphabet.",
     "age_target": "2-5",
@@ -91,15 +91,16 @@
     "Koda Higgsfield element ID — pending creation (use pose_job_id eb81f712 until locked)",
     "Rena Higgsfield element ID — pending creation (use pose_job_id 449409c2 until locked)",
     "Video generation for theme song shots (T01-T19 — T13 updated: Nana Blossom f9e27584 + Commander 0a837a71)",
-    "Mix a-is-amazing.mp3 audio into assembled video before final delivery",
-    "Run Make.com scenario 5575994: download assembled video → upload to Drive FINALS as EP01-A-Is-Amazing-FINAL.mp4"
+    "Run Make.com scenario 5575994 with final_with_audio_url → upload to Drive FINALS as EP01-A-Is-Amazing-FINAL.mp4"
   ],
 
   "assembly": {
     "song_section_job_id": "ab2ca754-3bd0-4a13-8dc3-047435254197",
     "song_section_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260708_213948_ab2ca754-3bd0-4a13-8dc3-047435254197.mp4",
     "song_section_status": "completed — 28 clips A01-A28, video-only, 2026-07-08",
-    "audio_note": "Mix a-is-amazing.mp3 (140s) into video before final delivery",
+    "final_with_audio_job_id": "63e71138-08a2-4f5f-87e1-f2d3db5bcfdd",
+    "final_with_audio_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260708_225341_63e71138-08a2-4f5f-87e1-f2d3db5bcfdd.mp4",
+    "final_with_audio_status": "completed — 2026-07-08, audio baked in (104.856s song + silence to 140s + 5s A28 outro = 145s total)",
     "delivery_file_name": "EP01-A-Is-Amazing-FINAL.mp4",
     "delivery_drive_folder": "Sunny and the Crew — Production → FINALS — READY TO UPLOAD",
     "google_drive_file_id": null
@@ -111,6 +112,7 @@
     "Commander all three pose job IDs confirmed in characters.json.",
     "A03 NSFW-rejected — regenerated image (job 2dafa9eb) and video (job 285637f1) 2026-07-08. Clean pass.",
     "All 28 A Is Amazing video clips generated and confirmed complete — 2026-07-08.",
-    "Song section assembled via Higgsfield explainer_video (job ab2ca754) — 2026-07-08."
+    "Song section assembled via Higgsfield explainer_video (job ab2ca754) — 2026-07-08.",
+    "Audio baked in: a-is-amazing.mp3 (104.856s) padded to 140s + A28 outro = job 63e71138 (145s) — 2026-07-08."
   ]
 }

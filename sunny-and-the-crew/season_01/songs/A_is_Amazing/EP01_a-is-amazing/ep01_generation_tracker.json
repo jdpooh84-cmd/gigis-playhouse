@@ -377,9 +377,13 @@
     "assembled_job_id": "ab2ca754-3bd0-4a13-8dc3-047435254197",
     "assembled_status": "completed — 2026-07-08, 28 clips A01-A28 (A03 uses regen job 285637f1)",
     "assembled_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260708_213948_ab2ca754-3bd0-4a13-8dc3-047435254197.mp4",
-    "audio_note": "Assembly is video-only. Mix a-is-amazing.mp3 (140s) in post before final delivery.",
-    "delivery_status": "assembled_awaiting_drive_upload",
-    "delivery_note": "Run Make.com scenario 5575994 to download from assembled_url and upload to Drive FINALS folder as EP01-A-Is-Amazing-FINAL.mp4",
+    "audio_media_id": "ea662185-4d22-42a6-85e6-1cbb0b8a2262",
+    "audio_note": "a-is-amazing.mp3 (104.856s) padded with silence to 140s and baked into final assembly as audio track. Original 104.856s song; shots A23-A28 play silently (outro section).",
+    "final_with_audio_job_id": "63e71138-08a2-4f5f-87e1-f2d3db5bcfdd",
+    "final_with_audio_status": "completed — 2026-07-08, 140s assembled + 5s A28 outro duplicate (explainer_video minItems:2 workaround), audio baked in",
+    "final_with_audio_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260708_225341_63e71138-08a2-4f5f-87e1-f2d3db5bcfdd.mp4",
+    "delivery_status": "final_with_audio_awaiting_drive_upload",
+    "delivery_note": "Run Make.com scenario 5575994 with final_with_audio_url to upload to Drive FINALS folder as EP01-A-Is-Amazing-FINAL.mp4",
     "delivery_drive_folder": "Sunny and the Crew — Production → FINALS — READY TO UPLOAD",
     "google_drive_file_id": null
   }
