@@ -7,7 +7,7 @@
   "model_video": "seedance_2_0",
   "total_shots": 28,
   "pipeline": "image_then_video",
-  "status": "videos_firing_batch3_A23_A28_pending",
+  "status": "all_28_videos_queued",
   "shots": [
     {
       "shot": "A01",
@@ -236,8 +236,8 @@
       "characters": ["Sunny", "Leo", "Mia", "Mayor Mary"],
       "image_job_id": "8fc4f68a-aa79-4eab-9db8-0ea46dc73e6e",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "9639ea7c-512b-4afa-b54f-346a5d912816",
+      "video_status": "pending"
     },
     {
       "shot": "A24",
@@ -246,8 +246,8 @@
       "characters": ["Sunny", "Leo", "Mia", "Mayor Mary"],
       "image_job_id": "32d461aa-10ad-4330-bf35-77ebc8515b25",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "e52c393f-b175-4c8f-a04f-2dbdbbbb11ad",
+      "video_status": "pending"
     },
     {
       "shot": "A25",
@@ -256,8 +256,8 @@
       "characters": ["Sunny", "Leo", "Mia"],
       "image_job_id": "b53a1793-8df3-446f-afb3-0a6ce4cc44b9",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "53bdd18c-0b2d-4d3c-8078-b0626174a51e",
+      "video_status": "pending"
     },
     {
       "shot": "A26",
@@ -266,8 +266,8 @@
       "characters": ["Sunny", "Leo", "Mia", "Mayor Mary"],
       "image_job_id": "b796695e-cda5-4f7e-86cc-ed228781b2e7",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "cf96cc7c-1e4b-420c-87ac-4cc4d73de2da",
+      "video_status": "pending"
     },
     {
       "shot": "A27",
@@ -276,8 +276,8 @@
       "characters": ["Sunny", "Leo", "Mia"],
       "image_job_id": "a031599b-4861-4b3c-a8dc-041970a24257",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "3197bd75-baee-41be-aacc-deb0567192fd",
+      "video_status": "pending"
     },
     {
       "shot": "A28",
@@ -286,8 +286,8 @@
       "characters": ["Sunny", "Leo", "Mia"],
       "image_job_id": "1c32d893-8561-4d42-8e68-511e73deac72",
       "image_status": "pending",
-      "video_job_id": null,
-      "video_status": "not_started"
+      "video_job_id": "66298d07-6122-4b6e-a5bb-ec018a815459",
+      "video_status": "pending"
     }
   ],
   "notes": {
@@ -303,8 +303,8 @@
     "video_batches": {
       "batch_1_A01_A08": "fired first session — all 8 succeeded",
       "batch_2_A09_A15": "fired 2026-07-08 — all 7 queued successfully",
-      "batch_3_A16_A22": "pending",
-      "batch_4_A23_A28": "pending"
+      "batch_3_A16_A22": "fired 2026-07-08 — all 7 queued successfully (2-at-a-time due to rate limits)",
+      "batch_4_A23_A28": "fired 2026-07-08 — all 6 queued successfully (1-at-a-time due to rate limits)"
     }
   }
 }

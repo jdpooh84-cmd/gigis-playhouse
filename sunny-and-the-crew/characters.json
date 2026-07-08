@@ -310,7 +310,13 @@
         "standing": "1h-oQ2bDiRRVv57wCgnvo4XeWogg3IlBi",
         "kneeling": "1hcYlihDT54mcYXc311N7xiPxLCzWkjdC"
       },
-      "generation_model": "nano_banana_2"
+      "generation_model": "nano_banana_2",
+      "prompt_correction_flag": "EP01 generation produced brown hair variance. Hair color MUST be specified explicitly in every Mayor Mary prompt or model defaults to brown.",
+      "generation_rules": [
+        "ALWAYS specify: short full curly auburn red hair — warm red tone, NOT brown, NOT black",
+        "NEVER omit hair color from Mayor Mary prompts",
+        "In every prompt include verbatim: 'short full curly warm auburn red hair'"
+      ]
     },
     {
       "id": "AVA",
