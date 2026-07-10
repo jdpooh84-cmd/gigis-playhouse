@@ -1,0 +1,24 @@
+name: EP01 sync song section
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Build synced song section
+        run: python3 scripts/ep01_sync_song.py
+      - name: Commit result
+        run: |
+          git config user.name "ep01-sync-bot"
+          git config user.email "actions@github.com"
+          git add sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-song-section-SYNCED.mp4
+          git commit -m "EP01: song section re-synced to actual 104.83s audio (27 clips, A26 excluded)"
+          git push
