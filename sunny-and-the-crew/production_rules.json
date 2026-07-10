@@ -22,6 +22,19 @@
     "14. Prepare YouTube Studio upload metadata — mark Made for Kids"
   ],
 
+  "theme_intro_rule": {
+    "locked": true,
+    "rule": "The theme song intro is a PREMADE REUSABLE MASTER CLIP — generated ONCE for the whole show, never per episode.",
+    "details": [
+      "Generate the 0:45 theme intro (shots T01-T19 per songs/Sunny_and_the_Crew/animatic_prompt_bible.md) one time only, with the theme audio baked in.",
+      "Store the finished master in Higgsfield (record the job/media ID here when made) and in Google Drive (Sunny and the Crew — Production).",
+      "Every episode assembly PREPENDS this same master clip as Part 1. Do not regenerate, re-cut, or re-assemble it for individual episodes.",
+      "The no-loop rule applies WITHIN an episode; reusing the theme master across episodes is required, not a violation."
+    ],
+    "theme_master_higgsfield_id": null,
+    "theme_master_drive_file_id": null
+  },
+
   "generation_rules": {
     "model": "nano_banana_2",
     "sunny_element_id": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
