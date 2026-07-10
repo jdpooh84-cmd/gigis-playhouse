@@ -2,7 +2,7 @@
   "_meta": {
     "document": "ep01_data.json",
     "episode": "EP01",
-    "status": "SONG_SECTION_FINAL_AWAITING_DRIVE_UPLOAD",
+    "status": "SONG_SECTION_DELIVERED_TO_DRIVE",
     "last_updated": "2026-07-10",
     "note": "A Is Amazing EP01. Song section assembled 2026-07-08 (28 clips, video-only: ab2ca754). Audio (a-is-amazing.mp3, 104.856s) baked in same day — final song section with audio: job 63e71138, 145s total. Ready for Make.com 5575994 → Drive FINALS."
   },
@@ -11,7 +11,7 @@
     "title": "A Is Amazing",
     "slug": "a-is-amazing",
     "folder": "EP01_a-is-amazing",
-    "status": "song_section_final_awaiting_drive_upload",
+    "status": "song_section_delivered_to_drive",
     "learning_goal": "Letter A — Apple and Airplane — A is Amazing",
     "learning_goal_age_appropriate": "Words that start with the letter A — like apple and airplane — are amazing, and A is the first letter of the alphabet.",
     "age_target": "2-5",
@@ -110,8 +110,7 @@
     "Mimi Higgsfield element ID — pending creation (use pose_job_id d21cc872 until locked)",
     "Koda Higgsfield element ID — pending creation (use pose_job_id eb81f712 until locked)",
     "Rena Higgsfield element ID — pending creation (use pose_job_id 449409c2 until locked)",
-    "Video generation for theme song shots (T01-T19 — T13 updated: Nana Blossom f9e27584 + Commander 0a837a71)",
-    "Run Make.com scenario 5575994 with final_with_audio_url → upload to Drive FINALS as EP01-A-Is-Amazing-FINAL.mp4"
+    "Video generation for theme song shots (T01-T19 — T13 updated: Nana Blossom f9e27584 + Commander 0a837a71)"
   ],
   "assembly": {
     "song_section_job_id": "ab2ca754-3bd0-4a13-8dc3-047435254197",
@@ -122,9 +121,10 @@
     "final_with_audio_status": "SUPERSEDED — timing drifted (clips cut for planned 140s song; real song is 104.83s). Replaced by synced_song_section 2026-07-10.",
     "delivery_file_name": "EP01-A-Is-Amazing-FINAL.mp4",
     "delivery_drive_folder": "Sunny and the Crew — Production → FINALS — READY TO UPLOAD",
-    "google_drive_file_id": null,
+    "google_drive_file_id": "1yqQ7Ngz8HasqQKen6DJll3SQKVhp81OL",
     "synced_song_section_file": "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-song-section-SYNCED.mp4",
-    "synced_song_section_status": "completed 2026-07-10 — 27 clips re-cut to actual 104.83s audio via GitHub Actions ffmpeg (run 29100930766). A26 show-title clip EXCLUDED (reserved for show intro per production_rules theme_intro_rule). Lyrics land on their clips."
+    "synced_song_section_status": "completed 2026-07-10 — 27 clips re-cut to actual 104.83s audio via GitHub Actions ffmpeg (run 29100930766). A26 show-title clip EXCLUDED (reserved for show intro per production_rules theme_intro_rule). Lyrics land on their clips.",
+    "delivery_status": "DELIVERED — 2026-07-10, EP01-A-Is-Amazing-FINAL.mp4 (synced master, 104.83s) in Drive FINALS via Make scenario 5610723"
   },
   "resolved_items": [
     "Captain Blue does not exist — 'Captain Blue' in theme lyric is Commander (Koda's dog). Resolved 2026-07-07.",
@@ -134,6 +134,7 @@
     "All 28 A Is Amazing video clips generated and confirmed complete — 2026-07-08.",
     "Song section assembled via Higgsfield explainer_video (job ab2ca754) — 2026-07-08.",
     "Audio baked in: a-is-amazing.mp3 (104.856s) padded to 140s + A28 outro = job 63e71138 (145s) — 2026-07-08.",
-    "Song sync fixed: EP01-song-section-SYNCED.mp4 built 2026-07-10 — clips trimmed to real 104.83s audio, A26 excluded."
+    "Song sync fixed: EP01-song-section-SYNCED.mp4 built 2026-07-10 — clips trimmed to real 104.83s audio, A26 excluded.",
+    "Drive delivery complete 2026-07-10: EP01-A-Is-Amazing-FINAL.mp4 (file 1yqQ7Ngz8HasqQKen6DJll3SQKVhp81OL) in FINALS — READY TO UPLOAD."
   ]
 }
