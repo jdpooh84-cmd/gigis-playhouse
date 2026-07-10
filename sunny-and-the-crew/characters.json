@@ -3,10 +3,10 @@
     "document": "characters.json",
     "locked": true,
     "version": "3.0",
-    "last_updated": "2026-07-07",
-    "note": "All 14 Higgsfield element IDs are now LOCKED. Every character in this file has a confirmed element ID as of 2026-07-07. Always use element IDs — never use text-prompt-only generation for any character. Never use age descriptors or the word 'Pixar' in Higgsfield prompts — triggers safety filter. nano_banana_2 is the confirmed working model."
+    "last_updated": "2026-07-10",
+    "note": "All 14 Higgsfield element IDs are now LOCKED. Every character in this file has a confirmed element ID as of 2026-07-07. Always use element IDs — never use text-prompt-only generation for any character. Never use age descriptors or the word 'Pixar' in Higgsfield prompts — triggers safety filter. nano_banana_2 is the confirmed working model.",
+    "redesign_note": "KODA, MIMI, PIPA, BRAM redesigned and re-locked 2026-07-10. Koda is a BOY (Sunny's older brother) — any doc calling Koda a dog is wrong; Commander is the dog. Mimi's new design wears floral sneakers (old always-barefoot rule superseded by creator)."
   },
-
   "main_crew": [
     {
       "id": "SUNNY",
@@ -32,7 +32,11 @@
         "pose_2_surprised_hands_on_cheeks": "3dc6528f-3703-4d0e-aa7a-40f1cb87fd76",
         "pose_3_victory_jump_fists_up": "225f17c5-978b-4425-a982-100e4813165a"
       },
-      "invideo_elements": ["@Sunny", "@SunnySurprised", "@SunnyJump"],
+      "invideo_elements": [
+        "@Sunny",
+        "@SunnySurprised",
+        "@SunnyJump"
+      ],
       "google_drive_folder_id": "1fsH_gJmR19qg2tIDndNkCb0sxGnkATci",
       "google_drive_image_id": "25c8744d-c6f6-41d9-b87e-826c20d4eca3",
       "generation_model": "nano_banana_2",
@@ -65,19 +69,19 @@
       },
       "personality": "Confident builder, problem-solver, jumps in without being asked, celebrates with fist pumps",
       "signature_expression": "Arms crossed confident smile → instant fist pump when something works",
-      "higgsfield_element_id_LOCKED": "2ea4d86d-1978-4764-8620-8f771ee28b4b",
+      "higgsfield_element_id_LOCKED": "a8b3713c-0f43-4dc7-a801-4000e6bdca44",
       "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "pose_1_default": "eb81f712-c1a1-4316-ab7f-8c29575f93e4",
-        "pose_2_fist_pump_victory": "regenerate from pose_1",
-        "pose_3_arms_crossed_confident": "regenerate from pose_1"
-      },
-      "invideo_elements": ["@Koda"],
+      "invideo_elements": [
+        "@Koda"
+      ],
       "google_drive_folder_id": "1C92_rZ-EsXqLsVoHVWzXazAjQThpgopi",
       "generation_model": "nano_banana_2",
       "existing_higgsfield_image_ids": {},
       "direct_address_to_camera": false,
-      "note": "Koda is Sunny's older brother. Visibly older and taller on screen. NOT a dog — human character."
+      "note": "Koda is Sunny's older brother. Visibly older and taller on screen. NOT a dog — human character.",
+      "deprecated_element_id_broken_media": "2ea4d86d-1978-4764-8620-8f771ee28b4b",
+      "design_locked_description": "Koda — warm medium-brown skin, big full dark afro, black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange high-top sneakers. Sunny's older brother. Cool confident energy.",
+      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable."
     },
     {
       "id": "MIMI",
@@ -100,14 +104,11 @@
         "Slow deliberate clap with wide eyes",
         "Silent giggle with shoulders shaking"
       ],
-      "higgsfield_element_id_LOCKED": "f9cf5374-9cce-4a5a-bf60-d973c354f4f6",
+      "higgsfield_element_id_LOCKED": "7b005b4b-da34-4bac-908b-ceb76f9d6247",
       "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "pose_1_default": "d21cc872-3688-4435-bf48-1741ed3ca897",
-        "pose_2_slow_clap": "regenerate from pose_1",
-        "pose_3_silent_giggle": "regenerate from pose_1"
-      },
-      "invideo_elements": ["@Mimi"],
+      "invideo_elements": [
+        "@Mimi"
+      ],
       "google_drive_folder_id": "113ichHy9MQnOq0zy_U4EIK-kKhOlcTTB",
       "generation_model": "nano_banana_2",
       "existing_higgsfield_image_ids": {},
@@ -116,7 +117,10 @@
         "ALWAYS smallest character on screen",
         "NEVER shoes",
         "NEVER socks"
-      ]
+      ],
+      "deprecated_element_id_broken_media": "f9cf5374-9cce-4a5a-bf60-d973c354f4f6",
+      "design_locked_description": "Mimi — warm golden-brown skin, dark curly hair in high bun with rainbow clip, gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings, floral high-top sneakers. ALWAYS smallest character on screen.",
+      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable."
     },
     {
       "id": "PIPA",
@@ -134,18 +138,18 @@
         "style": "3D animated"
       },
       "personality": "Everything is BEST EVER or WORST EVER. No middle setting. Arms wide open or dramatic pout.",
-      "higgsfield_element_id_LOCKED": "c0ef05b4-dca9-4c8b-be45-6415f140cabc",
+      "higgsfield_element_id_LOCKED": "8849bdb4-d5a1-419d-9abc-c7e36188750c",
       "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "pose_1_default": "08a4f193-294c-4b90-afa3-513f7229c797",
-        "pose_2_arms_wide_excited": "regenerate from pose_1",
-        "pose_3_dramatic_pout": "regenerate from pose_1"
-      },
-      "invideo_elements": ["@Pipa"],
+      "invideo_elements": [
+        "@Pipa"
+      ],
       "google_drive_folder_id": "14ea8--RStHefyb7xIzLuCZZYxd76QfIT",
       "generation_model": "nano_banana_2",
       "existing_higgsfield_image_ids": {},
-      "direct_address_to_camera": false
+      "direct_address_to_camera": false,
+      "deprecated_element_id_broken_media": "c0ef05b4-dca9-4c8b-be45-6415f140cabc",
+      "design_locked_description": "Pipa — fair skin, rosy cheeks, freckles, long strawberry-blond wavy hair with flower clip, big blue eyes, mint green dress with white Peter Pan collar, white socks, pink-white sneakers. Bram's twin sister.",
+      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable."
     },
     {
       "id": "BRAM",
@@ -164,18 +168,18 @@
       },
       "personality": "Calm, deliberate, chin-tap thinker. Celebrates quietly but fully.",
       "signature_expression": "Chin tap with head tilt → full fist pump celebration when answer lands",
-      "higgsfield_element_id_LOCKED": "9e376c16-24b6-442a-a642-07d6093bd6f7",
+      "higgsfield_element_id_LOCKED": "e80f7f4d-2563-4d1a-b950-196df45dcbf7",
       "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "pose_1_default": "43fa73d8-9f8b-40b4-bfab-0477bc04829f",
-        "pose_2_chin_tap_thinking": "regenerate from pose_1",
-        "pose_3_fist_pump_celebration": "regenerate from pose_1"
-      },
-      "invideo_elements": ["@Bram"],
+      "invideo_elements": [
+        "@Bram"
+      ],
       "google_drive_folder_id": "1A8KLCEVGsdoDPuA833kASkFmaIC8D96s",
       "generation_model": "nano_banana_2",
       "existing_higgsfield_image_ids": {},
-      "direct_address_to_camera": false
+      "direct_address_to_camera": false,
+      "deprecated_element_id_broken_media": "9e376c16-24b6-442a-a642-07d6093bd6f7",
+      "design_locked_description": "Bram — fair skin, freckles, sandy light-brown tousled hair, green eyes, red-white striped t-shirt, rolled denim shorts, navy high-top sneakers. Pipa's twin brother. Calm cheerful thinker.",
+      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable."
     },
     {
       "id": "LEO",
@@ -253,7 +257,6 @@
       "note": "Character design locked 2026-07-06. Previous placeholder entry (age 5, deep brown skin, pink overalls, afro puffs) is SUPERSEDED."
     }
   ],
-
   "supporting_cast": [
     {
       "id": "NANA_BLOSSOM",
@@ -282,10 +285,14 @@
         "pose_2_crouching_listening": "7b2b3970-a3e7-428e-a6ca-4390d5d09901",
         "pose_3_belly_laugh": "8104c91a-726f-421e-ad9c-1bbfac0f4ef8"
       },
-      "invideo_elements": ["@NanaBlossom"],
+      "invideo_elements": [
+        "@NanaBlossom"
+      ],
       "google_drive_folder_id": "1kpb03oxltmzdq6j_7UNym-YxQ6nwGFq0",
       "generation_model": "nano_banana_2",
-      "hard_rules": ["ALWAYS tallest character on screen"]
+      "hard_rules": [
+        "ALWAYS tallest character on screen"
+      ]
     },
     {
       "id": "MAYOR_MARY",
@@ -339,7 +346,11 @@
         "pose_2_crouching_listening": "bc79a2bf-da74-4084-bcd3-74994db57b14",
         "pose_3_aha_moment_finger_up": "6536aaf6-407f-4525-a6f1-6433116e6a50"
       },
-      "invideo_elements": ["@Ava", "@AvaListening", "@AvaTeaching"],
+      "invideo_elements": [
+        "@Ava",
+        "@AvaListening",
+        "@AvaTeaching"
+      ],
       "google_drive_folder_id": "1chvLVUo6xvYjykZB7ccyakGgCV4VYa9N",
       "generation_model": "nano_banana_2"
     },
@@ -363,7 +374,9 @@
         "original": "b7ae3b5c-4621-40ae-920e-81b2a0f62aa8",
         "pose_1_sidewalk_with_basketball": "f661c59c-7bbc-4c1f-beb0-7cef8547fa44"
       },
-      "invideo_elements": ["@Rico"],
+      "invideo_elements": [
+        "@Rico"
+      ],
       "google_drive_folder_id": "1JpByjcMn_Us04mfWDgFRuAZjhHEjckpP",
       "generation_model": "nano_banana_2"
     },
@@ -387,10 +400,14 @@
         "original": "731cad3b-7a58-4add-84dd-d6d2244dfc66",
         "pose_1_garden_paintbrush_raised": "449409c2-ecee-43e8-8745-f104ced0f0af"
       },
-      "invideo_elements": ["@Rena"],
+      "invideo_elements": [
+        "@Rena"
+      ],
       "google_drive_folder_id": "1RbUdbFm87tBTr_BmXnySi0xWr4wPslWq",
       "generation_model": "nano_banana_2",
-      "hard_rules": ["LEFT CHEEK paint smudge — always present in multiple colors, NEVER missing"]
+      "hard_rules": [
+        "LEFT CHEEK paint smudge — always present in multiple colors, NEVER missing"
+      ]
     },
     {
       "id": "BELLA",
@@ -417,10 +434,17 @@
         "pose_2_walking_with_purpose": "34c6569d-2025-4c52-acae-00d83c8bb1b7",
         "pose_3_head_back_singing_with_glow": "1ec1c65a-694e-4f81-bd0f-4f60f10daf63"
       },
-      "invideo_elements": ["@Bella", "@BellaWalking", "@BellaSinging"],
+      "invideo_elements": [
+        "@Bella",
+        "@BellaWalking",
+        "@BellaSinging"
+      ],
       "google_drive_folder_id": "18k8GoD4e5riQ1FXmexlpEneDl4tti1ig",
       "generation_model": "nano_banana_2",
-      "hard_rules": ["Bella is NOT Commander. Never confuse them.", "NEVER in same shot as Commander"]
+      "hard_rules": [
+        "Bella is NOT Commander. Never confuse them.",
+        "NEVER in same shot as Commander"
+      ]
     },
     {
       "id": "COMMANDER",
@@ -446,10 +470,17 @@
         "pose_2_full_sprint_running": "eb01dd62-313e-4cab-b7ee-52a96a38560b",
         "pose_3_belly_rub_paws_in_air": "3cbaea20-9ae7-474d-ab44-fe1bfd0b5672"
       },
-      "invideo_elements": ["@Commander", "@CommanderRun", "@CommanderPlay"],
+      "invideo_elements": [
+        "@Commander",
+        "@CommanderRun",
+        "@CommanderPlay"
+      ],
       "google_drive_folder_id": "1CB5R9wyvMzAOZAGkhoX0641PGYNYjOO3",
       "generation_model": "nano_banana_2",
-      "hard_rules": ["Commander is NOT Bella. Never confuse them.", "NEVER in same shot as Bella"]
+      "hard_rules": [
+        "Commander is NOT Bella. Never confuse them.",
+        "NEVER in same shot as Bella"
+      ]
     },
     {
       "id": "RANDY",
