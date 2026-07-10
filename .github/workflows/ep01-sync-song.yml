@@ -1,6 +1,9 @@
 name: EP01 sync song section
 on:
   workflow_dispatch:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths: [".github/ep01-sync-trigger"]
 
 permissions:
   contents: write
