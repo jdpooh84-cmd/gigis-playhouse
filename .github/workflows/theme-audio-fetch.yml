@@ -1,0 +1,43 @@
+name: Fetch theme song audio from Suno
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths: [".github/theme-audio-trigger"]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Fetch MP3 from Suno share link
+        run: |
+          set -e
+          SHARE="https://suno.com/s/7Y90RoFNMgZn4zTz"
+          PAGE=$(mktemp)
+          curl -sL -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" "$SHARE" -o "$PAGE"
+          FINAL_URL=$(curl -sL -A "Mozilla/5.0" -o /dev/null -w "%{url_effective}" "$SHARE")
+          echo "resolved: $FINAL_URL"
+          MP3=$(grep -oE 'https://cdn1\.suno\.ai/[a-f0-9-]+\.mp3' "$PAGE" | head -1 || true)
+          if [ -z "$MP3" ]; then
+            SONG_ID=$(echo "$FINAL_URL" | grep -oE '[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}' | head -1)
+            [ -n "$SONG_ID" ] && MP3="https://cdn1.suno.ai/${SONG_ID}.mp3"
+          fi
+          if [ -z "$MP3" ]; then
+            echo "could not locate mp3 url; dumping candidates:"; grep -oE 'https://[^"]*\.mp3' "$PAGE" | head; exit 1
+          fi
+          echo "mp3: $MP3"
+          curl -sL -A "Mozilla/5.0" "$MP3" -o _staging/audio/sunny-and-the-crew-THEME.mp3
+          ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 _staging/audio/sunny-and-the-crew-THEME.mp3
+      - name: Commit
+        run: |
+          git config user.name "theme-audio-bot"
+          git config user.email "actions@github.com"
+          git add _staging/audio/sunny-and-the-crew-THEME.mp3
+          git commit -m "stage: theme song audio fetched from Suno share link"
+          git push
