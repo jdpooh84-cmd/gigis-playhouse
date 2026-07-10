@@ -1,0 +1,36 @@
+name: Fetch character check images
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths: [".github/char-images-trigger"]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download candidate character images
+        run: |
+          mkdir -p _staging/character_check
+          set +e
+          dl() { curl -sL -A "Mozilla/5.0" -o "_staging/character_check/$2" "$1" && echo "OK $2 $(wc -c < _staging/character_check/$2)" || echo "FAIL $2"; }
+          dl "https://d2ol7oe51mr4n9.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/3a9f19ed-8005-4cb8-852a-32325eca4d58.png" "candidate-A-3a9f19ed.png"
+          dl "https://d2ol7oe51mr4n9.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/0f5a68c4-7461-4d3c-a44f-c0c3711b6cbd.png" "candidate-B-0f5a68c4.png"
+          dl "https://d2ol7oe51mr4n9.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/3fc9fc9f-9fed-42b8-ab2c-e7b1d6f41c4a.png" "candidate-C-3fc9fc9f.png"
+          dl "https://d2ol7oe51mr4n9.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/b15fef52-3d45-49c3-a1c2-22a26a970c5b.png" "candidate-D-b15fef52.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/e11f3218-b754-40e0-be24-2c3ff1aa7c96.png" "koda1-e11f3218.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/e46e9b72-7595-4ae4-858c-248f8d11df72.png" "nanablossom1-e46e9b72.png"
+          # drop any zero-byte failures
+          find _staging/character_check -size -1k -delete
+          ls -la _staging/character_check
+      - name: Commit
+        run: |
+          git config user.name "char-check-bot"
+          git config user.email "actions@github.com"
+          git add _staging/character_check
+          git commit -m "stage: character identification images" || echo "nothing to commit"
+          git push
