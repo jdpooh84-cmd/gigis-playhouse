@@ -3,10 +3,9 @@
     "document": "ep01_data.json",
     "episode": "EP01",
     "status": "SONG_SECTION_FINAL_AWAITING_DRIVE_UPLOAD",
-    "last_updated": "2026-07-08",
+    "last_updated": "2026-07-10",
     "note": "A Is Amazing EP01. Song section assembled 2026-07-08 (28 clips, video-only: ab2ca754). Audio (a-is-amazing.mp3, 104.856s) baked in same day — final song section with audio: job 63e71138, 145s total. Ready for Make.com 5575994 → Drive FINALS."
   },
-
   "episode": {
     "number": "EP01",
     "title": "A Is Amazing",
@@ -16,8 +15,16 @@
     "learning_goal": "Letter A — Apple and Airplane — A is Amazing",
     "learning_goal_age_appropriate": "Words that start with the letter A — like apple and airplane — are amazing, and A is the first letter of the alphabet.",
     "age_target": "2-5",
-    "crew_members_featured": ["SUNNY", "LEO", "MIA", "MIMI", "NANA_BLOSSOM"],
-    "crew_members_cameo": ["MAYOR_MARY"],
+    "crew_members_featured": [
+      "SUNNY",
+      "LEO",
+      "MIA",
+      "MIMI",
+      "NANA_BLOSSOM"
+    ],
+    "crew_members_cameo": [
+      "MAYOR_MARY"
+    ],
     "locations_used": [
       "LOC_DIRECT_ADDRESS",
       "LOC_NANA_PORCH",
@@ -30,7 +37,6 @@
     "song_title": "A Is Amazing",
     "theme_song_id": "MUSIC_THEME"
   },
-
   "runtime": {
     "theme_song_seconds": 44,
     "story_setup_seconds": 101,
@@ -43,15 +49,33 @@
     "within_target": true,
     "target_range": "5:00 – 8:00"
   },
-
   "runtime_breakdown": {
-    "part_1_theme_song": {"label": "0:00–0:44", "duration": "0:44", "content": "Theme song plays"},
-    "part_2_story_setup": {"label": "0:44–2:25", "duration": "1:41", "content": "8-beat story — apple and airplane discovery, warm mistake, letter A reveal, call-and-response, count-in"},
-    "part_3_song_block": {"label": "2:25–5:04", "duration": "2:20 + 0:19 build", "content": "Star burst transition + A Is Amazing full song"},
-    "part_4_wrap_up": {"label": "5:04–5:36", "duration": "0:32", "content": "Recap dialogue — apple, airplane, letter A — proud moment, take-home A challenge"},
-    "part_5_closing_sting": {"label": "5:36–5:44", "duration": "0:08", "content": "Show logo, ukulele hit, Sunny goodbye on yellow porch"}
+    "part_1_theme_song": {
+      "label": "0:00–0:44",
+      "duration": "0:44",
+      "content": "Theme song plays"
+    },
+    "part_2_story_setup": {
+      "label": "0:44–2:25",
+      "duration": "1:41",
+      "content": "8-beat story — apple and airplane discovery, warm mistake, letter A reveal, call-and-response, count-in"
+    },
+    "part_3_song_block": {
+      "label": "2:25–5:04",
+      "duration": "2:20 + 0:19 build",
+      "content": "Star burst transition + A Is Amazing full song"
+    },
+    "part_4_wrap_up": {
+      "label": "5:04–5:36",
+      "duration": "0:32",
+      "content": "Recap dialogue — apple, airplane, letter A — proud moment, take-home A challenge"
+    },
+    "part_5_closing_sting": {
+      "label": "5:36–5:44",
+      "duration": "0:08",
+      "content": "Show logo, ukulele hit, Sunny goodbye on yellow porch"
+    }
   },
-
   "story_concept": {
     "research_principle_1": "Object-first — show apple and airplane before naming the letter A",
     "research_principle_2": "Call-and-response — viewer says A words with Sunny before song",
@@ -67,7 +91,6 @@
     "lesson_delivered": "Letter A — apple and airplane — and A is AMAZING.",
     "audience_takeaway": "Find one A word at your home today."
   },
-
   "element_ids_used": {
     "sunny": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
     "leo": "ab579f47-e94f-406e-ae63-dd4fd6dd1b18",
@@ -76,16 +99,13 @@
     "mimi": "PENDING — use pose_job_id d21cc872 until locked",
     "nana_blossom": "PENDING — use pose_job_ids f9e27584 or 7b2b3970 until locked"
   },
-
   "higgsfield_model": "nano_banana_2",
-
   "production_files": {
     "episode_bible": "ep01_episode_bible.md",
     "dialogue_script": "scripts/ep01_dialogue_a_is_amazing.md",
     "song_animatic": "../../songs/A_is_Amazing/animatic_prompt_bible.md",
     "theme_animatic": "../../songs/Sunny_and_the_Crew/animatic_prompt_bible.md"
   },
-
   "open_items": [
     "Mimi Higgsfield element ID — pending creation (use pose_job_id d21cc872 until locked)",
     "Koda Higgsfield element ID — pending creation (use pose_job_id eb81f712 until locked)",
@@ -93,19 +113,19 @@
     "Video generation for theme song shots (T01-T19 — T13 updated: Nana Blossom f9e27584 + Commander 0a837a71)",
     "Run Make.com scenario 5575994 with final_with_audio_url → upload to Drive FINALS as EP01-A-Is-Amazing-FINAL.mp4"
   ],
-
   "assembly": {
     "song_section_job_id": "ab2ca754-3bd0-4a13-8dc3-047435254197",
     "song_section_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260708_213948_ab2ca754-3bd0-4a13-8dc3-047435254197.mp4",
     "song_section_status": "completed — 28 clips A01-A28, video-only, 2026-07-08",
     "final_with_audio_job_id": "63e71138-08a2-4f5f-87e1-f2d3db5bcfdd",
     "final_with_audio_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260708_225341_63e71138-08a2-4f5f-87e1-f2d3db5bcfdd.mp4",
-    "final_with_audio_status": "completed — 2026-07-08, audio baked in (104.856s song + silence to 140s + 5s A28 outro = 145s total)",
+    "final_with_audio_status": "SUPERSEDED — timing drifted (clips cut for planned 140s song; real song is 104.83s). Replaced by synced_song_section 2026-07-10.",
     "delivery_file_name": "EP01-A-Is-Amazing-FINAL.mp4",
     "delivery_drive_folder": "Sunny and the Crew — Production → FINALS — READY TO UPLOAD",
-    "google_drive_file_id": null
+    "google_drive_file_id": null,
+    "synced_song_section_file": "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-song-section-SYNCED.mp4",
+    "synced_song_section_status": "completed 2026-07-10 — 27 clips re-cut to actual 104.83s audio via GitHub Actions ffmpeg (run 29100930766). A26 show-title clip EXCLUDED (reserved for show intro per production_rules theme_intro_rule). Lyrics land on their clips."
   },
-
   "resolved_items": [
     "Captain Blue does not exist — 'Captain Blue' in theme lyric is Commander (Koda's dog). Resolved 2026-07-07.",
     "Nana Blossom all three pose job IDs confirmed in characters.json — no element ID needed.",
@@ -113,6 +133,7 @@
     "A03 NSFW-rejected — regenerated image (job 2dafa9eb) and video (job 285637f1) 2026-07-08. Clean pass.",
     "All 28 A Is Amazing video clips generated and confirmed complete — 2026-07-08.",
     "Song section assembled via Higgsfield explainer_video (job ab2ca754) — 2026-07-08.",
-    "Audio baked in: a-is-amazing.mp3 (104.856s) padded to 140s + A28 outro = job 63e71138 (145s) — 2026-07-08."
+    "Audio baked in: a-is-amazing.mp3 (104.856s) padded to 140s + A28 outro = job 63e71138 (145s) — 2026-07-08.",
+    "Song sync fixed: EP01-song-section-SYNCED.mp4 built 2026-07-10 — clips trimmed to real 104.83s audio, A26 excluded."
   ]
 }
