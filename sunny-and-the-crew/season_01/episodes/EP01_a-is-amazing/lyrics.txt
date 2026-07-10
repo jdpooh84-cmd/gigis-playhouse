@@ -1,0 +1,47 @@
+# A Is Amazing — lyrics (locked, music_library.json v3.0; timing = ACTUAL 104.83s Suno render)
+# Format: [section @ start-end] one lyric line per row
+
+[intro @ 0:00.00-0:07.00]
+Hey friends it's time to play!
+Let's learn our A words today!
+
+[verse_1 @ 0:07.00-0:24.60]
+Apple apple big and red
+Apple apple overhead
+Crunch it up from core to top
+An apple snack that just won't stop!
+
+[chorus_1 @ 0:24.60-0:37.80]
+A is amazing A is the best
+A is the letter we love the most
+Sing it with me — A A A!
+A words are awesome every day!
+
+[verse_2 @ 0:37.80-0:55.50]
+Airplane airplane in the sky
+Airplane airplane flying high
+Spreading wings and zooming free
+An airplane goes where it wants to be!
+
+[chorus_2 @ 0:55.50-1:08.00]
+A is amazing A is the best
+A is the letter we love the most
+Sing it with me — A A A!
+A words are awesome every day!
+
+[bridge @ 1:08.00-1:22.50]
+Apple makes our tummies glad!
+Airplane is the best we've had!
+A words make the whole day bright
+A words always feel just right!
+
+[final_chorus @ 1:22.50-1:35.50]
+A is amazing A is the best
+A is the letter we love the most
+Sing it with me — A A A!
+A words are awesome every day!
+
+[outro @ 1:35.50-1:44.83]
+Great job friends you did it today!
+We learned our A words — hip hip hooray!
+See you next time — bye bye bye!

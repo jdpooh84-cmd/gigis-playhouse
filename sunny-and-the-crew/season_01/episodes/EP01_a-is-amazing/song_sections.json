@@ -1,0 +1,168 @@
+{
+  "_meta": {
+    "document": "song_sections.json",
+    "episode": "EP01",
+    "song_id": "MUSIC_EP01_SONG",
+    "title": "A Is Amazing",
+    "generated": "2026-07-10",
+    "audio_master": {
+      "drive": {
+        "file_id": "1Yf767r40BSWS4QUrA1yaPZaaef4wAdR8",
+        "file_name": "a-is-amazing.mp3",
+        "folder": "Suno Music Library > Episode 01 \u2014 A Is Amazing",
+        "folder_id": "1ZVYn1YH9wGvBawGRBS66oyldOvgLNrlH"
+      },
+      "repo_staging": "_staging/audio/a-is-amazing.mp3",
+      "higgsfield_media_id": "cd770e10-6fcd-4b50-b4be-f0f74f4c6431"
+    },
+    "actual_duration_seconds": 104.83,
+    "music_end_seconds": 102.86,
+    "trailing_silence_seconds": 1.94,
+    "bpm_estimated": 109.1,
+    "analysis_method": "ffmpeg silencedetect + 0.5s RMS envelope + onset autocorrelation (lag 0.55s -> 109.1 BPM)",
+    "CRITICAL_NOTE": "Actual Suno render is 104.83s, NOT the 140s planned in music_library.json. All episode timing derives from THIS file. Internal boundaries are best-effort signal estimates \u2014 ear-verify before final beat-sync polish."
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "label": "Intro",
+      "start_sec": 0.0,
+      "end_sec": 7.0,
+      "start_tc": "0:00.00",
+      "end_tc": "0:07.00",
+      "duration_seconds": 7.0,
+      "bpm": 109.1,
+      "boundary_confidence": "high",
+      "evidence": "Hard energy dip at 6.5-7.0s in RMS envelope",
+      "lyrics": [
+        "Hey friends it's time to play!",
+        "Let's learn our A words today!"
+      ]
+    },
+    {
+      "id": "verse_1",
+      "label": "Verse 1 \u2014 Apple",
+      "start_sec": 7.0,
+      "end_sec": 24.6,
+      "start_tc": "0:07.00",
+      "end_tc": "0:24.60",
+      "duration_seconds": 17.6,
+      "bpm": 109.1,
+      "boundary_confidence": "medium",
+      "evidence": "Interpolated (planned map scaled x0.735); ear-verify",
+      "lyrics": [
+        "Apple apple big and red",
+        "Apple apple overhead",
+        "Crunch it up from core to top",
+        "An apple snack that just won't stop!"
+      ]
+    },
+    {
+      "id": "chorus_1",
+      "label": "Chorus 1",
+      "start_sec": 24.6,
+      "end_sec": 37.8,
+      "start_tc": "0:24.60",
+      "end_tc": "0:37.80",
+      "duration_seconds": 13.2,
+      "bpm": 109.1,
+      "boundary_confidence": "medium",
+      "evidence": "Interpolated; local dip at 27.5s may shift start +3s",
+      "lyrics": [
+        "A is amazing A is the best",
+        "A is the letter we love the most",
+        "Sing it with me \u2014 A A A!",
+        "A words are awesome every day!"
+      ]
+    },
+    {
+      "id": "verse_2",
+      "label": "Verse 2 \u2014 Airplane",
+      "start_sec": 37.8,
+      "end_sec": 55.5,
+      "start_tc": "0:37.80",
+      "end_tc": "0:55.50",
+      "duration_seconds": 17.7,
+      "bpm": 109.1,
+      "boundary_confidence": "high",
+      "evidence": "Strong dip at 55.5s = verse-to-chorus boundary",
+      "lyrics": [
+        "Airplane airplane in the sky",
+        "Airplane airplane flying high",
+        "Spreading wings and zooming free",
+        "An airplane goes where it wants to be!"
+      ]
+    },
+    {
+      "id": "chorus_2",
+      "label": "Chorus 2",
+      "start_sec": 55.5,
+      "end_sec": 68.0,
+      "start_tc": "0:55.50",
+      "end_tc": "1:08.00",
+      "duration_seconds": 12.5,
+      "bpm": 109.1,
+      "boundary_confidence": "medium",
+      "evidence": "Interpolated from chorus length model",
+      "lyrics": [
+        "A is amazing A is the best",
+        "A is the letter we love the most",
+        "Sing it with me \u2014 A A A!",
+        "A words are awesome every day!"
+      ]
+    },
+    {
+      "id": "bridge",
+      "label": "Bridge",
+      "start_sec": 68.0,
+      "end_sec": 82.5,
+      "start_tc": "1:08.00",
+      "end_tc": "1:22.50",
+      "duration_seconds": 14.5,
+      "bpm": 109.1,
+      "boundary_confidence": "medium",
+      "evidence": "Quiet region 75-82s in envelope supports soft bridge",
+      "lyrics": [
+        "Apple makes our tummies glad!",
+        "Airplane is the best we've had!",
+        "A words make the whole day bright",
+        "A words always feel just right!"
+      ]
+    },
+    {
+      "id": "final_chorus",
+      "label": "Final Chorus",
+      "start_sec": 82.5,
+      "end_sec": 95.5,
+      "start_tc": "1:22.50",
+      "end_tc": "1:35.50",
+      "duration_seconds": 13.0,
+      "bpm": 109.1,
+      "boundary_confidence": "medium",
+      "evidence": "Energy peak 86-90s; dip at 90.5s = pre-outro breath",
+      "lyrics": [
+        "A is amazing A is the best",
+        "A is the letter we love the most",
+        "Sing it with me \u2014 A A A!",
+        "A words are awesome every day!"
+      ]
+    },
+    {
+      "id": "outro",
+      "label": "Outro",
+      "start_sec": 95.5,
+      "end_sec": 104.83,
+      "start_tc": "1:35.50",
+      "end_tc": "1:44.83",
+      "duration_seconds": 9.33,
+      "bpm": 109.1,
+      "boundary_confidence": "medium",
+      "evidence": "Music ends 102.86s; 1.94s silence tail to 104.83s",
+      "lyrics": [
+        "Great job friends you did it today!",
+        "We learned our A words \u2014 hip hip hooray!",
+        "See you next time \u2014 bye bye bye!"
+      ]
+    }
+  ]
+}
