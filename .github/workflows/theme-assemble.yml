@@ -1,0 +1,26 @@
+name: Assemble theme intro master
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths: ["_staging/theme_clip_urls.json"]
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Assemble intro master
+        run: python3 scripts/theme_assemble_intro.py
+      - name: Commit result
+        run: |
+          git config user.name "theme-assemble-bot"
+          git config user.email "actions@github.com"
+          git add sunny-and-the-crew/theme-song/THEME-INTRO-MASTER.mp4
+          git commit -m "theme: THEME-INTRO-MASTER.mp4 assembled (19 clips, 44.78s Suno audio)"
+          git push
