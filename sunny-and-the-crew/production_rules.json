@@ -2,7 +2,9 @@
   "_meta": {
     "document": "production_rules.json",
     "locked": true,
-    "note": "These rules govern ALL episode production. Any automation, agent, or pipeline step must check this file first."
+    "note": "These rules govern ALL episode production. Any automation, agent, or pipeline step must check this file first.",
+    "production_os": "sunny-and-the-crew/production-os/ (22 docs) is the operating manual for this file. Precedence: creator > this file + production-os + characters.json > older bibles.",
+    "audience": "Core ages 2-5, stretch to 7 (creator-locked 2026-07-11)"
   },
   "pipeline_order": [
     "1. Load show_bible.json and confirm locked rules",
@@ -44,9 +46,14 @@
     "existing_asset_preference": "Use existing Higgsfield image IDs before generating new images"
   },
   "timing_rules": {
-    "theme_song_duration_seconds": 44,
+    "theme_song_duration_seconds": 44.78,
+    "timing_master": "AUDIO IS THE TIMING MASTER. Never trust planned durations — ffprobe the actual rendered audio file before cutting any video.",
+    "episode_formats": {
+      "STANDARD": { "minimum_seconds": 300, "maximum_seconds": 480, "label": "5-8 min" },
+      "EXTENDED": { "minimum_seconds": 600, "maximum_seconds": 900, "label": "10-15 min" }
+    },
     "episode_minimum_seconds": 300,
-    "episode_maximum_seconds": 480,
+    "episode_maximum_seconds": 900,
     "padding_allowed": [
       "reaction beats",
       "participatory moments",
@@ -83,7 +90,7 @@
         "YouTube Kids"
       ]
     },
-    "make_delivery": "Use Make.com scenario 5575994 to download from Higgsfield CDN and upload to Google Drive"
+    "make_delivery": "CORRECTED 2026-07-11: scenario 5575994 is the Kling engine, NOT delivery. Deliver via a one-shot Make scenario (clone the 5610723 pattern): HTTP get (raw GitHub file URL, output {{1.data}}) -> google-drive:uploadAFile v4 (connection google-restricted 7476809). Activate -> run responsive -> deactivate IMMEDIATELY; runs can double-fire, so always check the Drive folder and trash the duplicate via google-drive:makeApiCall PATCH /v3/files/<id> {\"trashed\": true}."
   },
   "prohibited_actions": [
     "Touching WILLO Make.com scenarios: 5106170, 5106176, 5106181, 5111331",
@@ -99,7 +106,8 @@
     "Verify clip count matches beat count before assembly",
     "Verify no clip ID appears twice in timeline",
     "Verify CHARACTER LOCK HEADER was used in every image prompt",
-    "Verify total runtime is between 5:00 and 8:00",
+    "Verify total runtime is within the declared format band: STANDARD 5:00-8:00 or EXTENDED 10:00-15:00",
+    "Verify the episode begins with THEME-INTRO-MASTER.mp4 prepended unmodified",
     "Verify outro ends with Sunny wave goodbye (asset 3d56c3cb or equivalent)",
     "Verify theme song is at the start of ACT 1",
     "Verify episode song covers full duration of ACT 3"

@@ -1,0 +1,13 @@
+# Preschool Writing Rules (enforce on every script)
+- Short sentences. One idea per line. Max 8 words per line (Mimi 6).
+- Concrete nouns before concepts: show apple, say apple, THEN letter A.
+- Direct address: "you," "your turn," "can you...?"
+- Natural repetition: key noun appears at least 6x spoken + 3x sung + 2x on screen per episode.
+- Every question to the viewer is followed by [3-SECOND PAUSE] then explicit acknowledgment ("I HEARD you!").
+- Praise is specific and earned, never generic filler.
+- Conflict: only warm mistakes; resolved within 30 seconds; correction = "yes, AND something even more amazing."
+- Action + sound words kids can perform: crunch, zoom, stomp, clap, whoosh.
+- Echo-friendly: phrases singable back after one hearing.
+- Max 2 new lesson terms per song; max 5 new spoken vocabulary words per episode.
+- Take-home challenge: one step, doable at home, no materials required beyond household objects.
+- BANNED: sarcasm, irony, "stupid/dumb/hate," peril language, brand names, age descriptors in prompts, the word Pixar in prompts.

@@ -1,0 +1,2 @@
+# Release-Prep Checklist (per episode)
+[] QA checklist pass (09) [] S&P pass (10) [] Final file in repo + Drive FINALS (exactly one copy) [] Tracker updated to delivered [] Title/desc/tags/thumbnail per 08 and truthful [] Made for Kids flag confirmed [] Take-home challenge in description [] Timestamps in description [] Creator watched full episode once (human eyes rule) [] Publish [] Log URL + date in tracker.

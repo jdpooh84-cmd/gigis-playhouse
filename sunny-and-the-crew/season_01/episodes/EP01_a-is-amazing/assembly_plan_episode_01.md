@@ -40,8 +40,8 @@ Reused A01-A28 are 5s masters — trim each to the manifest duration (trim tail,
 ## 4. Build sequence (Higgsfield `explainer_video`, per production pipeline)
 
 Assemble in 8 blocks matching the table above (respects the per-block audio model of `explainer_video`; minItems=2 workaround: pair small blocks):
-1. Generate all 128 new clips (see `new_assets_episode_01.md`) — images first (nano_banana_2, one per clip, CHARACTER LOCK header), then videos in timeline order.
-2. Block-assemble: P1(theme audio) | P2+P3(VO) | P4A(song) | P4B(bed) | P4C(bed) | P4D(song) | P5(VO) | P6(sting).
+1. Generate the 109 remaining new clips (see `new_assets_episode_01.md`, regenerated 2026-07-11 with v2 locked elements; batch order in `production_package/batch_plan.md`) — images first (nano_banana_2, one per clip, CHARACTER LOCK header), then videos in timeline order.
+2. Block-assemble: P1 = PREPEND `sunny-and-the-crew/theme-song/THEME-INTRO-MASTER.mp4` unmodified (DONE — never regenerate) | P2+P3(VO) | P4A = `EP01-song-section-SYNCED.mp4` (DONE, 104.83s) | P4B(bed) | P4C(bed) | P4D(song) | P5(VO) | P6(sting).
 3. Final concat of the 8 block outputs in order — verify no black frames at seams.
 4. QC pass (checklist below), then deliver via Make.com to Drive `FINALS — READY TO UPLOAD` as `EP01-A-Is-Amazing-FINAL.mp4` (Made for Kids on YouTube upload).
 
@@ -65,9 +65,10 @@ Assemble in 8 blocks matching the table above (respects the per-block audio mode
 | Ends with Sunny wave goodbye | PASS — P5-GOODBYE + P6 sting |
 | CHARACTER LOCK header on every new prompt | PASS — embedded in all 109 prompts; theme prompts carry their own in the theme bible |
 
-**Known open dependencies (not blockers to planning, blockers to generation):**
+**Known open dependencies (updated 2026-07-11 — not blockers to planning, blockers to generation):**
 1. Two new Suno beds (specs in `new_assets_episode_01.md`) must be generated and locked into `music_library.json`.
-2. Theme clips T01-T19 video generation still pending (image prompts locked in theme bible).
-3. Mimi / Koda / Nana Blossom element IDs pending — their clips use start_image pose job IDs per the safety rules until locked.
+2. ~~Theme clips~~ DONE — THEME-INTRO-MASTER.mp4 assembled and locked (repo + Drive 1fvGvI8ERWGlC5PD7_7TxqPeoXZFqmhEg).
+3. ~~Element IDs pending~~ DONE — all 14 characters have LOCKED elements in characters.json (Koda/Mimi/Pipa/Bram v2 creator designs, 2026-07-10).
 4. `song_sections.json` internal boundaries are best-effort signal analysis — ear-verify chorus/verse edges before final beat-sync polish (intro end 7.0s and verse2 end 55.5s are high-confidence anchors).
-5. Runtime decision: 10:20.66 targets the 10-min floor with margin while conserving generation credits (128 new clips already). A 15-min variant would need roughly 55-60 additional clips (e.g., a second hunt round + a slowed recap verse); flag if wanted.
+5. VO recording — 62 lines per `production_package/vo_script.md` (voice casting/generation is a creator decision; see production-os/22_voice_music_consistency.md).
+6. Runtime decision: 10:20.66 targets the 10-min floor with margin while conserving generation credits (109 new clips remaining). A 15-min variant would need roughly 55-60 additional clips (e.g., a second hunt round + a slowed recap verse); flag if wanted.

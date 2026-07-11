@@ -1,0 +1,7 @@
+# QA Checklist (run before every delivery)
+TIMING: total within format band (5-8 std / 10-15 ext); no gaps/overlaps on timeline; all non-exempt clips 3-5s; audio starts at exact planned timecode; no silent black frames.
+SYNC: chorus visuals land on actual chorus timestamps (ear-check the boundaries flagged low-confidence in song_sections.json); count-in leads into song downbeat; sting hit on logo bounce.
+CONTENT: one lesson only; object-first order verified; warm-mistake beat present; every [3-SECOND PAUSE] is truly ~3s and silent; movement cue each chorus; take-home challenge present; viewer praised by name-of-action ("you said A").
+CHARACTERS: every character on-model vs characters.json element; Mimi smallest / Nana tallest in every ensemble; Rena's smudge left cheek; Mayor Mary auburn; no Bella+Commander shot; no clip used twice (job-ID uniqueness check).
+VISUAL SAFETY: no dark frames, no harsh shadow, no looming angle, palette compliance, motifs used per rules (Heart Pop <=1).
+TECH: 1280x720/30fps h264 + AAC, -14 LUFS, faststart; file named per convention; masters in repo + Drive FINALS; tracker updated.

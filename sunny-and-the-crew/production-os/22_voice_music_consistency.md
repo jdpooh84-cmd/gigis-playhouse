@@ -1,0 +1,3 @@
+# Voice & Music Consistency Rules
+VOICES: one locked voice per character once cast (store voice IDs in characters.json when created); Sunny warm bright mid; Mimi small high sparse; Nana low warm slow; record VO after script lock, before assembly; -14 LUFS dialogue leveling; same mic/chain per character across episodes.
+MUSIC: all songs Suno, kids-pop family, ukulele DNA carried from theme; 100-115 BPM songs, 90-100 BPM beds; major keys; every chorus contains the lesson anchor phrase; sting always derived from the outro melody. Locked songs never regenerated — new versions require creator approval + music_library version bump.
