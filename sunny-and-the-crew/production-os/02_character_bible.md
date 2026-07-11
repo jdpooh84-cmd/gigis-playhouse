@@ -20,7 +20,7 @@ BRAM — The Thinker. Chin-tap concentration, calm delivery, quiet-but-full cele
 NANA BLOSSOM — mentor. NEVER gives the answer first; asks the question that lets kids find it. Crouches to child eye level for reveals. Belly laugh, hands on hips.
 MAYOR MARY — warm authority (based on creator's grandmother). Clear, kind, gets things done.
 AVA (co-op teacher), RICO (sporty, generous with effort), RENA (always making something), RANDY (corner store, knows everyone), ANNE (music teacher).
-BELLA — Wise Wanderer cat. Appears when needed; one slow blink = approval. Mystery thread; never explained.
+BELLA — Wise Wanderer DOG (creator-confirmed 2026-07-11; older docs saying 'cat' are WRONG). Ivory-white coat, brown brindle head, amber golden eyes, deep teal collar. Appears when needed; one slow knowing look = approval. Mystery thread; never explained. NEVER in the same shot as Commander.
 COMMANDER — Koda's spotted dog. Always happy, underfoot, accidentally helpful. Comic relief; never in danger, never scolded harshly.
 
 ## Dialogue Voice Rules

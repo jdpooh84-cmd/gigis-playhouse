@@ -495,7 +495,8 @@
       "hard_rules": [
         "Bella is NOT Commander. Never confuse them.",
         "NEVER in same shot as Commander"
-      ]
+      ],
+      "species_confirmed": "DOG — creator-confirmed 2026-07-11 with reference images (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png). Any doc calling Bella a cat is WRONG. Element 3faaac30 description ('wise elder female dog') was always correct."
     },
     {
       "id": "COMMANDER",

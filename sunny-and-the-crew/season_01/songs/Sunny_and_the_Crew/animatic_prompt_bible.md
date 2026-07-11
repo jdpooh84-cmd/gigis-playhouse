@@ -779,7 +779,7 @@ STORY BEAT: Bella gets her solo moment — dignified, elegant, exactly who she i
 **IMAGE PROMPT:**
 ```
 CHARACTER LOCK — THEME T15
-[Bella: start_image: da604e85 (sitting_dignified) — elegant orange tabby cat, dignified sitting posture, regal knowing expression]
+[Bella: start_image: da604e85 (sitting_dignified) — SPECIES ERROR IN THIS ARCHIVED PROMPT: Bella is a DOG (creator-confirmed 2026-07-11), never a cat]
 
 SAFETY CHECK:
 - No age descriptors used: CONFIRMED
