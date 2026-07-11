@@ -38,7 +38,7 @@ ep01_generation_tracker.json as you go — that file is the recovery point if a 
 
 ## Continuity gates (check after EVERY batch — production-os/20_defect_prevention_checklist.md)
 - Rena paint smudge LEFT cheek (if she appears) · Mayor Mary auburn hair · Mimi smallest ·
-  Nana tallest · Koda is a boy · Bella and Commander never together · no cars · max 4 characters
+  Nana tallest · Koda is a boy · Bella and Gabriel never together · no cars · max 4 characters
 - Any clip that fails a gate: regenerate before starting the next batch, then update the tracker.
 
 ## Assembly (after all batches green)

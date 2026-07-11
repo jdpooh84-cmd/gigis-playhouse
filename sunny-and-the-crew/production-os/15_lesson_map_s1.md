@@ -10,7 +10,7 @@ EP07: Numbers 4-5 — build on EP03; Koda builds a 5-block tower. Move: five-fin
 EP08: Letter C — cookie + cloud (Bella the DOG can still feature as the quiet C-episode guest, but she is NOT a cat — creator-confirmed dog 2026-07-11; do not use 'cat' as the C word with her on screen). Move: sneaky tiptoe. Challenge: find a C word. [PROPOSED — needs creator approval]
 EP09: Sharing — Pipa/Bram twins episode. Move: pass-it-along mime. Challenge: share one toy today.
 EP10: Shapes — circle + square hunt with Ava at the co-op. Move: draw shapes in the air. Challenge: find a circle in your house.
-EP11: Letter D — dog (Commander!) + drum with Anne. Move: drum on knees. Challenge: find a D word.
+EP11: Letter D — dog (Gabriel!) + drum with Anne. Move: drum on knees. Challenge: find a D word.
 EP12: Clean-up routine — everything has a home. Move: scoop-and-stack rhythm. Challenge: put three toys away.
 EP13: Counting 1-5 review — neighborhood counting parade. Move: parade march. Challenge: count your family's shoes.
 EP14: Try again (frustration -> persistence) — Leo's rocket won't fly... yet. Move: deep breath + try-again arms. Challenge: try one tricky thing twice.

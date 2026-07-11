@@ -4,7 +4,7 @@ Dialogue is LOCKED (matches clip_manifest_episode_01.json verbatim). Do not para
 the animation timing is cut to these exact lines.
 
 **Voices needed this episode:** SUNNY (lead), LEO, MIA, MIMI, KODA, NANA BLOSSOM.
-**Not in VO this episode:** Pipa, Bram, Bella, Commander, Rena, Rico, Ava, Mayor Mary (Mayor Mary appears
+**Not in VO this episode:** Pipa, Bram, Bella, Gabriel, Rena, Rico, Ava, Mayor Mary (Mayor Mary appears
 visually in the final chorus only — no spoken line).
 
 **Global delivery rules** (production-os/22_voice_music_consistency.md):

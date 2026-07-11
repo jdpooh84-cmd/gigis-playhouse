@@ -38,5 +38,5 @@ Audio is the timing master. Never trust planned durations — ffprobe the real f
 - No clip appears twice (no_loop_check PASS in manifest)
 - Max 4 characters per shot
 - No cars anywhere
-- Mimi smallest / Nana tallest / Bella and Commander never share a shot
+- Mimi smallest / Nana tallest / Bella and Gabriel never share a shot
 - Theme master prepended, not regenerated

@@ -12,7 +12,7 @@ Checks:
      no duplicate clip IDs, no reused Higgsfield job IDs (no-loop rule),
      3-5s clip band for non-exempt clips, meta totals match reality.
   4. Prompt packs (new_assets_*.md) — banned terms (age descriptors, 'Pixar',
-     cars), no stale pre-v2 design language, Bella+Commander never share a
+     cars), no stale pre-v2 design language, Bella+Gabriel never share a
      CHARACTER LOCK block, every needs_new_asset prompt carries an element tag.
   5. production_rules.json — parses, theme master path exists on disk, runtime
      bands sane, delivery rule no longer points at the Kling engine scenario.
@@ -107,6 +107,10 @@ for p, text in sorted(show_texts.items()):
     meta = man.get("_meta", {})
     if meta.get("total_clips") not in (None, len(clips)):
         err("%s: _meta.total_clips=%s but %d clips present" % (rel, meta.get("total_clips"), len(clips)))
+    # Adult-mentor rule (creator-locked 2026-07-11): crew comes across Ava (learning) or Anne (song) every episode
+    if not any(re.search(r"\bAva\b|\bAnne\b", c.get("characters","")) for c in clips
+               if c.get("section_type") != "theme"):
+        warn("%s: no Ava/Anne appearance in this episode's manifest — adult-mentor rule requires at least one (amend the manifest)" % rel)
     if meta.get("total_runtime_seconds") and abs(meta["total_runtime_seconds"] - prev_end) > 0.05:
         err("%s: _meta runtime %.2f != final clip end %.2f" % (rel, meta["total_runtime_seconds"], prev_end))
 
@@ -132,12 +136,24 @@ for p, text in sorted(show_texts.items()):
         if "Pixar" in scan: err("%s: 'Pixar' in prompt block (%s)" % (rel, first))
         for m in AGE_RE.finditer(scan):
             err("%s: age descriptor %r in prompt block (%s)" % (rel, m.group(0), first))
-        if re.search(r"\bBella\b", head) and re.search(r"\bCommander\b", head):
-            err("%s: Bella and Commander share a CHARACTER LOCK block (%s)" % (rel, first))
+        if re.search(r"\bBella\b", head) and re.search(r"\bGabriel\b", head):
+            err("%s: Bella and Gabriel share a CHARACTER LOCK block (%s)" % (rel, first))
         for m in CAR_RE.finditer(scan):
             err("%s: 'car' appears in a prompt block (%s)" % (rel, first))
         for m in BRAND_RE.finditer(scan):
             err("%s: trademark %r in a prompt block (%s)" % (rel, m.group(0), first))
+        # Anatomy hard-set (creator-locked 2026-07-11)
+        if "SAFETY CHECK" in block and "anatomy" not in block.lower():
+            err("%s: SAFETY CHECK missing anatomy attestation (%s)" % (rel, first))
+        if re.search(r"\[Mia\b", head) and "two low pigtails" not in block.lower():
+            err("%s: Mia in shot without 'EXACTLY TWO low pigtails' language (%s)" % (rel, first))
+        # NEEDS_DESIGN characters must never appear in prompts until their element is locked
+        for nd in ("Randy", "Anne"):
+            if re.search(r"\b%s\b" % nd, scan):
+                err("%s: %s is NEEDS_DESIGN (no locked element) and must not be depicted (%s)" % (rel, nd, first))
+        # Hard rename 2026-07-11: the dog is GABRIEL — old name must not appear in new prompts
+        if re.search(r"\bCommander\b", scan):
+            err("%s: legacy name 'Commander' in a prompt block — the dog is GABRIEL (%s)" % (rel, first))
         if "CHARACTER LOCK" in block and "<<<" not in block and "[—]" not in head and "[Full crew" not in head:
             first = block.strip().splitlines()[0]
             names = re.findall(r"\[([A-Za-z ]+)\]", head)

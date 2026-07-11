@@ -122,9 +122,9 @@
     "delivery_status": "DELIVERED — 2026-07-10, EP01-A-Is-Amazing-FINAL.mp4 (synced master, 104.83s) in Drive FINALS via Make scenario 5610723"
   },
   "resolved_items": [
-    "Captain Blue does not exist — 'Captain Blue' in theme lyric is Commander (Koda's dog). Resolved 2026-07-07.",
+    "Captain Blue does not exist — 'Captain Blue' in theme lyric is Gabriel (Koda's dog). Resolved 2026-07-07.",
     "Nana Blossom all three pose job IDs confirmed in characters.json — no element ID needed.",
-    "Commander all three pose job IDs confirmed in characters.json.",
+    "Gabriel all three pose job IDs confirmed in characters.json.",
     "A03 NSFW-rejected — regenerated image (job 2dafa9eb) and video (job 285637f1) 2026-07-08. Clean pass.",
     "All 28 A Is Amazing video clips generated and confirmed complete — 2026-07-08.",
     "Song section assembled via Higgsfield explainer_video (job ab2ca754) — 2026-07-08.",

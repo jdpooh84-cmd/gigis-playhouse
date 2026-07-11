@@ -5,7 +5,21 @@
     "version": "3.0",
     "last_updated": "2026-07-10",
     "note": "All 14 Higgsfield element IDs are now LOCKED. Every character in this file has a confirmed element ID as of 2026-07-07. Always use element IDs — never use text-prompt-only generation for any character. Never use age descriptors or the word 'Pixar' in Higgsfield prompts — triggers safety filter. nano_banana_2 is the confirmed working model.",
-    "redesign_note": "KODA, MIMI, PIPA, BRAM redesigned and re-locked 2026-07-10. Koda is a BOY (Sunny's older brother) — any doc calling Koda a dog is wrong; Commander is the dog. Mimi's new design wears floral sneakers (old always-barefoot rule superseded by creator). KODA re-locked AGAIN 2026-07-11 as v3: v2 reference images carried a branded swoosh on the sneakers (trademark risk) — v2 element a8b3713c-0f43-4dc7-a801-4000e6bdca44 is RECALLED, never use. v3 shoes are plain/unbranded."
+    "redesign_note": "KODA, MIMI, PIPA, BRAM redesigned and re-locked 2026-07-10. Koda is a BOY (Sunny's older brother) — any doc calling Koda a dog is wrong; Gabriel is the dog. Mimi's new design wears floral sneakers (old always-barefoot rule superseded by creator). KODA re-locked AGAIN 2026-07-11 as v3: v2 reference images carried a branded swoosh on the sneakers (trademark risk) — v2 element a8b3713c-0f43-4dc7-a801-4000e6bdca44 is RECALLED, never use. v3 shoes are plain/unbranded.",
+    "ANATOMY_HARD_RULES": {
+      "locked": true,
+      "added": "2026-07-11 creator directive after two-headed Bella reject and three-pigtail Mia defect",
+      "rules": [
+        "Every character has EXACTLY ONE HEAD, correctly proportioned to their body — no exceptions, no duplicates, no merged bodies",
+        "Humans: exactly 2 arms, 2 legs, 5 fingers per hand. Dogs: exactly 4 legs, 1 tail",
+        "MIA: EXACTLY TWO low pigtails — never three, never one, never a different hairstyle",
+        "BELLA: ONE head, single body, proportionate — reject any render that deviates",
+        "Hair/accessory counts in each character's appearance block are EXACT counts, not suggestions",
+        "Every generated image with characters gets an anatomy inspection (heads, limbs, hair counts) BEFORE its video is generated; every batch gets a frame-level anatomy pass before assembly",
+        "Any render failing anatomy = REJECTED and regenerated; rejected candidates are deleted from staging immediately after review so they can never be mistaken for canon"
+      ]
+    },
+    "adult_presence_rule": "Creator-locked 2026-07-11: EVERY episode, the crew comes across at least one adult mentor — Ava during learning segments (pops up anywhere, classroom optional) and/or Anne during song segments (sings along). Nana's porch, the mayor's office, and Randy's corner store are rotating location OPTIONS, never obligations."
   },
   "main_crew": [
     {
@@ -49,7 +63,10 @@
         "3d56c3cb": "Waving goodbye on porch — LOCKED for outro/goodbye only"
       },
       "direct_address_to_camera": true,
-      "note": "Sunny speaks directly to the audience. She is the emotional anchor for every episode."
+      "note": "Sunny speaks directly to the audience. She is the emotional anchor for every episode.",
+      "hard_rules": [
+        "ONE head, correct proportions"
+      ]
     },
     {
       "id": "KODA",
@@ -100,6 +117,9 @@
           "id": "a8b3713c-0f43-4dc7-a801-4000e6bdca44",
           "reason": "TRADEMARK RECALL 2026-07-11 — reference images showed a branded swoosh + tongue label on sneakers. NEVER USE."
         }
+      ],
+      "hard_rules": [
+        "ONE head, correct proportions"
       ]
     },
     {
@@ -134,7 +154,8 @@
       "existing_higgsfield_image_ids": {},
       "direct_address_to_camera": false,
       "hard_rules": [
-        "ALWAYS smallest character on screen"
+        "ALWAYS smallest character on screen",
+        "ONE head, correct proportions"
       ],
       "deprecated_element_id_broken_media": "f9cf5374-9cce-4a5a-bf60-d973c354f4f6",
       "design_locked_description": "Mimi — warm golden-brown skin, dark curly hair in high bun with rainbow clip, gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings, floral high-top sneakers. ALWAYS smallest character on screen.",
@@ -191,7 +212,10 @@
         "color_theme": "purple and pink",
         "style": "3D animated"
       },
-      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 8849bdb4-d5a1-419d-9abc-c7e36188750c). v1 kept only for history — never use for prompts."
+      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 8849bdb4-d5a1-419d-9abc-c7e36188750c). v1 kept only for history — never use for prompts.",
+      "hard_rules": [
+        "ONE head, correct proportions"
+      ]
     },
     {
       "id": "BRAM",
@@ -230,7 +254,10 @@
         "color_theme": "teal and dark blue",
         "style": "3D animated"
       },
-      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element e80f7f4d-2563-4d1a-b950-196df45dcbf7). v1 kept only for history — never use for prompts."
+      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element e80f7f4d-2563-4d1a-b950-196df45dcbf7). v1 kept only for history — never use for prompts.",
+      "hard_rules": [
+        "ONE head, correct proportions"
+      ]
     },
     {
       "id": "LEO",
@@ -267,7 +294,10 @@
       ],
       "existing_higgsfield_image_ids": {},
       "direct_address_to_camera": false,
-      "note": "Character design locked 2026-07-06. Previous placeholder entry (age 7, royal blue hoodie, lightning bolt patch) is SUPERSEDED."
+      "note": "Character design locked 2026-07-06. Previous placeholder entry (age 7, royal blue hoodie, lightning bolt patch) is SUPERSEDED.",
+      "hard_rules": [
+        "ONE head, correct proportions"
+      ]
     },
     {
       "id": "MIA",
@@ -305,7 +335,11 @@
       ],
       "existing_higgsfield_image_ids": {},
       "direct_address_to_camera": false,
-      "note": "Character design locked 2026-07-06. Previous placeholder entry (age 5, deep brown skin, pink overalls, afro puffs) is SUPERSEDED."
+      "note": "Character design locked 2026-07-06. Previous placeholder entry (age 5, deep brown skin, pink overalls, afro puffs) is SUPERSEDED.",
+      "hard_rules": [
+        "EXACTLY TWO low pigtails with teal scrunchies — NEVER three",
+        "ONE head, correct proportions"
+      ]
     }
   ],
   "supporting_cast": [
@@ -342,7 +376,8 @@
       "google_drive_folder_id": "1kpb03oxltmzdq6j_7UNym-YxQ6nwGFq0",
       "generation_model": "nano_banana_2",
       "hard_rules": [
-        "ALWAYS tallest character on screen"
+        "ALWAYS tallest character on screen",
+        "ONE head, correct proportions"
       ]
     },
     {
@@ -374,6 +409,9 @@
         "ALWAYS specify: short full curly auburn red hair — warm red tone, NOT brown, NOT black",
         "NEVER omit hair color from Mayor Mary prompts",
         "In every prompt include verbatim: 'short full curly warm auburn red hair'"
+      ],
+      "hard_rules": [
+        "ONE head, correct proportions"
       ]
     },
     {
@@ -403,7 +441,11 @@
         "@AvaTeaching"
       ],
       "google_drive_folder_id": "1chvLVUo6xvYjykZB7ccyakGgCV4VYa9N",
-      "generation_model": "nano_banana_2"
+      "generation_model": "nano_banana_2",
+      "hard_rules": [
+        "ONE head, correct proportions"
+      ],
+      "role_expanded": "RECURRING LEARNING MENTOR (creator directive 2026-07-11): the crew comes across Ava at least once per episode. Whenever the kids are LEARNING something (practice, phonics, counting, discovery segments), Ava pops up — classroom NOT required; she can appear anywhere in Marigold Grove. Rationale: no parents appear on screen, so Ava + Nana Blossom + Mayor Mary carry the trusted-adult presence."
     },
     {
       "id": "RICO",
@@ -429,7 +471,10 @@
         "@Rico"
       ],
       "google_drive_folder_id": "1JpByjcMn_Us04mfWDgFRuAZjhHEjckpP",
-      "generation_model": "nano_banana_2"
+      "generation_model": "nano_banana_2",
+      "hard_rules": [
+        "ONE head, correct proportions"
+      ]
     },
     {
       "id": "RENA",
@@ -457,7 +502,8 @@
       "google_drive_folder_id": "1RbUdbFm87tBTr_BmXnySi0xWr4wPslWq",
       "generation_model": "nano_banana_2",
       "hard_rules": [
-        "LEFT CHEEK paint smudge — always present in multiple colors, NEVER missing"
+        "LEFT CHEEK paint smudge — always present in multiple colors, NEVER missing",
+        "ONE head, correct proportions"
       ]
     },
     {
@@ -473,7 +519,7 @@
         "nose": "broad feminine muzzle",
         "tail": "long, carried high with gentle upward curve",
         "collar": "simple DEEP TEAL — no tags, no name",
-        "size": "medium to large — elegant, larger than Commander",
+        "size": "medium to large — elegant, larger than Gabriel",
         "special_feature": "subtle warm GOLDEN GLOW around edges — always present, brightest when she sings"
       },
       "personality": "No one knows where she lives. She appears when needed. Answers questions as if she already knew they would be asked.",
@@ -493,8 +539,10 @@
       "google_drive_folder_id": "18k8GoD4e5riQ1FXmexlpEneDl4tti1ig",
       "generation_model": "nano_banana_2",
       "hard_rules": [
-        "Bella is NOT Commander. Never confuse them.",
-        "NEVER in same shot as Commander"
+        "Bella is NOT Gabriel. Never confuse them.",
+        "NEVER in same shot as Gabriel",
+        "EXACTLY ONE HEAD, single body, proportionate to her frame (a two-headed render was rejected 2026-07-11)",
+        "DOG — never feline"
       ],
       "species_confirmed": "DOG — creator-confirmed 2026-07-11 with reference images (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png). Any doc calling Bella a cat is WRONG. Element 3faaac30 description ('wise elder female dog') was always correct.",
       "deprecated_element_ids": [
@@ -506,8 +554,8 @@
       "design_note": "Bella-v2 element locked 2026-07-11 from creator dog references (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png)."
     },
     {
-      "id": "COMMANDER",
-      "full_name": "Commander",
+      "id": "GABRIEL",
+      "full_name": "Gabriel",
       "role": "Koda's dog — comic relief, always in the right place at the wrong time",
       "gender": "male",
       "species": "dog — compact cartoon breed",
@@ -530,16 +578,20 @@
         "pose_3_belly_rub_paws_in_air": "3cbaea20-9ae7-474d-ab44-fe1bfd0b5672"
       },
       "invideo_elements": [
-        "@Commander",
-        "@CommanderRun",
-        "@CommanderPlay"
+        "@Gabriel",
+        "@GabrielRun",
+        "@GabrielPlay"
       ],
       "google_drive_folder_id": "1CB5R9wyvMzAOZAGkhoX0641PGYNYjOO3",
       "generation_model": "nano_banana_2",
       "hard_rules": [
-        "Commander is NOT Bella. Never confuse them.",
-        "NEVER in same shot as Bella"
-      ]
+        "Gabriel is NOT Bella. Never confuse them.",
+        "NEVER in same shot as Bella",
+        "ONE head, correct proportions"
+      ],
+      "former_name": "Commander — HARD RENAME to Gabriel, creator-locked 2026-07-11. Never use the old name in any new prompt, script, VO, or metadata.",
+      "higgsfield_element_note": "Locked element f35f85da-590d-4a74-80d5-a3931befa4bb still DISPLAYS as 'Commander' in the Higgsfield UI (elements cannot be renamed via this connection) — it IS Gabriel; creator may rename it in the UI.",
+      "reference_images": "_staging/characters_new/gabriel-1-running.png, gabriel-2-sitting.png, gabriel-3-standing.png (creator-supplied 2026-07-11, matches locked element design)"
     },
     {
       "id": "RANDY",
@@ -551,7 +603,10 @@
         "color_theme": "blue"
       },
       "personality": "Warm friendly neighbor, knows everyone",
-      "generation_model": "nano_banana_2"
+      "generation_model": "nano_banana_2",
+      "hard_rules": [
+        "ONE head, correct proportions"
+      ]
     },
     {
       "id": "ANNE",
@@ -563,7 +618,34 @@
         "color_theme": "teal"
       },
       "personality": "Musical energy, expressive, joyful",
-      "generation_model": "nano_banana_2"
+      "generation_model": "nano_banana_2",
+      "hard_rules": [
+        "ONE head, correct proportions"
+      ]
+    },
+    {
+      "id": "RANDY",
+      "full_name": "Randy",
+      "role": "Supporting cast — corner store owner",
+      "function": "Runs the Marigold Grove corner store (LOC_CORNER_STORE). Friendly neighborhood shopkeeper the crew can visit — the corner store is a location OPTION, not an every-episode obligation.",
+      "status": "NEEDS_DESIGN — no reference images, no locked element. DO NOT generate or depict Randy until the creator supplies/approves a design. Added 2026-07-11 by creator directive.",
+      "higgsfield_element_id_LOCKED": null,
+      "hard_rules": [
+        "ONE head, correct proportions",
+        "Never depict before a creator-approved design is locked"
+      ]
+    },
+    {
+      "id": "ANNE",
+      "full_name": "Anne",
+      "role": "Supporting cast — music teacher",
+      "function": "RECURRING MUSIC MENTOR (creator directive 2026-07-11): when the crew sings the episode song, Anne should be around or pop up and sing with them — at least one song moment per episode once her design is locked.",
+      "status": "NEEDS_DESIGN — no reference images, no locked element. DO NOT generate or depict Anne until the creator supplies/approves a design. Added 2026-07-11 by creator directive.",
+      "higgsfield_element_id_LOCKED": null,
+      "hard_rules": [
+        "ONE head, correct proportions",
+        "Never depict before a creator-approved design is locked"
+      ]
     }
   ]
 }

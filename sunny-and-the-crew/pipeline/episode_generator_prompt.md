@@ -102,8 +102,8 @@ they appear in. No exceptions. No text-description-only generation for any chara
 | **Ava** | Teacher. AMBER-GOLD long-sleeve top under MEDIUM BLUE DENIM OVERALLS with full bib and chest pocket. Dark chocolate brown natural curly hair in LOOSE HIGH BUN. Warm golden tan skin with rosy cheeks. | `<<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>>` | — |
 | **Rico** | Sporty older kid. Solid GREEN athletic t-shirt, GREY athletic shorts, WHITE sneakers with ORANGE accent dots on heel. Short clean FADE haircut. Always has a basketball. | `<<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>` | Basketball always present |
 | **Rena** | Creative older kid. Solid ORANGE t-shirt, BLUE denim jeans with ankle cuff, RAINBOW multicolor patchwork sneakers. Big voluminous DARK CURLY AFRO with bright YELLOW headband. **Small MULTICOLOR paint smudge on LEFT CHEEK — NEVER missing.** | `<<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>>` | LEFT CHEEK paint smudge ALWAYS present |
-| **Bella** | Wise wanderer dog. Ivory white body with brindle markings. Floppy CHOCOLATE BROWN ears. DEEP TEAL collar. Subtle warm golden glow around edges. Medium-to-large, elegant. | `<<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>>` | NEVER in same shot as Commander |
-| **Commander** | Koda's dog. Compact. Cream white base with warm brown spots. Very long floppy CHOCOLATE BROWN ears. Large glossy black nose. Curled upward tail. | `<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>` | NEVER in same shot as Bella |
+| **Bella** | Wise wanderer dog. Ivory white body with brindle markings. Floppy CHOCOLATE BROWN ears. DEEP TEAL collar. Subtle warm golden glow around edges. Medium-to-large, elegant. | `<<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>>` | NEVER in same shot as Gabriel |
+| **Gabriel** | Koda's dog. Compact. Cream white base with warm brown spots. Very long floppy CHOCOLATE BROWN ears. Large glossy black nose. Curled upward tail. | `<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>` | NEVER in same shot as Bella |
 
 ---
 
@@ -116,7 +116,7 @@ Violation of these rules will trigger Higgsfield content filtering.
 3. **ALWAYS** include `<<<UUID>>>` element ID tags inline in the prompt text for EVERY character in EVERY shot — all 14 characters now have locked element IDs
 4. **ALWAYS** verify: Mimi is the smallest character on screen (v2 design wears floral sneakers — barefoot rule retired 2026-07-10)
 5. **ALWAYS** verify: Nana Blossom is the tallest character on screen
-6. **NEVER** put Bella and Commander in the same shot
+6. **NEVER** put Bella and Gabriel in the same shot
 7. **ALWAYS** include Rena's multicolor LEFT CHEEK paint smudge when she appears
 8. **NEVER** use looping footage or pad with repeated clips
 
@@ -156,8 +156,8 @@ CHARACTER LOCK — [EPISODE NUMBER] [SHOT ID]
 - AVA: <<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>> [if Ava is in shot]
 - RICO: <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>> [if Rico is in shot]
 - RENA: <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> [if Rena is in shot]
-- BELLA: <<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>> [if Bella is in shot — NEVER with Commander]
-- COMMANDER: <<<f35f85da-590d-4a74-80d5-a3931befa4bb>>> [if Commander is in shot — NEVER with Bella]
+- BELLA: <<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>> [if Bella is in shot — NEVER with Gabriel]
+- GABRIEL: <<<f35f85da-590d-4a74-80d5-a3931befa4bb>>> [if Gabriel is in shot — NEVER with Bella]
 
 SAFETY CHECK:
 - No age descriptors used: CONFIRMED
@@ -166,8 +166,8 @@ SAFETY CHECK:
 - [If Mimi present] Mimi is smallest: CONFIRMED
 - [If Nana present] Nana is tallest: CONFIRMED
 - [If Rena present] Left cheek smudge present: CONFIRMED
-- [If Bella present] Commander NOT in shot: CONFIRMED
-- [If Commander present] Bella NOT in shot: CONFIRMED
+- [If Bella present] Gabriel NOT in shot: CONFIRMED
+- [If Gabriel present] Bella NOT in shot: CONFIRMED
 
 SCENE PROMPT:
 [Full image prompt for this shot — specific, vivid, production-ready]
@@ -229,7 +229,7 @@ Output a single valid JSON file with this exact structure:
 - All characters now have element IDs. The `<<<UUID>>>` inline tags in the prompt handle references.
 - medias array should be empty `[]` for most shots.
 - Exception — if you have a previously generated pose image you want to use as start_image for a specific motion, include: `{ "type": "start_image", "job_id": "[pose_job_id]" }`
-- Bella and Commander: NEVER in the same shot.
+- Bella and Gabriel: NEVER in the same shot.
 
 **Rules for shot IDs:**
 - Use the episode's beat sheet IDs where they exist: B01, B02... B24
@@ -270,12 +270,12 @@ When you receive the song lyrics and episode context:
    - [ ] Every prompt with Rico uses `<<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>`
    - [ ] Every prompt with Rena uses `<<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>>`
    - [ ] Every prompt with Bella uses `<<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>>`
-   - [ ] Every prompt with Commander uses `<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>`
+   - [ ] Every prompt with Gabriel uses `<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>`
    - [ ] No prompt contains age descriptors
    - [ ] No prompt contains the word "Pixar"
    - [ ] Mimi is smallest in every shot she appears in (v2 floral sneakers, NOT barefoot)
    - [ ] Nana Blossom is tallest in every shot she appears in
-   - [ ] Bella and Commander are never in the same shot
+   - [ ] Bella and Gabriel are never in the same shot
    - [ ] Rena's left cheek paint smudge is noted in every shot she appears in
    - [ ] Shot order is ascending (B01 → B24 or V1_01 → OUTRO_last)
    - [ ] Total shots count matches `_meta.total_shots`
@@ -335,7 +335,7 @@ Never do any of the following, regardless of episode content:
 - Omit element ID tags for ANY character in any prompt they appear in (all 14 are now locked)
 - Use age descriptors of any kind in any prompt
 - Use the word "Pixar" in any prompt
-- Put Bella and Commander in the same shot
+- Put Bella and Gabriel in the same shot
 - Show Mimi barefoot (v2 design wears floral high-top sneakers; the pre-2026-07-10 barefoot rule is RETIRED)
 - Show Nana Blossom as shorter than any other character on screen
 - Omit Rena's left cheek paint smudge when she appears
@@ -348,3 +348,9 @@ Never do any of the following, regardless of episode content:
 *End of Episode Generator Prompt v2.0*
 *Updated: 2026-07-07 — All 14 character element IDs locked; character descriptions corrected to match characters.json v3.0*
 *Apply to all future episodes: EP02 onward*
+
+## ANATOMY HARD-SET + ADULT MENTORS (creator-locked 2026-07-11 — v2.2 addendum)
+1. Every character: EXACTLY ONE HEAD, correct limbs/proportions. MIA: EXACTLY TWO low pigtails, never three. BELLA: one head, single body, DOG.
+2. Every prompt carries the anatomy line ("Every character has exactly one head and correct anatomy") and, when Mia is in shot, "Mia has EXACTLY TWO low pigtails".
+3. Inspect every generated image for anatomy BEFORE submitting its video; frame-pass every batch before assembly. Fail = regenerate; delete rejects from staging immediately.
+4. ADULT MENTORS: the crew comes across AVA at least once per episode — she pops up whenever the kids are LEARNING (classroom optional). ANNE the music teacher sings along in at least one song moment per episode ONCE her design is locked (currently NEEDS_DESIGN — do not depict). RANDY runs the corner store (NEEDS_DESIGN — do not depict). Nana's porch / mayor's office / corner store are location OPTIONS, never obligations.

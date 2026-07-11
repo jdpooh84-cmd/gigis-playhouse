@@ -1,5 +1,6 @@
 # SUNNY AND THE CREW — THEME SONG
 
+> **RENAME NOTICE (2026-07-11):** The dog formerly called 'Commander' in this file is now GABRIEL (hard creator rename). References below are historical.
 > **ARCHIVAL NOTICE (2026-07-11):** THEME-INTRO-MASTER.mp4 is BUILT and LOCKED
 > (`sunny-and-the-crew/theme-song/THEME-INTRO-MASTER.mp4`, Drive 1fvGvI8ERWGlC5PD7_7TxqPeoXZFqmhEg).
 > The shot prompts below are the historical record of that one-time build and are NEVER re-run.

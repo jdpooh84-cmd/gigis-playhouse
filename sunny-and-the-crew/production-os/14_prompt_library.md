@@ -10,3 +10,7 @@ CATEGORIES:
 7. GROUP/ENSEMBLE — scale rules restated (Mimi smallest / Nana tallest), max joy, sparkle trail allowed.
 8. TRANSITION — star-burst into songs only.
 AUDIO BED SKELETON (Suno): "gentle instrumental kids [ukulele|pizzicato] bed, [x] BPM, major key, no vocals, warm, preschool [practice|game] background" + negatives "no vocals, no dark mood, not sad".
+
+## ANATOMY LINE (mandatory in every character prompt — creator-locked 2026-07-11)
+`Every character has exactly one head and correct anatomy. [If Mia present: Mia has EXACTLY TWO low pigtails.]`
+Add to every SAFETY CHECK: `anatomy check (one head each, correct limbs): CONFIRMED`

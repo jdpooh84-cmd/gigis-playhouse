@@ -24,16 +24,18 @@ IDS = {
  "Rico": "<<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>",
  "Rena": "<<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>>",
  "Bella": "<<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>>",
- "Commander": "<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>",
+ "Gabriel": "<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>",
 }
 NOTES = {
  "Mimi": "ALWAYS smallest character on screen; creator v2 design (gold jacket, multicolored skirt, floral sneakers)",
  "Koda": "KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)",
+ "Mia": "EXACTLY TWO low pigtails with teal scrunchies — never three",
  "Nana Blossom": "ALWAYS TALLEST character on screen",
- "Commander": "NEVER in the same shot as Bella",
- "Bella": "NEVER in the same shot as Commander; Bella is NOT Commander",
+ "Gabriel": "NEVER in the same shot as Bella",
+ "Bella": "DOG (never feline); ONE head, single proportionate body; NEVER in the same shot as Gabriel",
  "Rena": "small multicolor paint smudge on LEFT CHEEK, always present",
  "Mayor Mary": "SHORT FULL AUBURN RED CURLY HAIR — warm auburn red, restate in every prompt",
+ "Ava": "RECURRING LEARNING MENTOR — pops up whenever the kids are learning; at least once per episode",
 }
 LOCS = {
  "LOC_DIRECT_ADDRESS": "warm bright yellow gradient, clean and minimal",
@@ -65,7 +67,7 @@ L.append("2. NO age descriptors ('6-year-old', 'toddler', 'young child' — BANN
 L.append("3. NO word 'Pixar' — use '3D animated, cartoon style' (BANNED — triggers safety filter).")
 L.append("4. Element IDs go inline as <<<UUID>>> tags. ALL characters have LOCKED elements — never generate a character without their element ID.")
 L.append("5. One image per clip -> then one video clip per image (max 15s source; target trim per manifest).")
-L.append("6. MIMI: always smallest (v2 design wears floral sneakers). NANA BLOSSOM: always tallest. KODA IS A BOY. BELLA and COMMANDER never share a shot. RENA: multicolor paint smudge on LEFT cheek. MAYOR MARY: SHORT FULL AUBURN RED CURLY HAIR — restate in every prompt she appears in.")
+L.append("6. MIMI: always smallest (v2 design wears floral sneakers). NANA BLOSSOM: always tallest. KODA IS A BOY. BELLA and GABRIEL never share a shot. RENA: multicolor paint smudge on LEFT cheek. MAYOR MARY: SHORT FULL AUBURN RED CURLY HAIR — restate in every prompt she appears in.")
 L.append("7. All in 16:9 widescreen, vivid warm palette, 3D animated cartoon style.")
 L.append("8. NO CARS ever appear visually in any shot — hard world rule.")
 L.append("9. NO real-world brand logos or trademarks anywhere — clothing, shoes, props, backgrounds. All footwear is plain solid-color with no marks (Koda v2 was RECALLED for a branded swoosh — never again).")
@@ -110,10 +112,11 @@ for c in man["clips"]:
     for ch in charlist(c["characters"]):
         L.append("[%s]" % ch)
     L.append("")
-    L.append("SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED")
+    L.append("SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED")
     L.append("")
     L.append("SCENE PROMPT:")
     L.append(c["visual_action"] + ".")
+    L.append("Every character has exactly one head and correct anatomy." + (" Mia has EXACTLY TWO low pigtails." if "Mia" in c["characters"] else ""))
     if c["lyric_or_dialogue"] and not c["lyric_or_dialogue"].startswith("("):
         L.append("Timed line: %s" % c["lyric_or_dialogue"])
     L.append("Background: %s — %s." % (c["location"], LOCS.get(c["location"], "see locations.json")))

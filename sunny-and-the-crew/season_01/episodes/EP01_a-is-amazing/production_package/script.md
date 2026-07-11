@@ -177,3 +177,6 @@ Kids now know the song; reprise visuals feature the wider crew and bigger group 
 > **SUNNY:** See you next time — bye bye!
 
 *Hold 2 seconds on frozen wave + logo. Warm fade to black.*
+
+---
+*Amendment 2026-07-11 (adult-mentor rule): AVA pops up over the fence during the practice echo (4:34) nodding encouragement, and pops in clapping at the hunt recap (7:11). Visual only — no VO change. ANNE the music teacher joins song moments in future builds once her design is locked.*

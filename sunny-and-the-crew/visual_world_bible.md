@@ -60,7 +60,7 @@ Sunny and the Crew — that's me and you!
 Hey! [ukulele hit]
 ```
 
-> ✅ "Captain Blue" in the Verse 2 lyric refers to Commander — Koda's dog. Commander is a confirmed character with locked pose job IDs in `characters.json`. Shot T13 uses Commander's pose job ID `0a837a71` alongside Nana Blossom's pose job ID `f9e27584`. No character named Captain Blue exists in this show.
+> ✅ "Captain Blue" in the Verse 2 lyric refers to Gabriel — Koda's dog. Gabriel is a confirmed character with locked pose job IDs in `characters.json`. Shot T13 uses Gabriel's pose job ID `0a837a71` alongside Nana Blossom's pose job ID `f9e27584`. No character named Captain Blue exists in this show.
 
 ---
 
