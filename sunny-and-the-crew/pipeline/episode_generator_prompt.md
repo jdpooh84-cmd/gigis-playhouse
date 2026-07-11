@@ -102,7 +102,7 @@ they appear in. No exceptions. No text-description-only generation for any chara
 | **Ava** | Teacher. AMBER-GOLD long-sleeve top under MEDIUM BLUE DENIM OVERALLS with full bib and chest pocket. Dark chocolate brown natural curly hair in LOOSE HIGH BUN. Warm golden tan skin with rosy cheeks. | `<<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>>` | — |
 | **Rico** | Sporty older kid. Solid GREEN athletic t-shirt, GREY athletic shorts, WHITE sneakers with ORANGE accent dots on heel. Short clean FADE haircut. Always has a basketball. | `<<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>` | Basketball always present |
 | **Rena** | Creative older kid. Solid ORANGE t-shirt, BLUE denim jeans with ankle cuff, RAINBOW multicolor patchwork sneakers. Big voluminous DARK CURLY AFRO with bright YELLOW headband. **Small MULTICOLOR paint smudge on LEFT CHEEK — NEVER missing.** | `<<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>>` | LEFT CHEEK paint smudge ALWAYS present |
-| **Bella** | Wise wanderer dog. Ivory white body with brindle markings. Floppy CHOCOLATE BROWN ears. DEEP TEAL collar. Subtle warm golden glow around edges. Medium-to-large, elegant. | `<<<3faaac30-5b05-4b1b-a2f4-deb996643a5d>>>` | NEVER in same shot as Commander |
+| **Bella** | Wise wanderer dog. Ivory white body with brindle markings. Floppy CHOCOLATE BROWN ears. DEEP TEAL collar. Subtle warm golden glow around edges. Medium-to-large, elegant. | `<<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>>` | NEVER in same shot as Commander |
 | **Commander** | Koda's dog. Compact. Cream white base with warm brown spots. Very long floppy CHOCOLATE BROWN ears. Large glossy black nose. Curled upward tail. | `<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>` | NEVER in same shot as Bella |
 
 ---
@@ -156,7 +156,7 @@ CHARACTER LOCK — [EPISODE NUMBER] [SHOT ID]
 - AVA: <<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>> [if Ava is in shot]
 - RICO: <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>> [if Rico is in shot]
 - RENA: <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> [if Rena is in shot]
-- BELLA: <<<3faaac30-5b05-4b1b-a2f4-deb996643a5d>>> [if Bella is in shot — NEVER with Commander]
+- BELLA: <<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>> [if Bella is in shot — NEVER with Commander]
 - COMMANDER: <<<f35f85da-590d-4a74-80d5-a3931befa4bb>>> [if Commander is in shot — NEVER with Bella]
 
 SAFETY CHECK:
@@ -269,7 +269,7 @@ When you receive the song lyrics and episode context:
    - [ ] Every prompt with Ava uses `<<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>>`
    - [ ] Every prompt with Rico uses `<<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>`
    - [ ] Every prompt with Rena uses `<<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>>`
-   - [ ] Every prompt with Bella uses `<<<3faaac30-5b05-4b1b-a2f4-deb996643a5d>>>`
+   - [ ] Every prompt with Bella uses `<<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>>`
    - [ ] Every prompt with Commander uses `<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>`
    - [ ] No prompt contains age descriptors
    - [ ] No prompt contains the word "Pixar"

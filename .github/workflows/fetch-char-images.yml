@@ -19,10 +19,8 @@ jobs:
           rm -f _staging/character_check/*
           set +e
           dl() { curl -sL -A "Mozilla/5.0" -o "_staging/character_check/$2" "$1" && echo "OK $2 $(wc -c < _staging/character_check/$2)" || echo "FAIL $2"; }
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260711_195118_cf61de23-b1d4-40ac-b7d3-2a2c1784df4d.png" "theme-T07-v11.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260711_195138_8d4ad09b-c7c5-422c-85d8-3486ed5abccf.png" "theme-T09-v11.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260711_195144_fcc3cce0-52a8-4bdd-a5b9-c26af8ccdfec.png" "theme-T11-v11.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260711_195200_91d0a612-c168-40cb-b589-879107b5e1b6.png" "theme-T17-v11.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260711_202241_14cd0608-caea-4dc9-ba23-c1856832e631.png" "theme-T15-oldelement.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260711_202437_6112476e-fce1-497e-b7fb-b4fb42c78b09.png" "theme-T15-v2element.png"
           # drop any zero-byte failures
           find _staging/character_check -size -1k -delete
           ls -la _staging/character_check

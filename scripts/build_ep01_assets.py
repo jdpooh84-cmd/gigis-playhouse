@@ -23,7 +23,7 @@ IDS = {
  "Ava": "<<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>>",
  "Rico": "<<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>",
  "Rena": "<<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>>",
- "Bella": "<<<3faaac30-5b05-4b1b-a2f4-deb996643a5d>>>",
+ "Bella": "<<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>>",
  "Commander": "<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>",
 }
 NOTES = {

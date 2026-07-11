@@ -478,7 +478,7 @@
       },
       "personality": "No one knows where she lives. She appears when needed. Answers questions as if she already knew they would be asked.",
       "voice": "female second soprano — melodic like a popstar",
-      "higgsfield_element_id_LOCKED": "3faaac30-5b05-4b1b-a2f4-deb996643a5d",
+      "higgsfield_element_id_LOCKED": "c4ea659f-6ad3-4564-9d87-a3ed8738850f",
       "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "higgsfield_pose_job_ids": {
         "pose_1_sitting_dignified": "da604e85-98f9-492e-9cd9-c4d83be8082d",
@@ -496,7 +496,14 @@
         "Bella is NOT Commander. Never confuse them.",
         "NEVER in same shot as Commander"
       ],
-      "species_confirmed": "DOG — creator-confirmed 2026-07-11 with reference images (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png). Any doc calling Bella a cat is WRONG. Element 3faaac30 description ('wise elder female dog') was always correct."
+      "species_confirmed": "DOG — creator-confirmed 2026-07-11 with reference images (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png). Any doc calling Bella a cat is WRONG. Element 3faaac30 description ('wise elder female dog') was always correct.",
+      "deprecated_element_ids": [
+        {
+          "id": "3faaac30-5b05-4b1b-a2f4-deb996643a5d",
+          "reason": "superseded 2026-07-11 by Bella-v2 built from creator reference images — old element risked feline drift (shipped theme T15 rendered a cat)"
+        }
+      ],
+      "design_note": "Bella-v2 element locked 2026-07-11 from creator dog references (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png)."
     },
     {
       "id": "COMMANDER",
