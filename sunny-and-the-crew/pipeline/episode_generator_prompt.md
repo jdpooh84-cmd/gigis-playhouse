@@ -91,7 +91,7 @@ they appear in. No exceptions. No text-description-only generation for any chara
 | Character | Role | Locked Element ID Tag | Hard Rules |
 |-----------|------|-----------------------|------------|
 | **Sunny** | Lead. Yellow t-shirt with white cloud emblem, orange shorts, yellow-and-white sneakers. Two LARGE HIGH puff buns — PINK tie on RIGHT, YELLOW tie on LEFT. Direct address to camera. | `<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>` | Direct address every episode |
-| **Koda** | Sunny's older brother (BOY, human — NOT a dog). Warm medium-brown skin, big full dark afro, black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange high-top sneakers. Visibly older and taller than Sunny. (Creator v2 design, locked 2026-07-10.) | `<<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>>` | Always visibly taller than Sunny |
+| **Koda** | Sunny's older brother (BOY, human — NOT a dog). Warm medium-brown skin, big full dark afro, black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange high-top sneakers. Visibly older and taller than Sunny. (Creator v2 design, locked 2026-07-10.) | `<<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>` | Always visibly taller than Sunny |
 | **Mimi** | Sunny's baby sister. Warm golden-brown skin, dark curly hair in high bun with rainbow clip, gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings, floral high-top sneakers. ALWAYS SMALLEST on screen. Communicates through reactions only. (Creator v2 design — old barefoot rule SUPERSEDED.) | `<<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>` | BAREFOOT always. SMALLEST on screen always. |
 | **Pipa** | Dramatic one. Twin sister of Bram. Fair skin, rosy cheeks, freckles, long strawberry-blond wavy hair with flower clip, big blue eyes, mint green dress with white Peter Pan collar, white socks, pink-white sneakers. (Creator v2 design, locked 2026-07-10.) | `<<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>` | — |
 | **Bram** | Thinker. Twin brother of Pipa. Fair skin, freckles, sandy light-brown tousled hair, green eyes, red-white striped t-shirt, rolled denim shorts, navy high-top sneakers. Calm cheerful thinker. (Creator v2 design, locked 2026-07-10.) | `<<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>` | — |
@@ -145,7 +145,7 @@ the characters appearing in that specific shot:
 CHARACTER LOCK — [EPISODE NUMBER] [SHOT ID]
 [LIST ONLY CHARACTERS IN THIS SHOT:]
 - SUNNY: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> [if Sunny is in shot]
-- KODA: <<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>> [if Koda is in shot]
+- KODA: <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> [if Koda is in shot]
 - MIMI: <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>> [if Mimi is in shot]
 - PIPA: <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>> [if Pipa is in shot]
 - BRAM: <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>> [if Bram is in shot]
@@ -258,7 +258,7 @@ When you receive the song lyrics and episode context:
 
 6. **Self-check before outputting:**
    - [ ] Every prompt with Sunny uses `<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>`
-   - [ ] Every prompt with Koda uses `<<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>>`
+   - [ ] Every prompt with Koda uses `<<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>`
    - [ ] Every prompt with Mimi uses `<<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>`
    - [ ] Every prompt with Pipa uses `<<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>`
    - [ ] Every prompt with Bram uses `<<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>`

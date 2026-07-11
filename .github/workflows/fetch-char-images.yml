@@ -16,14 +16,13 @@ jobs:
       - name: Download candidate character images
         run: |
           mkdir -p _staging/character_check
+          rm -f _staging/character_check/*
           set +e
           dl() { curl -sL -A "Mozilla/5.0" -o "_staging/character_check/$2" "$1" && echo "OK $2 $(wc -c < _staging/character_check/$2)" || echo "FAIL $2"; }
-          dl "https://d2ol7oe51mr4n9.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/3a9f19ed-8005-4cb8-852a-32325eca4d58.png" "candidate-A-3a9f19ed.png"
-          dl "https://d2ol7oe51mr4n9.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/0f5a68c4-7461-4d3c-a44f-c0c3711b6cbd.png" "candidate-B-0f5a68c4.png"
-          dl "https://d2ol7oe51mr4n9.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/3fc9fc9f-9fed-42b8-ab2c-e7b1d6f41c4a.png" "candidate-C-3fc9fc9f.png"
-          dl "https://d2ol7oe51mr4n9.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/b15fef52-3d45-49c3-a1c2-22a26a970c5b.png" "candidate-D-b15fef52.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/e11f3218-b754-40e0-be24-2c3ff1aa7c96.png" "koda1-e11f3218.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/e46e9b72-7595-4ae4-858c-248f8d11df72.png" "nanablossom1-e46e9b72.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260711_195118_cf61de23-b1d4-40ac-b7d3-2a2c1784df4d.png" "theme-T07-v11.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260711_195138_8d4ad09b-c7c5-422c-85d8-3486ed5abccf.png" "theme-T09-v11.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260711_195144_fcc3cce0-52a8-4bdd-a5b9-c26af8ccdfec.png" "theme-T11-v11.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260711_195200_91d0a612-c168-40cb-b589-879107b5e1b6.png" "theme-T17-v11.png"
           # drop any zero-byte failures
           find _staging/character_check -size -1k -delete
           ls -la _staging/character_check
@@ -31,6 +30,6 @@ jobs:
         run: |
           git config user.name "char-check-bot"
           git config user.email "actions@github.com"
-          git add _staging/character_check
-          git commit -m "stage: character identification images" || echo "nothing to commit"
+          git add -A _staging/character_check
+          git commit -m "stage: theme v1.1 replacement images for brand-safety check" || echo "nothing to commit"
           git push

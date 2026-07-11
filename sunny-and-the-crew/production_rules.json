@@ -49,8 +49,16 @@
     "theme_song_duration_seconds": 44.78,
     "timing_master": "AUDIO IS THE TIMING MASTER. Never trust planned durations — ffprobe the actual rendered audio file before cutting any video.",
     "episode_formats": {
-      "STANDARD": { "minimum_seconds": 300, "maximum_seconds": 480, "label": "5-8 min" },
-      "EXTENDED": { "minimum_seconds": 600, "maximum_seconds": 900, "label": "10-15 min" }
+      "STANDARD": {
+        "minimum_seconds": 300,
+        "maximum_seconds": 480,
+        "label": "5-8 min"
+      },
+      "EXTENDED": {
+        "minimum_seconds": 600,
+        "maximum_seconds": 900,
+        "label": "10-15 min"
+      }
     },
     "episode_minimum_seconds": 300,
     "episode_maximum_seconds": 900,
@@ -100,7 +108,8 @@
     "Redesigning Sunny's appearance",
     "Using any model other than nano_banana_2 for character generation",
     "Looping clips",
-    "Random scene generation not based on beat sheet"
+    "Random scene generation not based on beat sheet",
+    "Depicting any real-world brand logo or trademark (clothing, shoes, props, signage) — Koda v2 was recalled for a branded shoe swoosh"
   ],
   "quality_checks": [
     "Verify clip count matches beat count before assembly",
@@ -110,7 +119,8 @@
     "Verify the episode begins with THEME-INTRO-MASTER.mp4 prepended unmodified",
     "Verify outro ends with Sunny wave goodbye (asset 3d56c3cb or equivalent)",
     "Verify theme song is at the start of ACT 1",
-    "Verify episode song covers full duration of ACT 3"
+    "Verify episode song covers full duration of ACT 3",
+    "Zoom-inspect character reference images (feet, chest, props) for real-world brand marks BEFORE locking any element"
   ],
   "VERIFICATION_PROTOCOL": {
     "rule": "CHECK BEFORE DECLARING MISSING",

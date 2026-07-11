@@ -5,7 +5,7 @@
     "version": "3.0",
     "last_updated": "2026-07-10",
     "note": "All 14 Higgsfield element IDs are now LOCKED. Every character in this file has a confirmed element ID as of 2026-07-07. Always use element IDs — never use text-prompt-only generation for any character. Never use age descriptors or the word 'Pixar' in Higgsfield prompts — triggers safety filter. nano_banana_2 is the confirmed working model.",
-    "redesign_note": "KODA, MIMI, PIPA, BRAM redesigned and re-locked 2026-07-10. Koda is a BOY (Sunny's older brother) — any doc calling Koda a dog is wrong; Commander is the dog. Mimi's new design wears floral sneakers (old always-barefoot rule superseded by creator)."
+    "redesign_note": "KODA, MIMI, PIPA, BRAM redesigned and re-locked 2026-07-10. Koda is a BOY (Sunny's older brother) — any doc calling Koda a dog is wrong; Commander is the dog. Mimi's new design wears floral sneakers (old always-barefoot rule superseded by creator). KODA re-locked AGAIN 2026-07-11 as v3: v2 reference images carried a branded swoosh on the sneakers (trademark risk) — v2 element a8b3713c-0f43-4dc7-a801-4000e6bdca44 is RECALLED, never use. v3 shoes are plain/unbranded."
   },
   "main_crew": [
     {
@@ -62,14 +62,14 @@
         "skin": "warm medium brown",
         "eyes": null,
         "hair": "big full dark afro",
-        "outfit": "black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange high-top sneakers",
+        "outfit": "black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange sneakers — PLAIN, NO brand logos or marks",
         "age_appearance": "visibly older and taller than Sunny",
         "color_theme": "black, grey, orange",
         "style": "3D animated"
       },
       "personality": "Confident builder, problem-solver, jumps in without being asked, celebrates with fist pumps",
       "signature_expression": "Arms crossed confident smile → instant fist pump when something works",
-      "higgsfield_element_id_LOCKED": "a8b3713c-0f43-4dc7-a801-4000e6bdca44",
+      "higgsfield_element_id_LOCKED": "7ce52e05-5bba-43f0-bb1e-8ca11974038c",
       "higgsfield_element_status": "LOCKED — always use, never regenerate",
       "invideo_elements": [
         "@Koda"
@@ -79,9 +79,8 @@
       "existing_higgsfield_image_ids": {},
       "direct_address_to_camera": false,
       "note": "Koda is Sunny's older brother. Visibly older and taller on screen. NOT a dog — human character.",
-      "deprecated_element_id_broken_media": "2ea4d86d-1978-4764-8620-8f771ee28b4b",
-      "design_locked_description": "Koda — warm medium-brown skin, big full dark afro, black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange high-top sneakers. Sunny's older brother. Cool confident energy.",
-      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
+      "design_locked_description": "Koda — warm medium-brown skin, big full dark afro, black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange sneakers with NO brand logos. Sunny's older brother. Cool confident energy.",
+      "design_note": "Creator v3 redesign locked 2026-07-11 (repo: _staging/characters_new/koda-v3-*.png) — logo-scrubbed replacement after the v2 references showed a branded swoosh on the shoes.",
       "superseded_appearance_v1": {
         "skin": "deep warm brown",
         "eyes": null,
@@ -91,7 +90,17 @@
         "color_theme": "red and khaki",
         "style": "3D animated"
       },
-      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element a8b3713c-0f43-4dc7-a801-4000e6bdca44). v1 kept only for history — never use for prompts."
+      "appearance_note": "appearance = creator v3 design (locked 2026-07-11, matches element 7ce52e05-5bba-43f0-bb1e-8ca11974038c). v1 kept only for history — never use for prompts.",
+      "deprecated_element_ids": [
+        {
+          "id": "2ea4d86d-1978-4764-8620-8f771ee28b4b",
+          "reason": "broken source media (deleted), 2026-07-10"
+        },
+        {
+          "id": "a8b3713c-0f43-4dc7-a801-4000e6bdca44",
+          "reason": "TRADEMARK RECALL 2026-07-11 — reference images showed a branded swoosh + tongue label on sneakers. NEVER USE."
+        }
+      ]
     },
     {
       "id": "MIMI",

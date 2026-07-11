@@ -10,6 +10,7 @@ Regenerated 2026-07-11 (v2 locked elements) | 128 clips need new assets | model:
 6. MIMI: always smallest (v2 design wears floral sneakers). NANA BLOSSOM: always tallest. KODA IS A BOY. BELLA and COMMANDER never share a shot. RENA: multicolor paint smudge on LEFT cheek. MAYOR MARY: SHORT FULL AUBURN RED CURLY HAIR — restate in every prompt she appears in.
 7. All in 16:9 widescreen, vivid warm palette, 3D animated cartoon style.
 8. NO CARS ever appear visually in any shot — hard world rule.
+9. NO real-world brand logos or trademarks anywhere — clothing, shoes, props, backgrounds. All footwear is plain solid-color with no marks (Koda v2 was RECALLED for a branded swoosh — never again).
 
 ## NEW AUDIO ASSETS (Suno) — generate BEFORE clip timing polish
 
@@ -45,7 +46,7 @@ CHARACTER LOCK — EP01 EP01-P2-C01
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny on sidewalk bouncing on toes, arms wide, greets viewer; Leo leans on fence with notebook behind.
@@ -63,7 +64,7 @@ CHARACTER LOCK — EP01 EP01-P2-C02
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Mia runs into frame; Sunny holds up two fingers, eyes huge.
@@ -81,7 +82,7 @@ CHARACTER LOCK — EP01 EP01-P2-C03
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three run down the sidewalk toward Nana's porch.
@@ -102,7 +103,7 @@ CHARACTER LOCK — EP01 EP01-P2-C04
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny and Mia arrive at Nana's porch — a bowl of shiny red apples on the porch table.
@@ -119,7 +120,7 @@ CHARACTER LOCK — EP01 EP01-P2-C05
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Nana Blossom (tallest on screen) opens the screen door with her big welcoming smile.
@@ -137,7 +138,7 @@ CHARACTER LOCK — EP01 EP01-P2-C06
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny lifts a big shiny apple overhead like a trophy, savoring the word.
@@ -155,7 +156,7 @@ CHARACTER LOCK — EP01 EP01-P2-C07
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Mia claps, repeating the word with joy.
@@ -177,7 +178,7 @@ CHARACTER LOCK — EP01 EP01-P2-C08
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Back on the sidewalk — Leo freezes and points straight up.
@@ -195,7 +196,7 @@ CHARACTER LOCK — EP01 EP01-P2-C09
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Red toy airplane with yellow wings drifts over the fence on its string.
@@ -212,7 +213,7 @@ CHARACTER LOCK — EP01 EP01-P2-C10
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three look up; Mia tips back so far she nearly falls; Leo grabs his notebook to draw it.
@@ -230,7 +231,7 @@ CHARACTER LOCK — EP01 EP01-P2-C11
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three repeat the word, eyes on the sky.
@@ -253,7 +254,7 @@ CHARACTER LOCK — EP01 EP01-P2-C12
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny holds the apple in one hand and points up at the airplane with the other.
@@ -272,7 +273,7 @@ CHARACTER LOCK — EP01 EP01-P2-C13
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo squints thoughtfully, adjusts his glasses, then declares with confidence.
@@ -291,7 +292,7 @@ CHARACTER LOCK — EP01 EP01-P2-C14
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny and Nana share a warm smile; Sunny gives Leo a proud nod.
@@ -310,7 +311,7 @@ CHARACTER LOCK — EP01 EP01-P2-C15
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Everyone leans in — anticipation builds on the porch.
@@ -332,7 +333,7 @@ CHARACTER LOCK — EP01 EP01-P2-C16
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Nana crouches to the children's level — signature listening pose — apple in one hand, other gesturing skyward.
@@ -351,7 +352,7 @@ CHARACTER LOCK — EP01 EP01-P2-C17
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Nana's warm eyes; she says it slowly.
@@ -370,7 +371,7 @@ CHARACTER LOCK — EP01 EP01-P2-C18
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Letter A badge animates into upper corner; Sunny's face goes from pure wonder to pure joy.
@@ -389,7 +390,7 @@ CHARACTER LOCK — EP01 EP01-P2-C19
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 The whole porch erupts — Mia jumps, Leo scribbles A in his notebook.
@@ -409,7 +410,7 @@ CHARACTER LOCK — EP01 EP01-P2-C20
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [crew visible behind]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny turns fully to camera and leans forward — she needs the viewer's help.
@@ -426,7 +427,7 @@ CHARACTER LOCK — EP01 EP01-P2-C21
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [crew visible behind]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny cups her hand to her ear and waits — patient, warm, listening face. FULL 3-SECOND HOLD.
@@ -443,7 +444,7 @@ CHARACTER LOCK — EP01 EP01-P2-C22
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [crew visible behind]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny celebrates BIG — she heard them.
@@ -460,7 +461,7 @@ CHARACTER LOCK — EP01 EP01-P2-C23
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [crew visible behind]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny claps for the viewer; Leo and Mia cheer behind.
@@ -480,9 +481,9 @@ CHARACTER LOCK — EP01 EP01-P3-C01
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>> — ALWAYS smallest character on screen; creator v2 design (gold jacket, multicolored skirt, floral sneakers)]
-[Koda <<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>> — KODA IS A BOY — Sunny's older brother; creator v2 design (afro)]
+[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Mimi runs in spinning with arms out like an airplane, stops, claps three times, points at Sunny.
@@ -499,9 +500,9 @@ CHARACTER LOCK — EP01 EP01-P3-C02
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>> — ALWAYS smallest character on screen; creator v2 design (gold jacket, multicolored skirt, floral sneakers)]
-[Koda <<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>> — KODA IS A BOY — Sunny's older brother; creator v2 design (afro)]
+[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Koda jogs over from his doorstep; energy rises; Sunny's eyes light up.
@@ -522,9 +523,9 @@ CHARACTER LOCK — EP01 EP01-P3-C03
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
-[Koda <<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>> — KODA IS A BOY — Sunny's older brother; creator v2 design (afro)]
+[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Everyone lines up shoulder to shoulder facing camera.
@@ -540,9 +541,9 @@ CHARACTER LOCK — EP01 EP01-P3-C04
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
-[Koda <<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>> — KODA IS A BOY — Sunny's older brother; creator v2 design (afro)]
+[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny steps forward, both hands out to the viewer — an invitation, not a performance.
@@ -559,9 +560,9 @@ CHARACTER LOCK — EP01 EP01-P3-C05
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
-[Koda <<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>> — KODA IS A BOY — Sunny's older brother; creator v2 design (afro)]
+[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny draws a breath, grins.
@@ -578,9 +579,9 @@ CHARACTER LOCK — EP01 EP01-P3-C06
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
-[Koda <<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>> — KODA IS A BOY — Sunny's older brother; creator v2 design (afro)]
+[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 White flash expands from center frame — STAR BURST transition into the song.
@@ -602,7 +603,7 @@ CHARACTER LOCK — EP01 EP01-P4-C02
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Intro extension beat — Sunny holds the invitation pose as Leo and Mia bounce in behind; Letter A badge settles in corner (bridges A01 into Verse 1).
@@ -623,7 +624,7 @@ CHARACTER LOCK — EP01 EP01-P4-C30
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny and Mia sit on the porch steps, catching breath from the song, happy.
@@ -640,7 +641,7 @@ CHARACTER LOCK — EP01 EP01-P4-C31
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny leans toward camera with a secret-sharing smile.
@@ -660,7 +661,7 @@ Kid cue this clip supports: Get your singing voice ready!
 CHARACTER LOCK — EP01 EP01-P4-C32
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny models the short-A sound slowly, big clear mouth shapes — chalk letter 'a' pulses with each sound.
@@ -676,7 +677,7 @@ Kid cue this clip supports: Say /a/ /a/ /a/ after Sunny! (3-second response hold
 CHARACTER LOCK — EP01 EP01-P4-C33
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny cups her ear and waits — 3-SECOND HOLD, warm listening face.
@@ -692,7 +693,7 @@ Kid cue this clip supports: Say /a/ /a/ /a/ after Sunny! (3-second response hold
 CHARACTER LOCK — EP01 EP01-P4-C34
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny beams and claps.
@@ -708,7 +709,7 @@ Kid cue this clip supports: Say /a/ /a/ /a/ after Sunny! (3-second response hold
 CHARACTER LOCK — EP01 EP01-P4-C35
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Mia pops in beside Sunny; they do it once more together, louder, chalk 'a' bounces.
@@ -729,7 +730,7 @@ CHARACTER LOCK — EP01 EP01-P4-C36
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny holds the shiny apple; claps the syllables AP-PLE; chalk word APPLE floats in.
@@ -746,7 +747,7 @@ CHARACTER LOCK — EP01 EP01-P4-C37
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Ear-cup listening hold — 3 SECONDS.
@@ -763,7 +764,7 @@ CHARACTER LOCK — EP01 EP01-P4-C38
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Both girls cheer; Mia takes a big pretend crunch.
@@ -784,7 +785,7 @@ CHARACTER LOCK — EP01 EP01-P4-C39
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo flies his notebook like a plane; claps syllables AIR-PLANE; chalk word AIRPLANE floats in.
@@ -801,7 +802,7 @@ CHARACTER LOCK — EP01 EP01-P4-C40
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo and Sunny both cup ears — 3-second hold plus a wink.
@@ -818,7 +819,7 @@ CHARACTER LOCK — EP01 EP01-P4-C41
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Both zoom arms out like wings in celebration.
@@ -838,7 +839,7 @@ Kid cue this clip supports: Say AIRPLANE! (3-second response hold)
 CHARACTER LOCK — EP01 EP01-P4-C42
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny traces a giant glowing A in the air with her finger — down, down, across — golden trail follows.
@@ -854,7 +855,7 @@ Kid cue this clip supports: Draw a big A in the air with your finger!
 CHARACTER LOCK — EP01 EP01-P4-C43
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 The glowing A hangs complete in the air; Sunny peeks through it like a window.
@@ -876,7 +877,7 @@ CHARACTER LOCK — EP01 EP01-P4-C44
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three give the camera double thumbs-up; chalk 'a', APPLE, AIRPLANE all on screen.
@@ -894,7 +895,7 @@ CHARACTER LOCK — EP01 EP01-P4-C45
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo suddenly points off-screen — an idea sparks.
@@ -916,7 +917,7 @@ CHARACTER LOCK — EP01 EP01-P4-C46
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 The crew huddles on the sidewalk; Sunny rubs her hands together — game on.
@@ -934,7 +935,7 @@ CHARACTER LOCK — EP01 EP01-P4-C47
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny points at the viewer — deputizing them.
@@ -955,7 +956,7 @@ CHARACTER LOCK — EP01 EP01-P4-C48
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Mia searches backyard — spots the ant.
@@ -972,7 +973,7 @@ CHARACTER LOCK — EP01 EP01-P4-C49
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 A tiny friendly cartoon ant marches across the red picnic table carrying a crumb, antennae bobbing.
@@ -988,7 +989,7 @@ CHARACTER LOCK — EP01 EP01-P4-C50
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny asks the viewer the question, holding the discovery up to camera.
@@ -1005,7 +1006,7 @@ CHARACTER LOCK — EP01 EP01-P4-C51
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Ear-cup listening hold — 3 SECONDS.
@@ -1022,7 +1023,7 @@ CHARACTER LOCK — EP01 EP01-P4-C52
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Mia crouches nose-level with the ant and waves at it gently.
@@ -1039,7 +1040,7 @@ CHARACTER LOCK — EP01 EP01-P4-C53
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Chalk word ANT floats up in coral letters next to a bouncing letter A badge.
@@ -1060,7 +1061,7 @@ CHARACTER LOCK — EP01 EP01-P4-C54
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo searches neighborhood street — spots the acorn.
@@ -1077,7 +1078,7 @@ CHARACTER LOCK — EP01 EP01-P4-C55
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 A plump shiny acorn with a perfect little cap sits in the grass under the oak tree, one leaf beside it.
@@ -1093,7 +1094,7 @@ CHARACTER LOCK — EP01 EP01-P4-C56
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny asks the viewer the question, holding the discovery up to camera.
@@ -1110,7 +1111,7 @@ CHARACTER LOCK — EP01 EP01-P4-C57
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Ear-cup listening hold — 3 SECONDS.
@@ -1127,7 +1128,7 @@ CHARACTER LOCK — EP01 EP01-P4-C58
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo holds the acorn up like a tiny trophy and sketches it fast in his notebook.
@@ -1144,7 +1145,7 @@ CHARACTER LOCK — EP01 EP01-P4-C59
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Chalk word ACORN floats up in golden letters next to a bouncing letter A badge.
@@ -1166,7 +1167,7 @@ CHARACTER LOCK — EP01 EP01-P4-C60
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Mia searches nana porch — spots the avocado.
@@ -1184,7 +1185,7 @@ CHARACTER LOCK — EP01 EP01-P4-C61
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 A bumpy dark-green avocado sits in Nana's woven basket next to the red apples — Nana (tallest) holds it out on her palm.
@@ -1201,7 +1202,7 @@ CHARACTER LOCK — EP01 EP01-P4-C62
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny asks the viewer the question, holding the discovery up to camera.
@@ -1219,7 +1220,7 @@ CHARACTER LOCK — EP01 EP01-P4-C63
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Ear-cup listening hold — 3 SECONDS.
@@ -1237,7 +1238,7 @@ CHARACTER LOCK — EP01 EP01-P4-C64
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Nana taps the avocado gently; Mia hugs it like a treasure; Nana laughs warmly.
@@ -1255,7 +1256,7 @@ CHARACTER LOCK — EP01 EP01-P4-C65
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Chalk word AVOCADO floats up in mint-green letters next to a bouncing letter A badge.
@@ -1277,7 +1278,7 @@ CHARACTER LOCK — EP01 EP01-P4-C66
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 ANT, ACORN, AVOCADO chalk words float in a row above the crew with the letter A badge bouncing over them.
@@ -1295,7 +1296,7 @@ CHARACTER LOCK — EP01 EP01-P4-C67
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny frames her hands around all the words.
@@ -1317,7 +1318,7 @@ CHARACTER LOCK — EP01 EP01-P4-C68
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Everyone stand up! Sunny leaps to her feet on the porch, beckoning the viewer up too.
@@ -1335,7 +1336,7 @@ CHARACTER LOCK — EP01 EP01-P4-C69
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo and Mia spring up beside her — ready stance, knees bouncy.
@@ -1357,7 +1358,7 @@ CHARACTER LOCK — EP01 EP01-P4-C70
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny does the CRUNCH move full-body — big bite, shoulders pop — facing camera like a mirror.
@@ -1375,7 +1376,7 @@ CHARACTER LOCK — EP01 EP01-P4-C71
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Mia does the crunch move solo, giggling — most dramatic crunch.
@@ -1393,7 +1394,7 @@ CHARACTER LOCK — EP01 EP01-P4-C72
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo crunches while holding an apple in each hand.
@@ -1411,7 +1412,7 @@ CHARACTER LOCK — EP01 EP01-P4-C73
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three crunch in unison — left, right, big finish.
@@ -1433,7 +1434,7 @@ CHARACTER LOCK — EP01 EP01-P4-C74
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three clap high on each A — mirror-style to camera, chalk A pops on each clap.
@@ -1451,7 +1452,7 @@ CHARACTER LOCK — EP01 EP01-P4-C75
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny solo — hands on heart then open to viewer, warm.
@@ -1469,7 +1470,7 @@ CHARACTER LOCK — EP01 EP01-P4-C76
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Trio jump on the final line, arms up.
@@ -1491,7 +1492,7 @@ CHARACTER LOCK — EP01 EP01-P4-C77
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny spreads airplane arms and banks side to side, camera mirrored.
@@ -1509,7 +1510,7 @@ CHARACTER LOCK — EP01 EP01-P4-C78
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Mia zooms in a slow circle, arms out — viewer invited to spin.
@@ -1527,7 +1528,7 @@ CHARACTER LOCK — EP01 EP01-P4-C79
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo does slow-motion airplane lean left then right.
@@ -1545,7 +1546,7 @@ CHARACTER LOCK — EP01 EP01-P4-C80
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three zoom past camera one at a time — whoosh, whoosh, whoosh.
@@ -1567,7 +1568,7 @@ CHARACTER LOCK — EP01 EP01-P4-C81
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three do the jump-and-clap combo — bigger than chorus 1.
@@ -1585,7 +1586,7 @@ CHARACTER LOCK — EP01 EP01-P4-C82
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Mia leads the A A A claps this round, proud and loud.
@@ -1603,7 +1604,7 @@ CHARACTER LOCK — EP01 EP01-P4-C83
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Trio spin-and-freeze on the last word.
@@ -1625,7 +1626,7 @@ CHARACTER LOCK — EP01 EP01-P4-C84
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Everyone pats tummies slowly with happy sighs — energy melts down.
@@ -1643,7 +1644,7 @@ CHARACTER LOCK — EP01 EP01-P4-C85
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Everyone pretends to draw an airplane in the air — slow, dreamy.
@@ -1661,7 +1662,7 @@ CHARACTER LOCK — EP01 EP01-P4-C86
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Everyone wraps arms around themselves — a big self-hug, eyes closed, swaying.
@@ -1683,7 +1684,7 @@ CHARACTER LOCK — EP01 EP01-P4-C87
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three run in place, knees high, grinning at camera.
@@ -1701,7 +1702,7 @@ CHARACTER LOCK — EP01 EP01-P4-C88
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 The loudest A A A claps of the day — chalk A's fill the screen.
@@ -1719,7 +1720,7 @@ CHARACTER LOCK — EP01 EP01-P4-C89
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Freestyle celebration — every character doing their favorite move at once.
@@ -1741,7 +1742,7 @@ CHARACTER LOCK — EP01 EP01-P4-C90
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Everyone waves in rhythm with the goodbye lyric, breathing slowing down.
@@ -1759,7 +1760,7 @@ CHARACTER LOCK — EP01 EP01-P4-C91
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three take a slow bow to the viewer as the music resolves.
@@ -1781,7 +1782,7 @@ CHARACTER LOCK — EP01 EP01-P5-C01
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny seated on porch step, warm and unhurried, facing camera.
@@ -1799,7 +1800,7 @@ CHARACTER LOCK — EP01 EP01-P5-C02
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny holds up one finger — deliberate pace.
@@ -1817,7 +1818,7 @@ CHARACTER LOCK — EP01 EP01-P5-C03
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Crunch gesture on the word apple.
@@ -1835,7 +1836,7 @@ CHARACTER LOCK — EP01 EP01-P5-C04
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Wings-out dip on the word airplane.
@@ -1853,7 +1854,7 @@ CHARACTER LOCK — EP01 EP01-P5-C05
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny counts the hunt words on three fingers; the chalk trio flashes by softly.
@@ -1871,7 +1872,7 @@ CHARACTER LOCK — EP01 EP01-P5-C06
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo adjusts glasses, warm quiet smile.
@@ -1889,7 +1890,7 @@ CHARACTER LOCK — EP01 EP01-P5-C07
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny leans toward camera, voice soft and sincere.
@@ -1911,7 +1912,7 @@ CHARACTER LOCK — EP01 EP01-P5-C08
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny sits up — the challenge arrives like a present.
@@ -1929,7 +1930,7 @@ CHARACTER LOCK — EP01 EP01-P5-C09
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny mimes searching — hand over eyes, scanning.
@@ -1947,7 +1948,7 @@ CHARACTER LOCK — EP01 EP01-P5-C10
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Direct, warm confidence.
@@ -1965,7 +1966,7 @@ CHARACTER LOCK — EP01 EP01-P5-C11
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Leo and Mia flank Sunny with double thumbs-up.
@@ -1982,7 +1983,7 @@ CHARACTER LOCK — EP01 EP01-P5-C12
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Wide warm grin.
@@ -2004,7 +2005,7 @@ CHARACTER LOCK — EP01 EP01-P5-C13
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 All three wave slowly together on the porch steps, golden-hour light.
@@ -2021,7 +2022,7 @@ CHARACTER LOCK — EP01 EP01-P5-C14
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Sunny's genuine two-hand wave — the same warmth as shot A28 but a NEW take (angle from porch rail, no reuse).
@@ -2039,7 +2040,7 @@ CHARACTER LOCK — EP01 EP01-P5-C15
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Camera drifts back — porch, then yard, then the neighborhood in evening light.
@@ -2058,7 +2059,7 @@ Kid cue this clip supports: Wave bye-bye!
 CHARACTER LOCK — EP01 EP01-P6-C01
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Show logo 'Sunny and the Crew!' appears center screen, bounces once on the ukulele hit; Sunny's wave fills lower frame.
@@ -2074,7 +2075,7 @@ Kid cue this clip supports: One last wave!
 CHARACTER LOCK — EP01 EP01-P6-C02
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 
-SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED
+SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED
 
 SCENE PROMPT:
 Frozen wave + logo hold 2 seconds, then warm fade to black.

@@ -47,7 +47,9 @@ def collect(clist):
             if eid in locked.values(): err("characters.json: duplicate locked element ID %s" % eid)
             locked[name] = eid
         dep = c.get("deprecated_element_id_broken_media")
-        if dep: deprecated[name] = dep
+        if dep: deprecated[name + "/broken"] = dep
+        for d in c.get("deprecated_element_ids", []):
+            deprecated["%s/%s" % (name, d.get("reason", "?")[:40])] = d["id"]
 for key in ("main_crew", "supporting_cast"):
     collect(chars.get(key, []))
 for name, dep in deprecated.items():
@@ -111,6 +113,8 @@ for p, text in sorted(show_texts.items()):
 # ---------- 4. prompt packs ----------
 AGE_RE = re.compile(r"\b\d+[- ]year[- ]old|\btoddler\b|\byoung child\b", re.I)
 CAR_RE = re.compile(r"\bcars?\b", re.I)
+# Real-world trademarks must never appear in a prompt, even negated (Koda v2 recall, 2026-07-11)
+BRAND_RE = re.compile(r"\bnike\b|\badidas\b|\bpuma\b|\breebok\b|\bjordan\b|\bair max\b|\bconverse\b|\bvans\b|\bnew balance\b", re.I)
 STALE = ["always barefoot", "ALWAYS BAREFOOT", "mint green onesie", "pose job d21cc872", "pose job eb81f712"]
 for p, text in sorted(show_texts.items()):
     if not os.path.basename(p).startswith("new_assets"): continue
@@ -132,6 +136,8 @@ for p, text in sorted(show_texts.items()):
             err("%s: Bella and Commander share a CHARACTER LOCK block (%s)" % (rel, first))
         for m in CAR_RE.finditer(scan):
             err("%s: 'car' appears in a prompt block (%s)" % (rel, first))
+        for m in BRAND_RE.finditer(scan):
+            err("%s: trademark %r in a prompt block (%s)" % (rel, m.group(0), first))
         if "CHARACTER LOCK" in block and "<<<" not in block and "[—]" not in head and "[Full crew" not in head:
             first = block.strip().splitlines()[0]
             names = re.findall(r"\[([A-Za-z ]+)\]", head)

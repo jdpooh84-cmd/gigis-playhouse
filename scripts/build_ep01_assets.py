@@ -12,7 +12,7 @@ man = json.load(open(OUT + "/clip_manifest_episode_01.json"))
 
 IDS = {
  "Sunny": "<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>",
- "Koda": "<<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>>",
+ "Koda": "<<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>",
  "Mimi": "<<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>",
  "Pipa": "<<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>",
  "Bram": "<<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>",
@@ -28,7 +28,7 @@ IDS = {
 }
 NOTES = {
  "Mimi": "ALWAYS smallest character on screen; creator v2 design (gold jacket, multicolored skirt, floral sneakers)",
- "Koda": "KODA IS A BOY — Sunny's older brother; creator v2 design (afro)",
+ "Koda": "KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)",
  "Nana Blossom": "ALWAYS TALLEST character on screen",
  "Commander": "NEVER in the same shot as Bella",
  "Bella": "NEVER in the same shot as Commander; Bella is NOT Commander",
@@ -68,6 +68,7 @@ L.append("5. One image per clip -> then one video clip per image (max 15s source
 L.append("6. MIMI: always smallest (v2 design wears floral sneakers). NANA BLOSSOM: always tallest. KODA IS A BOY. BELLA and COMMANDER never share a shot. RENA: multicolor paint smudge on LEFT cheek. MAYOR MARY: SHORT FULL AUBURN RED CURLY HAIR — restate in every prompt she appears in.")
 L.append("7. All in 16:9 widescreen, vivid warm palette, 3D animated cartoon style.")
 L.append("8. NO CARS ever appear visually in any shot — hard world rule.")
+L.append("9. NO real-world brand logos or trademarks anywhere — clothing, shoes, props, backgrounds. All footwear is plain solid-color with no marks (Koda v2 was RECALLED for a branded swoosh — never again).")
 L.append("")
 L.append("## NEW AUDIO ASSETS (Suno) — generate BEFORE clip timing polish")
 L.append("")
@@ -109,7 +110,7 @@ for c in man["clips"]:
     for ch in charlist(c["characters"]):
         L.append("[%s]" % ch)
     L.append("")
-    L.append("SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED")
+    L.append("SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED")
     L.append("")
     L.append("SCENE PROMPT:")
     L.append(c["visual_action"] + ".")
