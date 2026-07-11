@@ -1471,7 +1471,7 @@ CHARACTER LOCK — EP01 EP01-P4-C72
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-Leo crunches while holding an apple in each hand. Rena paints a giant glowing letter a in the air with her paintbrush, paint smudge bright on her left cheek.
+Leo crunches while holding an apple in each hand. Rena paints a giant glowing letter A in the air with her paintbrush, paint smudge bright on her left cheek..
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
 Timed line: Apple apple big and red / Apple apple overhead / Crunch it up from core to top / An apple snack that just won't stop!
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
@@ -1490,7 +1490,7 @@ CHARACTER LOCK — EP01 EP01-P4-C73
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-All three crunch in unison — left, right, big finish. Rico bounces his basketball in rhythm with the beat, grinning.
+All three crunch in unison — left, right, big finish. Rico bounces his basketball in rhythm with the beat, grinning..
 Every character has exactly one head and correct anatomy.
 Timed line: Apple apple big and red / Apple apple overhead / Crunch it up from core to top / An apple snack that just won't stop!
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
@@ -1533,7 +1533,7 @@ CHARACTER LOCK — EP01 EP01-P4-C75
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-Sunny solo — hands on heart then open to viewer, warm. Rico jumps in on the clap-beat with the crew.
+Sunny solo — hands on heart then open to viewer, warm. Rico jumps in on the clap-beat with the crew..
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
 Timed line: A is amazing A is the best / A is the letter we love the most / Sing it with me — A A A! / A words are awesome every day!
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
@@ -1613,7 +1613,7 @@ CHARACTER LOCK — EP01 EP01-P4-C79
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-Leo does slow-motion airplane lean left then right. Rena spreads her arms like airplane wings alongside the girls.
+Leo does slow-motion airplane lean left then right. Rena spreads her arms like airplane wings alongside the girls..
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
 Timed line: Airplane airplane in the sky / Airplane airplane flying high / Spreading wings and zooming free / An airplane goes where it wants to be!
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
@@ -1674,7 +1674,7 @@ CHARACTER LOCK — EP01 EP01-P4-C82
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-Mia leads the A A A claps this round, proud and loud. The older kids rena and rico flank sunny for the chant, clapping on every a.
+Mia leads the A A A claps this round, proud and loud. The older kids Rena and Rico flank Sunny for the chant, clapping on every A..
 Every character has exactly one head and correct anatomy.
 Timed line: A is amazing A is the best / A is the letter we love the most / Sing it with me — A A A! / A words are awesome every day!
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
@@ -1797,7 +1797,7 @@ CHARACTER LOCK — EP01 EP01-P4-C88
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-The loudest A A A claps of the day — chalk A's fill the screen. The wider crew charges toward camera together for the final chant.
+The loudest A A A claps of the day — chalk A's fill the screen. The wider crew charges toward camera together for the final chant..
 Every character has exactly one head and correct anatomy.
 Timed line: A is amazing A is the best / A is the letter we love the most / Sing it with me — A A A! / A words are awesome every day!
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
