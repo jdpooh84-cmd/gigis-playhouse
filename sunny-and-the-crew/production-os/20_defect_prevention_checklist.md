@@ -8,3 +8,5 @@
 - No age descriptors / no "Pixar" in any generation prompt (hard filter trigger).
 - Chat-pasted images are WebP mislabeled .png — convert before pipeline use.
 - All timing math in one generated, validated artifact (cue sheet generator pattern) — never hand-added.
+- Stale-canon hazard (found 2026-07-11): docs written before a redesign keep dead element IDs and old design language (episode_generator_prompt.md carried all four pre-v2 IDs). Rule: characters.json `appearance` must always describe the CURRENT locked element; old designs move to `superseded_appearance_v1`; prompt docs that will never re-run get an ARCHIVAL NOTICE banner instead of a rewrite.
+- Every push touching sunny-and-the-crew/ runs `scripts/pipeline_validate.py` in CI (pipeline-validate.yml). It enforces: valid/unique locked element IDs, no deprecated ID referenced outside characters.json, manifest timeline continuity + no-loop + 3-5s band, no Pixar/age-words/cars/Bella+Commander in prompt blocks, locked-master existence + duration (theme 44.78s, EP01 song 104.83s), EP##_slug naming, no spaces in filenames. New defect class shipped = new check added, same commit.

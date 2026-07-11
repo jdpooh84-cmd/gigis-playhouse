@@ -5,3 +5,7 @@ CONTENT: one lesson only; object-first order verified; warm-mistake beat present
 CHARACTERS: every character on-model vs characters.json element; Mimi smallest / Nana tallest in every ensemble; Rena's smudge left cheek; Mayor Mary auburn; no Bella+Commander shot; no clip used twice (job-ID uniqueness check).
 VISUAL SAFETY: no dark frames, no harsh shadow, no looming angle, palette compliance, motifs used per rules (Heart Pop <=1).
 TECH: 1280x720/30fps h264 + AAC, -14 LUFS, faststart; file named per convention; masters in repo + Drive FINALS; tracker updated.
+
+## Automated gate (runs before any human QA)
+`python3 scripts/pipeline_validate.py` must exit 0 — CI runs it on every push
+(.github/workflows/pipeline-validate.yml). Human QA starts only from a green validator.

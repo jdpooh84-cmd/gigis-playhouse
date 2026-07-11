@@ -1,7 +1,7 @@
 # SUNNY AND THE CREW — UNIVERSAL EPISODE GENERATOR PROMPT
 # For: Higgsfield AI clip generation queue
 # Output format: ep##_shot_list.json (see FORMAT REFERENCE below)
-# Version: 2.0 | 2026-07-07 — All 14 character element IDs now locked
+# Version: 2.1 | 2026-07-11 — Koda/Mimi/Pipa/Bram v2 redesign IDs + designs (pipeline validator enforced)
 
 ---
 
@@ -91,10 +91,10 @@ they appear in. No exceptions. No text-description-only generation for any chara
 | Character | Role | Locked Element ID Tag | Hard Rules |
 |-----------|------|-----------------------|------------|
 | **Sunny** | Lead. Yellow t-shirt with white cloud emblem, orange shorts, yellow-and-white sneakers. Two LARGE HIGH puff buns — PINK tie on RIGHT, YELLOW tie on LEFT. Direct address to camera. | `<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>` | Direct address every episode |
-| **Koda** | Sunny's older brother. Solid RED t-shirt, KHAKI shorts, RED sneakers. Short neat twists. Deep warm brown skin. Visibly older and taller than Sunny. NOT a dog — human character. | `<<<2ea4d86d-1978-4764-8620-8f771ee28b4b>>>` | Always visibly taller than Sunny |
-| **Mimi** | Sunny's baby sister. Solid MINT GREEN onesie. TWO TINY pigtails with PINK ties. ALWAYS BAREFOOT. ALWAYS SMALLEST on screen. Communicates through reactions only. | `<<<f9cf5374-9cce-4a5a-bf60-d973c354f4f6>>>` | BAREFOOT always. SMALLEST on screen always. |
-| **Pipa** | Dramatic one. Twin sister of Bram. PURPLE t-shirt, PINK A-line skirt, PURPLE shoes. TWO LONG BRAIDS, dark red-brown, PURPLE bows on ends. Enormous bright BLUE eyes. | `<<<c0ef05b4-dca9-4c8b-be45-6415f140cabc>>>` | — |
-| **Bram** | Thinker. Twin brother of Pipa. TEAL short-sleeve shirt, DARK BLUE pants, BROWN sandals. Short straight black hair with cowlick. Chin-tap thinker expression. | `<<<9e376c16-24b6-442a-a642-07d6093bd6f7>>>` | — |
+| **Koda** | Sunny's older brother (BOY, human — NOT a dog). Warm medium-brown skin, big full dark afro, black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange high-top sneakers. Visibly older and taller than Sunny. (Creator v2 design, locked 2026-07-10.) | `<<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>>` | Always visibly taller than Sunny |
+| **Mimi** | Sunny's baby sister. Warm golden-brown skin, dark curly hair in high bun with rainbow clip, gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings, floral high-top sneakers. ALWAYS SMALLEST on screen. Communicates through reactions only. (Creator v2 design — old barefoot rule SUPERSEDED.) | `<<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>` | BAREFOOT always. SMALLEST on screen always. |
+| **Pipa** | Dramatic one. Twin sister of Bram. Fair skin, rosy cheeks, freckles, long strawberry-blond wavy hair with flower clip, big blue eyes, mint green dress with white Peter Pan collar, white socks, pink-white sneakers. (Creator v2 design, locked 2026-07-10.) | `<<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>` | — |
+| **Bram** | Thinker. Twin brother of Pipa. Fair skin, freckles, sandy light-brown tousled hair, green eyes, red-white striped t-shirt, rolled denim shorts, navy high-top sneakers. Calm cheerful thinker. (Creator v2 design, locked 2026-07-10.) | `<<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>` | — |
 | **Leo Rivera** | Co-lead. Bright RED t-shirt with small WHITE rocket graphic on chest. DARK NAVY cargo shorts. WHITE sneakers with RED laces. Round tortoiseshell glasses (always sliding down). Thick wavy black hair. Carries small silver toy rocket everywhere. Gap-toothed grin. | `<<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>` | Glasses always present |
 | **Mia Chen** | Supporting lead. TEAL long-sleeve fitted shirt with small YELLOW STAR patch on LEFT SLEEVE. LIGHT GREY pleated polka-dot skirt over WHITE leggings. WHITE mary jane shoes with TEAL buckle. Small TEAL crossbody bag with yellow star. Straight black hair in TWO LOW pigtails with TEAL scrunchies. | `<<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>` | Bag always present |
 | **Nana Blossom** | Wise neighbor/mentor. TEAL dress under FLORAL APRON (white/cream base, multicolor flowers). Silver-white LOCS piled HIGH with LAVENDER tie. Deep mahogany brown skin. PEARL STUD earrings. | `<<<89ae3644-087a-412b-ab87-2315bf188b6b>>>` | ALWAYS TALLEST on screen |
@@ -114,7 +114,7 @@ Violation of these rules will trigger Higgsfield content filtering.
 1. **NEVER** use age descriptors: "6-year-old", "7-year-old", "child", "toddler", "kid", "young child", "little girl", "little boy" — FORBIDDEN in all prompts
 2. **NEVER** use the word "Pixar" — write "3D animated, cartoon style" instead
 3. **ALWAYS** include `<<<UUID>>>` element ID tags inline in the prompt text for EVERY character in EVERY shot — all 14 characters now have locked element IDs
-4. **ALWAYS** verify: Mimi is barefoot (bare feet visible) and smallest character on screen
+4. **ALWAYS** verify: Mimi is the smallest character on screen (v2 design wears floral sneakers — barefoot rule retired 2026-07-10)
 5. **ALWAYS** verify: Nana Blossom is the tallest character on screen
 6. **NEVER** put Bella and Commander in the same shot
 7. **ALWAYS** include Rena's multicolor LEFT CHEEK paint smudge when she appears
@@ -145,10 +145,10 @@ the characters appearing in that specific shot:
 CHARACTER LOCK — [EPISODE NUMBER] [SHOT ID]
 [LIST ONLY CHARACTERS IN THIS SHOT:]
 - SUNNY: <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>> [if Sunny is in shot]
-- KODA: <<<2ea4d86d-1978-4764-8620-8f771ee28b4b>>> [if Koda is in shot]
-- MIMI: <<<f9cf5374-9cce-4a5a-bf60-d973c354f4f6>>> [if Mimi is in shot]
-- PIPA: <<<c0ef05b4-dca9-4c8b-be45-6415f140cabc>>> [if Pipa is in shot]
-- BRAM: <<<9e376c16-24b6-442a-a642-07d6093bd6f7>>> [if Bram is in shot]
+- KODA: <<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>> [if Koda is in shot]
+- MIMI: <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>> [if Mimi is in shot]
+- PIPA: <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>> [if Pipa is in shot]
+- BRAM: <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>> [if Bram is in shot]
 - LEO: <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>> [if Leo is in shot]
 - MIA: <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> [if Mia is in shot]
 - NANA_BLOSSOM: <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> [if Nana is in shot]
@@ -162,7 +162,7 @@ CHARACTER LOCK — [EPISODE NUMBER] [SHOT ID]
 SAFETY CHECK:
 - No age descriptors used: CONFIRMED
 - No word "Pixar" used: CONFIRMED
-- [If Mimi present] Mimi is barefoot: CONFIRMED
+- [If Mimi present] Mimi is smallest on screen: CONFIRMED
 - [If Mimi present] Mimi is smallest: CONFIRMED
 - [If Nana present] Nana is tallest: CONFIRMED
 - [If Rena present] Left cheek smudge present: CONFIRMED
@@ -258,10 +258,10 @@ When you receive the song lyrics and episode context:
 
 6. **Self-check before outputting:**
    - [ ] Every prompt with Sunny uses `<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>`
-   - [ ] Every prompt with Koda uses `<<<2ea4d86d-1978-4764-8620-8f771ee28b4b>>>`
-   - [ ] Every prompt with Mimi uses `<<<f9cf5374-9cce-4a5a-bf60-d973c354f4f6>>>`
-   - [ ] Every prompt with Pipa uses `<<<c0ef05b4-dca9-4c8b-be45-6415f140cabc>>>`
-   - [ ] Every prompt with Bram uses `<<<9e376c16-24b6-442a-a642-07d6093bd6f7>>>`
+   - [ ] Every prompt with Koda uses `<<<a8b3713c-0f43-4dc7-a801-4000e6bdca44>>>`
+   - [ ] Every prompt with Mimi uses `<<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>`
+   - [ ] Every prompt with Pipa uses `<<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>`
+   - [ ] Every prompt with Bram uses `<<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>`
    - [ ] Every prompt with Leo uses `<<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>`
    - [ ] Every prompt with Mia uses `<<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>`
    - [ ] Every prompt with Nana Blossom uses `<<<89ae3644-087a-412b-ab87-2315bf188b6b>>>`
@@ -273,7 +273,7 @@ When you receive the song lyrics and episode context:
    - [ ] Every prompt with Commander uses `<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>`
    - [ ] No prompt contains age descriptors
    - [ ] No prompt contains the word "Pixar"
-   - [ ] Mimi is barefoot and smallest in every shot she appears in
+   - [ ] Mimi is smallest in every shot she appears in (v2 floral sneakers, NOT barefoot)
    - [ ] Nana Blossom is tallest in every shot she appears in
    - [ ] Bella and Commander are never in the same shot
    - [ ] Rena's left cheek paint smudge is noted in every shot she appears in
@@ -336,7 +336,7 @@ Never do any of the following, regardless of episode content:
 - Use age descriptors of any kind in any prompt
 - Use the word "Pixar" in any prompt
 - Put Bella and Commander in the same shot
-- Show Mimi with shoes or socks of any kind
+- Show Mimi barefoot (v2 design wears floral high-top sneakers; the pre-2026-07-10 barefoot rule is RETIRED)
 - Show Nana Blossom as shorter than any other character on screen
 - Omit Rena's left cheek paint smudge when she appears
 - Generate content that is not made-for-kids appropriate

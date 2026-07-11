@@ -59,12 +59,12 @@
       "gender": "boy",
       "ethnicity": null,
       "appearance": {
-        "skin": "deep warm brown",
+        "skin": "warm medium brown",
         "eyes": null,
-        "hair": "short neat twists close to head",
-        "outfit": "solid RED short-sleeve t-shirt, KHAKI shorts, RED sneakers with WHITE soles and WHITE laces",
+        "hair": "big full dark afro",
+        "outfit": "black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange high-top sneakers",
         "age_appearance": "visibly older and taller than Sunny",
-        "color_theme": "red and khaki",
+        "color_theme": "black, grey, orange",
         "style": "3D animated"
       },
       "personality": "Confident builder, problem-solver, jumps in without being asked, celebrates with fist pumps",
@@ -81,7 +81,17 @@
       "note": "Koda is Sunny's older brother. Visibly older and taller on screen. NOT a dog — human character.",
       "deprecated_element_id_broken_media": "2ea4d86d-1978-4764-8620-8f771ee28b4b",
       "design_locked_description": "Koda — warm medium-brown skin, big full dark afro, black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange high-top sneakers. Sunny's older brother. Cool confident energy.",
-      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable."
+      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
+      "superseded_appearance_v1": {
+        "skin": "deep warm brown",
+        "eyes": null,
+        "hair": "short neat twists close to head",
+        "outfit": "solid RED short-sleeve t-shirt, KHAKI shorts, RED sneakers with WHITE soles and WHITE laces",
+        "age_appearance": "visibly older and taller than Sunny",
+        "color_theme": "red and khaki",
+        "style": "3D animated"
+      },
+      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element a8b3713c-0f43-4dc7-a801-4000e6bdca44). v1 kept only for history — never use for prompts."
     },
     {
       "id": "MIMI",
@@ -91,12 +101,13 @@
       "gender": "girl",
       "ethnicity": null,
       "appearance": {
-        "skin": "medium warm brown",
+        "skin": "warm golden-brown",
         "eyes": null,
-        "hair": "TWO TINY pigtails — barely enough hair to tie. Both tied with PINK hair ties.",
-        "outfit": "solid MINT GREEN onesie one-piece with snaps at bottom",
-        "shoes": "ALWAYS BAREFOOT — no shoes, no socks, ever",
-        "age_appearance": "toddler — ALWAYS visibly the SMALLEST character on screen",
+        "hair": "dark curly hair in high bun with rainbow clip",
+        "outfit": "gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings",
+        "shoes": "floral high-top sneakers (creator v2 — old always-barefoot rule SUPERSEDED 2026-07-10)",
+        "age_appearance": "ALWAYS visibly the SMALLEST character on screen",
+        "color_theme": "gold, pink, rainbow",
         "style": "3D animated"
       },
       "personality": "Quiet, expressive without words. Communicates through reactions.",
@@ -114,13 +125,26 @@
       "existing_higgsfield_image_ids": {},
       "direct_address_to_camera": false,
       "hard_rules": [
+        "ALWAYS smallest character on screen"
+      ],
+      "deprecated_element_id_broken_media": "f9cf5374-9cce-4a5a-bf60-d973c354f4f6",
+      "design_locked_description": "Mimi — warm golden-brown skin, dark curly hair in high bun with rainbow clip, gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings, floral high-top sneakers. ALWAYS smallest character on screen.",
+      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
+      "superseded_appearance_v1": {
+        "skin": "medium warm brown",
+        "eyes": null,
+        "hair": "TWO TINY pigtails — barely enough hair to tie. Both tied with PINK hair ties.",
+        "outfit": "solid MINT GREEN onesie one-piece with snaps at bottom",
+        "shoes": "ALWAYS BAREFOOT — no shoes, no socks, ever",
+        "age_appearance": "toddler — ALWAYS visibly the SMALLEST character on screen",
+        "style": "3D animated"
+      },
+      "superseded_rules_v1": [
         "ALWAYS smallest character on screen",
         "NEVER shoes",
         "NEVER socks"
       ],
-      "deprecated_element_id_broken_media": "f9cf5374-9cce-4a5a-bf60-d973c354f4f6",
-      "design_locked_description": "Mimi — warm golden-brown skin, dark curly hair in high bun with rainbow clip, gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings, floral high-top sneakers. ALWAYS smallest character on screen.",
-      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable."
+      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 7b005b4b-da34-4bac-908b-ceb76f9d6247). v1 kept only for history — never use for prompts."
     },
     {
       "id": "PIPA",
@@ -130,11 +154,11 @@
       "gender": "girl",
       "ethnicity": null,
       "appearance": {
-        "skin": "light peachy with very rosy cheeks",
-        "eyes": "enormous bright blue — most distinctive feature",
-        "hair": "dark red-brown in TWO LONG BRAIDS with PURPLE bows on each braid end",
-        "outfit": "solid PURPLE short-sleeve t-shirt, PINK A-line skirt, PURPLE shoes",
-        "color_theme": "purple and pink",
+        "skin": "fair with rosy cheeks and freckles",
+        "eyes": "big blue eyes",
+        "hair": "long strawberry-blond wavy hair with flower clip",
+        "outfit": "mint green dress with white Peter Pan collar, white socks, pink-white sneakers",
+        "color_theme": "mint green, pink, white",
         "style": "3D animated"
       },
       "personality": "Everything is BEST EVER or WORST EVER. No middle setting. Arms wide open or dramatic pout.",
@@ -149,7 +173,16 @@
       "direct_address_to_camera": false,
       "deprecated_element_id_broken_media": "c0ef05b4-dca9-4c8b-be45-6415f140cabc",
       "design_locked_description": "Pipa — fair skin, rosy cheeks, freckles, long strawberry-blond wavy hair with flower clip, big blue eyes, mint green dress with white Peter Pan collar, white socks, pink-white sneakers. Bram's twin sister.",
-      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable."
+      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
+      "superseded_appearance_v1": {
+        "skin": "light peachy with very rosy cheeks",
+        "eyes": "enormous bright blue — most distinctive feature",
+        "hair": "dark red-brown in TWO LONG BRAIDS with PURPLE bows on each braid end",
+        "outfit": "solid PURPLE short-sleeve t-shirt, PINK A-line skirt, PURPLE shoes",
+        "color_theme": "purple and pink",
+        "style": "3D animated"
+      },
+      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 8849bdb4-d5a1-419d-9abc-c7e36188750c). v1 kept only for history — never use for prompts."
     },
     {
       "id": "BRAM",
@@ -159,11 +192,11 @@
       "gender": "boy",
       "ethnicity": null,
       "appearance": {
-        "skin": "light golden-brown",
-        "eyes": null,
-        "hair": "short straight black with small cowlick at front",
-        "outfit": "solid TEAL short-sleeve shirt, DARK BLUE full-length pants, BROWN sandals",
-        "color_theme": "teal and dark blue",
+        "skin": "fair with freckles",
+        "eyes": "green eyes",
+        "hair": "sandy light-brown tousled hair",
+        "outfit": "red-white striped t-shirt, rolled denim shorts, navy high-top sneakers",
+        "color_theme": "red, white, denim",
         "style": "3D animated"
       },
       "personality": "Calm, deliberate, chin-tap thinker. Celebrates quietly but fully.",
@@ -179,7 +212,16 @@
       "direct_address_to_camera": false,
       "deprecated_element_id_broken_media": "9e376c16-24b6-442a-a642-07d6093bd6f7",
       "design_locked_description": "Bram — fair skin, freckles, sandy light-brown tousled hair, green eyes, red-white striped t-shirt, rolled denim shorts, navy high-top sneakers. Pipa's twin brother. Calm cheerful thinker.",
-      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable."
+      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
+      "superseded_appearance_v1": {
+        "skin": "light golden-brown",
+        "eyes": null,
+        "hair": "short straight black with small cowlick at front",
+        "outfit": "solid TEAL short-sleeve shirt, DARK BLUE full-length pants, BROWN sandals",
+        "color_theme": "teal and dark blue",
+        "style": "3D animated"
+      },
+      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element e80f7f4d-2563-4d1a-b950-196df45dcbf7). v1 kept only for history — never use for prompts."
     },
     {
       "id": "LEO",

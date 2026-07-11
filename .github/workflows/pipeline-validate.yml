@@ -1,0 +1,18 @@
+name: Pipeline integrity validation
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om", "main", "master"]
+    paths:
+      - "sunny-and-the-crew/**"
+      - "scripts/pipeline_validate.py"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg (ffprobe verifies locked master durations)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Validate pipeline integrity
+        run: python3 scripts/pipeline_validate.py

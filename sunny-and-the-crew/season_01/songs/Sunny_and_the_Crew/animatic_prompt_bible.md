@@ -1,4 +1,12 @@
 # SUNNY AND THE CREW — THEME SONG
+
+> **ARCHIVAL NOTICE (2026-07-11):** THEME-INTRO-MASTER.mp4 is BUILT and LOCKED
+> (`sunny-and-the-crew/theme-song/THEME-INTRO-MASTER.mp4`, Drive 1fvGvI8ERWGlC5PD7_7TxqPeoXZFqmhEg).
+> The shot prompts below are the historical record of that one-time build and are NEVER re-run.
+> Character design language in this file predates the 2026-07-10 creator redesign of
+> KODA / MIMI / PIPA / BRAM (e.g. Mimi-barefoot is RETIRED; v2 Mimi wears floral sneakers).
+> DO NOT copy character descriptions or start_image pose-job IDs from this file into new prompts —
+> use characters.json locked elements + production-os/14_prompt_library.md instead.
 # Animatic Prompt Bible
 # Song: "Sunny and the Crew Theme Song"
 # Duration: 0:45 | 105 BPM | Style: Kids pop, ukulele, hand claps
