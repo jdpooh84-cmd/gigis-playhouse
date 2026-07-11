@@ -34,7 +34,7 @@
     "theme_master_higgsfield_id": null,
     "theme_master_drive_file_id": "1fvGvI8ERWGlC5PD7_7TxqPeoXZFqmhEg",
     "theme_master_repo_path": "sunny-and-the-crew/theme-song/THEME-INTRO-MASTER.mp4",
-    "theme_master_note": "Assembled 2026-07-11: 19 shots (T01-T19, all locked character elements incl. Koda/Mimi/Pipa/Bram v2 creator designs), cut to actual 44.78s Suno theme audio, 1280x720/30fps. Higgsfield copy not imported (their URL importer rejects GitHub-served mp4 content-type); repo + Drive are the masters. Per-shot video job IDs in scratchpad theme_video_queue.json and in the git history of _staging/theme_clip_urls.json."
+    "theme_master_note": "v1.1 COMPLIANCE REBUILD 2026-07-11: one-time legal/canon rebuild of the locked master — (1) TRADEMARK RECALL: shots T07/T09/T11/T17 regenerated with Koda-v3 element 7ce52e05-5bba-43f0-bb1e-8ca11974038c after v1.0 showed a branded swoosh on Koda's shoes; (2) SPECIES FIX: T15 regenerated with Bella-v2 element c4ea659f-6ad3-4564-9d87-a3ed8738850f after v1.0 rendered Bella as a cat (she is a DOG, creator-confirmed). 19 shots, actual 44.78s Suno theme audio, 1280x720/30fps. All frames brand-checked and species-checked. The never-regenerate rule stands: future rebuilds only for legal/safety/canon defects, version-bumped. Clip URLs in _staging/theme_clip_urls.json git history."
   },
   "generation_rules": {
     "model": "nano_banana_2",
