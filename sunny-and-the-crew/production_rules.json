@@ -4,7 +4,6 @@
     "locked": true,
     "note": "These rules govern ALL episode production. Any automation, agent, or pipeline step must check this file first."
   },
-
   "pipeline_order": [
     "1. Load show_bible.json and confirm locked rules",
     "2. Load episode data file (ep##_data.json)",
@@ -21,7 +20,6 @@
     "13. Export final episode to Google Drive FINALS — READY TO UPLOAD folder",
     "14. Prepare YouTube Studio upload metadata — mark Made for Kids"
   ],
-
   "theme_intro_rule": {
     "locked": true,
     "rule": "The theme song intro is a PREMADE REUSABLE MASTER CLIP — generated ONCE for the whole show, never per episode.",
@@ -32,9 +30,10 @@
       "The no-loop rule applies WITHIN an episode; reusing the theme master across episodes is required, not a violation."
     ],
     "theme_master_higgsfield_id": null,
-    "theme_master_drive_file_id": null
+    "theme_master_drive_file_id": "1fvGvI8ERWGlC5PD7_7TxqPeoXZFqmhEg",
+    "theme_master_repo_path": "sunny-and-the-crew/theme-song/THEME-INTRO-MASTER.mp4",
+    "theme_master_note": "Assembled 2026-07-11: 19 shots (T01-T19, all locked character elements incl. Koda/Mimi/Pipa/Bram v2 creator designs), cut to actual 44.78s Suno theme audio, 1280x720/30fps. Higgsfield copy not imported (their URL importer rejects GitHub-served mp4 content-type); repo + Drive are the masters. Per-shot video job IDs in scratchpad theme_video_queue.json and in the git history of _staging/theme_clip_urls.json."
   },
-
   "generation_rules": {
     "model": "nano_banana_2",
     "sunny_element_id": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
@@ -44,33 +43,48 @@
     "clip_generation_order": "Generate clips in timeline order (Beat 1 first, final beat last)",
     "existing_asset_preference": "Use existing Higgsfield image IDs before generating new images"
   },
-
   "timing_rules": {
     "theme_song_duration_seconds": 44,
     "episode_minimum_seconds": 300,
     "episode_maximum_seconds": 480,
-    "padding_allowed": ["reaction beats", "participatory moments", "movement moments", "call-and-response", "character facial reactions"],
-    "padding_prohibited": ["random clip loops", "duplicate scene cuts", "unrelated filler footage"]
+    "padding_allowed": [
+      "reaction beats",
+      "participatory moments",
+      "movement moments",
+      "call-and-response",
+      "character facial reactions"
+    ],
+    "padding_prohibited": [
+      "random clip loops",
+      "duplicate scene cuts",
+      "unrelated filler footage"
+    ]
   },
-
   "assembly_rules": {
     "shot_sequence": "Clips are sequenced in ascending beat order — no random ordering",
     "transition": "Simple cuts only — no effects between clips unless creator-specified",
     "music_sync": "Theme song attached to ACT 1; episode song attached to ACT 3; outro sting to ACT 4",
     "no_gap": "No silent black frames between clips — assembly must be seamless"
   },
-
   "delivery_rules": {
     "google_drive_destination": "Sunny and the Crew — Production → FINALS — READY TO UPLOAD",
     "file_naming": "EP##-[Slug]-FINAL.mp4 (example: EP01-Ask-Ask-Ask-FINAL.mp4)",
     "youtube_metadata": {
       "made_for_kids": true,
       "category": "Education",
-      "tags": ["preschool", "kids songs", "social emotional learning", "animated", "Sunny and the Crew", "children's show", "4-7", "YouTube Kids"]
+      "tags": [
+        "preschool",
+        "kids songs",
+        "social emotional learning",
+        "animated",
+        "Sunny and the Crew",
+        "children's show",
+        "4-7",
+        "YouTube Kids"
+      ]
     },
     "make_delivery": "Use Make.com scenario 5575994 to download from Higgsfield CDN and upload to Google Drive"
   },
-
   "prohibited_actions": [
     "Touching WILLO Make.com scenarios: 5106170, 5106176, 5106181, 5111331",
     "Asking creator to paste API keys into chat",
@@ -81,7 +95,6 @@
     "Looping clips",
     "Random scene generation not based on beat sheet"
   ],
-
   "quality_checks": [
     "Verify clip count matches beat count before assembly",
     "Verify no clip ID appears twice in timeline",
@@ -91,7 +104,6 @@
     "Verify theme song is at the start of ACT 1",
     "Verify episode song covers full duration of ACT 3"
   ],
-
   "VERIFICATION_PROTOCOL": {
     "rule": "CHECK BEFORE DECLARING MISSING",
     "description": "Before flagging any character, location, image, job ID, element ID, or asset as missing, pending, or ungenerated — complete ALL four steps below. Only after zero results across all four steps may you declare something missing.",

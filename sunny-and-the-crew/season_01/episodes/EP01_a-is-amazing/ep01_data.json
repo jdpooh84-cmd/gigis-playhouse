@@ -3,7 +3,7 @@
     "document": "ep01_data.json",
     "episode": "EP01",
     "status": "SONG_SECTION_DELIVERED_TO_DRIVE",
-    "last_updated": "2026-07-10",
+    "last_updated": "2026-07-11",
     "note": "A Is Amazing EP01. Song section assembled 2026-07-08 (28 clips, video-only: ab2ca754). Audio (a-is-amazing.mp3, 104.856s) baked in same day — final song section with audio: job 63e71138, 145s total. Ready for Make.com 5575994 → Drive FINALS."
   },
   "episode": {
@@ -106,12 +106,7 @@
     "song_animatic": "../../songs/A_is_Amazing/animatic_prompt_bible.md",
     "theme_animatic": "../../songs/Sunny_and_the_Crew/animatic_prompt_bible.md"
   },
-  "open_items": [
-    "Mimi Higgsfield element ID — pending creation (use pose_job_id d21cc872 until locked)",
-    "Koda Higgsfield element ID — pending creation (use pose_job_id eb81f712 until locked)",
-    "Rena Higgsfield element ID — pending creation (use pose_job_id 449409c2 until locked)",
-    "Video generation for theme song shots (T01-T19 — T13 updated: Nana Blossom f9e27584 + Commander 0a837a71)"
-  ],
+  "open_items": [],
   "assembly": {
     "song_section_job_id": "ab2ca754-3bd0-4a13-8dc3-047435254197",
     "song_section_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260708_213948_ab2ca754-3bd0-4a13-8dc3-047435254197.mp4",
@@ -135,6 +130,8 @@
     "Song section assembled via Higgsfield explainer_video (job ab2ca754) — 2026-07-08.",
     "Audio baked in: a-is-amazing.mp3 (104.856s) padded to 140s + A28 outro = job 63e71138 (145s) — 2026-07-08.",
     "Song sync fixed: EP01-song-section-SYNCED.mp4 built 2026-07-10 — clips trimmed to real 104.83s audio, A26 excluded.",
-    "Drive delivery complete 2026-07-10: EP01-A-Is-Amazing-FINAL.mp4 (file 1yqQ7Ngz8HasqQKen6DJll3SQKVhp81OL) in FINALS — READY TO UPLOAD."
+    "Drive delivery complete 2026-07-10: EP01-A-Is-Amazing-FINAL.mp4 (file 1yqQ7Ngz8HasqQKen6DJll3SQKVhp81OL) in FINALS — READY TO UPLOAD.",
+    "Theme intro master built 2026-07-11: THEME-INTRO-MASTER.mp4 (44.8s, 19 shots) — repo + Drive FINALS (file 1fvGvI8ERWGlC5PD7_7TxqPeoXZFqmhEg). Reused for every episode.",
+    "All character element IDs locked (incl. Koda/Mimi/Pipa/Bram v2 creator redesigns 2026-07-10) — see characters.json."
   ]
 }
