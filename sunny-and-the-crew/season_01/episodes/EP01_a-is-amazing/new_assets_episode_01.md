@@ -1465,13 +1465,13 @@ Kid cue this clip supports: Crunch bigger!
 ```
 CHARACTER LOCK — EP01 EP01-P4-C72
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
-[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+[Rena <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> — small multicolor paint smudge on LEFT CHEEK, always present]
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-Leo crunches while holding an apple in each hand.
+Leo crunches while holding an apple in each hand. Rena paints a giant glowing letter a in the air with her paintbrush, paint smudge bright on her left cheek.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
 Timed line: Apple apple big and red / Apple apple overhead / Crunch it up from core to top / An apple snack that just won't stop!
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
@@ -1485,13 +1485,13 @@ Kid cue this clip supports: Two-hand crunch!
 CHARACTER LOCK — EP01 EP01-P4-C73
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
-[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+[Rico <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>]
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-All three crunch in unison — left, right, big finish.
-Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
+All three crunch in unison — left, right, big finish. Rico bounces his basketball in rhythm with the beat, grinning.
+Every character has exactly one head and correct anatomy.
 Timed line: Apple apple big and red / Apple apple overhead / Crunch it up from core to top / An apple snack that just won't stop!
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Full-body medium-wide, mirrored to viewer, static (dance-along framing).
@@ -1528,11 +1528,12 @@ CHARACTER LOCK — EP01 EP01-P4-C75
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+[Rico <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>]
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-Sunny solo — hands on heart then open to viewer, warm.
+Sunny solo — hands on heart then open to viewer, warm. Rico jumps in on the clap-beat with the crew.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
 Timed line: A is amazing A is the best / A is the letter we love the most / Sing it with me — A A A! / A words are awesome every day!
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
@@ -1606,13 +1607,13 @@ Kid cue this clip supports: Zoom in a circle!
 ```
 CHARACTER LOCK — EP01 EP01-P4-C79
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
-[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+[Rena <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> — small multicolor paint smudge on LEFT CHEEK, always present]
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-Leo does slow-motion airplane lean left then right.
+Leo does slow-motion airplane lean left then right. Rena spreads her arms like airplane wings alongside the girls.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
 Timed line: Airplane airplane in the sky / Airplane airplane flying high / Spreading wings and zooming free / An airplane goes where it wants to be!
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
@@ -1667,14 +1668,14 @@ Kid cue this clip supports: Jump higher!
 ```
 CHARACTER LOCK — EP01 EP01-P4-C82
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
-[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
-[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+[Rena <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> — small multicolor paint smudge on LEFT CHEEK, always present]
+[Rico <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>]
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-Mia leads the A A A claps this round, proud and loud.
-Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
+Mia leads the A A A claps this round, proud and loud. The older kids rena and rico flank sunny for the chant, clapping on every a.
+Every character has exactly one head and correct anatomy.
 Timed line: A is amazing A is the best / A is the letter we love the most / Sing it with me — A A A! / A words are awesome every day!
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Full-body medium-wide, mirrored to viewer, static (dance-along framing).
@@ -1790,13 +1791,14 @@ Kid cue this clip supports: Run in place!
 CHARACTER LOCK — EP01 EP01-P4-C88
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
-[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+[Rena <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> — small multicolor paint smudge on LEFT CHEEK, always present]
+[Rico <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>]
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
 SCENE PROMPT:
-The loudest A A A claps of the day — chalk A's fill the screen.
-Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
+The loudest A A A claps of the day — chalk A's fill the screen. The wider crew charges toward camera together for the final chant.
+Every character has exactly one head and correct anatomy.
 Timed line: A is amazing A is the best / A is the letter we love the most / Sing it with me — A A A! / A words are awesome every day!
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Full-body medium-wide, mirrored to viewer, static (dance-along framing).

@@ -19,7 +19,8 @@
         "Any render failing anatomy = REJECTED and regenerated; rejected candidates are deleted from staging immediately after review so they can never be mistaken for canon"
       ]
     },
-    "adult_presence_rule": "Creator-locked 2026-07-11: EVERY episode, the crew comes across at least one adult mentor — Ava during learning segments (pops up anywhere, classroom optional) and/or Anne during song segments (sings along). Nana's porch, the mayor's office, and Randy's corner store are rotating location OPTIONS, never obligations."
+    "adult_presence_rule": "Creator-locked 2026-07-11: EVERY episode, the crew comes across at least one adult mentor — Ava during learning segments (pops up anywhere, classroom optional) and/or Anne during song segments (sings along). Nana's porch, the mayor's office, and Randy's corner store are rotating location OPTIONS, never obligations.",
+    "drive_reference_rule": "Creator-locked 2026-07-11: the Drive folder 'Sunny and the Crew - Production > CHARACTERS' (root 1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc) holds each character's own reference folder. PULL FROM IT ANYTIME THERE IS A CHARACTER ISSUE — consult it before flagging anything missing, before regenerating any character, and when locking any new design."
   },
   "main_crew": [
     {
@@ -474,7 +475,12 @@
       "generation_model": "nano_banana_2",
       "hard_rules": [
         "ONE head, correct proportions"
-      ]
+      ],
+      "existing_higgsfield_image_ids": {
+        "original_reference": "b7ae3b5c-4621-40ae-920e-81b2a0f62aa8",
+        "pose_sidewalk_basketball_pointing": "f661c59c-7bbc-4c1f-beb0-7cef8547fa44"
+      },
+      "drive_reference_doc": "RICO — Image References and Job IDs (1wGsNp3rksd2c4N1Wzx8InNT0VYGDXAkwckD1mEZMWhM) — matches locked element aedc26e9"
     },
     {
       "id": "RENA",
@@ -504,7 +510,12 @@
       "hard_rules": [
         "LEFT CHEEK paint smudge — always present in multiple colors, NEVER missing",
         "ONE head, correct proportions"
-      ]
+      ],
+      "existing_higgsfield_image_ids": {
+        "original_reference": "731cad3b-7a58-4add-84dd-d6d2244dfc66",
+        "pose_garden_paintbrush_raised": "449409c2-ecee-43e8-8745-f104ced0f0af"
+      },
+      "drive_reference_doc": "RENA — Image References and Job IDs (1dNf0AgQl0QybM4PDY4nqyQ_omO4nXX7TLDP3lxzMHCg) — matches locked element 9c55b6aa"
     },
     {
       "id": "BELLA",

@@ -8,3 +8,8 @@ Rules: segments are structured pedagogy, never filler; each has its own new clip
 - Learning segments (practice/echo/hunt/counting): AVA pops up — at least once per episode.
 - Song segments: ANNE around or popping up to sing along (once design is locked).
 - Location rotation options: Nana's porch, mayor's office, Randy's corner store — never obligations.
+
+## WIDER-CREW ROTATION (creator directive 2026-07-11)
+Rena and Rico (the older kids) must not go missing: rotate them into wider-crew moments —
+song reprises, group celebrations, finales — every episode (max 4 characters per shot still applies).
+EP01 pattern: Rena x4 + Rico x4 clips in the reprise.
