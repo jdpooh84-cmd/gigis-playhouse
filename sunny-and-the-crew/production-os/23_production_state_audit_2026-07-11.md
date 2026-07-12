@@ -32,23 +32,102 @@ NO FULL EPISODE VIDEO EXISTS. Everything else (story, reflection, outro) has pro
 4. Historical failure modes (now systemized, listed for the record): planned-vs-real audio drift (fixed: ffprobe rule) · stale canon docs (fixed: validator) · trademark/species defects in a locked master (fixed: v1.1 + brand/anatomy gates) · Make delivery double-fires (fixed: dedupe step) · mislabeled Drive FINAL (open item above) · rejected candidates lingering in staging (fixed: purge rule).
 5. NOT failures: isolated-clip production is by design (clips → sections → episode), with numbered clip IDs (EP01-P#-C##) and per-section masters — the "sections not clips" requirement is already the architecture.
 
-## F — MINIMUM ROLE STACK (all currently performed by one Claude session + creator; formalized so any agent can hold one)
-1. SHOWRUNNER/EPISODE ARCHITECT — owns structure/curriculum per episode; in: lesson map+bibles; out: beat sheet+script+manifest; hands to Prompt Architect; success = validator-clean package needing zero mid-production story decisions.
-2. PROMPT ARCHITECT — converts manifest to guardrailed prompts (elements, anatomy, brand, safety); out: prompt pack; success = 0 canon defects in generated frames.
-3. SHOT OPERATOR (Higgsfield) — runs image→video batches ≤8 concurrent, logs every job ID to tracker, handles 429/nsfw retries; success = tracker complete, no orphan spends.
-4. QA & CONTINUITY SUPERVISOR — image gate before video, frame gate per batch (anatomy/brand/canon), runs validator; success = defects caught pre-assembly, never post-delivery.
-5. LIP SYNC SUPERVISOR — scopes which clips get lip sync (direct-address + song hero close-ups only), runs passes after VO lock; success = no uncanny mouths, no wasted passes on wides.
-6. ASSEMBLY DIRECTOR (CI) — owns cut maps + push-marker workflows; ffprobes every real audio before cutting; out: section masters → full episode; success = seamless 10–15 min master, runtime in band.
-7. DELIVERY/METADATA MANAGER — Make one-shot upload + dedupe, Drive naming (EP##-Slug-FINAL), YouTube metadata (Made for Kids), version-bumps and trashes superseded files; success = exactly one correctly named FINAL per deliverable in Drive.
-8. ASSET/CANON MANAGER — characters.json + Drive CHARACTERS folder sync; recalls/renames propagate everywhere same-day; success = validator finds zero stale references.
-(Curriculum Designer folds into #1; Troubleshooter folds into #4+#6 via defect-prevention checklist. No separate Story Editor needed at this cast size.)
+## F — RECOMMENDED ROLE STACK (complete)
 
-## G — GOOGLE DOCS/SHEETS TO CREATE (minimum set)
-1. SHEET "SATC — Episode Tracker" (mirrors 13_episode_tracker_schema.md): rows=episodes; cols: status, script✓, prompts✓, clips done/total, VO✓, beds✓, sections done, final Drive link, blockers. Updated by pipeline at each phase gate. Prevents "what's actually done?" drift.
-2. SHEET "SATC — EP01 Clip Ledger": one row per clip ID → prompt status, image job, video job, QA pass, section file. Mirrors ep01_generation_tracker.json for human eyes. Prevents duplicate generation spend.
-3. DOC "SATC — Creator Decision Log": one line per locked decision (age band, Gabriel rename, Bella=dog, catchphrase…). Updated whenever the creator rules. Prevents relitigating canon.
-4. DOC "SATC — Assembly & Fallback Guide" (mirror of §H fallback): section order, Drive locations, exact drop-in instructions for Adobe/Canva. Prevents pipeline-outage stalls.
-5. DOC "SATC — Voice & Audio Ledger": VO line inventory, who records, bed specs, real durations post-ffprobe. Prevents timing drift.
+### 1. SHOWRUNNER / EPISODE ARCHITECT
+- Mission: own each episode's structure, curriculum, and story so production never stops for a creative decision.
+- Responsibilities: turn the season lesson map into a locked episode structure; write beat sheet + dialogue to preschool rules (<=8 words/line, object-first teaching, call-and-response with real pauses, warm mistake beat, take-home mission); enforce runtime bands (STANDARD 5-8 / EXTENDED 10-15 min); apply adult-mentor rule (Ava in learning beats, Anne in song moments) and wider-crew rotation (Rena/Rico).
+- Inputs: season lesson map, series/character/world bibles, ffprobed real song durations, creator decision log.
+- Outputs: episode bible, beat sheet, locked dialogue script, clip manifest, VO script.
+- Hands off when: manifest passes the CI validator with zero errors and all creator decisions are locked.
+- Success: zero mid-production story questions; downstream roles work from the package alone.
+
+### 2. PROMPT ARCHITECT
+- Mission: convert the manifest into generation-ready prompts that cannot produce a canon, safety, or legal defect.
+- Responsibilities: one prompt per clip with locked element IDs inline; auto-inject hard rules (Mia two pigtails, Mimi smallest, Nana tallest, Bella never with Gabriel, Mayor Mary auburn, Rena's left-cheek smudge); include anatomy line, brand-safety line, no cars, no age words, no "Pixar"; retire prompts for cut segments before credits are spent.
+- Inputs: clip manifest, characters.json, prompt library, location specs.
+- Outputs: numbered prompt pack, regenerated whenever canon changes.
+- Hands off when: prompt pack passes validator prompt-block checks.
+- Success: zero generated frames rejected for causes traceable to the prompt.
+
+### 3. HIGGSFIELD SHOT OPERATOR
+- Mission: turn prompts into footage without wasted spend.
+- Responsibilities: image->video batches in timeline order, <=8 concurrent; log every job ID to the tracker immediately; queue on 429s; rephrase safety false-positives per known protocol; never generate a character without a locked element.
+- Inputs: prompt pack, batch plan, element registry.
+- Outputs: completed image+video job IDs per clip; updated tracker (session-death recovery point).
+- Hands off when: batch is 100% generated and logged.
+- Success: tracker complete, zero orphan/duplicate generations, spend matches clip count.
+
+### 4. QA & CONTINUITY SUPERVISOR
+- Mission: catch defects before they cost a regeneration cascade or ship.
+- Responsibilities: inspect every image (anatomy, brand marks, canon) BEFORE its video is submitted; frame-pass every batch; run pipeline validator on every push; delete rejects from staging immediately; add a validator check for every new defect class (one failure = one system change).
+- Inputs: generated frames, hard rules, defect-prevention checklist.
+- Outputs: pass/fail per clip, regeneration requests, validator updates.
+- Hands off when: batch is green.
+- Success: defects found at image stage, never in a delivered master.
+
+### 5. LIP SYNC SUPERVISOR
+- Mission: believable mouths only where children actually look, at minimum cost.
+- Responsibilities: scope lip sync to direct-address dialogue close-ups + ~6 song hero close-ups (wides run on beat-synced body performance); one-clip pilot before any batch; apply passes only after VO lock; reject uncanny results.
+- Inputs: locked VO audio, generated clips, shot framing list.
+- Outputs: lip-synced replacement clips, scoping ledger.
+- Hands off when: all scoped clips pass review.
+- Success: no uncanny mouths; no budget burned on wide shots.
+
+### 6. EPISODE EDITOR / ASSEMBLY DIRECTOR (CI)
+- Mission: turn approved clips + audio into numbered section masters and one seamless episode.
+- Responsibilities: ffprobe every real audio file before cutting (audio is the timing master); maintain cut maps; run push-marker CI workflows; ALWAYS produce numbered section masters (EP01-SEC-01..05) so human fallback stays possible; verify no black frames, runtime in band.
+- Inputs: approved clips, VO, beds, song masters, cut maps, theme master (prepended untouched).
+- Outputs: section masters + full episode master in repo.
+- Hands off when: full master passes validator + frame QA.
+- Success: 10-15 min episode, zero timing drift; sections independently usable in Adobe/Canva.
+
+### 7. METADATA / DELIVERY MANAGER
+- Mission: exactly one correctly named FINAL per deliverable, in the right place.
+- Responsibilities: one-shot Make delivery (activate -> run -> deactivate immediately); check for double-fire duplicates and trash extras; enforce EP##-Slug-FINAL naming; trash/rename superseded files same-day; record Drive file IDs in production_rules; YouTube metadata with Made for Kids set.
+- Inputs: finished masters, naming conventions, Drive folder map.
+- Outputs: Drive FINALS uploads, file-ID registry, upload metadata.
+- Hands off when: Drive shows exactly one FINAL and the registry points to it.
+- Success: no mislabeled or duplicate deliverables (the current mislabeled EP01 "FINAL" is the failure this prevents).
+
+### 8. ASSET / CANON MANAGER
+- Mission: one source of truth for every character, everywhere, always current.
+- Responsibilities: keep characters.json synced with the Drive CHARACTERS folder (creator-locked reference source — consult before flagging anything missing); propagate recalls/renames (Koda v3, Gabriel, Bella-v2) across all docs and generators same-day; maintain deprecated-ID lists; stage creator references into the repo.
+- Inputs: creator images/decisions, Drive folder, element registry.
+- Outputs: updated characters.json, staged references, deprecation records.
+- Hands off when: validator finds zero stale references.
+- Success: any agent can generate any character correctly from characters.json alone.
+
+(Curriculum Designer folds into role 1; Troubleshooting Agent folds into roles 4+6 via the defect-prevention checklist; no separate Story Editor needed at this cast size.)
+
+## G — RECOMMENDED GOOGLE DOCS / SHEETS (complete)
+
+### 1. SHEET "SATC — Episode Tracker"
+- Purpose: one glance = true status of every episode.
+- Columns: Episode # | Title/lesson | Status (PLANNING/GENERATING/ASSEMBLING/DELIVERED) | Script locked | Prompts | Clips done/total | VO done/total | Beds | Sections built | Final Drive link | Blockers | Last updated.
+- Updated by: the pipeline at every phase gate; creator edits approval columns only.
+- Prevents: duplicated work and false "it's finished" assumptions (like the mislabeled Drive FINAL).
+
+### 2. SHEET "SATC — EP01 Clip Ledger"
+- Purpose: human-readable mirror of the generation tracker, one row per clip.
+- Columns: Clip ID (EP01-P#-C##) | Section | Characters | Prompt status | Image job ID | Video job ID | QA result | Regen count | In section file.
+- Updated by: Shot Operator on every submit/complete; QA Supervisor on pass/fail.
+- Prevents: paying twice for the same clip; losing job IDs when a session dies.
+
+### 3. DOC "SATC — Creator Decision Log"
+- Sections: Date | Decision (one line) | What it changed | Status (LOCKED/PROPOSED). Seed with: age band 2-5/7, Koda v3, Bella=dog, Gabriel rename, Mimi sneakers, adult-mentor rule, anatomy hard-set, catchphrase (PROPOSED).
+- Updated by: pipeline the moment the creator rules.
+- Prevents: relitigating settled canon; contradictory docs.
+
+### 4. DOC "SATC — Assembly & Fallback Guide"
+- Sections: section order table with durations | Drive locations of every master | Adobe Premiere steps (import SEC-01..05, butt-join on one track, no transitions, export H.264 1080p/30 AAC) | Canva steps (same order, one scene per section) | VO/bed muxing timecodes if audio is not baked | escalation contact.
+- Updated by: Assembly Director whenever section structure changes.
+- Prevents: a pipeline outage becoming a production stall — a human can always finish the episode.
+
+### 5. DOC "SATC — Voice & Audio Ledger"
+- Sections: VO line inventory (record status per line) | voice casting per character | bed specs + real ffprobed durations | song masters with durations | 3.0s pause-compliance checklist.
+- Updated by: pipeline on every audio arrival; creator on casting.
+- Prevents: planned-vs-real audio timing drift — the root cause of the original song-sync failure.
 
 ## H — NEXT STEPS TO A COMPLETE 10–15 MIN EPISODE
 USER APPROVAL (blocking, minutes of effort): ① pick v1 extended cut vs v2 rebuild structure; ② lock the catchphrase ("Let's ask! Let's find out! Come on, Crew!" proposed); ③ choose VO path (AI voices — I can pilot with Higgsfield create_voice — or human recording); ④ generate the 2 Suno beds from the ready specs and drop in Drive MUSIC; ⑤ (cleanup) approve trashing/renaming the superseded Drive "FINAL".
