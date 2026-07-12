@@ -21,8 +21,8 @@ IDS = {
  "Nana Blossom": "<<<89ae3644-087a-412b-ab87-2315bf188b6b>>>",
  "Mayor Mary": "<<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>>",
  "Ava": "<<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>>",
- "Rico": "<<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>",
- "Rena": "<<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>>",
+ "Rico": "<<<298ca0c6-86df-43dc-9238-9ae25573bebb>>>",
+ "Rena": "<<<b3f032b2-d681-454a-980e-c6ab390e1a93>>>",
  "Bella": "<<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>>",
  "Gabriel": "<<<f35f85da-590d-4a74-80d5-a3931befa4bb>>>",
 }

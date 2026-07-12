@@ -1,662 +1,662 @@
 {
-  "_meta": {
-    "document": "characters.json",
-    "locked": true,
-    "version": "3.0",
-    "last_updated": "2026-07-10",
-    "note": "All 14 Higgsfield element IDs are now LOCKED. Every character in this file has a confirmed element ID as of 2026-07-07. Always use element IDs — never use text-prompt-only generation for any character. Never use age descriptors or the word 'Pixar' in Higgsfield prompts — triggers safety filter. nano_banana_2 is the confirmed working model.",
-    "redesign_note": "KODA, MIMI, PIPA, BRAM redesigned and re-locked 2026-07-10. Koda is a BOY (Sunny's older brother) — any doc calling Koda a dog is wrong; Gabriel is the dog. Mimi's new design wears floral sneakers (old always-barefoot rule superseded by creator). KODA re-locked AGAIN 2026-07-11 as v3: v2 reference images carried a branded swoosh on the sneakers (trademark risk) — v2 element a8b3713c-0f43-4dc7-a801-4000e6bdca44 is RECALLED, never use. v3 shoes are plain/unbranded.",
-    "ANATOMY_HARD_RULES": {
-      "locked": true,
-      "added": "2026-07-11 creator directive after two-headed Bella reject and three-pigtail Mia defect",
-      "rules": [
-        "Every character has EXACTLY ONE HEAD, correctly proportioned to their body — no exceptions, no duplicates, no merged bodies",
-        "Humans: exactly 2 arms, 2 legs, 5 fingers per hand. Dogs: exactly 4 legs, 1 tail",
-        "MIA: EXACTLY TWO low pigtails — never three, never one, never a different hairstyle",
-        "BELLA: ONE head, single body, proportionate — reject any render that deviates",
-        "Hair/accessory counts in each character's appearance block are EXACT counts, not suggestions",
-        "Every generated image with characters gets an anatomy inspection (heads, limbs, hair counts) BEFORE its video is generated; every batch gets a frame-level anatomy pass before assembly",
-        "Any render failing anatomy = REJECTED and regenerated; rejected candidates are deleted from staging immediately after review so they can never be mistaken for canon"
-      ]
-    },
-    "adult_presence_rule": "Creator-locked 2026-07-11: EVERY episode, the crew comes across at least one adult mentor — Ava during learning segments (pops up anywhere, classroom optional) and/or Anne during song segments (sings along). Nana's porch, the mayor's office, and Randy's corner store are rotating location OPTIONS, never obligations.",
-    "drive_reference_rule": "Creator-locked 2026-07-11: the Drive folder 'Sunny and the Crew - Production > CHARACTERS' (root 1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc) holds each character's own reference folder. PULL FROM IT ANYTIME THERE IS A CHARACTER ISSUE — consult it before flagging anything missing, before regenerating any character, and when locking any new design."
+ "_meta": {
+  "document": "characters.json",
+  "locked": true,
+  "version": "3.0",
+  "last_updated": "2026-07-10",
+  "note": "All 14 Higgsfield element IDs are now LOCKED. Every character in this file has a confirmed element ID as of 2026-07-07. Always use element IDs — never use text-prompt-only generation for any character. Never use age descriptors or the word 'Pixar' in Higgsfield prompts — triggers safety filter. nano_banana_2 is the confirmed working model.",
+  "redesign_note": "KODA, MIMI, PIPA, BRAM redesigned and re-locked 2026-07-10. Koda is a BOY (Sunny's older brother) — any doc calling Koda a dog is wrong; Gabriel is the dog. Mimi's new design wears floral sneakers (old always-barefoot rule superseded by creator). KODA re-locked AGAIN 2026-07-11 as v3: v2 reference images carried a branded swoosh on the sneakers (trademark risk) — v2 element a8b3713c-0f43-4dc7-a801-4000e6bdca44 is RECALLED, never use. v3 shoes are plain/unbranded.",
+  "ANATOMY_HARD_RULES": {
+   "locked": true,
+   "added": "2026-07-11 creator directive after two-headed Bella reject and three-pigtail Mia defect",
+   "rules": [
+    "Every character has EXACTLY ONE HEAD, correctly proportioned to their body — no exceptions, no duplicates, no merged bodies",
+    "Humans: exactly 2 arms, 2 legs, 5 fingers per hand. Dogs: exactly 4 legs, 1 tail",
+    "MIA: EXACTLY TWO low pigtails — never three, never one, never a different hairstyle",
+    "BELLA: ONE head, single body, proportionate — reject any render that deviates",
+    "Hair/accessory counts in each character's appearance block are EXACT counts, not suggestions",
+    "Every generated image with characters gets an anatomy inspection (heads, limbs, hair counts) BEFORE its video is generated; every batch gets a frame-level anatomy pass before assembly",
+    "Any render failing anatomy = REJECTED and regenerated; rejected candidates are deleted from staging immediately after review so they can never be mistaken for canon"
+   ]
   },
-  "main_crew": [
+  "adult_presence_rule": "Creator-locked 2026-07-11: EVERY episode, the crew comes across at least one adult mentor — Ava during learning segments (pops up anywhere, classroom optional) and/or Anne during song segments (sings along). Nana's porch, the mayor's office, and Randy's corner store are rotating location OPTIONS, never obligations.",
+  "drive_reference_rule": "Creator-locked 2026-07-11: the Drive folder 'Sunny and the Crew - Production > CHARACTERS' (root 1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc) holds each character's own reference folder. PULL FROM IT ANYTIME THERE IS A CHARACTER ISSUE — consult it before flagging anything missing, before regenerating any character, and when locking any new design."
+ },
+ "main_crew": [
+  {
+   "id": "SUNNY",
+   "full_name": "Sunny",
+   "role": "Main character — face of the franchise",
+   "family": "Sibling of Koda and Mimi — same parents, same house",
+   "gender": "girl",
+   "ethnicity": null,
+   "appearance": {
+    "skin": "warm medium-brown",
+    "eyes": "big round expressive brown eyes with amber tones and catchlights",
+    "hair": "two LARGE HIGH puff buns — PINK hair tie on RIGHT puff, YELLOW hair tie on LEFT puff. Rich dark brown curly hair.",
+    "face": "round face with baby cheeks, rosy cheeks, small gap-toothed smile showing two front teeth",
+    "outfit": "yellow t-shirt with white cloud emblem centered on chest, orange shorts, yellow and white sneakers",
+    "style": "3D animated, cheerful confident expression"
+   },
+   "personality": "Curious, brave, warm, loves to ask questions, natural leader of the crew",
+   "catchphrase": "Let's ask! Let's find out! Come on, Crew!",
+   "higgsfield_element_id_LOCKED": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "higgsfield_pose_job_ids": {
+    "pose_1_default_tada": "7142ba9c-0386-4ee5-92fd-d2d8295cb120",
+    "pose_2_surprised_hands_on_cheeks": "3dc6528f-3703-4d0e-aa7a-40f1cb87fd76",
+    "pose_3_victory_jump_fists_up": "225f17c5-978b-4425-a982-100e4813165a"
+   },
+   "invideo_elements": [
+    "@Sunny",
+    "@SunnySurprised",
+    "@SunnyJump"
+   ],
+   "google_drive_folder_id": "1fsH_gJmR19qg2tIDndNkCb0sxGnkATci",
+   "google_drive_image_id": "25c8744d-c6f6-41d9-b87e-826c20d4eca3",
+   "generation_model": "nano_banana_2",
+   "existing_higgsfield_image_ids": {
+    "8bdc26c0": "Arms wide open on street — use for: joy, welcome, chorus peaks, theme song",
+    "36c855fa": "Jumping fists raised eyes closed, pure joy — use for: chorus peak, celebration, theme song",
+    "97c88d99": "Porch steps curious hands on cheeks — use for: wondering, setup, bridge moments",
+    "a0850a65": "Raising hand in classroom — use for: asking for help, key Ask Ask Ask visual, chorus hero shot",
+    "315b284c": "Running down sidewalk toward camera — use for: transitions, energy, theme song, verse movement",
+    "3d56c3cb": "Waving goodbye on porch — LOCKED for outro/goodbye only"
+   },
+   "direct_address_to_camera": true,
+   "note": "Sunny speaks directly to the audience. She is the emotional anchor for every episode.",
+   "hard_rules": [
+    "ONE head, correct proportions"
+   ]
+  },
+  {
+   "id": "KODA",
+   "full_name": "Koda",
+   "role": "Main crew — The Builder",
+   "family": "Sunny's older brother — sibling of Sunny and Mimi — same parents, same house",
+   "gender": "boy",
+   "ethnicity": null,
+   "appearance": {
+    "skin": "warm medium brown",
+    "eyes": null,
+    "hair": "big full dark afro",
+    "outfit": "black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange sneakers — PLAIN, NO brand logos or marks",
+    "age_appearance": "visibly older and taller than Sunny",
+    "color_theme": "black, grey, orange",
+    "style": "3D animated"
+   },
+   "personality": "Confident builder, problem-solver, jumps in without being asked, celebrates with fist pumps",
+   "signature_expression": "Arms crossed confident smile → instant fist pump when something works",
+   "higgsfield_element_id_LOCKED": "7ce52e05-5bba-43f0-bb1e-8ca11974038c",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "invideo_elements": [
+    "@Koda"
+   ],
+   "google_drive_folder_id": "1C92_rZ-EsXqLsVoHVWzXazAjQThpgopi",
+   "generation_model": "nano_banana_2",
+   "existing_higgsfield_image_ids": {},
+   "direct_address_to_camera": false,
+   "note": "Koda is Sunny's older brother. Visibly older and taller on screen. NOT a dog — human character.",
+   "design_locked_description": "Koda — warm medium-brown skin, big full dark afro, black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange sneakers with NO brand logos. Sunny's older brother. Cool confident energy.",
+   "design_note": "Creator v3 redesign locked 2026-07-11 (repo: _staging/characters_new/koda-v3-*.png) — logo-scrubbed replacement after the v2 references showed a branded swoosh on the shoes.",
+   "superseded_appearance_v1": {
+    "skin": "deep warm brown",
+    "eyes": null,
+    "hair": "short neat twists close to head",
+    "outfit": "solid RED short-sleeve t-shirt, KHAKI shorts, RED sneakers with WHITE soles and WHITE laces",
+    "age_appearance": "visibly older and taller than Sunny",
+    "color_theme": "red and khaki",
+    "style": "3D animated"
+   },
+   "appearance_note": "appearance = creator v3 design (locked 2026-07-11, matches element 7ce52e05-5bba-43f0-bb1e-8ca11974038c). v1 kept only for history — never use for prompts.",
+   "deprecated_element_ids": [
     {
-      "id": "SUNNY",
-      "full_name": "Sunny",
-      "role": "Main character — face of the franchise",
-      "family": "Sibling of Koda and Mimi — same parents, same house",
-      "gender": "girl",
-      "ethnicity": null,
-      "appearance": {
-        "skin": "warm medium-brown",
-        "eyes": "big round expressive brown eyes with amber tones and catchlights",
-        "hair": "two LARGE HIGH puff buns — PINK hair tie on RIGHT puff, YELLOW hair tie on LEFT puff. Rich dark brown curly hair.",
-        "face": "round face with baby cheeks, rosy cheeks, small gap-toothed smile showing two front teeth",
-        "outfit": "yellow t-shirt with white cloud emblem centered on chest, orange shorts, yellow and white sneakers",
-        "style": "3D animated, cheerful confident expression"
-      },
-      "personality": "Curious, brave, warm, loves to ask questions, natural leader of the crew",
-      "catchphrase": "Let's ask! Let's find out! Come on, Crew!",
-      "higgsfield_element_id_LOCKED": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "pose_1_default_tada": "7142ba9c-0386-4ee5-92fd-d2d8295cb120",
-        "pose_2_surprised_hands_on_cheeks": "3dc6528f-3703-4d0e-aa7a-40f1cb87fd76",
-        "pose_3_victory_jump_fists_up": "225f17c5-978b-4425-a982-100e4813165a"
-      },
-      "invideo_elements": [
-        "@Sunny",
-        "@SunnySurprised",
-        "@SunnyJump"
-      ],
-      "google_drive_folder_id": "1fsH_gJmR19qg2tIDndNkCb0sxGnkATci",
-      "google_drive_image_id": "25c8744d-c6f6-41d9-b87e-826c20d4eca3",
-      "generation_model": "nano_banana_2",
-      "existing_higgsfield_image_ids": {
-        "8bdc26c0": "Arms wide open on street — use for: joy, welcome, chorus peaks, theme song",
-        "36c855fa": "Jumping fists raised eyes closed, pure joy — use for: chorus peak, celebration, theme song",
-        "97c88d99": "Porch steps curious hands on cheeks — use for: wondering, setup, bridge moments",
-        "a0850a65": "Raising hand in classroom — use for: asking for help, key Ask Ask Ask visual, chorus hero shot",
-        "315b284c": "Running down sidewalk toward camera — use for: transitions, energy, theme song, verse movement",
-        "3d56c3cb": "Waving goodbye on porch — LOCKED for outro/goodbye only"
-      },
-      "direct_address_to_camera": true,
-      "note": "Sunny speaks directly to the audience. She is the emotional anchor for every episode.",
-      "hard_rules": [
-        "ONE head, correct proportions"
-      ]
+     "id": "2ea4d86d-1978-4764-8620-8f771ee28b4b",
+     "reason": "broken source media (deleted), 2026-07-10"
     },
     {
-      "id": "KODA",
-      "full_name": "Koda",
-      "role": "Main crew — The Builder",
-      "family": "Sunny's older brother — sibling of Sunny and Mimi — same parents, same house",
-      "gender": "boy",
-      "ethnicity": null,
-      "appearance": {
-        "skin": "warm medium brown",
-        "eyes": null,
-        "hair": "big full dark afro",
-        "outfit": "black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange sneakers — PLAIN, NO brand logos or marks",
-        "age_appearance": "visibly older and taller than Sunny",
-        "color_theme": "black, grey, orange",
-        "style": "3D animated"
-      },
-      "personality": "Confident builder, problem-solver, jumps in without being asked, celebrates with fist pumps",
-      "signature_expression": "Arms crossed confident smile → instant fist pump when something works",
-      "higgsfield_element_id_LOCKED": "7ce52e05-5bba-43f0-bb1e-8ca11974038c",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "invideo_elements": [
-        "@Koda"
-      ],
-      "google_drive_folder_id": "1C92_rZ-EsXqLsVoHVWzXazAjQThpgopi",
-      "generation_model": "nano_banana_2",
-      "existing_higgsfield_image_ids": {},
-      "direct_address_to_camera": false,
-      "note": "Koda is Sunny's older brother. Visibly older and taller on screen. NOT a dog — human character.",
-      "design_locked_description": "Koda — warm medium-brown skin, big full dark afro, black t-shirt with colorful lion graphic, dark grey joggers with orange drawstrings, grey-orange sneakers with NO brand logos. Sunny's older brother. Cool confident energy.",
-      "design_note": "Creator v3 redesign locked 2026-07-11 (repo: _staging/characters_new/koda-v3-*.png) — logo-scrubbed replacement after the v2 references showed a branded swoosh on the shoes.",
-      "superseded_appearance_v1": {
-        "skin": "deep warm brown",
-        "eyes": null,
-        "hair": "short neat twists close to head",
-        "outfit": "solid RED short-sleeve t-shirt, KHAKI shorts, RED sneakers with WHITE soles and WHITE laces",
-        "age_appearance": "visibly older and taller than Sunny",
-        "color_theme": "red and khaki",
-        "style": "3D animated"
-      },
-      "appearance_note": "appearance = creator v3 design (locked 2026-07-11, matches element 7ce52e05-5bba-43f0-bb1e-8ca11974038c). v1 kept only for history — never use for prompts.",
-      "deprecated_element_ids": [
-        {
-          "id": "2ea4d86d-1978-4764-8620-8f771ee28b4b",
-          "reason": "broken source media (deleted), 2026-07-10"
-        },
-        {
-          "id": "a8b3713c-0f43-4dc7-a801-4000e6bdca44",
-          "reason": "TRADEMARK RECALL 2026-07-11 — reference images showed a branded swoosh + tongue label on sneakers. NEVER USE."
-        }
-      ],
-      "hard_rules": [
-        "ONE head, correct proportions"
-      ]
-    },
-    {
-      "id": "MIMI",
-      "full_name": "Mimi",
-      "role": "Main crew — The Reactor",
-      "family": "Sunny's youngest sibling — sibling of Sunny and Koda — same parents, same house",
-      "gender": "girl",
-      "ethnicity": null,
-      "appearance": {
-        "skin": "warm golden-brown",
-        "eyes": null,
-        "hair": "dark curly hair in high bun with rainbow clip",
-        "outfit": "gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings",
-        "shoes": "floral high-top sneakers (creator v2 — old always-barefoot rule SUPERSEDED 2026-07-10)",
-        "age_appearance": "ALWAYS visibly the SMALLEST character on screen",
-        "color_theme": "gold, pink, rainbow",
-        "style": "3D animated"
-      },
-      "personality": "Quiet, expressive without words. Communicates through reactions.",
-      "signature_expressions": [
-        "Slow deliberate clap with wide eyes",
-        "Silent giggle with shoulders shaking"
-      ],
-      "higgsfield_element_id_LOCKED": "7b005b4b-da34-4bac-908b-ceb76f9d6247",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "invideo_elements": [
-        "@Mimi"
-      ],
-      "google_drive_folder_id": "113ichHy9MQnOq0zy_U4EIK-kKhOlcTTB",
-      "generation_model": "nano_banana_2",
-      "existing_higgsfield_image_ids": {},
-      "direct_address_to_camera": false,
-      "hard_rules": [
-        "ALWAYS smallest character on screen",
-        "ONE head, correct proportions"
-      ],
-      "deprecated_element_id_broken_media": "f9cf5374-9cce-4a5a-bf60-d973c354f4f6",
-      "design_locked_description": "Mimi — warm golden-brown skin, dark curly hair in high bun with rainbow clip, gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings, floral high-top sneakers. ALWAYS smallest character on screen.",
-      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
-      "superseded_appearance_v1": {
-        "skin": "medium warm brown",
-        "eyes": null,
-        "hair": "TWO TINY pigtails — barely enough hair to tie. Both tied with PINK hair ties.",
-        "outfit": "solid MINT GREEN onesie one-piece with snaps at bottom",
-        "shoes": "ALWAYS BAREFOOT — no shoes, no socks, ever",
-        "age_appearance": "toddler — ALWAYS visibly the SMALLEST character on screen",
-        "style": "3D animated"
-      },
-      "superseded_rules_v1": [
-        "ALWAYS smallest character on screen",
-        "NEVER shoes",
-        "NEVER socks"
-      ],
-      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 7b005b4b-da34-4bac-908b-ceb76f9d6247). v1 kept only for history — never use for prompts."
-    },
-    {
-      "id": "PIPA",
-      "full_name": "Pipa",
-      "role": "Main crew — The Dramatic One",
-      "family": "Twin sister of Bram",
-      "gender": "girl",
-      "ethnicity": null,
-      "appearance": {
-        "skin": "fair with rosy cheeks and freckles",
-        "eyes": "big blue eyes",
-        "hair": "long strawberry-blond wavy hair with flower clip",
-        "outfit": "mint green dress with white Peter Pan collar, white socks, pink-white sneakers",
-        "color_theme": "mint green, pink, white",
-        "style": "3D animated"
-      },
-      "personality": "Everything is BEST EVER or WORST EVER. No middle setting. Arms wide open or dramatic pout.",
-      "higgsfield_element_id_LOCKED": "8849bdb4-d5a1-419d-9abc-c7e36188750c",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "invideo_elements": [
-        "@Pipa"
-      ],
-      "google_drive_folder_id": "14ea8--RStHefyb7xIzLuCZZYxd76QfIT",
-      "generation_model": "nano_banana_2",
-      "existing_higgsfield_image_ids": {},
-      "direct_address_to_camera": false,
-      "deprecated_element_id_broken_media": "c0ef05b4-dca9-4c8b-be45-6415f140cabc",
-      "design_locked_description": "Pipa — fair skin, rosy cheeks, freckles, long strawberry-blond wavy hair with flower clip, big blue eyes, mint green dress with white Peter Pan collar, white socks, pink-white sneakers. Bram's twin sister.",
-      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
-      "superseded_appearance_v1": {
-        "skin": "light peachy with very rosy cheeks",
-        "eyes": "enormous bright blue — most distinctive feature",
-        "hair": "dark red-brown in TWO LONG BRAIDS with PURPLE bows on each braid end",
-        "outfit": "solid PURPLE short-sleeve t-shirt, PINK A-line skirt, PURPLE shoes",
-        "color_theme": "purple and pink",
-        "style": "3D animated"
-      },
-      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 8849bdb4-d5a1-419d-9abc-c7e36188750c). v1 kept only for history — never use for prompts.",
-      "hard_rules": [
-        "ONE head, correct proportions"
-      ]
-    },
-    {
-      "id": "BRAM",
-      "full_name": "Bram",
-      "role": "Main crew — The Thinker",
-      "family": "Twin brother of Pipa",
-      "gender": "boy",
-      "ethnicity": null,
-      "appearance": {
-        "skin": "fair with freckles",
-        "eyes": "green eyes",
-        "hair": "sandy light-brown tousled hair",
-        "outfit": "red-white striped t-shirt, rolled denim shorts, navy high-top sneakers",
-        "color_theme": "red, white, denim",
-        "style": "3D animated"
-      },
-      "personality": "Calm, deliberate, chin-tap thinker. Celebrates quietly but fully.",
-      "signature_expression": "Chin tap with head tilt → full fist pump celebration when answer lands",
-      "higgsfield_element_id_LOCKED": "e80f7f4d-2563-4d1a-b950-196df45dcbf7",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "invideo_elements": [
-        "@Bram"
-      ],
-      "google_drive_folder_id": "1A8KLCEVGsdoDPuA833kASkFmaIC8D96s",
-      "generation_model": "nano_banana_2",
-      "existing_higgsfield_image_ids": {},
-      "direct_address_to_camera": false,
-      "deprecated_element_id_broken_media": "9e376c16-24b6-442a-a642-07d6093bd6f7",
-      "design_locked_description": "Bram — fair skin, freckles, sandy light-brown tousled hair, green eyes, red-white striped t-shirt, rolled denim shorts, navy high-top sneakers. Pipa's twin brother. Calm cheerful thinker.",
-      "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
-      "superseded_appearance_v1": {
-        "skin": "light golden-brown",
-        "eyes": null,
-        "hair": "short straight black with small cowlick at front",
-        "outfit": "solid TEAL short-sleeve shirt, DARK BLUE full-length pants, BROWN sandals",
-        "color_theme": "teal and dark blue",
-        "style": "3D animated"
-      },
-      "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element e80f7f4d-2563-4d1a-b950-196df45dcbf7). v1 kept only for history — never use for prompts.",
-      "hard_rules": [
-        "ONE head, correct proportions"
-      ]
-    },
-    {
-      "id": "LEO",
-      "full_name": "Leo Rivera",
-      "role": "Co-lead — The Big Dreamer",
-      "family": null,
-      "gender": "boy",
-      "ethnicity": "Mexican-American",
-      "appearance": {
-        "skin": "warm medium-brown with golden undertone",
-        "eyes": "large dark brown eyes",
-        "hair": "thick wavy black, short on sides, soft poof on top, one stubborn cowlick that never stays flat",
-        "face": "round with full cheeks, gap-toothed grin with one missing bottom tooth",
-        "glasses": "round tortoiseshell glasses, slightly too large, always sliding down nose",
-        "outfit": "bright RED short-sleeve t-shirt with small WHITE rocket graphic on chest, DARK NAVY cargo shorts, WHITE sneakers with RED laces",
-        "signature_prop": "small silver toy rocket — 8 inches, red flame painted on side, carries it everywhere",
-        "color_theme": "red and navy",
-        "build": "compact and sturdy",
-        "movement": "fast, bouncy, slightly chaotic",
-        "style": "3D animated"
-      },
-      "personality": "Energetic, curious, slightly chaotic, heart-forward. Loves rockets and anything that goes fast.",
-      "signature_expression": "Mouth wide open gap-toothed grin (one missing bottom tooth), glasses crooked, both eyebrows up — pure excitement",
-      "language_notes": "Naturally drops in light Spanish: ¡Órale!, mira, ¡Sí!, gracias. Always followed immediately by English context so children understand without stopping the show.",
-      "higgsfield_element_id_LOCKED": "ab579f47-e94f-406e-ae63-dd4fd6dd1b18",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "google_drive_folder_id": "1m4x9nhN8TuOcI-HFzMmkySWyySoaw6sZ",
-      "google_drive_folder_name": "LEO — Character References",
-      "generation_model": "nano_banana_2",
-      "generation_rules": [
-        "NEVER generate Leo clips without his locked Higgsfield element ID",
-        "ALWAYS pull reference images from google_drive_folder_id before generating",
-        "NEVER use text-prompt-only generation"
-      ],
-      "existing_higgsfield_image_ids": {},
-      "direct_address_to_camera": false,
-      "note": "Character design locked 2026-07-06. Previous placeholder entry (age 7, royal blue hoodie, lightning bolt patch) is SUPERSEDED.",
-      "hard_rules": [
-        "ONE head, correct proportions"
-      ]
-    },
-    {
-      "id": "MIA",
-      "full_name": "Mia Chen",
-      "role": "Supporting — The Thoughtful Strategist",
-      "family": null,
-      "gender": "girl",
-      "ethnicity": "Chinese-American",
-      "appearance": {
-        "skin": "light golden-beige warm honey — NOT pale white, NOT yellow, NOT olive",
-        "eyes": "almond-shaped dark brown eyes with slight upward tilt at outer corners, thin straight dark brown brows",
-        "hair": "pure black, perfectly straight, silky. TWO LOW pigtails at BASE of skull falling to shoulder level. Blunt cut ends. Both tied with small round TEAL scrunchies. Fine wispy baby hairs across entire forehead — always present.",
-        "face": "soft oval, small rounded nose",
-        "outfit": "TEAL long-sleeve fitted shirt (#2EC4B6) with small YELLOW STAR patch on LEFT SLEEVE near shoulder. LIGHT GREY pleated polka dot skirt above knee over WHITE full-length leggings. WHITE mary jane shoes with single TEAL buckle strap. Small TEAL canvas crossbody tote bag with hand-drawn YELLOW STAR on front.",
-        "signature_prop_bag": "small teal canvas crossbody tote bag with hand-drawn yellow star on front",
-        "signature_prop_notebook": "small teal hardcover notebook with yellow star on cover and 4 colored pencils tucked in spine",
-        "color_theme": "teal and yellow",
-        "build": "slender, slightly taller than Sunny and Leo",
-        "movement": "calm, precise, intentional. Quiet flat-handed clap when excited.",
-        "style": "3D animated"
-      },
-      "personality": "Thoughtful, observant, quietly confident. Notices details others miss. Warm once she opens up.",
-      "signature_expression": "Head tilted left, one finger on chin, eyes narrowed slightly — then both eyes wide and big closed-mouth smile when answer arrives",
-      "language_notes": "Naturally drops in light Mandarin: Wā! (wow), Xièxie (thank you), Jiā yóu (you can do it!). Always followed immediately by English context so children understand without stopping the show.",
-      "prompt_anchor_under_100_chars": "golden-beige skin, straight black low pigtails teal scrunchies, teal star shirt, grey polka-dot skirt, white leggings, teal crossbody bag, almond eyes",
-      "higgsfield_element_id_LOCKED": "36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "google_drive_folder_id": "17SS-8Co0u8wVweHn2VFj4hp2u0bZtbqq",
-      "google_drive_folder_name": "MIA — Character References",
-      "generation_model": "nano_banana_2",
-      "generation_rules": [
-        "NEVER generate Mia clips without her locked Higgsfield element ID",
-        "ALWAYS pull reference images from google_drive_folder_id before generating",
-        "NEVER use text-prompt-only generation"
-      ],
-      "existing_higgsfield_image_ids": {},
-      "direct_address_to_camera": false,
-      "note": "Character design locked 2026-07-06. Previous placeholder entry (age 5, deep brown skin, pink overalls, afro puffs) is SUPERSEDED.",
-      "hard_rules": [
-        "EXACTLY TWO low pigtails with teal scrunchies — NEVER three",
-        "ONE head, correct proportions"
-      ]
+     "id": "a8b3713c-0f43-4dc7-a801-4000e6bdca44",
+     "reason": "TRADEMARK RECALL 2026-07-11 — reference images showed a branded swoosh + tongue label on sneakers. NEVER USE."
     }
-  ],
-  "supporting_cast": [
+   ],
+   "hard_rules": [
+    "ONE head, correct proportions"
+   ]
+  },
+  {
+   "id": "MIMI",
+   "full_name": "Mimi",
+   "role": "Main crew — The Reactor",
+   "family": "Sunny's youngest sibling — sibling of Sunny and Koda — same parents, same house",
+   "gender": "girl",
+   "ethnicity": null,
+   "appearance": {
+    "skin": "warm golden-brown",
+    "eyes": null,
+    "hair": "dark curly hair in high bun with rainbow clip",
+    "outfit": "gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings",
+    "shoes": "floral high-top sneakers (creator v2 — old always-barefoot rule SUPERSEDED 2026-07-10)",
+    "age_appearance": "ALWAYS visibly the SMALLEST character on screen",
+    "color_theme": "gold, pink, rainbow",
+    "style": "3D animated"
+   },
+   "personality": "Quiet, expressive without words. Communicates through reactions.",
+   "signature_expressions": [
+    "Slow deliberate clap with wide eyes",
+    "Silent giggle with shoulders shaking"
+   ],
+   "higgsfield_element_id_LOCKED": "7b005b4b-da34-4bac-908b-ceb76f9d6247",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "invideo_elements": [
+    "@Mimi"
+   ],
+   "google_drive_folder_id": "113ichHy9MQnOq0zy_U4EIK-kKhOlcTTB",
+   "generation_model": "nano_banana_2",
+   "existing_higgsfield_image_ids": {},
+   "direct_address_to_camera": false,
+   "hard_rules": [
+    "ALWAYS smallest character on screen",
+    "ONE head, correct proportions"
+   ],
+   "deprecated_element_id_broken_media": "f9cf5374-9cce-4a5a-bf60-d973c354f4f6",
+   "design_locked_description": "Mimi — warm golden-brown skin, dark curly hair in high bun with rainbow clip, gold sparkly bomber jacket over pink top, rainbow tulle tutu skirt, black leggings, floral high-top sneakers. ALWAYS smallest character on screen.",
+   "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
+   "superseded_appearance_v1": {
+    "skin": "medium warm brown",
+    "eyes": null,
+    "hair": "TWO TINY pigtails — barely enough hair to tie. Both tied with PINK hair ties.",
+    "outfit": "solid MINT GREEN onesie one-piece with snaps at bottom",
+    "shoes": "ALWAYS BAREFOOT — no shoes, no socks, ever",
+    "age_appearance": "toddler — ALWAYS visibly the SMALLEST character on screen",
+    "style": "3D animated"
+   },
+   "superseded_rules_v1": [
+    "ALWAYS smallest character on screen",
+    "NEVER shoes",
+    "NEVER socks"
+   ],
+   "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 7b005b4b-da34-4bac-908b-ceb76f9d6247). v1 kept only for history — never use for prompts."
+  },
+  {
+   "id": "PIPA",
+   "full_name": "Pipa",
+   "role": "Main crew — The Dramatic One",
+   "family": "Twin sister of Bram",
+   "gender": "girl",
+   "ethnicity": null,
+   "appearance": {
+    "skin": "fair with rosy cheeks and freckles",
+    "eyes": "big blue eyes",
+    "hair": "long strawberry-blond wavy hair with flower clip",
+    "outfit": "mint green dress with white Peter Pan collar, white socks, pink-white sneakers",
+    "color_theme": "mint green, pink, white",
+    "style": "3D animated"
+   },
+   "personality": "Everything is BEST EVER or WORST EVER. No middle setting. Arms wide open or dramatic pout.",
+   "higgsfield_element_id_LOCKED": "8849bdb4-d5a1-419d-9abc-c7e36188750c",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "invideo_elements": [
+    "@Pipa"
+   ],
+   "google_drive_folder_id": "14ea8--RStHefyb7xIzLuCZZYxd76QfIT",
+   "generation_model": "nano_banana_2",
+   "existing_higgsfield_image_ids": {},
+   "direct_address_to_camera": false,
+   "deprecated_element_id_broken_media": "c0ef05b4-dca9-4c8b-be45-6415f140cabc",
+   "design_locked_description": "Pipa — fair skin, rosy cheeks, freckles, long strawberry-blond wavy hair with flower clip, big blue eyes, mint green dress with white Peter Pan collar, white socks, pink-white sneakers. Bram's twin sister.",
+   "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
+   "superseded_appearance_v1": {
+    "skin": "light peachy with very rosy cheeks",
+    "eyes": "enormous bright blue — most distinctive feature",
+    "hair": "dark red-brown in TWO LONG BRAIDS with PURPLE bows on each braid end",
+    "outfit": "solid PURPLE short-sleeve t-shirt, PINK A-line skirt, PURPLE shoes",
+    "color_theme": "purple and pink",
+    "style": "3D animated"
+   },
+   "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 8849bdb4-d5a1-419d-9abc-c7e36188750c). v1 kept only for history — never use for prompts.",
+   "hard_rules": [
+    "ONE head, correct proportions"
+   ]
+  },
+  {
+   "id": "BRAM",
+   "full_name": "Bram",
+   "role": "Main crew — The Thinker",
+   "family": "Twin brother of Pipa",
+   "gender": "boy",
+   "ethnicity": null,
+   "appearance": {
+    "skin": "fair with freckles",
+    "eyes": "green eyes",
+    "hair": "sandy light-brown tousled hair",
+    "outfit": "red-white striped t-shirt, rolled denim shorts, navy high-top sneakers",
+    "color_theme": "red, white, denim",
+    "style": "3D animated"
+   },
+   "personality": "Calm, deliberate, chin-tap thinker. Celebrates quietly but fully.",
+   "signature_expression": "Chin tap with head tilt → full fist pump celebration when answer lands",
+   "higgsfield_element_id_LOCKED": "e80f7f4d-2563-4d1a-b950-196df45dcbf7",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "invideo_elements": [
+    "@Bram"
+   ],
+   "google_drive_folder_id": "1A8KLCEVGsdoDPuA833kASkFmaIC8D96s",
+   "generation_model": "nano_banana_2",
+   "existing_higgsfield_image_ids": {},
+   "direct_address_to_camera": false,
+   "deprecated_element_id_broken_media": "9e376c16-24b6-442a-a642-07d6093bd6f7",
+   "design_locked_description": "Bram — fair skin, freckles, sandy light-brown tousled hair, green eyes, red-white striped t-shirt, rolled denim shorts, navy high-top sneakers. Pipa's twin brother. Calm cheerful thinker.",
+   "design_note": "Creator redesign locked 2026-07-10 via chat reference images (repo: _staging/characters_new/). Old element had deleted source media and is unusable.",
+   "superseded_appearance_v1": {
+    "skin": "light golden-brown",
+    "eyes": null,
+    "hair": "short straight black with small cowlick at front",
+    "outfit": "solid TEAL short-sleeve shirt, DARK BLUE full-length pants, BROWN sandals",
+    "color_theme": "teal and dark blue",
+    "style": "3D animated"
+   },
+   "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element e80f7f4d-2563-4d1a-b950-196df45dcbf7). v1 kept only for history — never use for prompts.",
+   "hard_rules": [
+    "ONE head, correct proportions"
+   ]
+  },
+  {
+   "id": "LEO",
+   "full_name": "Leo Rivera",
+   "role": "Co-lead — The Big Dreamer",
+   "family": null,
+   "gender": "boy",
+   "ethnicity": "Mexican-American",
+   "appearance": {
+    "skin": "warm medium-brown with golden undertone",
+    "eyes": "large dark brown eyes",
+    "hair": "thick wavy black, short on sides, soft poof on top, one stubborn cowlick that never stays flat",
+    "face": "round with full cheeks, gap-toothed grin with one missing bottom tooth",
+    "glasses": "round tortoiseshell glasses, slightly too large, always sliding down nose",
+    "outfit": "bright RED short-sleeve t-shirt with small WHITE rocket graphic on chest, DARK NAVY cargo shorts, WHITE sneakers with RED laces",
+    "signature_prop": "small silver toy rocket — 8 inches, red flame painted on side, carries it everywhere",
+    "color_theme": "red and navy",
+    "build": "compact and sturdy",
+    "movement": "fast, bouncy, slightly chaotic",
+    "style": "3D animated"
+   },
+   "personality": "Energetic, curious, slightly chaotic, heart-forward. Loves rockets and anything that goes fast.",
+   "signature_expression": "Mouth wide open gap-toothed grin (one missing bottom tooth), glasses crooked, both eyebrows up — pure excitement",
+   "language_notes": "Naturally drops in light Spanish: ¡Órale!, mira, ¡Sí!, gracias. Always followed immediately by English context so children understand without stopping the show.",
+   "higgsfield_element_id_LOCKED": "ab579f47-e94f-406e-ae63-dd4fd6dd1b18",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "google_drive_folder_id": "1m4x9nhN8TuOcI-HFzMmkySWyySoaw6sZ",
+   "google_drive_folder_name": "LEO — Character References",
+   "generation_model": "nano_banana_2",
+   "generation_rules": [
+    "NEVER generate Leo clips without his locked Higgsfield element ID",
+    "ALWAYS pull reference images from google_drive_folder_id before generating",
+    "NEVER use text-prompt-only generation"
+   ],
+   "existing_higgsfield_image_ids": {},
+   "direct_address_to_camera": false,
+   "note": "Character design locked 2026-07-06. Previous placeholder entry (age 7, royal blue hoodie, lightning bolt patch) is SUPERSEDED.",
+   "hard_rules": [
+    "ONE head, correct proportions"
+   ]
+  },
+  {
+   "id": "MIA",
+   "full_name": "Mia Chen",
+   "role": "Supporting — The Thoughtful Strategist",
+   "family": null,
+   "gender": "girl",
+   "ethnicity": "Chinese-American",
+   "appearance": {
+    "skin": "light golden-beige warm honey — NOT pale white, NOT yellow, NOT olive",
+    "eyes": "almond-shaped dark brown eyes with slight upward tilt at outer corners, thin straight dark brown brows",
+    "hair": "pure black, perfectly straight, silky. TWO LOW pigtails at BASE of skull falling to shoulder level. Blunt cut ends. Both tied with small round TEAL scrunchies. Fine wispy baby hairs across entire forehead — always present.",
+    "face": "soft oval, small rounded nose",
+    "outfit": "TEAL long-sleeve fitted shirt (#2EC4B6) with small YELLOW STAR patch on LEFT SLEEVE near shoulder. LIGHT GREY pleated polka dot skirt above knee over WHITE full-length leggings. WHITE mary jane shoes with single TEAL buckle strap. Small TEAL canvas crossbody tote bag with hand-drawn YELLOW STAR on front.",
+    "signature_prop_bag": "small teal canvas crossbody tote bag with hand-drawn yellow star on front",
+    "signature_prop_notebook": "small teal hardcover notebook with yellow star on cover and 4 colored pencils tucked in spine",
+    "color_theme": "teal and yellow",
+    "build": "slender, slightly taller than Sunny and Leo",
+    "movement": "calm, precise, intentional. Quiet flat-handed clap when excited.",
+    "style": "3D animated"
+   },
+   "personality": "Thoughtful, observant, quietly confident. Notices details others miss. Warm once she opens up.",
+   "signature_expression": "Head tilted left, one finger on chin, eyes narrowed slightly — then both eyes wide and big closed-mouth smile when answer arrives",
+   "language_notes": "Naturally drops in light Mandarin: Wā! (wow), Xièxie (thank you), Jiā yóu (you can do it!). Always followed immediately by English context so children understand without stopping the show.",
+   "prompt_anchor_under_100_chars": "golden-beige skin, straight black low pigtails teal scrunchies, teal star shirt, grey polka-dot skirt, white leggings, teal crossbody bag, almond eyes",
+   "higgsfield_element_id_LOCKED": "36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "google_drive_folder_id": "17SS-8Co0u8wVweHn2VFj4hp2u0bZtbqq",
+   "google_drive_folder_name": "MIA — Character References",
+   "generation_model": "nano_banana_2",
+   "generation_rules": [
+    "NEVER generate Mia clips without her locked Higgsfield element ID",
+    "ALWAYS pull reference images from google_drive_folder_id before generating",
+    "NEVER use text-prompt-only generation"
+   ],
+   "existing_higgsfield_image_ids": {},
+   "direct_address_to_camera": false,
+   "note": "Character design locked 2026-07-06. Previous placeholder entry (age 5, deep brown skin, pink overalls, afro puffs) is SUPERSEDED.",
+   "hard_rules": [
+    "EXACTLY TWO low pigtails with teal scrunchies — NEVER three",
+    "ONE head, correct proportions"
+   ]
+  }
+ ],
+ "supporting_cast": [
+  {
+   "id": "NANA_BLOSSOM",
+   "full_name": "Nana Blossom",
+   "role": "The Wise Neighbor — mentor/elder",
+   "gender": "woman",
+   "appearance": {
+    "skin": "deep warm mahogany brown",
+    "eyes": null,
+    "hair": "silver-white LOCS piled HIGH on top of head with LAVENDER hair tie",
+    "outfit": "TEAL dress underneath, FLORAL APRON over dress (white/cream base with pink, orange, yellow, blue, green flowers), PEARL STUD earrings",
+    "age_appearance": "grandmother — ALWAYS tallest character on screen",
+    "style": "3D animated"
+   },
+   "personality": "Warm, grounding, always has the answer but lets the kids discover it. Belly laughs with hands on hips.",
+   "signature_expressions": [
+    "Arms wide open welcome",
+    "Crouching to child level to listen",
+    "Belly laugh hands on hips"
+   ],
+   "higgsfield_element_id_LOCKED": "89ae3644-087a-412b-ab87-2315bf188b6b",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "higgsfield_pose_job_ids": {
+    "original_reference": "91e37e5c-298e-415d-a475-6800d6db9ed9",
+    "pose_1_welcome_arms_wide": "f9e27584-93aa-40e8-8862-05ffb501c55c",
+    "pose_2_crouching_listening": "7b2b3970-a3e7-428e-a6ca-4390d5d09901",
+    "pose_3_belly_laugh": "8104c91a-726f-421e-ad9c-1bbfac0f4ef8"
+   },
+   "invideo_elements": [
+    "@NanaBlossom"
+   ],
+   "google_drive_folder_id": "1kpb03oxltmzdq6j_7UNym-YxQ6nwGFq0",
+   "generation_model": "nano_banana_2",
+   "hard_rules": [
+    "ALWAYS tallest character on screen",
+    "ONE head, correct proportions"
+   ]
+  },
+  {
+   "id": "MAYOR_MARY",
+   "full_name": "Mayor Mary",
+   "role": "Community leader — authority figure, warm not scary",
+   "gender": "woman",
+   "notes": "Based on creator's grandmother",
+   "appearance": {
+    "skin": "very light warm ivory — racially ambiguous",
+    "hair": "short full curly AUBURN hair",
+    "outfit": "ROYAL PURPLE blazer, GOLD mayoral pin on lapel",
+    "color_theme": "royal purple and gold",
+    "style": "3D animated"
+   },
+   "personality": "Authoritative but kind. Speaks clearly and warmly to children. Gets things done.",
+   "higgsfield_element_id_LOCKED": "3c1b33d2-ba1b-408c-8d69-b08c656de4bf",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "higgsfield_pose_job_ids": {
+    "pose_1_standing": "55122193-47b5-41b9-b615-eae22c0fbd20"
+   },
+   "google_drive_image_ids": {
+    "standing": "1h-oQ2bDiRRVv57wCgnvo4XeWogg3IlBi",
+    "kneeling": "1hcYlihDT54mcYXc311N7xiPxLCzWkjdC"
+   },
+   "generation_model": "nano_banana_2",
+   "prompt_correction_flag": "EP01 generation produced brown hair variance. Hair color MUST be specified explicitly in every Mayor Mary prompt or model defaults to brown.",
+   "generation_rules": [
+    "ALWAYS specify: short full curly auburn red hair — warm red tone, NOT brown, NOT black",
+    "NEVER omit hair color from Mayor Mary prompts",
+    "In every prompt include verbatim: 'short full curly warm auburn red hair'"
+   ],
+   "hard_rules": [
+    "ONE head, correct proportions"
+   ]
+  },
+  {
+   "id": "AVA",
+   "full_name": "Ava",
+   "role": "The Teacher — Homeschool Co-op teacher",
+   "gender": "woman",
+   "appearance": {
+    "skin": "warm golden tan with peachy undertones, rosy blush on cheeks",
+    "eyes": null,
+    "hair": "dark chocolate brown natural curly hair in LOOSE HIGH BUN on top, small curls frame forehead, small blue hair tie at base",
+    "outfit": "AMBER-GOLD long-sleeve fitted top underneath, MEDIUM BLUE DENIM OVERALLS (full bib, chest pocket, silver rivets, side pockets)",
+    "age_appearance": "young woman approximately 22–25",
+    "style": "3D animated"
+   },
+   "personality": "Welcoming presenter, patient listener, excited aha-moment teacher",
+   "higgsfield_element_id_LOCKED": "72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "higgsfield_pose_job_ids": {
+    "pose_1_welcome_arms_out": "c18df2b0-d11f-4b00-8e64-3ab712a15e27",
+    "pose_2_crouching_listening": "bc79a2bf-da74-4084-bcd3-74994db57b14",
+    "pose_3_aha_moment_finger_up": "6536aaf6-407f-4525-a6f1-6433116e6a50"
+   },
+   "invideo_elements": [
+    "@Ava",
+    "@AvaListening",
+    "@AvaTeaching"
+   ],
+   "google_drive_folder_id": "1chvLVUo6xvYjykZB7ccyakGgCV4VYa9N",
+   "generation_model": "nano_banana_2",
+   "hard_rules": [
+    "ONE head, correct proportions"
+   ],
+   "role_expanded": "RECURRING LEARNING MENTOR (creator directive 2026-07-11): the crew comes across Ava at least once per episode. Whenever the kids are LEARNING something (practice, phonics, counting, discovery segments), Ava pops up — classroom NOT required; she can appear anywhere in Marigold Grove. Rationale: no parents appear on screen, so Ava + Nana Blossom + Mayor Mary carry the trusted-adult presence."
+  },
+  {
+   "id": "RICO",
+   "full_name": "Rico",
+   "role": "Sporty older kid",
+   "gender": "boy",
+   "appearance": {
+    "skin": "medium warm brown",
+    "hair": "short clean FADE — very close on sides, slightly fuller on top, dark brown",
+    "outfit": "solid GREEN athletic t-shirt (no logos), GREY athletic shorts, WHITE sneakers with ORANGE accent dots on heel",
+    "age_appearance": "visibly older and taller than toddler crew",
+    "style": "3D animated"
+   },
+   "personality": "Athletic, confident, generous with effort",
+   "signature_prop": "basketball",
+   "higgsfield_element_id_LOCKED": "aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "higgsfield_pose_job_ids": {
+    "original": "b7ae3b5c-4621-40ae-920e-81b2a0f62aa8",
+    "pose_1_sidewalk_with_basketball": "f661c59c-7bbc-4c1f-beb0-7cef8547fa44"
+   },
+   "invideo_elements": [
+    "@Rico"
+   ],
+   "google_drive_folder_id": "1JpByjcMn_Us04mfWDgFRuAZjhHEjckpP",
+   "generation_model": "nano_banana_2",
+   "hard_rules": [
+    "ONE head, correct proportions"
+   ],
+   "existing_higgsfield_image_ids": {
+    "original_reference": "b7ae3b5c-4621-40ae-920e-81b2a0f62aa8",
+    "pose_sidewalk_basketball_pointing": "f661c59c-7bbc-4c1f-beb0-7cef8547fa44"
+   },
+   "drive_reference_doc": "RICO — Image References and Job IDs (1wGsNp3rksd2c4N1Wzx8InNT0VYGDXAkwckD1mEZMWhM) — matches locked element aedc26e9"
+  },
+  {
+   "id": "RENA",
+   "full_name": "Rena",
+   "role": "Creative artistic older kid",
+   "gender": "girl",
+   "appearance": {
+    "skin": "medium warm brown — same tone as Rico",
+    "hair": "big voluminous DARK CURLY AFRO with bright YELLOW headband",
+    "outfit": "solid ORANGE t-shirt (no logos), BLUE denim jeans full length with slight cuff at ankle, RAINBOW multicolor patchwork sneakers",
+    "signature_detail": "small paint smudge on LEFT CHEEK — always present in multiple colors, NEVER missing",
+    "age_appearance": "visibly older and taller than toddler crew",
+    "style": "3D animated"
+   },
+   "personality": "Creative, expressive, always making something",
+   "higgsfield_element_id_LOCKED": "9c55b6aa-7d09-45c9-abb8-cec46a39a61d",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "higgsfield_pose_job_ids": {
+    "original": "731cad3b-7a58-4add-84dd-d6d2244dfc66",
+    "pose_1_garden_paintbrush_raised": "449409c2-ecee-43e8-8745-f104ced0f0af"
+   },
+   "invideo_elements": [
+    "@Rena"
+   ],
+   "google_drive_folder_id": "1RbUdbFm87tBTr_BmXnySi0xWr4wPslWq",
+   "generation_model": "nano_banana_2",
+   "hard_rules": [
+    "LEFT CHEEK paint smudge — always present in multiple colors, NEVER missing",
+    "ONE head, correct proportions"
+   ],
+   "existing_higgsfield_image_ids": {
+    "original_reference": "731cad3b-7a58-4add-84dd-d6d2244dfc66",
+    "pose_garden_paintbrush_raised": "449409c2-ecee-43e8-8745-f104ced0f0af"
+   },
+   "drive_reference_doc": "RENA — Image References and Job IDs (1dNf0AgQl0QybM4PDY4nqyQ_omO4nXX7TLDP3lxzMHCg) — matches locked element 9c55b6aa"
+  },
+  {
+   "id": "BELLA",
+   "full_name": "Bella",
+   "role": "The Wise Wanderer — appears when needed",
+   "gender": "female",
+   "species": "dog — Hound and Golden Retriever mix",
+   "appearance": {
+    "coat": "predominantly clean warm ivory white body, rich brindle and warm brown markings on skull and muzzle, slightly wavy soft fluffy coat",
+    "ears": "deep chocolate brown, floppy",
+    "eyes": "large round deeply expressive WARM AMBER-GOLDEN — almost human in emotional depth",
+    "nose": "broad feminine muzzle",
+    "tail": "long, carried high with gentle upward curve",
+    "collar": "simple DEEP TEAL — no tags, no name",
+    "size": "medium to large — elegant, larger than Gabriel",
+    "special_feature": "subtle warm GOLDEN GLOW around edges — always present, brightest when she sings"
+   },
+   "personality": "No one knows where she lives. She appears when needed. Answers questions as if she already knew they would be asked.",
+   "voice": "female second soprano — melodic like a popstar",
+   "higgsfield_element_id_LOCKED": "c4ea659f-6ad3-4564-9d87-a3ed8738850f",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "higgsfield_pose_job_ids": {
+    "pose_1_sitting_dignified": "da604e85-98f9-492e-9cd9-c4d83be8082d",
+    "pose_2_walking_with_purpose": "34c6569d-2025-4c52-acae-00d83c8bb1b7",
+    "pose_3_head_back_singing_with_glow": "1ec1c65a-694e-4f81-bd0f-4f60f10daf63"
+   },
+   "invideo_elements": [
+    "@Bella",
+    "@BellaWalking",
+    "@BellaSinging"
+   ],
+   "google_drive_folder_id": "18k8GoD4e5riQ1FXmexlpEneDl4tti1ig",
+   "generation_model": "nano_banana_2",
+   "hard_rules": [
+    "Bella is NOT Gabriel. Never confuse them.",
+    "NEVER in same shot as Gabriel",
+    "EXACTLY ONE HEAD, single body, proportionate to her frame (a two-headed render was rejected 2026-07-11)",
+    "DOG — never feline"
+   ],
+   "species_confirmed": "DOG — creator-confirmed 2026-07-11 with reference images (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png). Any doc calling Bella a cat is WRONG. Element 3faaac30 description ('wise elder female dog') was always correct.",
+   "deprecated_element_ids": [
     {
-      "id": "NANA_BLOSSOM",
-      "full_name": "Nana Blossom",
-      "role": "The Wise Neighbor — mentor/elder",
-      "gender": "woman",
-      "appearance": {
-        "skin": "deep warm mahogany brown",
-        "eyes": null,
-        "hair": "silver-white LOCS piled HIGH on top of head with LAVENDER hair tie",
-        "outfit": "TEAL dress underneath, FLORAL APRON over dress (white/cream base with pink, orange, yellow, blue, green flowers), PEARL STUD earrings",
-        "age_appearance": "grandmother — ALWAYS tallest character on screen",
-        "style": "3D animated"
-      },
-      "personality": "Warm, grounding, always has the answer but lets the kids discover it. Belly laughs with hands on hips.",
-      "signature_expressions": [
-        "Arms wide open welcome",
-        "Crouching to child level to listen",
-        "Belly laugh hands on hips"
-      ],
-      "higgsfield_element_id_LOCKED": "89ae3644-087a-412b-ab87-2315bf188b6b",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "original_reference": "91e37e5c-298e-415d-a475-6800d6db9ed9",
-        "pose_1_welcome_arms_wide": "f9e27584-93aa-40e8-8862-05ffb501c55c",
-        "pose_2_crouching_listening": "7b2b3970-a3e7-428e-a6ca-4390d5d09901",
-        "pose_3_belly_laugh": "8104c91a-726f-421e-ad9c-1bbfac0f4ef8"
-      },
-      "invideo_elements": [
-        "@NanaBlossom"
-      ],
-      "google_drive_folder_id": "1kpb03oxltmzdq6j_7UNym-YxQ6nwGFq0",
-      "generation_model": "nano_banana_2",
-      "hard_rules": [
-        "ALWAYS tallest character on screen",
-        "ONE head, correct proportions"
-      ]
-    },
-    {
-      "id": "MAYOR_MARY",
-      "full_name": "Mayor Mary",
-      "role": "Community leader — authority figure, warm not scary",
-      "gender": "woman",
-      "notes": "Based on creator's grandmother",
-      "appearance": {
-        "skin": "very light warm ivory — racially ambiguous",
-        "hair": "short full curly AUBURN hair",
-        "outfit": "ROYAL PURPLE blazer, GOLD mayoral pin on lapel",
-        "color_theme": "royal purple and gold",
-        "style": "3D animated"
-      },
-      "personality": "Authoritative but kind. Speaks clearly and warmly to children. Gets things done.",
-      "higgsfield_element_id_LOCKED": "3c1b33d2-ba1b-408c-8d69-b08c656de4bf",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "pose_1_standing": "55122193-47b5-41b9-b615-eae22c0fbd20"
-      },
-      "google_drive_image_ids": {
-        "standing": "1h-oQ2bDiRRVv57wCgnvo4XeWogg3IlBi",
-        "kneeling": "1hcYlihDT54mcYXc311N7xiPxLCzWkjdC"
-      },
-      "generation_model": "nano_banana_2",
-      "prompt_correction_flag": "EP01 generation produced brown hair variance. Hair color MUST be specified explicitly in every Mayor Mary prompt or model defaults to brown.",
-      "generation_rules": [
-        "ALWAYS specify: short full curly auburn red hair — warm red tone, NOT brown, NOT black",
-        "NEVER omit hair color from Mayor Mary prompts",
-        "In every prompt include verbatim: 'short full curly warm auburn red hair'"
-      ],
-      "hard_rules": [
-        "ONE head, correct proportions"
-      ]
-    },
-    {
-      "id": "AVA",
-      "full_name": "Ava",
-      "role": "The Teacher — Homeschool Co-op teacher",
-      "gender": "woman",
-      "appearance": {
-        "skin": "warm golden tan with peachy undertones, rosy blush on cheeks",
-        "eyes": null,
-        "hair": "dark chocolate brown natural curly hair in LOOSE HIGH BUN on top, small curls frame forehead, small blue hair tie at base",
-        "outfit": "AMBER-GOLD long-sleeve fitted top underneath, MEDIUM BLUE DENIM OVERALLS (full bib, chest pocket, silver rivets, side pockets)",
-        "age_appearance": "young woman approximately 22–25",
-        "style": "3D animated"
-      },
-      "personality": "Welcoming presenter, patient listener, excited aha-moment teacher",
-      "higgsfield_element_id_LOCKED": "72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "pose_1_welcome_arms_out": "c18df2b0-d11f-4b00-8e64-3ab712a15e27",
-        "pose_2_crouching_listening": "bc79a2bf-da74-4084-bcd3-74994db57b14",
-        "pose_3_aha_moment_finger_up": "6536aaf6-407f-4525-a6f1-6433116e6a50"
-      },
-      "invideo_elements": [
-        "@Ava",
-        "@AvaListening",
-        "@AvaTeaching"
-      ],
-      "google_drive_folder_id": "1chvLVUo6xvYjykZB7ccyakGgCV4VYa9N",
-      "generation_model": "nano_banana_2",
-      "hard_rules": [
-        "ONE head, correct proportions"
-      ],
-      "role_expanded": "RECURRING LEARNING MENTOR (creator directive 2026-07-11): the crew comes across Ava at least once per episode. Whenever the kids are LEARNING something (practice, phonics, counting, discovery segments), Ava pops up — classroom NOT required; she can appear anywhere in Marigold Grove. Rationale: no parents appear on screen, so Ava + Nana Blossom + Mayor Mary carry the trusted-adult presence."
-    },
-    {
-      "id": "RICO",
-      "full_name": "Rico",
-      "role": "Sporty older kid",
-      "gender": "boy",
-      "appearance": {
-        "skin": "medium warm brown",
-        "hair": "short clean FADE — very close on sides, slightly fuller on top, dark brown",
-        "outfit": "solid GREEN athletic t-shirt (no logos), GREY athletic shorts, WHITE sneakers with ORANGE accent dots on heel",
-        "age_appearance": "visibly older and taller than toddler crew",
-        "style": "3D animated"
-      },
-      "personality": "Athletic, confident, generous with effort",
-      "signature_prop": "basketball",
-      "higgsfield_element_id_LOCKED": "aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "original": "b7ae3b5c-4621-40ae-920e-81b2a0f62aa8",
-        "pose_1_sidewalk_with_basketball": "f661c59c-7bbc-4c1f-beb0-7cef8547fa44"
-      },
-      "invideo_elements": [
-        "@Rico"
-      ],
-      "google_drive_folder_id": "1JpByjcMn_Us04mfWDgFRuAZjhHEjckpP",
-      "generation_model": "nano_banana_2",
-      "hard_rules": [
-        "ONE head, correct proportions"
-      ],
-      "existing_higgsfield_image_ids": {
-        "original_reference": "b7ae3b5c-4621-40ae-920e-81b2a0f62aa8",
-        "pose_sidewalk_basketball_pointing": "f661c59c-7bbc-4c1f-beb0-7cef8547fa44"
-      },
-      "drive_reference_doc": "RICO — Image References and Job IDs (1wGsNp3rksd2c4N1Wzx8InNT0VYGDXAkwckD1mEZMWhM) — matches locked element aedc26e9"
-    },
-    {
-      "id": "RENA",
-      "full_name": "Rena",
-      "role": "Creative artistic older kid",
-      "gender": "girl",
-      "appearance": {
-        "skin": "medium warm brown — same tone as Rico",
-        "hair": "big voluminous DARK CURLY AFRO with bright YELLOW headband",
-        "outfit": "solid ORANGE t-shirt (no logos), BLUE denim jeans full length with slight cuff at ankle, RAINBOW multicolor patchwork sneakers",
-        "signature_detail": "small paint smudge on LEFT CHEEK — always present in multiple colors, NEVER missing",
-        "age_appearance": "visibly older and taller than toddler crew",
-        "style": "3D animated"
-      },
-      "personality": "Creative, expressive, always making something",
-      "higgsfield_element_id_LOCKED": "9c55b6aa-7d09-45c9-abb8-cec46a39a61d",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "original": "731cad3b-7a58-4add-84dd-d6d2244dfc66",
-        "pose_1_garden_paintbrush_raised": "449409c2-ecee-43e8-8745-f104ced0f0af"
-      },
-      "invideo_elements": [
-        "@Rena"
-      ],
-      "google_drive_folder_id": "1RbUdbFm87tBTr_BmXnySi0xWr4wPslWq",
-      "generation_model": "nano_banana_2",
-      "hard_rules": [
-        "LEFT CHEEK paint smudge — always present in multiple colors, NEVER missing",
-        "ONE head, correct proportions"
-      ],
-      "existing_higgsfield_image_ids": {
-        "original_reference": "731cad3b-7a58-4add-84dd-d6d2244dfc66",
-        "pose_garden_paintbrush_raised": "449409c2-ecee-43e8-8745-f104ced0f0af"
-      },
-      "drive_reference_doc": "RENA — Image References and Job IDs (1dNf0AgQl0QybM4PDY4nqyQ_omO4nXX7TLDP3lxzMHCg) — matches locked element 9c55b6aa"
-    },
-    {
-      "id": "BELLA",
-      "full_name": "Bella",
-      "role": "The Wise Wanderer — appears when needed",
-      "gender": "female",
-      "species": "dog — Hound and Golden Retriever mix",
-      "appearance": {
-        "coat": "predominantly clean warm ivory white body, rich brindle and warm brown markings on skull and muzzle, slightly wavy soft fluffy coat",
-        "ears": "deep chocolate brown, floppy",
-        "eyes": "large round deeply expressive WARM AMBER-GOLDEN — almost human in emotional depth",
-        "nose": "broad feminine muzzle",
-        "tail": "long, carried high with gentle upward curve",
-        "collar": "simple DEEP TEAL — no tags, no name",
-        "size": "medium to large — elegant, larger than Gabriel",
-        "special_feature": "subtle warm GOLDEN GLOW around edges — always present, brightest when she sings"
-      },
-      "personality": "No one knows where she lives. She appears when needed. Answers questions as if she already knew they would be asked.",
-      "voice": "female second soprano — melodic like a popstar",
-      "higgsfield_element_id_LOCKED": "c4ea659f-6ad3-4564-9d87-a3ed8738850f",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "pose_1_sitting_dignified": "da604e85-98f9-492e-9cd9-c4d83be8082d",
-        "pose_2_walking_with_purpose": "34c6569d-2025-4c52-acae-00d83c8bb1b7",
-        "pose_3_head_back_singing_with_glow": "1ec1c65a-694e-4f81-bd0f-4f60f10daf63"
-      },
-      "invideo_elements": [
-        "@Bella",
-        "@BellaWalking",
-        "@BellaSinging"
-      ],
-      "google_drive_folder_id": "18k8GoD4e5riQ1FXmexlpEneDl4tti1ig",
-      "generation_model": "nano_banana_2",
-      "hard_rules": [
-        "Bella is NOT Gabriel. Never confuse them.",
-        "NEVER in same shot as Gabriel",
-        "EXACTLY ONE HEAD, single body, proportionate to her frame (a two-headed render was rejected 2026-07-11)",
-        "DOG — never feline"
-      ],
-      "species_confirmed": "DOG — creator-confirmed 2026-07-11 with reference images (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png). Any doc calling Bella a cat is WRONG. Element 3faaac30 description ('wise elder female dog') was always correct.",
-      "deprecated_element_ids": [
-        {
-          "id": "3faaac30-5b05-4b1b-a2f4-deb996643a5d",
-          "reason": "superseded 2026-07-11 by Bella-v2 built from creator reference images — old element risked feline drift (shipped theme T15 rendered a cat)"
-        }
-      ],
-      "design_note": "Bella-v2 element locked 2026-07-11 from creator dog references (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png)."
-    },
-    {
-      "id": "GABRIEL",
-      "full_name": "Gabriel",
-      "role": "Koda's dog — comic relief, always in the right place at the wrong time",
-      "gender": "male",
-      "species": "dog — compact cartoon breed",
-      "family": "Koda's dog",
-      "appearance": {
-        "coat": "cream white base with irregular warm medium brown spots",
-        "ears": "very long floppy CHOCOLATE BROWN",
-        "nose": "large glossy black",
-        "eyes": "large round warm brown cartoon eyes",
-        "tail": "medium, curled upward",
-        "body": "compact barrel-shaped, short sturdy legs"
-      },
-      "personality": "Always happy, always underfoot, accidentally helpful",
-      "higgsfield_element_id_LOCKED": "f35f85da-590d-4a74-80d5-a3931befa4bb",
-      "higgsfield_element_status": "LOCKED — always use, never regenerate",
-      "higgsfield_pose_job_ids": {
-        "original_reference": "b598ede1-38d5-4af2-8519-1aad351ff192",
-        "pose_1_good_boy_sit_head_tilt": "0a837a71-1a69-4172-bd50-b020b2983045",
-        "pose_2_full_sprint_running": "eb01dd62-313e-4cab-b7ee-52a96a38560b",
-        "pose_3_belly_rub_paws_in_air": "3cbaea20-9ae7-474d-ab44-fe1bfd0b5672"
-      },
-      "invideo_elements": [
-        "@Gabriel",
-        "@GabrielRun",
-        "@GabrielPlay"
-      ],
-      "google_drive_folder_id": "1CB5R9wyvMzAOZAGkhoX0641PGYNYjOO3",
-      "generation_model": "nano_banana_2",
-      "hard_rules": [
-        "Gabriel is NOT Bella. Never confuse them.",
-        "NEVER in same shot as Bella",
-        "ONE head, correct proportions"
-      ],
-      "former_name": "Commander — HARD RENAME to Gabriel, creator-locked 2026-07-11. Never use the old name in any new prompt, script, VO, or metadata.",
-      "higgsfield_element_note": "Locked element f35f85da-590d-4a74-80d5-a3931befa4bb still DISPLAYS as 'Commander' in the Higgsfield UI (elements cannot be renamed via this connection) — it IS Gabriel; creator may rename it in the UI.",
-      "reference_images": "_staging/characters_new/gabriel-1-running.png, gabriel-2-sitting.png, gabriel-3-standing.png (creator-supplied 2026-07-11, matches locked element design)"
-    },
-    {
-      "id": "RANDY",
-      "full_name": "Randy",
-      "role": "Friendly neighborhood corner store owner",
-      "gender": "man",
-      "appearance": {
-        "outfit": "BLUE polo shirt",
-        "color_theme": "blue"
-      },
-      "personality": "Warm friendly neighbor, knows everyone",
-      "generation_model": "nano_banana_2",
-      "hard_rules": [
-        "ONE head, correct proportions"
-      ]
-    },
-    {
-      "id": "ANNE",
-      "full_name": "Anne",
-      "role": "Music and chorus teacher",
-      "gender": "woman",
-      "appearance": {
-        "outfit": "TEAL dress",
-        "color_theme": "teal"
-      },
-      "personality": "Musical energy, expressive, joyful",
-      "generation_model": "nano_banana_2",
-      "hard_rules": [
-        "ONE head, correct proportions"
-      ]
-    },
-    {
-      "id": "RANDY",
-      "full_name": "Randy",
-      "role": "Supporting cast — corner store owner",
-      "function": "Runs the Marigold Grove corner store (LOC_CORNER_STORE). Friendly neighborhood shopkeeper the crew can visit — the corner store is a location OPTION, not an every-episode obligation.",
-      "status": "NEEDS_DESIGN — no reference images, no locked element. DO NOT generate or depict Randy until the creator supplies/approves a design. Added 2026-07-11 by creator directive.",
-      "higgsfield_element_id_LOCKED": null,
-      "hard_rules": [
-        "ONE head, correct proportions",
-        "Never depict before a creator-approved design is locked"
-      ]
-    },
-    {
-      "id": "ANNE",
-      "full_name": "Anne",
-      "role": "Supporting cast — music teacher",
-      "function": "RECURRING MUSIC MENTOR (creator directive 2026-07-11): when the crew sings the episode song, Anne should be around or pop up and sing with them — at least one song moment per episode once her design is locked.",
-      "status": "NEEDS_DESIGN — no reference images, no locked element. DO NOT generate or depict Anne until the creator supplies/approves a design. Added 2026-07-11 by creator directive.",
-      "higgsfield_element_id_LOCKED": null,
-      "hard_rules": [
-        "ONE head, correct proportions",
-        "Never depict before a creator-approved design is locked"
-      ]
+     "id": "3faaac30-5b05-4b1b-a2f4-deb996643a5d",
+     "reason": "superseded 2026-07-11 by Bella-v2 built from creator reference images — old element risked feline drift (shipped theme T15 rendered a cat)"
     }
-  ]
+   ],
+   "design_note": "Bella-v2 element locked 2026-07-11 from creator dog references (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png)."
+  },
+  {
+   "id": "GABRIEL",
+   "full_name": "Gabriel",
+   "role": "Koda's dog — comic relief, always in the right place at the wrong time",
+   "gender": "male",
+   "species": "dog — compact cartoon breed",
+   "family": "Koda's dog",
+   "appearance": {
+    "coat": "cream white base with irregular warm medium brown spots",
+    "ears": "very long floppy CHOCOLATE BROWN",
+    "nose": "large glossy black",
+    "eyes": "large round warm brown cartoon eyes",
+    "tail": "medium, curled upward",
+    "body": "compact barrel-shaped, short sturdy legs"
+   },
+   "personality": "Always happy, always underfoot, accidentally helpful",
+   "higgsfield_element_id_LOCKED": "f35f85da-590d-4a74-80d5-a3931befa4bb",
+   "higgsfield_element_status": "LOCKED — always use, never regenerate",
+   "higgsfield_pose_job_ids": {
+    "original_reference": "b598ede1-38d5-4af2-8519-1aad351ff192",
+    "pose_1_good_boy_sit_head_tilt": "0a837a71-1a69-4172-bd50-b020b2983045",
+    "pose_2_full_sprint_running": "eb01dd62-313e-4cab-b7ee-52a96a38560b",
+    "pose_3_belly_rub_paws_in_air": "3cbaea20-9ae7-474d-ab44-fe1bfd0b5672"
+   },
+   "invideo_elements": [
+    "@Gabriel",
+    "@GabrielRun",
+    "@GabrielPlay"
+   ],
+   "google_drive_folder_id": "1CB5R9wyvMzAOZAGkhoX0641PGYNYjOO3",
+   "generation_model": "nano_banana_2",
+   "hard_rules": [
+    "Gabriel is NOT Bella. Never confuse them.",
+    "NEVER in same shot as Bella",
+    "ONE head, correct proportions"
+   ],
+   "former_name": "Commander — HARD RENAME to Gabriel, creator-locked 2026-07-11. Never use the old name in any new prompt, script, VO, or metadata.",
+   "higgsfield_element_note": "Locked element f35f85da-590d-4a74-80d5-a3931befa4bb still DISPLAYS as 'Commander' in the Higgsfield UI (elements cannot be renamed via this connection) — it IS Gabriel; creator may rename it in the UI.",
+   "reference_images": "_staging/characters_new/gabriel-1-running.png, gabriel-2-sitting.png, gabriel-3-standing.png (creator-supplied 2026-07-11, matches locked element design)"
+  },
+  {
+   "id": "RANDY",
+   "full_name": "Randy",
+   "role": "Friendly neighborhood corner store owner",
+   "gender": "man",
+   "appearance": {
+    "outfit": "BLUE polo shirt",
+    "color_theme": "blue"
+   },
+   "personality": "Warm friendly neighbor, knows everyone",
+   "generation_model": "nano_banana_2",
+   "hard_rules": [
+    "ONE head, correct proportions"
+   ]
+  },
+  {
+   "id": "ANNE",
+   "full_name": "Anne",
+   "role": "Music and chorus teacher",
+   "gender": "woman",
+   "appearance": {
+    "outfit": "TEAL dress",
+    "color_theme": "teal"
+   },
+   "personality": "Musical energy, expressive, joyful",
+   "generation_model": "nano_banana_2",
+   "hard_rules": [
+    "ONE head, correct proportions"
+   ]
+  },
+  {
+   "id": "RANDY",
+   "full_name": "Randy",
+   "role": "Supporting cast — corner store owner",
+   "function": "Runs the Marigold Grove corner store (LOC_CORNER_STORE). Friendly neighborhood shopkeeper the crew can visit — the corner store is a location OPTION, not an every-episode obligation.",
+   "status": "NEEDS_DESIGN — no reference images, no locked element. DO NOT generate or depict Randy until the creator supplies/approves a design. Added 2026-07-11 by creator directive.",
+   "higgsfield_element_id_LOCKED": null,
+   "hard_rules": [
+    "ONE head, correct proportions",
+    "Never depict before a creator-approved design is locked"
+   ]
+  },
+  {
+   "id": "ANNE",
+   "full_name": "Anne",
+   "role": "Supporting cast — music teacher",
+   "function": "RECURRING MUSIC MENTOR (creator directive 2026-07-11): when the crew sings the episode song, Anne should be around or pop up and sing with them — at least one song moment per episode once her design is locked.",
+   "status": "NEEDS_DESIGN — no reference images, no locked element. DO NOT generate or depict Anne until the creator supplies/approves a design. Added 2026-07-11 by creator directive.",
+   "higgsfield_element_id_LOCKED": null,
+   "hard_rules": [
+    "ONE head, correct proportions",
+    "Never depict before a creator-approved design is locked"
+   ]
+  }
+ ]
 }

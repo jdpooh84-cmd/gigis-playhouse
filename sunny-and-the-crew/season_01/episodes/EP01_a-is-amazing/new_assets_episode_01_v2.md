@@ -948,7 +948,7 @@ CHARACTER LOCK — EP01 EP01-S8-C06
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
-[Rena <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> — small multicolor paint smudge on LEFT CHEEK, always present]
+[Rena <<<b3f032b2-d681-454a-980e-c6ab390e1a93>>> — small multicolor paint smudge on LEFT CHEEK, always present]
 ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
@@ -968,7 +968,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-S8-C07
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
-[Rico <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>]
+[Rico <<<298ca0c6-86df-43dc-9238-9ae25573bebb>>>]
 ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
@@ -2064,8 +2064,8 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 **EP01-O-C06** — 9:47.61-9:52.61 (5.00s) | cut
 ```
 CHARACTER LOCK — EP01 EP01-O-C06
-[Rena <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> — small multicolor paint smudge on LEFT CHEEK, always present]
-[Rico <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>]
+[Rena <<<b3f032b2-d681-454a-980e-c6ab390e1a93>>> — small multicolor paint smudge on LEFT CHEEK, always present]
+[Rico <<<298ca0c6-86df-43dc-9238-9ae25573bebb>>>]
 ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED

@@ -23,3 +23,9 @@
 ## DEFECT CLASS: overlay graphics written into image prompts (found 2026-07-12, EP01-P2-C18 / P4-C32/C35/C36)
 - Symptom: scene lines like "Letter A badge animates into upper corner" / "chalk word APPLE floats in" would bake letters into plates, violating the no-text rule.
 - Fix: all letter/word overlay graphics are POST-PRODUCTION overlays added at assembly, never in generation prompts. Scene lines stripped before submission.
+
+## DEFECT CLASS: element breaks when platform purges its source media (found 2026-07-12, Rena/Rico)
+- Symptom: generations referencing an element fail with generic "Something went wrong"; the element record still reads status=completed. Solo isolation tests fail; a control with a healthy element passes. media_import_url on the element's media URLs returns 403 (purged).
+- Root cause: elements whose medias are typed `image_job` depend on the source generation job's media; when the platform purges old job media the element silently breaks.
+- Fix: rebuild the element from durable references (creator Drive CHARACTERS folder → stage in repo `_staging/characters_new/` → media_import_url on the raw.githubusercontent URL → create element with the returned media_input id). NEVER create elements by reusing another element's media ids.
+- Prevention: all new elements must be built from repo-staged creator references (durable https), never from job-output CDN links. Diagnostic ladder: retry once → isolate solo → control with healthy element → inspect element → probe media URLs.
