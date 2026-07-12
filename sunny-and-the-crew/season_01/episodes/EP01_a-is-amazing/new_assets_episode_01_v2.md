@@ -51,10 +51,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny on sidewalk bouncing on toes, arms wide, greets viewer; Leo leans on fence with notebook behind.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Friends! Today we find something amazing!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium direct address, static.
 Kid cue this clip supports: Wave hello to Sunny!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -70,10 +70,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Mia runs into frame; Sunny holds up two fingers, eyes huge.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'An A word. Two A words! Let's go!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium, slight push-in.
 Kid cue this clip supports: Wave hello to Sunny!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -92,6 +92,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Wide tracking.
 Kid cue this clip supports: Wave hello to Sunny!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -114,6 +115,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Wide arrival.
 Kid cue this clip supports: Say 'apple' with Mia!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -129,10 +131,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Nana Blossom (tallest on screen) opens the screen door with her big welcoming smile.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Nana Blossom! Look at this apple!'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Medium.
 Kid cue this clip supports: Say 'apple' with Mia!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -148,10 +150,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny lifts a big shiny apple overhead like a trophy, savoring the word.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY & MIA: 'Apple…'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Close-medium.
 Kid cue this clip supports: Say 'apple' with Mia!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -167,10 +169,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Mia claps, repeating the word with joy.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: MIA: 'Apple! Apple! Big red apple!'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Close-up on Mia.
 Kid cue this clip supports: Say 'apple' with Mia!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -190,10 +192,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Back on the sidewalk — Leo freezes and points straight up.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: LEO: 'Look look look! Up there — airplane!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium, snap to Leo.
 Kid cue this clip supports: Point up at the airplane!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -212,6 +214,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Low angle sky shot.
 Kid cue this clip supports: Point up at the airplane!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -227,10 +230,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 All three look up; Mia tips back so far she nearly falls; Leo grabs his notebook to draw it.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'An airplane! Wow — airplane!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Wide.
 Kid cue this clip supports: Point up at the airplane!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -246,10 +249,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 All three repeat the word, eyes on the sky.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: ALL: 'Airplane!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Close-medium group.
 Kid cue this clip supports: Point up at the airplane!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -270,10 +273,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny holds the apple in one hand and points up at the airplane with the other.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Apple and airplane — I see something. Do you?'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Medium.
 Kid cue this clip supports: Do YOU see what's the same?
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -290,10 +293,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Leo squints thoughtfully, adjusts his glasses, then declares with confidence.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: LEO: 'They're both red! Both red!'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Close-up on Leo.
 Kid cue this clip supports: Do YOU see what's the same?
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -310,10 +313,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny and Nana share a warm smile; Sunny gives Leo a proud nod.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Leo — yes! Red IS amazing. And there's more!'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Two-shot.
 Kid cue this clip supports: Do YOU see what's the same?
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -333,6 +336,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Group shot.
 Kid cue this clip supports: Do YOU see what's the same?
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -353,10 +357,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Nana crouches to the children's level — signature listening pose — apple in one hand, other gesturing skyward.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: NANA BLOSSOM: 'Apple. Airplane.'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Medium low.
 Kid cue this clip supports: Watch for the letter A!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -373,10 +377,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Nana's warm eyes; she says it slowly.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: NANA BLOSSOM: 'Both start with A.'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Close-up on Nana.
 Kid cue this clip supports: Watch for the letter A!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -393,10 +397,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Letter A badge animates into upper corner; Sunny's face goes from pure wonder to pure joy.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'A! They both start with A!'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Close-up on Sunny.
 Kid cue this clip supports: Watch for the letter A!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -416,6 +420,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Group celebration.
 Kid cue this clip supports: Watch for the letter A!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -434,10 +439,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny turns fully to camera and leans forward — she needs the viewer's help.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY: 'Can you say it? Say A!'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium direct address, lean-in.
 Kid cue this clip supports: SAY 'A' OUT LOUD! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -452,10 +457,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny cups her hand to her ear and waits — patient, warm, listening face. FULL 3-SECOND HOLD.
 Every character has exactly one head and correct anatomy.
-Timed line: [3-SECOND PAUSE — child says 'A' at home]
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Static hold.
 Kid cue this clip supports: SAY 'A' OUT LOUD! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -470,10 +475,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny celebrates BIG — she heard them.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY: 'I HEARD you! You said A! Yes!'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium.
 Kid cue this clip supports: SAY 'A' OUT LOUD! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -491,6 +496,7 @@ Every character has exactly one head and correct anatomy.
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium.
 Kid cue this clip supports: SAY 'A' OUT LOUD! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -509,10 +515,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny and Mia sit on the porch steps, catching breath from the song, happy.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'That song is my favorite. Want to practice with me?'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium two-shot, porch steps.
 Kid cue this clip supports: Get your singing voice ready!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -528,10 +534,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny leans toward camera with a secret-sharing smile. Ava the teacher pops up warmly over the backyard fence, delighted the kids are practicing, nodding encouragement.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'The letter A makes a sound. Listen close…'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Close-medium.
 Kid cue this clip supports: Get your singing voice ready!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -549,10 +555,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny models the short-A sound slowly, big clear mouth shapes — chalk letter 'a' pulses with each sound.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY: '/a/ … /a/ … /a/ — like the start of apple!'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Close-up, mouth clearly visible.
 Kid cue this clip supports: Say /a/ /a/ /a/ after Sunny! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -566,10 +572,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny cups her ear and waits — 3-SECOND HOLD, warm listening face.
 Every character has exactly one head and correct anatomy.
-Timed line: [3-SECOND PAUSE — child echoes /a/]
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Static hold.
 Kid cue this clip supports: Say /a/ /a/ /a/ after Sunny! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -583,10 +589,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny beams and claps.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY: 'I heard it! You made the A sound!'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium.
 Kid cue this clip supports: Say /a/ /a/ /a/ after Sunny! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -600,10 +606,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Mia pops in beside Sunny; they do it once more together, louder, chalk 'a' bounces.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY & MIA: 'One more time — /a/ /a/ /a/!'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium, Mia joins.
 Kid cue this clip supports: Say /a/ /a/ /a/ after Sunny! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -622,10 +628,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny holds the shiny apple; claps the syllables AP-PLE; chalk word APPLE floats in.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'AP-PLE. Can you say apple?'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium.
 Kid cue this clip supports: Say APPLE! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -640,10 +646,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Ear-cup listening hold — 3 SECONDS.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: [3-SECOND PAUSE — child says APPLE]
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Static hold.
 Kid cue this clip supports: Say APPLE! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -658,10 +664,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Both girls cheer; Mia takes a big pretend crunch.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: MIA: 'Apple! Crunch!'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium.
 Kid cue this clip supports: Say APPLE! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -680,10 +686,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Leo flies his notebook like a plane; claps syllables AIR-PLANE; chalk word AIRPLANE floats in.
 Every character has exactly one head and correct anatomy.
-Timed line: LEO: 'AIR-PLANE. Your turn — say airplane!'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium.
 Kid cue this clip supports: Say AIRPLANE! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -698,10 +704,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Leo and Sunny both cup ears — 3-second hold plus a wink.
 Every character has exactly one head and correct anatomy.
-Timed line: [3-SECOND PAUSE — child says AIRPLANE]
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Static hold.
 Kid cue this clip supports: Say AIRPLANE! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -716,10 +722,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Both zoom arms out like wings in celebration.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY: 'Airplane! You said it!'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium.
 Kid cue this clip supports: Say AIRPLANE! (3-second response hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -737,10 +743,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny traces a giant glowing A in the air with her finger — down, down, across — golden trail follows.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY: 'Big line down… big line down… little line across!'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium, mirrored for viewer.
 Kid cue this clip supports: Draw a big A in the air with your finger!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -754,10 +760,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 The glowing A hangs complete in the air; Sunny peeks through it like a window.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY: 'You drew the letter A!'
 Background: LOC_DIRECT_ADDRESS — warm bright yellow gradient, clean and minimal.
 Camera: Medium.
 Kid cue this clip supports: Draw a big A in the air with your finger!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -777,10 +783,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 All three give the camera double thumbs-up; chalk 'a', APPLE, AIRPLANE all on screen.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Sound, words, letter — you did ALL of it!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Group medium.
 Kid cue this clip supports: Give yourself a pat on the back!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -796,10 +802,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Leo suddenly points off-screen — an idea sparks.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: LEO: 'Wait — I bet there are MORE A words hiding!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium, energy rising.
 Kid cue this clip supports: Give yourself a pat on the back!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -819,10 +825,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny gathers the trio, big inviting energy, hands to her heart then out to the viewer.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'A words are in our BODIES too!'
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Medium group shot, eye level.
 Kid cue this clip supports: Get ready to move!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -836,10 +842,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Leo winds up into a huge exaggerated crouch like he is about to become an apple.
 Every character has exactly one head and correct anatomy.
-Timed line: LEO: 'Crunch like an apple! Ready?'
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Medium single, slight low angle.
 Kid cue this clip supports: Copy Leo!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -855,10 +861,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 All three do three big slow body-crunches in unison, popping up grinning between each.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: ALL: 'CRUNCH! ... CRUNCH! ... CRUNCH!'
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Wide, static so kids can mirror.
 Kid cue this clip supports: CRUNCH like an apple - three times!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -872,10 +878,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Mia spreads her arms wide like wings and tilts gently side to side.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: MIA: 'Now... fly like an airplane!'
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Medium single.
 Kid cue this clip supports: Arms out like wings!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -889,10 +895,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny faces camera, arms out as wings, inviting the viewer to zoom with her.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY: 'Arms out! Zoom with us!'
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Direct address medium.
 Kid cue this clip supports: Zoom with Sunny!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -912,6 +918,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Wide tracking as the line banks gently.
 Kid cue this clip supports: Fly in a line!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -930,6 +937,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Wide tracking, opposite bank.
 Kid cue this clip supports: Keep zooming!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -943,10 +951,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Leo pulls up from flying, points at the camera, delighted praise for the viewer.
 Every character has exactly one head and correct anatomy.
-Timed line: LEO: 'Zoooom! You're flying!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium direct address.
 Kid cue this clip supports: You are flying!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -962,10 +970,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 The trio lands the game with a proud shared pose, breathing happy.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Apple crunch. Airplane zoom. AMAZING!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium group.
 Kid cue this clip supports: Big finish pose!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -985,10 +993,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 The crew huddles on the sidewalk; Sunny rubs her hands together — game on.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'A-word hunt! Let's find A words hiding all around!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Wide, gathering.
 Kid cue this clip supports: Play along — hunt for A words at home too!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1004,10 +1012,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny points at the viewer — deputizing them.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'You hunt with us. Eyes open!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium direct address.
 Kid cue this clip supports: Play along — hunt for A words at home too!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1026,10 +1034,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Mia searches backyard — spots the ant.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: MIA: 'I found something!'
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Wide search.
 Kid cue this clip supports: Shout YES if ant starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1047,6 +1055,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Close-up on object.
 Kid cue this clip supports: Shout YES if ant starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1061,10 +1070,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny asks the viewer the question, holding the discovery up to camera.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Does ant start with A? What do you think?'
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Medium direct address.
 Kid cue this clip supports: Shout YES if ant starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1079,10 +1088,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Ear-cup listening hold — 3 SECONDS.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: [3-SECOND PAUSE — child answers]
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Static hold.
 Kid cue this clip supports: Shout YES if ant starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1097,10 +1106,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Mia crouches nose-level with the ant and waves at it gently.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'YES! ANT starts with A!'
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Medium celebration.
 Kid cue this clip supports: Shout YES if ant starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1115,10 +1124,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Chalk word ANT floats up in coral letters next to a bouncing letter A badge.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: ALL: 'ANT! A word!'
 Background: LOC_BACKYARD — white wooden fence, sunflower garden, red picnic table, warm afternoon light.
 Camera: Medium.
 Kid cue this clip supports: Shout YES if ant starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1137,10 +1146,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Leo searches neighborhood street — spots the acorn.
 Every character has exactly one head and correct anatomy.
-Timed line: LEO: 'I found something!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Wide search.
 Kid cue this clip supports: Shout YES if acorn starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1158,6 +1167,7 @@ Every character has exactly one head and correct anatomy.
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Close-up on object.
 Kid cue this clip supports: Shout YES if acorn starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1172,10 +1182,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny asks the viewer the question, holding the discovery up to camera.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY: 'Does acorn start with A? What do you think?'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium direct address.
 Kid cue this clip supports: Shout YES if acorn starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1190,10 +1200,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Ear-cup listening hold — 3 SECONDS.
 Every character has exactly one head and correct anatomy.
-Timed line: [3-SECOND PAUSE — child answers]
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Static hold.
 Kid cue this clip supports: Shout YES if acorn starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1208,10 +1218,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Leo holds the acorn up like a tiny trophy and sketches it fast in his notebook.
 Every character has exactly one head and correct anatomy.
-Timed line: SUNNY: 'YES! ACORN starts with A!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium celebration.
 Kid cue this clip supports: Shout YES if acorn starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1226,10 +1236,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Chalk word ACORN floats up in golden letters next to a bouncing letter A badge.
 Every character has exactly one head and correct anatomy.
-Timed line: ALL: 'ACORN! A word!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium.
 Kid cue this clip supports: Shout YES if acorn starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1249,10 +1259,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Mia searches nana porch — spots the avocado.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: MIA: 'I found something!'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Wide search.
 Kid cue this clip supports: Shout YES if avocado starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1271,6 +1281,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Close-up on object.
 Kid cue this clip supports: Shout YES if avocado starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1286,10 +1297,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny asks the viewer the question, holding the discovery up to camera.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Does avocado start with A? What do you think?'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Medium direct address.
 Kid cue this clip supports: Shout YES if avocado starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1305,10 +1316,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Ear-cup listening hold — 3 SECONDS.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: [3-SECOND PAUSE — child answers]
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Static hold.
 Kid cue this clip supports: Shout YES if avocado starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1324,10 +1335,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Nana taps the avocado gently; Mia hugs it like a treasure; Nana laughs warmly.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'YES! AVOCADO starts with A!'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Medium celebration.
 Kid cue this clip supports: Shout YES if avocado starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1343,10 +1354,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Chalk word AVOCADO floats up in mint-green letters next to a bouncing letter A badge.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: ALL: 'AVOCADO! A word!'
 Background: LOC_NANA_PORCH — Nana Blossom's front porch — cozy wooden porch, screen door, rocking chair, potted flowers, bowl of red apples on the porch table.
 Camera: Medium.
 Kid cue this clip supports: Shout YES if avocado starts with A! (3-second hold)
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1367,10 +1378,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 ANT, ACORN, AVOCADO chalk words float in a row above the crew with the letter A badge bouncing over them. Ava pops into frame clapping, proud teacher smile — the crew found the A words all by themselves.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Ant, acorn, avocado — THREE new A words!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Wide.
 Kid cue this clip supports: Count the A words with Sunny — ant, acorn, avocado!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1386,10 +1397,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny frames her hands around all the words.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'A words are EVERYWHERE. Now — sing it one more time?'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium direct address.
 Kid cue this clip supports: Count the A words with Sunny — ant, acorn, avocado!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1410,10 +1421,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Mimi runs in spinning with arms out like an airplane, stops, claps three times, points at Sunny.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: MIMI: 'Sing! Sing! Sing about A!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Wide.
 Kid cue this clip supports: Spin like an airplane with Mimi!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1430,10 +1441,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Koda jogs over from his doorstep; energy rises; Sunny's eyes light up.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: KODA: 'We need the A song right now!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium.
 Kid cue this clip supports: Spin like an airplane with Mimi!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1457,6 +1468,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Wide line-up.
 Kid cue this clip supports: Count in with Sunny — one, two, three!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1473,10 +1485,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny steps forward, both hands out to the viewer — an invitation, not a performance.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Sing with us — A is amazing!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium.
 Kid cue this clip supports: Count in with Sunny — one, two, three!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1493,10 +1505,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny draws a breath, grins.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Ready? One, two, three — here we go!'
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Close-medium push-in.
 Kid cue this clip supports: Count in with Sunny — one, two, three!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1513,10 +1525,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 White flash expands from center frame — STAR BURST transition into the song.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: [STAR BURST — music begins]
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Star burst.
 Kid cue this clip supports: Count in with Sunny — one, two, three!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1536,10 +1548,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny seated on porch step, warm and unhurried, facing camera.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'You did it. I am SO proud of you.'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium, seated eye level, static.
 Kid cue this clip supports: Crunch and fly one last time!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1555,10 +1567,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny holds up one finger — deliberate pace.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'We learned the letter A today.'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium.
 Kid cue this clip supports: Crunch and fly one last time!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1574,10 +1586,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Crunch gesture on the word apple.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'A is for apple!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium.
 Kid cue this clip supports: Crunch and fly one last time!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1593,10 +1605,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Wings-out dip on the word airplane.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'A is for airplane!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium.
 Kid cue this clip supports: Crunch and fly one last time!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1612,10 +1624,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny counts the hunt words on three fingers; the chalk trio flashes by softly.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'And ant, acorn, avocado too!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium.
 Kid cue this clip supports: Crunch and fly one last time!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1631,10 +1643,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Leo adjusts glasses, warm quiet smile.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: LEO: 'And A is for amazing — like us!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Close-medium on Leo.
 Kid cue this clip supports: Crunch and fly one last time!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1654,10 +1666,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Mia turns warmly to Leo; Leo does a happy no-shame shrug, proud of his red guess.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: MIA: 'I liked your red guess, Leo.' / LEO: 'Wrong guesses help us find MORE!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium two-shot favoring Mia then Leo.
 Kid cue this clip supports: Listen close
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1673,10 +1685,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny nods, then the three huddle in, hands stacking in the middle.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'That's how we learn. We ask!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium group tightening.
 Kid cue this clip supports: Hands in!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1696,10 +1708,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny leans toward camera, voice soft and sincere.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Exactly like us. Exactly like YOU.'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Close-medium on Sunny.
 Kid cue this clip supports: Crunch and fly one last time!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1719,10 +1731,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny sits up — the challenge arrives like a present.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Here is your challenge — your A mission:'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium, bright forward energy.
 Kid cue this clip supports: Your A mission: find an A word at home!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1738,10 +1750,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny mimes searching — hand over eyes, scanning.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Find something at home that starts with A!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium.
 Kid cue this clip supports: Your A mission: find an A word at home!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1757,10 +1769,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Direct, warm confidence.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'Can you find it? I know you can.'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Close-medium.
 Kid cue this clip supports: Your A mission: find an A word at home!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1776,10 +1788,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 The three huddle hands-in and throw them up together on the catchphrase - pure team joy.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: ALL THREE: 'Let's ask! Let's find out! Come on, Crew!' [CATCHPHRASE - PROVISIONAL wording]
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium trio.
 Kid cue this clip supports: Shout it with the crew!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1795,10 +1807,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Wide warm grin.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: 'You are amazing. Bye bye!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium.
 Kid cue this clip supports: Your A mission: find an A word at home!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1821,6 +1833,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Group medium.
 Kid cue this clip supports: Wave bye-bye!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1836,10 +1849,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny's genuine two-hand wave — the same warmth as shot A28 but a NEW take (angle from porch rail, no reuse).
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: SUNNY: (waving) 'Bye bye!'
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Close-medium on Sunny.
 Kid cue this clip supports: Wave bye-bye!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1858,6 +1871,7 @@ Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO lo
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Slow pull-back.
 Kid cue this clip supports: Wave bye-bye!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1875,10 +1889,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Sunny waving warmly on her porch steps, golden light, mirrors the sign-off wave.
 Every character has exactly one head and correct anatomy.
-Timed line: [Instrumental - theme replay]
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium, gentle push-in.
 Kid cue this clip supports: Wave with Sunny!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1893,10 +1907,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Leo and Mia lean together and wave, easy and warm.
 Every character has exactly one head and correct anatomy. Mia has EXACTLY TWO low pigtails.
-Timed line: [Instrumental - theme replay]
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium two-shot.
 Kid cue this clip supports: Wave!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1911,10 +1925,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Mimi and Koda wave from their doorstep, Mimi doing tiny double-hand waves - she is the smallest in frame.
 Every character has exactly one head and correct anatomy.
-Timed line: [Instrumental - theme replay]
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium two-shot.
 Kid cue this clip supports: Wave to Mimi and Koda!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1928,10 +1942,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Nana Blossom rocking gently on her porch, raising her teacup in a warm goodbye.
 Every character has exactly one head and correct anatomy.
-Timed line: [Instrumental - theme replay]
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium single.
 Kid cue this clip supports: Blow a kiss!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1946,10 +1960,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Ava and Mayor Mary (SHORT FULL AUBURN RED CURLY HAIR, royal purple blazer) wave from the co-op gate.
 Every character has exactly one head and correct anatomy.
-Timed line: [Instrumental - theme replay]
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Medium two-shot.
 Kid cue this clip supports: Wave to the teachers!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1964,10 +1978,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Rena paints a little goodbye sun in the air while Rico dribbles slowly past waving.
 Every character has exactly one head and correct anatomy.
-Timed line: [Instrumental - theme replay]
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Wide two-shot.
 Kid cue this clip supports: One more wave!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1981,10 +1995,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Bella the dog sitting dignified on the porch railing area, one slow knowing blink goodbye - Gabriel NOT in this shot.
 Every character has exactly one head and correct anatomy.
-Timed line: [Instrumental - theme replay]
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Medium single, serene.
 Kid cue this clip supports: Say bye to Bella!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -1998,10 +2012,10 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Gabriel the dog snoozing on the porch mat, one ear flops, tail gives a sleepy wag - Bella NOT in this shot.
 Every character has exactly one head and correct anatomy.
-Timed line: [Instrumental - theme replay]
 Background: LOC_SUNNY_PORCH — warm wooden boards, yellow front door, sunflower pots, late golden light.
 Camera: Close, cozy.
 Kid cue this clip supports: Shhh - night night Gabriel!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```
 
@@ -2015,9 +2029,9 @@ SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars C
 SCENE PROMPT:
 Slow wide of Marigold Grove at golden hour, then the show logo card lands center with one gentle bounce and holds to the final note.
 Every character has exactly one head and correct anatomy.
-Timed line: [Instrumental - theme replay]
 Background: LOC_NEIGHBORHOOD_STREET — colorful yellow, mint-green, coral houses, leafy trees, clean sidewalks, blue sky.
 Camera: Slow wide pull-back to logo card.
 Kid cue this clip supports: See you next time!
+ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.
 3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.
 ```

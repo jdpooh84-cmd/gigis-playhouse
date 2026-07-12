@@ -155,6 +155,12 @@ for p, text in sorted(show_texts.items()):
         for nd in ("Randy", "Anne"):
             if re.search(r"\b%s\b" % nd, scan):
                 err("%s: %s is NEEDS_DESIGN (no locked element) and must not be depicted (%s)" % (rel, nd, first))
+        # Burned-in caption defect (2026-07-12): dialogue text in an image prompt gets
+        # rendered as a caption. Prompts must not quote lines and must carry the no-text rule.
+        if "Timed line:" in block:
+            err("%s: 'Timed line:' dialogue text in an image prompt block — renders as burned-in caption (%s)" % (rel, first))
+        if "SCENE PROMPT" in block and "NO on-screen text" not in block:
+            err("%s: prompt block missing the no-on-screen-text rule (%s)" % (rel, first))
         # Hard rename 2026-07-11: the dog is GABRIEL — old name must not appear in new prompts
         if re.search(r"\bCommander\b", scan):
             err("%s: legacy name 'Commander' in a prompt block — the dog is GABRIEL (%s)" % (rel, first))

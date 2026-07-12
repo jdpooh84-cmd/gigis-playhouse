@@ -117,11 +117,12 @@ for c in man["clips"]:
     L.append("SCENE PROMPT:")
     L.append(c["visual_action"] + ".")
     L.append("Every character has exactly one head and correct anatomy." + (" Mia has EXACTLY TWO low pigtails." if "Mia" in c["characters"] else ""))
-    if c["lyric_or_dialogue"] and not c["lyric_or_dialogue"].startswith("("):
-        L.append("Timed line: %s" % c["lyric_or_dialogue"])
+    # NEVER include dialogue text in image prompts — the model renders it as a burned-in
+    # caption (defect found 2026-07-12 on B1). Emotional context only, no quoted words.
     L.append("Background: %s — %s." % (c["location"], LOCS.get(c["location"], "see locations.json")))
     L.append("Camera: %s." % c["camera"])
     L.append("Kid cue this clip supports: %s" % c["kid_interaction_cue"])
+    L.append("ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or words anywhere in the image.")
     L.append("3D animated, cartoon style. Vivid warm palette. 16:9 widescreen.")
     L.append("```")
     L.append("")
