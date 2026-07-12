@@ -19,14 +19,8 @@ jobs:
           rm -f _staging/character_check/*
           set +e
           dl() { curl -sL -A "Mozilla/5.0" -o "_staging/character_check/$2" "$1" && echo "OK $2 $(wc -c < _staging/character_check/$2)" || echo "FAIL $2"; }
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_162214_4d555546-f3b6-4821-9a9a-3e2d465f3177.png" "ep01-p2-c01.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_162219_5d4145cd-2913-40a6-a2be-7a88d0006dd9.png" "ep01-p2-c02.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_162223_15c000d3-aeea-4925-9147-5b7bcfd53edf.png" "ep01-p2-c03.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_162228_9bdd8077-f45b-4416-98eb-18b2038f5f42.png" "ep01-p2-c04.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_162243_0595cca4-ef7e-4427-8978-2893e64c2315.png" "ep01-p2-c05.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_162248_86c9f550-ac82-430a-9791-91bd2ef6be00.png" "ep01-p2-c06.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_162252_5171ce6d-d0c3-4fdf-9f91-f004896dd6c2.png" "ep01-p2-c07.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_162258_ec962e0b-cc79-4527-a10c-15d86b166171.png" "ep01-p2-c08.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_163811_1b35f583-2c76-4f91-8b31-98cb17aaf975.png" "spot-c01.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_163842_6f6d969d-8c84-4b44-aedd-923c91638611.png" "spot-c07.png"
           # drop any zero-byte failures
           find _staging/character_check -size -1k -delete
           ls -la _staging/character_check
