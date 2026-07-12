@@ -5,10 +5,10 @@ v2 (2026-07-11): every character now has a LOCKED Higgsfield element (creator-ap
 redesigns for Koda / Mimi / Pipa / Bram). No pose-job placeholders remain. Element IDs
 mirror characters.json — that file is the source of truth; update it first, then re-run.
 """
-import json
+import json, os
 
 OUT = "/home/user/gigis-playhouse/sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing"
-man = json.load(open(OUT + "/clip_manifest_episode_01.json"))
+man = json.load(open(os.environ.get("MANIFEST", OUT + "/clip_manifest_episode_01.json")))
 
 IDS = {
  "Sunny": "<<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>",
@@ -126,7 +126,7 @@ for c in man["clips"]:
     L.append("```")
     L.append("")
 
-open(OUT + "/new_assets_episode_01.md","w").write("\n".join(L))
+open(os.environ.get("OUT_MD", OUT + "/new_assets_episode_01.md"),"w").write("\n".join(L))
 n_prompts = sum(1 for c in man["clips"] if c["asset_source"]["type"]=="needs_new_asset" and "spec_ref" not in c["asset_source"])
 n_theme = sum(1 for c in man["clips"] if "spec_ref" in c["asset_source"])
 print("wrote new_assets_episode_01.md: %d full prompts + %d theme refs + 2 audio specs" % (n_prompts, n_theme))

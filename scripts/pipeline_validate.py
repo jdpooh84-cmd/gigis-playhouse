@@ -136,7 +136,11 @@ for p, text in sorted(show_texts.items()):
         if "Pixar" in scan: err("%s: 'Pixar' in prompt block (%s)" % (rel, first))
         for m in AGE_RE.finditer(scan):
             err("%s: age descriptor %r in prompt block (%s)" % (rel, m.group(0), first))
-        if re.search(r"\bBella\b", head) and re.search(r"\bGabriel\b", head):
+        # co-presence = both appear as character ENTRIES ("[Name ..." lines); notes may
+        # legitimately mention the other dog's name in the exclusion rule text
+        entries = {m.group(1) for m in re.finditer(r"^\[([A-Za-z ]+?)[\s\]<]", head, re.M)}
+        entries |= {m.group(1) for m in re.finditer(r"^- ([A-Za-z ]+?):", head, re.M)}
+        if "Bella" in entries and "Gabriel" in entries:
             err("%s: Bella and Gabriel share a CHARACTER LOCK block (%s)" % (rel, first))
         for m in CAR_RE.finditer(scan):
             err("%s: 'car' appears in a prompt block (%s)" % (rel, first))
