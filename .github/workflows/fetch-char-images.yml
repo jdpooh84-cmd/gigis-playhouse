@@ -19,8 +19,8 @@ jobs:
           rm -f _staging/character_check/*
           set +e
           dl() { curl -sL -A "Mozilla/5.0" -o "_staging/character_check/$2" "$1" && echo "OK $2 $(wc -c < _staging/character_check/$2)" || echo "FAIL $2"; }
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_173022_29803b22-c7ae-4391-97d1-3f6181a2d8c8.png" "spot-c21v2.png"
-          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_172824_1f729c4d-bd68-46dd-8ddd-df2d92b83041.png" "spot-c31.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_213048_c877ea0a-4fdf-49ea-b774-763d4021359a.png" "spot-s8c06-rena.png"
+          dl "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_213053_49e6daf9-7f2c-4c76-bfc1-0b5f4775eda8.png" "spot-s8c07-rico.png"
           # drop any zero-byte failures
           find _staging/character_check -size -1k -delete
           ls -la _staging/character_check
