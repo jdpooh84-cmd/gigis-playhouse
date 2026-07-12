@@ -29,3 +29,9 @@
 - Root cause: elements whose medias are typed `image_job` depend on the source generation job's media; when the platform purges old job media the element silently breaks.
 - Fix: rebuild the element from durable references (creator Drive CHARACTERS folder → stage in repo `_staging/characters_new/` → media_import_url on the raw.githubusercontent URL → create element with the returned media_input id). NEVER create elements by reusing another element's media ids.
 - Prevention: all new elements must be built from repo-staged creator references (durable https), never from job-output CDN links. Diagnostic ladder: retry once → isolate solo → control with healthy element → inspect element → probe media URLs.
+
+## RECIPE LOCK: Make HTTP→Drive delivery blueprint (corrected 2026-07-12 during SEC-02 delivery)
+- http:ActionSendData v3 mapper MUST use: timeout as INTEGER (uinteger ≤300, never a string), followRedirect:true PLUS its required nested followAllRedirects:true, gzip:true, useMtls:false, serializeUrl:false, shareCookies:false, rejectUnauthorized:true. Fields `ci` and top-level-only `followAllRedirects` without followRedirect are INVALID.
+- module parameters block required: {"handleErrors": false, "useNewZLibDeCompress": true} — omitting it crashes init ("reading 'account'").
+- google-drive:uploadAFile v4 mapper: {select:"map", folderId:"<id>", filename, data:"{{1.data}}", convert:false}, parameters {__IMTCONN__:7476809}.
+- Sequence: update blueprint → activate → run responsive → deactivate IMMEDIATELY → search Drive → trash the scheduler double-fire duplicate.
