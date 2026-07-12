@@ -45,6 +45,7 @@ CHARACTER LOCK — EP01 EP01-P2-C01
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -64,6 +65,7 @@ CHARACTER LOCK — EP01 EP01-P2-C02
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -83,6 +85,7 @@ CHARACTER LOCK — EP01 EP01-P2-C03
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -106,6 +109,7 @@ CHARACTER LOCK — EP01 EP01-P2-C04
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -125,6 +129,7 @@ CHARACTER LOCK — EP01 EP01-P2-C05
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -144,6 +149,7 @@ CHARACTER LOCK — EP01 EP01-P2-C06
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -163,6 +169,7 @@ CHARACTER LOCK — EP01 EP01-P2-C07
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -186,6 +193,7 @@ CHARACTER LOCK — EP01 EP01-P2-C08
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -205,6 +213,7 @@ CHARACTER LOCK — EP01 EP01-P2-C09
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -224,6 +233,7 @@ CHARACTER LOCK — EP01 EP01-P2-C10
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -243,6 +253,7 @@ CHARACTER LOCK — EP01 EP01-P2-C11
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -267,6 +278,7 @@ CHARACTER LOCK — EP01 EP01-P2-C12
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -287,6 +299,7 @@ CHARACTER LOCK — EP01 EP01-P2-C13
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -307,6 +320,7 @@ CHARACTER LOCK — EP01 EP01-P2-C14
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -327,6 +341,7 @@ CHARACTER LOCK — EP01 EP01-P2-C15
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -351,6 +366,7 @@ CHARACTER LOCK — EP01 EP01-P2-C16
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -371,6 +387,7 @@ CHARACTER LOCK — EP01 EP01-P2-C17
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -391,6 +408,7 @@ CHARACTER LOCK — EP01 EP01-P2-C18
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -411,6 +429,7 @@ CHARACTER LOCK — EP01 EP01-P2-C19
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -432,7 +451,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-P2-C20
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
-[crew visible behind]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -450,7 +469,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-P2-C21
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
-[crew visible behind]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -468,7 +487,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-P2-C22
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
-[crew visible behind]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -486,7 +505,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-P2-C23
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
-[crew visible behind]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -509,6 +528,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C30
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -528,6 +548,7 @@ CHARACTER LOCK — EP01 EP01-P4-C31
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Ava <<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>> — RECURRING LEARNING MENTOR — pops up whenever the kids are learning; at least once per episode]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -549,6 +570,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-P4-C32
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -566,6 +588,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-P4-C33
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -583,6 +606,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-P4-C34
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -600,6 +624,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-P4-C35
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -622,6 +647,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C36
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -640,6 +666,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C37
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -658,6 +685,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C38
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -680,6 +708,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C39
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -698,6 +727,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C40
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -716,6 +746,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C41
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -737,6 +768,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-P4-C42
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -754,6 +786,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-P4-C43
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -777,6 +810,7 @@ CHARACTER LOCK — EP01 EP01-P4-C44
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -796,6 +830,7 @@ CHARACTER LOCK — EP01 EP01-P4-C45
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -819,6 +854,7 @@ CHARACTER LOCK — EP01 EP01-S8-C01
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -836,6 +872,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-S8-C02
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -855,6 +892,7 @@ CHARACTER LOCK — EP01 EP01-S8-C03
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -872,6 +910,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-S8-C04
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -889,6 +928,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-S8-C05
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -909,6 +949,7 @@ CHARACTER LOCK — EP01 EP01-S8-C06
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Rena <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> — small multicolor paint smudge on LEFT CHEEK, always present]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -928,6 +969,7 @@ CHARACTER LOCK — EP01 EP01-S8-C07
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Rico <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -945,6 +987,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-S8-C08
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -964,6 +1007,7 @@ CHARACTER LOCK — EP01 EP01-S8-C09
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -987,6 +1031,7 @@ CHARACTER LOCK — EP01 EP01-P4-C46
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1006,6 +1051,7 @@ CHARACTER LOCK — EP01 EP01-P4-C47
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1028,6 +1074,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C48
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1046,6 +1093,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C49
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1064,6 +1112,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C50
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1082,6 +1131,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C51
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1100,6 +1150,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C52
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1118,6 +1169,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C53
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1140,6 +1192,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C54
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1158,6 +1211,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C55
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1176,6 +1230,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C56
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1194,6 +1249,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C57
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1212,6 +1268,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C58
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1230,6 +1287,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-P4-C59
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1253,6 +1311,7 @@ CHARACTER LOCK — EP01 EP01-P4-C60
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1272,6 +1331,7 @@ CHARACTER LOCK — EP01 EP01-P4-C61
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1291,6 +1351,7 @@ CHARACTER LOCK — EP01 EP01-P4-C62
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1310,6 +1371,7 @@ CHARACTER LOCK — EP01 EP01-P4-C63
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1329,6 +1391,7 @@ CHARACTER LOCK — EP01 EP01-P4-C64
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1348,6 +1411,7 @@ CHARACTER LOCK — EP01 EP01-P4-C65
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1372,6 +1436,7 @@ CHARACTER LOCK — EP01 EP01-P4-C66
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Ava <<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>> — RECURRING LEARNING MENTOR — pops up whenever the kids are learning; at least once per episode]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1391,6 +1456,7 @@ CHARACTER LOCK — EP01 EP01-P4-C67
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1415,6 +1481,7 @@ CHARACTER LOCK — EP01 EP01-P3-C01
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>> — ALWAYS smallest character on screen; creator v2 design (gold jacket, multicolored skirt, floral sneakers)]
 [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1435,6 +1502,7 @@ CHARACTER LOCK — EP01 EP01-P3-C02
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>> — ALWAYS smallest character on screen; creator v2 design (gold jacket, multicolored skirt, floral sneakers)]
 [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1459,6 +1527,7 @@ CHARACTER LOCK — EP01 EP01-P3-C03
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1479,6 +1548,7 @@ CHARACTER LOCK — EP01 EP01-P3-C04
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1499,6 +1569,7 @@ CHARACTER LOCK — EP01 EP01-P3-C05
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1519,6 +1590,7 @@ CHARACTER LOCK — EP01 EP01-P3-C06
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
 [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1542,6 +1614,7 @@ CHARACTER LOCK — EP01 EP01-P5-C01
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1561,6 +1634,7 @@ CHARACTER LOCK — EP01 EP01-P5-C02
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1580,6 +1654,7 @@ CHARACTER LOCK — EP01 EP01-P5-C03
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1599,6 +1674,7 @@ CHARACTER LOCK — EP01 EP01-P5-C04
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1618,6 +1694,7 @@ CHARACTER LOCK — EP01 EP01-P5-C05
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1637,6 +1714,7 @@ CHARACTER LOCK — EP01 EP01-P5-C06
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1660,6 +1738,7 @@ CHARACTER LOCK — EP01 EP01-R-C01
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1679,6 +1758,7 @@ CHARACTER LOCK — EP01 EP01-R-C02
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1702,6 +1782,7 @@ CHARACTER LOCK — EP01 EP01-P5-C07
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1725,6 +1806,7 @@ CHARACTER LOCK — EP01 EP01-P5-C08
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1744,6 +1826,7 @@ CHARACTER LOCK — EP01 EP01-P5-C09
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1763,6 +1846,7 @@ CHARACTER LOCK — EP01 EP01-P5-C10
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1782,6 +1866,7 @@ CHARACTER LOCK — EP01 EP01-P5-C11
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1801,6 +1886,7 @@ CHARACTER LOCK — EP01 EP01-P5-C12
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1824,6 +1910,7 @@ CHARACTER LOCK — EP01 EP01-P5-C13
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1843,6 +1930,7 @@ CHARACTER LOCK — EP01 EP01-P5-C14
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1862,6 +1950,7 @@ CHARACTER LOCK — EP01 EP01-P5-C15
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1883,6 +1972,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-O-C01
 [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1901,6 +1991,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-O-C02
 [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>]
 [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>> — EXACTLY TWO low pigtails with teal scrunchies — never three]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1919,6 +2010,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-O-C03
 [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>> — ALWAYS smallest character on screen; creator v2 design (gold jacket, multicolored skirt, floral sneakers)]
 [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>> — KODA IS A BOY — Sunny's older brother; creator v3 design (afro, PLAIN unbranded sneakers)]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1936,6 +2028,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-O-C04
 [Nana Blossom <<<89ae3644-087a-412b-ab87-2315bf188b6b>>> — ALWAYS TALLEST character on screen]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1954,6 +2047,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-O-C05
 [Ava <<<72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf>>> — RECURRING LEARNING MENTOR — pops up whenever the kids are learning; at least once per episode]
 [Mayor Mary <<<3c1b33d2-ba1b-408c-8d69-b08c656de4bf>>> — SHORT FULL AUBURN RED CURLY HAIR — warm auburn red, restate in every prompt]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1972,6 +2066,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 CHARACTER LOCK — EP01 EP01-O-C06
 [Rena <<<9c55b6aa-7d09-45c9-abb8-cec46a39a61d>>> — small multicolor paint smudge on LEFT CHEEK, always present]
 [Rico <<<aedc26e9-36eb-4348-bd3d-ded8f7d4b8a3>>>]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -1989,6 +2084,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-O-C07
 [Bella <<<c4ea659f-6ad3-4564-9d87-a3ed8738850f>>> — DOG (never feline); ONE head, single proportionate body; NEVER in the same shot as Gabriel]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -2006,6 +2102,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 ```
 CHARACTER LOCK — EP01 EP01-O-C08
 [Gabriel <<<f35f85da-590d-4a74-80d5-a3931befa4bb>>> — NEVER in the same shot as Bella]
+ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 
@@ -2022,7 +2119,7 @@ ABSOLUTELY NO on-screen text, captions, subtitles, speech bubbles, letters, or w
 **EP01-O-C09** — 10:02.61-10:07.39 (4.78s) | cut
 ```
 CHARACTER LOCK — EP01 EP01-O-C09
-[-]
+NO characters in this shot — scenery/logo only, no people or figures.
 
 SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED
 

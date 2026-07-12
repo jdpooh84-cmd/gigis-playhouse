@@ -164,6 +164,13 @@ for p, text in sorted(show_texts.items()):
         # Hard rename 2026-07-11: the dog is GABRIEL — old name must not appear in new prompts
         if re.search(r"\bCommander\b", scan):
             err("%s: legacy name 'Commander' in a prompt block — the dog is GABRIEL (%s)" % (rel, first))
+        # Vague character entries (2026-07-12, EP01-P2-C21): a bracket entry with no
+        # element tag ("[crew visible behind]") reads as a FILM crew to the model and
+        # renders ghost adults + camera rigs. Every entry must carry <<<uuid>>>.
+        for ln in head.splitlines():
+            ln = ln.strip()
+            if ln.startswith("[") and ln.endswith("]") and "<<<" not in ln and ln not in ("[—]", "[-]") and not ln.startswith("[Full crew"):
+                err("%s: vague character entry %r without a locked element tag (%s)" % (rel, ln, first))
         if "CHARACTER LOCK" in block and "<<<" not in block and "[—]" not in head and "[Full crew" not in head:
             first = block.strip().splitlines()[0]
             names = re.findall(r"\[([A-Za-z ]+)\]", head)

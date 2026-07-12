@@ -13,3 +13,13 @@
 - TRADEMARK RECALL (2026-07-11): Koda v2 reference images carried a branded swoosh + tongue label on the sneakers, which propagated into 4 of 19 shots of the locked theme master. Rules now standing: (a) zoom-inspect FEET and CHESTS of every new character reference image before locking an element — generation models copy real shoe/apparel branding; (b) every generation prompt states "plain footwear, no logos, no brand marks"; (c) validator blocks brand names in prompt blocks; (d) a locked master gets ONE compliance rebuild when a legal defect is found — version-bump it, never patch pixels.
 - ANATOMY DEFECTS (2026-07-11): a Bella render came out two-headed; a Mia render carried three pigtails. Rules: anatomy hard-set lives in characters.json _meta.ANATOMY_HARD_RULES; every prompt carries the anatomy line + Mia "two pigtails"; image-level anatomy inspection before video; batch frame pass before assembly; rejected candidates deleted from _staging immediately after review (a committed reject confused the creator into thinking it shipped).
 - BURNED-IN CAPTIONS (2026-07-12, B1): including dialogue as "Timed line: ..." in an image prompt makes nano_banana render it as an on-screen caption. Rules: image prompts NEVER quote dialogue; every prompt ends with "ABSOLUTELY NO on-screen text/captions/speech bubbles"; validator errors on 'Timed line:' in prompt packs. Dialogue lives in the manifest/VO script only.
+
+## DEFECT CLASS: vague character entry renders a film crew (found 2026-07-12, EP01-P2-C21)
+- Symptom: character-lock entry `[crew visible behind]` (no element tag) made the model render ghosted ADULT FILM-CREW figures with a camera rig in the background of a direct-address shot.
+- Root cause: "crew" without locked elements is ambiguous; the model chose "film crew".
+- Fix: generator drops any character name without a locked element ID and appends "ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere." (or "NO characters in this shot" for empty casts). Validator errors on any bracket entry lacking `<<<uuid>>>`.
+- Recovery: C20–C23 images regenerated solo/explicit-cast; the 4 videos started from the flawed plates were discarded before assembly.
+
+## DEFECT CLASS: overlay graphics written into image prompts (found 2026-07-12, EP01-P2-C18 / P4-C32/C35/C36)
+- Symptom: scene lines like "Letter A badge animates into upper corner" / "chalk word APPLE floats in" would bake letters into plates, violating the no-text rule.
+- Fix: all letter/word overlay graphics are POST-PRODUCTION overlays added at assembly, never in generation prompts. Scene lines stripped before submission.

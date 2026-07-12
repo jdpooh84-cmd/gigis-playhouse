@@ -47,6 +47,9 @@ LOCS = {
 }
 
 def charlist(s):
+    # Vague entries ("crew visible behind", "-") are DROPPED, never emitted as bare
+    # tags — the model reads "crew" as a film crew and renders ghost adults + camera
+    # rigs (defect found 2026-07-12 on EP01-P2-C21). Only locked elements appear.
     out = []
     for name in [c.strip() for c in s.replace("(", ",").replace(")", "").split(",") if c.strip()]:
         base = name.replace(" BG","").strip()
@@ -54,7 +57,6 @@ def charlist(s):
             tag = "%s %s" % (base, IDS[base])
             if base in NOTES: tag += " — " + NOTES[base]
             out.append(tag)
-        else: out.append(base)
     return out
 
 L = []
@@ -109,8 +111,11 @@ for c in man["clips"]:
     L.append("**%s** — %s-%s (%.2fs) | cut" % (c["clip_id"], c["start_tc"], c["end_tc"], c["duration_seconds"]))
     L.append("```")
     L.append("CHARACTER LOCK — EP01 %s" % c["clip_id"])
-    for ch in charlist(c["characters"]):
+    chars = charlist(c["characters"])
+    for ch in chars:
         L.append("[%s]" % ch)
+    L.append("ONLY the characters listed above appear — no other people, figures, or silhouettes anywhere." if chars
+             else "NO characters in this shot — scenery/logo only, no people or figures.")
     L.append("")
     L.append("SAFETY CHECK: no age descriptors CONFIRMED; no word 'Pixar' CONFIRMED; no cars CONFIRMED; no brand logos CONFIRMED; anatomy check (one head each, correct limbs) CONFIRMED")
     L.append("")
