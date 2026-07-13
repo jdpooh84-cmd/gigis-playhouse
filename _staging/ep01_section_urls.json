@@ -188,5 +188,7 @@
    "dur": 5.0
   }
  ],
- "attempt": 1
+ "attempt": 1,
+ "rev": 2,
+ "note": "rebuild with veryfast encoder after 30min timeout on medium preset"
 }

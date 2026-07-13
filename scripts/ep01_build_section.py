@@ -37,7 +37,7 @@ for i, c in enumerate(spec["clips"]):
          "anullsrc=channel_layout=stereo:sample_rate=44100",
          "-t", "%.3f" % c["dur"], "-map", "0:v:0", "-map", "1:a:0",
          "-vf", "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,fps=30",
-         "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
+         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "128k", out])
     parts.append(out); total += c["dur"]
     print("cut %s -> %.2fs" % (c["clip_id"], c["dur"]))
