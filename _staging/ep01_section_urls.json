@@ -1,194 +1,138 @@
 {
- "section": "SEC-03",
- "out": "sections/EP01-SEC-03-story2-v1.mp4",
+ "section": "SEC-05",
+ "out": "sections/EP01-SEC-05-reflection-v1.mp4",
+ "rev": 1,
+ "note": "reflection+outro; order verified vs clip_manifest_episode_01_v2.json",
  "clips": [
   {
-   "clip_id": "EP01-S8-C01",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_214532_845d1413-406a-4c76-a337-24e6ab065f7b.mp4",
+   "clip_id": "EP01-P5-C01",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_114920_9204a068-c179-475d-9277-5414d83a2aaa.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-S8-C02",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_214534_618473c7-bf34-47b5-8eb1-42c4408468cb.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-S8-C03",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_214537_4ad96c97-27a2-4f12-a94a-17fbc623c04e.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-S8-C04",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_214540_5718eff0-a57e-4f27-9c9b-2cca3df50dd0.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-S8-C05",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_214543_da14520a-4577-40fa-b185-3ca9054f7d67.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-S8-C06",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_214727_cee6e1f0-48e4-471e-9b2e-2ab321b37dd6.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-S8-C07",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_214748_b174f9e4-99fd-4687-b0b5-f67fdbf034b1.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-S8-C08",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_214546_845307cc-bcc2-453d-8754-a73716fc7fa5.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-S8-C09",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_214732_d503bb03-cb90-454f-807a-788a70774ee8.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C46",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_224027_659f936b-368b-44c8-9180-6b9ba0d26a36.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C47",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_224030_bf639bba-6ab7-498e-9311-1422af90965e.mp4",
+   "clip_id": "EP01-P5-C02",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_114923_58cc9dca-1a98-481d-b3c4-0a707311b138.mp4",
    "dur": 4.0
   },
   {
-   "clip_id": "EP01-P4-C48",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_225540_b2d83a7e-db5f-4d87-a6bb-03b9df3994fb.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C49",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_224035_c8b07f8d-502c-4b64-b3e1-51112c77ec81.mp4",
+   "clip_id": "EP01-P5-C03",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_114926_4b43f1fd-f675-4d90-87c1-886559ab7c40.mp4",
    "dur": 4.0
   },
   {
-   "clip_id": "EP01-P4-C50",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_224041_db698875-df29-4b74-98a9-4fee1547e311.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C51",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_224042_6ccdea93-4d23-4f0e-8f7c-1a4752ce6bdb.mp4",
-   "dur": 3.0
-  },
-  {
-   "clip_id": "EP01-P4-C52",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_224044_ca733659-37a4-41be-80b8-d4200633b7b6.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C53",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_224046_6694a3e5-a304-410a-bd05-9200520beaf4.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C54",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_225543_fdad6bbc-fb88-43af-9ade-afb81bc994e6.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C55",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_225545_69846bab-c5b8-43aa-8712-799421ed5f21.mp4",
+   "clip_id": "EP01-P5-C04",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_114928_4197bbf1-1236-40c7-b243-9d8bc3710982.mp4",
    "dur": 4.0
   },
   {
-   "clip_id": "EP01-P4-C56",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_225548_c800fcf7-9c38-4740-a186-92c305a5159c.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C57",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_225550_4e810862-ebbd-4ec1-9366-11100d18d6f3.mp4",
-   "dur": 3.0
-  },
-  {
-   "clip_id": "EP01-P4-C58",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_225553_b02a0882-ff6c-4877-b733-950e401968a6.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C59",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_225555_1e283622-42e6-420c-b0fc-d5165d818123.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C60",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_225558_b4b26fdc-9c4a-4e43-b978-00be531c1b44.mp4",
-   "dur": 5.0
-  },
-  {
-   "clip_id": "EP01-P4-C61",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_231208_89637cf6-a007-499b-9abd-c6c6fe1854a3.mp4",
+   "clip_id": "EP01-P5-C05",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_114931_4b5b2588-0b61-461d-aab2-71170c7b6320.mp4",
    "dur": 4.0
   },
   {
-   "clip_id": "EP01-P4-C62",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_231238_2775770c-20a2-4a11-96bc-b2a07609ef70.mp4",
+   "clip_id": "EP01-P5-C06",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_114933_66a941f9-8a86-48eb-a274-cedcd78085fc.mp4",
+   "dur": 4.0
+  },
+  {
+   "clip_id": "EP01-R-C01",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_121838_fdc9bf4c-1f4a-4d2e-8055-3ee715237eaa.mp4",
+   "dur": 4.5
+  },
+  {
+   "clip_id": "EP01-R-C02",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_123138_604ccfe0-7798-449b-ad0e-4b0eb0a53919.mp4",
+   "dur": 4.5
+  },
+  {
+   "clip_id": "EP01-P5-C07",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_114937_2d373713-6568-4508-add0-be5263e716e2.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-P4-C63",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_231241_4b9b026f-d4ce-4d38-b354-cc3979760012.mp4",
-   "dur": 3.0
-  },
-  {
-   "clip_id": "EP01-P4-C64",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_231243_e4422938-e474-4e4f-87ff-db488d665254.mp4",
+   "clip_id": "EP01-P5-C08",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_114939_c3c97242-979c-4b20-86dd-27c35d2ae04f.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-P4-C65",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_231251_c104e0a3-0bfe-4b59-adc1-2bb0665e95d9.mp4",
+   "clip_id": "EP01-P5-C09",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_121751_f522fe47-8dd7-4e50-b2c0-27f483f69132.mp4",
+   "dur": 4.0
+  },
+  {
+   "clip_id": "EP01-P5-C10",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_121758_26089d72-e14c-4bd2-8e23-e1eb5fedd0b1.mp4",
+   "dur": 4.0
+  },
+  {
+   "clip_id": "EP01-P5-C11",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_121803_e1f6a4ea-92c3-41ca-b963-6c29b3759e13.mp4",
+   "dur": 4.0
+  },
+  {
+   "clip_id": "EP01-P5-C12",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_121811_0ec8770a-76d1-4134-bee4-22f2ae2e3d34.mp4",
+   "dur": 4.0
+  },
+  {
+   "clip_id": "EP01-P5-C13",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_121817_c02ea44d-b8bc-49c6-84cd-12671d1a2697.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-P4-C66",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_231252_bcb976ae-4b29-4175-a7de-65ee422d4555.mp4",
+   "clip_id": "EP01-P5-C14",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_121823_cd3a5e72-4893-4d3a-9d28-9bc041a6c7b9.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-P4-C67",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_231254_605c8688-de7e-44df-add1-8628f344c359.mp4",
+   "clip_id": "EP01-P5-C15",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_121829_5b715542-9936-4850-8f6a-f4539afa246d.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-P3-C01",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_231258_3047e2ec-a508-4b4f-9ef4-961cdbc568f7.mp4",
+   "clip_id": "EP01-O-C01",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_123143_bd2eaac7-343b-4a63-82cd-1fd95e43bc8d.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-P3-C02",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_113314_a78a0019-335a-4695-a296-e9560c1cd08d.mp4",
+   "clip_id": "EP01-O-C02",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_123152_7d93d161-f378-4c6e-8ad4-b9429d320be7.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-P3-C03",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_113316_4bda6fe9-a4ea-4b9d-821b-48bdc2e552f8.mp4",
+   "clip_id": "EP01-O-C03",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_123158_30822b94-6e0d-4611-be59-a081ad59ed1a.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-P3-C04",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_113319_baa91cd7-d580-40be-b07a-b091097a95b0.mp4",
+   "clip_id": "EP01-O-C04",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_125715_b7793757-6ba7-4ca1-976d-68fa7cb21559.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-P3-C05",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_113322_e9041a38-0f02-46b5-bc8e-e19c59ff790d.mp4",
+   "clip_id": "EP01-O-C05",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_123210_d0744271-236a-494e-8bd6-0dd3734df612.mp4",
    "dur": 5.0
   },
   {
-   "clip_id": "EP01-P3-C06",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_113324_62fdef2e-f8e8-4351-ba75-11d6f5f199e0.mp4",
+   "clip_id": "EP01-O-C06",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_123218_dfb69be1-2476-4315-9317-54adb018849f.mp4",
    "dur": 5.0
+  },
+  {
+   "clip_id": "EP01-O-C07",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_123226_9c3bfb65-0685-487b-9368-14a5dfde819e.mp4",
+   "dur": 5.0
+  },
+  {
+   "clip_id": "EP01-O-C08",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_124501_e860c393-1f10-4c83-a41d-0d2f0b038cbb.mp4",
+   "dur": 5.0
+  },
+  {
+   "clip_id": "EP01-O-C09",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_124507_3c904d21-6d7a-41bd-a8fb-8409cc959bf4.mp4",
+   "dur": 4.78
   }
- ],
- "attempt": 1,
- "rev": 3,
- "note": "rebuild with static-ffmpeg download (apt install hung >22min on SEC-03)"
+ ]
 }
