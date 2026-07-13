@@ -22,10 +22,11 @@
    "motion_text": "MOTION (tier A): Sunny jumps up with both feet leaving the ground and lands, full-energy real-time, movement crisp and clearly readable, jump completes within the clip. Characters stay exactly on model. All footwear plain, no logos. No on-screen text.",
    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_195832_8467a01e-0e90-4579-afed-b311cf3e1395.png",
    "video_job": "73726915-f22f-442d-ada6-58e253818ea6",
-   "video_status": "pending",
+   "video_status": "completed",
    "genre": "action",
    "bitrate_mode": "high",
-   "note": "regenerated with genre:action after speedramp param found non-existent on seedance_2_0"
+   "note": "regenerated with genre:action after speedramp param found non-existent on seedance_2_0",
+   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200440_73726915-f22f-442d-ada6-58e253818ea6.mp4"
   },
   {
    "clip_id": "DEMO-C2",
@@ -46,8 +47,9 @@
    "motion_text": "MOTION (tier B): Sunny bounces the red ball once and watches it rise, natural real-time motion, lively and clear. Characters stay exactly on model. No on-screen text.",
    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_195839_c4a0b5da-8169-4688-8593-551dc1ef4321.png",
    "video_job": "b19a8293-195b-4b01-852d-7de063bf0f03",
-   "video_status": "pending",
-   "genre": "auto"
+   "video_status": "completed",
+   "genre": "auto",
+   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200114_b19a8293-195b-4b01-852d-7de063bf0f03.mp4"
   },
   {
    "clip_id": "DEMO-C3",
@@ -68,8 +70,9 @@
    "motion_text": "MOTION (tier B): Sunny brings both hands together in one clear clap facing camera, natural real-time motion, readable. Characters stay exactly on model. No on-screen text.",
    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_195850_34f1f7a3-7532-43cb-b723-9158df9fe8d8.png",
    "video_job": "60d520ba-371f-4f70-bb41-9569f19f01ce",
-   "video_status": "pending",
-   "genre": "auto"
+   "video_status": "completed",
+   "genre": "auto",
+   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200127_60d520ba-371f-4f70-bb41-9569f19f01ce.mp4"
   },
   {
    "clip_id": "DEMO-C4",
@@ -100,7 +103,8 @@
    "motion_text": "MOTION (tier A): the three clap together sharply on each beat, full-energy real-time, each clap lands on the downbeat, movement crisp and mirror-readable. Characters stay exactly on model. All footwear plain, no logos. No on-screen text.",
    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_195901_9e31a3cb-3880-4276-ae98-6070649b869e.png",
    "video_job": "b731e4d7-7802-4bb3-84f1-e96a63f0ef8f",
-   "video_status": "pending"
+   "video_status": "completed",
+   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200136_b731e4d7-7802-4bb3-84f1-e96a63f0ef8f.mp4"
   },
   {
    "clip_id": "DEMO-C5",
@@ -121,9 +125,11 @@
    "motion_text": "MOTION (tier B): Sunny does one real-time jump then one clap, movement clear and readable, then settles proud. Characters stay exactly on model. No on-screen text.",
    "image_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_195910_faf29162-ee10-46db-bf8f-2842806c1528.png",
    "video_job": "113d5803-af65-4c30-9782-6c3fab74930c",
-   "video_status": "pending",
-   "genre": "auto"
+   "video_status": "completed",
+   "genre": "auto",
+   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200147_113d5803-af65-4c30-9782-6c3fab74930c.mp4"
   }
  ],
- "motion_energy_note": "seedance_2_0 has no speedramp param; tier-A energy = genre:action (C1) or model kling3_0 (C4)"
+ "motion_energy_note": "seedance_2_0 has no speedramp param; tier-A energy = genre:action (C1) or model kling3_0 (C4)",
+ "comparison_C1_auto": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200105_cb601343-3b70-4539-8bd2-203de2f6236f.mp4"
 }
