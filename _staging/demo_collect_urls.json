@@ -1,0 +1,16 @@
+{
+ "out_dir": "assets/demo_jumpclap",
+ "files": [
+  {"name": "C1_jump_genre-action.mp4", "label": "C1 — Active movement JUMP (tier A, seedance genre:action) — the NEW rule", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200440_73726915-f22f-442d-ada6-58e253818ea6.mp4"},
+  {"name": "C1_jump_genre-auto_COMPARISON.mp4", "label": "C1 — Active movement JUMP (tier A, seedance genre:auto) — OLD-style, for A/B compare", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200105_cb601343-3b70-4539-8bd2-203de2f6236f.mp4"},
+  {"name": "C2_bounce.mp4", "label": "C2 — Story dialogue, bounce the red ball (tier B)", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200114_b19a8293-195b-4b01-852d-7de063bf0f03.mp4"},
+  {"name": "C3_clap_to_camera.mp4", "label": "C3 — Direct-address Sunny, clap to camera (tier B)", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200127_60d520ba-371f-4f70-bb41-9569f19f01ce.mp4"},
+  {"name": "C4_song_clap_beatmatched.mp4", "label": "C4 — Song-action, trio clap beat-matched (tier A, kling3_0)", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200136_b731e4d7-7802-4bb3-84f1-e96a63f0ef8f.mp4"},
+  {"name": "C5_reflection.mp4", "label": "C5 — Reflection, recap jump+clap at real speed (tier B->C)", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_200147_113d5803-af65-4c30-9782-6c3fab74930c.mp4"},
+  {"name": "VO_C1_jump.mp3", "label": "VO C1 seed_audio — 'Jump up high like the ball!' (1.896s)", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_195632_1e1d2185-ec53-41a4-85e1-23637a355f67.mp3"},
+  {"name": "VO_C2_bounce.mp3", "label": "VO C2 seed_audio — 'Watch the ball bounce up!' (1.920s)", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_195648_f4365134-19d1-4280-911c-7c8460c73ad2.mp3"},
+  {"name": "VO_C3_clap.mp3", "label": "VO C3 seed_audio — 'Can you clap your hands? Clap!' (2.832s)", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_195659_fa564a84-5ea5-4497-9c64-ae4a342f44bf.mp3"},
+  {"name": "VO_C4_song.mp3", "label": "VO C4 seed_audio — 'Clap, clap, clap your hands!' (1.656s)", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_195707_2809e5a9-4577-4e39-ba9f-dc41bc35b977.mp3"},
+  {"name": "VO_C5_reflection.mp3", "label": "VO C5 seed_audio — 'We jumped! We clapped! Great job!' (3.000s)", "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_195717_c26adfd9-3b18-44f2-afcd-3a77714d05d7.mp3"}
+ ]
+}

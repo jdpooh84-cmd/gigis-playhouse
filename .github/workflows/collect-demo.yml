@@ -1,0 +1,24 @@
+name: Collect demo_jumpclap assets into repo
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths: ["_staging/demo_collect_urls.json"]
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download demo assets
+        run: python3 scripts/collect_demo_assets.py
+      - name: Commit assets
+        run: |
+          git config user.name "demo-bot"
+          git config user.email "actions@github.com"
+          git add assets/demo_jumpclap/
+          git commit -m "demo assets: collect Jump-and-Clap clips + VO into assets/demo_jumpclap" || echo "nothing to commit"
+          git push
