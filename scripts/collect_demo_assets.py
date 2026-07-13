@@ -4,7 +4,7 @@
 files to out_dir plus a labeled README.md index."""
 import json, os, subprocess, sys
 
-spec = json.load(open("_staging/demo_collect_urls.json"))
+spec = json.load(open(os.environ.get("COLLECT_SPEC", "_staging/demo_collect_urls.json")))
 out = spec["out_dir"]
 os.makedirs(out, exist_ok=True)
 
@@ -18,12 +18,11 @@ for f in spec["files"]:
     print("saved %s (%d bytes)" % (f["name"], sz))
     rows.append((f["name"], f["label"], sz))
 
-lines = ["# Demo — \"Jump and Clap!\" (motion-pacing + internal-VO proof)",
+lines = ["# " + spec.get("readme_title", "Demo — \"Jump and Clap!\" (motion-pacing + internal-VO proof)"),
          "",
-         "5-clip proof set for the redesign in commit 360ff2a. All files are the",
-         "final renders; C1 has both the `genre:action` (new rule) and `genre:auto`",
-         "(old-style) versions for an A/B comparison. VO is internal Higgsfield",
-         "`seed_audio` (no ElevenLabs). Spec + timings: `_staging/demo_jumpclap_manifest.json`.",
+         spec.get("readme_intro",
+                  "5-clip proof set for the redesign in commit 360ff2a. VO is internal "
+                  "Higgsfield `seed_audio`. Spec: `_staging/demo_jumpclap_manifest.json`."),
          "",
          "## Videos"]
 for n, lbl, sz in rows:

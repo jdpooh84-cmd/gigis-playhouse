@@ -1,0 +1,27 @@
+{
+ "out_dir": "assets/ep01_new_pacing",
+ "files": [
+  {
+   "name": "P3-C01_spin-clap_NEW-pacing_kling3.mp4",
+   "label": "EP01-P3-C01 (SEC-04 song lead-in) Mimi spin+clap \u2014 NEW pacing (kling3_0, tier A, real-time)",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_210936_1167934b-585c-4b04-9049-df8edfa398bf.mp4"
+  },
+  {
+   "name": "P3-C01_spin-clap_OLD_slow.mp4",
+   "label": "EP01-P3-C01 OLD pacing (seedance genre:auto, 'gentle' wording) \u2014 for A/B",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260712_231258_3047e2ec-a508-4b4f-9ef4-961cdbc568f7.mp4"
+  },
+  {
+   "name": "P5-C11_huddle-throw_NEW-pacing_kling3.mp4",
+   "label": "EP01-P5-C11 (SEC-05 reflection) huddle hands-in throw-up \u2014 NEW pacing (kling3_0, tier A, real-time)",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_210945_4ffd49d2-46c0-43e0-a947-81b94dabc99f.mp4"
+  },
+  {
+   "name": "P5-C11_huddle-throw_OLD_slow.mp4",
+   "label": "EP01-P5-C11 OLD pacing (seedance genre:auto, 'gentle' wording) \u2014 for A/B",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_121803_e1f6a4ea-92c3-41ca-b963-6c29b3759e13.mp4"
+  }
+ ],
+ "readme_title": "EP01 \u2014 NEW PACING re-renders (movement shots)",
+ "readme_intro": "EP01 was first generated under the OLD pacing (genre:auto, gentle wording, speedramp:auto). These are the highest-value movement shots re-rendered under the NEW motion rules (25 sec 8): tier A, kling3_0, real-time full-energy motion, normal jump/pop gravity, matched to the locked pacing references. Each shot has OLD (slow) and NEW versions side by side. NOTE: the other SEC-03 seedance clap re-renders were blocked by an out-of-credits condition and still need to run once credits are topped up."
+}

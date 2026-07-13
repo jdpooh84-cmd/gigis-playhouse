@@ -1,0 +1,24 @@
+name: Collect EP01 new-pacing renders into repo
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths: ["_staging/ep01_newpacing_collect.json"]
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download new-pacing renders
+        env:
+          COLLECT_SPEC: _staging/ep01_newpacing_collect.json
+        run: python3 scripts/collect_demo_assets.py
+      - name: Commit assets
+        run: |
+          git config user.name "pacing-bot"
+          git config user.email "actions@github.com"
+          git add assets/ep01_new_pacing/
+          git commit -m "ep01 new-pacing: collect regenerated movement shots (old vs new)" || echo "nothing to commit"
+          git push
