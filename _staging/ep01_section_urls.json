@@ -189,6 +189,6 @@
   }
  ],
  "attempt": 1,
- "rev": 2,
- "note": "rebuild with veryfast encoder after 30min timeout on medium preset"
+ "rev": 3,
+ "note": "rebuild with static-ffmpeg download (apt install hung >22min on SEC-03)"
 }

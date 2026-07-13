@@ -13,8 +13,21 @@ jobs:
     timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
-      - name: Install ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Install ffmpeg (static build, no apt)
+        # apt-get install ffmpeg hung >20min on a stuck mirror (2026-07-13, SEC-03).
+        # Pull a prebuilt static build from GitHub releases instead — reachable from
+        # runners, with retries + hard timeouts so this step can never hang the job.
+        run: |
+          set -e
+          url=https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz
+          for i in 1 2 3 4; do
+            curl -fL --connect-timeout 20 --max-time 240 "$url" -o /tmp/ffmpeg.tar.xz && break || sleep 6
+          done
+          mkdir -p /tmp/ffmpeg-static
+          tar -xf /tmp/ffmpeg.tar.xz -C /tmp/ffmpeg-static --strip-components=1
+          echo "/tmp/ffmpeg-static/bin" >> "$GITHUB_PATH"
+          /tmp/ffmpeg-static/bin/ffmpeg -version | head -1
+          /tmp/ffmpeg-static/bin/ffprobe -version | head -1
       - name: Build section
         run: python3 scripts/ep01_build_section.py
       - name: Commit section master
