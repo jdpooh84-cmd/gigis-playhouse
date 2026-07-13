@@ -6,42 +6,763 @@
   "sel": "self-worth / identity pride",
   "problem_owner": "Pipa",
   "guide": "Sunny",
-  "locked": {"SEC-01": "THEME-INTRO-MASTER.mp4 44.78s (untouched)", "SEC-04": "EP01-song-section-SYNCED.mp4 104.83s (untouched — no re-sync, no inserts)"},
+  "locked": {
+   "SEC-01": "THEME-INTRO-MASTER.mp4 44.78s (untouched)",
+   "SEC-04": "EP01-song-section-SYNCED.mp4 104.83s (untouched — no re-sync, no inserts)"
+  },
   "rules_from_line": ">=3 pause-and-respond @2.0s real silence (lines NP-C10, NP-C13, NP-C16); feeling named in SEC-02 (NP-C07 'small'); action named in SEC-05 (NP-C25 'proud' + NP-C26); off-screen challenge NP-C28. Catchphrase = creator-locked slot before goodbye.",
-  "voice_note": "Render VO via higgsfield generate_audio model seed_audio, per-character voice_id (elements once locked); speech_rate 0 (dialogue), +5..+8 for energetic/pose lines. ffprobe every line -> clip slot dur = vo_dur + pause_after_s (audio-first)."
+  "voice_note": "Render VO via higgsfield generate_audio model seed_audio, per-character voice_id (elements once locked); speech_rate 0 (dialogue), +5..+8 for energetic/pose lines. ffprobe every line -> clip slot dur = vo_dur + pause_after_s (audio-first). Koda=Julian, Bram=Kevin, Ava=Ava preset (interim).",
+  "expansion": "Medium (7:00-7:30 target); 30 spine + 23 added beats = 53 clips; Ava adult-presence beat added; Koda/Mimi/Bram name-claps; est 6:43 at real-time holds."
  },
  "lines": [
-  {"clip_id":"EP01-NP-C01","section":"SEC-02","beat":"hook","speaker":"Sunny","text":"Today is Name Day!","motion_tier":"B","action_verb":"wave","pause_after_s":0.4,"setting":"LOC_DIRECT_ADDRESS","characters":["Sunny"],"image_needed":false,"reuse":"EP01 Sunny direct-address establisher"},
-  {"clip_id":"EP01-NP-C02","section":"SEC-02","beat":"hook","speaker":"Sunny","text":"Every name has amazing letters!","motion_tier":"B","action_verb":"gesture","pause_after_s":0.4,"setting":"LOC_BACKYARD","characters":["Sunny","Leo","Mia"],"image_needed":false,"reuse":"EP01 backyard group establisher"},
-  {"clip_id":"EP01-NP-C03","section":"SEC-02","beat":"name-game-tease","speaker":"Mia","text":"My name claps — MI-A!","motion_tier":"A","action_verb":"clap","pause_after_s":0.3,"setting":"LOC_BACKYARD","characters":["Mia"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C04","section":"SEC-02","beat":"name-game-tease","speaker":"Leo","text":"LE-O! Two claps too!","motion_tier":"A","action_verb":"clap","pause_after_s":0.3,"setting":"LOC_BACKYARD","characters":["Leo"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C05","section":"SEC-02","beat":"pipa-problem","speaker":"Pipa","text":"My name's not special.","motion_tier":"B","action_verb":"arms-crossed","pause_after_s":0.5,"setting":"LOC_BACKYARD","characters":["Pipa"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C06","section":"SEC-02","beat":"guide-kneels","speaker":"Sunny","text":"How do you feel right now?","motion_tier":"B","action_verb":"kneel","pause_after_s":0.5,"setting":"LOC_BACKYARD","characters":["Sunny","Pipa"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C07","section":"SEC-02","beat":"name-the-feeling","speaker":"Pipa","text":"I feel small.","motion_tier":"B","action_verb":"look-down","pause_after_s":0.8,"setting":"LOC_BACKYARD","characters":["Sunny","Pipa"],"image_needed":false,"reuse":"same two-shot as NP-C06"},
-  {"clip_id":"EP01-NP-C08","section":"SEC-02","beat":"reframe","speaker":"Sunny","text":"Even your name is amazing.","motion_tier":"B","action_verb":"reassure","pause_after_s":0.4,"setting":"LOC_DIRECT_ADDRESS","characters":["Sunny"],"image_needed":false,"reuse":"EP01 Sunny direct-address establisher"},
-  {"clip_id":"EP01-NP-C09","section":"SEC-02","beat":"call-response","speaker":"Sunny","text":"Say your name with me!","motion_tier":"B","action_verb":"invite","pause_after_s":2.0,"setting":"LOC_DIRECT_ADDRESS","characters":["Sunny"],"image_needed":false,"reuse":"EP01 Sunny direct-address establisher","pause_type":"pause_and_respond_1"},
-  {"clip_id":"EP01-NP-C10","section":"SEC-02","beat":"praise","speaker":"Sunny","text":"I heard you! Amazing!","motion_tier":"B","action_verb":"cheer","pause_after_s":0.5,"setting":"LOC_DIRECT_ADDRESS","characters":["Sunny"],"image_needed":false,"reuse":"EP01 Sunny praise clip"},
-
-  {"clip_id":"EP01-NP-C11","section":"SEC-03","beat":"teach-A-pose","speaker":"Sunny","text":"Let's make an A!","motion_tier":"A","action_verb":"A-pose","pause_after_s":0.3,"setting":"LOC_BACKYARD","characters":["Sunny","Leo","Mia"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C12","section":"SEC-03","beat":"teach-A-pose","speaker":"Sunny","text":"Arms up high — big A!","motion_tier":"A","action_verb":"A-pose","pause_after_s":0.4,"setting":"LOC_BACKYARD","characters":["Sunny"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C13","section":"SEC-03","beat":"trace-A","speaker":"Leo","text":"Trace an A in the air!","motion_tier":"A","action_verb":"trace","pause_after_s":2.0,"setting":"LOC_BACKYARD","characters":["Leo","Mia"],"image_needed":true,"reuse":null,"pause_type":"pause_and_respond_2"},
-  {"clip_id":"EP01-NP-C14","section":"SEC-03","beat":"clap-your-name","speaker":"Sunny","text":"Now clap your name!","motion_tier":"A","action_verb":"clap","pause_after_s":0.4,"setting":"LOC_COOP_PLAYGROUND","characters":["Sunny"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C15","section":"SEC-03","beat":"clap-your-name","speaker":"Mia","text":"SUN-NY! MI-A! LE-O!","motion_tier":"A","action_verb":"clap","pause_after_s":0.4,"setting":"LOC_COOP_PLAYGROUND","characters":["Sunny","Leo","Mia"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C16","section":"SEC-03","beat":"pipa-turn-setup","speaker":"Sunny","text":"Pipa, clap your name!","motion_tier":"B","action_verb":"invite","pause_after_s":2.0,"setting":"LOC_COOP_PLAYGROUND","characters":["Sunny","Pipa"],"image_needed":true,"reuse":null,"pause_type":"pause_and_respond_3"},
-  {"clip_id":"EP01-NP-C17","section":"SEC-03","beat":"pipa-turn","speaker":"Pipa","text":"PI-PA!","motion_tier":"A","action_verb":"clap","pause_after_s":0.5,"setting":"LOC_COOP_PLAYGROUND","characters":["Pipa"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C18","section":"SEC-03","beat":"crew-cheer","speaker":"Crew","text":"Yay, Pipa!","motion_tier":"A","action_verb":"cheer","pause_after_s":0.4,"setting":"LOC_COOP_PLAYGROUND","characters":["Sunny","Leo","Mia"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C19","section":"SEC-03","beat":"pipa-proud","speaker":"Pipa","text":"My name IS amazing!","motion_tier":"A","action_verb":"A-pose","pause_after_s":0.4,"setting":"LOC_COOP_PLAYGROUND","characters":["Pipa"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C20","section":"SEC-03","beat":"song-lead-in","speaker":"Leo","text":"Can we sing the A song?","motion_tier":"B","action_verb":"ask","pause_after_s":0.3,"setting":"LOC_COOP_PLAYGROUND","characters":["Leo","Mia","Pipa"],"image_needed":false,"reuse":"reuse ep01_new_pacing P3-C01 spin+clap energy beat"},
-  {"clip_id":"EP01-NP-C21","section":"SEC-03","beat":"count-in","speaker":"Sunny","text":"Ready? One — two — three!","motion_tier":"A","action_verb":"count-in","pause_after_s":0.2,"setting":"LOC_COOP_PLAYGROUND","characters":["Sunny"],"image_needed":false,"reuse":"reuse EP01 star-burst transition into SEC-04"},
-
-  {"clip_id":"EP01-NP-C22","section":"SEC-05","beat":"recap-move","speaker":"Sunny","text":"We made an A!","motion_tier":"A","action_verb":"A-pose","pause_after_s":0.3,"setting":"LOC_SUNNY_PORCH","characters":["Sunny","Leo","Mia","Pipa"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C23","section":"SEC-05","beat":"recap-move","speaker":"Sunny","text":"We clapped our names!","motion_tier":"A","action_verb":"clap","pause_after_s":0.3,"setting":"LOC_SUNNY_PORCH","characters":["Sunny","Leo","Mia","Pipa"],"image_needed":false,"reuse":"reuse ep01_new_pacing P5-C11 huddle-throw"},
-  {"clip_id":"EP01-NP-C24","section":"SEC-05","beat":"check-in","speaker":"Sunny","text":"Pipa, how do you feel?","motion_tier":"B","action_verb":"ask","pause_after_s":0.5,"setting":"LOC_SUNNY_PORCH","characters":["Sunny","Pipa"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C25","section":"SEC-05","beat":"name-the-feeling","speaker":"Pipa","text":"Proud!","motion_tier":"B","action_verb":"beam","pause_after_s":0.5,"setting":"LOC_SUNNY_PORCH","characters":["Pipa"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C26","section":"SEC-05","beat":"name-the-action","speaker":"Pipa","text":"Clapping my name helped.","motion_tier":"B","action_verb":"clap-small","pause_after_s":0.6,"setting":"LOC_SUNNY_PORCH","characters":["Pipa"],"image_needed":false,"reuse":"same as NP-C25"},
-  {"clip_id":"EP01-NP-C27","section":"SEC-05","beat":"challenge-setup","speaker":"Sunny","text":"Your turn at home:","motion_tier":"B","action_verb":"invite","pause_after_s":0.3,"setting":"LOC_DIRECT_ADDRESS","characters":["Sunny"],"image_needed":false,"reuse":"EP01 Sunny direct-address establisher"},
-  {"clip_id":"EP01-NP-C28","section":"SEC-05","beat":"off-screen-challenge","speaker":"Sunny","text":"Clap your name! Make an A!","motion_tier":"A","action_verb":"A-pose","pause_after_s":0.5,"setting":"LOC_DIRECT_ADDRESS","characters":["Sunny"],"image_needed":true,"reuse":null},
-  {"clip_id":"EP01-NP-C29","section":"SEC-05","beat":"catchphrase","speaker":"Sunny","text":"Every crew needs YOU — yes, YOU.","motion_tier":"B","action_verb":"catchphrase","pause_after_s":0.4,"setting":"LOC_SUNNY_PORCH","characters":["Sunny","Leo","Mia","Pipa"],"image_needed":false,"reuse":"EP01 crew group clip"},
-  {"clip_id":"EP01-NP-C30","section":"SEC-05","beat":"goodbye-sting","speaker":"Sunny","text":"Bye, amazing friends!","motion_tier":"C","action_verb":"wave","pause_after_s":0.5,"setting":"LOC_NEIGHBORHOOD_STREET","characters":["Sunny","Leo","Mia","Pipa"],"image_needed":false,"reuse":"EP01 outro waves + logo sting (theme replay)"}
+  {
+   "clip_id": "EP01-NP-C01",
+   "section": "SEC-02",
+   "speaker": "Sunny",
+   "text": "Today is Name Day!",
+   "motion_tier": "B",
+   "action_verb": "wave",
+   "pause_after_s": 0.4,
+   "slot_dur": 3.8,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "EP01 Sunny direct-address establisher"
+  },
+  {
+   "clip_id": "EP01-NP-C02",
+   "section": "SEC-02",
+   "speaker": "Sunny",
+   "text": "Every name has amazing letters!",
+   "motion_tier": "B",
+   "action_verb": "gesture",
+   "pause_after_s": 0.4,
+   "slot_dur": 4.5,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "EP01 backyard group establisher"
+  },
+  {
+   "clip_id": "EP01-NP-N08",
+   "section": "SEC-02",
+   "speaker": "Crew",
+   "text": "Name Day! Hooray!",
+   "motion_tier": "A",
+   "action_verb": "jump",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.0,
+   "characters": [
+    "Sunny",
+    "Leo",
+    "Mia"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N01",
+   "section": "SEC-02",
+   "speaker": "Koda",
+   "text": "My name is amazing — KO-DA!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [
+    "Koda"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N02",
+   "section": "SEC-02",
+   "speaker": "Sunny",
+   "text": "Mimi's name claps too — MI-MI!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [
+    "Sunny",
+    "Mimi"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N09",
+   "section": "SEC-02",
+   "speaker": "(action)",
+   "text": "",
+   "motion_tier": "A",
+   "action_verb": "celebrate",
+   "pause_after_s": 0.0,
+   "slot_dur": 4.5,
+   "characters": [
+    "Koda",
+    "Mimi"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N03",
+   "section": "SEC-02",
+   "speaker": "Bram",
+   "text": "BRAM! One big clap!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [
+    "Bram"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C03",
+   "section": "SEC-02",
+   "speaker": "Mia",
+   "text": "My name claps — MI-A!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C04",
+   "section": "SEC-02",
+   "speaker": "Leo",
+   "text": "LE-O! Two claps too!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N06",
+   "section": "SEC-02",
+   "speaker": "Crew",
+   "text": "Every name is amazing!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.4,
+   "slot_dur": 6.0,
+   "characters": [
+    "Sunny",
+    "Leo",
+    "Mia"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C05",
+   "section": "SEC-02",
+   "speaker": "Pipa",
+   "text": "My name's not special.",
+   "motion_tier": "B",
+   "action_verb": "arms-crossed",
+   "pause_after_s": 0.5,
+   "slot_dur": 3.8,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C06",
+   "section": "SEC-02",
+   "speaker": "Sunny",
+   "text": "How do you feel right now?",
+   "motion_tier": "B",
+   "action_verb": "kneel",
+   "pause_after_s": 0.5,
+   "slot_dur": 3.8,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C07",
+   "section": "SEC-02",
+   "speaker": "Pipa",
+   "text": "I feel small.",
+   "motion_tier": "B",
+   "action_verb": "look-down",
+   "pause_after_s": 0.8,
+   "slot_dur": 3.8,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "same two-shot as NP-C06"
+  },
+  {
+   "clip_id": "EP01-NP-C08",
+   "section": "SEC-02",
+   "speaker": "Sunny",
+   "text": "Even your name is amazing.",
+   "motion_tier": "B",
+   "action_verb": "reassure",
+   "pause_after_s": 0.4,
+   "slot_dur": 3.8,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "EP01 Sunny direct-address establisher"
+  },
+  {
+   "clip_id": "EP01-NP-N04",
+   "section": "SEC-02",
+   "speaker": "Sunny",
+   "text": "One of a kind — just like YOU!",
+   "motion_tier": "B",
+   "action_verb": "reassure",
+   "pause_after_s": 0.4,
+   "slot_dur": 4.5,
+   "characters": [
+    "Sunny"
+   ],
+   "image_needed": false,
+   "reuse": "EP01 Sunny direct-address establisher"
+  },
+  {
+   "clip_id": "EP01-NP-C09",
+   "section": "SEC-02",
+   "speaker": "Sunny",
+   "text": "Say your name with me!",
+   "motion_tier": "B",
+   "action_verb": "invite",
+   "pause_after_s": 2.0,
+   "slot_dur": 4.5,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "EP01 Sunny direct-address establisher"
+  },
+  {
+   "clip_id": "EP01-NP-C10",
+   "section": "SEC-02",
+   "speaker": "Sunny",
+   "text": "I heard you! Amazing!",
+   "motion_tier": "B",
+   "action_verb": "cheer",
+   "pause_after_s": 0.5,
+   "slot_dur": 4.0,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "EP01 Sunny praise clip"
+  },
+  {
+   "clip_id": "EP01-NP-N05",
+   "section": "SEC-02",
+   "speaker": "Ava",
+   "text": "What a crew of amazing names!",
+   "motion_tier": "B",
+   "action_verb": "wave",
+   "pause_after_s": 0.4,
+   "slot_dur": 4.5,
+   "characters": [
+    "Ava"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N10",
+   "section": "SEC-03",
+   "speaker": "Ava",
+   "text": "Let's practice our letters!",
+   "motion_tier": "B",
+   "action_verb": "invite",
+   "pause_after_s": 0.3,
+   "slot_dur": 4.5,
+   "characters": [
+    "Ava"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C11",
+   "section": "SEC-03",
+   "speaker": "Sunny",
+   "text": "Let's make an A!",
+   "motion_tier": "A",
+   "action_verb": "A-pose",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C12",
+   "section": "SEC-03",
+   "speaker": "Sunny",
+   "text": "Arms up high — big A!",
+   "motion_tier": "A",
+   "action_verb": "A-pose",
+   "pause_after_s": 0.4,
+   "slot_dur": 5.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N11",
+   "section": "SEC-03",
+   "speaker": "Sunny",
+   "text": "What's YOUR letter? Trace it!",
+   "motion_tier": "B",
+   "action_verb": "invite",
+   "pause_after_s": 2.0,
+   "slot_dur": 5.0,
+   "characters": [
+    "Sunny"
+   ],
+   "image_needed": false,
+   "reuse": "EP01 Sunny direct-address establisher"
+  },
+  {
+   "clip_id": "EP01-NP-C13",
+   "section": "SEC-03",
+   "speaker": "Leo",
+   "text": "Trace an A in the air!",
+   "motion_tier": "A",
+   "action_verb": "trace",
+   "pause_after_s": 2.0,
+   "slot_dur": 4.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N19",
+   "section": "SEC-03",
+   "speaker": "Ava",
+   "text": "Now — clap your names!",
+   "motion_tier": "B",
+   "action_verb": "invite",
+   "pause_after_s": 0.3,
+   "slot_dur": 3.5,
+   "characters": [
+    "Ava"
+   ],
+   "image_needed": false,
+   "reuse": "same Ava as N10"
+  },
+  {
+   "clip_id": "EP01-NP-C14",
+   "section": "SEC-03",
+   "speaker": "Sunny",
+   "text": "Now clap your name!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.4,
+   "slot_dur": 5.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C15",
+   "section": "SEC-03",
+   "speaker": "Mia",
+   "text": "SUN-NY! MI-A! LE-O!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.4,
+   "slot_dur": 7.0,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N20",
+   "section": "SEC-03",
+   "speaker": "Koda",
+   "text": "KO-DA — big claps!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [
+    "Koda"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N14",
+   "section": "SEC-03",
+   "speaker": "Sunny",
+   "text": "Look at Mimi go!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [
+    "Mimi"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N12",
+   "section": "SEC-03",
+   "speaker": "Bram",
+   "text": "Mine goes... oops!",
+   "motion_tier": "A",
+   "action_verb": "clap-wrong",
+   "pause_after_s": 0.4,
+   "slot_dur": 5.0,
+   "characters": [
+    "Bram"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N13",
+   "section": "SEC-03",
+   "speaker": "Bram",
+   "text": "BRAM! I did it!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [
+    "Bram"
+   ],
+   "image_needed": false,
+   "reuse": "same Bram framing as N12"
+  },
+  {
+   "clip_id": "EP01-NP-N22",
+   "section": "SEC-03",
+   "speaker": "Leo",
+   "text": "LE-O — trace and clap!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [
+    "Leo"
+   ],
+   "image_needed": false,
+   "reuse": "reuse Leo clap clip C04 framing"
+  },
+  {
+   "clip_id": "EP01-NP-N23",
+   "section": "SEC-03",
+   "speaker": "Mia",
+   "text": "MI-A — my letter M!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [
+    "Mia"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C16",
+   "section": "SEC-03",
+   "speaker": "Sunny",
+   "text": "Pipa, clap your name!",
+   "motion_tier": "B",
+   "action_verb": "invite",
+   "pause_after_s": 2.0,
+   "slot_dur": 4.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N15",
+   "section": "SEC-03",
+   "speaker": "Bram",
+   "text": "Your turn, sis!",
+   "motion_tier": "B",
+   "action_verb": "encourage",
+   "pause_after_s": 0.4,
+   "slot_dur": 3.5,
+   "characters": [
+    "Bram",
+    "Pipa"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C17",
+   "section": "SEC-03",
+   "speaker": "Pipa",
+   "text": "PI-PA!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.5,
+   "slot_dur": 5.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C18",
+   "section": "SEC-03",
+   "speaker": "Crew",
+   "text": "Yay, Pipa!",
+   "motion_tier": "A",
+   "action_verb": "cheer",
+   "pause_after_s": 0.4,
+   "slot_dur": 4.0,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C19",
+   "section": "SEC-03",
+   "speaker": "Pipa",
+   "text": "My name IS amazing!",
+   "motion_tier": "A",
+   "action_verb": "A-pose",
+   "pause_after_s": 0.4,
+   "slot_dur": 5.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N24",
+   "section": "SEC-03",
+   "speaker": "Ava",
+   "text": "Amazing letters, everyone!",
+   "motion_tier": "B",
+   "action_verb": "cheer",
+   "pause_after_s": 0.4,
+   "slot_dur": 4.0,
+   "characters": [
+    "Ava"
+   ],
+   "image_needed": false,
+   "reuse": "same Ava as N10"
+  },
+  {
+   "clip_id": "EP01-NP-C20",
+   "section": "SEC-03",
+   "speaker": "Leo",
+   "text": "Can we sing the A song?",
+   "motion_tier": "B",
+   "action_verb": "ask",
+   "pause_after_s": 0.3,
+   "slot_dur": 3.5,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "reuse ep01_new_pacing P3-C01 spin+clap energy beat"
+  },
+  {
+   "clip_id": "EP01-NP-C21",
+   "section": "SEC-03",
+   "speaker": "Sunny",
+   "text": "Ready? One — two — three!",
+   "motion_tier": "A",
+   "action_verb": "count-in",
+   "pause_after_s": 0.2,
+   "slot_dur": 4.0,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "reuse EP01 star-burst transition into SEC-04"
+  },
+  {
+   "clip_id": "EP01-NP-N25",
+   "section": "SEC-03",
+   "speaker": "(action)",
+   "text": "",
+   "motion_tier": "A",
+   "action_verb": "A-pose",
+   "pause_after_s": 0.0,
+   "slot_dur": 5.5,
+   "characters": [
+    "Sunny",
+    "Leo",
+    "Mia",
+    "Pipa"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C22",
+   "section": "SEC-05",
+   "speaker": "Sunny",
+   "text": "We made an A!",
+   "motion_tier": "A",
+   "action_verb": "A-pose",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N16",
+   "section": "SEC-05",
+   "speaker": "Crew",
+   "text": "We practiced all day!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [
+    "Sunny",
+    "Leo",
+    "Mia",
+    "Pipa"
+   ],
+   "image_needed": false,
+   "reuse": "reuse ep01_new_pacing P5-C11 huddle-throw"
+  },
+  {
+   "clip_id": "EP01-NP-C23",
+   "section": "SEC-05",
+   "speaker": "Sunny",
+   "text": "We clapped our names!",
+   "motion_tier": "A",
+   "action_verb": "clap",
+   "pause_after_s": 0.3,
+   "slot_dur": 5.5,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "reuse ep01_new_pacing P5-C11 huddle-throw"
+  },
+  {
+   "clip_id": "EP01-NP-C24",
+   "section": "SEC-05",
+   "speaker": "Sunny",
+   "text": "Pipa, how do you feel?",
+   "motion_tier": "B",
+   "action_verb": "ask",
+   "pause_after_s": 0.5,
+   "slot_dur": 3.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C25",
+   "section": "SEC-05",
+   "speaker": "Pipa",
+   "text": "Proud!",
+   "motion_tier": "B",
+   "action_verb": "beam",
+   "pause_after_s": 0.5,
+   "slot_dur": 3.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C26",
+   "section": "SEC-05",
+   "speaker": "Pipa",
+   "text": "Clapping my name helped.",
+   "motion_tier": "B",
+   "action_verb": "clap-small",
+   "pause_after_s": 0.6,
+   "slot_dur": 4.0,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "same as NP-C25"
+  },
+  {
+   "clip_id": "EP01-NP-N17",
+   "section": "SEC-05",
+   "speaker": "Pipa",
+   "text": "Our names are amazing!",
+   "motion_tier": "A",
+   "action_verb": "A-pose",
+   "pause_after_s": 0.4,
+   "slot_dur": 5.5,
+   "characters": [
+    "Pipa",
+    "Bram"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-N21",
+   "section": "SEC-05",
+   "speaker": "Ava",
+   "text": "You were all amazing today!",
+   "motion_tier": "B",
+   "action_verb": "wave",
+   "pause_after_s": 0.5,
+   "slot_dur": 4.5,
+   "characters": [
+    "Ava"
+   ],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C27",
+   "section": "SEC-05",
+   "speaker": "Sunny",
+   "text": "Your turn at home:",
+   "motion_tier": "B",
+   "action_verb": "invite",
+   "pause_after_s": 0.3,
+   "slot_dur": 3.8,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "EP01 Sunny direct-address establisher"
+  },
+  {
+   "clip_id": "EP01-NP-C28",
+   "section": "SEC-05",
+   "speaker": "Sunny",
+   "text": "Clap your name! Make an A!",
+   "motion_tier": "A",
+   "action_verb": "A-pose",
+   "pause_after_s": 0.5,
+   "slot_dur": 5.5,
+   "characters": [],
+   "image_needed": true,
+   "reuse": null
+  },
+  {
+   "clip_id": "EP01-NP-C29",
+   "section": "SEC-05",
+   "speaker": "Sunny",
+   "text": "Every crew needs YOU... yes, YOU.",
+   "motion_tier": "B",
+   "action_verb": "catchphrase",
+   "pause_after_s": 0.4,
+   "slot_dur": 5.0,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "EP01 crew group clip"
+  },
+  {
+   "clip_id": "EP01-NP-C30",
+   "section": "SEC-05",
+   "speaker": "Sunny",
+   "text": "Bye, amazing friends!",
+   "motion_tier": "C",
+   "action_verb": "wave",
+   "pause_after_s": 0.5,
+   "slot_dur": 3.8,
+   "characters": [],
+   "image_needed": false,
+   "reuse": "EP01 outro waves + logo sting (theme replay)"
+  }
  ]
 }

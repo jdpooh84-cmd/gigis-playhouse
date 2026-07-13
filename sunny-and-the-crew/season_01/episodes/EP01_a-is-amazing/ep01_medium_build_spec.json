@@ -1,0 +1,783 @@
+{
+ "episode": "EP01",
+ "target": "7:00-7:30 (Medium expansion, creator-locked 2026-07-13)",
+ "sections": [
+  {
+   "section": "SEC-02",
+   "clip_count": 18,
+   "est_dur": 84.0,
+   "clips": [
+    {
+     "clip_id": "EP01-NP-C01",
+     "dur": 3.8,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230039_93a91356-1272-4c43-8866-2d5c6e269f7f.mp3",
+     "reuse": "EP01 Sunny direct-address establisher",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "wave",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C02",
+     "dur": 4.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230045_6054c183-1e50-4c03-8b02-5f542691e43c.mp3",
+     "reuse": "EP01 backyard group establisher",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "gesture",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N08",
+     "dur": 5.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233449_cb65d18f-dce1-4ac2-9334-fa5cae06aad5.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "jump",
+     "characters": [
+      "Sunny",
+      "Leo",
+      "Mia"
+     ],
+     "element_ids": [
+      "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+      "ab579f47-e94f-406e-ae63-dd4fd6dd1b18",
+      "36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N01",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233442_0eddafc2-ed89-4703-b9a4-114daf0ba4a1.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [
+      "Koda"
+     ],
+     "element_ids": [
+      "7ce52e05-5bba-43f0-bb1e-8ca11974038c"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N02",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233444_c40f00fc-e89d-45af-8ed5-89d3d7bf89a8.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [
+      "Sunny",
+      "Mimi"
+     ],
+     "element_ids": [
+      "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+      "7b005b4b-da34-4bac-908b-ceb76f9d6247"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N09",
+     "dur": 4.5,
+     "vo_url": null,
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "celebrate",
+     "characters": [
+      "Koda",
+      "Mimi"
+     ],
+     "element_ids": [
+      "7ce52e05-5bba-43f0-bb1e-8ca11974038c",
+      "7b005b4b-da34-4bac-908b-ceb76f9d6247"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N03",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233447_01d07a50-7aa9-4a3a-8f6c-fcd9c951609b.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [
+      "Bram"
+     ],
+     "element_ids": [
+      "e80f7f4d-2563-4d1a-b950-196df45dcbf7"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C03",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230053_95ca79ee-b097-4921-9356-207e684422fc.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C04",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230101_9bc91623-c6cd-49c7-9825-baad789a354f.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N06",
+     "dur": 6.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233451_b0121812-662f-417c-b87e-c5a17a149e9e.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [
+      "Sunny",
+      "Leo",
+      "Mia"
+     ],
+     "element_ids": [
+      "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+      "ab579f47-e94f-406e-ae63-dd4fd6dd1b18",
+      "36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C05",
+     "dur": 3.8,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230109_2007e7e7-8d38-4a32-ae76-ff31df389911.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "B",
+     "action_verb": "arms-crossed",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C06",
+     "dur": 3.8,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230117_5d36e478-8ab1-40f6-b89e-bd2fc75a0b8d.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "B",
+     "action_verb": "kneel",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C07",
+     "dur": 3.8,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230123_d624ebe5-26ce-479f-917a-edabcac28a08.mp3",
+     "reuse": "same two-shot as NP-C06",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "look-down",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C08",
+     "dur": 3.8,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230130_071eefd5-9a9c-40fc-acc8-87d5cfa070d1.mp3",
+     "reuse": "EP01 Sunny direct-address establisher",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "reassure",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N04",
+     "dur": 4.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233455_2d68d11d-db17-4354-b146-16cdf8c8b69d.mp3",
+     "reuse": "EP01 Sunny direct-address establisher",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "reassure",
+     "characters": [
+      "Sunny"
+     ],
+     "element_ids": [
+      "a40e2d56-573f-4bf2-bdcd-28c64014fdb9"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C09",
+     "dur": 4.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230138_5d36f092-b153-4b6a-bbea-9af6564133d7.mp3",
+     "reuse": "EP01 Sunny direct-address establisher",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "invite",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C10",
+     "dur": 4.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230146_ba2de8ba-d8aa-4021-9360-92c95f81dc4b.mp3",
+     "reuse": "EP01 Sunny praise clip",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "cheer",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N05",
+     "dur": 4.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233457_7f2ca292-970d-4e98-a000-559fb1cc2d60.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "B",
+     "action_verb": "wave",
+     "characters": [
+      "Ava"
+     ],
+     "element_ids": [
+      "72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf"
+     ],
+     "video_url": null
+    }
+   ]
+  },
+  {
+   "section": "SEC-03",
+   "clip_count": 23,
+   "est_dur": 113.5,
+   "clips": [
+    {
+     "clip_id": "EP01-NP-N10",
+     "dur": 4.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233505_f85c747c-d668-4508-9301-909916972efb.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "B",
+     "action_verb": "invite",
+     "characters": [
+      "Ava"
+     ],
+     "element_ids": [
+      "72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C11",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230158_aa626078-dbba-4eaf-8656-3be3728901d2.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "A-pose",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C12",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230205_ae7af5bc-9ddb-41bc-9425-418a76596ac5.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "A-pose",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N11",
+     "dur": 5.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233507_6e609d20-1a7e-4c86-9cfb-3b15ae24dadd.mp3",
+     "reuse": "EP01 Sunny direct-address establisher",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "invite",
+     "characters": [
+      "Sunny"
+     ],
+     "element_ids": [
+      "a40e2d56-573f-4bf2-bdcd-28c64014fdb9"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C13",
+     "dur": 4.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230215_4eabc0fc-183d-4bd5-a625-52e317050585.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "trace",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N19",
+     "dur": 3.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233509_6e0ec768-4a1d-4c78-aace-b1234a0b2a93.mp3",
+     "reuse": "same Ava as N10",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "invite",
+     "characters": [
+      "Ava"
+     ],
+     "element_ids": [
+      "72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C14",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230224_e12ffd7f-751f-4024-aaff-6b94210f30e7.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C15",
+     "dur": 7.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230234_fd5b7045-3eb6-4326-b455-4f57662f1be7.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N20",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233512_8fde846d-7940-447a-884d-67904670fa28.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [
+      "Koda"
+     ],
+     "element_ids": [
+      "7ce52e05-5bba-43f0-bb1e-8ca11974038c"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N14",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233515_ee0373ff-3f5d-48e8-b58c-631ca938ac5e.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [
+      "Mimi"
+     ],
+     "element_ids": [
+      "7b005b4b-da34-4bac-908b-ceb76f9d6247"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N12",
+     "dur": 5.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233517_bd686ff2-90e2-4bf3-a701-1b4d27431fb5.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap-wrong",
+     "characters": [
+      "Bram"
+     ],
+     "element_ids": [
+      "e80f7f4d-2563-4d1a-b950-196df45dcbf7"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N13",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233519_773cee80-8ebd-45c9-aa42-18160681612a.mp3",
+     "reuse": "same Bram framing as N12",
+     "image_needed": false,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [
+      "Bram"
+     ],
+     "element_ids": [
+      "e80f7f4d-2563-4d1a-b950-196df45dcbf7"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N22",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233552_674fa694-384e-4ad6-a46e-37d2e77e7400.mp3",
+     "reuse": "reuse Leo clap clip C04 framing",
+     "image_needed": false,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [
+      "Leo"
+     ],
+     "element_ids": [
+      "ab579f47-e94f-406e-ae63-dd4fd6dd1b18"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N23",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233554_5e16cf1c-1cb0-4c50-8f97-ed3270e43754.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [
+      "Mia"
+     ],
+     "element_ids": [
+      "36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C16",
+     "dur": 4.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230242_d34095a9-634a-4357-9999-dbcc6235cd95.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "B",
+     "action_verb": "invite",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N15",
+     "dur": 3.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233521_2ae8296e-5b30-47bd-89f8-343e9b2137d9.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "B",
+     "action_verb": "encourage",
+     "characters": [
+      "Bram",
+      "Pipa"
+     ],
+     "element_ids": [
+      "e80f7f4d-2563-4d1a-b950-196df45dcbf7",
+      "8849bdb4-d5a1-419d-9abc-c7e36188750c"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C17",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230253_046e0bef-67bf-4210-a97c-d400dbe76c91.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C18",
+     "dur": 4.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230301_c2ba366f-216f-4635-b062-a7c587602851.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "cheer",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C19",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230309_104f0eb8-52f7-49ed-9e47-8dcdb7c5b4b3.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "A-pose",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N24",
+     "dur": 4.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233527_45cec189-ac07-481f-b9a7-09296f57919f.mp3",
+     "reuse": "same Ava as N10",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "cheer",
+     "characters": [
+      "Ava"
+     ],
+     "element_ids": [
+      "72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C20",
+     "dur": 3.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230322_f622cb93-5987-4a40-9a8f-9e9870971f55.mp3",
+     "reuse": "reuse ep01_new_pacing P3-C01 spin+clap energy beat",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "ask",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C21",
+     "dur": 4.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230334_3d0f847d-892b-44b3-9025-90ef144476d7.mp3",
+     "reuse": "reuse EP01 star-burst transition into SEC-04",
+     "image_needed": false,
+     "tier": "A",
+     "action_verb": "count-in",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N25",
+     "dur": 5.5,
+     "vo_url": null,
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "A-pose",
+     "characters": [
+      "Sunny",
+      "Leo",
+      "Mia",
+      "Pipa"
+     ],
+     "element_ids": [
+      "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+      "ab579f47-e94f-406e-ae63-dd4fd6dd1b18",
+      "36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590",
+      "8849bdb4-d5a1-419d-9abc-c7e36188750c"
+     ],
+     "video_url": null
+    }
+   ]
+  },
+  {
+   "section": "SEC-05",
+   "clip_count": 12,
+   "est_dur": 55.6,
+   "clips": [
+    {
+     "clip_id": "EP01-NP-C22",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230341_4495cea8-5544-4005-9902-6c6fa6597257.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "A-pose",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N16",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233531_c79edf26-663c-4ad9-97a7-d095bfa1d2df.mp3",
+     "reuse": "reuse ep01_new_pacing P5-C11 huddle-throw",
+     "image_needed": false,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [
+      "Sunny",
+      "Leo",
+      "Mia",
+      "Pipa"
+     ],
+     "element_ids": [
+      "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+      "ab579f47-e94f-406e-ae63-dd4fd6dd1b18",
+      "36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590",
+      "8849bdb4-d5a1-419d-9abc-c7e36188750c"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C23",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230349_d03559ae-e234-413a-803a-36b507ffe188.mp3",
+     "reuse": "reuse ep01_new_pacing P5-C11 huddle-throw",
+     "image_needed": false,
+     "tier": "A",
+     "action_verb": "clap",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C24",
+     "dur": 3.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230356_037bec5b-d474-4524-8587-46400a9aaee6.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "B",
+     "action_verb": "ask",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C25",
+     "dur": 3.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230410_766508c4-9b93-4fe8-92e3-207fd7cdbda0.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "B",
+     "action_verb": "beam",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C26",
+     "dur": 4.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230418_f73f930f-0ad3-4bbb-9e00-f102f360f3b7.mp3",
+     "reuse": "same as NP-C25",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "clap-small",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N17",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233533_3633643f-355a-4721-99ae-9ca061dddb4a.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "A-pose",
+     "characters": [
+      "Pipa",
+      "Bram"
+     ],
+     "element_ids": [
+      "8849bdb4-d5a1-419d-9abc-c7e36188750c",
+      "e80f7f4d-2563-4d1a-b950-196df45dcbf7"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-N21",
+     "dur": 4.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233536_44b84026-1a73-4d9b-94dd-113ab73a3c39.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "B",
+     "action_verb": "wave",
+     "characters": [
+      "Ava"
+     ],
+     "element_ids": [
+      "72ba48b0-bb6b-4c1c-bd4b-2c48db5a2dcf"
+     ],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C27",
+     "dur": 3.8,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230425_40fc66dd-d28f-46b1-8238-b092b5277411.mp3",
+     "reuse": "EP01 Sunny direct-address establisher",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "invite",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C28",
+     "dur": 5.5,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230431_1f419571-c9e6-4d68-b42b-f95b6299eb32.mp3",
+     "reuse": null,
+     "image_needed": true,
+     "tier": "A",
+     "action_verb": "A-pose",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C29",
+     "dur": 5.0,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230438_9a5f8073-42f8-4529-902d-988ff0947351.mp3",
+     "reuse": "EP01 crew group clip",
+     "image_needed": false,
+     "tier": "B",
+     "action_verb": "catchphrase",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    },
+    {
+     "clip_id": "EP01-NP-C30",
+     "dur": 3.8,
+     "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230445_f05daa6b-7e3d-41cc-8a1b-fe31e36355e6.mp3",
+     "reuse": "EP01 outro waves + logo sting (theme replay)",
+     "image_needed": false,
+     "tier": "C",
+     "action_verb": "wave",
+     "characters": [],
+     "element_ids": [],
+     "video_url": null
+    }
+   ]
+  }
+ ]
+}
