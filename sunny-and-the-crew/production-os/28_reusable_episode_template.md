@@ -38,3 +38,5 @@ Phase 0 creator locks (structure, catchphrase, voices — one-time) → then aut
 
 ## 9. STAMPING A NEW EPISODE
 Copy `episode_template.json`; set lesson/topic, catchphrase, song; run Episode Architect to emit `dialogue_map.json` + manifest with `motion_tier`/`slomo_justification`/`action_verb` per clip; everything else inherits from 25–28 automatically.
+
+- **NEW pacing-reference gate:** movement clips match the locked reference standard (25 section 8 / assets/demo_jumpclap REF-A/B/C): real human timing, normal jump gravity (no float), natural gesture speed, 100 BPM song tempo; flag+regen anything slower than the references.

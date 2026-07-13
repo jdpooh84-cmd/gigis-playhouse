@@ -9,3 +9,5 @@ TECH: 1280x720/30fps h264 + AAC, -14 LUFS, faststart; file named per convention;
 ## Automated gate (runs before any human QA)
 `python3 scripts/pipeline_validate.py` must exit 0 — CI runs it on every push
 (.github/workflows/pipeline-validate.yml). Human QA starts only from a green validator.
+
+PACING (locked 2026-07-13): every movement clip is spot-checked against the canonical reference clips assets/demo_jumpclap/{C4_song_clap_beatmatched,C2_bounce,C5_reflection}.mp4 (Drive 1JXUWWKPCQKE3mXn-9nzg1gWPCm1RShye / 1j_Ic9GS31AaVWxhwSVY3hOTLQT7-s3U1 / 17lKEI2Huisjepz-7fcAee53I4vJruxZP). FLAG+regen if a jump looks slow/floaty (airtime > ~1.0s), a clap/gesture is slower than reference, or tempo (100 BPM), reaction time, or pause length drifts from the references. See production-os/25 section 8.

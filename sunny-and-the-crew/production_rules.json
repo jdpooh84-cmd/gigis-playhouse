@@ -124,7 +124,7 @@
   "Verify theme song is at the start of ACT 1",
   "Verify episode song covers full duration of ACT 3",
   "Zoom-inspect character reference images (feet, chest, props) for real-world brand marks BEFORE locking any element",
-  "MOTION: every clip has motion_tier; tier-A clips carry genre:action (or model kling3_0); no banned slow words on tier A/B without slomo_justification; <=1 SLOMO/episode; imitable moves full-body framed",
+  "MOTION: every clip has motion_tier; tier-A clips carry genre:action (or model kling3_0); no banned slow words on tier A/B without slomo_justification; <=1 SLOMO/episode; imitable moves full-body framed ; PACING REF: movement clips spot-checked against locked reference clips (REF-A/B/C in assets/demo_jumpclap/) \u2014 flag any jump slow/floaty or gesture slower than reference (see 25 sec 8)",
   "SAY-WHAT-YOU-SEE: each dialogue line action_verb matches its clip visual_action",
   "AUDIO-TIMING: section clip durs regenerated from ffprobed VO/beat lengths, not planned numbers"
  ],
@@ -182,5 +182,51 @@
   "lip_sync": "higgsfield dubbing on direct-address close-ups + ~6 song hero shots only",
   "creator_action": "approve 9 voices once (single pilot); all VO automated thereafter",
   "speech_rate_note": "integer -50..100; 0=natural default; small positive (+5..+8) for energetic/song lines; NEVER negative (that re-creates the slow feel)"
+ },
+ "pacing_reference_standard": {
+  "_ref": "production-os/25_motion_pacing_rules.md#8",
+  "locked": "2026-07-13 (creator-designated)",
+  "scope": "ALL animation generation/selection/adjustment/QA + overall show pacing (dialogue speed, animation timing, musical tempo, action frequency, reaction time, pause length)",
+  "reference_clips": {
+   "REF-A_song_clap": {
+    "repo": "assets/demo_jumpclap/C4_song_clap_beatmatched.mp4",
+    "drive_id": "1JXUWWKPCQKE3mXn-9nzg1gWPCm1RShye",
+    "tier": "A",
+    "anchor": "100 BPM / 0.60s beat; clap on every beat"
+   },
+   "REF-B_bounce": {
+    "repo": "assets/demo_jumpclap/C2_bounce.mp4",
+    "drive_id": "1j_Ic9GS31AaVWxhwSVY3hOTLQT7-s3U1",
+    "tier": "B",
+    "anchor": "natural real-time; ~2.5s per gesture"
+   },
+   "REF-C_reflection": {
+    "repo": "assets/demo_jumpclap/C5_reflection.mp4",
+    "drive_id": "17lKEI2Huisjepz-7fcAee53I4vJruxZP",
+    "tier": "B->C",
+    "anchor": "jump+clap at real human speed in ~3.5s; quick takeoff/landing"
+   }
+  },
+  "must": [
+   "real human timing, no unintentional slow motion",
+   "normal gravity on jumps: quick takeoff+landing, no floating",
+   "natural clapping/gestures at believable speed",
+   "readable but energetic for children"
+  ],
+  "reject_if": [
+   "jumps slow/floaty like slow motion",
+   "claps/gestures noticeably slower than reference",
+   "pacing misaligned with target tempo for dialogue/music/reactions"
+  ],
+  "measurable_anchors": {
+   "bpm": 100,
+   "beat_s": 0.6,
+   "jump_airtime_max_s": 1.0,
+   "single_gesture_s": "0.3-0.6",
+   "action_per_clip_s": "2.4-3.5",
+   "post_action_settle_s": "0.5-1.1",
+   "call_response_pause_s": 3.0,
+   "speech_rate": "0 natural, +5..+8 energetic"
+  }
  }
 }
