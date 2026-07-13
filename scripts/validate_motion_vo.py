@@ -2,8 +2,10 @@
 """Motion + VO validator for the Sunny OS (proof-of-fix, 2026-07-13).
 
 Implements the three new gates from production-os/25 + 26 + 27:
-  1. MOTION GATE       — motion_tier set; speedramp:"off"; no banned slow words
-                         on tier A/B without slomo_justification; <=1 SLOMO/episode.
+  1. MOTION GATE       — motion_tier set; tier-A clips carry the real energy lever
+                         (seedance genre:"action" OR model kling3_0 — seedance_2_0 has
+                         no speedramp param); no banned slow words on tier A/B without
+                         slomo_justification; <=1 SLOMO/episode.
   2. SAY-WHAT-YOU-SEE  — each clip's action_verb (and its dialogue verb) must
                          appear in that clip's visual_action.
   3. AUDIO-TIMING GATE — dur must equal its declared source:
@@ -33,8 +35,13 @@ def validate(man):
         # -- MOTION GATE --
         if tier not in ("A", "B", "C", "SLOMO"):
             errs.append(f"{cid}: MOTION missing/invalid motion_tier ({tier})")
-        if c.get("speedramp") != "off":
-            errs.append(f"{cid}: MOTION speedramp must be 'off' (got {c.get('speedramp')!r})")
+        # tier-A needs the real energy lever: seedance genre:"action" OR kling3_0
+        if tier == "A":
+            has_lever = (c.get("genre") == "action") or (c.get("video_model") == "kling3_0")
+            if not has_lever:
+                errs.append(f"{cid}: MOTION tier-A needs genre:'action' or model 'kling3_0' "
+                            f"(seedance_2_0 has no speedramp param); got genre={c.get('genre')!r} "
+                            f"model={c.get('video_model')!r}")
         motion = (c.get("motion_text", "") or "").lower()
         if tier == "SLOMO":
             slomo_count += 1

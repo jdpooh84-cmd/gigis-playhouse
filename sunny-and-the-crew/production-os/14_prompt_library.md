@@ -14,7 +14,7 @@ AUDIO BED SKELETON (Suno): "gentle instrumental kids [ukulele|pizzicato] bed, [x
 ## VIDEO-MOTION SKELETON (mandatory on EVERY seedance/kling video prompt — creator-locked 2026-07-13, see 25_motion_pacing_rules)
 The video motion sentence is NO LONGER free-authored. Build the closing line from the clip's `motion_tier`:
 `MOTION (tier <A|B|C>): <subject> <real-time action verb> at <full|natural> energy, movement crisp and clearly readable, action completes within the clip. Characters stay exactly on model. All footwear plain, no logos. No on-screen text.`
-- Shot Operator passes `speedramp:"off"` in generate_video.params on every clip (kills auto slow-mo). duration: tier A 3–4s, B 4s, C ≤5s. Escalate dance/movement hero shots to `kling3_0`.
+- Motion-energy setting: **seedance_2_0 has NO `speedramp` param** (verified 2026-07-13 — it is silently dropped). The real energy knob is **`genre:"action"`** on tier-A (and lively tier-B) clips, plus `bitrate_mode:"high"` on movement. duration 4s (seedance min; trimmed to the audio-first slot). Escalate dance/movement hero shots to `kling3_0`.
 - BANNED as the motion verb on tier A/B: "gently", "very gently", "slowly", "softly", "drifts", "floats", "slow-motion", "dreamy". ("Gentle" may describe emotion, never body motion.)
 - SLOMO wording allowed ONLY when the clip carries a `slomo_justification` and is the episode's single permitted SLOMO clip.
 NOTE: the older skeletons above ("Camera holds still", "slow push or drift only", "no camera move", "FULL 3-SECOND HOLD") apply to CALM/participation beats only (tier C) — they are NOT the default. Movement, story, song, and game beats are tier A/B real-time.

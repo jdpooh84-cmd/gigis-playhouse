@@ -15,7 +15,7 @@ Total 10:00–15:00. SEC-02/03/05 are the stretch levers.
 The 11-beat arc from 26 (setup→explore→warm mistake→lesson→CTA+3s pause→song transition | recap→praise→mission→catchphrase→sting). All lines say-what-you-see, ≤8 words. Source = `dialogue_map.json`.
 
 ## 3. MOTION BEATS
-Per 25: real-time (1.0×) default; tier per clip in `motion_tier`; **`speedramp:"off"`** on every seedance call; "gentle/slow" banned as motion verbs on tier A/B; ≤1 justified SLOMO/episode; full-body mirrored framing on any imitable move; kling3_0 escalation for dance hero shots.
+Per 25: real-time (1.0×) default; tier per clip in `motion_tier`; **`genre:"action"`** on tier-A seedance clips (seedance has NO speedramp param — verified; genre is the real energy knob) + `bitrate_mode:"high"` on movement; "gentle/slow" banned as motion verbs on tier A/B; ≤1 justified SLOMO/episode; full-body mirrored framing on any imitable move; kling3_0 escalation for dance hero shots.
 
 ## 4. SONG INTEGRATION
 Per 06 + 25 §6: song locked in Suno first, ffprobed, `song_sections.json` from the real waveform; cuts land on downbeats; action peaks hit the beat; movement cue every chorus; audio reuse OK on the movement reprise, clip reuse NEVER.
@@ -29,12 +29,12 @@ Recap re-does the episode's moves at real speed (not a slow montage); explicit v
 ## 7. QA REQUIREMENTS (Continuity Guardian + validator, blocking)
 Per-clip gate, before its video is spent AND before section assembly:
 - Canon/safety (existing): anatomy (one head, Mia 2 pigtails), Mimi smallest / Nana tallest, no Bella+Gabriel, Mayor Mary auburn, Rena left-cheek, no cars / brands / age-words / "Pixar", locked element IDs, no on-screen text.
-- **NEW motion gate:** `motion_tier` set; `speedramp:"off"` present; no banned slow words on tier A/B without `slomo_justification`; ≤1 SLOMO/episode; movement clips full-body framed.
+- **NEW motion gate:** `motion_tier` set; tier-A clips carry `genre:"action"` (or model `kling3_0`); no banned slow words on tier A/B without `slomo_justification`; ≤1 SLOMO/episode; movement clips full-body framed.
 - **NEW say-what-you-see gate:** every dialogue line's `action_verb` matches its clip's `visual_action`.
 - **NEW audio-timing gate:** section `dur`s regenerated from ffprobed VO/beat lengths, not estimates; section ffprobe within tolerance.
 
 ## 8. OVERNIGHT-AUTONOMOUS RUN ORDER (unblocked)
-Phase 0 creator locks (structure, catchphrase, voices — one-time) → then autonomous: P1 design + `dialogue_map.json` → P2 prompt build (validator gate) → **P3 audio-first (seed_audio VO + Suno beds, ffprobe ledger)** → P4 generation (`speedramp:"off"`, tier-correct, 8 concurrent, 429 queue, nsfw rephrase) → P5 QA gates (motion + say-what-you-see + canon) → P6 scoped lip-sync → P7 CI section assembly (static-ffmpeg + veryfast, per hardened workflow) → P8 Make one-shot delivery + dedupe. Troubleshooting Agent always on. Human fallback: assemble SEC-01..05 in Premiere/Canva in number order.
+Phase 0 creator locks (structure, catchphrase, voices — one-time) → then autonomous: P1 design + `dialogue_map.json` → P2 prompt build (validator gate) → **P3 audio-first (seed_audio VO + Suno beds, ffprobe ledger)** → P4 generation (`genre:"action"` on tier-A, tier-correct durations, 8 concurrent, 429 queue, nsfw rephrase) → P5 QA gates (motion + say-what-you-see + canon) → P6 scoped lip-sync → P7 CI section assembly (static-ffmpeg + veryfast, per hardened workflow) → P8 Make one-shot delivery + dedupe. Troubleshooting Agent always on. Human fallback: assemble SEC-01..05 in Premiere/Canva in number order.
 
 ## 9. STAMPING A NEW EPISODE
 Copy `episode_template.json`; set lesson/topic, catchphrase, song; run Episode Architect to emit `dialogue_map.json` + manifest with `motion_tier`/`slomo_justification`/`action_verb` per clip; everything else inherits from 25–28 automatically.

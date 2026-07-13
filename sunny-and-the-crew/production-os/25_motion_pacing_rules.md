@@ -28,12 +28,13 @@ Default tier by section: P2 story=B, P3 lead-in=A, P4 song=A, P4 games=A, P5 rec
 - The words **"gentle" and "very gentle" are banned as the motion verb** on tier A/B clips (they were the EP01 slow-mo tell). "Gentle" may still describe emotion ("a gentle smile"), never the motion of the body.
 
 ## 4. seedance_2_0 / Higgsfield PARAMETER RULES (Shot Operator)
-Pass these in `generate_video.params` on every clip:
-- `speedramp: "off"` — kills the auto deceleration ramp. **This is the single highest-impact fix.**
-- `mode: "std"` stays; `generate_audio:true` stays (VO is muxed later but native audio helps motion realism).
-- `duration`: tier A short (**3–4s**), tier B **4s**, tier C up to 5s. Shorter clips force denser action and read faster.
-- For high-action dance/movement hero shots, **escalate the model to `kling3_0`** (better sustained motion) per that clip's `model_override`; keep `seedance_2_0` for identity-critical dialogue close-ups.
-- Before a new episode, run `models_explore(type:'video')` on seedance_2_0/kling3_0 and record the current motion-strength / cfg knob names in this file — treat any exposed "motion strength" as **high**.
+IMPORTANT (verified 2026-07-13 via `models_explore get seedance_2_0`): **seedance_2_0 exposes NO `speedramp` parameter.** Its real knobs are `duration, resolution, mode, bitrate_mode, genre, generate_audio`. A `speedramp:"off"` passed through the open params block is silently dropped (the render defaults to `speedramp:auto`, which is a stored UI field, NOT API-controllable). Do not rely on it. The controllable motion-energy levers are:
+- **`genre: "action"`** on every tier-A clip (and tier-B lively beats) — the real energy knob; biases toward brisk, decisive, real-time motion. **This is the highest-impact controllable fix.** Tier C may use `genre:"auto"`.
+- **Prompt wording** — the real-time MOTION skeleton (§5); "gentle/slow/floaty" banned on tier A/B. (This remains the #1 lever overall — it caused EP01.)
+- **`duration`: 4s** (seedance clamps to a 4–15s min; render 4s and trim to the audio-first slot). Shorter source = denser action.
+- **`bitrate_mode:"high"`** on movement clips for crisper motion readability.
+- **Model escalation:** high-action dance/movement hero shots go to **`kling3_0`**; keep `seedance_2_0` for identity-critical dialogue close-ups.
+- Before a new episode, re-run `models_explore get` on the current video models and record any new motion/energy knob here — never assume a param exists; verify it survives in the stored job record via `job_display`.
 
 ## 5. MOTION-PROMPT SKELETON (Prompt Architect — replaces ad-hoc wording)
 Every video prompt ends with ONE motion line built from the tier, not free-authored:
@@ -46,7 +47,7 @@ MOTION (tier <A|B|C>): <subject> <real-time action verb> <at full/natural energy
 ## 6. BEAT-MATCHED CUTTING (Assembly Engineer — extends 06 music rules)
 - Song/game clips are cut so the **on-screen action hits the downbeat**; A-A-A chants get one physical pop per repeat (already in 06 §6). The action inside each clip must be timed so its peak lands at the cut, not mid-decelerate.
 - Movement-cue clips are framed full-body, **mirrored to the viewer** (14 category 4), so kids copy correctly.
-- Assembly QA adds a **motion check**: spot 3 clips/section; if action looks < 1.0× or completes after the cut, flag for regen at tier A with `speedramp:"off"`.
+- Assembly QA adds a **motion check**: spot 3 clips/section; if action looks < 1.0× or completes after the cut, flag for regen at tier A with `genre:"action"` (+ kling3_0 if still soft).
 
 ## 7. READABLE BODY FRAMING
 - Any clip a child is meant to imitate frames the **whole moving body** (head-to-feet or head-to-knees), centered, silhouette-readable, max 3 props. No tight face crops on movement beats.

@@ -4,7 +4,7 @@ Status: LOCKED 2026-07-13 (creator directive: VO must be generated INSIDE the pi
 ## 0. ENGINE — Higgsfield, internal
 - **TTS:** `generate_audio` with `model: seed_audio` (ByteDance Seed Audio 1.0). No ElevenLabs, no external tool, no creator clicks. (`text2speech_v2` variants incl. elevenlabs exist as fallbacks only; default is `seed_audio`.)
 - **Per-character voices:** `create_voice` once per character → a locked **voice element** (voice_id). Reused across all 30+ episodes exactly like the visual element UUIDs. Registry lives in `characters.json` under each character as `voice_id` + `voice_type:"element"`.
-- **Tuning knobs** (seed_audio): `speech_rate` (preschool default ~0.95× — clear, unhurried but NOT sluggish), `pitch_rate`, `loudness_rate`, `sample_rate`. Sunny slightly brighter/faster than Nana.
+- **Tuning knobs** (seed_audio, verified 2026-07-13): `speech_rate` is an INTEGER −50..100 (0 = natural default, positive = faster; NOT a multiplier). Preschool default **0**; use small positive (**+5…+8**) for energetic/song lines; never negative (that re-creates the slow feel). Also `pitch_rate` (−12..12), `loudness_rate` (−50..100), `sample_rate`, `format`. Sunny slightly brighter than Nana.
 
 ## 1. ONE-TIME SETUP (Voice Director, before EP-batch)
 1. Build a locked voice element per speaking character (Sunny, Leo, Mia, Koda, Nana, Ava, Mayor Mary, Rena, Rico) via `create_voice`; log `voice_id` to `characters.json`. Creator approves the voice pilot ONCE (single 5-min approval), then it is permanent canon.

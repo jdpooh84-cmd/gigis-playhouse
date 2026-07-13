@@ -124,7 +124,7 @@
   "Verify theme song is at the start of ACT 1",
   "Verify episode song covers full duration of ACT 3",
   "Zoom-inspect character reference images (feet, chest, props) for real-world brand marks BEFORE locking any element",
-  "MOTION: every clip has motion_tier + speedramp:off; no banned slow words on tier A/B without slomo_justification; <=1 SLOMO/episode; imitable moves full-body framed",
+  "MOTION: every clip has motion_tier; tier-A clips carry genre:action (or model kling3_0); no banned slow words on tier A/B without slomo_justification; <=1 SLOMO/episode; imitable moves full-body framed",
   "SAY-WHAT-YOU-SEE: each dialogue line action_verb matches its clip visual_action",
   "AUDIO-TIMING: section clip durs regenerated from ffprobed VO/beat lengths, not planned numbers"
  ],
@@ -152,15 +152,12 @@
   "locked": "2026-07-13",
   "default": "real-time 1.0x; motion must match visual_action + dialogue + song beat",
   "seedance_params": {
-   "speedramp": "off",
-   "mode": "std",
-   "duration_by_tier": {
-    "A": "3-4s",
-    "B": "4s",
-    "C": "<=5s"
-   }
+   "note": "seedance_2_0 has NO speedramp param (verified 2026-07-13 via models_explore); the real energy knob is genre",
+   "genre": "action on tier-A and lively tier-B clips; auto on tier-C",
+   "bitrate_mode": "high on movement clips",
+   "duration": "4s (seedance min), trimmed to the audio-first slot",
+   "model_escalation": "kling3_0 for dance/movement hero shots; seedance_2_0 for identity dialogue"
   },
-  "model_escalation": "kling3_0 for dance/movement hero shots; seedance_2_0 for identity dialogue",
   "banned_motion_words_tierAB": [
    "gently",
    "very gently",
@@ -179,10 +176,11 @@
   "locked": "2026-07-13",
   "engine": "higgsfield generate_audio model=seed_audio (ByteDance); NO manual ElevenLabs",
   "voice_type": "element (per-character locked voice_id via create_voice; stored in characters.json)",
-  "speech_rate_default": 0.95,
+  "speech_rate_default": 0,
   "audio_is_timing_master": true,
   "clip_dur_source": "regenerated from ffprobed VO line length + pause_after_s (not estimates)",
   "lip_sync": "higgsfield dubbing on direct-address close-ups + ~6 song hero shots only",
-  "creator_action": "approve 9 voices once (single pilot); all VO automated thereafter"
+  "creator_action": "approve 9 voices once (single pilot); all VO automated thereafter",
+  "speech_rate_note": "integer -50..100; 0=natural default; small positive (+5..+8) for energetic/song lines; NEVER negative (that re-creates the slow feel)"
  }
 }
