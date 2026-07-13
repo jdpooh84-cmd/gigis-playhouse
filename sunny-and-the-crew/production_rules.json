@@ -1,145 +1,188 @@
 {
-  "_meta": {
-    "document": "production_rules.json",
-    "locked": true,
-    "note": "These rules govern ALL episode production. Any automation, agent, or pipeline step must check this file first.",
-    "production_os": "sunny-and-the-crew/production-os/ (22 docs) is the operating manual for this file. Precedence: creator > this file + production-os + characters.json > older bibles.",
-    "audience": "Core ages 2-5, stretch to 7 (creator-locked 2026-07-11)"
-  },
-  "pipeline_order": [
-    "1. Load show_bible.json and confirm locked rules",
-    "2. Load episode data file (ep##_data.json)",
-    "3. Load episode beat sheet (ep##_beat_sheet.json)",
-    "4. Pull character assets from Google Drive CHARACTERS folder",
-    "5. Pull location reference images if available",
-    "6. Pull song assets from Google Drive MUSIC folder",
-    "7. Load episode music timing map (ep##_music_timing.json)",
-    "8. Generate missing images using nano_banana_2 — one image per beat — with CHARACTER LOCK HEADER prepended to every prompt",
-    "9. Generate video clips shot-by-shot from the timeline file — one clip per beat",
-    "10. Verify no clip is used more than once",
-    "11. Assemble clips in timeline order using Higgsfield explainer_video",
-    "12. Sync dialogue and music",
-    "13. Export final episode to Google Drive FINALS — READY TO UPLOAD folder",
-    "14. Prepare YouTube Studio upload metadata — mark Made for Kids"
+ "_meta": {
+  "document": "production_rules.json",
+  "locked": true,
+  "note": "These rules govern ALL episode production. Any automation, agent, or pipeline step must check this file first.",
+  "production_os": "sunny-and-the-crew/production-os/ (22 docs) is the operating manual for this file. Precedence: creator > this file + production-os + characters.json > older bibles.",
+  "audience": "Core ages 2-5, stretch to 7 (creator-locked 2026-07-11)"
+ },
+ "pipeline_order": [
+  "1. Load show_bible.json and confirm locked rules",
+  "2. Load episode data file (ep##_data.json)",
+  "3. Load episode beat sheet (ep##_beat_sheet.json)",
+  "4. Pull character assets from Google Drive CHARACTERS folder",
+  "5. Pull location reference images if available",
+  "6. Pull song assets from Google Drive MUSIC folder",
+  "7. Load episode music timing map (ep##_music_timing.json)",
+  "8. Generate missing images using nano_banana_2 \u2014 one image per beat \u2014 with CHARACTER LOCK HEADER prepended to every prompt",
+  "9. Generate video clips shot-by-shot from the timeline file \u2014 one clip per beat",
+  "10. Verify no clip is used more than once",
+  "11. Assemble clips in timeline order using Higgsfield explainer_video",
+  "12. Sync dialogue and music",
+  "13. Export final episode to Google Drive FINALS \u2014 READY TO UPLOAD folder",
+  "14. Prepare YouTube Studio upload metadata \u2014 mark Made for Kids"
+ ],
+ "theme_intro_rule": {
+  "locked": true,
+  "rule": "The theme song intro is a PREMADE REUSABLE MASTER CLIP \u2014 generated ONCE for the whole show, never per episode.",
+  "details": [
+   "Generate the 0:45 theme intro (shots T01-T19 per songs/Sunny_and_the_Crew/animatic_prompt_bible.md) one time only, with the theme audio baked in.",
+   "Store the finished master in Higgsfield (record the job/media ID here when made) and in Google Drive (Sunny and the Crew \u2014 Production).",
+   "Every episode assembly PREPENDS this same master clip as Part 1. Do not regenerate, re-cut, or re-assemble it for individual episodes.",
+   "The no-loop rule applies WITHIN an episode; reusing the theme master across episodes is required, not a violation."
   ],
-  "theme_intro_rule": {
-    "locked": true,
-    "rule": "The theme song intro is a PREMADE REUSABLE MASTER CLIP — generated ONCE for the whole show, never per episode.",
-    "details": [
-      "Generate the 0:45 theme intro (shots T01-T19 per songs/Sunny_and_the_Crew/animatic_prompt_bible.md) one time only, with the theme audio baked in.",
-      "Store the finished master in Higgsfield (record the job/media ID here when made) and in Google Drive (Sunny and the Crew — Production).",
-      "Every episode assembly PREPENDS this same master clip as Part 1. Do not regenerate, re-cut, or re-assemble it for individual episodes.",
-      "The no-loop rule applies WITHIN an episode; reusing the theme master across episodes is required, not a violation."
-    ],
-    "theme_master_higgsfield_id": null,
-    "theme_master_drive_file_id": "1rfyA44PvBFAdKHckCcS8Nl47xNIWVXjq",
-    "theme_master_repo_path": "sunny-and-the-crew/theme-song/THEME-INTRO-MASTER.mp4",
-    "theme_master_note": "v1.1 COMPLIANCE REBUILD 2026-07-11: one-time legal/canon rebuild of the locked master — (1) TRADEMARK RECALL: shots T07/T09/T11/T17 regenerated with Koda-v3 element 7ce52e05-5bba-43f0-bb1e-8ca11974038c after v1.0 showed a branded swoosh on Koda's shoes; (2) SPECIES FIX: T15 regenerated with Bella-v2 element c4ea659f-6ad3-4564-9d87-a3ed8738850f after v1.0 rendered Bella as a cat (she is a DOG, creator-confirmed). 19 shots, actual 44.78s Suno theme audio, 1280x720/30fps. All frames brand-checked and species-checked. The never-regenerate rule stands: future rebuilds only for legal/safety/canon defects, version-bumped. Clip URLs in _staging/theme_clip_urls.json git history.",
-    "theme_master_drive_note": "THEME-INTRO-MASTER-v1.1.mp4 in Sunny and the Crew - Production (folder 10xEh7jYO_z55-t2Gr82ON3C1jPvINgTg). v1.0 file 1fvGvI8ERWGlC5PD7_7TxqPeoXZFqmhEg TRASHED 2026-07-11 (trademark recall + Bella species fix)."
+  "theme_master_higgsfield_id": null,
+  "theme_master_drive_file_id": "1rfyA44PvBFAdKHckCcS8Nl47xNIWVXjq",
+  "theme_master_repo_path": "sunny-and-the-crew/theme-song/THEME-INTRO-MASTER.mp4",
+  "theme_master_note": "v1.1 COMPLIANCE REBUILD 2026-07-11: one-time legal/canon rebuild of the locked master \u2014 (1) TRADEMARK RECALL: shots T07/T09/T11/T17 regenerated with Koda-v3 element 7ce52e05-5bba-43f0-bb1e-8ca11974038c after v1.0 showed a branded swoosh on Koda's shoes; (2) SPECIES FIX: T15 regenerated with Bella-v2 element c4ea659f-6ad3-4564-9d87-a3ed8738850f after v1.0 rendered Bella as a cat (she is a DOG, creator-confirmed). 19 shots, actual 44.78s Suno theme audio, 1280x720/30fps. All frames brand-checked and species-checked. The never-regenerate rule stands: future rebuilds only for legal/safety/canon defects, version-bumped. Clip URLs in _staging/theme_clip_urls.json git history.",
+  "theme_master_drive_note": "THEME-INTRO-MASTER-v1.1.mp4 in Sunny and the Crew - Production (folder 10xEh7jYO_z55-t2Gr82ON3C1jPvINgTg). v1.0 file 1fvGvI8ERWGlC5PD7_7TxqPeoXZFqmhEg TRASHED 2026-07-11 (trademark recall + Bella species fix)."
+ },
+ "generation_rules": {
+  "model": "nano_banana_2",
+  "sunny_element_id": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
+  "max_clip_duration_seconds": 15,
+  "prompt_rule": "Every prompt MUST begin with the CHARACTER LOCK HEADER from show_bible.json",
+  "clip_looping": "PROHIBITED \u2014 every clip must be unique and used only once",
+  "clip_generation_order": "Generate clips in timeline order (Beat 1 first, final beat last)",
+  "existing_asset_preference": "Use existing Higgsfield image IDs before generating new images"
+ },
+ "timing_rules": {
+  "theme_song_duration_seconds": 44.78,
+  "timing_master": "AUDIO IS THE TIMING MASTER. Never trust planned durations \u2014 ffprobe the actual rendered audio file before cutting any video.",
+  "episode_formats": {
+   "STANDARD": {
+    "minimum_seconds": 300,
+    "maximum_seconds": 480,
+    "label": "5-8 min"
+   },
+   "EXTENDED": {
+    "minimum_seconds": 600,
+    "maximum_seconds": 900,
+    "label": "10-15 min"
+   }
   },
-  "generation_rules": {
-    "model": "nano_banana_2",
-    "sunny_element_id": "a40e2d56-573f-4bf2-bdcd-28c64014fdb9",
-    "max_clip_duration_seconds": 15,
-    "prompt_rule": "Every prompt MUST begin with the CHARACTER LOCK HEADER from show_bible.json",
-    "clip_looping": "PROHIBITED — every clip must be unique and used only once",
-    "clip_generation_order": "Generate clips in timeline order (Beat 1 first, final beat last)",
-    "existing_asset_preference": "Use existing Higgsfield image IDs before generating new images"
-  },
-  "timing_rules": {
-    "theme_song_duration_seconds": 44.78,
-    "timing_master": "AUDIO IS THE TIMING MASTER. Never trust planned durations — ffprobe the actual rendered audio file before cutting any video.",
-    "episode_formats": {
-      "STANDARD": {
-        "minimum_seconds": 300,
-        "maximum_seconds": 480,
-        "label": "5-8 min"
-      },
-      "EXTENDED": {
-        "minimum_seconds": 600,
-        "maximum_seconds": 900,
-        "label": "10-15 min"
-      }
-    },
-    "episode_minimum_seconds": 300,
-    "episode_maximum_seconds": 900,
-    "padding_allowed": [
-      "reaction beats",
-      "participatory moments",
-      "movement moments",
-      "call-and-response",
-      "character facial reactions"
-    ],
-    "padding_prohibited": [
-      "random clip loops",
-      "duplicate scene cuts",
-      "unrelated filler footage"
-    ]
-  },
-  "assembly_rules": {
-    "shot_sequence": "Clips are sequenced in ascending beat order — no random ordering",
-    "transition": "Simple cuts only — no effects between clips unless creator-specified",
-    "music_sync": "Theme song attached to ACT 1; episode song attached to ACT 3; outro sting to ACT 4",
-    "no_gap": "No silent black frames between clips — assembly must be seamless"
-  },
-  "delivery_rules": {
-    "google_drive_destination": "Sunny and the Crew — Production → FINALS — READY TO UPLOAD",
-    "file_naming": "EP##-[Slug]-FINAL.mp4 (example: EP01-Ask-Ask-Ask-FINAL.mp4)",
-    "youtube_metadata": {
-      "made_for_kids": true,
-      "category": "Education",
-      "tags": [
-        "preschool",
-        "kids songs",
-        "social emotional learning",
-        "animated",
-        "Sunny and the Crew",
-        "children's show",
-        "4-7",
-        "YouTube Kids"
-      ]
-    },
-    "make_delivery": "CORRECTED 2026-07-11: scenario 5575994 is the Kling engine, NOT delivery. Deliver via a one-shot Make scenario (clone the 5610723 pattern): HTTP get (raw GitHub file URL, output {{1.data}}) -> google-drive:uploadAFile v4 (connection google-restricted 7476809). Activate -> run responsive -> deactivate IMMEDIATELY; runs can double-fire, so always check the Drive folder and trash the duplicate via google-drive:makeApiCall PATCH /v3/files/<id> {\"trashed\": true}."
-  },
-  "prohibited_actions": [
-    "Touching WILLO Make.com scenarios: 5106170, 5106176, 5106181, 5111331",
-    "Asking creator to paste API keys into chat",
-    "Connecting JD Life With FND to any Sunny and the Crew activity",
-    "Connecting Gigi's Playhouse assets or folders to this production",
-    "Redesigning Sunny's appearance",
-    "Using any model other than nano_banana_2 for character generation",
-    "Looping clips",
-    "Random scene generation not based on beat sheet",
-    "Depicting any real-world brand logo or trademark (clothing, shoes, props, signage) — Koda v2 was recalled for a branded shoe swoosh"
+  "episode_minimum_seconds": 300,
+  "episode_maximum_seconds": 900,
+  "padding_allowed": [
+   "reaction beats",
+   "participatory moments",
+   "movement moments",
+   "call-and-response",
+   "character facial reactions"
   ],
-  "quality_checks": [
-    "Verify clip count matches beat count before assembly",
-    "Verify no clip ID appears twice in timeline",
-    "Verify CHARACTER LOCK HEADER was used in every image prompt",
-    "Verify total runtime is within the declared format band: STANDARD 5:00-8:00 or EXTENDED 10:00-15:00",
-    "Verify the episode begins with THEME-INTRO-MASTER.mp4 prepended unmodified",
-    "Verify outro ends with Sunny wave goodbye (asset 3d56c3cb or equivalent)",
-    "Verify theme song is at the start of ACT 1",
-    "Verify episode song covers full duration of ACT 3",
-    "Zoom-inspect character reference images (feet, chest, props) for real-world brand marks BEFORE locking any element"
+  "padding_prohibited": [
+   "random clip loops",
+   "duplicate scene cuts",
+   "unrelated filler footage"
+  ]
+ },
+ "assembly_rules": {
+  "shot_sequence": "Clips are sequenced in ascending beat order \u2014 no random ordering",
+  "transition": "Simple cuts only \u2014 no effects between clips unless creator-specified",
+  "music_sync": "Theme song attached to ACT 1; episode song attached to ACT 3; outro sting to ACT 4",
+  "no_gap": "No silent black frames between clips \u2014 assembly must be seamless"
+ },
+ "delivery_rules": {
+  "google_drive_destination": "Sunny and the Crew \u2014 Production \u2192 FINALS \u2014 READY TO UPLOAD",
+  "file_naming": "EP##-[Slug]-FINAL.mp4 (example: EP01-Ask-Ask-Ask-FINAL.mp4)",
+  "youtube_metadata": {
+   "made_for_kids": true,
+   "category": "Education",
+   "tags": [
+    "preschool",
+    "kids songs",
+    "social emotional learning",
+    "animated",
+    "Sunny and the Crew",
+    "children's show",
+    "4-7",
+    "YouTube Kids"
+   ]
+  },
+  "make_delivery": "CORRECTED 2026-07-11: scenario 5575994 is the Kling engine, NOT delivery. Deliver via a one-shot Make scenario (clone the 5610723 pattern): HTTP get (raw GitHub file URL, output {{1.data}}) -> google-drive:uploadAFile v4 (connection google-restricted 7476809). Activate -> run responsive -> deactivate IMMEDIATELY; runs can double-fire, so always check the Drive folder and trash the duplicate via google-drive:makeApiCall PATCH /v3/files/<id> {\"trashed\": true}."
+ },
+ "prohibited_actions": [
+  "Touching WILLO Make.com scenarios: 5106170, 5106176, 5106181, 5111331",
+  "Asking creator to paste API keys into chat",
+  "Connecting JD Life With FND to any Sunny and the Crew activity",
+  "Connecting Gigi's Playhouse assets or folders to this production",
+  "Redesigning Sunny's appearance",
+  "Using any model other than nano_banana_2 for character generation",
+  "Looping clips",
+  "Random scene generation not based on beat sheet",
+  "Depicting any real-world brand logo or trademark (clothing, shoes, props, signage) \u2014 Koda v2 was recalled for a branded shoe swoosh",
+  "Default/unjustified slow-motion or 'gentle/slow' body motion on tier A/B clips (creator directive 2026-07-13) \u2014 real-time is the default",
+  "Requiring the creator to manually run ElevenLabs or any external VO tool \u2014 VO is generated internally via seed_audio"
+ ],
+ "quality_checks": [
+  "Verify clip count matches beat count before assembly",
+  "Verify no clip ID appears twice in timeline",
+  "Verify CHARACTER LOCK HEADER was used in every image prompt",
+  "Verify total runtime is within the declared format band: STANDARD 5:00-8:00 or EXTENDED 10:00-15:00",
+  "Verify the episode begins with THEME-INTRO-MASTER.mp4 prepended unmodified",
+  "Verify outro ends with Sunny wave goodbye (asset 3d56c3cb or equivalent)",
+  "Verify theme song is at the start of ACT 1",
+  "Verify episode song covers full duration of ACT 3",
+  "Zoom-inspect character reference images (feet, chest, props) for real-world brand marks BEFORE locking any element",
+  "MOTION: every clip has motion_tier + speedramp:off; no banned slow words on tier A/B without slomo_justification; <=1 SLOMO/episode; imitable moves full-body framed",
+  "SAY-WHAT-YOU-SEE: each dialogue line action_verb matches its clip visual_action",
+  "AUDIO-TIMING: section clip durs regenerated from ffprobed VO/beat lengths, not planned numbers"
+ ],
+ "VERIFICATION_PROTOCOL": {
+  "rule": "CHECK BEFORE DECLARING MISSING",
+  "description": "Before flagging any character, location, image, job ID, element ID, or asset as missing, pending, or ungenerated \u2014 complete ALL four steps below. Only after zero results across all four steps may you declare something missing.",
+  "steps": [
+   "STEP 1 \u2014 Search characters.json and locations.json for the item by ID, name, and all known aliases",
+   "STEP 2 \u2014 Search the Google Drive CHARACTERS folder and all subfolders for any document or image file containing the character name",
+   "STEP 3 \u2014 Search the Google Drive LOCATIONS folder and all subfolders for any document or image file containing the location name",
+   "STEP 4 \u2014 Search all past chat context, reference documents, and JSON files in Drive for job IDs, element IDs, or pose IDs"
   ],
-  "VERIFICATION_PROTOCOL": {
-    "rule": "CHECK BEFORE DECLARING MISSING",
-    "description": "Before flagging any character, location, image, job ID, element ID, or asset as missing, pending, or ungenerated — complete ALL four steps below. Only after zero results across all four steps may you declare something missing.",
-    "steps": [
-      "STEP 1 — Search characters.json and locations.json for the item by ID, name, and all known aliases",
-      "STEP 2 — Search the Google Drive CHARACTERS folder and all subfolders for any document or image file containing the character name",
-      "STEP 3 — Search the Google Drive LOCATIONS folder and all subfolders for any document or image file containing the location name",
-      "STEP 4 — Search all past chat context, reference documents, and JSON files in Drive for job IDs, element IDs, or pose IDs"
-    ],
-    "if_found_in_drive_but_not_repo": "Import into repo immediately and update the relevant JSON file. Do not ask permission. Do not flag as open item. Fix it.",
-    "google_drive_folders": {
-      "CHARACTERS_root": "1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc",
-      "CHARACTERS_main_crew": "1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc",
-      "CHARACTERS_supporting_cast": "1XAEtTqETMbe6N_F4mX8ln0LuDvBBZfUi",
-      "PRODUCTION_root": "10mtwmiNFKY6_VGqM62RTfx8aMN2SjNY2"
-    },
-    "applies_to": "Every task, every session, every time — no exceptions",
-    "self_check": "I will not tell the creator something is missing until I have searched Drive. I will not ask the creator to provide information that is already in Drive."
-  }
+  "if_found_in_drive_but_not_repo": "Import into repo immediately and update the relevant JSON file. Do not ask permission. Do not flag as open item. Fix it.",
+  "google_drive_folders": {
+   "CHARACTERS_root": "1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc",
+   "CHARACTERS_main_crew": "1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc",
+   "CHARACTERS_supporting_cast": "1XAEtTqETMbe6N_F4mX8ln0LuDvBBZfUi",
+   "PRODUCTION_root": "10mtwmiNFKY6_VGqM62RTfx8aMN2SjNY2"
+  },
+  "applies_to": "Every task, every session, every time \u2014 no exceptions",
+  "self_check": "I will not tell the creator something is missing until I have searched Drive. I will not ask the creator to provide information that is already in Drive."
+ },
+ "motion_pacing_rules": {
+  "_ref": "production-os/25_motion_pacing_rules.md",
+  "locked": "2026-07-13",
+  "default": "real-time 1.0x; motion must match visual_action + dialogue + song beat",
+  "seedance_params": {
+   "speedramp": "off",
+   "mode": "std",
+   "duration_by_tier": {
+    "A": "3-4s",
+    "B": "4s",
+    "C": "<=5s"
+   }
+  },
+  "model_escalation": "kling3_0 for dance/movement hero shots; seedance_2_0 for identity dialogue",
+  "banned_motion_words_tierAB": [
+   "gently",
+   "very gently",
+   "slowly",
+   "softly",
+   "drifts",
+   "floats",
+   "slow-motion",
+   "dreamy"
+  ],
+  "slomo": "<=1 per episode, requires clip.slomo_justification; validator errors otherwise",
+  "framing": "imitable moves full-body, mirrored to viewer, silhouette-readable"
+ },
+ "voice_registry": {
+  "_ref": "production-os/27_internal_ai_vo_plan.md",
+  "locked": "2026-07-13",
+  "engine": "higgsfield generate_audio model=seed_audio (ByteDance); NO manual ElevenLabs",
+  "voice_type": "element (per-character locked voice_id via create_voice; stored in characters.json)",
+  "speech_rate_default": 0.95,
+  "audio_is_timing_master": true,
+  "clip_dur_source": "regenerated from ffprobed VO line length + pause_after_s (not estimates)",
+  "lip_sync": "higgsfield dubbing on direct-address close-ups + ~6 song hero shots only",
+  "creator_action": "approve 9 voices once (single pilot); all VO automated thereafter"
+ }
 }
