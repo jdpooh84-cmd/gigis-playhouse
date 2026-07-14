@@ -77,4 +77,12 @@ jobs:
             "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-song-section-v2.mp4" \
             "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-A-is-for-amazing-FINAL.mp4" 2>/dev/null || true
           git commit -m "EP01: assemble v2 sections + stitch final (auto)" || echo "nothing to commit"
-          git push
+          # race-proof push: another push (e.g. the session's own commits) may have
+          # landed after checkout; rebase our single auto-commit on top and retry.
+          for i in 1 2 3 4 5; do
+            git push && break || {
+              echo "push rejected, rebasing on remote (attempt $i)"
+              git pull --rebase origin "${GITHUB_REF_NAME}" || git rebase --abort || true
+              sleep 3
+            }
+          done
