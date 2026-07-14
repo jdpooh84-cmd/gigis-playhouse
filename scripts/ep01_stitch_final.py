@@ -47,6 +47,33 @@ def run(cmd):
         print(r.stdout); print(r.stderr); sys.exit("FAILED: %s" % " ".join(cmd[:6]))
     return r.stdout
 
+def find_font():
+    for p in ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+              "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+              "/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf"):
+        if os.path.exists(p): return p
+    out = subprocess.run(["fc-match", "-f", "%{file}", "bold"], capture_output=True, text=True).stdout.strip()
+    if out and os.path.exists(out): return out
+    sys.exit("no usable bold font for the intro logo")
+
+# INTRO LOGO (placeholder title card, composited over SEC-01's existing opening motion).
+#   0.0-2.5s: held full-opacity, centred, kid-readable, high contrast panel behind.
+#   2.5-3.5s: fades out over 1s; the existing intro motion keeps playing underneath.
+#   Overlay only — SEC-01 duration (and the 5:52 total) is unchanged.
+#   Marked "Placeholder logo pending final asset" in EP01_repair_contract_plan.md.
+FONT = find_font()
+_A = "if(lt(t,2.5),1,max(0,1-(t-2.5)/1.0))"   # hold 2.5s then 1s fade
+_EN = "lt(t,3.55)"
+LOGO_VF = (
+    ",drawtext=fontfile='%s':text='Sunny and the Crew':fontcolor=0xFFF3C4:fontsize=90:"
+    "x=(w-tw)/2:y=(h-th)/2-24:box=1:boxcolor=0x1A1030@0.62:boxborderw=46:"
+    "borderw=3:bordercolor=0x7A3FB0:shadowcolor=black@0.55:shadowx=3:shadowy=3:"
+    "alpha='%s':enable='%s'"
+    ",drawtext=fontfile='%s':text='A Is for Amazing':fontcolor=0xFFFFFF:fontsize=42:"
+    "x=(w-tw)/2:y=(h-th)/2+74:borderw=2:bordercolor=0x7A3FB0:shadowcolor=black@0.5:shadowx=2:shadowy=2:"
+    "alpha='%s':enable='%s'"
+) % (FONT, _A, _EN, FONT, _A, _EN)
+
 def dur(path):
     return float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
                       "-of", "default=noprint_wrappers=1:nokey=1", path]).strip())
@@ -57,9 +84,10 @@ for i, (name, src) in enumerate(SECTIONS):
     if not os.path.exists(src):
         sys.exit("missing section source: %s (%s)" % (name, src))
     norm = "_staging/stitch_work/%s.mp4" % name
+    vf_sec = VF + (LOGO_VF if name == "SEC-01" else "")   # logo composited onto SEC-01 opening
     # CRF 26 + capped rate keeps the ~6:43 final comfortably under GitHub's 100 MB
     # limit (flat cartoon compresses well; CRF 20 produced 107 MB and was rejected)
-    run(["ffmpeg", "-y", "-i", src, "-vf", VF, "-r", "30",
+    run(["ffmpeg", "-y", "-i", src, "-vf", vf_sec, "-r", "30",
          "-c:v", "libx264", "-preset", "veryfast", "-crf", "26",
          "-maxrate", "2M", "-bufsize", "4M", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2", norm])

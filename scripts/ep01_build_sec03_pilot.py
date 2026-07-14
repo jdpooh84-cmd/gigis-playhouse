@@ -21,7 +21,9 @@ import json, os, subprocess, sys
 
 LIPSYNC_OFFSET = 0.40   # default VO delay to reach the mouth-onset (per-clip override via "offset")
 TAIL_PAUSE     = 0.45   # min breathing room after the voice
-GHOST_TAIL     = 0.30   # keep this much video after speech ends, then FREEZE (kills ghost-mouth)
+GHOST_TAIL     = 0.30   # only used for clips explicitly flagged "ghost_trim": trim to speech-end + this
+TAIL_SLOW_REGION = 1.2  # when a slot is longer than the clip, gently slow this much of the RESTING
+                        # tail to fill it — living motion, NEVER a freeze/corpse frame
 GATE_LO, GATE_HI = 0.25, 0.65   # measured onset band (guards against audio-ahead-of-lips)
 
 VF = ("scale=1280:720:force_original_aspect_ratio=decrease,"
@@ -98,33 +100,56 @@ for i,c in enumerate(spec["clips"]):
                "x=(w-tw)/2:y=h-118:borderw=5:bordercolor=black@0.85:shadowcolor=black@0.4:shadowx=3:shadowy=3:"
                "alpha='min(1,max(0,(t-%.2f)/0.4))'"%(FONT,nm,off))
         return vf
+    # PACING: play the clip's own continuous motion to fill its slot (NO corpse-frame freeze).
+    #   base_len = min(slot, vlen): the real motion we can show at 1x.
+    #   ghost_trim (opt-in, per-clip): the ONLY case we cut at speech-end — reserved for clips
+    #       QA proves keep flapping the mouth past the audio; each such clip is logged.
+    ghost = bool(c.get("ghost_trim"))
+    if has_vo and ghost:
+        base_len = min(vlen, off+volen+GHOST_TAIL)   # stop the mouth when the line stops
+    else:
+        base_len = min(slot, vlen)
+    base=f"{WORK}/base_{i:02d}.mp4"
+    vf=VF+",trim=end=%.3f,setpts=PTS-STARTPTS"%base_len
+    vf=letter_ov(vf)
     if has_vo:
-        # GHOST-MOUTH FIX: play only through speech (+small tail), then FREEZE so the
-        # mouth stops when the audio stops — no double/ghost talking after the line.
-        cut_at=min(vlen, off+volen+GHOST_TAIL)
-        freeze=max(0.0, slot-cut_at)
-        vf=VF+",trim=end=%.3f,setpts=PTS-STARTPTS"%cut_at
-        if freeze>0.03: vf=vf+",tpad=stop_mode=clone:stop_duration=%.3f"%freeze
-        vf=letter_ov(vf)
         af="adelay=%d:all=1,apad"%int(off*1000)  # re-time VO onto the mouth wind-up
-        run(["ffmpeg","-y","-v","error","-i",src,"-i",vo,"-t","%.3f"%slot,
+        run(["ffmpeg","-y","-v","error","-i",src,"-i",vo,"-t","%.3f"%base_len,
              "-map","0:v:0","-map","1:a:0","-vf",vf,"-af",af,
              "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
-             "-c:a","aac","-b:a","128k","-ar","44100","-ac","2",cut])
-        on=audio_onset(cut); ok = GATE_LO <= on <= GATE_HI+0.15
+             "-c:a","aac","-b:a","128k","-ar","44100","-ac","2",base])
+        on=audio_onset(base); ok = GATE_LO <= on <= GATE_HI+0.15
         gate.append((cid,round(on,3),ok))
     else:
-        vf=VF
-        if slot>vlen+0.03: vf=vf+",tpad=stop_mode=clone:stop_duration=%.3f"%(slot-vlen)
-        vf=letter_ov(vf)
         run(["ffmpeg","-y","-v","error","-i",src,"-f","lavfi","-i",
-             "anullsrc=channel_layout=stereo:sample_rate=44100","-t","%.3f"%slot,
+             "anullsrc=channel_layout=stereo:sample_rate=44100","-t","%.3f"%base_len,
              "-map","0:v:0","-map","1:a:0","-vf",vf,
              "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
-             "-c:a","aac","-b:a","128k",cut]); on=None
-    parts.append(cut); total+=slot
-    print("  %-12s vo=%.2fs off=%.2f slot=%.2f onset=%s %s"%(
-        cid,volen,off,slot,("%.3f"%on) if on is not None else "wordless",("letter "+c["letter"]) if c.get("letter") else ""))
+             "-c:a","aac","-b:a","128k",base]); on=None
+    # FILL any surplus (slot longer than the real motion) by gently slowing the RESTING tail
+    # — living slow-settle, never a frozen frame. The speaking part is never slowed.
+    fill="full-motion"
+    if slot > base_len + 0.03:
+        speak_end = (off+volen) if has_vo else 0.0
+        tsplit = max(speak_end+0.05, base_len-TAIL_SLOW_REGION)
+        tsplit = min(max(tsplit,0.0), base_len-0.30)
+        factor = (slot - tsplit) / (base_len - tsplit)
+        if factor > 2.5: factor = 2.5   # guard (rare); -t below caps the tiny remainder
+        fc=("[0:v]trim=0:%.3f,setpts=PTS-STARTPTS[h];"
+            "[0:v]trim=%.3f:%.3f,setpts=(PTS-STARTPTS)*%.4f[t];"
+            "[h][t]concat=n=2:v=1[v];[0:a]apad[a]"%(tsplit,tsplit,base_len,factor))
+        run(["ffmpeg","-y","-v","error","-i",base,"-filter_complex",fc,
+             "-map","[v]","-map","[a]","-t","%.3f"%slot,
+             "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
+             "-c:a","aac","-b:a","128k","-ar","44100","-ac","2",cut])
+        fill="slow-tail x%.2f @%.1fs"%(factor,tsplit)
+        parts.append(cut)
+    else:
+        parts.append(base)
+    total+=slot
+    print("  %-12s vo=%.2fs off=%.2f slot=%.2f base=%.2f onset=%s %s [%s]%s"%(
+        cid,volen,off,slot,base_len,("%.3f"%on) if on is not None else "wordless",
+        ("letter "+c["letter"]) if c.get("letter") else "", fill, " GHOST_TRIM" if ghost else ""))
 
 fails=[g for g in gate if not g[2]]
 if fails:
