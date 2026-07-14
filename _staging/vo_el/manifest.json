@@ -1,0 +1,413 @@
+{
+ "model": "eleven_multilingual_v2",
+ "clips": [
+  {
+   "clip_id": "EP01-NP-C01",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C01.mp3",
+   "dur": 2.043356,
+   "text": "Today is Name Day!"
+  },
+  {
+   "clip_id": "EP01-NP-C02",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C02.mp3",
+   "dur": 2.414875,
+   "text": "Every name has amazing letters!"
+  },
+  {
+   "clip_id": "EP01-NP-C03",
+   "speaker": "Mia",
+   "voice_id": "XJ2fW4ybq7HouelYYGcL",
+   "file": "_staging/vo_el/EP01-NP-C03.mp3",
+   "dur": 2.275556,
+   "text": "My name claps — MEE-ah!"
+  },
+  {
+   "clip_id": "EP01-NP-C04",
+   "speaker": "Leo",
+   "voice_id": "GsfuR3Wo2BACoxELWyEF",
+   "file": "_staging/vo_el/EP01-NP-C04.mp3",
+   "dur": 2.275556,
+   "text": "LEE-oh! Two claps too!"
+  },
+  {
+   "clip_id": "EP01-NP-C05",
+   "speaker": "Pipa",
+   "voice_id": "U09MtJ2GfKEZSsIvMw9i",
+   "file": "_staging/vo_el/EP01-NP-C05.mp3",
+   "dur": 1.439637,
+   "text": "My name's not special."
+  },
+  {
+   "clip_id": "EP01-NP-C06",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C06.mp3",
+   "dur": 1.625397,
+   "text": "How do you feel right now?"
+  },
+  {
+   "clip_id": "EP01-NP-C07",
+   "speaker": "Pipa",
+   "voice_id": "U09MtJ2GfKEZSsIvMw9i",
+   "file": "_staging/vo_el/EP01-NP-C07.mp3",
+   "dur": 1.114558,
+   "text": "I feel small."
+  },
+  {
+   "clip_id": "EP01-NP-C08",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C08.mp3",
+   "dur": 1.671837,
+   "text": "Even your name is amazing."
+  },
+  {
+   "clip_id": "EP01-NP-C09",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C09.mp3",
+   "dur": 1.114558,
+   "text": "Say your name with me!"
+  },
+  {
+   "clip_id": "EP01-NP-C10",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C10.mp3",
+   "dur": 1.996916,
+   "text": "I heard you! Amazing!"
+  },
+  {
+   "clip_id": "EP01-NP-C11",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C11.mp3",
+   "dur": 1.393197,
+   "text": "Let's make an A!"
+  },
+  {
+   "clip_id": "EP01-NP-C12",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C12.mp3",
+   "dur": 1.811156,
+   "text": "Arms up high — big A!"
+  },
+  {
+   "clip_id": "EP01-NP-C13",
+   "speaker": "Leo",
+   "voice_id": "GsfuR3Wo2BACoxELWyEF",
+   "file": "_staging/vo_el/EP01-NP-C13.mp3",
+   "dur": 2.043356,
+   "text": "Trace an A in the air!"
+  },
+  {
+   "clip_id": "EP01-NP-C14",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C14.mp3",
+   "dur": 1.439637,
+   "text": "Now clap your name!"
+  },
+  {
+   "clip_id": "EP01-NP-C15",
+   "speaker": "Mia",
+   "voice_id": "XJ2fW4ybq7HouelYYGcL",
+   "file": "_staging/vo_el/EP01-NP-C15.mp3",
+   "dur": 3.575873,
+   "text": "SUH-nee! MEE-ah! LEE-oh!"
+  },
+  {
+   "clip_id": "EP01-NP-C16",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C16.mp3",
+   "dur": 1.718277,
+   "text": "Pipa, clap your name!"
+  },
+  {
+   "clip_id": "EP01-NP-C17",
+   "speaker": "Pipa",
+   "voice_id": "U09MtJ2GfKEZSsIvMw9i",
+   "file": "_staging/vo_el/EP01-NP-C17.mp3",
+   "dur": 0.696599,
+   "text": "PEE-pah!"
+  },
+  {
+   "clip_id": "EP01-NP-C18",
+   "speaker": "Crew",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C18.mp3",
+   "dur": 1.068118,
+   "text": "Yay, Pipa!"
+  },
+  {
+   "clip_id": "EP01-NP-C19",
+   "speaker": "Pipa",
+   "voice_id": "U09MtJ2GfKEZSsIvMw9i",
+   "file": "_staging/vo_el/EP01-NP-C19.mp3",
+   "dur": 1.439637,
+   "text": "My name IS amazing!"
+  },
+  {
+   "clip_id": "EP01-NP-C20",
+   "speaker": "Leo",
+   "voice_id": "GsfuR3Wo2BACoxELWyEF",
+   "file": "_staging/vo_el/EP01-NP-C20.mp3",
+   "dur": 1.671837,
+   "text": "Can we sing the A song?"
+  },
+  {
+   "clip_id": "EP01-NP-C21",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C21.mp3",
+   "dur": 1.950476,
+   "text": "Ready? One — two — three!"
+  },
+  {
+   "clip_id": "EP01-NP-C22",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C22.mp3",
+   "dur": 1.532517,
+   "text": "We made an A!"
+  },
+  {
+   "clip_id": "EP01-NP-C23",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C23.mp3",
+   "dur": 1.346757,
+   "text": "We clapped our names!"
+  },
+  {
+   "clip_id": "EP01-NP-C24",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C24.mp3",
+   "dur": 1.764717,
+   "text": "Pipa, how do you feel?"
+  },
+  {
+   "clip_id": "EP01-NP-C25",
+   "speaker": "Pipa",
+   "voice_id": "U09MtJ2GfKEZSsIvMw9i",
+   "file": "_staging/vo_el/EP01-NP-C25.mp3",
+   "dur": 0.789478,
+   "text": "Proud!"
+  },
+  {
+   "clip_id": "EP01-NP-C26",
+   "speaker": "Pipa",
+   "voice_id": "U09MtJ2GfKEZSsIvMw9i",
+   "file": "_staging/vo_el/EP01-NP-C26.mp3",
+   "dur": 1.207438,
+   "text": "Clapping my name helped."
+  },
+  {
+   "clip_id": "EP01-NP-C27",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C27.mp3",
+   "dur": 1.486077,
+   "text": "Your turn at home:"
+  },
+  {
+   "clip_id": "EP01-NP-C28",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C28.mp3",
+   "dur": 1.764717,
+   "text": "Clap your name! Make an A!"
+  },
+  {
+   "clip_id": "EP01-NP-C29",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C29.mp3",
+   "dur": 2.925714,
+   "text": "Every crew needs YOU... yes, YOU."
+  },
+  {
+   "clip_id": "EP01-NP-C30",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-C30.mp3",
+   "dur": 1.625397,
+   "text": "Bye, amazing friends!"
+  },
+  {
+   "clip_id": "EP01-NP-N08",
+   "speaker": "Crew",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-N08.mp3",
+   "dur": 1.671837,
+   "text": "Name Day! Hooray!"
+  },
+  {
+   "clip_id": "EP01-NP-N01",
+   "speaker": "Koda",
+   "voice_id": "mMf8pnvS4tTEecRvNcpn",
+   "file": "_staging/vo_el/EP01-NP-N01.mp3",
+   "dur": 1.904036,
+   "text": "My name is amazing — Koh-duh!"
+  },
+  {
+   "clip_id": "EP01-NP-N02",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-N02.mp3",
+   "dur": 3.018594,
+   "text": "Mimi's name claps too — MEE-mee!"
+  },
+  {
+   "clip_id": "EP01-NP-N03",
+   "speaker": "Bram",
+   "voice_id": "mrQhZWGbb2k9qWJb5qeA",
+   "file": "_staging/vo_el/EP01-NP-N03.mp3",
+   "dur": 1.578957,
+   "text": "BRAM! One big clap!"
+  },
+  {
+   "clip_id": "EP01-NP-N06",
+   "speaker": "Crew",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-N06.mp3",
+   "dur": 1.625397,
+   "text": "Every name is amazing!"
+  },
+  {
+   "clip_id": "EP01-NP-N04",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-N04.mp3",
+   "dur": 2.507755,
+   "text": "One of a kind — just like YOU!"
+  },
+  {
+   "clip_id": "EP01-NP-N05",
+   "speaker": "Ava",
+   "voice_id": "eBvoGh8YGJn1xokno71w",
+   "file": "_staging/vo_el/EP01-NP-N05.mp3",
+   "dur": 1.764717,
+   "text": "What a crew of amazing names!"
+  },
+  {
+   "clip_id": "EP01-NP-N10",
+   "speaker": "Ava",
+   "voice_id": "eBvoGh8YGJn1xokno71w",
+   "file": "_staging/vo_el/EP01-NP-N10.mp3",
+   "dur": 1.578957,
+   "text": "Let's practice our letters!"
+  },
+  {
+   "clip_id": "EP01-NP-N11",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-N11.mp3",
+   "dur": 1.718277,
+   "text": "What's YOUR letter? Trace it!"
+  },
+  {
+   "clip_id": "EP01-NP-N19",
+   "speaker": "Ava",
+   "voice_id": "eBvoGh8YGJn1xokno71w",
+   "file": "_staging/vo_el/EP01-NP-N19.mp3",
+   "dur": 1.671837,
+   "text": "Now — clap your names!"
+  },
+  {
+   "clip_id": "EP01-NP-N20",
+   "speaker": "Koda",
+   "voice_id": "mMf8pnvS4tTEecRvNcpn",
+   "file": "_staging/vo_el/EP01-NP-N20.mp3",
+   "dur": 1.718277,
+   "text": "Koh-duh — big claps!"
+  },
+  {
+   "clip_id": "EP01-NP-N14",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-N14.mp3",
+   "dur": 1.718277,
+   "text": "Look at Mimi go!"
+  },
+  {
+   "clip_id": "EP01-NP-N12",
+   "speaker": "Bram",
+   "voice_id": "mrQhZWGbb2k9qWJb5qeA",
+   "file": "_staging/vo_el/EP01-NP-N12.mp3",
+   "dur": 1.300317,
+   "text": "Mine goes... oops!"
+  },
+  {
+   "clip_id": "EP01-NP-N13",
+   "speaker": "Bram",
+   "voice_id": "mrQhZWGbb2k9qWJb5qeA",
+   "file": "_staging/vo_el/EP01-NP-N13.mp3",
+   "dur": 1.439637,
+   "text": "BRAM! I did it!"
+  },
+  {
+   "clip_id": "EP01-NP-N22",
+   "speaker": "Leo",
+   "voice_id": "GsfuR3Wo2BACoxELWyEF",
+   "file": "_staging/vo_el/EP01-NP-N22.mp3",
+   "dur": 2.507755,
+   "text": "LEE-oh — trace and clap!"
+  },
+  {
+   "clip_id": "EP01-NP-N23",
+   "speaker": "Mia",
+   "voice_id": "XJ2fW4ybq7HouelYYGcL",
+   "file": "_staging/vo_el/EP01-NP-N23.mp3",
+   "dur": 1.996916,
+   "text": "MEE-ah — my letter M!"
+  },
+  {
+   "clip_id": "EP01-NP-N15",
+   "speaker": "Bram",
+   "voice_id": "mrQhZWGbb2k9qWJb5qeA",
+   "file": "_staging/vo_el/EP01-NP-N15.mp3",
+   "dur": 1.207438,
+   "text": "Your turn, sis!"
+  },
+  {
+   "clip_id": "EP01-NP-N24",
+   "speaker": "Ava",
+   "voice_id": "eBvoGh8YGJn1xokno71w",
+   "file": "_staging/vo_el/EP01-NP-N24.mp3",
+   "dur": 1.578957,
+   "text": "Amazing letters, everyone!"
+  },
+  {
+   "clip_id": "EP01-NP-N16",
+   "speaker": "Crew",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/EP01-NP-N16.mp3",
+   "dur": 1.346757,
+   "text": "We practiced all day!"
+  },
+  {
+   "clip_id": "EP01-NP-N17",
+   "speaker": "Pipa",
+   "voice_id": "U09MtJ2GfKEZSsIvMw9i",
+   "file": "_staging/vo_el/EP01-NP-N17.mp3",
+   "dur": 1.486077,
+   "text": "Our names are amazing!"
+  },
+  {
+   "clip_id": "EP01-NP-N21",
+   "speaker": "Ava",
+   "voice_id": "eBvoGh8YGJn1xokno71w",
+   "file": "_staging/vo_el/EP01-NP-N21.mp3",
+   "dur": 1.578957,
+   "text": "You were all amazing today!"
+  }
+ ]
+}
