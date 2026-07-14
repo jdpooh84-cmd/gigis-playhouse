@@ -1,0 +1,35 @@
+{
+ "_meta": {
+  "document": "voice_map_elevenlabs.json",
+  "locked": true,
+  "created": "2026-07-14",
+  "authority": "creator-locked FINAL ElevenLabs voice map. These IDs are the ONLY voices for these characters — no guessed presets, no pitch-hacked adult voices. Applies to EP01 and all future episodes.",
+  "engine": "ElevenLabs TTS (direct API). Higgsfield text2speech_v2 elevenlabs variant does NOT reach these private-account voices ('Voice not found'); call ElevenLabs API directly with the account api key (env secret ELEVENLABS_API_KEY, never pasted in chat).",
+  "rules": [
+   "NO NARRATOR — only in-world characters speak. 'Crew' group lines are voiced by an in-world kid (default: Sunny's voice).",
+   "Koda is pronounced 'KOH-duh' — spell 'Koh-duh' in TTS text if needed; keep 'Koda' in script/captions.",
+   "Kid characters sound like kids; adults (Ava/Nana/Mayor/Anne/Randy) sound like adults.",
+   "Cadence must match the intro song's playful rhythm/alliteration; learning sections musical, not flat."
+  ],
+  "crew_group_voice": "Sunny (BlgEcC0TfWpBak7FmvHW) — leads the crew call-and-response lines"
+ },
+ "voice_map": {
+  "Sunny": "BlgEcC0TfWpBak7FmvHW",
+  "Leo": "GsfuR3Wo2BACoxELWyEF",
+  "Mia": "XJ2fW4ybq7HouelYYGcL",
+  "Koda": "mMf8pnvS4tTEecRvNcpn",
+  "Mimi": "pPdl9cQBQq4p6mRkZy2Z",
+  "Pipa": "U09MtJ2GfKEZSsIvMw9i",
+  "Bram": "mrQhZWGbb2k9qWJb5qeA",
+  "Bella": "mHX7OoPk2G45VMAuinIt",
+  "Anne": "WZlYpi1yf6zJhNWXih74",
+  "Ava": "eBvoGh8YGJn1xokno71w",
+  "Randy": "g14YnDYCsy3k7XLlcKlO",
+  "Rena": "vGQNBgLaiM3EdZtxIiuY",
+  "Nana Blossom": "xctasy8XvGp2cVO9HL9k",
+  "Captain": "87n4zM8Wuy87vFILuKvE",
+  "Mayor Mary": "87n4zM8Wuy87vFILuKvE",
+  "Rico": "nNXPmxHfg9PtGzFxr9Zd"
+ },
+ "koda_pronunciation": "Koh-duh"
+}

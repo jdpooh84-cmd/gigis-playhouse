@@ -20,7 +20,8 @@
    ]
   },
   "adult_presence_rule": "Creator-locked 2026-07-11: EVERY episode, the crew comes across at least one adult mentor — Ava during learning segments (pops up anywhere, classroom optional) and/or Anne during song segments (sings along). Nana's porch, the mayor's office, and Randy's corner store are rotating location OPTIONS, never obligations.",
-  "drive_reference_rule": "Creator-locked 2026-07-11: the Drive folder 'Sunny and the Crew - Production > CHARACTERS' (root 1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc) holds each character's own reference folder. PULL FROM IT ANYTIME THERE IS A CHARACTER ISSUE — consult it before flagging anything missing, before regenerating any character, and when locking any new design."
+  "drive_reference_rule": "Creator-locked 2026-07-11: the Drive folder 'Sunny and the Crew - Production > CHARACTERS' (root 1mTdk4Uuo26OlhlV56nfMDKv5XPqZMVcc) holds each character's own reference folder. PULL FROM IT ANYTIME THERE IS A CHARACTER ISSUE — consult it before flagging anything missing, before regenerating any character, and when locking any new design.",
+  "voice_map": "ElevenLabs voice IDs locked per character 2026-07-14 (elevenlabs_voice_id field); NO Higgsfield presets / pitch-hacked voices for dialogue. Koda pronounced 'KOH-duh'. NO NARRATOR."
  },
  "main_crew": [
   {
@@ -67,7 +68,9 @@
    "note": "Sunny speaks directly to the audience. She is the emotional anchor for every episode.",
    "hard_rules": [
     "ONE head, correct proportions"
-   ]
+   ],
+   "elevenlabs_voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "KODA",
@@ -121,7 +124,9 @@
    ],
    "hard_rules": [
     "ONE head, correct proportions"
-   ]
+   ],
+   "elevenlabs_voice_id": "mMf8pnvS4tTEecRvNcpn",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "MIMI",
@@ -175,7 +180,9 @@
     "NEVER shoes",
     "NEVER socks"
    ],
-   "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 7b005b4b-da34-4bac-908b-ceb76f9d6247). v1 kept only for history — never use for prompts."
+   "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 7b005b4b-da34-4bac-908b-ceb76f9d6247). v1 kept only for history — never use for prompts.",
+   "elevenlabs_voice_id": "pPdl9cQBQq4p6mRkZy2Z",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "PIPA",
@@ -216,7 +223,9 @@
    "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element 8849bdb4-d5a1-419d-9abc-c7e36188750c). v1 kept only for history — never use for prompts.",
    "hard_rules": [
     "ONE head, correct proportions"
-   ]
+   ],
+   "elevenlabs_voice_id": "U09MtJ2GfKEZSsIvMw9i",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "BRAM",
@@ -258,7 +267,9 @@
    "appearance_note": "appearance = creator v2 design (locked 2026-07-10, matches element e80f7f4d-2563-4d1a-b950-196df45dcbf7). v1 kept only for history — never use for prompts.",
    "hard_rules": [
     "ONE head, correct proportions"
-   ]
+   ],
+   "elevenlabs_voice_id": "mrQhZWGbb2k9qWJb5qeA",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "LEO",
@@ -298,7 +309,9 @@
    "note": "Character design locked 2026-07-06. Previous placeholder entry (age 7, royal blue hoodie, lightning bolt patch) is SUPERSEDED.",
    "hard_rules": [
     "ONE head, correct proportions"
-   ]
+   ],
+   "elevenlabs_voice_id": "GsfuR3Wo2BACoxELWyEF",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "MIA",
@@ -340,7 +353,9 @@
    "hard_rules": [
     "EXACTLY TWO low pigtails with teal scrunchies — NEVER three",
     "ONE head, correct proportions"
-   ]
+   ],
+   "elevenlabs_voice_id": "XJ2fW4ybq7HouelYYGcL",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   }
  ],
  "supporting_cast": [
@@ -379,7 +394,9 @@
    "hard_rules": [
     "ALWAYS tallest character on screen",
     "ONE head, correct proportions"
-   ]
+   ],
+   "elevenlabs_voice_id": "xctasy8XvGp2cVO9HL9k",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "MAYOR_MARY",
@@ -413,7 +430,9 @@
    ],
    "hard_rules": [
     "ONE head, correct proportions"
-   ]
+   ],
+   "elevenlabs_voice_id": "87n4zM8Wuy87vFILuKvE",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "AVA",
@@ -446,7 +465,9 @@
    "hard_rules": [
     "ONE head, correct proportions"
    ],
-   "role_expanded": "RECURRING LEARNING MENTOR (creator directive 2026-07-11): the crew comes across Ava at least once per episode. Whenever the kids are LEARNING something (practice, phonics, counting, discovery segments), Ava pops up — classroom NOT required; she can appear anywhere in Marigold Grove. Rationale: no parents appear on screen, so Ava + Nana Blossom + Mayor Mary carry the trusted-adult presence."
+   "role_expanded": "RECURRING LEARNING MENTOR (creator directive 2026-07-11): the crew comes across Ava at least once per episode. Whenever the kids are LEARNING something (practice, phonics, counting, discovery segments), Ava pops up — classroom NOT required; she can appear anywhere in Marigold Grove. Rationale: no parents appear on screen, so Ava + Nana Blossom + Mayor Mary carry the trusted-adult presence.",
+   "elevenlabs_voice_id": "eBvoGh8YGJn1xokno71w",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "RICO",
@@ -480,7 +501,9 @@
     "original_reference": "b7ae3b5c-4621-40ae-920e-81b2a0f62aa8",
     "pose_sidewalk_basketball_pointing": "f661c59c-7bbc-4c1f-beb0-7cef8547fa44"
    },
-   "drive_reference_doc": "RICO — Image References and Job IDs (1wGsNp3rksd2c4N1Wzx8InNT0VYGDXAkwckD1mEZMWhM) — matches locked element aedc26e9"
+   "drive_reference_doc": "RICO — Image References and Job IDs (1wGsNp3rksd2c4N1Wzx8InNT0VYGDXAkwckD1mEZMWhM) — matches locked element aedc26e9",
+   "elevenlabs_voice_id": "nNXPmxHfg9PtGzFxr9Zd",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "RENA",
@@ -515,7 +538,9 @@
     "original_reference": "731cad3b-7a58-4add-84dd-d6d2244dfc66",
     "pose_garden_paintbrush_raised": "449409c2-ecee-43e8-8745-f104ced0f0af"
    },
-   "drive_reference_doc": "RENA — Image References and Job IDs (1dNf0AgQl0QybM4PDY4nqyQ_omO4nXX7TLDP3lxzMHCg) — matches locked element 9c55b6aa"
+   "drive_reference_doc": "RENA — Image References and Job IDs (1dNf0AgQl0QybM4PDY4nqyQ_omO4nXX7TLDP3lxzMHCg) — matches locked element 9c55b6aa",
+   "elevenlabs_voice_id": "vGQNBgLaiM3EdZtxIiuY",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "BELLA",
@@ -562,7 +587,9 @@
      "reason": "superseded 2026-07-11 by Bella-v2 built from creator reference images — old element risked feline drift (shipped theme T15 rendered a cat)"
     }
    ],
-   "design_note": "Bella-v2 element locked 2026-07-11 from creator dog references (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png)."
+   "design_note": "Bella-v2 element locked 2026-07-11 from creator dog references (repo: _staging/characters_new/bella-1-standing.png, bella-2-sitting.png).",
+   "elevenlabs_voice_id": "mHX7OoPk2G45VMAuinIt",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "GABRIEL",
@@ -617,7 +644,9 @@
    "generation_model": "nano_banana_2",
    "hard_rules": [
     "ONE head, correct proportions"
-   ]
+   ],
+   "elevenlabs_voice_id": "g14YnDYCsy3k7XLlcKlO",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "ANNE",
@@ -632,7 +661,9 @@
    "generation_model": "nano_banana_2",
    "hard_rules": [
     "ONE head, correct proportions"
-   ]
+   ],
+   "elevenlabs_voice_id": "WZlYpi1yf6zJhNWXih74",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "RANDY",
@@ -644,7 +675,9 @@
    "hard_rules": [
     "ONE head, correct proportions",
     "Never depict before a creator-approved design is locked"
-   ]
+   ],
+   "elevenlabs_voice_id": "g14YnDYCsy3k7XLlcKlO",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   },
   {
    "id": "ANNE",
@@ -656,7 +689,9 @@
    "hard_rules": [
     "ONE head, correct proportions",
     "Never depict before a creator-approved design is locked"
-   ]
+   ],
+   "elevenlabs_voice_id": "WZlYpi1yf6zJhNWXih74",
+   "voice_locked": "ElevenLabs (creator-locked 2026-07-14); see production-os/voice_map_elevenlabs.json"
   }
  ]
 }

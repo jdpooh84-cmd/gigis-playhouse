@@ -1,0 +1,87 @@
+#!/usr/bin/env python3
+"""Regenerate EP01 dialogue VO with the creator's locked ElevenLabs voices.
+
+Reads the locked voice map + the EP01 line ledger, and for every spoken line
+calls the ElevenLabs TTS API directly (the creator's private-account voices are
+not reachable via Higgsfield). Saves one mp3 per clip to _staging/vo_el/ and
+writes a manifest with ffprobed durations.
+
+Auth: ELEVENLABS_API_KEY must be present in the environment (set as an env
+secret — never pasted in chat / never printed here).
+Usage:
+  python3 scripts/generate_elevenlabs_vo.py            # all spoken lines
+  python3 scripts/generate_elevenlabs_vo.py EP01-NP-C01   # single line (key test)
+"""
+import json, os, subprocess, sys
+
+EP = "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing"
+OS_ = "sunny-and-the-crew/production-os"
+OUT = "_staging/vo_el"
+MODEL = "eleven_multilingual_v2"          # handles Leo's Spanish; warm kid delivery
+FMT = "mp3_44100_128"
+
+vmap = json.load(open(f"{OS_}/voice_map_elevenlabs.json"))["voice_map"]
+CREW_VOICE = vmap["Sunny"]                # in-world kid leads the group lines (no narrator)
+KODA_FIX = ("KO-DA", "Koh-duh")            # pronunciation, script/caption keep "Koda"
+
+led = json.load(open(f"{EP}/ep01_vo_ledger.json"))
+rows = [r for r in (led["lines"] + led["added_lines"]) if (r.get("render_text") or "").strip()]
+
+def voice_for(speaker):
+    if speaker == "Crew":
+        return CREW_VOICE
+    return vmap.get(speaker)
+
+def tts_text(speaker, text):
+    # Koda's own name-clap lines: render pronounceable, keep script text intact elsewhere
+    if speaker == "Koda":
+        text = text.replace("KO-DA", "Koh-duh").replace("Koda", "Koh-duh")
+    return text
+
+key = os.environ.get("ELEVENLABS_API_KEY")
+if not key:
+    sys.exit("ELEVENLABS_API_KEY not set in environment — set it as an env secret, then re-run.")
+
+os.makedirs(OUT, exist_ok=True)
+only = sys.argv[1] if len(sys.argv) > 1 else None
+manifest = []
+missing_voice = []
+for r in rows:
+    cid = r["clip_id"]
+    if only and cid != only:
+        continue
+    spk = r["speaker"]
+    vid = voice_for(spk)
+    if not vid:
+        missing_voice.append((cid, spk)); continue
+    text = tts_text(spk, r["render_text"])
+    dst = f"{OUT}/{cid}.mp3"
+    payload = json.dumps({
+        "text": text,
+        "model_id": MODEL,
+        "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": True},
+    })
+    # curl keeps the key in an env-referenced header; never echoed
+    r2 = subprocess.run(
+        ["curl", "-sS", "-w", "%{http_code}", "-o", dst,
+         "-X", "POST", f"https://api.elevenlabs.io/v1/text-to-speech/{vid}?output_format={FMT}",
+         "-H", "xi-api-key: " + key, "-H", "Content-Type: application/json",
+         "-d", payload],
+        capture_output=True, text=True)
+    code = (r2.stdout or "")[-3:]
+    sz = os.path.getsize(dst) if os.path.exists(dst) else 0
+    if code != "200" or sz < 1000:
+        body = open(dst).read()[:300] if sz and sz < 2000 else "(binary/empty)"
+        sys.exit(f"TTS FAIL {cid} spk={spk} http={code} size={sz} :: {body}")
+    dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                          "-of", "default=nokey=1:noprint_wrappers=1", dst],
+                         capture_output=True, text=True).stdout.strip()
+    manifest.append({"clip_id": cid, "speaker": spk, "voice_id": vid,
+                     "file": dst, "dur": float(dur) if dur else None, "text": text})
+    print(f"  {cid:16s} {spk:6s} {vid[:8]}.. {dur}s  {text[:40]!r}")
+
+if missing_voice:
+    print("NO VOICE MAPPED:", missing_voice)
+if not only:
+    json.dump({"model": MODEL, "clips": manifest}, open(f"{OUT}/manifest.json", "w"), indent=1, ensure_ascii=False)
+    print(f"wrote {OUT}/manifest.json — {len(manifest)} lines")
