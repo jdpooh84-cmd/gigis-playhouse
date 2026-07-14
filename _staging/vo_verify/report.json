@@ -70,7 +70,18 @@
    "Bram",
    "Mia",
    "Koda"
-  ]
+  ],
+  "read_scope_ok": false,
+  "resolved_by_synthesis": {
+   "Sunny": true,
+   "Pipa": true,
+   "Ava": true,
+   "Leo": true,
+   "Bram": true,
+   "Mia": true,
+   "Koda": true
+  },
+  "unusable": []
  },
  "taskB": {
   "lines": [
@@ -81,8 +92,8 @@
     "text": "Come on, Crew — let's find out!",
     "ok": true,
     "http": "200",
-    "bytes": 35152,
-    "duration_s": "2.136236",
+    "bytes": 33898,
+    "duration_s": "2.043356",
     "error": null
    },
    {
@@ -92,8 +103,8 @@
     "text": "My name is Koda.",
     "ok": true,
     "http": "200",
-    "bytes": 20524,
-    "duration_s": "1.207438",
+    "bytes": 19688,
+    "duration_s": "1.160998",
     "error": null
    },
    {
@@ -103,8 +114,63 @@
     "text": "My name is Koh-duh.",
     "ok": true,
     "http": "200",
-    "bytes": 23449,
-    "duration_s": "1.393197",
+    "bytes": 20942,
+    "duration_s": "1.253878",
+    "error": null
+   },
+   {
+    "char": "Pipa",
+    "voice_id": "U09MtJ2GfKEZSsIvMw9i",
+    "tag": "pipa_proof",
+    "text": "This is the best day ever!",
+    "ok": true,
+    "http": "200",
+    "bytes": 27211,
+    "duration_s": "1.625397",
+    "error": null
+   },
+   {
+    "char": "Ava",
+    "voice_id": "eBvoGh8YGJn1xokno71w",
+    "tag": "ava_proof",
+    "text": "Let's practice our letters!",
+    "ok": true,
+    "http": "200",
+    "bytes": 29301,
+    "duration_s": "1.764717",
+    "error": null
+   },
+   {
+    "char": "Leo",
+    "voice_id": "GsfuR3Wo2BACoxELWyEF",
+    "tag": "leo_proof",
+    "text": "Watch my rocket go!",
+    "ok": true,
+    "http": "200",
+    "bytes": 25539,
+    "duration_s": "1.532517",
+    "error": null
+   },
+   {
+    "char": "Bram",
+    "voice_id": "mrQhZWGbb2k9qWJb5qeA",
+    "tag": "bram_proof",
+    "text": "Let me think... got it!",
+    "ok": true,
+    "http": "200",
+    "bytes": 22613,
+    "duration_s": "1.346757",
+    "error": null
+   },
+   {
+    "char": "Mia",
+    "voice_id": "XJ2fW4ybq7HouelYYGcL",
+    "tag": "mia_proof",
+    "text": "I think I see it now.",
+    "ok": true,
+    "http": "200",
+    "bytes": 28465,
+    "duration_s": "1.718277",
     "error": null
    }
   ]
