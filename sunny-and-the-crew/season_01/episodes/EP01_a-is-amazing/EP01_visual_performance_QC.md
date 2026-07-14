@@ -42,3 +42,24 @@ Result: CU-SUNNY-DA 5×→~2×, PORCH 3×→1×, AVA 3×→1×, PIPA-PROUD 2×�
 - ✅ 9 VO lines re-imported; re-render spec prepared (`_staging/perf_fix/respec.json`).
 - ⛔ **BLOCKED: Higgsfield workspace is OUT OF CREDITS.** The 9 video re-renders fail with "Out of credits in the selected workspace." Nothing further can render until credits are topped up.
 - On top-up: fire the 9 seedance re-renders (start-image + same VO), swap their URLs into the SEC-02/03/05 specs, rebuild (sync-gate + letters unchanged), re-stitch, redeliver. ~20 min once credits are live. Voices/lip-sync/letters/pauses are untouched by design.
+
+---
+## RESULTS — perf-upgrade pass executed (2026-07-14, credits topped up)
+- **+4,000 Higgsfield credits** purchased and used to run this pass.
+- **9/9 upgraded re-renders completed** (varied staging + richer head/eye/hand/weight motion), on-model 3D, verified in the stitched cut:
+  | Clip | New look | verified |
+  |---|---|---|
+  | C02 | Sunny 3⁄4, head-turn + open-hand | ✓ |
+  | C08 | Sunny lean-in, soft/reassuring | ✓ |
+  | N04 | Sunny thinking→realize | ✓ |
+  | C24 | Sunny 3⁄4 to Pipa | ✓ |
+  | C27 | Sunny lean-in to camera | ✓ |
+  | C30 | Sunny goodbye wave | ✓ |
+  | N21 | Ava 3⁄4, hand-to-heart, eyeline to child | ✓ |
+  | C25 | Pipa proud-alt, chin up | ✓ |
+  | P3-01 | Ava 3⁄4 welcoming | ✓ |
+- Reuse reduced: CU-SUNNY-DA 5×→2×, CU-SUNNY-PORCH 3×→1×, CU-AVA 3×→1×, CU-PIPA-PROUD 2×→1×.
+- **Locked & unchanged:** total duration 5:52, section boundaries, VO/lip-sync (sync-gate ran in rebuild), letter overlays, audience 3s pauses, cast, 3D style.
+- **Delivered:** Drive FINALS `1zjc5qovGMx3CzDDbuYMELAn4ibDGVlIn` (48 MB); prior cut trashed; one clean file.
+- **Names/annunciation:** no name-VO change was needed inside the 9 (only C24 speaks a name — "Pipa" — timing untouched, now visually anchored by Sunny turning to her). Broader Sunny-name pronunciation tuning + optional first-intro name-tags remain a small separate VO+overlay pass pending your ear-confirm on the TTS.
+- **Failures:** none (one 429 rate-limit on P3-01, retried successfully).
