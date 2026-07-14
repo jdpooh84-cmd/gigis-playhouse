@@ -124,8 +124,15 @@
   "S04-04": "9a252ebd-5f65-453a-b0a3-d4424bb7fd09",
   "S04-05": "4a26d215-8ace-41ee-9a5c-c1dcb8249832",
   "S04-06": "1a843761-7f15-4e7a-9dac-bb6e2c428b33",
-  "S04-07": "a5f49faa-b9f0-45ce-bacb-055613124395"
+  "S04-07": "a5f49faa-b9f0-45ce-bacb-055613124395",
+  "S04-08": "8a6b7535-8db0-44be-92d7-e56efbd72002",
+  "S04-09": "e5766216-85af-4dbd-9db2-89288f103877",
+  "S04-10": "2939caf8-e4fb-4fc5-baea-bbdf58bf3670",
+  "S04-11": "be0af1b7-6f07-45d7-baed-7541a6a2a4de",
+  "S04-12": "11aef60a-98fd-48fa-8700-7171ef11f447",
+  "S04-13": "f64a1a1b-3537-43c7-b75c-27cf28c5fae2",
+  "S04-14": "02324036-81c4-46bc-bdc3-dcf8bf22f963"
  },
- "act_lipsync_subagent": "add806663cbc21ef4 (19 action lip-sync videos, running)",
- "sec04_todo": "batch2: chorus1 row2 (Pipa+Bram+Mimi A-pose); verse2 airplane x4 (Leo run, Koda+Mia zoom, Pipa+Bram wings, Sunny+Mimi glide); chorus2 x3; bridge x3 (sway hands-heart); final chorus x3 (full-crew A-pose finale, KIDS ONLY no Mayor Mary); outro x2 (waves). Then SEC-04 videos (movement to music, gen_audio false), build SEC-04 v2 keeping song audio byte-identical."
+ "act_lipsync_subagent": "a210c24bd163c2bf5 (re-spawned, file-persist -> _staging/vo_el/act_lipsync_results.json)",
+ "sec04_todo": "batch3 remaining ~8: bridge x3 (crew sway hands-on-heart), final-chorus x3 (KIDS-ONLY full A-pose finale, no adults), outro x2 (crew waves + Sunny settle). Then SEC-04 videos + build v2 (song audio byte-identical)."
 }
