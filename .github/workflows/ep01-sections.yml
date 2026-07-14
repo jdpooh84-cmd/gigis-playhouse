@@ -1,8 +1,13 @@
-name: Assemble EP01 section master
+name: Assemble EP01 sections + stitch final
 on:
   push:
     branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
-    paths: ["_staging/ep01_section_urls.json"]
+    paths:
+      - "_staging/ep01_section_urls.json"
+      - "_staging/ep01_sec02_urls.json"
+      - "_staging/ep01_sec03_urls.json"
+      - "_staging/ep01_sec05_urls.json"
+      - "_staging/ep01_stitch.trigger"
 
 permissions:
   contents: write
@@ -10,7 +15,7 @@ permissions:
 jobs:
   assemble:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - name: Install ffmpeg (static build, no apt)
@@ -28,13 +33,34 @@ jobs:
           echo "/tmp/ffmpeg-static/bin" >> "$GITHUB_PATH"
           /tmp/ffmpeg-static/bin/ffmpeg -version | head -1
           /tmp/ffmpeg-static/bin/ffprobe -version | head -1
-      - name: Build section
-        run: python3 scripts/ep01_build_section.py
-      - name: Commit section master
+      - name: Build v2 sections (each spec that exists)
+        run: |
+          set -e
+          for spec in _staging/ep01_sec02_urls.json _staging/ep01_sec03_urls.json _staging/ep01_sec05_urls.json; do
+            if [ -f "$spec" ]; then
+              echo "=== building $spec ==="
+              SECTION_SPEC="$spec" python3 scripts/ep01_build_section.py
+            fi
+          done
+          # legacy single-spec path still supported
+          if [ -f _staging/ep01_section_urls.json ] && [ ! -f _staging/ep01_sec05_urls.json ]; then
+            python3 scripts/ep01_build_section.py || true
+          fi
+      - name: Stitch full EP01 (SEC-01 + v2 SEC-02/03/05 + SEC-04)
+        run: |
+          set -e
+          if [ -f sections/EP01-SEC-02-story1-v2.mp4 ] && \
+             [ -f sections/EP01-SEC-03-story2-v2.mp4 ] && \
+             [ -f sections/EP01-SEC-05-reflection-v2.mp4 ]; then
+            python3 scripts/ep01_stitch_final.py
+          else
+            echo "not all v2 sections present yet — skipping stitch"
+          fi
+      - name: Commit outputs
         run: |
           git config user.name "section-bot"
           git config user.email "actions@github.com"
-          rm -rf _staging/section_work
-          git add sections/
-          git commit -m "sections: EP01 section master assembled" || echo "nothing to commit"
+          rm -rf _staging/section_work _staging/stitch_work
+          git add sections/ "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-A-is-for-amazing-FINAL.mp4" 2>/dev/null || true
+          git commit -m "EP01: assemble v2 sections + stitch final (auto)" || echo "nothing to commit"
           git push
