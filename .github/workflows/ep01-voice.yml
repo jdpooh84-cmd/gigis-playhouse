@@ -3,7 +3,8 @@ on:
   push:
     branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
     paths:
-      - "_staging/ep01_voice.trigger"
+      # gated: only fires on the FULL trigger, pushed by hand AFTER verify passes
+      - "_staging/ep01_voice_full.trigger"
   workflow_dispatch:
 
 permissions:

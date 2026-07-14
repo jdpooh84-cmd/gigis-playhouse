@@ -1,0 +1,50 @@
+name: Verify ElevenLabs voices (no render)
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths:
+      - "_staging/ep01_voice_verify.trigger"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg (static build, no apt)
+        run: |
+          set -e
+          url=https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz
+          for i in 1 2 3 4; do
+            curl -fL --connect-timeout 20 --max-time 240 "$url" -o /tmp/ffmpeg.tar.xz && break || sleep 6
+          done
+          mkdir -p /tmp/ffmpeg-static
+          tar -xf /tmp/ffmpeg.tar.xz -C /tmp/ffmpeg-static --strip-components=1
+          echo "/tmp/ffmpeg-static/bin" >> "$GITHUB_PATH"
+      - name: Prove voice visibility + synthesize 2 proof lines (NO EP01 render)
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          set -e
+          if [ -z "$ELEVENLABS_API_KEY" ]; then
+            echo "::error::repo secret ELEVENLABS_API_KEY is not set — add it in Settings > Secrets and variables > Actions (name it exactly ELEVENLABS_API_KEY), then re-run."
+            exit 1
+          fi
+          # verify script exits non-zero if any mapped id fails to resolve or a proof line fails;
+          # commit the report either way so the failure detail is visible.
+          python3 scripts/elevenlabs_verify.py || echo "VERIFY_FAILED=1" >> "$GITHUB_ENV"
+      - name: Commit verify report + proof mp3s
+        if: always()
+        run: |
+          git config user.name "voice-verify-bot"
+          git config user.email "actions@github.com"
+          git add _staging/vo_verify 2>/dev/null || true
+          git commit -m "EP01 voice verify: report + 2-line proof (no render)" || echo "nothing to commit"
+          git push
+      - name: Fail the job if verification was incomplete
+        if: env.VERIFY_FAILED == '1'
+        run: exit 1
