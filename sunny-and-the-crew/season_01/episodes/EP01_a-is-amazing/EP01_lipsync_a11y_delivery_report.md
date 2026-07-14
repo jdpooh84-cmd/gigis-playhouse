@@ -97,9 +97,12 @@ A **sidecar SRT** (`EP01-A-is-for-amazing.srt`, 59 cues, "Speaker: line") ships 
 ## SECTION C — Delivery
 
 - **Rebuilt FINAL:** `EP01-A-is-for-amazing-FINAL.mp4`
-- **Drive link:** _[FILL]_
+  → https://drive.google.com/file/d/1Xnqv6FDcl7MkiItcOofybbrTFABVmfKV/view?usp=drivesdk
+- **Open captions (sidecar):** `EP01-A-is-for-amazing.srt`
+  → https://drive.google.com/file/d/1_o0i__k33_QyYP_Nnihiit49sGLg7AA8/view?usp=drivesdk
 - **Location:** Sunny and the Crew — Production ▸ FINALS — READY TO UPLOAD
-- **Runtime / size:** _[FILL]_
-- **Captions:** `EP01-A-is-for-amazing.srt` (sidecar; load as a soft subtitle track)
+- **Runtime:** 6:42.81 (402.81s) · **Size:** 48 MB · 1280×720 · SEC-04 song 104.80s (audio byte-identical)
+- The old pre-lip-sync FINAL was superseded (trashed); one copy of each file in the folder.
+- **Captions usage:** load the `.srt` as a soft subtitle track (YouTube "upload subtitles", or a sidecar next to the mp4). Not burned into the picture.
 
-_Everything's ready for your review tomorrow. Spots I'd look at first: the name-scene (1:36–1:44), the rewritten name-claps (1:03–1:24), and the new on-model song (starts ~4:02)._
+_Everything's ready for your review tomorrow. Spots I'd look at first: the name-scene (1:36–1:44), the rewritten name-claps (1:03–1:24), and the new on-model song (starts ~4:02, kids-only A-pose finale ~5:24 where Mayor Mary used to be)._
