@@ -83,9 +83,12 @@ for r in rows:
     if code != "200" or sz < 1000:
         body = open(dst).read()[:300] if sz and sz < 2000 else "(binary/empty)"
         sys.exit(f"TTS FAIL {cid} spk={spk} http={code} size={sz} :: {body}")
-    dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
-                          "-of", "default=nokey=1:noprint_wrappers=1", dst],
-                         capture_output=True, text=True).stdout.strip()
+    try:  # ffprobe may be absent on lean runners; duration is re-probed at build time
+        dur = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                              "-of", "default=nokey=1:noprint_wrappers=1", dst],
+                             capture_output=True, text=True).stdout.strip()
+    except FileNotFoundError:
+        dur = ""
     manifest.append({"clip_id": cid, "speaker": spk, "voice_id": vid,
                      "file": dst, "dur": float(dur) if dur else None, "text": text})
     print(f"  {cid:16s} {spk:6s} {vid[:8]}.. {dur}s  {text[:40]!r}")
