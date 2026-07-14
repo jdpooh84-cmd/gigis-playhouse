@@ -86,3 +86,36 @@ TD + accessibility-supervisor pass. Every item carries a **feasibility verdict**
 
 ## What I will execute the moment the 3 blockers are answered
 Immediately doable with **no new decisions** (I can start now if you say go): the **name text overlays** (Mimi/Mia/Leo/Pipa/Bram/Sunny — Koda pending K/C), the **VO regen** (Mimi affirming, Bram spell, name-clap pronunciations), and the **trim-to-VO ghost-mouth pass** (D10/D12). The re-render items (lip-sync, props, scale, waving, song, A-action) then run as a best-effort batch. ASL stays out until we resource a real signer/avatar — I will not ship fake ASL.
+
+---
+# DECISIONS APPLIED (creator contract 2026-07-14) + EXECUTION LOG
+
+## Decisions
+1. **Coda (C)** is canonical: spelling C-O-D-A, pronunciation CO-DA, letter overlay **C**, name text "Coda". No Koda/K anywhere in EP01.
+2. **No AI ASL.** All ASL items → **"ASL animation pending — requires Deaf signer or licensed ASL-avatar + Deaf consultant. No AI handshapes in this release."** Where ASL was requested (Sunny "name day", Leo name), hands stay **neutral / non-sign gestures**. **Coda** (a CODA) gets, on his name line only: spoken "My name is Coda. C-O-D-A, Coda." + best-effort mouth sync + on-screen "Coda" text + a **neutral hand-movement block** (chest on "My name", point-to-self on "Coda", point-to-text on the spelling) — **labeled non-ASL, timing preserved for a future verified-ASL swap.**
+3. **Mimi age/scale (EP01 truth):** Sunny 5, **Mimi 6**, both children close in size. The old "Mimi always smallest" rule is **superseded for EP01**; shared shots must read as two same-age kids.
+4. **Assets blocked:** logo center/fade at 0:00 → **"Blocked on `sunny_logo.png`."** "Nana Blossom & Captain Blue" lyric swap → **"Blocked on `nana_blossom_ref.png` + `captain_blue_ref.png`."** No hallucinated logo or character designs until uploaded.
+
+## Batch 1 — DETERMINISTIC (executed this pass, no AI render)
+- ✅ **Ghost-mouth trim** — every talking shot now plays through speech (+0.30s) then **freezes**, so the mouth stops when the audio stops (kills the "double mouth / silent talking" across the Sunny/Pippa scene and after).
+- ✅ **Name-text overlays** where current audio already matches the name: **Sunny, Leo, Mia, Bram, Pippa** (SEC-02 C03/C04 + pilot P3-03/05/10/14/19).
+- ✅ **Coda letter = C** support wired into the overlay engine.
+- (Held for Batch 2 to avoid text/audio mismatch: Coda + Mimi name text — their VO changes first.)
+
+## Batch 2 — VO regen → re-render (staged; runs next)
+**VO to regenerate (ElevenLabs, same voices, fit existing slot):**
+| Clip | New line |
+|---|---|
+| Coda N01 (SEC-02) | "My name is Coda. C-O-D-A, Coda." |
+| Coda P3-11 (SEC-03) | "My turn! CO-DA!" |
+| Mimi N02 (SEC-02) | "My name is Mimi, and my name is amazing!" |
+| Bram N03 (SEC-02) | "My name is Bram. B-R-A-M, Bram." |
+| Pippa clap (P3-19 already "PI-PA") | keep audio; text "Pippa" applied |
+Name-clap pronunciations to lock in TTS: Sunny SUN-NY · Leo LE-O · **Coda CO-DA** · Pippa PIP-PA · Bram BRAM · Mia ME-AH · Mimi ME-MI.
+Then re-render (best-effort lip-sync) the content-changed shots (Coda N01/P3-11, Mimi N02, Bram N03) + add their name tags + Coda letter C.
+
+## Batch 3 — BEST-EFFORT re-renders (staged; AI approximate, each QC'd once)
+Leo apple→airplane (airplane lyric) · Mimi apple scale + continuity · Sunny/Mimi proportions (both ~5–6) · waving only hello/goodbye + synced "bye-bye-bye" · hands-on-heart retime · face-drawing→trace-A · kids' lips to the "A is amazing" song (approximate). Each: regenerate once, verify on-model 3D, move on.
+
+## Blocked (assets) — do not fabricate
+Opening logo (A1) · Nana Blossom + Captain Blue lyric shot (A2).
