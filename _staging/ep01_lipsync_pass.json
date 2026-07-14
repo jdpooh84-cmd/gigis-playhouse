@@ -1,0 +1,28 @@
+{
+ "_meta": "EP01 lip-sync + reframe + SEC-04 revisual pass tracker. Close-up library reused as seedance start_images; each line lip-synced via audio_references=its EL mp3.",
+ "closeup_library": {
+  "CU-SUNNY-DA": "58916181-82b5-46a6-9281-6b079199546d",
+  "CU-SUNNY-CHEER": "24131d15-13ff-48d0-8778-70b291496efc",
+  "CU-SUNNY-INVITE": "fe94f23f-b74b-47a1-a644-2dd6bbdfd3bb",
+  "CU-LEO": "efb1da38-65d2-46e2-a15f-68093160c870",
+  "CU-MIA": "e2bc1cf2-3a70-4cf2-8969-7cc727a80d53",
+  "CU-KODA": "27abb134-6468-473d-af10-09f8f23ad05c",
+  "CU-AVA": "dcef1dd4-9771-400a-a3e0-6487736bed0a",
+  "CU-SUNNY-KNEEL": "5f26f2e4-daaa-4108-a8f1-d806e9dd1f46",
+  "CU-PIPA-SAD1": "09835af9-044c-4954-9ba4-ad8b1adb4395",
+  "CU-PIPA-SAD2": "9bc9f20b-f41d-493c-bca6-9d8567b808ec"
+ },
+ "namescene_lipsync_videos_DONE": {
+  "EP01-NP-C05": "6135094d-650c-4fa0-a2d0-c4e5cc4e0540",
+  "EP01-NP-C06": "cebe9422-5359-466a-8c30-a0046281139c",
+  "EP01-NP-C07": "0b7ff3f0-80b3-4500-aa3f-2a0cb1c3c724"
+ },
+ "still_todo": {
+  "closeup_library_batch2": "Pipa-proud, Pipa-happy, Bram-think, Bram-oops, Mimi-giggle, Sunny-porch, crew-group variants",
+  "dialogue_lipsync_videos": "~40 (map each line -> CU + its EL audio import -> seedance)",
+  "action_rewrite_shots": "N02,N03,C03,C04,N20,N22,C23 (show clap + say name; new VO regen in flight)",
+  "demonstrate_shots": "N11,C13,N19,C14,C16,C28 (visibly clap/trace while inviting)",
+  "sec04_revisual": "~24 on-model full-crew song shots (audio byte-identical)",
+  "rebuild": "sections v-final + SEC-04 v2 + stitch + captions + Drive deliver"
+ }
+}
