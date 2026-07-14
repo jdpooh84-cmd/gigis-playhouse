@@ -1,0 +1,165 @@
+{
+ "clips": [
+  {
+   "clip_id": "EP01-P3-01",
+   "start_image": "dcef1dd4-9771-400a-a3e0-6487736bed0a",
+   "img_tag": "CU-AVA",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-01.mp3",
+   "action": "warm invite, waves crew in"
+  },
+  {
+   "clip_id": "EP01-P3-02",
+   "start_image": "83a8b40b-a0f6-44df-b6b8-d4b29150051f",
+   "img_tag": "ACT-SUNNY-CLAPDEMO",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-02.mp3",
+   "action": "bounces, hands ready to clap"
+  },
+  {
+   "clip_id": "EP01-P3-03",
+   "start_image": "83a8b40b-a0f6-44df-b6b8-d4b29150051f",
+   "img_tag": "ACT-SUNNY-CLAPDEMO",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-03.mp3",
+   "action": "claps twice on the two syllables"
+  },
+  {
+   "clip_id": "EP01-P3-04",
+   "start_image": "fe94f23f-b74b-47a1-a644-2dd6bbdfd3bb",
+   "img_tag": "CU-SUNNY-INVITE",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-04.mp3",
+   "action": "to camera, expectant, hands up"
+  },
+  {
+   "clip_id": "EP01-P3-05",
+   "start_image": "3f829a63-40d4-4a6a-b1fe-ebd84a95a364",
+   "img_tag": "ACT-LEO-CLAP",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-05.mp3",
+   "action": "jumps in, claps his name, spins"
+  },
+  {
+   "clip_id": "EP01-P3-06",
+   "start_image": "27abb134-6468-473d-af10-09f8f23ad05c",
+   "img_tag": "CU-KODA",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-06.mp3",
+   "action": "grinning, pointing at Leo, wants to copy"
+  },
+  {
+   "clip_id": "EP01-P3-07",
+   "start_image": "7eec4001-7cb3-4b02-89fb-27dfbdb84477",
+   "img_tag": "NEW-COPY-LEOKODA",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-07.mp3",
+   "action": "Leo and Koda clap the name together, mirroring"
+  },
+  {
+   "clip_id": "EP01-P3-08",
+   "start_image": "58916181-82b5-46a6-9281-6b079199546d",
+   "img_tag": "CU-SUNNY-DA",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-08.mp3",
+   "action": "playful, hand cupped to ear"
+  },
+  {
+   "clip_id": "EP01-P3-09",
+   "start_image": "fe94f23f-b74b-47a1-a644-2dd6bbdfd3bb",
+   "img_tag": "CU-SUNNY-INVITE",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-09.mp3",
+   "action": "to camera, sounding out M, waiting"
+  },
+  {
+   "clip_id": "EP01-P3-10",
+   "start_image": "6bc6ab16-d4d7-4b0a-be6a-775686dda722",
+   "img_tag": "ACT-MIA-CLAP",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-10.mp3",
+   "action": "lights up, claps her name"
+  },
+  {
+   "clip_id": "EP01-P3-11",
+   "start_image": "84ea25bc-a582-4422-b16b-8c5e12772ab5",
+   "img_tag": "ACT-KODA-CLAP",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-11.mp3",
+   "action": "big proud stomps on his name"
+  },
+  {
+   "clip_id": "EP01-P3-12",
+   "start_image": "5c3c924d-8d00-4023-919e-6709d61df4db",
+   "img_tag": "CU-BRAM-OOPS",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-12.mp3",
+   "action": "tracing in air, wobbles, shrinks a little, sheepish"
+  },
+  {
+   "clip_id": "EP01-P3-13",
+   "start_image": "a1f60a85-1f21-450b-9b90-65ca3a136fcf",
+   "img_tag": "ACT-MIMI-CLAP",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-13.mp3",
+   "action": "bouncing, cheering him on, hands up"
+  },
+  {
+   "clip_id": "EP01-P3-14",
+   "start_image": "78f1dff7-047d-4991-bdc7-b627ff8ef447",
+   "img_tag": "ACT-BRAM-CLAP",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-14.mp3",
+   "action": "traces a big confident B, beams, arms up proud"
+  },
+  {
+   "clip_id": "EP01-P3-15",
+   "start_image": "e219f2cb-0335-459e-80a5-6394b20cfcc2",
+   "img_tag": "NEW-CREW-CHEER",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-15.mp3",
+   "action": "whole crew jumps and cheers together"
+  },
+  {
+   "clip_id": "EP01-P3-16",
+   "start_image": "25c75cea-f30a-443c-9203-62135caa469b",
+   "img_tag": "CU-BRAM",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-16.mp3",
+   "action": "turns to Pipa, warm, inviting her in"
+  },
+  {
+   "clip_id": "EP01-P3-17",
+   "start_image": "09835af9-044c-4954-9ba4-ad8b1adb4395",
+   "img_tag": "CU-PIPA-SAD1",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-17.mp3",
+   "action": "shy, small, unsure, half-curled"
+  },
+  {
+   "clip_id": "EP01-P3-18",
+   "start_image": "5f26f2e4-daaa-4108-a8f1-d806e9dd1f46",
+   "img_tag": "CU-SUNNY-KNEEL",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-18.mp3",
+   "action": "kneeling warm, growing tall to model big/proud"
+  },
+  {
+   "clip_id": "EP01-P3-19",
+   "start_image": "e36876c4-d661-4db5-a8cc-6bc99f5c0c55",
+   "img_tag": "CU-PIPA-PROUD",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-19.mp3",
+   "action": "rises into a big proud A-pose, beaming"
+  },
+  {
+   "clip_id": "EP01-P3-20",
+   "start_image": "c775b8bd-83fa-46be-90a4-3d7218967d1f",
+   "img_tag": "NEW-CREW-APOSE",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-20.mp3",
+   "action": "whole crew makes an A-pose together"
+  },
+  {
+   "clip_id": "EP01-P3-21",
+   "start_image": "19357244-98c2-425b-970e-b28db420336a",
+   "img_tag": "ACT-SUNNY-APOSE",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-21.mp3",
+   "action": "to camera, holding the A-pose, waiting for kids at home"
+  },
+  {
+   "clip_id": "EP01-P3-22",
+   "start_image": "efb1da38-65d2-46e2-a15f-68093160c870",
+   "img_tag": "CU-LEO",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-22.mp3",
+   "action": "excited, bouncing, asking"
+  },
+  {
+   "clip_id": "EP01-P3-23",
+   "start_image": "24131d15-13ff-48d0-8778-70b291496efc",
+   "img_tag": "CU-SUNNY-CHEER",
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-23.mp3",
+   "action": "to camera, big welcoming wave into the song"
+  }
+ ]
+}
