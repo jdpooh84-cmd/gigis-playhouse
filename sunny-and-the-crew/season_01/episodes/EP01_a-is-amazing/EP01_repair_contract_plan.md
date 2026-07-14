@@ -214,3 +214,49 @@ Seedance lip-sync to **sung** vocals in a full mix is approximate (looser than s
 
 ## APPROVAL GATE
 **Do you approve this plan?** If yes, I will run exactly one re-render per shot for S04-06, S04-11, S04-14, S04-17 (plus the two new prop start-stills for S04-06/S04-11), swap them into SEC-04 v2, re-stitch, QC, and redeliver. I will not touch any other shot or call any paid tool until you approve.
+
+---
+# REPAIR PASS EXECUTED — pacing / intro logo / Pippa (2026-07-14)
+Single approved pass. Assembly-level rebuild (free, no paid renders) + ZERO Higgsfield re-renders
+(Pippa did not need one). Source commit for delivery pinned below.
+
+## 1) PACING — freeze removal (root-cause fix)
+- **Root cause:** the old build cut each clip at voice-end + froze a cloned frame to fill the slot
+  (1.8–3.2s corpse-frames on name-day / audience-wait beats). That was the "stop-and-go."
+- **Fix (`scripts/ep01_build_sec03_pilot.py`):** fill behavior changed from *cut+freeze* to
+  **play the clip's own continuous motion**; any surplus (slot > clip) is absorbed by a gentle
+  **slow-tail** on the RESTING part after speech (never a freeze; the speaking part is never slowed).
+- **Verified on playback (ffmpeg `freezedetect`, not frame grids):**
+  - SEC-02: 0 frozen spans. SEC-03: 0 frozen spans.
+  - Whole 5:52 episode: **exactly ONE** near-static span — 0.6s at **5:48.0** (C29 tail, see limitation).
+- **Targeted ghost-mouth trims kept:** NONE. Default is full-motion. The audio-driven re-renders
+  (Coda/Mimi/Bram/Pippa) rest their mouths when the VO ends, so full motion introduces no ghost-mouth.
+  A per-clip `ghost_trim` flag exists if playback ever reveals a specific flapping clip (none applied).
+
+## 2) INTRO LOGO — placeholder title card (canon behavior)
+- **Placeholder logo pending final asset.** Implemented in `scripts/ep01_stitch_final.py` as an
+  overlay on SEC-01's existing opening (which IS a street) — duration-preserving, not inserted.
+- Verified in the assembled final: **0:00** "Sunny and the Crew" centered on the street, kid-readable
+  (large cream title, purple outline, translucent panel for contrast) → **held ~2.5s** → **1s fade**
+  (gone by ~3.55s) → street/intro motion continues underneath into Sunny's entrance.
+- Title-only per creator (subtitle removed). Total duration unchanged (5:52.41).
+
+## 3) PIPPA — proud beat (SEC-03, "Show me big and proud!" → "Pippa!")
+- Freeze removal restored her proud motion. Verified at ~48.4–49.6s of SEC-03: mouth is animated on
+  "Pippa!", frames differ across the beat (continuous motion, no freeze/truncation), beaming proud,
+  letter P + "Pippa" tag present. **Mouth-to-audio sync is acceptable → NO re-render** (per contract).
+- Shy→proud arc intact: shy "…Pippa?" (P3-17) → Sunny prompt (P3-18) → proud "Pippa!" (P3-19).
+
+## LOCKED FIXES CONFIRMED INTACT (specs untouched by this pass)
+- Coda everywhere: spoken "C-O-D-A, Coda", letter C, "Coda" name tag; no Koda/K anywhere.
+- Name tags for all 7 kids; Mimi affirming line; Bram spell line; Pippa pronunciation.
+- Ghost-mouth protection (no reintroduction); 3D style; section order; total duration 5:52.
+
+## HONEST LIMITATION (stated, not silently shipped)
+- **SEC-05 C29 — 0.6s near-static tail at 5:48.0.** This is a *source-clip natural settle* (Sunny holds
+  still at the end of a long reflection line), NOT an assembly freeze — my fill has no surplus to add
+  motion there (slot == clip length). It is in the calm closing section and reads as a gentle hold on
+  her face, not the jarring mid-scene freeze that was the complaint. Removing it would require a
+  **re-render of C29**, which is OUTSIDE the approved scope (creator authorized only a single Pippa
+  re-render, which proved unnecessary). Flagged for a decision: accept the settle, or authorize a
+  one-shot C29 re-render in a follow-up.
