@@ -29,6 +29,7 @@ Recap re-does the episode's moves at real speed (not a slow montage); explicit v
 ## 7. QA REQUIREMENTS (Continuity Guardian + validator, blocking)
 Per-clip gate, before its video is spent AND before section assembly:
 - Canon/safety (existing): anatomy (one head, Mia 2 pigtails), Mimi smallest / Nana tallest, no Bella+Gabriel, Mayor Mary auburn, Rena left-cheek, no cars / brands / age-words / "Pixar", locked element IDs, no on-screen text.
+- **ON-MODEL GATE (HARD, creator-locked 2026-07-14):** any shot whose characters are not the CURRENT locked designs (wrong faces, wrong designs, wrong kid group) = **defective retake → remove + re-render with correct elements + re-insert.** Applies to EVERY shot, **including inside already-"locked"/delivered masters** — locked status never overrides on-model. Whenever the character element registry changes, ALL existing masters are re-audited on-model before they may ship. (Triggered by EP01 SEC-04 song shots built pre-redesign; see EP01_signoff_packet.md.)
 - **NEW motion gate:** `motion_tier` set; tier-A clips carry `genre:"action"` (or model `kling3_0`); no banned slow words on tier A/B without `slomo_justification`; ≤1 SLOMO/episode; movement clips full-body framed.
 - **NEW say-what-you-see gate:** every dialogue line's `action_verb` matches its clip's `visual_action`.
 - **NEW audio-timing gate:** section `dur`s regenerated from ffprobed VO/beat lengths, not estimates; section ffprobe within tolerance.
