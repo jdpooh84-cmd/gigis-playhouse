@@ -1,1 +1,1 @@
-assemble 2026-07-14T23:24:04Z animal 20/20
+assemble 2026-07-14T23:41:52Z animal fix-path

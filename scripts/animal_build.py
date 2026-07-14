@@ -3,8 +3,8 @@
 
 Inputs:
   _staging/animal/shot_spec.json      20 equal shots (start/end/slot, overlays, logo flag)
-  _staging/wiggle/video_results.json  {clip_id: video_url}
-  _staging/audio/wiggle-wake-up.mp3   the song (muxed in, re-encoded to AAC for universal playback)
+  _staging/animal/video_results.json  {clip_id: video_url}
+  _staging/audio/move-like-the-animal.mp3   the song (muxed in, re-encoded to AAC for universal playback)
   sunny-and-the-crew/brand/logo-sunny-and-the-crew.png   real transparent-PNG intro logo
 
 Per shot: download the seedance clip, play its full motion to fill the equal slot (slow the
@@ -15,7 +15,7 @@ then mux the song (AAC). Output = 144.55s / 720p.
 import json, os, subprocess, sys
 
 SPEC = json.load(open("_staging/animal/shot_spec.json"))
-RES  = json.load(open("_staging/wiggle/video_results.json"))
+RES  = json.load(open("_staging/animal/video_results.json"))
 AUDIO = SPEC["audio"]
 LOGO  = SPEC["logo"]
 OUT  = SPEC["out"]
