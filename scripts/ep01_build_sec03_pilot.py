@@ -81,7 +81,7 @@ for i,c in enumerate(spec["clips"]):
     if has_vo:
         run(["curl","-sL","-A","Mozilla/5.0","-o",vo,c["vo_url"]])
         if os.path.getsize(vo)<800: sys.exit("VO too small: %s %s"%(cid,c["vo_url"]))
-        volen=probe(vo); slot=off+volen+TAIL_PAUSE+wait
+        volen=probe(vo); slot=max(off+volen+TAIL_PAUSE+wait, float(c.get("dur",0)))
     else:
         # wordless action beat: hold the shot for its own length, silent bed, no re-time/overlay/gate
         volen=0.0; slot=c.get("dur", vlen)
