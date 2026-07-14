@@ -22,7 +22,10 @@ FMT = "mp3_44100_128"
 
 vmap = json.load(open(f"{OS_}/voice_map_elevenlabs.json"))["voice_map"]
 CREW_VOICE = vmap["Sunny"]                # in-world kid leads the group lines (no narrator)
-KODA_FIX = ("KO-DA", "Koh-duh")            # pronunciation, script/caption keep "Koda"
+# Phonetic respell for TTS ONLY (script + captions keep the clean hyphenated names).
+# The name-clap lines are syllabic caps that TTS otherwise spells out letter-by-letter.
+NAMEFIX = {"SUN-NY": "SUH-nee", "MI-MI": "MEE-mee", "MI-A": "MEE-ah",
+           "LE-O": "LEE-oh", "PI-PA": "PEE-pah", "KO-DA": "Koh-duh"}
 
 led = json.load(open(f"{EP}/ep01_vo_ledger.json"))
 rows = [r for r in (led["lines"] + led["added_lines"]) if (r.get("render_text") or "").strip()]
@@ -33,9 +36,11 @@ def voice_for(speaker):
     return vmap.get(speaker)
 
 def tts_text(speaker, text):
-    # Koda's own name-clap lines: render pronounceable, keep script text intact elsewhere
+    # phonetic respell for every syllable-clap name so TTS says the name, not letters
+    for k, v in NAMEFIX.items():
+        text = text.replace(k, v)
     if speaker == "Koda":
-        text = text.replace("KO-DA", "Koh-duh").replace("Koda", "Koh-duh")
+        text = text.replace("Koda", "Koh-duh")     # any natural mention of his name
     return text
 
 key = next((os.environ[n] for n in
