@@ -1,0 +1,853 @@
+{
+ "audio": "_staging/audio/zoomy-zoom-freeze.mp3",
+ "duration": 159.8,
+ "bpm": 107.7,
+ "out": "sunny-and-the-crew/song-shorts/Zoomy-Zoom-Freeze.mp4",
+ "clips": [
+  {
+   "clip_id": "Z01",
+   "section": "Intro",
+   "start": 0.279,
+   "end": 5.271,
+   "dur": 4.992,
+   "cast": [
+    "Sunny",
+    "Coda",
+    "Mia"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Get ready to zoom, get ready to go",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] full crew strike ready-to-dance poses, Sunny waves the crew and viewer in, bright energetic. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "ZOOMY ZOOM FREEZE",
+     0.0,
+     1.0,
+     "title"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z02",
+   "section": "Intro",
+   "start": 5.271,
+   "end": 10.286,
+   "dur": 5.015,
+   "cast": [
+    "Sunny",
+    "Leo"
+   ],
+   "focus": "mouth",
+   "lipsync": true,
+   "line": "Move your body fast then freeze up slow",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] Sunny to camera demonstrates moving fast then a slow freeze, Leo mirrors. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": []
+  },
+  {
+   "clip_id": "Z03",
+   "section": "Intro",
+   "start": 10.286,
+   "end": 15.302,
+   "dur": 5.016,
+   "cast": [
+    "Sunny",
+    "Mimi",
+    "Bram"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Zoomy Zoom Freeze starts today!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] crew cheers arms up, ready to start the game. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "ZOOMY ZOOM FREEZE",
+     0.0,
+     0.6,
+     "title"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z04",
+   "section": "Hook 1",
+   "start": 15.302,
+   "end": 20.875,
+   "dur": 5.573,
+   "cast": [
+    "Sunny",
+    "Coda",
+    "Leo"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Zoom zoom zoom and then you FREEZE!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] zoom fast (running-in-place, arms pumping) then SNAP into a crisp smiling freeze pose on the stab. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "ZOOM",
+     0.0,
+     0.55,
+     "pulse"
+    ],
+    [
+     "FREEZE!",
+     0.55,
+     1.0,
+     "freeze"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z05",
+   "section": "Hook 1",
+   "start": 20.875,
+   "end": 25.89,
+   "dur": 5.015,
+   "cast": [
+    "Coda",
+    "Mia",
+    "Leo"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Wiggle your fingers, bend your knees!",
+   "prompt": "[Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] wiggle fingers then bend knees, clear demonstration to camera. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "wiggle",
+     0.0,
+     0.5,
+     "word"
+    ],
+    [
+     "bend",
+     0.5,
+     1.0,
+     "word"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z06",
+   "section": "Hook 1",
+   "start": 25.89,
+   "end": 30.906,
+   "dur": 5.016,
+   "cast": [
+    "Sunny",
+    "Mimi",
+    "Bram",
+    "Pippa"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Zoom zoom zoom as fast as you please! Zoomy Zoom Freeze \u2014 freeze freeze freeze!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] zoom then three quick freeze poses on 'freeze freeze freeze'. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "FREEZE",
+     0.55,
+     0.7,
+     "freeze"
+    ],
+    [
+     "FREEZE",
+     0.7,
+     0.85,
+     "freeze"
+    ],
+    [
+     "FREEZE",
+     0.85,
+     1.0,
+     "freeze"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z07",
+   "section": "Verse 1",
+   "start": 30.906,
+   "end": 37.036,
+   "dur": 6.13,
+   "cast": [
+    "Coda",
+    "Mia",
+    "Leo",
+    "Bram"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Run in a circle round and round",
+   "prompt": "[Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] crew runs in a circle round and round, camera follows. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "run",
+     0.1,
+     0.9,
+     "word"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z08",
+   "section": "Verse 1",
+   "start": 37.036,
+   "end": 42.051,
+   "dur": 5.015,
+   "cast": [
+    "Bram",
+    "Pippa"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Stomp your feet right on the ground",
+   "prompt": "[Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] stomp feet firmly on the ground, big steps. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "stomp",
+     0.1,
+     0.9,
+     "word"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z09",
+   "section": "Verse 1",
+   "start": 42.051,
+   "end": 47.067,
+   "dur": 5.016,
+   "cast": [
+    "Mimi",
+    "Mia"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Wiggle your arms up in the air / Shake your hips without a care",
+   "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] wiggle arms up in the air then shake hips playfully. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "wiggle",
+     0.05,
+     0.5,
+     "word"
+    ],
+    [
+     "shake",
+     0.5,
+     0.95,
+     "word"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z10",
+   "section": "Verse 1",
+   "start": 47.067,
+   "end": 53.197,
+   "dur": 6.13,
+   "cast": [
+    "Sunny",
+    "Coda"
+   ],
+   "focus": "mouth",
+   "lipsync": true,
+   "line": "Now get ready here it comes / Everybody zoom and then...",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Sunny to camera builds anticipation, winding up for the zoom. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": []
+  },
+  {
+   "clip_id": "Z11",
+   "section": "Hook 2",
+   "start": 53.197,
+   "end": 58.77,
+   "dur": 5.573,
+   "cast": [
+    "Sunny",
+    "Pippa",
+    "Mia"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Zoom zoom zoom and then you FREEZE!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] low-angle: zoom fast then snap a big freeze pose on the stab. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "ZOOM",
+     0.0,
+     0.55,
+     "pulse"
+    ],
+    [
+     "FREEZE!",
+     0.55,
+     1.0,
+     "freeze"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z12",
+   "section": "Hook 2",
+   "start": 58.77,
+   "end": 63.785,
+   "dur": 5.015,
+   "cast": [
+    "Mimi",
+    "Pippa",
+    "Bram"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Wiggle your fingers, bend your knees!",
+   "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] wiggle fingers then bend knees. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "wiggle",
+     0.0,
+     0.5,
+     "word"
+    ],
+    [
+     "bend",
+     0.5,
+     1.0,
+     "word"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z13",
+   "section": "Hook 2",
+   "start": 63.785,
+   "end": 68.801,
+   "dur": 5.016,
+   "cast": [
+    "Sunny",
+    "Coda",
+    "Leo",
+    "Mia"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "freeze freeze freeze!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] zoom then triple freeze. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "FREEZE",
+     0.55,
+     0.7,
+     "freeze"
+    ],
+    [
+     "FREEZE",
+     0.7,
+     0.85,
+     "freeze"
+    ],
+    [
+     "FREEZE",
+     0.85,
+     1.0,
+     "freeze"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z14",
+   "section": "Verse 2",
+   "start": 68.801,
+   "end": 74.908,
+   "dur": 6.107,
+   "cast": [
+    "Coda",
+    "Mia",
+    "Leo"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Now move in slow-mo super slow",
+   "prompt": "[Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] deliberate slow-motion movement, controlled and calm. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "s l o w",
+     0.1,
+     0.9,
+     "word"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z15",
+   "section": "Verse 2",
+   "start": 74.908,
+   "end": 79.923,
+   "dur": 5.015,
+   "cast": [
+    "Coda",
+    "Leo"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Watch your arms go high then low",
+   "prompt": "[Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] arms rise high then lower low, slow. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": []
+  },
+  {
+   "clip_id": "Z16",
+   "section": "Verse 2",
+   "start": 79.923,
+   "end": 84.939,
+   "dur": 5.016,
+   "cast": [
+    "Sunny",
+    "Mimi",
+    "Pippa"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Spin around like a spinning top / Keep on going don't you stop",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] spin around like spinning tops, keep going. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "spin",
+     0.1,
+     0.9,
+     "word"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z17",
+   "section": "Verse 2",
+   "start": 84.939,
+   "end": 91.069,
+   "dur": 6.13,
+   "cast": [
+    "Sunny",
+    "Bram"
+   ],
+   "focus": "mouth",
+   "lipsync": true,
+   "line": "Now speed it up here it comes / Everybody zoom and then...",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Sunny to camera speeds it up, ramp from slow to fast. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": []
+  },
+  {
+   "clip_id": "Z18",
+   "section": "Hook 3",
+   "start": 91.069,
+   "end": 96.641,
+   "dur": 5.572,
+   "cast": [
+    "Sunny",
+    "Bram",
+    "Leo"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Zoom zoom zoom and then you FREEZE!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] high wide: zoom then snap freeze on the stab. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "ZOOM",
+     0.0,
+     0.55,
+     "pulse"
+    ],
+    [
+     "FREEZE!",
+     0.55,
+     1.0,
+     "freeze"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z19",
+   "section": "Hook 3",
+   "start": 96.641,
+   "end": 101.657,
+   "dur": 5.016,
+   "cast": [
+    "Sunny",
+    "Coda",
+    "Mia"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Wiggle your fingers, bend your knees!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] wiggle fingers then bend knees. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "wiggle",
+     0.0,
+     0.5,
+     "word"
+    ],
+    [
+     "bend",
+     0.5,
+     1.0,
+     "word"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z20",
+   "section": "Hook 3",
+   "start": 101.657,
+   "end": 106.672,
+   "dur": 5.015,
+   "cast": [
+    "Mimi",
+    "Pippa",
+    "Bram",
+    "Coda"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "freeze freeze freeze!",
+   "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] zoom then triple freeze. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "FREEZE",
+     0.55,
+     0.7,
+     "freeze"
+    ],
+    [
+     "FREEZE",
+     0.7,
+     0.85,
+     "freeze"
+    ],
+    [
+     "FREEZE",
+     0.85,
+     1.0,
+     "freeze"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z21",
+   "section": "Bridge",
+   "start": 106.672,
+   "end": 111.688,
+   "dur": 5.016,
+   "cast": [
+    "Sunny",
+    "Coda",
+    "Mia"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Count with me \u2014 one two three / Everybody freeze with me!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] Sunny counts one-two-three on fingers, crew freezes on three. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "1",
+     0.15,
+     0.4,
+     "num"
+    ],
+    [
+     "2",
+     0.4,
+     0.62,
+     "num"
+    ],
+    [
+     "3",
+     0.62,
+     1.0,
+     "num"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z22",
+   "section": "Bridge",
+   "start": 111.688,
+   "end": 116.146,
+   "dur": 4.458,
+   "cast": [
+    "Sunny",
+    "Mimi",
+    "Bram"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Four five six don't you move",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] held freeze, count four-five-six, don't move. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "4",
+     0.05,
+     0.35,
+     "num"
+    ],
+    [
+     "5",
+     0.35,
+     0.62,
+     "num"
+    ],
+    [
+     "6",
+     0.62,
+     1.0,
+     "num"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z23",
+   "section": "Bridge",
+   "start": 116.146,
+   "end": 120.047,
+   "dur": 3.901,
+   "cast": [
+    "Sunny",
+    "Pippa",
+    "Leo"
+   ],
+   "focus": "teach",
+   "lipsync": true,
+   "line": "Seven eight find your groove",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] seven-eight, kids start to groove. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "7",
+     0.1,
+     0.5,
+     "num"
+    ],
+    [
+     "8",
+     0.5,
+     1.0,
+     "num"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z24",
+   "section": "Bridge",
+   "start": 120.047,
+   "end": 124.505,
+   "dur": 4.458,
+   "cast": [
+    "Sunny",
+    "Coda",
+    "Mia",
+    "Bram"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Nine and ten zoom again!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] nine-ten then explode back into zoom. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "9",
+     0.05,
+     0.4,
+     "num"
+    ],
+    [
+     "10",
+     0.4,
+     0.7,
+     "num"
+    ],
+    [
+     "ZOOM",
+     0.7,
+     1.0,
+     "pulse"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z25",
+   "section": "Final Hook",
+   "start": 124.505,
+   "end": 130.078,
+   "dur": 5.573,
+   "cast": [
+    "Sunny",
+    "Coda",
+    "Mimi",
+    "Mia",
+    "Leo"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Zoom zoom zoom and then you FREEZE!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] max-energy zoom then a huge crew freeze on the stab. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "ZOOM",
+     0.0,
+     0.55,
+     "pulse"
+    ],
+    [
+     "FREEZE!",
+     0.55,
+     1.0,
+     "freeze"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z26",
+   "section": "Final Hook",
+   "start": 130.078,
+   "end": 135.094,
+   "dur": 5.016,
+   "cast": [
+    "Sunny",
+    "Coda",
+    "Mimi",
+    "Bram",
+    "Pippa"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Wiggle your fingers, bend your knees!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] whole crew wiggles fingers then bends knees together. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "wiggle",
+     0.0,
+     0.5,
+     "word"
+    ],
+    [
+     "bend",
+     0.5,
+     1.0,
+     "word"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z27",
+   "section": "Final Hook",
+   "start": 135.094,
+   "end": 140.109,
+   "dur": 5.015,
+   "cast": [
+    "Sunny",
+    "Mia",
+    "Leo",
+    "Pippa",
+    "Bram"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "freeze freeze freeze!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] zoom then triple freeze finale poses. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "FREEZE",
+     0.55,
+     0.7,
+     "freeze"
+    ],
+    [
+     "FREEZE",
+     0.7,
+     0.85,
+     "freeze"
+    ],
+    [
+     "FREEZE",
+     0.85,
+     1.0,
+     "freeze"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z28",
+   "section": "Outro",
+   "start": 140.109,
+   "end": 146.239,
+   "dur": 6.13,
+   "cast": [
+    "Sunny",
+    "Coda",
+    "Mia",
+    "Leo"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Zoom and zoom and then you FREEZE!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] one last zoom then freeze. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "ZOOM",
+     0.0,
+     0.5,
+     "pulse"
+    ],
+    [
+     "FREEZE!",
+     0.5,
+     1.0,
+     "freeze"
+    ]
+   ]
+  },
+  {
+   "clip_id": "Z29",
+   "section": "Outro",
+   "start": 146.239,
+   "end": 152.346,
+   "dur": 6.107,
+   "cast": [
+    "Sunny",
+    "Mimi",
+    "Pippa"
+   ],
+   "focus": "mouth",
+   "lipsync": true,
+   "line": "You're the best dance crew I've ever seen! / Come back soon and we'll dance again",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] Sunny warm to camera, crew waves; heartfelt. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": []
+  },
+  {
+   "clip_id": "Z30",
+   "section": "Outro",
+   "start": 152.346,
+   "end": 159.591,
+   "dur": 7.245,
+   "cast": [
+    "Sunny",
+    "Coda",
+    "Mimi",
+    "Mia",
+    "Leo",
+    "Bram",
+    "Pippa"
+   ],
+   "focus": "group",
+   "lipsync": true,
+   "line": "Zoomy Zoom Freeze THE END!",
+   "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Coda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pippa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] final freeze pose plus wave goodbye, hold to music end. polished stylized 3D CGI animated feature \u2014 soft subsurface skin shading, rounded dimensional forms, real depth, cinematic key-and-fill lighting, gentle depth of field, sunny backyard playground with sunflowers, on-model, theatrical feature quality. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+   "overlays": [
+    [
+     "THE END",
+     0.3,
+     1.0,
+     "title"
+    ]
+   ]
+  }
+ ]
+}
