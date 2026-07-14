@@ -1,0 +1,24 @@
+name: fetch style-check stills
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths: ["_staging/style_check/fetch.trigger"]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          set -e
+          while read name url; do
+            [ -z "$name" ] && continue
+            curl -fL --max-time 60 "$url" -o "_staging/style_check/$name.png"
+          done < _staging/style_check/urls.txt
+          ls -la _staging/style_check
+      - run: |
+          git config user.name "style-bot"; git config user.email "actions@github.com"
+          git add _staging/style_check/*.png
+          git commit -m "style-check: fetch recut stills" || echo "nothing"
+          for i in 1 2 3 4 5; do git push && break || { git pull --rebase origin "${GITHUB_REF_NAME}" || git rebase --abort || true; sleep 3; }; done
