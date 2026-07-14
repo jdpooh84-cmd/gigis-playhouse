@@ -1,5 +1,5 @@
 {
- "_meta": "EP01 lip-sync + reframe + SEC-04 revisual pass tracker. Close-up library reused as seedance start_images; each line lip-synced via audio_references=its EL mp3.",
+ "_meta": "EP01 lip-sync + reframe + SEC-04 revisual pass tracker. Close-up library reused as seedance start_images; each line lip-synced via audio_references=its EL mp3. | +N17(Pipa),C15(Mia) solo reframes lip-synced 2026-07-14; 46 dialogue clips remapped into section specs.",
  "closeup_library": {
   "CU-SUNNY-DA": "58916181-82b5-46a6-9281-6b079199546d",
   "CU-SUNNY-CHEER": "24131d15-13ff-48d0-8778-70b291496efc",
@@ -134,7 +134,9 @@
   "EP01-NP-C13": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_053807_5eaccbd4-44f5-4f93-8029-50d92301cfe1.mp4",
   "EP01-NP-N19": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_053832_9dd1cebc-1462-4dce-872f-729c8fe466c0.mp4",
   "EP01-NP-N02": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_054057_6bf32a04-9ee2-44e7-926c-4c5622efec17.mp4",
-  "EP01-NP-N14": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_054002_3e89ab16-1a2b-44b6-bf89-7f5170b74204.mp4"
+  "EP01-NP-N14": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_054002_3e89ab16-1a2b-44b6-bf89-7f5170b74204.mp4",
+  "EP01-NP-N17": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_055538_ae34bfba-87cc-44e3-90c9-65a33d7f0bdf.mp4",
+  "EP01-NP-C15": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_055553_54c0587f-d32e-44b9-9076-c308ef9f0162.mp4"
  },
  "sec04_images": {
   "S04-01": "6b6a4fcf-5284-4520-b36a-4c0b16430fe7",

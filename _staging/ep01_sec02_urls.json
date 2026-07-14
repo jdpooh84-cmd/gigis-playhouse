@@ -5,13 +5,13 @@
  "clips": [
   {
    "clip_id": "EP01-NP-C01",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001227_b4545589-f8e1-4eb4-8f82-b3dd308b6ea7.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051127_4a2b7d0d-ddc4-40f9-81cf-468ad53bd722.mp4",
    "dur": 3.8,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-C01.mp3"
   },
   {
    "clip_id": "EP01-NP-C02",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001231_30ba761a-e19d-4d1a-8980-07feac9722ce.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051140_1bf246e1-e0c8-44f7-bcf8-d2c1bc66a285.mp4",
    "dur": 4.5,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-C02.mp3"
   },
@@ -23,13 +23,13 @@
   },
   {
    "clip_id": "EP01-NP-N01",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_235500_59c8c673-1fe7-4140-9e4a-f4f78b47359c.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_053059_e630fc15-59c3-41c7-a521-5a941a5e3235.mp4",
    "dur": 5.5,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-N01.mp3"
   },
   {
    "clip_id": "EP01-NP-N02",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_235503_6ddb6118-ce3f-4473-afeb-0187cd31abaa.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_054057_6bf32a04-9ee2-44e7-926c-4c5622efec17.mp4",
    "dur": 5.5,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-N02.mp3"
   },
@@ -41,19 +41,19 @@
   },
   {
    "clip_id": "EP01-NP-N03",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_235509_6e6e81bd-4e59-4098-8df3-f7eb0a76b913.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_053141_667bb1bf-3e36-49cd-88de-b36304372ecc.mp4",
    "dur": 5.5,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-N03.mp3"
   },
   {
    "clip_id": "EP01-NP-C03",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_235512_3024f160-1e97-40d0-a835-f18dfcbf57b4.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_053225_cbde2107-bfb1-4a70-9021-acdb0869a928.mp4",
    "dur": 5.5,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-C03.mp3"
   },
   {
    "clip_id": "EP01-NP-C04",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_235528_83380cac-89e3-4134-bbe3-6ea25b5335ea.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_053303_cec04b04-c565-4708-aa48-a56888a93fde.mp4",
    "dur": 5.5,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-C04.mp3"
   },
@@ -65,49 +65,49 @@
   },
   {
    "clip_id": "EP01-NP-C05",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_000022_73cb4215-f0ed-4e15-8a25-5c339f9a6348.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_040011_6135094d-650c-4fa0-a2d0-c4e5cc4e0540.mp4",
    "dur": 3.8,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-C05.mp3"
   },
   {
    "clip_id": "EP01-NP-C06",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_000025_6a1d6a6c-c385-4bf4-bf04-44477f20ad52.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_035325_cebe9422-5359-466a-8c30-a0046281139c.mp4",
    "dur": 3.8,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-C06.mp3"
   },
   {
    "clip_id": "EP01-NP-C07",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001755_bdb431fa-1ece-454a-8bd1-7b886390d7e2.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_040213_0b7ff3f0-80b3-4500-aa3f-2a0cb1c3c724.mp4",
    "dur": 3.8,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-C07.mp3"
   },
   {
    "clip_id": "EP01-NP-C08",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001758_e2ce9fa9-ff3e-427e-868e-f182a50f7d59.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051151_ac9fd2ca-ec5c-418a-8e8a-51095a935ce8.mp4",
    "dur": 3.8,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-C08.mp3"
   },
   {
    "clip_id": "EP01-NP-N04",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001806_3bbc9fd1-3286-49c9-aed8-05f49543c0ef.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051200_56c240e7-b3d7-491a-87ef-42e5bcc12c61.mp4",
    "dur": 4.5,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-N04.mp3"
   },
   {
    "clip_id": "EP01-NP-C09",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001801_0f1cff28-5e50-44f2-8288-e4c297e36433.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051219_6c1a174b-305e-4b47-8e83-046eb53f0e46.mp4",
    "dur": 4.5,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-C09.mp3"
   },
   {
    "clip_id": "EP01-NP-C10",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001804_af0b670c-4df3-4feb-90f7-53a4887af561.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051240_9eec0553-9161-4c6f-8d49-aa5d6addd9f7.mp4",
    "dur": 4.0,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-C10.mp3"
   },
   {
    "clip_id": "EP01-NP-N05",
-   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_000027_c102c77a-ca15-49f9-b6f3-e4a2f109f59a.mp4",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051428_4b264a03-7ee7-437a-8197-7608700a48c7.mp4",
    "dur": 4.5,
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-N05.mp3"
   }

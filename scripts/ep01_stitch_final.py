@@ -13,11 +13,18 @@ Output: sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-A-is-for-am
 import json, os, subprocess, sys
 
 EP = "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing"
+# SEC-04: prefer the on-model full-crew revisual (v2); the pre-redesign SYNCED
+# master (Sunny/Leo/Mia + Mayor Mary) is only a last-resort fallback.
+SEC04_V2 = os.path.join(EP, "EP01-song-section-v2.mp4")
+SEC04_OLD = os.path.join(EP, "EP01-song-section-SYNCED.mp4")
+SEC04 = SEC04_V2 if os.path.exists(SEC04_V2) else SEC04_OLD
+if SEC04 == SEC04_OLD:
+    print("WARNING: SEC-04 v2 (on-model) not found — falling back to pre-redesign SYNCED master")
 SECTIONS = [
     ("SEC-01", "sunny-and-the-crew/theme-song/THEME-INTRO-MASTER.mp4"),
     ("SEC-02", "sections/EP01-SEC-02-story1-v2.mp4"),
     ("SEC-03", "sections/EP01-SEC-03-story2-v2.mp4"),
-    ("SEC-04", os.path.join(EP, "EP01-song-section-SYNCED.mp4")),
+    ("SEC-04", SEC04),
     ("SEC-05", "sections/EP01-SEC-05-reflection-v2.mp4"),
 ]
 OUT = os.path.join(EP, "EP01-A-is-for-amazing-FINAL.mp4")

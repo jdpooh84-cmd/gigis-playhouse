@@ -46,7 +46,19 @@ jobs:
           if [ -f _staging/ep01_section_urls.json ] && [ ! -f _staging/ep01_sec05_urls.json ]; then
             python3 scripts/ep01_build_section.py || true
           fi
-      - name: Stitch full EP01 (SEC-01 + v2 SEC-02/03/05 + SEC-04)
+      - name: Build SEC-04 v2 (on-model full-crew song, audio byte-identical)
+        run: |
+          set -e
+          if [ -f _staging/vo_el/sec04_video_results.json ]; then
+            if python3 scripts/ep01_build_sec04_v2.py; then
+              echo "SEC-04 v2 built"
+            else
+              echo "SEC-04 v2 not ready/complete — stitch will fall back to SYNCED master"
+            fi
+          else
+            echo "no sec04_video_results.json — skipping SEC-04 v2 build"
+          fi
+      - name: Stitch full EP01 (SEC-01 + v2 SEC-02/03/05 + SEC-04 v2)
         run: |
           set -e
           if [ -f sections/EP01-SEC-02-story1-v2.mp4 ] && \
@@ -60,7 +72,9 @@ jobs:
         run: |
           git config user.name "section-bot"
           git config user.email "actions@github.com"
-          rm -rf _staging/section_work _staging/stitch_work
-          git add sections/ "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-A-is-for-amazing-FINAL.mp4" 2>/dev/null || true
+          rm -rf _staging/section_work _staging/stitch_work _staging/sec04_work
+          git add sections/ \
+            "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-song-section-v2.mp4" \
+            "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-A-is-for-amazing-FINAL.mp4" 2>/dev/null || true
           git commit -m "EP01: assemble v2 sections + stitch final (auto)" || echo "nothing to commit"
           git push
