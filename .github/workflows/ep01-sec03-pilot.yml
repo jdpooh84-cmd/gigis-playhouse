@@ -26,6 +26,8 @@ jobs:
           echo "/tmp/ffmpeg-static/bin" >> "$GITHUB_PATH"
           /tmp/ffmpeg-static/bin/ffmpeg -version | head -1
       - name: Make SEC-03 pilot build spec (join renders + ledger)
+        env:
+          VO_PIN_SHA: 3a85a791ce04596b471dfa54b00022e1ab616177
         run: python3 scripts/ep01_make_sec03_build_spec.py
       - name: Build SEC-03 pilot (lip-sync re-time + letter overlays + sync-gate)
         run: python3 scripts/ep01_build_sec03_pilot.py

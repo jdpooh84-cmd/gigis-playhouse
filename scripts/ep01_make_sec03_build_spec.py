@@ -5,10 +5,13 @@ render_results.json  : {"EP01-P3-01": {"job":..,"url":<video url>}, ...}
 pilot_ledger.json    : lines[] with letter / audience_wait per clip
 Emits _staging/sec03_pilot/build_spec.json consumed by ep01_build_sec03_pilot.py.
 """
-import json, sys
+import json, os, sys
 
 BASE = "_staging/sec03_pilot"
-RAW = "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/"
+# VO_PIN_SHA pins the raw VO to a commit so CI never reads a stale cached take
+# off the branch-ref raw URL (default: branch ref).
+_REF = os.environ.get("VO_PIN_SHA", "claude/sunny-crew-ep1-assembly-8hg5om")
+RAW = f"https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/{_REF}/_staging/vo_el/pilot/"
 led = {r["clip_id"]: r for r in json.load(open(f"{BASE}/pilot_ledger.json"))["lines"]}
 res = json.load(open("_staging/vo_el/pilot/render_results.json"))
 

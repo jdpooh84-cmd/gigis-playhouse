@@ -94,11 +94,12 @@
   {
    "clip_id": "EP01-P3-11",
    "speaker": "Koda",
-   "render_text": "My turn! KO-DA!",
+   "render_text": "My turn! Coda!",
    "start_image": "ACT-KODA-CLAP",
    "game": "clap-name",
-   "letter": "K",
-   "action": "big proud stomps on his name"
+   "letter": "C",
+   "action": "big proud stomps on his name",
+   "name_tag": "Coda"
   },
   {
    "clip_id": "EP01-P3-12",
@@ -145,7 +146,7 @@
   {
    "clip_id": "EP01-P3-17",
    "speaker": "Pipa",
-   "render_text": "...Pi-pa?",
+   "render_text": "…Pippa?",
    "start_image": "CU-PIPA-SAD1",
    "game": "feelings-small",
    "offset": 0.2,
@@ -162,7 +163,7 @@
   {
    "clip_id": "EP01-P3-19",
    "speaker": "Pipa",
-   "render_text": "PI-PA!",
+   "render_text": "Pippa!",
    "start_image": "CU-PIPA-PROUD",
    "game": "feelings-big",
    "letter": "P",

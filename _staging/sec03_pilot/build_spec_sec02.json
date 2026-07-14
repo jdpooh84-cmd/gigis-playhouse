@@ -21,17 +21,19 @@
   },
   {
    "clip_id": "EP01-NP-N01",
-   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_053059_e630fc15-59c3-41c7-a521-5a941a5e3235.mp4",
+   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_181540_4577213d-faba-46da-8afb-605e3033d052.mp4",
    "dur": 5.5,
-   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-N01.mp3",
-   "letter": "K"
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/3a85a791ce04596b471dfa54b00022e1ab616177/_staging/vo_el/EP01-NP-N01.mp3",
+   "letter": "C",
+   "name_tag": "Coda"
   },
   {
    "clip_id": "EP01-NP-N02",
-   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_054057_6bf32a04-9ee2-44e7-926c-4c5622efec17.mp4",
+   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_181548_40500d92-7d5a-4f09-be15-28380646e48a.mp4",
    "dur": 5.5,
-   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-N02.mp3",
-   "letter": "M"
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/3a85a791ce04596b471dfa54b00022e1ab616177/_staging/vo_el/EP01-NP-N02.mp3",
+   "letter": "M",
+   "name_tag": "Mimi"
   },
   {
    "clip_id": "EP01-NP-N09",
@@ -40,10 +42,11 @@
   },
   {
    "clip_id": "EP01-NP-N03",
-   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_053141_667bb1bf-3e36-49cd-88de-b36304372ecc.mp4",
+   "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_181609_2dfa98d4-6f57-480a-b2da-e5071bff53ff.mp4",
    "dur": 5.5,
-   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/EP01-NP-N03.mp3",
-   "letter": "B"
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/3a85a791ce04596b471dfa54b00022e1ab616177/_staging/vo_el/EP01-NP-N03.mp3",
+   "letter": "B",
+   "name_tag": "Bram"
   },
   {
    "clip_id": "EP01-NP-C03",
