@@ -1,0 +1,489 @@
+{
+  "song": "Wiggle Wake Up",
+  "audio": "_staging/audio/wiggle-wake-up.mp3",
+  "duration": 144.552,
+  "n": 20,
+  "slot": 7.2276,
+  "out": "sunny-and-the-crew/song-shorts/Wiggle-Wake-Up.mp4",
+  "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
+  "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+  "clips": [
+    {
+      "clip_id": "W01",
+      "section": "Intro",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Leo"
+      ],
+      "start": 0.0,
+      "end": 7.228,
+      "dur": 7.228,
+      "kind": "title",
+      "logo": true,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] gently hum and sway in place, rubbing sleepy eyes, soft morning stretch, warm smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Wake up your hands",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W02",
+      "section": "Intro",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Koda"
+      ],
+      "start": 7.228,
+      "end": 14.455,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] wiggle fingers and toes toward the camera, inviting, cheerful. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Time to wiggle to the beat!",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W03",
+      "section": "Verse 1",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Bram"
+      ],
+      "start": 14.455,
+      "end": 21.683,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] stand by a sunny window, wave a big cheerful good-morning wave. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Good day!",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W04",
+      "section": "Verse 1",
+      "cast": [
+        "Mimi",
+        "Leo",
+        "Pipa"
+      ],
+      "start": 21.683,
+      "end": 28.91,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] big slow full-body stretch, arms reaching up high to the ceiling. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Reach up high",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W05",
+      "section": "Verse 1",
+      "cast": [
+        "Sunny",
+        "Koda",
+        "Bram",
+        "Mia"
+      ],
+      "start": 28.91,
+      "end": 36.138,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] whole-body happy shake like a tree in the wind, giggly wiggles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Shake shake shake",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W06",
+      "section": "Hook 1",
+      "cast": [
+        "Sunny",
+        "Koda",
+        "Mimi",
+        "Leo"
+      ],
+      "start": 36.138,
+      "end": 43.366,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] wiggle and shake in place together, big joyful energy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Wiggle wiggle",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W07",
+      "section": "Hook 1",
+      "cast": [
+        "Mia",
+        "Bram",
+        "Pipa",
+        "Leo"
+      ],
+      "start": 43.366,
+      "end": 50.593,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] tap knees in rhythm then clap hands up high. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Clap your hands",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W08",
+      "section": "Verse 2",
+      "cast": [
+        "Koda",
+        "Mia"
+      ],
+      "start": 50.593,
+      "end": 57.821,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] playful little frog hops in place, hands doing ribbit motions. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Hop! Hop!",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W09",
+      "section": "Verse 2",
+      "cast": [
+        "Bram",
+        "Leo"
+      ],
+      "start": 57.821,
+      "end": 65.048,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] stomp feet like big friendly bears, heavy but safe stomps. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Stomp stomp stomp",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W10",
+      "section": "Verse 2",
+      "cast": [
+        "Mimi",
+        "Pipa"
+      ],
+      "start": 65.048,
+      "end": 72.276,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] tiptoe quietly like little mice, finger to lips, gentle shh. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Tiptoe quiet",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W11",
+      "section": "Hook 2",
+      "cast": [
+        "Sunny",
+        "Bram",
+        "Mia",
+        "Pipa"
+      ],
+      "start": 72.276,
+      "end": 79.504,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] wiggle and shake wide awake, big smiles, joining in. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Wide awake",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W12",
+      "section": "Hook 2",
+      "cast": [
+        "Koda",
+        "Mimi",
+        "Leo",
+        "Sunny"
+      ],
+      "start": 79.504,
+      "end": 86.731,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] tap knees then clap hands together on the beat. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Tap your knees",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W13",
+      "section": "Bridge",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Leo",
+        "Mimi"
+      ],
+      "start": 86.731,
+      "end": 93.959,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Sunny leads, group claps then stomps together, call and response. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Can you clap?",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W14",
+      "section": "Bridge",
+      "cast": [
+        "Sunny",
+        "Koda",
+        "Bram",
+        "Pipa"
+      ],
+      "start": 93.959,
+      "end": 101.186,
+      "dur": 7.228,
+      "kind": "freeze",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] everyone snaps into a fun frozen pose, eyes open, big grins, holding still. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "FREEZE!",
+          0.45,
+          0.95,
+          "freeze"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W15",
+      "section": "Bridge",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Koda",
+        "Leo"
+      ],
+      "start": 101.186,
+      "end": 108.414,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] cheer and point to the camera, celebrating, hooray. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Hooray for YOU!",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W16",
+      "section": "Final verse",
+      "cast": [
+        "Sunny",
+        "Mimi"
+      ],
+      "start": 108.414,
+      "end": 115.642,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] two friends give a gentle warm hug, happy smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Give a hug",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W17",
+      "section": "Final verse",
+      "cast": [
+        "Leo",
+        "Bram",
+        "Koda",
+        "Pipa"
+      ],
+      "start": 115.642,
+      "end": 122.869,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] kids share kind gestures, hand on shoulder, warm waves to viewer. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Share your kindness",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W18",
+      "section": "Final verse",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Koda",
+        "Mimi",
+        "Leo",
+        "Bram",
+        "Pipa"
+      ],
+      "start": 122.869,
+      "end": 130.097,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] whole crew does one big bright happy wiggle together. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "One last wiggle",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W19",
+      "section": "Outro",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Koda",
+        "Mimi",
+        "Leo",
+        "Bram",
+        "Pipa"
+      ],
+      "start": 130.097,
+      "end": 137.324,
+      "dur": 7.228,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] full crew wiggle, tap knees and clap, calmer warm energy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Wide awake",
+          0.14,
+          0.9,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W20",
+      "section": "Outro",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Koda",
+        "Mimi",
+        "Leo",
+        "Bram",
+        "Pipa"
+      ],
+      "start": 137.324,
+      "end": 144.552,
+      "dur": 7.228,
+      "kind": "end",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] gentle final wiggles, warm group pose, smiling at camera. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm morning key light, gentle depth of field, cozy indoor playroom / living room with soft golden morning sunlight through a big window, warm yellow and pastel palette, on-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "THE END",
+          0.3,
+          1.0,
+          "end"
+        ]
+      ]
+    }
+  ]
+}
