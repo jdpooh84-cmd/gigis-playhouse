@@ -1,1 +1,1 @@
-2026-07-14T18:20:58Z batch2 rebuild
+2026-07-14T19:22:41Z repair-pass rebuild (freeze-removal + intro logo)
