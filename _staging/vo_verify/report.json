@@ -1,0 +1,119 @@
+{
+ "model": "eleven_multilingual_v2",
+ "taskA": {
+  "list_http": "401",
+  "visible_voices": [],
+  "visible_count": 0,
+  "mapped_resolution": {
+   "Sunny": {
+    "id": "BlgEcC0TfWpBak7FmvHW",
+    "resolves": false,
+    "http": "401",
+    "returned_name": null,
+    "category": null,
+    "in_voice_list": false
+   },
+   "Pipa": {
+    "id": "U09MtJ2GfKEZSsIvMw9i",
+    "resolves": false,
+    "http": "401",
+    "returned_name": null,
+    "category": null,
+    "in_voice_list": false
+   },
+   "Ava": {
+    "id": "eBvoGh8YGJn1xokno71w",
+    "resolves": false,
+    "http": "401",
+    "returned_name": null,
+    "category": null,
+    "in_voice_list": false
+   },
+   "Leo": {
+    "id": "GsfuR3Wo2BACoxELWyEF",
+    "resolves": false,
+    "http": "401",
+    "returned_name": null,
+    "category": null,
+    "in_voice_list": false
+   },
+   "Bram": {
+    "id": "mrQhZWGbb2k9qWJb5qeA",
+    "resolves": false,
+    "http": "401",
+    "returned_name": null,
+    "category": null,
+    "in_voice_list": false
+   },
+   "Mia": {
+    "id": "XJ2fW4ybq7HouelYYGcL",
+    "resolves": false,
+    "http": "401",
+    "returned_name": null,
+    "category": null,
+    "in_voice_list": false
+   },
+   "Koda": {
+    "id": "mMf8pnvS4tTEecRvNcpn",
+    "resolves": false,
+    "http": "401",
+    "returned_name": null,
+    "category": null,
+    "in_voice_list": false
+   }
+  },
+  "unresolved": [
+   "Sunny",
+   "Pipa",
+   "Ava",
+   "Leo",
+   "Bram",
+   "Mia",
+   "Koda"
+  ]
+ },
+ "taskB": {
+  "lines": [
+   {
+    "char": "Sunny",
+    "voice_id": "BlgEcC0TfWpBak7FmvHW",
+    "tag": "sunny_proof",
+    "text": "Come on, Crew — let's find out!",
+    "ok": true,
+    "http": "200",
+    "bytes": 35152,
+    "duration_s": "2.136236",
+    "error": null
+   },
+   {
+    "char": "Koda",
+    "voice_id": "mMf8pnvS4tTEecRvNcpn",
+    "tag": "koda_natural",
+    "text": "My name is Koda.",
+    "ok": true,
+    "http": "200",
+    "bytes": 20524,
+    "duration_s": "1.207438",
+    "error": null
+   },
+   {
+    "char": "Koda",
+    "voice_id": "mMf8pnvS4tTEecRvNcpn",
+    "tag": "koda_override",
+    "text": "My name is Koh-duh.",
+    "ok": true,
+    "http": "200",
+    "bytes": 23449,
+    "duration_s": "1.393197",
+    "error": null
+   }
+  ]
+ },
+ "account": {
+  "http": "401",
+  "tier": null,
+  "char_limit": null,
+  "char_used": null,
+  "can_use_instant_voice_cloning": null
+ }
+}
