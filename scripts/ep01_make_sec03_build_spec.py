@@ -10,7 +10,7 @@ import json, sys
 BASE = "_staging/sec03_pilot"
 RAW = "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/"
 led = {r["clip_id"]: r for r in json.load(open(f"{BASE}/pilot_ledger.json"))["lines"]}
-res = json.load(open(f"{BASE}/render_results.json"))
+res = json.load(open("_staging/vo_el/pilot/render_results.json"))
 
 order = list(led.keys())
 missing = [c for c in order if not (res.get(c) or {}).get("url")]
