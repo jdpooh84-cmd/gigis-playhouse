@@ -104,7 +104,14 @@ with open(f"{WORK}/concat.txt","w") as f:
     for p in parts: f.write("file '%s'\n"%os.path.abspath(p))
 vid=f"{WORK}/video.mp4"
 run(["ffmpeg","-y","-v","error","-f","concat","-safe","0","-i",f"{WORK}/concat.txt","-c","copy",vid])
-vdur=probe(vid)
+vdur=probe(vid); adur=probe(AUDIO)
+# match the song length exactly (global rule): if the video track is short, hold the final
+# "THE END" pose to the song's end (a natural outro hold, not a mid-song corpse freeze).
+if adur > vdur + 0.05:
+    vpad=f"{WORK}/video_pad.mp4"
+    run(["ffmpeg","-y","-v","error","-i",vid,"-vf","tpad=stop_mode=clone:stop_duration=%.3f"%(adur-vdur),
+         "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",vpad])
+    vid=vpad; vdur=probe(vid)
 # mux original song audio byte-identical
 run(["ffmpeg","-y","-v","error","-i",vid,"-i",AUDIO,"-map","0:v:0","-map","1:a:0",
      "-c:v","copy","-c:a","copy","-shortest",OUT])
