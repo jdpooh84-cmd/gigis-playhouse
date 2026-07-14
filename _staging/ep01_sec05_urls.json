@@ -1,0 +1,85 @@
+{
+ "section": "SEC-05",
+ "out": "sections/EP01-SEC-05-reflection-v2.mp4",
+ "rev": 2,
+ "clips": [
+  {
+   "clip_id": "EP01-NP-C22",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_000954_00fe3026-9284-4cdb-bc0f-94994dd4229a.mp4",
+   "dur": 5.5,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230341_4495cea8-5544-4005-9902-6c6fa6597257.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-N16",
+   "url": "MISSING",
+   "dur": 5.5,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233531_c79edf26-663c-4ad9-97a7-d095bfa1d2df.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-C23",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_210945_4ffd49d2-46c0-43e0-a947-81b94dabc99f.mp4",
+   "dur": 5.5,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230349_d03559ae-e234-413a-803a-36b507ffe188.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-C24",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_000957_13fc5e35-8a82-4952-8e36-eafede3503ee.mp4",
+   "dur": 3.5,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230356_037bec5b-d474-4524-8587-46400a9aaee6.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-C25",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_000959_eef2188a-80a8-4acc-98b2-da08421ffa39.mp4",
+   "dur": 3.5,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230410_766508c4-9b93-4fe8-92e3-207fd7cdbda0.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-C26",
+   "url": "MISSING",
+   "dur": 4.0,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230418_f73f930f-0ad3-4bbb-9e00-f102f360f3b7.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-N17",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001019_25f21919-60fb-4c30-bb8c-c6d70d829a4f.mp4",
+   "dur": 5.5,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233533_3633643f-355a-4721-99ae-9ca061dddb4a.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-N21",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001021_6ebf5785-c78e-4504-811c-1f733e1d5ad6.mp4",
+   "dur": 4.5,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233536_44b84026-1a73-4d9b-94dd-113ab73a3c39.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-C27",
+   "url": "MISSING",
+   "dur": 3.8,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230425_40fc66dd-d28f-46b1-8238-b092b5277411.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-C28",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001001_d70069b6-056d-4992-bc3f-49879c4307d7.mp4",
+   "dur": 5.5,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230431_1f419571-c9e6-4d68-b42b-f95b6299eb32.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-C29",
+   "url": "MISSING",
+   "dur": 5.0,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230438_9a5f8073-42f8-4529-902d-988ff0947351.mp3"
+  },
+  {
+   "clip_id": "EP01-NP-C30",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_123210_d0744271-236a-494e-8bd6-0dd3734df612.mp4",
+   "dur": 3.8,
+   "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230445_f05daa6b-7e3d-41cc-8a1b-fe31e36355e6.mp3"
+  }
+ ],
+ "MISSING": [
+  "EP01-NP-N16",
+  "EP01-NP-C26",
+  "EP01-NP-C27",
+  "EP01-NP-C29"
+ ]
+}
