@@ -1,0 +1,236 @@
+1
+00:00:44,780 --> 00:00:46,436
+Sunny: Today is Name Day!
+
+2
+00:00:48,580 --> 00:00:50,788
+Sunny: Every name has amazing letters!
+
+3
+00:00:53,080 --> 00:00:54,376
+Crew: Name Day! Hooray!
+
+4
+00:00:58,080 --> 00:00:59,880
+Koda: My name is amazing — KO-DA!
+
+5
+00:01:03,580 --> 00:01:05,980
+Sunny: Mimi's name too — MI-MI!
+
+6
+00:01:13,580 --> 00:01:16,580
+Bram: BRAM!
+
+7
+00:01:19,080 --> 00:01:20,640
+Mia: MI-A!
+
+8
+00:01:24,580 --> 00:01:27,196
+Leo: LE-O!
+
+9
+00:01:30,080 --> 00:01:31,784
+Crew: Every name is amazing!
+
+10
+00:01:36,080 --> 00:01:38,048
+Pipa: My name's not special.
+
+11
+00:01:39,880 --> 00:01:41,344
+Sunny: How do you feel right now?
+
+12
+00:01:43,680 --> 00:01:45,480
+Pipa: I feel small.
+
+13
+00:01:47,480 --> 00:01:49,568
+Sunny: Even your name is amazing.
+
+14
+00:01:51,280 --> 00:01:54,640
+Sunny: One of a kind — just like YOU!
+
+15
+00:01:55,780 --> 00:01:57,484
+Sunny: Say your name with me!
+
+16
+00:02:00,280 --> 00:02:01,504
+Sunny: I heard you! Amazing!
+
+17
+00:02:04,280 --> 00:02:06,176
+Ava: What a crew of amazing names!
+
+18
+00:02:08,780 --> 00:02:10,364
+Ava: Let's practice our letters!
+
+19
+00:02:13,280 --> 00:02:14,624
+Sunny: Let's make an A!
+
+20
+00:02:18,780 --> 00:02:20,796
+Sunny: Arms up high — big A!
+
+21
+00:02:24,280 --> 00:02:26,392
+Sunny: What's YOUR letter? Trace it!
+
+22
+00:02:29,280 --> 00:02:30,864
+Leo: Trace an A in the air!
+
+23
+00:02:33,780 --> 00:02:35,892
+Ava: Now — clap your names!
+
+24
+00:02:37,280 --> 00:02:38,480
+Sunny: Now clap your name!
+
+25
+00:02:42,780 --> 00:02:49,356
+Mia: SUN-NY! MI-A! LE-O!
+
+26
+00:02:49,780 --> 00:02:53,068
+Koda: KO-DA!
+
+27
+00:02:55,280 --> 00:02:56,600
+Sunny: Look at Mimi go!
+
+28
+00:03:00,780 --> 00:03:02,916
+Bram: Mine goes... oops!
+
+29
+00:03:05,780 --> 00:03:06,980
+Bram: BRAM! I did it!
+
+30
+00:03:11,280 --> 00:03:13,872
+Leo: LE-O!
+
+31
+00:03:16,780 --> 00:03:18,436
+Mia: MI-A — my letter M!
+
+32
+00:03:22,280 --> 00:03:24,080
+Sunny: Pipa, clap your name!
+
+33
+00:03:26,780 --> 00:03:27,860
+Bram: Your turn, sis!
+
+34
+00:03:30,280 --> 00:03:31,280
+Pipa: PI-PA!
+
+35
+00:03:35,780 --> 00:03:36,836
+Crew: Yay, Pipa!
+
+36
+00:03:39,780 --> 00:03:41,508
+Pipa: My name IS amazing!
+
+37
+00:03:45,280 --> 00:03:46,840
+Ava: Amazing letters, everyone!
+
+38
+00:03:49,280 --> 00:03:50,720
+Leo: Can we sing the A song?
+
+39
+00:03:52,780 --> 00:03:55,420
+Sunny: Ready? One — two — three!
+
+40
+00:04:02,280 --> 00:04:09,280
+♪ Hey friends it's time to play! / Let's learn our A words today!
+
+41
+00:04:09,280 --> 00:04:26,880
+♪ Apple apple big and red / Apple apple overhead / Crunch it up from core to top / An apple snack that just won't stop!
+
+42
+00:04:26,880 --> 00:04:40,080
+♪ A is amazing A is the best / A is the letter we love the most / Sing it with me — A A A! / A words are awesome every day!
+
+43
+00:04:40,080 --> 00:04:57,780
+♪ Airplane airplane in the sky / Airplane airplane flying high / Spreading wings and zooming free / An airplane goes where it wants to be!
+
+44
+00:04:57,780 --> 00:05:10,280
+♪ A is amazing A is the best / A is the letter we love the most / Sing it with me — A A A! / A words are awesome every day!
+
+45
+00:05:10,280 --> 00:05:24,780
+♪ Apple makes our tummies glad! / Airplane is the best we've had! / A words make the whole day bright / A words always feel just right!
+
+46
+00:05:24,780 --> 00:05:37,780
+♪ A is amazing A is the best / A is the letter we love the most / Sing it with me — A A A! / A words are awesome every day!
+
+47
+00:05:37,780 --> 00:05:47,110
+♪ Great job friends you did it today! / We learned our A words — hip hip hooray! / See you next time — bye bye bye!
+
+48
+00:05:47,110 --> 00:05:48,238
+Sunny: We made an A!
+
+49
+00:05:52,610 --> 00:05:54,218
+Crew: We practiced all day!
+
+50
+00:05:58,110 --> 00:05:59,502
+Sunny: We did it!
+
+51
+00:06:03,610 --> 00:06:05,434
+Sunny: Pipa, how do you feel?
+
+52
+00:06:07,110 --> 00:06:08,110
+Pipa: Proud!
+
+53
+00:06:10,610 --> 00:06:12,434
+Pipa: Clapping my name helped.
+
+54
+00:06:14,610 --> 00:06:16,026
+Pipa: Our names are amazing!
+
+55
+00:06:20,110 --> 00:06:22,294
+Ava: You were all amazing today!
+
+56
+00:06:24,610 --> 00:06:25,738
+Sunny: Your turn at home:
+
+57
+00:06:28,410 --> 00:06:30,594
+Sunny: Clap your name! Make an A!
+
+58
+00:06:33,910 --> 00:06:37,150
+Sunny: Every crew needs YOU... yes, YOU.
+
+59
+00:06:38,910 --> 00:06:40,374
+Sunny: Bye, amazing friends!
+
