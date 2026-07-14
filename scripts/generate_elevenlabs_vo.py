@@ -38,9 +38,13 @@ def tts_text(speaker, text):
         text = text.replace("KO-DA", "Koh-duh").replace("Koda", "Koh-duh")
     return text
 
-key = os.environ.get("ELEVENLABS_API_KEY")
+key = next((os.environ[n] for n in
+            ("ELEVENLABS_API_KEY", "XI_API_KEY", "ELEVEN_API_KEY",
+             "ELEVENLABS_KEY", "ELEVEN_LABS_API_KEY", "ELEVENLABS_APIKEY")
+            if os.environ.get(n)), None)
 if not key:
-    sys.exit("ELEVENLABS_API_KEY not set in environment — set it as an env secret, then re-run.")
+    sys.exit("no ElevenLabs API key in env (checked ELEVENLABS_API_KEY / XI_API_KEY / "
+             "ELEVEN_API_KEY / ELEVENLABS_KEY / ELEVEN_LABS_API_KEY) — set it as an env secret, then re-run.")
 
 os.makedirs(OUT, exist_ok=True)
 only = sys.argv[1] if len(sys.argv) > 1 else None
