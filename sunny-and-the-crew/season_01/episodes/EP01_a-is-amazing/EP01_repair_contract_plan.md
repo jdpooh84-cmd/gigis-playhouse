@@ -178,3 +178,39 @@ Regenerated VO (ElevenLabs, locked voices) + re-rendered video (seedance 2.0, ne
       Sunny/Mimi proportions (~5–6, close in size); waving only on hello/goodbye; hands-on-heart retime;
       face-drawing→trace-A; kids' lips to the song (SEC-04)
 - [ ] **Blocked:** opening logo (needs sunny_logo.png); Nana Blossom + Captain Blue (needs refs)
+
+---
+# SEC-04 "A Is Amazing" SONG — PROPOSED FIX PLAN (TEXT-ONLY — AWAITING APPROVAL)
+Planning phase per the cost/tool contract. **No TTS / video / image tools called for this section yet.**
+SEC-04 v2 = 21 fixed shots (S04-01…21), each 4.992s; shot i spans [i×4.992, (i+1)×4.992].
+Song audio stays byte-identical (muxed `-c:a copy`); structure/timing/duration unchanged.
+
+## What I verified (local frame inspection only)
+- Correct props already: apple verse (S04-03/04/05) shows apples; airplane verse mostly airplane-arms.
+- Chorus shots (S04-07/08/12/13/14/18/19) are already prop-free A-poses — **no stray apples to remove** (fix #4 largely already satisfied).
+- Intro S04-01 shows Sunny + Leo holding apples during "learn our A words" (not a generic chorus). **Recommend LEAVE** (apple is the intro's only visual A-word); flag for your call.
+
+## Shots I propose to re-render — ONE render each (4 shots)
+| Shot | Timecode | Lyric | Current issue | Exact change (single re-render) | VO/audio |
+|---|---|---|---|---|---|
+| **S04-06** | 24.96–29.95 | chorus-1 "A is amazing" | **Mimi hugs an oversized (giant) apple** — breaks believability | New start still: Mimi holding a **normal, hand-scale red apple**, same backyard/wardrobe/framing; re-render keeping pose + timing. Also drive her mouth to the sung line (she's a featured close-up). | song slice 24.96–29.95 as lip-sync ref (best-effort) |
+| **S04-11** | 49.92–54.91 | verse-2 "airplane" | **Bram holds a red apple during the "airplane" lyric** (prop↔lyric conflict). NOTE: contract said "Leo" — the real offender is **Bram**; Leo's airplane shot S04-09 has no apple. | New start still: Bram holding a **small paper airplane** (no apple), same backyard/wardrobe/framing; re-render the airplane play, keep timing. | none (action shot, not a featured singer) — generate_audio off |
+| **S04-14** | 64.90–69.89 | chorus-2 "A is amazing" | Sunny sings at the mic but mouth isn't synced to the sung line | Re-render from the shot's own opening frame (exact look preserved) driven by the song slice so her mouth tracks the sung syllables; ghost-mouth trim after vocal. **No prop/pose/wardrobe change.** | song slice 64.90–69.89 |
+| **S04-17** | 79.87–84.87 | bridge | Mimi sings at the mic but mouth isn't synced | Re-render from the shot's own opening frame driven by the song slice; ghost-mouth trim. **No prop/pose/wardrobe change.** | song slice 79.87–84.87 |
+
+**Method notes (so each is ONE re-render):**
+- S04-14 / S04-17 use the shot's **own opening frame** (extracted locally from the committed SEC-04 v2 — free) as the start image, so faces/clothing/colors/framing are identical; only the mouth is re-driven. → look-safe.
+- S04-06 / S04-11 change a prop, so they need a **new on-model start still** (character element + the shot's frame as a composition reference) with the corrected prop, then one video re-render. Backyard + wardrobe matched via the reference.
+- Re-rendered shot is trimmed to the exact 4.992s slot and swapped into the SEC-04 v2 assembly (one shot in, others untouched — clean, like the SEC-02 swaps). Audio re-muxed byte-identical. Duration stays 104.83s.
+
+## Items I am NOT doing this pass (honest scope)
+- **Mimi's body size (episode-wide ~6):** your SEC-04 answer only asked for the apple scale ("keep Mimi's pose"), so this plan does **not** resize her body. Episode-wide Mimi re-sizing (all sections) remains a separate decision — say the word and I'll plan it as its own pass.
+- **Waving:** intro (S04-01) + outro (S04-20/21) waves are contextually correct (hello / "bye bye bye"); I found no off-context mid-song waving to fix.
+- **Hands-on-heart (bridge):** the bridge shots render as arms-out, not hands-on-heart. Changing that is an **addition** beyond your 4 listed fixes, so it's excluded (you said apply ONLY the listed fixes).
+- **Face-drawing → trace-A:** that's a letter-writing beat in the name/dialogue sections, not SEC-04 — out of scope for this song plan.
+
+## Lip-sync honesty
+Seedance lip-sync to **sung** vocals in a full mix is approximate (looser than spoken dialogue). I'll aim for syllable-level tracking + no ghost-mouth on the 3 featured-singer shots (S04-06/14/17); if a shot can't be made clean in a single re-render I'll document it and ask, not re-render again.
+
+## APPROVAL GATE
+**Do you approve this plan?** If yes, I will run exactly one re-render per shot for S04-06, S04-11, S04-14, S04-17 (plus the two new prop start-stills for S04-06/S04-11), swap them into SEC-04 v2, re-stitch, QC, and redeliver. I will not touch any other shot or call any paid tool until you approve.
