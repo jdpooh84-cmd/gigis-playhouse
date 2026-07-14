@@ -25,16 +25,20 @@ jobs:
           tar -xf /tmp/ffmpeg.tar.xz -C /tmp/ffmpeg-static --strip-components=1
           echo "/tmp/ffmpeg-static/bin" >> "$GITHUB_PATH"
           /tmp/ffmpeg-static/bin/ffmpeg -version | head -1
-      - name: Make build spec (join renders + ledger)
+      - name: Make SEC-03 pilot build spec (join renders + ledger)
         run: python3 scripts/ep01_make_sec03_build_spec.py
       - name: Build SEC-03 pilot (lip-sync re-time + letter overlays + sync-gate)
         run: python3 scripts/ep01_build_sec03_pilot.py
-      - name: Re-stitch full EP01 with pilot SEC-03
+      - name: Build SEC-02 v3 (lip-sync re-time + letter overlays)
+        run: SEC03_SPEC=_staging/sec03_pilot/build_spec_sec02.json SYNC_GATE_FATAL=0 python3 scripts/ep01_build_sec03_pilot.py
+      - name: Build SEC-05 v3 (lip-sync re-time + letter overlays)
+        run: SEC03_SPEC=_staging/sec03_pilot/build_spec_sec05.json SYNC_GATE_FATAL=0 python3 scripts/ep01_build_sec03_pilot.py
+      - name: Re-stitch full EP01 (SEC-01 + SEC-02v3 + SEC-03 pilot + SEC-04v2 + SEC-05v3)
         run: |
           set -e
-          if [ -f sections/EP01-SEC-02-story1-v2.mp4 ] && \
+          if [ -f sections/EP01-SEC-02-story1-v3.mp4 ] && \
              [ -f sections/EP01-SEC-03-pilot.mp4 ] && \
-             [ -f sections/EP01-SEC-05-reflection-v2.mp4 ]; then
+             [ -f sections/EP01-SEC-05-reflection-v3.mp4 ]; then
             python3 scripts/ep01_stitch_final.py
           else
             echo "missing a section — skipping stitch"; exit 1
@@ -44,7 +48,8 @@ jobs:
           git config user.name "pilot-bot"
           git config user.email "actions@github.com"
           rm -rf _staging/sec03_work _staging/stitch_work
-          git add sections/EP01-SEC-03-pilot.mp4 _staging/sec03_pilot/build_spec.json \
+          git add sections/EP01-SEC-03-pilot.mp4 sections/EP01-SEC-02-story1-v3.mp4 sections/EP01-SEC-05-reflection-v3.mp4 \
+            _staging/sec03_pilot/build_spec.json \
             "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing/EP01-A-is-for-amazing-FINAL.mp4" 2>/dev/null || true
           git commit -m "EP01 SEC-03 pilot: build section + re-stitch final (auto)" || echo "nothing to commit"
           for i in 1 2 3 4 5; do

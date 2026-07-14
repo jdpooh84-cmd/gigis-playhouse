@@ -22,14 +22,20 @@ if SEC04 == SEC04_OLD:
     print("WARNING: SEC-04 v2 (on-model) not found — falling back to pre-redesign SYNCED master")
 # SEC-03: prefer the remapped play/games pilot (lip-sync re-timed, letter overlays,
 # audience-wait beats) over the original v2 story cut.
-SEC03_PILOT = "sections/EP01-SEC-03-pilot.mp4"
-SEC03 = SEC03_PILOT if os.path.exists(SEC03_PILOT) else "sections/EP01-SEC-03-story2-v2.mp4"
+def prefer(*paths):
+    for p in paths:
+        if os.path.exists(p): return p
+    return paths[-1]
+# prefer the re-timed (lip-sync aligned + letter-overlay) v3 sections + the 3D games pilot
+SEC02 = prefer("sections/EP01-SEC-02-story1-v3.mp4", "sections/EP01-SEC-02-story1-v2.mp4")
+SEC03 = prefer("sections/EP01-SEC-03-pilot.mp4", "sections/EP01-SEC-03-story2-v2.mp4")
+SEC05 = prefer("sections/EP01-SEC-05-reflection-v3.mp4", "sections/EP01-SEC-05-reflection-v2.mp4")
 SECTIONS = [
     ("SEC-01", "sunny-and-the-crew/theme-song/THEME-INTRO-MASTER.mp4"),
-    ("SEC-02", "sections/EP01-SEC-02-story1-v2.mp4"),
+    ("SEC-02", SEC02),
     ("SEC-03", SEC03),
     ("SEC-04", SEC04),
-    ("SEC-05", "sections/EP01-SEC-05-reflection-v2.mp4"),
+    ("SEC-05", SEC05),
 ]
 OUT = os.path.join(EP, "EP01-A-is-for-amazing-FINAL.mp4")
 VF = ("scale=1280:720:force_original_aspect_ratio=decrease,"

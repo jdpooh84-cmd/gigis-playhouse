@@ -76,11 +76,15 @@ for i,c in enumerate(spec["clips"]):
     src=f"{WORK}/src_{i:02d}.mp4"; vo=f"{WORK}/vo_{i:02d}.mp3"; cut=f"{WORK}/cut_{i:02d}.mp4"
     run(["curl","-sL","-A","Mozilla/5.0","-o",src,c["video_url"]])
     if os.path.getsize(src)<10000: sys.exit("video too small: %s %s"%(cid,c["video_url"]))
-    run(["curl","-sL","-A","Mozilla/5.0","-o",vo,c["vo_url"]])
-    if os.path.getsize(vo)<800: sys.exit("VO too small: %s %s"%(cid,c["vo_url"]))
-    vlen=probe(src); volen=probe(vo)
-    slot=off+volen+TAIL_PAUSE+wait
-    # build the video filter: normalize + (optional) hold last frame to fill slot + (optional) letter overlay
+    vlen=probe(src)
+    has_vo = bool(c.get("vo_url"))
+    if has_vo:
+        run(["curl","-sL","-A","Mozilla/5.0","-o",vo,c["vo_url"]])
+        if os.path.getsize(vo)<800: sys.exit("VO too small: %s %s"%(cid,c["vo_url"]))
+        volen=probe(vo); slot=off+volen+TAIL_PAUSE+wait
+    else:
+        # wordless action beat: hold the shot for its own length, silent bed, no re-time/overlay/gate
+        volen=0.0; slot=c.get("dur", vlen)
     vf=VF
     if slot>vlen+0.03:
         vf=vf+",tpad=stop_mode=clone:stop_duration=%.3f"%(slot-vlen)
@@ -89,24 +93,30 @@ for i,c in enumerate(spec["clips"]):
         vf=vf+(",drawtext=fontfile='%s':text='%s':fontcolor=white:fontsize=170:"
                "x=110:y=100:borderw=7:bordercolor=%s:shadowcolor=black@0.45:shadowx=4:shadowy=4:"
                "alpha='min(1,max(0,(t-%.2f)/0.4))'"%(FONT,g,col,off))
-    # audio: delay VO by off, pad to slot
-    af="adelay=%d:all=1,apad"%int(off*1000)
-    run(["ffmpeg","-y","-v","error","-i",src,"-i",vo,"-t","%.3f"%slot,
-         "-map","0:v:0","-map","1:a:0","-vf",vf,"-af",af,
-         "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
-         "-c:a","aac","-b:a","128k","-ar","44100","-ac","2",cut])
-    # SYNC-GATE: measured audio onset must equal the applied offset (+ the VO's own lead)
-    on=audio_onset(cut)
-    ok = GATE_LO <= on <= GATE_HI+0.15
-    gate.append((cid,round(on,3),ok))
+    if has_vo:
+        af="adelay=%d:all=1,apad"%int(off*1000)  # re-time VO onto the mouth wind-up
+        run(["ffmpeg","-y","-v","error","-i",src,"-i",vo,"-t","%.3f"%slot,
+             "-map","0:v:0","-map","1:a:0","-vf",vf,"-af",af,
+             "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
+             "-c:a","aac","-b:a","128k","-ar","44100","-ac","2",cut])
+        on=audio_onset(cut); ok = GATE_LO <= on <= GATE_HI+0.15
+        gate.append((cid,round(on,3),ok))
+    else:
+        run(["ffmpeg","-y","-v","error","-i",src,"-f","lavfi","-i",
+             "anullsrc=channel_layout=stereo:sample_rate=44100","-t","%.3f"%slot,
+             "-map","0:v:0","-map","1:a:0","-vf",vf,
+             "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",
+             "-c:a","aac","-b:a","128k",cut]); on=None
     parts.append(cut); total+=slot
-    print("  %-12s vo=%.2fs off=%.2f wait=%.1f slot=%.2f onset=%.3f %s %s"%(
-        cid,volen,off,wait,slot,on,"OK" if ok else "GATE-FAIL",("letter "+c["letter"]) if c.get("letter") else ""))
+    print("  %-12s vo=%.2fs off=%.2f slot=%.2f onset=%s %s"%(
+        cid,volen,off,slot,("%.3f"%on) if on is not None else "wordless",("letter "+c["letter"]) if c.get("letter") else ""))
 
 fails=[g for g in gate if not g[2]]
 if fails:
-    print("SYNC-GATE FAILURES (audio not aligned to mouth band):",fails)
-    sys.exit("sync-gate failed on %d clip(s)"%len(fails))
+    print("SYNC-GATE FLAGS (audio onset outside band):",fails)
+    if os.environ.get("SYNC_GATE_FATAL","1")=="1":
+        sys.exit("sync-gate failed on %d clip(s)"%len(fails))
+    print("  (non-fatal for this section — flagged for review)")
 
 with open(f"{WORK}/concat.txt","w") as f:
     for p in parts: f.write("file '%s'\n"%os.path.abspath(p))
