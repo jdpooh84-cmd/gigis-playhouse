@@ -150,7 +150,14 @@
   "S04-11": "be0af1b7-6f07-45d7-baed-7541a6a2a4de",
   "S04-12": "11aef60a-98fd-48fa-8700-7171ef11f447",
   "S04-13": "f64a1a1b-3537-43c7-b75c-27cf28c5fae2",
-  "S04-14": "02324036-81c4-46bc-bdc3-dcf8bf22f963"
+  "S04-14": "02324036-81c4-46bc-bdc3-dcf8bf22f963",
+  "S04-15": "1816e478-7d96-47fc-b68b-adacf89abff0",
+  "S04-16": "ec732e88-49c8-467b-8131-7fadf6105fd6",
+  "S04-17": "c63c6635-d986-4cc5-a9b5-5d8d8c4c55e2",
+  "S04-18": "7c60bbad-00f7-480e-a990-7ca9bf86df4b",
+  "S04-19": "8ff7e151-3ea3-4c0c-bce5-9b9596c35385",
+  "S04-20": "ff1f722b-5ebf-4407-a537-15a52de0f3e2",
+  "S04-21": "3c95aec2-dfaf-4a3c-b7ae-299eabd10cdf"
  },
  "act_lipsync_subagent": "a210c24bd163c2bf5 (re-spawned, file-persist -> _staging/vo_el/act_lipsync_results.json)",
  "sec04_todo": "batch3 remaining ~8: bridge x3 (crew sway hands-on-heart), final-chorus x3 (KIDS-ONLY full A-pose finale, no adults), outro x2 (crew waves + Sunny settle). Then SEC-04 videos + build v2 (song audio byte-identical)."
