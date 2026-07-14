@@ -21,7 +21,7 @@ import json, os, subprocess, sys
 
 LIPSYNC_OFFSET = 0.40   # default VO delay to reach the mouth-onset (per-clip override via "offset")
 TAIL_PAUSE     = 0.45   # min breathing room after the voice
-GATE_LO, GATE_HI = 0.25, 0.60   # applied offset must sit in the measured wind-up band
+GATE_LO, GATE_HI = 0.25, 0.65   # measured onset band (guards against audio-ahead-of-lips)
 
 VF = ("scale=1280:720:force_original_aspect_ratio=decrease,"
       "pad=1280:720:(ow-iw)/2:(oh-ih)/2,fps=30,setsar=1")

@@ -92,7 +92,8 @@
   {
    "clip_id": "EP01-P3-17",
    "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_112232_e5aacfcd-6a0e-4316-abcc-bc6110962d1f.mp4",
-   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-17.mp3"
+   "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-17.mp3",
+   "offset": 0.2
   },
   {
    "clip_id": "EP01-P3-18",

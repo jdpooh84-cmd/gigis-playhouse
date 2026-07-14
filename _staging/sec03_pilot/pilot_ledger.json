@@ -18,7 +18,7 @@
   {"clip_id":"EP01-P3-14","speaker":"Bram","render_text":"B! BRAM! I did it!","start_image":"ACT-BRAM-CLAP","game":"feelings-big","letter":"B","action":"traces a big confident B, beams, arms up proud"},
   {"clip_id":"EP01-P3-15","speaker":"Crew","render_text":"Yay, Bram!","start_image":"NEW-CREW-CHEER","game":"cheer","action":"whole crew jumps and cheers together"},
   {"clip_id":"EP01-P3-16","speaker":"Bram","render_text":"Your turn, Pipa!","start_image":"CU-BRAM","game":"turn-take","action":"turns to Pipa, warm, inviting her in"},
-  {"clip_id":"EP01-P3-17","speaker":"Pipa","render_text":"...Pi-pa?","start_image":"CU-PIPA-SAD1","game":"feelings-small","action":"shy, small, unsure, half-curled"},
+  {"clip_id":"EP01-P3-17","speaker":"Pipa","render_text":"...Pi-pa?","start_image":"CU-PIPA-SAD1","game":"feelings-small","offset":0.20,"action":"shy, small, unsure, half-curled"},
   {"clip_id":"EP01-P3-18","speaker":"Sunny","render_text":"Show me big and proud!","start_image":"CU-SUNNY-KNEEL","game":"feelings-big","action":"kneeling warm, growing tall to model big/proud"},
   {"clip_id":"EP01-P3-19","speaker":"Pipa","render_text":"PI-PA!","start_image":"CU-PIPA-PROUD","game":"feelings-big","letter":"P","action":"rises into a big proud A-pose, beaming"},
   {"clip_id":"EP01-P3-20","speaker":"Crew","render_text":"Make an A!","start_image":"NEW-CREW-APOSE","game":"make-A","letter":"A","action":"whole crew makes an A-pose together"},
