@@ -41,21 +41,27 @@ def find_font():
     return out if out and os.path.exists(out) else sys.exit("no font")
 FONT = find_font()
 
-def esc(t): return t.replace("'", "\\u2019").replace(":", "\\:")
+# use a real curly apostrophe (font has U+2019) so it never breaks the single-quoted drawtext arg
+def esc(t): return t.replace("'", "’").replace(":", "\\:")
+
+def fit_fs(text, base, budget=1160):
+    # shrink font so the line fits within `budget` px (bold char ~0.60*fontsize wide)
+    n = max(1, len(text))
+    return max(30, min(base, int(budget / (0.60 * n))))
 
 def ov_draw(kind, text, t0, t1):
     en = "between(t\\,%.3f\\,%.3f)" % (t0, t1)
     common = "fontfile='%s':text='%s':enable='%s':x=(w-tw)/2" % (FONT, esc(text), en)
     if kind == "freeze":
-        return (",drawtext=%s:y=(h-th)/2:fontsize=200:fontcolor=white:borderw=10:"
-                "bordercolor=0xE4572E:shadowcolor=black@0.6:shadowx=5:shadowy=5" % common)
+        return (",drawtext=%s:y=(h-th)/2:fontsize=%d:fontcolor=white:borderw=10:"
+                "bordercolor=0xE4572E:shadowcolor=black@0.6:shadowx=5:shadowy=5" % (common, fit_fs(text,200,1120)))
     if kind == "end":
-        return (",drawtext=%s:y=(h-th)/2:fontsize=100:fontcolor=0xFFF3C4:borderw=5:"
+        return (",drawtext=%s:y=(h-th)/2:fontsize=%d:fontcolor=0xFFF3C4:borderw=5:"
                 "bordercolor=0x1C6E8C:box=1:boxcolor=0x123B4E@0.55:boxborderw=40:"
-                "shadowcolor=black@0.5:shadowx=3:shadowy=3" % common)
+                "shadowcolor=black@0.5:shadowx=3:shadowy=3" % (common, fit_fs(text,100)))
     # word (movement verb) — lower third
-    return (",drawtext=%s:y=h-150:fontsize=84:fontcolor=white:borderw=6:"
-            "bordercolor=0xF2A541:shadowcolor=black@0.5:shadowx=3:shadowy=3" % common)
+    return (",drawtext=%s:y=h-150:fontsize=%d:fontcolor=white:borderw=6:"
+            "bordercolor=0xF2A541:shadowcolor=black@0.5:shadowx=3:shadowy=3" % (common, fit_fs(text,84)))
 
 parts=[]; total=0.0
 for i,c in enumerate(SPEC["clips"]):
