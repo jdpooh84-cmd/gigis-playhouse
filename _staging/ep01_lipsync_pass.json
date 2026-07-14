@@ -116,5 +116,16 @@
   "EP01-NP-C25": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051856_b2ad10d3-ebb8-4c03-8fd9-e6b9333f5def.mp4",
   "EP01-NP-C26": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051907_aa21c3a0-ffda-4ce4-a57f-d56a1d016acd.mp4",
   "EP01-NP-C19": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051917_b7711769-f41b-4df7-9c0d-d5b8757ddd68.mp4"
- }
+ },
+ "sec04_images": {
+  "S04-01": "6b6a4fcf-5284-4520-b36a-4c0b16430fe7",
+  "S04-02": "b73705a7-fbf6-41ca-88dd-77ed3aa0c2a3",
+  "S04-03": "e179b16a-a026-4fe3-b6ec-13144629ae0d",
+  "S04-04": "9a252ebd-5f65-453a-b0a3-d4424bb7fd09",
+  "S04-05": "4a26d215-8ace-41ee-9a5c-c1dcb8249832",
+  "S04-06": "1a843761-7f15-4e7a-9dac-bb6e2c428b33",
+  "S04-07": "a5f49faa-b9f0-45ce-bacb-055613124395"
+ },
+ "act_lipsync_subagent": "add806663cbc21ef4 (19 action lip-sync videos, running)",
+ "sec04_todo": "batch2: chorus1 row2 (Pipa+Bram+Mimi A-pose); verse2 airplane x4 (Leo run, Koda+Mia zoom, Pipa+Bram wings, Sunny+Mimi glide); chorus2 x3; bridge x3 (sway hands-heart); final chorus x3 (full-crew A-pose finale, KIDS ONLY no Mayor Mary); outro x2 (waves). Then SEC-04 videos (movement to music, gen_audio false), build SEC-04 v2 keeping song audio byte-identical."
 }
