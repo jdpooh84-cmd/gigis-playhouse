@@ -27,13 +27,21 @@
   "group_lines_reuse_existing": "N08,N06,C15,C18,N16 reuse their existing group images as seedance start + audio for rough group lip-sync",
   "lipsync_videos": "for each line_map entry: media_import_url(raw vo_el/<clip>.mp3) -> seedance_2_0(start_image=CU/ACT id, audio_references=import id, gen_audio false) -> record job id",
   "sec04_revisual": "~24 full-crew on-model song shots per ep01_medium... plan; movement to music; audio byte-identical",
-  "rebuild": "update section specs video_url -> new lipsync videos; CI build + stitch + captions; Drive deliver"
+  "rebuild": "update section specs video_url -> new lipsync videos; CI build + stitch + captions; Drive deliver",
+  "action_lipsync_videos": "fire seedance for all ACT-mapped lines (import vo_el mp3 + start_image=ACT id). Includes C15/round + group lines N08,N06,C18,N16,C29 (reuse existing group imgs) + wordless N09,N25 (movement, no audio)"
  },
  "action_images": {
   "ACT-KODA-CLAP": "84ea25bc-a582-4422-b16b-8c5e12772ab5",
   "ACT-BRAM-CLAP": "78f1dff7-047d-4991-bdc7-b627ff8ef447",
   "ACT-MIA-CLAP": "6bc6ab16-d4d7-4b0a-be6a-775686dda722",
-  "ACT-LEO-CLAP": "3f829a63-40d4-4a6a-b1fe-ebd84a95a364"
+  "ACT-LEO-CLAP": "3f829a63-40d4-4a6a-b1fe-ebd84a95a364",
+  "ACT-PIPA-CLAP": "f82b4aec-572d-4d74-98cb-0c75304014d6",
+  "ACT-SUNNY-APOSE": "19357244-98c2-425b-970e-b28db420336a",
+  "ACT-SUNNY-CLAPDEMO": "83a8b40b-a0f6-44df-b6b8-d4b29150051f",
+  "ACT-SUNNY-TRACE": "bda51aca-c1d1-433a-ac8d-d5c6f436a5ca",
+  "ACT-LEO-TRACE": "c9c9a4ba-a987-454a-814e-fa46788e7c12",
+  "ACT-AVA-CLAPDEMO": "b20dda12-c10c-40ce-9183-9d8db1f03bc8",
+  "ACT-MIMI-CLAP": "a1f60a85-1f21-450b-9b90-65ca3a136fcf"
  },
  "line_map": {
   "EP01-NP-C01": "CU-SUNNY-DA",
@@ -68,6 +76,18 @@
   "EP01-NP-C03": "ACT-MIA-CLAP",
   "EP01-NP-N23": "ACT-MIA-CLAP",
   "EP01-NP-C04": "ACT-LEO-CLAP",
-  "EP01-NP-N22": "ACT-LEO-CLAP"
- }
+  "EP01-NP-N22": "ACT-LEO-CLAP",
+  "EP01-NP-C17": "ACT-PIPA-CLAP",
+  "EP01-NP-C11": "ACT-SUNNY-APOSE",
+  "EP01-NP-C12": "ACT-SUNNY-APOSE",
+  "EP01-NP-C22": "ACT-SUNNY-APOSE",
+  "EP01-NP-C28": "ACT-SUNNY-APOSE",
+  "EP01-NP-C14": "ACT-SUNNY-CLAPDEMO",
+  "EP01-NP-N11": "ACT-SUNNY-TRACE",
+  "EP01-NP-C13": "ACT-LEO-TRACE",
+  "EP01-NP-N19": "ACT-AVA-CLAPDEMO",
+  "EP01-NP-N02": "ACT-MIMI-CLAP",
+  "EP01-NP-N14": "ACT-MIMI-CLAP"
+ },
+ "cu_lipsync_subagent": "ab49966c896ee878a (rendering 22 CU dialogue lip-sync videos; results in its transcript / to be collected)"
 }
