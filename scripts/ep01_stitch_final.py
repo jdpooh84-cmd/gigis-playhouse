@@ -40,9 +40,12 @@ for i, (name, src) in enumerate(SECTIONS):
     if not os.path.exists(src):
         sys.exit("missing section source: %s (%s)" % (name, src))
     norm = "_staging/stitch_work/%s.mp4" % name
+    # CRF 26 + capped rate keeps the ~6:43 final comfortably under GitHub's 100 MB
+    # limit (flat cartoon compresses well; CRF 20 produced 107 MB and was rejected)
     run(["ffmpeg", "-y", "-i", src, "-vf", VF, "-r", "30",
-         "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-ac", "2", norm])
+         "-c:v", "libx264", "-preset", "veryfast", "-crf", "26",
+         "-maxrate", "2M", "-bufsize", "4M", "-pix_fmt", "yuv420p",
+         "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2", norm])
     d = dur(norm)
     parts.append(norm); rows.append((name, src, d)); total += d
     print("normalized %s -> %.2fs (%s)" % (name, d, src))
@@ -65,4 +68,8 @@ if abs(sec04 - 104.83) > 1.5:
     sys.exit("SEC-04 duration drift: %.2f (expected ~104.83) — song master may be wrong file" % sec04)
 if abs(fd - total) > 1.0:
     sys.exit("final duration mismatch: parts sum %.2f vs actual %.2f" % (total, fd))
-print("OK: SEC-04 intact (%.2fs), final assembled." % sec04)
+mb = os.path.getsize(OUT) / 1e6
+print("final size: %.1f MB" % mb)
+if mb > 99.0:
+    sys.exit("final %.1f MB exceeds GitHub 100 MB limit — raise CRF / lower maxrate and rebuild" % mb)
+print("OK: SEC-04 intact (%.2fs), final assembled, %.1f MB (pushable)." % (sec04, mb))
