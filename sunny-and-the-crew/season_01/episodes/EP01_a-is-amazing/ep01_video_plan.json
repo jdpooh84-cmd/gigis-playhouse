@@ -34,60 +34,16 @@
   "EP01-NP-N04": "3bbc9fd1-3286-49c9-aed8-05f49543c0ef",
   "EP01-NP-N11": "70ce464d-576f-4776-9c2f-b1ab8d5e9841",
   "EP01-NP-N19": "59577907-43b0-410b-abbb-e72392f9552d",
-  "EP01-NP-N24": "aad64e3f-7d61-43e4-a6e8-0444bf83d266"
+  "EP01-NP-N24": "aad64e3f-7d61-43e4-a6e8-0444bf83d266",
+  "EP01-NP-N13": "3a2cb710-fd02-4584-accc-1b507b428a42",
+  "EP01-NP-N22": "dfbd6b66-accb-4f41-807e-2c7ca033a78a",
+  "EP01-NP-C21": "10329693-e0fd-4680-9097-9c0b97e172ba",
+  "EP01-NP-C26": "3b3f6390-8cd8-4581-b8ba-06a0f4cd293b",
+  "EP01-NP-N16": "2ad90f27-6d62-41db-9e52-12628810d05b",
+  "EP01-NP-C29": "43203ca9-0d08-456e-b914-b3d1e1955532",
+  "EP01-NP-C27": "713c0ae2-4bdf-490a-9f14-43d7e2225c80"
  },
- "render_list": [
-  {
-   "clip_id": "EP01-NP-N13",
-   "start_image": "df94c78a-62c4-4910-9e57-d4021848816b",
-   "duration": 4,
-   "genre": "action",
-   "motion": "Bram claps correctly this time right on the beat, then throws a happy fist pump celebrating"
-  },
-  {
-   "clip_id": "EP01-NP-N22",
-   "start_image": "d27cd06e-127f-4de8-a697-6215a7c840f9",
-   "duration": 5,
-   "genre": "action",
-   "declined_preset": true,
-   "motion": "Leo makes a big letter L shape with his pointing finger then claps his name on the beat, energetic and grinning in bright daylight"
-  },
-  {
-   "clip_id": "EP01-NP-C21",
-   "start_image": "7f14d328-c24a-49e4-b16b-e965f6dca401",
-   "duration": 4,
-   "genre": "action",
-   "motion": "Sunny counts one, two, three with her fingers building energy for the song, bright and lively"
-  },
-  {
-   "clip_id": "EP01-NP-C26",
-   "start_image": "19e07120-5b7a-487b-8503-658ac751bec7",
-   "duration": 4,
-   "genre": "auto",
-   "motion": "Pipa gives a small happy clap remembering that clapping her name helped, warm settled smile"
-  },
-  {
-   "clip_id": "EP01-NP-N16",
-   "start_image": "5ab777e5-1a90-4bbb-adf6-fa808c29a2fc",
-   "duration": 5,
-   "genre": "action",
-   "motion": "Sunny, Leo, Mia and Pipa clap together recapping how they practiced all day, joyful bounce"
-  },
-  {
-   "clip_id": "EP01-NP-C29",
-   "start_image": "ff734d9b-ca84-4e86-ba86-7a3c9d658bf7",
-   "duration": 5,
-   "genre": "auto",
-   "motion": "Sunny leans in with open hands over her heart delivering the warm catchphrase to camera, Leo Mia and Pipa smiling close behind her"
-  },
-  {
-   "clip_id": "EP01-NP-C27",
-   "start_image": "7f14d328-c24a-49e4-b16b-e965f6dca401",
-   "duration": 4,
-   "genre": "auto",
-   "motion": "Sunny gestures warmly to the camera setting up a fun turn for the viewer to try at home, bright encouraging smile"
-  }
- ],
+ "render_list": [],
  "reuse_urls": {
   "EP01-NP-C20": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_210936_1167934b-585c-4b04-9049-df8edfa398bf.mp4",
   "EP01-NP-C23": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_210945_4ffd49d2-46c0-43e0-a947-81b94dabc99f.mp4",
