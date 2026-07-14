@@ -89,5 +89,32 @@
   "EP01-NP-N02": "ACT-MIMI-CLAP",
   "EP01-NP-N14": "ACT-MIMI-CLAP"
  },
- "cu_lipsync_subagent": "ab49966c896ee878a (rendering 22 CU dialogue lip-sync videos; results in its transcript / to be collected)"
+ "cu_lipsync_subagent": "ab49966c896ee878a (rendering 22 CU dialogue lip-sync videos; results in its transcript / to be collected)",
+ "lipsync_video_urls": {
+  "EP01-NP-C05": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_040011_6135094d-650c-4fa0-a2d0-c4e5cc4e0540.mp4",
+  "EP01-NP-C06": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_035325_cebe9422-5359-466a-8c30-a0046281139c.mp4",
+  "EP01-NP-C07": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_040213_0b7ff3f0-80b3-4500-aa3f-2a0cb1c3c724.mp4",
+  "EP01-NP-C01": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051127_4a2b7d0d-ddc4-40f9-81cf-468ad53bd722.mp4",
+  "EP01-NP-C02": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051140_1bf246e1-e0c8-44f7-bcf8-d2c1bc66a285.mp4",
+  "EP01-NP-C08": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051151_ac9fd2ca-ec5c-418a-8e8a-51095a935ce8.mp4",
+  "EP01-NP-N04": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051200_56c240e7-b3d7-491a-87ef-42e5bcc12c61.mp4",
+  "EP01-NP-C30": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051209_4f442518-e078-4203-8802-f6e0717ff499.mp4",
+  "EP01-NP-C09": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051219_6c1a174b-305e-4b47-8e83-046eb53f0e46.mp4",
+  "EP01-NP-C16": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051229_4e85a8c8-95ad-460a-8ee0-e9a4e1b5944b.mp4",
+  "EP01-NP-C10": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051240_9eec0553-9161-4c6f-8d49-aa5d6addd9f7.mp4",
+  "EP01-NP-C21": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051413_06219099-f05f-4dc5-9a03-864a893678ff.mp4",
+  "EP01-NP-N05": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051428_4b264a03-7ee7-437a-8197-7608700a48c7.mp4",
+  "EP01-NP-N10": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051439_efdc1a32-cb17-42f4-9df5-8ad253967eea.mp4",
+  "EP01-NP-N24": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051449_a33efae4-cc02-4ad4-a524-0128b381bc7a.mp4",
+  "EP01-NP-N21": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051537_1efb5cf7-359f-411e-a9a6-768d5d579bba.mp4",
+  "EP01-NP-C20": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051549_5c2b5225-c039-4596-b6fd-6c81c9f1cbfc.mp4",
+  "EP01-NP-N12": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051639_b37f2b2b-c7a1-4459-ae92-3da179dcb216.mp4",
+  "EP01-NP-N15": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051651_4cec7804-3eea-4a19-8197-6b7bc2d0855d.mp4",
+  "EP01-NP-C24": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051705_bf3cc760-5076-40f3-a1dd-34781928a3b5.mp4",
+  "EP01-NP-C27": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051715_e4148e77-0bc2-4e46-892d-6792fc6780bb.mp4",
+  "EP01-NP-C29": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051804_81fe87d0-b0b0-455e-b23f-c3657db21557.mp4",
+  "EP01-NP-C25": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051856_b2ad10d3-ebb8-4c03-8fd9-e6b9333f5def.mp4",
+  "EP01-NP-C26": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051907_aa21c3a0-ffda-4ce4-a57f-d56a1d016acd.mp4",
+  "EP01-NP-C19": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_051917_b7711769-f41b-4df7-9c0d-d5b8757ddd68.mp4"
+ }
 }
