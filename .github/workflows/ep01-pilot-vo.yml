@@ -1,0 +1,37 @@
+name: EP01 SEC-03 pilot — generate VO
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths:
+      - "_staging/sec03_pilot/vo.trigger"
+
+permissions:
+  contents: write
+
+jobs:
+  pilot-vo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate SEC-03 pilot VO (ElevenLabs, locked voices)
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          VO_LEDGER: _staging/sec03_pilot/pilot_ledger.json
+          VO_OUT: _staging/vo_el/pilot
+        run: |
+          set -e
+          if [ -z "$ELEVENLABS_API_KEY" ]; then
+            echo "::error::repo secret ELEVENLABS_API_KEY is not set"; exit 1
+          fi
+          python3 scripts/generate_elevenlabs_vo.py
+          ls -la _staging/vo_el/pilot
+      - name: Commit pilot VO
+        run: |
+          git config user.name "pilot-vo-bot"
+          git config user.email "actions@github.com"
+          git add _staging/vo_el/pilot
+          git commit -m "EP01 SEC-03 pilot: generate kid-dialogue VO (ElevenLabs)" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do
+            git push && break || { git pull --rebase origin "${GITHUB_REF_NAME}" || git rebase --abort || true; sleep 3; }
+          done

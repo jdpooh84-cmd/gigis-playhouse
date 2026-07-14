@@ -1,0 +1,29 @@
+{
+ "_meta": "SEC-03 PILOT remap ledger — real-kid play, 3 core games (Clap Your Name / Guess the First Letter / Big & Small Feelings). Kid-style lines, one idea per beat, 3s audience waits. render_text drives ElevenLabs VO + captions. build fields drive shot assembly (start_image reuse tag, letter overlay glyph, audience_wait hold seconds, game tag).",
+ "voice_note": "voices = locked ElevenLabs map; no narrator; Ava is the in-world adult mentor (learning segment, per adult_presence_rule).",
+ "lines": [
+  {"clip_id":"EP01-P3-01","speaker":"Ava","render_text":"Let's play the Name Game!","start_image":"CU-AVA","game":"intro","action":"warm invite, waves crew in"},
+  {"clip_id":"EP01-P3-02","speaker":"Sunny","render_text":"Me first! Watch me!","start_image":"ACT-SUNNY-CLAPDEMO","game":"clap-name","action":"bounces, hands ready to clap"},
+  {"clip_id":"EP01-P3-03","speaker":"Sunny","render_text":"SUN-NY!","start_image":"ACT-SUNNY-CLAPDEMO","game":"clap-name","letter":"S","action":"claps twice on the two syllables"},
+  {"clip_id":"EP01-P3-04","speaker":"Sunny","render_text":"Your turn! Clap your name!","start_image":"CU-SUNNY-INVITE","game":"clap-name","audience_wait":3.0,"action":"to camera, expectant, hands up"},
+  {"clip_id":"EP01-P3-05","speaker":"Leo","render_text":"Me next! LE-O!","start_image":"ACT-LEO-CLAP","game":"clap-name","letter":"L","action":"jumps in, claps his name, spins"},
+  {"clip_id":"EP01-P3-06","speaker":"Koda","render_text":"Ooh! Do it again, Leo!","start_image":"CU-KODA","game":"copy-me","action":"grinning, pointing at Leo, wants to copy"},
+  {"clip_id":"EP01-P3-07","speaker":"Crew","render_text":"LE-O!","start_image":"NEW-COPY-LEOKODA","game":"copy-me","letter":"L","action":"Leo and Koda clap the name together, mirroring"},
+  {"clip_id":"EP01-P3-08","speaker":"Sunny","render_text":"New game! What sound?","start_image":"CU-SUNNY-DA","game":"guess-letter","action":"playful, hand cupped to ear"},
+  {"clip_id":"EP01-P3-09","speaker":"Sunny","render_text":"Mmm... mmm...","start_image":"CU-SUNNY-INVITE","game":"guess-letter","audience_wait":3.0,"action":"to camera, sounding out M, waiting"},
+  {"clip_id":"EP01-P3-10","speaker":"Mia","render_text":"That's me! MI-A!","start_image":"ACT-MIA-CLAP","game":"guess-letter","letter":"M","action":"lights up, claps her name"},
+  {"clip_id":"EP01-P3-11","speaker":"Koda","render_text":"My turn! KO-DA!","start_image":"ACT-KODA-CLAP","game":"clap-name","letter":"K","action":"big proud stomps on his name"},
+  {"clip_id":"EP01-P3-12","speaker":"Bram","render_text":"Mine goes... uh-oh! Oops!","start_image":"CU-BRAM-OOPS","game":"feelings-small","action":"tracing in air, wobbles, shrinks a little, sheepish"},
+  {"clip_id":"EP01-P3-13","speaker":"Mimi","render_text":"Try again, Bram!","start_image":"ACT-MIMI-CLAP","game":"cheer","action":"bouncing, cheering him on, hands up"},
+  {"clip_id":"EP01-P3-14","speaker":"Bram","render_text":"B! BRAM! I did it!","start_image":"ACT-BRAM-CLAP","game":"feelings-big","letter":"B","action":"traces a big confident B, beams, arms up proud"},
+  {"clip_id":"EP01-P3-15","speaker":"Crew","render_text":"Yay, Bram!","start_image":"NEW-CREW-CHEER","game":"cheer","action":"whole crew jumps and cheers together"},
+  {"clip_id":"EP01-P3-16","speaker":"Bram","render_text":"Your turn, Pipa!","start_image":"CU-BRAM","game":"turn-take","action":"turns to Pipa, warm, inviting her in"},
+  {"clip_id":"EP01-P3-17","speaker":"Pipa","render_text":"...Pi-pa?","start_image":"CU-PIPA-SAD1","game":"feelings-small","action":"shy, small, unsure, half-curled"},
+  {"clip_id":"EP01-P3-18","speaker":"Sunny","render_text":"Show me big and proud!","start_image":"CU-SUNNY-KNEEL","game":"feelings-big","action":"kneeling warm, growing tall to model big/proud"},
+  {"clip_id":"EP01-P3-19","speaker":"Pipa","render_text":"PI-PA!","start_image":"CU-PIPA-PROUD","game":"feelings-big","letter":"P","action":"rises into a big proud A-pose, beaming"},
+  {"clip_id":"EP01-P3-20","speaker":"Crew","render_text":"Make an A!","start_image":"NEW-CREW-APOSE","game":"make-A","letter":"A","action":"whole crew makes an A-pose together"},
+  {"clip_id":"EP01-P3-21","speaker":"Sunny","render_text":"Make an A with me!","start_image":"ACT-SUNNY-APOSE","game":"make-A","letter":"A","audience_wait":3.0,"action":"to camera, holding the A-pose, waiting for kids at home"},
+  {"clip_id":"EP01-P3-22","speaker":"Leo","render_text":"Can we sing the A song?","start_image":"CU-LEO","game":"song-leadin","action":"excited, bouncing, asking"},
+  {"clip_id":"EP01-P3-23","speaker":"Sunny","render_text":"Let's sing the A song! Sing with us!","start_image":"CU-SUNNY-CHEER","game":"song-leadin","action":"to camera, big welcoming wave into the song"}
+ ]
+}

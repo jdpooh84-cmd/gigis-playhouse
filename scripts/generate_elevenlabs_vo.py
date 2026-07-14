@@ -16,7 +16,7 @@ import json, os, subprocess, sys
 
 EP = "sunny-and-the-crew/season_01/episodes/EP01_a-is-amazing"
 OS_ = "sunny-and-the-crew/production-os"
-OUT = "_staging/vo_el"
+OUT = os.environ.get("VO_OUT", "_staging/vo_el")   # override for pilots
 MODEL = "eleven_multilingual_v2"          # handles Leo's Spanish; warm kid delivery
 FMT = "mp3_44100_128"
 
@@ -27,8 +27,9 @@ CREW_VOICE = vmap["Sunny"]                # in-world kid leads the group lines (
 NAMEFIX = {"SUN-NY": "SUH-nee", "MI-MI": "MEE-mee", "MI-A": "MEE-ah",
            "LE-O": "LEE-oh", "PI-PA": "PEE-pah", "KO-DA": "Koh-duh"}
 
-led = json.load(open(f"{EP}/ep01_vo_ledger.json"))
-rows = [r for r in (led["lines"] + led["added_lines"]) if (r.get("render_text") or "").strip()]
+led = json.load(open(os.environ.get("VO_LEDGER", f"{EP}/ep01_vo_ledger.json")))
+_rows = led.get("lines", []) + led.get("added_lines", [])
+rows = [r for r in _rows if (r.get("render_text") or "").strip()]
 
 def voice_for(speaker):
     if speaker == "Crew":
