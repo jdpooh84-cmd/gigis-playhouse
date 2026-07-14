@@ -1,0 +1,189 @@
+{
+ "model": "eleven_multilingual_v2",
+ "clips": [
+  {
+   "clip_id": "EP01-P3-01",
+   "speaker": "Ava",
+   "voice_id": "eBvoGh8YGJn1xokno71w",
+   "file": "_staging/vo_el/pilot/EP01-P3-01.mp3",
+   "dur": null,
+   "text": "Let's play the Name Game!"
+  },
+  {
+   "clip_id": "EP01-P3-02",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-02.mp3",
+   "dur": null,
+   "text": "Me first! Watch me!"
+  },
+  {
+   "clip_id": "EP01-P3-03",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-03.mp3",
+   "dur": null,
+   "text": "SUH-nee!"
+  },
+  {
+   "clip_id": "EP01-P3-04",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-04.mp3",
+   "dur": null,
+   "text": "Your turn! Clap your name!"
+  },
+  {
+   "clip_id": "EP01-P3-05",
+   "speaker": "Leo",
+   "voice_id": "GsfuR3Wo2BACoxELWyEF",
+   "file": "_staging/vo_el/pilot/EP01-P3-05.mp3",
+   "dur": null,
+   "text": "Me next! LEE-oh!"
+  },
+  {
+   "clip_id": "EP01-P3-06",
+   "speaker": "Koda",
+   "voice_id": "mMf8pnvS4tTEecRvNcpn",
+   "file": "_staging/vo_el/pilot/EP01-P3-06.mp3",
+   "dur": null,
+   "text": "Ooh! Do it again, Leo!"
+  },
+  {
+   "clip_id": "EP01-P3-07",
+   "speaker": "Crew",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-07.mp3",
+   "dur": null,
+   "text": "LEE-oh!"
+  },
+  {
+   "clip_id": "EP01-P3-08",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-08.mp3",
+   "dur": null,
+   "text": "New game! What sound?"
+  },
+  {
+   "clip_id": "EP01-P3-09",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-09.mp3",
+   "dur": null,
+   "text": "Mmm... mmm..."
+  },
+  {
+   "clip_id": "EP01-P3-10",
+   "speaker": "Mia",
+   "voice_id": "XJ2fW4ybq7HouelYYGcL",
+   "file": "_staging/vo_el/pilot/EP01-P3-10.mp3",
+   "dur": null,
+   "text": "That's me! MEE-ah!"
+  },
+  {
+   "clip_id": "EP01-P3-11",
+   "speaker": "Koda",
+   "voice_id": "mMf8pnvS4tTEecRvNcpn",
+   "file": "_staging/vo_el/pilot/EP01-P3-11.mp3",
+   "dur": null,
+   "text": "My turn! Koh-duh!"
+  },
+  {
+   "clip_id": "EP01-P3-12",
+   "speaker": "Bram",
+   "voice_id": "mrQhZWGbb2k9qWJb5qeA",
+   "file": "_staging/vo_el/pilot/EP01-P3-12.mp3",
+   "dur": null,
+   "text": "Mine goes... uh-oh! Oops!"
+  },
+  {
+   "clip_id": "EP01-P3-13",
+   "speaker": "Mimi",
+   "voice_id": "pPdl9cQBQq4p6mRkZy2Z",
+   "file": "_staging/vo_el/pilot/EP01-P3-13.mp3",
+   "dur": null,
+   "text": "Try again, Bram!"
+  },
+  {
+   "clip_id": "EP01-P3-14",
+   "speaker": "Bram",
+   "voice_id": "mrQhZWGbb2k9qWJb5qeA",
+   "file": "_staging/vo_el/pilot/EP01-P3-14.mp3",
+   "dur": null,
+   "text": "B! BRAM! I did it!"
+  },
+  {
+   "clip_id": "EP01-P3-15",
+   "speaker": "Crew",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-15.mp3",
+   "dur": null,
+   "text": "Yay, Bram!"
+  },
+  {
+   "clip_id": "EP01-P3-16",
+   "speaker": "Bram",
+   "voice_id": "mrQhZWGbb2k9qWJb5qeA",
+   "file": "_staging/vo_el/pilot/EP01-P3-16.mp3",
+   "dur": null,
+   "text": "Your turn, Pipa!"
+  },
+  {
+   "clip_id": "EP01-P3-17",
+   "speaker": "Pipa",
+   "voice_id": "U09MtJ2GfKEZSsIvMw9i",
+   "file": "_staging/vo_el/pilot/EP01-P3-17.mp3",
+   "dur": null,
+   "text": "...Pi-pa?"
+  },
+  {
+   "clip_id": "EP01-P3-18",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-18.mp3",
+   "dur": null,
+   "text": "Show me big and proud!"
+  },
+  {
+   "clip_id": "EP01-P3-19",
+   "speaker": "Pipa",
+   "voice_id": "U09MtJ2GfKEZSsIvMw9i",
+   "file": "_staging/vo_el/pilot/EP01-P3-19.mp3",
+   "dur": null,
+   "text": "PEE-pah!"
+  },
+  {
+   "clip_id": "EP01-P3-20",
+   "speaker": "Crew",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-20.mp3",
+   "dur": null,
+   "text": "Make an A!"
+  },
+  {
+   "clip_id": "EP01-P3-21",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-21.mp3",
+   "dur": null,
+   "text": "Make an A with me!"
+  },
+  {
+   "clip_id": "EP01-P3-22",
+   "speaker": "Leo",
+   "voice_id": "GsfuR3Wo2BACoxELWyEF",
+   "file": "_staging/vo_el/pilot/EP01-P3-22.mp3",
+   "dur": null,
+   "text": "Can we sing the A song?"
+  },
+  {
+   "clip_id": "EP01-P3-23",
+   "speaker": "Sunny",
+   "voice_id": "BlgEcC0TfWpBak7FmvHW",
+   "file": "_staging/vo_el/pilot/EP01-P3-23.mp3",
+   "dur": null,
+   "text": "Let's sing the A song! Sing with us!"
+  }
+ ]
+}
