@@ -1,0 +1,55 @@
+{
+ "_note": "STEP 2 render tracking for EP01 Medium (7min) v2. Videos: seedance_2_0, start_image=image_job, genre:action(tierA)/auto(tierB), bitrate high(A)/std(B), generate_audio:false, 720p std, 16:9. VO muxed at assembly. Cadence ~8 videos / ~3 min (seedance in-flight cap ~8).",
+ "cdn": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/",
+ "video_jobs": {
+  "EP01-NP-N08": {"job": "6b72d6f0-cbaf-4de2-9baa-30bbb7a225d2", "file": "hf_20260713_235457_6b72d6f0-cbaf-4de2-9baa-30bbb7a225d2.mp4", "status": "completed"},
+  "EP01-NP-N01": {"job": "59c8c673-1fe7-4140-9e4a-f4f78b47359c", "file": "hf_20260713_235500_59c8c673-1fe7-4140-9e4a-f4f78b47359c.mp4", "status": "completed"},
+  "EP01-NP-N02": {"job": "6ddb6118-ce3f-4473-afeb-0187cd31abaa", "file": "hf_20260713_235503_6ddb6118-ce3f-4473-afeb-0187cd31abaa.mp4", "status": "completed"},
+  "EP01-NP-N09": {"job": "c0cdc0bd-fd15-416d-9608-37ccd9211761", "file": "hf_20260713_235506_c0cdc0bd-fd15-416d-9608-37ccd9211761.mp4", "status": "completed"},
+  "EP01-NP-N03": {"job": "6e6e81bd-4e59-4098-8df3-f7eb0a76b913", "file": "hf_20260713_235509_6e6e81bd-4e59-4098-8df3-f7eb0a76b913.mp4", "status": "completed"},
+  "EP01-NP-C03": {"job": "3024f160-1e97-40d0-a835-f18dfcbf57b4", "file": "hf_20260713_235512_3024f160-1e97-40d0-a835-f18dfcbf57b4.mp4", "status": "completed"},
+  "EP01-NP-C04": {"job": "83380cac-89e3-4134-bbe3-6ea25b5335ea", "file": "hf_20260713_235528_83380cac-89e3-4134-bbe3-6ea25b5335ea.mp4", "status": "completed"},
+  "EP01-NP-N06": {"job": "4d9866e4-30f6-44fd-b89c-3b45c378d60f", "file": "hf_20260713_235531_4d9866e4-30f6-44fd-b89c-3b45c378d60f.mp4", "status": "completed"},
+  "EP01-NP-C05": {"job": "73cb4215-f0ed-4e15-8a25-5c339f9a6348", "status": "pending"},
+  "EP01-NP-C06": {"job": "6a1d6a6c-c385-4bf4-bf04-44477f20ad52", "status": "pending"},
+  "EP01-NP-N05": {"job": "c102c77a-ca15-49f9-b6f3-e4a2f109f59a", "status": "pending"},
+  "EP01-NP-C11": {"job": "d0baad3b-582d-4009-866f-4fe18de0c537", "status": "pending"},
+  "EP01-NP-C12": {"job": "79994ba7-931b-47d3-9b7d-8c24a03ecd80", "status": "pending"},
+  "EP01-NP-C14": {"job": "98fb5301-9e20-43f2-81eb-f60378f7bd20", "status": "pending"},
+  "EP01-NP-C15": {"job": "4b5fa9c5-4efa-4c38-8a99-c2ce4dfa308c", "status": "pending"},
+  "EP01-NP-C13": {"job": "01e5b4d4-c91e-494c-99e6-7ada65cf463f", "status": "pending"}
+ },
+ "shell_images_pending": {
+  "DA-WAVE": "5053707c-7119-426b-88c7-5b279fcbb76e",
+  "DA-WARM": "e5cbf2fb-bd87-47d8-87c0-c3f89cf4bfd4",
+  "DA-INVITE": "7f14d328-c24a-49e4-b16b-e965f6dca401",
+  "DA-CHEER": "8fc1f893-ba08-49fb-86a6-6592b4a210e0",
+  "GRP-EST": "4f952eda-1dea-4faa-a2e3-0c297854e821",
+  "C29-CREW": "ff734d9b-ca84-4e86-ba86-7a3c9d658bf7"
+ },
+ "remaining_image_based_videos": ["C16","N15","C17","C18","C19","N20","N14","N12","N23","N25","C22","C24","C25","C28","N17","N21","N10"],
+ "shell_slots_to_render": {
+  "_note": "reuse slots -> distinct fresh videos (appears-once rule). map to shared images/new shell images.",
+  "EP01-NP-C01": "from DA-WAVE (wave, dur5)",
+  "EP01-NP-C02": "from GRP-EST (group chat, dur4)",
+  "EP01-NP-C07": "from C06 image 2a96c412 (Pipa looks down, dur4)",
+  "EP01-NP-C08": "from DA-WARM (reassure, dur4)",
+  "EP01-NP-C09": "from DA-INVITE (invite+hold, dur5)",
+  "EP01-NP-C10": "from DA-CHEER (cheer, dur4)",
+  "EP01-NP-N04": "from DA-WARM (second warm beat, dur5) -- distinct motion",
+  "EP01-NP-N11": "from DA-INVITE (audience, dur5) -- distinct motion",
+  "EP01-NP-N19": "from N10 image 0308da94 (Ava now-clap, dur4)",
+  "EP01-NP-N24": "from N10 image 0308da94 (Ava amazing-letters, dur4) -- distinct",
+  "EP01-NP-N13": "from N12 image df94c78a (Bram success fist-pump, dur4)",
+  "EP01-NP-N22": "from C04 image d27cd06e (Leo trace+clap, dur5)",
+  "EP01-NP-C21": "from DA-INVITE (count-in, dur4) -- distinct",
+  "EP01-NP-C26": "from C25 image 19e07120 (Pipa small clap, dur4)",
+  "EP01-NP-N16": "from C22 image 5ab777e5 (crew recap clap, dur5)",
+  "EP01-NP-C29": "from C29-CREW image (catchphrase, dur5)"
+ },
+ "genuine_reuse_existing": {
+  "EP01-NP-C20": "P3-C01 spin+clap NEW: hf_20260713_210936_1167934b-585c-4b04-9049-df8edfa398bf.mp4",
+  "EP01-NP-C23": "P5-C11 huddle-throw NEW: hf_20260713_210945_4ffd49d2-46c0-43e0-a947-81b94dabc99f.mp4",
+  "EP01-NP-C30": "outro sting / theme replay: hf_20260713_124507_3c904d21-6d7a-41bd-a8fb-8409cc959bf4.mp4 (SEC-05 v1 O-C09 candidate)"
+ }
+}
