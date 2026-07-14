@@ -10,7 +10,11 @@
   "CU-AVA": "dcef1dd4-9771-400a-a3e0-6487736bed0a",
   "CU-SUNNY-KNEEL": "5f26f2e4-daaa-4108-a8f1-d806e9dd1f46",
   "CU-PIPA-SAD1": "09835af9-044c-4954-9ba4-ad8b1adb4395",
-  "CU-PIPA-SAD2": "9bc9f20b-f41d-493c-bca6-9d8567b808ec"
+  "CU-PIPA-SAD2": "9bc9f20b-f41d-493c-bca6-9d8567b808ec",
+  "CU-PIPA-PROUD": "e36876c4-d661-4db5-a8cc-6bc99f5c0c55",
+  "CU-BRAM": "25c75cea-f30a-443c-9203-62135caa469b",
+  "CU-BRAM-OOPS": "5c3c924d-8d00-4023-919e-6709d61df4db",
+  "CU-SUNNY-PORCH": "8fcf8c83-e69c-4ff6-819a-9b8f89d4493b"
  },
  "namescene_lipsync_videos_DONE": {
   "EP01-NP-C05": "6135094d-650c-4fa0-a2d0-c4e5cc4e0540",
@@ -18,11 +22,52 @@
   "EP01-NP-C07": "0b7ff3f0-80b3-4500-aa3f-2a0cb1c3c724"
  },
  "still_todo": {
-  "closeup_library_batch2": "Pipa-proud, Pipa-happy, Bram-think, Bram-oops, Mimi-giggle, Sunny-porch, crew-group variants",
-  "dialogue_lipsync_videos": "~40 (map each line -> CU + its EL audio import -> seedance)",
-  "action_rewrite_shots": "N02,N03,C03,C04,N20,N22,C23 (show clap + say name; new VO regen in flight)",
-  "demonstrate_shots": "N11,C13,N19,C14,C16,C28 (visibly clap/trace while inviting)",
-  "sec04_revisual": "~24 on-model full-crew song shots (audio byte-identical)",
-  "rebuild": "sections v-final + SEC-04 v2 + stitch + captions + Drive deliver"
+  "closeup_batch3": "none needed (library complete for mapped lines)",
+  "action_images_todo": "ACT-PIPA-CLAP(C17), ACT-SUNNY-APOSE(C11,C12,C22,C28), ACT-SUNNY-CLAPDEMO(C14), ACT-SUNNY-TRACE(N11), ACT-LEO-TRACE(C13), ACT-AVA-CLAPDEMO(N19), ACT-MIA-TRACE(N23 uses ACT-MIA-CLAP+trace), N02/N14 Mimi-clap medium",
+  "group_lines_reuse_existing": "N08,N06,C15,C18,N16 reuse their existing group images as seedance start + audio for rough group lip-sync",
+  "lipsync_videos": "for each line_map entry: media_import_url(raw vo_el/<clip>.mp3) -> seedance_2_0(start_image=CU/ACT id, audio_references=import id, gen_audio false) -> record job id",
+  "sec04_revisual": "~24 full-crew on-model song shots per ep01_medium... plan; movement to music; audio byte-identical",
+  "rebuild": "update section specs video_url -> new lipsync videos; CI build + stitch + captions; Drive deliver"
+ },
+ "action_images": {
+  "ACT-KODA-CLAP": "84ea25bc-a582-4422-b16b-8c5e12772ab5",
+  "ACT-BRAM-CLAP": "78f1dff7-047d-4991-bdc7-b627ff8ef447",
+  "ACT-MIA-CLAP": "6bc6ab16-d4d7-4b0a-be6a-775686dda722",
+  "ACT-LEO-CLAP": "3f829a63-40d4-4a6a-b1fe-ebd84a95a364"
+ },
+ "line_map": {
+  "EP01-NP-C01": "CU-SUNNY-DA",
+  "EP01-NP-C02": "CU-SUNNY-DA",
+  "EP01-NP-C08": "CU-SUNNY-DA",
+  "EP01-NP-N04": "CU-SUNNY-DA",
+  "EP01-NP-C09": "CU-SUNNY-INVITE",
+  "EP01-NP-C10": "CU-SUNNY-CHEER",
+  "EP01-NP-N05": "CU-AVA",
+  "EP01-NP-N10": "CU-AVA",
+  "EP01-NP-N24": "CU-AVA",
+  "EP01-NP-N21": "CU-AVA",
+  "EP01-NP-C05": "DONE",
+  "EP01-NP-C06": "DONE",
+  "EP01-NP-C07": "DONE",
+  "EP01-NP-C20": "CU-LEO",
+  "EP01-NP-C21": "CU-SUNNY-CHEER",
+  "EP01-NP-N12": "CU-BRAM-OOPS",
+  "EP01-NP-N15": "CU-BRAM",
+  "EP01-NP-C24": "CU-SUNNY-PORCH",
+  "EP01-NP-C25": "CU-PIPA-PROUD",
+  "EP01-NP-C26": "CU-PIPA-PROUD",
+  "EP01-NP-C27": "CU-SUNNY-PORCH",
+  "EP01-NP-C29": "CU-SUNNY-PORCH",
+  "EP01-NP-C30": "CU-SUNNY-DA",
+  "EP01-NP-C19": "CU-PIPA-PROUD",
+  "EP01-NP-C16": "CU-SUNNY-INVITE",
+  "EP01-NP-N01": "ACT-KODA-CLAP",
+  "EP01-NP-N20": "ACT-KODA-CLAP",
+  "EP01-NP-N03": "ACT-BRAM-CLAP",
+  "EP01-NP-N13": "ACT-BRAM-CLAP",
+  "EP01-NP-C03": "ACT-MIA-CLAP",
+  "EP01-NP-N23": "ACT-MIA-CLAP",
+  "EP01-NP-C04": "ACT-LEO-CLAP",
+  "EP01-NP-N22": "ACT-LEO-CLAP"
  }
 }
