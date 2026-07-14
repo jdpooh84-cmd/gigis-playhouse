@@ -15,7 +15,8 @@
    "clip_id": "EP01-P3-03",
    "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_111354_3442be27-1d12-4b01-abb0-1dd77f5fc5ff.mp4",
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-03.mp3",
-   "letter": "S"
+   "letter": "S",
+   "name_tag": "Sunny"
   },
   {
    "clip_id": "EP01-P3-04",
@@ -27,7 +28,8 @@
    "clip_id": "EP01-P3-05",
    "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_111400_da5f23be-151a-422c-82dc-78487f2ed7f0.mp4",
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-05.mp3",
-   "letter": "L"
+   "letter": "L",
+   "name_tag": "Leo"
   },
   {
    "clip_id": "EP01-P3-06",
@@ -55,7 +57,8 @@
    "clip_id": "EP01-P3-10",
    "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_111935_7e24a18e-b8b5-4bd5-a39a-d52e52884a86.mp4",
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-10.mp3",
-   "letter": "M"
+   "letter": "M",
+   "name_tag": "Mia"
   },
   {
    "clip_id": "EP01-P3-11",
@@ -77,7 +80,8 @@
    "clip_id": "EP01-P3-14",
    "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_111945_d3cecd4c-4691-4f84-b225-e83ec42e273a.mp4",
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-14.mp3",
-   "letter": "B"
+   "letter": "B",
+   "name_tag": "Bram"
   },
   {
    "clip_id": "EP01-P3-15",
@@ -104,7 +108,8 @@
    "clip_id": "EP01-P3-19",
    "video_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_112239_0f8acc2f-283e-49a3-822a-a2c225a227bc.mp4",
    "vo_url": "https://raw.githubusercontent.com/jdpooh84-cmd/gigis-playhouse/claude/sunny-crew-ep1-assembly-8hg5om/_staging/vo_el/pilot/EP01-P3-19.mp3",
-   "letter": "P"
+   "letter": "P",
+   "name_tag": "Pippa"
   },
   {
    "clip_id": "EP01-P3-20",

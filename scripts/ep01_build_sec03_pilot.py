@@ -21,14 +21,15 @@ import json, os, subprocess, sys
 
 LIPSYNC_OFFSET = 0.40   # default VO delay to reach the mouth-onset (per-clip override via "offset")
 TAIL_PAUSE     = 0.45   # min breathing room after the voice
+GHOST_TAIL     = 0.30   # keep this much video after speech ends, then FREEZE (kills ghost-mouth)
 GATE_LO, GATE_HI = 0.25, 0.65   # measured onset band (guards against audio-ahead-of-lips)
 
 VF = ("scale=1280:720:force_original_aspect_ratio=decrease,"
       "pad=1280:720:(ow-iw)/2:(oh-ih)/2,fps=30,setsar=1")
 
 # per-character letter-overlay accent (border colour), keyed by glyph
-LETTER_COLOR = {"S":"0xF7C948","L":"0xE4572E","M":"0x2EC4B6","K":"0xF29E4C",
-                "B":"0xE4572E","P":"0xD65DB1","A":"0xF7C948"}
+LETTER_COLOR = {"S":"0xF7C948","L":"0xE4572E","M":"0x2EC4B6","C":"0xF29E4C",
+                "B":"0xE4572E","P":"0xD65DB1","A":"0xF7C948","K":"0xF29E4C"}
 
 def run(cmd):
     r = subprocess.run(cmd, capture_output=True, text=True)
@@ -85,15 +86,26 @@ for i,c in enumerate(spec["clips"]):
     else:
         # wordless action beat: hold the shot for its own length, silent bed, no re-time/overlay/gate
         volen=0.0; slot=c.get("dur", vlen)
-    vf=VF
-    if slot>vlen+0.03:
-        vf=vf+",tpad=stop_mode=clone:stop_duration=%.3f"%(slot-vlen)
-    if c.get("letter"):
-        g=c["letter"]; col=LETTER_COLOR.get(g,"0xFFFFFF")
-        vf=vf+(",drawtext=fontfile='%s':text='%s':fontcolor=white:fontsize=170:"
+    def letter_ov(vf):
+        if c.get("letter"):
+            g=c["letter"]; col=LETTER_COLOR.get(g,"0xFFFFFF")
+            vf=vf+(",drawtext=fontfile='%s':text='%s':fontcolor=white:fontsize=170:"
                "x=110:y=100:borderw=7:bordercolor=%s:shadowcolor=black@0.45:shadowx=4:shadowy=4:"
                "alpha='min(1,max(0,(t-%.2f)/0.4))'"%(FONT,g,col,off))
+        if c.get("name_tag"):   # on-screen name text (lower-centre, kid-legible), fades in with the line
+            nm=c["name_tag"]
+            vf=vf+(",drawtext=fontfile='%s':text='%s':fontcolor=white:fontsize=64:"
+               "x=(w-tw)/2:y=h-118:borderw=5:bordercolor=black@0.85:shadowcolor=black@0.4:shadowx=3:shadowy=3:"
+               "alpha='min(1,max(0,(t-%.2f)/0.4))'"%(FONT,nm,off))
+        return vf
     if has_vo:
+        # GHOST-MOUTH FIX: play only through speech (+small tail), then FREEZE so the
+        # mouth stops when the audio stops — no double/ghost talking after the line.
+        cut_at=min(vlen, off+volen+GHOST_TAIL)
+        freeze=max(0.0, slot-cut_at)
+        vf=VF+",trim=end=%.3f,setpts=PTS-STARTPTS"%cut_at
+        if freeze>0.03: vf=vf+",tpad=stop_mode=clone:stop_duration=%.3f"%freeze
+        vf=letter_ov(vf)
         af="adelay=%d:all=1,apad"%int(off*1000)  # re-time VO onto the mouth wind-up
         run(["ffmpeg","-y","-v","error","-i",src,"-i",vo,"-t","%.3f"%slot,
              "-map","0:v:0","-map","1:a:0","-vf",vf,"-af",af,
@@ -102,6 +114,9 @@ for i,c in enumerate(spec["clips"]):
         on=audio_onset(cut); ok = GATE_LO <= on <= GATE_HI+0.15
         gate.append((cid,round(on,3),ok))
     else:
+        vf=VF
+        if slot>vlen+0.03: vf=vf+",tpad=stop_mode=clone:stop_duration=%.3f"%(slot-vlen)
+        vf=letter_ov(vf)
         run(["ffmpeg","-y","-v","error","-i",src,"-f","lavfi","-i",
              "anullsrc=channel_layout=stereo:sample_rate=44100","-t","%.3f"%slot,
              "-map","0:v:0","-map","1:a:0","-vf",vf,

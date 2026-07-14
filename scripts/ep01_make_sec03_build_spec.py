@@ -23,6 +23,7 @@ for cid in order:
     c = {"clip_id": cid, "video_url": res[cid]["url"], "vo_url": RAW + cid + ".mp3"}
     if r.get("letter"):        c["letter"] = r["letter"]
     if r.get("audience_wait"): c["audience_wait"] = r["audience_wait"]
+    if r.get("name_tag"): c["name_tag"] = r["name_tag"]
     if r.get("offset") is not None: c["offset"] = r["offset"]  # per-clip lip-sync tune
     clips.append(c)
 
