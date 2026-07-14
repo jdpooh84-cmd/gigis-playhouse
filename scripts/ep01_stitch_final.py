@@ -65,14 +65,11 @@ FONT = find_font()
 _A = "if(lt(t,2.5),1,max(0,1-(t-2.5)/1.0))"   # hold 2.5s then 1s fade
 _EN = "lt(t,3.55)"
 LOGO_VF = (
-    ",drawtext=fontfile='%s':text='Sunny and the Crew':fontcolor=0xFFF3C4:fontsize=90:"
-    "x=(w-tw)/2:y=(h-th)/2-24:box=1:boxcolor=0x1A1030@0.62:boxborderw=46:"
-    "borderw=3:bordercolor=0x7A3FB0:shadowcolor=black@0.55:shadowx=3:shadowy=3:"
+    ",drawtext=fontfile='%s':text='Sunny and the Crew':fontcolor=0xFFF3C4:fontsize=104:"
+    "x=(w-tw)/2:y=(h-th)/2:box=1:boxcolor=0x1A1030@0.62:boxborderw=52:"
+    "borderw=4:bordercolor=0x7A3FB0:shadowcolor=black@0.55:shadowx=3:shadowy=3:"
     "alpha='%s':enable='%s'"
-    ",drawtext=fontfile='%s':text='A Is for Amazing':fontcolor=0xFFFFFF:fontsize=42:"
-    "x=(w-tw)/2:y=(h-th)/2+74:borderw=2:bordercolor=0x7A3FB0:shadowcolor=black@0.5:shadowx=2:shadowy=2:"
-    "alpha='%s':enable='%s'"
-) % (FONT, _A, _EN, FONT, _A, _EN)
+) % (FONT, _A, _EN)
 
 def dur(path):
     return float(run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
