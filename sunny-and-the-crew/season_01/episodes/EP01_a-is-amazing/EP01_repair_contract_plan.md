@@ -119,3 +119,62 @@ Leo apple→airplane (airplane lyric) · Mimi apple scale + continuity · Sunny/
 
 ## Blocked (assets) — do not fabricate
 Opening logo (A1) · Nana Blossom + Captain Blue lyric shot (A2).
+
+---
+# BATCH 1 + BATCH 2 — EXECUTED & VERIFIED (2026-07-14, delivered)
+
+**Delivered cut:** `EP01-A-is-for-amazing-FINAL.mp4` — 5:52.42, 43.6 MB, 3D theatrical style, SEC-04 song intact (104.8s).
+**Google Drive:** https://drive.google.com/file/d/1zW5Y84EheR2jCQPVWhx31bmPN3t7ZTt9/view  (prior 48 MB cut + Make dup trashed; one clean file).
+**Source commit:** bcaa4a4 on `claude/sunny-crew-ep1-assembly-8hg5om`.
+
+## Batch 1 — deterministic (name overlays + ghost-mouth) — VERIFIED
+- **On-screen name tags** for every kid on their name beat, lower-centre, kid-legible, fading in with the line:
+  Sunny (P3-03), Leo (P3-05 + SEC-02 C04), Mia (P3-10 + SEC-02 C03), Bram (P3-14 + SEC-02 N03), Pippa (P3-19),
+  Coda (SEC-02 N01 + P3-11), Mimi (SEC-02 N02).
+- **Ghost-mouth trim:** every spoken clip now plays through the voice (+0.30s tail) then FREEZES — the mouth stops
+  when the audio stops (kills the "double / silent talking", esp. the Sunny/Pippa feelings scene).
+- **Letter glyphs** unchanged S/L/M/B/P/A, plus **C** added (Coda orange).
+- Duration held (5:52), sync-gate green on all clips.
+
+## Batch 2 — VO regen + re-render (Coda / Mimi / Bram / Pippa) — VERIFIED
+Regenerated VO (ElevenLabs, locked voices) + re-rendered video (seedance 2.0, new audio drives the mouth):
+
+| Clip | New spoken line (render_text) | dur | Video change | Overlay |
+|---|---|---|---|---|
+| SEC-02 N01 (Coda) | "My name is Coda. C, O, D, A. Coda." | 2.82s | NEW render — Coda faces camera, **neutral non-ASL hand-movement block**: open hand to chest on "My name", point-to-self on his name, gesture toward the on-screen letters while spelling | letter **C**, name **Coda** |
+| SEC-02 N02 (Mimi) | "My name is Mimi, and my name is amazing!" | 3.24s | NEW render — Mimi affirms first-person (was Sunny describing her) | letter M, name **Mimi** |
+| SEC-02 N03 (Bram) | "My name is Bram. B, R, A, M, Bram." | 3.11s | NEW render — Bram spells + arms-up proud (was just "BRAM!") | letter B, name **Bram** |
+| SEC-03 P3-11 (Coda) | "My turn! Coda!" | 1.33s | audio-swap (clap beat) | letter **C**, name **Coda** |
+| SEC-03 P3-17 (Pippa) | "…Pippa?" | 1.02s | NEW render — shy, timid | (pronunciation fix) |
+| SEC-03 P3-19 (Pippa) | "Pippa!" | 0.78s | NEW render — proud rise | letter P, name **Pippa** |
+
+- **Coda is canonical everywhere:** spelling C-O-D-A, pronunciation CO-DA, letter **C**, name text **"Coda"**. **Zero "Koda" / "K" remain** in the cut (verified via SEC-02 + SEC-03 frame montages).
+- **Coda's name-line hands** are ordinary readable gestures, explicitly NOT sign language and NOT labelled ASL —
+  a placeholder access layer that preserves timing for a future verified-ASL swap.
+- **Pippa** pronunciation aligned to her on-screen "Pippa" tag (PIP-pa).
+
+## ACCESSIBILITY / ASL STATUS (unchanged policy)
+- **No AI/fake ASL shipped.** All ASL items remain: *"ASL animation pending — requires a Deaf signer or a licensed
+  ASL-avatar + Deaf consultant. No AI handshapes in this release."* Coda's name-line uses neutral non-sign gestures only.
+
+## BLOCKED ON CREATOR ASSETS (not hallucinated)
+- **Opening logo center/fade at 0:00** — blocked on `sunny_logo.png` (do NOT invent a logo).
+- **"Nana Blossom & Captain Blue" lyric swap** — blocked on `nana_blossom_ref.png` + `captain_blue_ref.png`
+  (do NOT invent their designs).
+
+## REVIEW CHECKLIST (delivered cut)
+- [x] Song "A Is Amazing" present (SEC-04, 104.8s, byte-identical audio)
+- [x] Lip-sync re-timed + sync-gate enforced on every spoken clip
+- [x] Ghost-mouth / silent-talking removed (trim-then-freeze)
+- [x] On-screen name tags for all 7 kids on their name beats
+- [x] Letter glyphs S/L/M/C/B/P/A correct + per-character colour
+- [x] Coda canonical (C-O-D-A / CO-DA / letter C / name Coda); no Koda/K anywhere
+- [x] Coda name-line neutral non-ASL hand movement (labelled pending specialist)
+- [x] Mimi affirming first-person name line; Bram spell line
+- [x] Pippa pronunciation matches on-screen name
+- [x] 3D theatrical style held; total duration 5:52
+- [x] Delivered to Drive, deduped to one clean file
+- [ ] **Best-effort (next pass):** Leo apple→airplane on airplane lyric; Mimi apple scale/continuity;
+      Sunny/Mimi proportions (~5–6, close in size); waving only on hello/goodbye; hands-on-heart retime;
+      face-drawing→trace-A; kids' lips to the song (SEC-04)
+- [ ] **Blocked:** opening logo (needs sunny_logo.png); Nana Blossom + Captain Blue (needs refs)
