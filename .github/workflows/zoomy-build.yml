@@ -1,0 +1,39 @@
+name: Zoomy Zoom Freeze — build song short
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths:
+      - "_staging/zoomy/build.trigger"
+
+permissions:
+  contents: write
+
+jobs:
+  zoomy-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg (static build)
+        run: |
+          set -e
+          url=https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz
+          for i in 1 2 3 4; do
+            curl -fL --connect-timeout 20 --max-time 240 "$url" -o /tmp/ffmpeg.tar.xz && break || sleep 6
+          done
+          mkdir -p /tmp/ffmpeg-static
+          tar -xf /tmp/ffmpeg.tar.xz -C /tmp/ffmpeg-static --strip-components=1
+          echo "/tmp/ffmpeg-static/bin" >> "$GITHUB_PATH"
+          /tmp/ffmpeg-static/bin/ffmpeg -version | head -1
+      - name: Build Zoomy Zoom Freeze (beat-snapped shots + overlays + byte-identical audio)
+        run: python3 scripts/zoomy_build.py
+      - name: Commit output
+        run: |
+          git config user.name "zoomy-bot"
+          git config user.email "actions@github.com"
+          rm -rf _staging/zoomy_work
+          git add "sunny-and-the-crew/song-shorts/Zoomy-Zoom-Freeze.mp4" 2>/dev/null || true
+          git commit -m "Zoomy Zoom Freeze: build song short (auto)" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do
+            git push && break || { git pull --rebase origin "${GITHUB_REF_NAME}" || git rebase --abort || true; sleep 3; }
+          done
