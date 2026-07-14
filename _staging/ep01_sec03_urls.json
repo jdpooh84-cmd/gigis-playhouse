@@ -23,7 +23,7 @@
   },
   {
    "clip_id": "EP01-NP-N11",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001808_70ce464d-576f-4776-9c2f-b1ab8d5e9841.mp4",
    "dur": 5.0,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233507_6e609d20-1a7e-4c86-9cfb-3b15ae24dadd.mp3"
   },
@@ -35,7 +35,7 @@
   },
   {
    "clip_id": "EP01-NP-N19",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001811_59577907-43b0-410b-abbb-e72392f9552d.mp4",
    "dur": 3.5,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233509_6e0ec768-4a1d-4c78-aace-b1234a0b2a93.mp3"
   },
@@ -71,13 +71,13 @@
   },
   {
    "clip_id": "EP01-NP-N13",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_002132_3a2cb710-fd02-4584-accc-1b507b428a42.mp4",
    "dur": 5.5,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233519_773cee80-8ebd-45c9-aa42-18160681612a.mp3"
   },
   {
    "clip_id": "EP01-NP-N22",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_002136_dfbd6b66-accb-4f41-807e-2c7ca033a78a.mp4",
    "dur": 5.5,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233552_674fa694-384e-4ad6-a46e-37d2e77e7400.mp3"
   },
@@ -119,7 +119,7 @@
   },
   {
    "clip_id": "EP01-NP-N24",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001826_aad64e3f-7d61-43e4-a6e8-0444bf83d266.mp4",
    "dur": 4.0,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233527_45cec189-ac07-481f-b9a7-09296f57919f.mp3"
   },
@@ -131,7 +131,7 @@
   },
   {
    "clip_id": "EP01-NP-C21",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_002139_10329693-e0fd-4680-9097-9c0b97e172ba.mp4",
    "dur": 4.0,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230334_3d0f847d-892b-44b3-9025-90ef144476d7.mp3"
   },
@@ -140,13 +140,5 @@
    "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_000952_e119559b-9adf-47d1-8fb0-29e15f38256a.mp4",
    "dur": 5.5
   }
- ],
- "MISSING": [
-  "EP01-NP-N11",
-  "EP01-NP-N19",
-  "EP01-NP-N13",
-  "EP01-NP-N22",
-  "EP01-NP-N24",
-  "EP01-NP-C21"
  ]
 }

@@ -76,31 +76,31 @@
   },
   {
    "clip_id": "EP01-NP-C07",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001755_bdb431fa-1ece-454a-8bd1-7b886390d7e2.mp4",
    "dur": 3.8,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230123_d624ebe5-26ce-479f-917a-edabcac28a08.mp3"
   },
   {
    "clip_id": "EP01-NP-C08",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001758_e2ce9fa9-ff3e-427e-868e-f182a50f7d59.mp4",
    "dur": 3.8,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230130_071eefd5-9a9c-40fc-acc8-87d5cfa070d1.mp3"
   },
   {
    "clip_id": "EP01-NP-N04",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001806_3bbc9fd1-3286-49c9-aed8-05f49543c0ef.mp4",
    "dur": 4.5,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233455_2d68d11d-db17-4354-b146-16cdf8c8b69d.mp3"
   },
   {
    "clip_id": "EP01-NP-C09",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001801_0f1cff28-5e50-44f2-8288-e4c297e36433.mp4",
    "dur": 4.5,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230138_5d36f092-b153-4b6a-bbea-9af6564133d7.mp3"
   },
   {
    "clip_id": "EP01-NP-C10",
-   "url": "MISSING",
+   "url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260714_001804_af0b670c-4df3-4feb-90f7-53a4887af561.mp4",
    "dur": 4.0,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_230146_ba2de8ba-d8aa-4021-9360-92c95f81dc4b.mp3"
   },
@@ -110,12 +110,5 @@
    "dur": 4.5,
    "vo_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3ES9J8pFiT5OVr3w5DFkXtrRHEr/hf_20260713_233457_7f2ca292-970d-4e98-a000-559fb1cc2d60.mp3"
   }
- ],
- "MISSING": [
-  "EP01-NP-C07",
-  "EP01-NP-C08",
-  "EP01-NP-N04",
-  "EP01-NP-C09",
-  "EP01-NP-C10"
  ]
 }
