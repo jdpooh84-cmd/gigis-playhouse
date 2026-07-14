@@ -1,0 +1,50 @@
+name: EP01 repair Batch 2 — regen VO (Coda/Mimi/Bram/Pippa)
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths:
+      - "_staging/vo_el/batch2.trigger"
+
+permissions:
+  contents: write
+
+jobs:
+  batch2-vo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Batch-2 VO (ElevenLabs, locked voices, per-clip so manifests are preserved)
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          set -e
+          if [ -z "$ELEVENLABS_API_KEY" ]; then
+            echo "::error::repo secret ELEVENLABS_API_KEY is not set"; exit 1
+          fi
+          # SEC-02 name-day lines -> _staging/vo_el/  (in-place overwrite of the superseded takes)
+          for cid in EP01-NP-N01 EP01-NP-N02 EP01-NP-N03; do
+            VO_LEDGER=_staging/vo_el/batch2_ledger.json VO_OUT=_staging/vo_el \
+              python3 scripts/generate_elevenlabs_vo.py "$cid"
+          done
+          # SEC-03 pilot lines -> _staging/vo_el/pilot/
+          for cid in EP01-P3-11 EP01-P3-17 EP01-P3-19; do
+            VO_LEDGER=_staging/vo_el/batch2_ledger.json VO_OUT=_staging/vo_el/pilot \
+              python3 scripts/generate_elevenlabs_vo.py "$cid"
+          done
+          echo "=== durations ==="
+          for f in _staging/vo_el/EP01-NP-N01.mp3 _staging/vo_el/EP01-NP-N02.mp3 _staging/vo_el/EP01-NP-N03.mp3 \
+                   _staging/vo_el/pilot/EP01-P3-11.mp3 _staging/vo_el/pilot/EP01-P3-17.mp3 _staging/vo_el/pilot/EP01-P3-19.mp3; do
+            d=$(ffprobe -v error -show_entries format=duration -of default=nk=1:nw=1 "$f" 2>/dev/null || echo "?")
+            echo "  $f  ${d}s"
+          done
+      - name: Commit Batch-2 VO
+        run: |
+          git config user.name "batch2-vo-bot"
+          git config user.email "actions@github.com"
+          git add _staging/vo_el/EP01-NP-N01.mp3 _staging/vo_el/EP01-NP-N02.mp3 _staging/vo_el/EP01-NP-N03.mp3 \
+                  _staging/vo_el/pilot/EP01-P3-11.mp3 _staging/vo_el/pilot/EP01-P3-17.mp3 _staging/vo_el/pilot/EP01-P3-19.mp3
+          git commit -m "EP01 repair Batch 2: regen VO (Coda C-O-D-A, Mimi affirming, Bram spell, Pippa)" || echo "nothing to commit"
+          for i in 1 2 3 4 5; do
+            git push && break || { git pull --rebase origin "${GITHUB_REF_NAME}" || git rebase --abort || true; sleep 3; }
+          done

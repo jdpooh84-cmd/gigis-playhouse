@@ -1,0 +1,41 @@
+{
+ "_meta": "EP01 repair-contract Batch 2 VO regen. Coda canonical name (C-O-D-A, CO-DA — the character formerly rendered 'Koda'; same locked voice id, spelled/pronounced Coda per creator decision). Mimi first-person affirming name line. Bram spell line. Pippa pronunciation aligned to on-screen 'Pippa' name tag (PIP-pa). render_text drives ElevenLabs TTS; on-screen name/letter overlays are composited in post. Generated per-clip with the `only` arg so the full manifests are not clobbered.",
+ "lines": [
+  {
+   "clip_id": "EP01-NP-N01",
+   "speaker": "Koda",
+   "render_text": "My name is Coda. C, O, D, A. Coda.",
+   "note": "Coda name-day line — he is a CODA (Child of Deaf Adults); spoken + on-screen text + neutral hand movement (ASL pending specialist). Letter C, name tag Coda."
+  },
+  {
+   "clip_id": "EP01-NP-N02",
+   "speaker": "Mimi",
+   "render_text": "My name is Mimi, and my name is amazing!",
+   "note": "Mimi affirming, first-person (was Sunny describing her). Mimi's locked voice. Letter M, name tag Mimi."
+  },
+  {
+   "clip_id": "EP01-NP-N03",
+   "speaker": "Bram",
+   "render_text": "My name is Bram. B, R, A, M. Bram.",
+   "note": "Bram spell line (was just 'BRAM!'). Letter B, name tag Bram."
+  },
+  {
+   "clip_id": "EP01-P3-11",
+   "speaker": "Koda",
+   "render_text": "My turn! Coda!",
+   "note": "Coda clap-your-name beat (was 'My turn! KO-DA!'). Letter C, name tag Coda."
+  },
+  {
+   "clip_id": "EP01-P3-17",
+   "speaker": "Pipa",
+   "render_text": "…Pippa?",
+   "note": "shy, half-question; pronunciation aligned to 'Pippa' (PIP-pa)."
+  },
+  {
+   "clip_id": "EP01-P3-19",
+   "speaker": "Pipa",
+   "render_text": "Pippa!",
+   "note": "big proud rise; pronunciation aligned to 'Pippa' (PIP-pa). Letter P, name tag Pippa."
+  }
+ ]
+}
