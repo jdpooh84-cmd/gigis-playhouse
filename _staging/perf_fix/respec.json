@@ -1,0 +1,15 @@
+{
+ "_meta": "Perf-fix re-stage spec — run on Higgsfield credit top-up. Each: seedance_2_0, duration 5, 16:9, 1080p, generate_audio false, medias=[start_image, audio(import vo_url)]. Keeps VO/lip-sync/letters/slot; only start-image+motion change.",
+ "alt_images": {"SUNNY-3Q":"e71f4d7c-4dbd-4d35-8b76-7f6e83b61e92","SUNNY-THINK":"9d61e3ca-ef5d-42de-bada-ee35d246f891","SUNNY-LEAN":"77ff9008-decc-48e9-951e-c53713526fdc","AVA-2":"8ae6ab1a-c95c-4945-b807-1a90fecc76f6","PIPA-PROUD2":"b5ca9213-8fcf-42f5-9fe5-fe920efee531"},
+ "clips": [
+  {"clip_id":"EP01-NP-C02","sec":"02","start":"SUNNY-3Q","vo":"_staging/vo_el/EP01-NP-C02.mp3","motion":"animated explain, open-hand gesture, head turn"},
+  {"clip_id":"EP01-NP-C08","sec":"02","start":"SUNNY-LEAN","vo":"_staging/vo_el/EP01-NP-C08.mp3","motion":"lean toward Pipa, reassuring, soft nod"},
+  {"clip_id":"EP01-NP-N04","sec":"02","start":"SUNNY-THINK","vo":"_staging/vo_el/EP01-NP-N04.mp3","motion":"bright realization, point on 'just like YOU', brow lift"},
+  {"clip_id":"EP01-NP-C24","sec":"05","start":"SUNNY-3Q","vo":"_staging/vo_el/EP01-NP-C24.mp3","motion":"turn caringly to Pipa, head tilt, lean in"},
+  {"clip_id":"EP01-NP-C27","sec":"05","start":"SUNNY-LEAN","vo":"_staging/vo_el/EP01-NP-C27.mp3","motion":"lean to camera, inviting"},
+  {"clip_id":"EP01-NP-C30","sec":"05","start":"SUNNY-LEAN","vo":"_staging/vo_el/EP01-NP-C30.mp3","motion":"big goodbye wave, follow-through"},
+  {"clip_id":"EP01-NP-N21","sec":"05","start":"AVA-2","vo":"_staging/vo_el/EP01-NP-N21.mp3","motion":"proud nod, hand to heart"},
+  {"clip_id":"EP01-NP-C25","sec":"05","start":"PIPA-PROUD2","vo":"_staging/vo_el/EP01-NP-C25.mp3","motion":"beaming, chin up, joyful bounce"},
+  {"clip_id":"EP01-P3-01","sec":"03","start":"AVA-2","vo":"_staging/vo_el/pilot/EP01-P3-01.mp3","motion":"warm inviting gesture"}
+ ]
+}
