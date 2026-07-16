@@ -19,6 +19,7 @@ RES  = json.load(open("_staging/zoomy/video_results.json"))
 BG   = json.load(open("_staging/zoomy/beatgrid.json"))
 AUDIO = "_staging/audio/zoomy-zoom-freeze.mp3"
 OUT  = SPEC["out"]
+LOGO = "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png"   # real transparent-PNG intro logo
 WORK = "_staging/zoomy_work"; os.makedirs(WORK, exist_ok=True)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 TAIL_SLOW_REGION = 1.2
@@ -79,14 +80,25 @@ for i,c in enumerate(SPEC["clips"]):
     frz=FREEZE.get(c["section"]); used_stab=False
     for ov in c["overlays"]:
         text,f0,f1,kind = ov[0],ov[1],ov[2],ov[3]
+        if i==0 and kind=="title":
+            continue                                       # drop the pink placeholder title; real logo replaces it
         t0=f0*slot; t1=f1*slot
         if kind=="freeze" and frz and not used_stab:
             stab_local=frz["freeze"]-c["start"]           # exact detected stab in shot-local time
             if 0.0 <= stab_local <= slot:
                 t0=max(0.0,stab_local); t1=min(slot,stab_local+1.4); used_stab=True
         vf+=ov_draw(kind,text,t0,t1)
-    run(["ffmpeg","-y","-v","error","-i",src,"-t","%.3f"%base_len,"-an","-vf",vf,
-         "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",base])
+    if i==0:   # composite the real logo (looped) over the opening — held ~2.5s then fade ~1s
+        fc=("[0:v]%s[v];"
+            "[1:v]scale=620:-1,format=rgba,fade=t=in:st=0.15:d=0.4:alpha=1,"
+            "fade=t=out:st=2.5:d=1.0:alpha=1[lg];"
+            "[v][lg]overlay=x=(W-w)/2:y=H*0.09:enable='lt(t,3.6)'[o]"%vf)
+        run(["ffmpeg","-y","-v","error","-i",src,"-loop","1","-t","%.3f"%base_len,"-i",LOGO,
+             "-filter_complex",fc,"-map","[o]","-t","%.3f"%base_len,"-an",
+             "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",base])
+    else:
+        run(["ffmpeg","-y","-v","error","-i",src,"-t","%.3f"%base_len,"-an","-vf",vf,
+             "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",base])
     if slot>base_len+0.03:   # fill surplus by slowing the resting tail (no freeze)
         tsplit=min(max(base_len-TAIL_SLOW_REGION,0.0),base_len-0.30)
         factor=(slot-tsplit)/(base_len-tsplit)
