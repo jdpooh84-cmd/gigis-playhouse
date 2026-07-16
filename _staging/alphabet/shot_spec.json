@@ -1,12 +1,11 @@
 {
   "song": "Alphabet Adventure Train",
   "audio": "_staging/audio/alphabet-adventure-train.mp3",
-  "duration": 229.512,
-  "n": 18,
-  "slot": 12.7507,
+  "duration": 229.48018140589568,
+  "n": 25,
   "out": "sunny-and-the-crew/song-shorts/Alphabet-Adventure-Train.mp4",
   "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
-  "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+  "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
   "clips": [
     {
       "clip_id": "L01",
@@ -16,212 +15,233 @@
         "Koda",
         "Mimi"
       ],
-      "start": 0.0,
-      "end": 12.751,
-      "dur": 12.751,
+      "start": 0.418,
+      "end": 11.564,
+      "dur": 11.146,
       "kind": "title",
       "logo": true,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] the colorful alphabet train pulls into view, Sunny waves happily from a train-car door, ready to go. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] the colorful alphabet train pulls into view; Sunny waves happily from a train-car door as kids gather; glowing letters shine on the cars. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
           "All aboard the letter train",
-          0.09,
-          0.91,
+          0.01,
+          0.58,
+          "word"
+        ],
+        [
+          "A to Z we ride along",
+          0.61,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L02",
-      "section": "Intro",
+      "section": "Verse 1",
       "cast": [
         "Sunny",
-        "Leo",
-        "Bram",
-        "Mia"
+        "Mimi",
+        "Leo"
       ],
-      "start": 12.751,
-      "end": 25.501,
-      "dur": 12.751,
+      "start": 11.564,
+      "end": 20.48,
+      "dur": 8.916,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] kids gather cheerfully at a bright train platform as glowing letters A to Z shine above the train cars. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] A: mime eating an apple with a gentle bite. B: soft in-place mini jumps. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "A to Z we ride along",
-          0.09,
-          0.91,
+          "A is for apple",
+          0.01,
+          0.48,
+          "word"
+        ],
+        [
+          "B is for bounce",
+          0.51,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L03",
-      "section": "Verse 1a",
+      "section": "Verse 1",
       "cast": [
-        "Sunny",
-        "Mimi",
-        "Leo"
+        "Koda",
+        "Pipa",
+        "Bram"
       ],
-      "start": 25.501,
-      "end": 38.252,
-      "dur": 12.751,
+      "start": 20.48,
+      "end": 29.396,
+      "dur": 8.916,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] A: mime eating an apple with a gentle bite; then B: soft in-place mini jumps, happy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] C: curl up cozy like a cat. D: a slow gentle spin then a warm self-hug, arms wrapped around themself. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "A is for apple",
-          0.09,
-          0.49,
+          "C is for cat",
+          0.01,
+          0.48,
           "word"
         ],
         [
-          "B is for bounce",
+          "D is for dance",
           0.51,
-          0.91,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L04",
-      "section": "Verse 1a",
+      "section": "Verse 1",
       "cast": [
-        "Koda",
-        "Pipa",
-        "Bram"
+        "Sunny",
+        "Bram",
+        "Mia"
       ],
-      "start": 38.252,
-      "end": 51.003,
-      "dur": 12.751,
+      "start": 29.396,
+      "end": 38.313,
+      "dur": 8.917,
       "kind": "word",
       "logo": false,
-      "prompt": "[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] C: curl arms and body cozy like a cat; then D: a slow gentle spin then a warm self-hug, arms wrapped around themself. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] E: slow big elephant stomps in place. F: marching a little quicker. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "C is for cat",
-          0.09,
-          0.49,
+          "E is for elephant",
+          0.01,
+          0.48,
           "word"
         ],
         [
-          "D is for dance",
+          "F is for fast",
           0.51,
-          0.91,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L05",
-      "section": "Verse 1b",
+      "section": "Verse 1",
       "cast": [
-        "Sunny",
-        "Bram",
-        "Mia",
-        "Leo"
+        "Mimi",
+        "Leo",
+        "Koda"
       ],
-      "start": 51.003,
-      "end": 63.753,
-      "dur": 12.751,
+      "start": 38.313,
+      "end": 47.229,
+      "dur": 8.916,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] E: slow big elephant stomps in place; F: marching a little quicker; G: giggle and point to themselves saying their name. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] G: giggle and cheer hooray. H: wave hello with a big friendly wave. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "E is for elephant",
-          0.09,
-          0.35,
-          "word"
-        ],
-        [
-          "F is for fast",
-          0.37,
-          0.63,
-          "word"
-        ],
-        [
           "G is for giggle",
-          0.65,
-          0.91,
+          0.01,
+          0.48,
+          "word"
+        ],
+        [
+          "H is for hello",
+          0.51,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L06",
-      "section": "Verse 1b",
+      "section": "Verse 1",
       "cast": [
-        "Mimi",
-        "Koda",
-        "Pipa"
+        "Sunny",
+        "Pipa",
+        "Mia"
       ],
-      "start": 63.753,
-      "end": 76.504,
-      "dur": 12.751,
+      "start": 47.229,
+      "end": 56.146,
+      "dur": 8.917,
       "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] H: gentle hopscotch hops over drawn squares; I: fingers creep like little insects; J: jellyfish wobble, arms floating up and down. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] I: fingers creep slow like little insects. J: gentle jumping up and down in place. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "H is for hopscotch",
-          0.09,
-          0.35,
-          "word"
-        ],
-        [
           "I is for insect",
-          0.37,
-          0.63,
+          0.01,
+          0.48,
           "word"
         ],
         [
-          "J is for jellyfish",
-          0.65,
-          0.91,
+          "J is for jumping",
+          0.51,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L07",
-      "section": "Verse 1b",
+      "section": "Verse 1",
       "cast": [
         "Sunny",
-        "Leo",
-        "Mia",
-        "Bram"
+        "Bram",
+        "Leo"
       ],
-      "start": 76.504,
-      "end": 89.255,
-      "dur": 12.751,
+      "start": 56.146,
+      "end": 65.062,
+      "dur": 8.916,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] K: kindly hand a toy to a friend; L: soft little leaps with gentle landings; M: reach both arms high like a mountain peak. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] K: kindly share a toy with a friend. L: finger to lips, listen quietly and still. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
           "K is for kind",
-          0.09,
-          0.35,
+          0.01,
+          0.48,
           "word"
         ],
         [
-          "L is for leap",
-          0.37,
-          0.63,
-          "word"
-        ],
-        [
-          "M is for mountain",
-          0.65,
-          0.91,
+          "L is for listen",
+          0.51,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L08",
+      "section": "Verse 1",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Koda",
+        "Pipa"
+      ],
+      "start": 65.062,
+      "end": 73.979,
+      "dur": 8.917,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] M: magic sparkle gesture as the shining train glides; then clap hands and sing along happily. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "M is for magic",
+          0.01,
+          0.48,
+          "word"
+        ],
+        [
+          "Clap your hands and sing",
+          0.51,
+          0.98,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "L09",
       "section": "Chorus 1",
       "cast": [
         "Sunny",
@@ -229,216 +249,263 @@
         "Koda",
         "Pipa"
       ],
-      "start": 89.255,
-      "end": 102.005,
-      "dur": 12.751,
+      "start": 73.979,
+      "end": 82.895,
+      "dur": 8.916,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] wide shot marching beside the moving letter train, drawing letters in the air with index fingers, simple clear arcs. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] wide shot marching beside the moving letter train, drawing letters in the air with index fingers. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
           "Alphabet Adventure Train",
-          0.09,
-          0.35,
+          0.01,
+          0.48,
           "word"
         ],
         [
           "Draw your letters in the air",
-          0.37,
-          0.63,
-          "word"
-        ],
-        [
-          "March your feet and hum along",
-          0.65,
-          0.91,
-          "word"
-        ]
-      ]
-    },
-    {
-      "clip_id": "L09",
-      "section": "Verse 2a",
-      "cast": [
-        "Sunny",
-        "Bram",
-        "Leo"
-      ],
-      "start": 102.005,
-      "end": 114.756,
-      "dur": 12.751,
-      "kind": "word",
-      "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] N: scrunch noses playfully; O: roll an orange ball left and right between hands; P: penguin waddle with small side-steps. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "N is for nose",
-          0.09,
-          0.35,
-          "word"
-        ],
-        [
-          "O is for orange",
-          0.37,
-          0.63,
-          "word"
-        ],
-        [
-          "P is for penguin",
-          0.65,
-          0.91,
+          0.51,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L10",
-      "section": "Verse 2a",
+      "section": "Chorus 1",
       "cast": [
-        "Mimi",
-        "Mia",
-        "Koda"
+        "Sunny",
+        "Leo",
+        "Bram",
+        "Mia"
       ],
-      "start": 114.756,
-      "end": 127.507,
-      "dur": 12.751,
+      "start": 82.895,
+      "end": 91.812,
+      "dur": 8.917,
       "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Q: mime placing a pretend crown on head; R: crouch low then stretch up like a rocket, fingers pointing straight up; S: big arm stretch up high. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] the crew claps and marches in place beside the train as letters float by. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "Q is for queen",
-          0.09,
-          0.35,
+          "Clap, clap, march in place",
+          0.01,
+          0.48,
           "word"
         ],
         [
-          "R is for rocket",
-          0.37,
-          0.63,
-          "word"
-        ],
-        [
-          "S is for stretch",
-          0.65,
-          0.91,
+          "Letters by your side",
+          0.51,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L11",
-      "section": "Verse 2b",
+      "section": "Verse 2",
       "cast": [
         "Sunny",
-        "Pipa",
+        "Bram",
         "Leo"
       ],
-      "start": 127.507,
-      "end": 140.257,
-      "dur": 12.751,
+      "start": 91.812,
+      "end": 100.728,
+      "dur": 8.916,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] T: sway side to side like a clock pendulum; U: hold an umbrella and gently tap feet as it pops open. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] N: wiggle the nose playfully. O: mime peeling an orange. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "T is for tick-tock",
-          0.09,
-          0.49,
+          "N is for nose",
+          0.01,
+          0.48,
           "word"
         ],
         [
-          "U is for umbrella",
+          "O is for orange",
           0.51,
-          0.91,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L12",
-      "section": "Verse 2b",
+      "section": "Verse 2",
       "cast": [
-        "Koda",
-        "Bram",
-        "Mia"
+        "Mimi",
+        "Mia",
+        "Koda"
       ],
-      "start": 140.257,
-      "end": 153.008,
-      "dur": 12.751,
+      "start": 100.728,
+      "end": 109.645,
+      "dur": 8.917,
       "kind": "word",
       "logo": false,
-      "prompt": "[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] V: crouch and lightly rumble like a volcano then stand tall; W: wiggle hips and shoulders, fun and contained. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] P: fit pretend puzzle pieces together. Q: finger to lips, quiet soft voices. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "V is for volcano",
-          0.09,
-          0.49,
+          "P is for puzzle",
+          0.01,
+          0.48,
           "word"
         ],
         [
-          "W is for wiggle",
+          "Q is for quiet",
           0.51,
-          0.91,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L13",
-      "section": "Verse 2b",
+      "section": "Verse 2",
       "cast": [
         "Sunny",
-        "Mimi",
-        "Leo",
-        "Pipa"
+        "Pipa",
+        "Leo"
       ],
-      "start": 153.008,
-      "end": 165.759,
-      "dur": 12.751,
+      "start": 109.645,
+      "end": 118.561,
+      "dur": 8.916,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] X: stand straight and tall arms out in an alternating up-down pattern along the line; Y: cup hands near mouth and cheerfully call out. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] R: crouch then reach up like a rocket, fingers pointing to the sky. S: big arm stretch up high. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "X is for x-ray",
-          0.09,
-          0.49,
+          "R is for rocket",
+          0.01,
+          0.48,
           "word"
         ],
         [
-          "Y is for yell",
+          "S is for stretch",
           0.51,
-          0.91,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L14",
-      "section": "Verse 2b",
+      "section": "Verse 2",
       "cast": [
-        "Sunny",
         "Koda",
-        "Bram"
+        "Bram",
+        "Mia"
       ],
-      "start": 165.759,
-      "end": 178.509,
-      "dur": 12.751,
+      "start": 118.561,
+      "end": 127.478,
+      "dur": 8.917,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Z: a short safe jog in place, giving it all with big happy energy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] T: sway side to side like a clock. U: hold up a pretend umbrella. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "Z is for zoom",
-          0.09,
-          0.91,
+          "T is for tick-tock",
+          0.01,
+          0.48,
+          "word"
+        ],
+        [
+          "U is for umbrella",
+          0.51,
+          0.98,
           "word"
         ]
       ]
     },
     {
       "clip_id": "L15",
+      "section": "Verse 2",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Leo"
+      ],
+      "start": 127.478,
+      "end": 136.394,
+      "dur": 8.916,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] V: victory pose, arms up cheering we did it. W: friendly wave with a proud smile. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "V is for victory",
+          0.01,
+          0.48,
+          "word"
+        ],
+        [
+          "W is for wave",
+          0.51,
+          0.98,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "L16",
+      "section": "Verse 2",
+      "cast": [
+        "Sunny",
+        "Pipa",
+        "Koda"
+      ],
+      "start": 136.394,
+      "end": 145.31,
+      "dur": 8.916,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] X: tap a gentle pretend xylophone tune. Y: a sleepy yawn, hands near mouth. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "X is for xylophone",
+          0.01,
+          0.48,
+          "word"
+        ],
+        [
+          "Y is for yawning",
+          0.51,
+          0.98,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "L17",
+      "section": "Verse 2",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Bram",
+        "Mia"
+      ],
+      "start": 145.31,
+      "end": 154.227,
+      "dur": 8.917,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] Z: a short zippy jog in place, then a little bow and gentle spin. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Z is for zippy",
+          0.01,
+          0.48,
+          "word"
+        ],
+        [
+          "Take a bow",
+          0.51,
+          0.98,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "L18",
       "section": "Chorus 2",
       "cast": [
         "Sunny",
@@ -446,118 +513,215 @@
         "Mimi",
         "Bram"
       ],
-      "start": 178.509,
-      "end": 191.26,
-      "dur": 12.751,
+      "start": 154.227,
+      "end": 163.143,
+      "dur": 8.916,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] crew drawing a flowing A-to-Z ribbon of letters in the air as the train passes through new scenery. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] crew drawing a flowing A-to-Z ribbon of letters in the air as the train passes new scenery. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
           "Draw your letters in the air",
-          0.09,
-          0.35,
+          0.01,
+          0.48,
           "word"
         ],
         [
-          "A to Z and back",
-          0.37,
-          0.63,
-          "word"
-        ],
-        [
-          "Singing as we glide",
-          0.65,
-          0.91,
+          "A to Z, no turning back",
+          0.51,
+          0.98,
           "word"
         ]
       ]
     },
     {
-      "clip_id": "L16",
+      "clip_id": "L19",
+      "section": "Chorus 2",
+      "cast": [
+        "Sunny",
+        "Koda",
+        "Leo",
+        "Pipa"
+      ],
+      "start": 163.143,
+      "end": 172.06,
+      "dur": 8.917,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] clapping and marching beside the gliding train, singing along happily. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Singing as we glide",
+          0.01,
+          0.48,
+          "word"
+        ],
+        [
+          "Letters by your side",
+          0.51,
+          0.98,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "L20",
       "section": "Bridge",
       "cast": [
         "Sunny",
         "Pipa"
       ],
-      "start": 191.26,
-      "end": 204.011,
-      "dur": 12.751,
+      "start": 172.06,
+      "end": 180.976,
+      "dur": 8.916,
       "kind": "soft",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] calmer moment, one or two kids stand tall, take a visible deep breath, and gently trace A B C in the air. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), warm gentle colors, calmer, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] calmer moment: stand tall, take a visible deep breath, letters float gently around. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, warm gentle colors, calmer, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "Take a breath \u2014 say your ABCs",
-          0.09,
-          0.49,
+          "Every letter has a sound",
+          0.01,
+          0.48,
           "soft"
         ],
         [
-          "Letters are your best friends",
+          "Take a breath, stand tall",
           0.51,
-          0.91,
+          0.98,
           "soft"
         ]
       ]
     },
     {
-      "clip_id": "L17",
+      "clip_id": "L21",
+      "section": "Bridge",
+      "cast": [
+        "Sunny",
+        "Mimi"
+      ],
+      "start": 180.976,
+      "end": 189.893,
+      "dur": 8.917,
+      "kind": "soft",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] say your own name with pride, alphabet friends floating alongside, warm and calm. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, warm gentle colors, calmer, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Say your name with pride",
+          0.01,
+          0.48,
+          "soft"
+        ],
+        [
+          "Friends by your side",
+          0.51,
+          0.98,
+          "soft"
+        ]
+      ]
+    },
+    {
+      "clip_id": "L22",
       "section": "Final Chorus",
       "cast": [
         "Sunny",
         "Koda",
         "Mimi",
-        "Leo",
-        "Bram"
+        "Leo"
       ],
-      "start": 204.011,
-      "end": 216.761,
-      "dur": 12.751,
+      "start": 189.893,
+      "end": 198.809,
+      "dur": 8.916,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] high-energy but safe inside a train car, gentle fist-pumps and marching in place, big glowing letters around them. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] high-energy but safe inside a train car, gentle fist-pump and march, big glowing letters. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
-          "I know my A B C!",
-          0.09,
-          0.49,
+          "Now we learned them all",
+          0.01,
+          0.48,
           "word"
         ],
         [
-          "Letters are the key",
+          "I know my A B C!",
           0.51,
-          0.91,
+          0.98,
           "word"
         ]
       ]
     },
     {
-      "clip_id": "L18",
+      "clip_id": "L23",
+      "section": "Final Chorus",
+      "cast": [
+        "Sunny",
+        "Bram",
+        "Mia",
+        "Pipa"
+      ],
+      "start": 198.809,
+      "end": 207.726,
+      "dur": 8.917,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] jump once, clap twice, big bright smiles, letters all around. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Jump once, clap twice",
+          0.01,
+          0.48,
+          "word"
+        ],
+        [
+          "Learning's fun for me",
+          0.51,
+          0.98,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "L24",
       "section": "Outro",
       "cast": [
         "Sunny",
         "Mia",
-        "Pipa",
-        "Koda"
+        "Pipa"
       ],
-      "start": 216.761,
-      "end": 229.512,
-      "dur": 12.751,
+      "start": 207.726,
+      "end": 218.871,
+      "dur": 11.145,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] the train begins to slow, the crew waves goodbye as letters shimmer above the track. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Train slows down, we wave goodbye",
+          0.01,
+          0.98,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "L25",
+      "section": "Outro",
+      "cast": [
+        "Sunny",
+        "Koda",
+        "Mimi"
+      ],
+      "start": 218.871,
+      "end": 229.48,
+      "dur": 10.609,
       "kind": "end",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] the train glides to a gentle stop, letters A-Z shimmer and wave above the track, the crew waves goodbye, motion settles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes (fields, town, sky), warm gentle colors, calmer, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] train glides to a gentle stop, letters A-Z wave and shimmer, calm settle. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, warm gentle colors, calmer, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
           "See you next ride",
-          0.09,
-          0.49,
-          "end"
-        ],
-        [
-          "Learn along with me",
-          0.51,
-          0.91,
+          0.01,
+          0.98,
           "end"
         ]
       ]
