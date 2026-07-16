@@ -116,3 +116,5 @@ _staging/vidscan.json
 # Python bytecode (local compile checks)
 __pycache__/
 *.pyc
+_staging/stitch_work/
+_staging/*_work/
