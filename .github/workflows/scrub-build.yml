@@ -1,0 +1,24 @@
+name: Assemble Scrub Scrub Scrub bathtime
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths: ["_staging/scrub/build.trigger"]
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Assemble Scrub Scrub Scrub
+        run: python3 scripts/scrub_build.py
+      - name: Commit result
+        run: |
+          git config user.name "scrub-build-bot"
+          git config user.email "actions@github.com"
+          git add sunny-and-the-crew/song-shorts/Scrub-Scrub-Scrub.mp4
+          git commit -m "Scrub Scrub Scrub: build song short (auto)"
+          git push

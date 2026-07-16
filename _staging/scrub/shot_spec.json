@@ -1,0 +1,347 @@
+{
+  "song": "Scrub Scrub Scrub",
+  "audio": "_staging/audio/scrub-scrub-scrub.mp3",
+  "duration": 113.4,
+  "n": 15,
+  "slot": 7.56,
+  "out": "sunny-and-the-crew/song-shorts/Scrub-Scrub-Scrub.mp4",
+  "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
+  "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+  "clips": [
+    {
+      "clip_id": "S01",
+      "section": "Intro",
+      "cast": [
+        "Sunny",
+        "Mimi"
+      ],
+      "start": 0.0,
+      "end": 7.56,
+      "dur": 7.56,
+      "kind": "title",
+      "logo": true,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] near a big bubbly tub, smiling and leaning happily into the warm bath, gentle. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Bath time friends",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S02",
+      "section": "Intro",
+      "cast": [
+        "Sunny",
+        "Leo"
+      ],
+      "start": 7.56,
+      "end": 15.12,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] in the bubble bath ready to start, cheerful, holding a bath toy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Scrub scrub scrub",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S03",
+      "section": "Verse 1",
+      "cast": [
+        "Mimi",
+        "Bram"
+      ],
+      "start": 15.12,
+      "end": 22.68,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] close on kids' hands, scrubbing hands together with soapy bubbles, slow and clear. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Scrub your hands",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S04",
+      "section": "Verse 1",
+      "cast": [
+        "Sunny",
+        "Leo"
+      ],
+      "start": 22.68,
+      "end": 30.24,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] gently wash arms with soft circular motions, up and down, bubbles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Scrub your arms",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S05",
+      "section": "Hook 1",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Leo"
+      ],
+      "start": 30.24,
+      "end": 37.8,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] group bubble bath, happy scrubbing motions, holding up clean soapy hands. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Wash wash wash",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S06",
+      "section": "Hook 1",
+      "cast": [
+        "Mimi",
+        "Bram",
+        "Mia"
+      ],
+      "start": 37.8,
+      "end": 45.36,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] joyful scrubbing, bubbles everywhere, big smiles, squeaky clean gesture. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Squeaky clean",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S07",
+      "section": "Verse 2",
+      "cast": [
+        "Leo",
+        "Mia"
+      ],
+      "start": 45.36,
+      "end": 52.92,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] child gently scrubs tummy with bubbles, seated safely in the tub, giggly. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Scrub your tummy",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S08",
+      "section": "Verse 2",
+      "cast": [
+        "Mimi",
+        "Sunny"
+      ],
+      "start": 52.92,
+      "end": 60.48,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] toes wiggling above the water, counting on fingers, playful. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Wiggle those toes \u2014 1 2 3",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S09",
+      "section": "Hook 2",
+      "cast": [
+        "Sunny",
+        "Bram",
+        "Pipa"
+      ],
+      "start": 60.48,
+      "end": 68.04,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] happy bubble play and toe wiggles, simple repeated scrubbing, smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Scrub scrub scrub",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S10",
+      "section": "Hook 2",
+      "cast": [
+        "Mimi",
+        "Leo",
+        "Koda"
+      ],
+      "start": 68.04,
+      "end": 75.6,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] holding up clean hands, bubbles, squeaky clean celebration, gentle. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Clean clean clean",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S11",
+      "section": "Bridge",
+      "cast": [
+        "Sunny",
+        "Mimi"
+      ],
+      "start": 75.6,
+      "end": 83.16,
+      "dur": 7.56,
+      "kind": "soft",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] SLOWER calm moment, gently pouring water from a safe cup over hands, bubbles rinsing away, relaxed. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft dim yellow lighting, cozy and calm, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, calm relaxed sleepy-happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Rinse it off",
+          0.15,
+          0.88,
+          "soft"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S12",
+      "section": "Bridge",
+      "cast": [
+        "Sunny",
+        "Leo"
+      ],
+      "start": 83.16,
+      "end": 90.72,
+      "dur": 7.56,
+      "kind": "soft",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] water gently rinses shoulders, child looks relaxed and proud, soft warm light. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft dim yellow lighting, cozy and calm, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, calm relaxed sleepy-happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "That's the new YOU!",
+          0.15,
+          0.88,
+          "soft"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S13",
+      "section": "Final Hook",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Bram"
+      ],
+      "start": 90.72,
+      "end": 98.28,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] kids wrapped cozy in soft towels, gentle little bow / ta-da pose, warm smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Warm and cozy",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S14",
+      "section": "Final Hook",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mia"
+      ],
+      "start": 98.28,
+      "end": 105.84,
+      "dur": 7.56,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] snuggled in towels and pajamas, happy and calm, cozy lighting. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft yellow and teal lighting, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, clear happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Bath time was so much fun!",
+          0.15,
+          0.88,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "S15",
+      "section": "Outro",
+      "cast": [
+        "Mimi"
+      ],
+      "start": 105.84,
+      "end": 113.4,
+      "dur": 7.56,
+      "kind": "end",
+      "logo": false,
+      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] very quiet ending, child snuggled in a fluffy towel, a rubber duck resting nearby, soft dim warm light, still and calm. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy child-friendly bathroom with a big warm bubble bath, warm soft dim yellow lighting, cozy and calm, colorful towels and friendly bath toys, fluffy bubbles, safe and gentle, kids seated in the tub, on-model, calm relaxed sleepy-happy faces, theatrical quality. Simple safe controlled motion \u2014 NO wild splashing, NO standing in the tub, NO running. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Goodnight bath time",
+          0.15,
+          0.88,
+          "end"
+        ]
+      ]
+    }
+  ]
+}
