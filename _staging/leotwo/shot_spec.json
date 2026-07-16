@@ -1,0 +1,632 @@
+{
+  "song": "Leo's Two Worlds",
+  "audio": "_staging/audio/leos-two-worlds.mp3",
+  "duration": 191.08,
+  "n": 20,
+  "out": "sunny-and-the-crew/song-shorts/Leos-Two-Worlds.mp4",
+  "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
+  "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+  "clips": [
+    {
+      "clip_id": "W01",
+      "section": "Intro",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Mimi",
+        "Koda"
+      ],
+      "start": 0.0,
+      "end": 10.0,
+      "dur": 10.0,
+      "kind": "title",
+      "logo": true,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] the camera finds Leo already doing his easy bachata side-step-tap on his own spot, smiling naturally; Sunny walks up with a gentle sway; Mimi and Koda turn to watch with happy curious faces. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Leo's Two Worlds",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Two languages living in his heart",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W02",
+      "section": "Verse 1 \u2014 Hola",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Mimi"
+      ],
+      "start": 10.0,
+      "end": 20.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Sunny asks Leo the word; on the tap Leo steps forward and raises his right hand in a friendly wave; Sunny mirrors with a slightly delayed wave, each on their own spot. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Hola = HELLO",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "What's the word for hello?",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W03",
+      "section": "Verse 1 \u2014 Hola",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Koda"
+      ],
+      "start": 20.0,
+      "end": 30.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Leo repeats the wave on his side-step-tap; Sunny and Koda copy the friendly wave, learning by watching, all stepping in place. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Say it one more time",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Now the English way",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W04",
+      "section": "Verse 1 \u2014 Hola",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Mimi",
+        "Koda",
+        "Bram"
+      ],
+      "start": 30.0,
+      "end": 40.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] on the English word the crew waves outward toward the camera and steps back, mirroring Leo, everyone smiling and stepping the simple bachata basic. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Hola \u2014 HELLO",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "They're both the same!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W05",
+      "section": "Hook 1",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mimi",
+        "Koda",
+        "Bram",
+        "Pipa",
+        "Mia"
+      ],
+      "start": 40.0,
+      "end": 47.5,
+      "dur": 7.5,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] wide shot, the full crew doing the simple bachata basic step together on their own spots; on the Spanish word they wave toward each other, energy rising, big smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Hola \u2014 HELLO",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Leo's got the words \u2014 now we know!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W06",
+      "section": "Hook 1",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mimi",
+        "Koda",
+        "Bram",
+        "Pipa",
+        "Mia"
+      ],
+      "start": 47.5,
+      "end": 55.0,
+      "dur": 7.5,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] the crew waves outward toward the camera on the English word, steps a little bigger, joyful group energy, festive plaza around them. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Both words mean the same \u2014 let's go!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Leo's teaching \u2014 feel the flow",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W07",
+      "section": "Verse 2 \u2014 Gracias",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Pipa"
+      ],
+      "start": 55.0,
+      "end": 65.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] Sunny asks how to say thank you; on the tap Leo steps forward and places his right hand over his heart; Pipa watches and starts to copy, all stepping in place. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Gracias = THANK YOU",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "How do you say thank you?",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W08",
+      "section": "Verse 2 \u2014 Gracias",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Bram"
+      ],
+      "start": 65.0,
+      "end": 75.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Leo repeats hand-on-heart on his step-tap; Sunny mirrors on the English word; Bram joins with a hand on his heart while stepping. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Hand on heart",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "That's what Leo does",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W09",
+      "section": "Verse 2 \u2014 Gracias",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Mimi",
+        "Mia",
+        "Koda"
+      ],
+      "start": 75.0,
+      "end": 85.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] the crew joins, everyone with a hand on their heart while doing the simple bachata step, warm grateful smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Gracias \u2014 THANK YOU",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Leo's world and our world \u2014 never apart!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W10",
+      "section": "Hook 2",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mimi",
+        "Koda",
+        "Bram",
+        "Pipa",
+        "Mia"
+      ],
+      "start": 85.0,
+      "end": 92.5,
+      "dur": 7.5,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] full crew dancing the bachata basic; on the Spanish word both hands press over the heart together, joyful and warm. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Gracias \u2014 THANK YOU",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Leo's got the words \u2014 now we know!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W11",
+      "section": "Hook 2",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mimi",
+        "Koda",
+        "Bram",
+        "Pipa",
+        "Mia"
+      ],
+      "start": 92.5,
+      "end": 100.0,
+      "dur": 7.5,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] on the English word the crew opens both hands outward in a giving gesture while stepping, contrast of holding then offering, bright smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Both words mean the same \u2014 let's go!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Leo's teaching \u2014 feel the flow",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W12",
+      "section": "Bridge",
+      "cast": [
+        "Leo",
+        "Sunny"
+      ],
+      "start": 100.0,
+      "end": 112.5,
+      "dur": 12.5,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Leo and Sunny face each other doing faster playful bachata mambo footwork, mirroring each other like two friends copying a step \u2014 each on their own spot, NOT holding hands, joyful and light. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Both of them live inside us",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Both of them are RIGHT",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W13",
+      "section": "Bridge",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Mimi",
+        "Koda",
+        "Bram",
+        "Pipa",
+        "Mia"
+      ],
+      "start": 112.5,
+      "end": 125.0,
+      "dur": 12.5,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] Leo and Sunny stand side by side facing forward, both raise their arms fully up and hold, proud and happy, then the whole crew rushes back in around them. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Two languages \u2014 twice the light",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "When you know two languages",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W14",
+      "section": "Verse 3 \u2014 Amigo",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Mia"
+      ],
+      "start": 125.0,
+      "end": 135.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] on the tap Leo points warmly to Sunny; Sunny points back to Leo; Mia watches and points to a friend nearby, all stepping the simple bachata basic. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Amigo = FRIEND",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Point to a friend",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W15",
+      "section": "Verse 3 \u2014 Amigo",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Mimi",
+        "Koda",
+        "Bram",
+        "Pipa",
+        "Mia"
+      ],
+      "start": 135.0,
+      "end": 145.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] on the English word Leo and Sunny point outward to the camera, and every crew member points to the person next to them, everyone smiling and stepping. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Amigo \u2014 FRIEND",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "right next to you!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W16",
+      "section": "Verse 4 \u2014 Vamos",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Bram"
+      ],
+      "start": 145.0,
+      "end": 155.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] on the tap Leo steps forward and pumps his fist forward with happy energy; Sunny and Bram copy the forward fist while stepping. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Vamos = LET'S GO",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Move your feet!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W17",
+      "section": "Verse 4 \u2014 Vamos",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Mimi",
+        "Koda",
+        "Bram",
+        "Pipa",
+        "Mia"
+      ],
+      "start": 155.0,
+      "end": 165.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] on the English words the whole crew pumps their fists forward together while doing the bachata step, high joyful energy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Vamos \u2014 LET'S GO",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "the whole world complete!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W18",
+      "section": "Final Hook",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mimi",
+        "Koda",
+        "Bram",
+        "Pipa",
+        "Mia"
+      ],
+      "start": 165.0,
+      "end": 175.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] full crew, continuous bachata basic step, cycling the friendly gestures together \u2014 wave, then hand on heart \u2014 bright celebratory energy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Hola \u2014 HELLO \u2014 Gracias \u2014 THANK YOU",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Leo taught the crew \u2014 now the crew knows",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W19",
+      "section": "Final Hook",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mimi",
+        "Koda",
+        "Bram",
+        "Pipa",
+        "Mia"
+      ],
+      "start": 175.0,
+      "end": 185.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] crew cycling the last gestures together \u2014 point to a friend, then fist forward \u2014 everyone stepping and beaming, festive plaza celebration. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Amigo \u2014 FRIEND \u2014 Vamos \u2014 LET'S GO",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Two languages \u2014 everywhere Leo goes!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "W20",
+      "section": "Outro",
+      "cast": [
+        "Leo",
+        "Sunny",
+        "Mimi",
+        "Mia"
+      ],
+      "start": 185.0,
+      "end": 191.08,
+      "dur": 6.08,
+      "kind": "end",
+      "logo": false,
+      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] movement slows to a gentle sway; Leo keeps a soft quiet bachata step and opens his arms warmly toward the camera as the crew waves softly, calm proud smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful outdoor community plaza / playground \u2014 warm colored tiled pavement, friendly festive string lights and simple colorful flags and papel-picado banners, warm golden daytime light, bright warm reds yellows oranges with soft blue accents, joyful bilingual community-gathering feel, respectful cultural pride (never a stereotype). The kids do a simple, SAFE kid-level bachata basic step \u2014 step to the side, together, step, gentle tap \u2014 each child dancing happily on their OWN spot. STRICTLY children's group movement: NO partner dancing, NO holding or touching each other, NO romantic or sensual posing, NO lifts, no fast risky spins \u2014 just cheerful independent stepping and clear friendly gestures, on-model, theatrical quality. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Leo's Two Worlds",
+          0.05,
+          0.47,
+          "end"
+        ],
+        [
+          "Now they're yours!",
+          0.52,
+          0.95,
+          "end"
+        ]
+      ]
+    }
+  ]
+}
