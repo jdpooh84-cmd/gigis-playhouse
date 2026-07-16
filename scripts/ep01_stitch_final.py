@@ -77,17 +77,26 @@ def dur(path):
 
 os.makedirs("_staging/stitch_work", exist_ok=True)
 parts, rows, total = [], [], 0.0
+LOGO = "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png"   # real transparent-PNG intro logo
 for i, (name, src) in enumerate(SECTIONS):
     if not os.path.exists(src):
         sys.exit("missing section source: %s (%s)" % (name, src))
     norm = "_staging/stitch_work/%s.mp4" % name
-    vf_sec = VF + (LOGO_VF if name == "SEC-01" else "")   # logo composited onto SEC-01 opening
-    # CRF 26 + capped rate keeps the ~6:43 final comfortably under GitHub's 100 MB
-    # limit (flat cartoon compresses well; CRF 20 produced 107 MB and was rejected)
-    run(["ffmpeg", "-y", "-i", src, "-vf", vf_sec, "-r", "30",
-         "-c:v", "libx264", "-preset", "veryfast", "-crf", "26",
-         "-maxrate", "2M", "-bufsize", "4M", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2", norm])
+    # CRF 26 + capped rate keeps the ~6:43 final comfortably under GitHub's 100 MB limit.
+    ENC = ["-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-crf", "26",
+           "-maxrate", "2M", "-bufsize", "4M", "-pix_fmt", "yuv420p",
+           "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2"]
+    if name == "SEC-01":
+        # composite the REAL logo (looped) over the opening — held ~2.5s then fade ~1s
+        sd = dur(src)
+        fc = ("[0:v]%s[v];"
+              "[1:v]scale=660:-1,format=rgba,fade=t=in:st=0.15:d=0.4:alpha=1,"
+              "fade=t=out:st=2.5:d=1.0:alpha=1[lg];"
+              "[v][lg]overlay=x=(W-w)/2:y=H*0.10:enable='lt(t,3.6)'[o]" % VF)
+        run(["ffmpeg", "-y", "-i", src, "-loop", "1", "-t", "%.3f" % sd, "-i", LOGO,
+             "-filter_complex", fc, "-map", "[o]", "-map", "0:a"] + ENC + [norm])
+    else:
+        run(["ffmpeg", "-y", "-i", src, "-vf", VF] + ENC + [norm])
     d = dur(norm)
     parts.append(norm); rows.append((name, src, d)); total += d
     print("normalized %s -> %.2fs (%s)" % (name, d, src))
