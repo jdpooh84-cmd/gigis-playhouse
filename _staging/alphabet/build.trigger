@@ -1,1 +1,1 @@
-assemble 2026-07-16T18:59:07Z alphabet beat-timed 25/25
+assemble 2026-07-16T19:06:48Z alphabet timing-pin

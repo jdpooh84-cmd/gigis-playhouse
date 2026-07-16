@@ -15,22 +15,22 @@
         "Koda",
         "Mimi"
       ],
-      "start": 0.418,
+      "start": 0.0,
       "end": 11.564,
-      "dur": 11.146,
+      "dur": 11.564,
       "kind": "title",
       "logo": true,
       "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] the colorful alphabet train pulls into view; Sunny waves happily from a train-car door as kids gather; glowing letters shine on the cars. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful ALPHABET ADVENTURE TRAIN world \u2014 a colorful train with big letter-decorated cars moving through friendly sunny landscapes, high-saturation warm colors, glowing shining letters, daytime. Kids happily act out the letter movement, safe and simple for ages 4-7, clear readable faces, on-model, theatrical quality. Safe copyable motion \u2014 no climbing on the train, no rough play, no long fast spins. Absolutely NO text, no words, no letters spelled out, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
       "overlays": [
         [
           "All aboard the letter train",
-          0.01,
-          0.58,
+          0.046,
+          0.594,
           "word"
         ],
         [
           "A to Z we ride along",
-          0.61,
+          0.624,
           0.98,
           "word"
         ]

@@ -101,7 +101,10 @@ def tokens(cast):
 
 clips=[]
 for i,(sb,eb,sec,cast,action,ovs,kind) in enumerate(SHOTS):
-    start=round(bt(sb),3); end=round(bt(eb),3); slot=round(end-start,3)
+    # pin the very first clip to video-t 0 so cumulative video time == audio bar time
+    # (otherwise the whole video leads the audio by bt(0)~0.4s and overlays land early)
+    start=0.0 if i==0 else round(bt(sb),3)
+    end=round(bt(eb),3); slot=round(end-start,3)
     st = STYLE_SOFT if kind in ("soft","end") else STYLE
     prompt="%s %s. %s"%(tokens(cast), action, st)
     okind = "end" if kind=="end" else ("soft" if kind=="soft" else "word")
