@@ -1,0 +1,513 @@
+{
+  "song": "Jump With Me",
+  "audio": "_staging/audio/jump-with-me.mp3",
+  "duration": 148.52,
+  "n": 17,
+  "out": "sunny-and-the-crew/song-shorts/Jump-With-Me.mp4",
+  "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
+  "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+  "clips": [
+    {
+      "clip_id": "J01",
+      "section": "Intro",
+      "cast": [
+        "Sunny",
+        "Koda",
+        "Mimi",
+        "Leo"
+      ],
+      "start": 0.0,
+      "end": 8.0,
+      "dur": 8.0,
+      "kind": "title",
+      "logo": true,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. the crew do small soft in-place jumps on each 'Jump'; Sunny points warmly toward the camera inviting kids to join, then everyone lands in a light bounce with big smiles and arms slightly out. ONLY Sunny, Koda, Mimi, Leo are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Jump with me",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Happy and free",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J02",
+      "section": "Verse 1",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Pipa"
+      ],
+      "start": 8.0,
+      "end": 17.0,
+      "dur": 9.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun \u2014 with a teal long-sleeve shirt (small yellow star on the sleeve) and a grey polka-dot skirt over white leggings. morning wake-up: the kids stretch both arms up overhead reaching to the sky, fingers spread, a light happy yawn, eyes opening. ONLY Sunny, Mia, Pipa are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Stretch your arms up high",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Good morning!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J03",
+      "section": "Verse 1",
+      "cast": [
+        "Sunny",
+        "Bram",
+        "Koda"
+      ],
+      "start": 17.0,
+      "end": 26.0,
+      "dur": 9.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. the kids plant their feet firmly on the floor, then do one slightly bigger but still safe soft jump with arms up. ONLY Sunny, Bram, Koda are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Feet on the floor",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "We can jump so very high",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J04",
+      "section": "Verse 1",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mimi"
+      ],
+      "start": 26.0,
+      "end": 36.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. counting jumps: small in-place jumps counting one-two-three-four, then a couple of little side hops to lightly touch a friendly door frame, then continuous light happy jumps clapping overhead. ONLY Sunny, Leo, Mimi are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "1-2-3-4 \u2014 jump and touch the door",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Jumping jumping feeling great",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J05",
+      "section": "Pre-Chorus 1",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Bram"
+      ],
+      "start": 36.0,
+      "end": 44.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun \u2014 with a teal long-sleeve shirt (small yellow star on the sleeve) and a grey polka-dot skirt over white leggings. the kids crouch slightly with hands on knees then lift up like starting a race; Sunny cups a hand to her ear, then everyone answers with one clear jump landing straight into two claps overhead. ONLY Sunny, Mia, Bram are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Can you jump? Yes I can!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Jump and clap your hands!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J06",
+      "section": "Chorus 1",
+      "cast": [
+        "Sunny",
+        "Koda",
+        "Pipa",
+        "Mia"
+      ],
+      "start": 44.0,
+      "end": 54.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun \u2014 with a teal long-sleeve shirt (small yellow star on the sleeve) and a grey polka-dot skirt over white leggings. repeated small jumps in place to the Afrobeats groove; Sunny gestures toward the camera, then a slightly bigger jump reaching both arms straight up to the sky. ONLY Sunny, Koda, Pipa, Mia are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Jump with me, jump with me",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Jump so high \u2014 touch the sky",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J07",
+      "section": "Chorus 1",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mimi",
+        "Bram"
+      ],
+      "start": 54.0,
+      "end": 64.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. two jumps up-and-down, then one slow controlled spin with feet staying near the floor and arms out for balance, landing in a happy pose with hands on hips. ONLY Sunny, Leo, Mimi, Bram are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Up and down \u2014 round and round",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Happiest kids in town",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J08",
+      "section": "Verse 2",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Koda"
+      ],
+      "start": 64.0,
+      "end": 74.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun \u2014 with a teal long-sleeve shirt (small yellow star on the sleeve) and a grey polka-dot skirt over white leggings. the kids do a gentle full-body wiggle with giggles, then shake shoulders and hips softly side to side with feet planted. ONLY Sunny, Mia, Koda are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Wiggle and giggle",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Shake left and right",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J09",
+      "section": "Verse 2",
+      "cast": [
+        "Sunny",
+        "Pipa",
+        "Leo"
+      ],
+      "start": 74.0,
+      "end": 84.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. one small jump then one slow safe spin like a gentle twister, land into a soft bounce; then rise onto tiptoes and back down, ending with laughing happy jumps. ONLY Sunny, Pipa, Leo are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Jump and spin \u2014 toes up, toes down",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Jump and laugh!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J10",
+      "section": "Pre-Chorus 2",
+      "cast": [
+        "Sunny",
+        "Bram",
+        "Mimi"
+      ],
+      "start": 84.0,
+      "end": 92.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. the kids crouch with hands on knees then lift up ready; Sunny cups her ear, they answer with one clear jump and thumbs-up, then jump into two claps. ONLY Sunny, Bram, Mimi are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Ready ready \u2014 here we go",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Jump and clap your hands!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J11",
+      "section": "Chorus 2",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Koda",
+        "Leo"
+      ],
+      "start": 92.0,
+      "end": 102.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun \u2014 with a teal long-sleeve shirt (small yellow star on the sleeve) and a grey polka-dot skirt over white leggings. energetic small jumps in place together, Sunny leading toward camera, then a bigger reach-up jump touching the sky. ONLY Sunny, Mia, Koda, Leo are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Everybody jump with me",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Jump so high \u2014 touch the sky",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J12",
+      "section": "Chorus 2",
+      "cast": [
+        "Sunny",
+        "Pipa",
+        "Bram",
+        "Mimi"
+      ],
+      "start": 102.0,
+      "end": 112.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. up-and-down jumps then one controlled spin, land in a proud happy pose, arms wide. ONLY Sunny, Pipa, Bram, Mimi are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Up and down \u2014 round and round",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Happiest kids in town",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J13",
+      "section": "Bridge",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Koda"
+      ],
+      "start": 112.0,
+      "end": 122.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun \u2014 with a teal long-sleeve shirt (small yellow star on the sleeve) and a grey polka-dot skirt over white leggings. Sunny waves a friendly 'come here' and the kids hop closer in small steps, hands over hearts; then very soft tiny quiet jumps with a finger to the lips going shhh, feet barely leaving the floor. ONLY Sunny, Mia, Koda are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Come jump with me",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Jump quiet like a mouse",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J14",
+      "section": "Bridge",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Pipa",
+        "Bram"
+      ],
+      "start": 122.0,
+      "end": 132.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. after the quiet, one bigger joyful safe jump with happy shouting energy, then the group jumps in sync and lands together in a proud posed cluster with arms raised. ONLY Sunny, Leo, Pipa, Bram are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Now jump LOUD!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Jump together \u2014 make us proud!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J15",
+      "section": "Final Chorus",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Mimi",
+        "Koda"
+      ],
+      "start": 132.0,
+      "end": 138.0,
+      "dur": 6.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun \u2014 with a teal long-sleeve shirt (small yellow star on the sleeve) and a grey polka-dot skirt over white leggings. bigger group jump energy, everyone reaching up strong on 'touch the sky', bright and joyful. ONLY Sunny, Mia, Mimi, Koda are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Jump with me, jump with me",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Jump so high \u2014 touch the sky",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J16",
+      "section": "Final Chorus",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Pipa",
+        "Bram"
+      ],
+      "start": 138.0,
+      "end": 144.0,
+      "dur": 6.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. up-and-down and one final spin, then a big group jump-freeze pose, hands up, huge smiles. ONLY Sunny, Leo, Pipa, Bram are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Up and down \u2014 round and round",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Happiest kids in town",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "J17",
+      "section": "Outro",
+      "cast": [
+        "Sunny",
+        "Mia",
+        "Koda",
+        "Mimi"
+      ],
+      "start": 144.0,
+      "end": 148.52,
+      "dur": 4.52,
+      "kind": "end",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun \u2014 with a teal long-sleeve shirt (small yellow star on the sleeve) and a grey polka-dot skirt over white leggings. two final small jumps, one last slightly bigger jump with arms up, then the kids land softly with hands on hearts and thumbs-up, keeping a gentle little bounce as the music fades. ONLY Sunny, Mia, Koda, Mimi are present in the frame \u2014 no other children, no background kids, no crowd. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright open sunny outdoor yard / plaza with lots of safe empty floor space and no obstacles, festive Afrobeats jump-party feel, saturated warm happy colors, daytime. Sunny is the cheerful JUMP COACH leading the moves facing the camera; the others copy her. MEDIUM shot \u2014 characters large and close so every face is clear and on-model. All jumps and spins are SMALL, soft-knee, low, controlled and SAFE for little kids \u2014 no big leaps, no flips, no long fast spins, no rough landings, bright and friendly, never dark or aggressive. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Jump! Jump! Feeling fine!",
+          0.05,
+          0.47,
+          "end"
+        ],
+        [
+          "We don't stop!",
+          0.52,
+          0.95,
+          "end"
+        ]
+      ]
+    }
+  ]
+}
