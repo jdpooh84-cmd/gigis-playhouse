@@ -1,0 +1,422 @@
+{
+  "song": "How Do You Feel?",
+  "audio": "_staging/audio/how-do-you-feel.mp3",
+  "duration": 116.36018140589569,
+  "n": 14,
+  "out": "sunny-and-the-crew/song-shorts/How-Do-You-Feel.mp4",
+  "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
+  "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+  "clips": [
+    {
+      "clip_id": "F01",
+      "section": "Verse 1 \u2014 Happy",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Leo"
+      ],
+      "start": 0.0,
+      "end": 9.0,
+      "dur": 9.0,
+      "kind": "title",
+      "logo": true,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] warm close group shot: kids make big HAPPY faces, cheeks up, eyes bright, wide smiles; Sunny gently points to her mouth and cheeks to show what happy looks like. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "How Do You Feel?",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Happy face",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F02",
+      "section": "Verse 1 \u2014 Happy",
+      "cast": [
+        "Sunny",
+        "Koda",
+        "Mia"
+      ],
+      "start": 9.0,
+      "end": 18.0,
+      "dur": 9.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] more cheerful happy faces, kids grinning with bright eyes and raised cheeks, gently bouncing in place, joyful and warm. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Cheeks up, eyes bright",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "That's the face that feels just right!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F03",
+      "section": "Hook 1",
+      "cast": [
+        "Sunny",
+        "Pipa",
+        "Bram"
+      ],
+      "start": 18.0,
+      "end": 27.0,
+      "dur": 9.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Sunny stands beside a simple feelings chart with happy/sad/mad/scared icons and invites the kids to point to how they feel right now. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "How do you feel? Show your face!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Every feeling has its place",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F04",
+      "section": "Hook 1",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Koda"
+      ],
+      "start": 27.0,
+      "end": 36.0,
+      "dur": 9.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] kids point to a feeling on the chart then turn and show that face to the camera, cheerful and encouraging. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Happy, sad or mad or scared",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Every feeling can be shared!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F05",
+      "section": "Verse 2 \u2014 Sad",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mia"
+      ],
+      "start": 36.0,
+      "end": 44.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] kids show gentle SAD faces: mouth corners softly down, eyebrows slightly in, shoulders dropped low, quiet and calm (not crying). polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Sad face",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Mouth down, shoulders low",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F06",
+      "section": "Verse 2 \u2014 Sad",
+      "cast": [
+        "Sunny",
+        "Pipa",
+        "Mimi"
+      ],
+      "start": 44.0,
+      "end": 52.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Sunny sits close and offers gentle comfort \u2014 a soft hand on a shoulder and a warm nod \u2014 showing that sad feelings are okay. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "That's what sad looks like",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Now you know!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F07",
+      "section": "Hook 2",
+      "cast": [
+        "Sunny",
+        "Bram",
+        "Koda",
+        "Mia"
+      ],
+      "start": 52.0,
+      "end": 60.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] small group side by side showing different faces \u2014 happy, then sad \u2014 while Sunny points to each and names the feeling. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Happy - Sad - Mad - Scared",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Show your face!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F08",
+      "section": "Hook 2",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Leo",
+        "Pipa"
+      ],
+      "start": 60.0,
+      "end": 68.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] kids show mad and scared faces gently side by side while Sunny names each feeling, warm and encouraging. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Every feeling has its place",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Every feeling can be shared!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F09",
+      "section": "Verse 3 \u2014 Mad",
+      "cast": [
+        "Sunny",
+        "Koda",
+        "Bram"
+      ],
+      "start": 68.0,
+      "end": 76.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] kids show a safe MAD face \u2014 slightly scrunched brow \u2014 and do small soft in-place stomps, contained and gentle, no pounding. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Mad face",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Stomp it out (soft and small)",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F10",
+      "section": "Verse 3 \u2014 Mad",
+      "cast": [
+        "Sunny",
+        "Leo",
+        "Mia"
+      ],
+      "start": 76.0,
+      "end": 84.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] kids gently shake their hands in the air to let the mad feeling out, then place both hands on their hearts to calm down; Sunny models the calm breath. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Shake those hands \u2014 then calm",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Let it out \u2014 your body understands!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F11",
+      "section": "Bridge",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Pipa"
+      ],
+      "start": 84.0,
+      "end": 92.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] call and response: Sunny calls out and the kids quickly switch faces \u2014 a big happy smile, then a gentle sad frown. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Show me happy!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Show me sad!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F12",
+      "section": "Bridge",
+      "cast": [
+        "Sunny",
+        "Bram",
+        "Koda"
+      ],
+      "start": 92.0,
+      "end": 100.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] kids switch to a safe strong mad face, then a slightly wide-eyed scared face with a small self-hug (gentle, not frightening), then relax. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Show me mad!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Show me scared!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F13",
+      "section": "Final Hook",
+      "cast": [
+        "Sunny",
+        "Mimi",
+        "Leo",
+        "Mia",
+        "Pipa"
+      ],
+      "start": 100.0,
+      "end": 110.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] each child shows one feeling then slowly relaxes into a calm neutral face; Sunny nods warmly and gives a reassuring thumbs-up that all feelings are okay. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Every feeling has a show",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Every single feeling's right!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "F14",
+      "section": "Outro",
+      "cast": [
+        "Sunny",
+        "Koda",
+        "Bram",
+        "Mia"
+      ],
+      "start": 110.0,
+      "end": 116.36,
+      "dur": 6.36,
+      "kind": "end",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] soft slow ending: kids share a gentle group hug in a little circle, calm and smiling together, warm and safe. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, cozy warm playroom / classroom corner \u2014 soft cushions, round rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe inviting space for little kids. Clear readable facial expressions, gentle and reassuring, on-model, theatrical quality. All movement is small, soft and safe for very young children \u2014 tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "All your feelings",
+          0.05,
+          0.47,
+          "end"
+        ],
+        [
+          "Perfectly there!",
+          0.52,
+          0.95,
+          "end"
+        ]
+      ]
+    }
+  ]
+}
