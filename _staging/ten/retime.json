@@ -1,0 +1,22 @@
+[
+ ["T01",   7.98, "Intro",   "Hold up all your fingers now"],
+ ["T02",  18.94, "Intro",   "Ten little fingers, let me show you how"],
+ ["T03",  30.00, "Verse 1", "Ten little fingers reaching for the moon"],
+ ["T04",  40.21, "Verse 1", "Fold one down — that leaves us nine"],
+ ["T05",  50.26, "Verse 1", "Eight little fingers, soft as rain"],
+ ["T06",  55.58, "Chorus",  "Count them as they fold"],
+ ["T07",  62.78, "Chorus",  "One by one, going down to rest"],
+ ["T08",  71.40, "Chorus",  "Fold them, fold them — sleep has come"],
+ ["T06",  77.10, "Chorus",  "Counting down, slow and low (reuse)"],
+ ["T09",  84.50, "Verse 2", "Seven little fingers, blinking like the stars"],
+ ["T09",  91.60, "Verse 2", "Fold one more — six reaching far (reuse)"],
+ ["T10",  99.04, "Verse 2", "Five little fingers in the quiet air"],
+ ["T11", 107.04, "Verse 2", "Three left now, two little fingers"],
+ ["T12", 113.26, "Bridge",  "One finger left — can you feel how heavy?"],
+ ["T13", 123.24, "Bridge",  "Fold it down, open both hands flat"],
+ ["T14", 132.02, "Bridge",  "Ten little fingers, all resting now"],
+ ["T15", 139.00, "Outro",   "Shh — no more fingers in the air"],
+ ["T15", 145.38, "Outro",   "Shh — just breathing (reuse)"],
+ ["T16", 153.00, "Outro",   "Sleep is coming"],
+ ["T16", 160.82, "Outro",   "Sleep is here (reuse, into fade)"]
+]

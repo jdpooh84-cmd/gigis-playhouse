@@ -2,8 +2,7 @@
   "song": "Ten Little Fingers Folding Down",
   "audio": "_staging/audio/ten-little-fingers.mp3",
   "duration": 160.824,
-  "n": 16,
-  "slot": 10.0515,
+  "n": 20,
   "out": "sunny-and-the-crew/song-shorts/Ten-Little-Fingers-Folding-Down.mp4",
   "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
   "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
@@ -11,345 +10,222 @@
     {
       "clip_id": "T01",
       "section": "Intro",
-      "cast": [
-        "Sunny",
-        "Mimi"
-      ],
       "start": 0.0,
-      "end": 10.052,
-      "dur": 10.052,
+      "end": 7.98,
+      "dur": 7.98,
       "kind": "title",
       "logo": true,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] sit together in a cozy dim bed, both slowly raise both hands with all ten fingers gently up, sleepy smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Ten little fingers",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Hold up all your fingers now",
+      "overlays": []
     },
     {
       "clip_id": "T02",
       "section": "Intro",
-      "cast": [
-        "Sunny",
-        "Leo"
-      ],
-      "start": 10.052,
-      "end": 20.103,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 7.98,
+      "end": 18.94,
+      "dur": 10.96,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] close on hands, ten fingers spread softly toward a warm nightlight glow. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Ten little fingers",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Ten little fingers, let me show you how",
+      "overlays": []
     },
     {
       "clip_id": "T03",
       "section": "Verse 1",
-      "cast": [
-        "Mimi"
-      ],
-      "start": 20.103,
-      "end": 30.155,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 18.94,
+      "end": 30.0,
+      "dur": 11.06,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] child's hands reaching gently upward toward an implied soft moon of light, ten fingers. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Ten",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Ten little fingers reaching for the moon",
+      "overlays": []
     },
     {
       "clip_id": "T04",
       "section": "Verse 1",
-      "cast": [
-        "Mimi"
-      ],
-      "start": 30.155,
-      "end": 40.206,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 30.0,
+      "end": 40.21,
+      "dur": 10.21,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] hands close-up, one finger slowly folds down leaving nine, calm. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Nine little fingers",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Fold one down \u2014 that leaves us nine",
+      "overlays": []
     },
     {
       "clip_id": "T05",
       "section": "Verse 1",
-      "cast": [
-        "Leo"
-      ],
-      "start": 40.206,
-      "end": 50.258,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 40.21,
+      "end": 50.26,
+      "dur": 10.05,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] hands close-up, another finger folds down to eight, soft as rain, gentle. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Eight little fingers",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Eight little fingers, soft as rain",
+      "overlays": []
     },
     {
       "clip_id": "T06",
       "section": "Chorus",
-      "cast": [
-        "Sunny",
-        "Mimi"
-      ],
-      "start": 50.258,
-      "end": 60.309,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 50.26,
+      "end": 55.58,
+      "dur": 5.32,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] hands resting near a blanket, fingers folding down slowly one at a time, sleepy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Count them as they fold",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Count them as they fold",
+      "overlays": []
     },
     {
       "clip_id": "T07",
       "section": "Chorus",
-      "cast": [
-        "Mimi"
-      ],
-      "start": 60.309,
-      "end": 70.361,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 55.58,
+      "end": 62.78,
+      "dur": 7.2,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] close on hands folding one by one, slow and low, quiet. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "One by one, slow and low",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "One by one, going down to rest",
+      "overlays": []
     },
     {
       "clip_id": "T08",
       "section": "Chorus",
-      "cast": [
-        "Sunny",
-        "Leo"
-      ],
-      "start": 70.361,
-      "end": 80.412,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 62.78,
+      "end": 71.4,
+      "dur": 8.62,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] child settling lower into pillow, hands going down to rest, eyes heavy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Going down to rest",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Fold them, fold them \u2014 sleep has come",
+      "overlays": []
+    },
+    {
+      "clip_id": "T06",
+      "section": "Chorus",
+      "start": 71.4,
+      "end": 77.1,
+      "dur": 5.7,
+      "kind": "word",
+      "logo": false,
+      "note": "Counting down, slow and low (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "T09",
       "section": "Verse 2",
-      "cast": [
-        "Leo"
-      ],
-      "start": 80.412,
-      "end": 90.464,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 77.1,
+      "end": 84.5,
+      "dur": 7.4,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] hands close-up, fingers fold from seven to six, faint like stars, calm. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Seven little fingers",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Seven little fingers, blinking like the stars",
+      "overlays": []
+    },
+    {
+      "clip_id": "T09",
+      "section": "Verse 2",
+      "start": 84.5,
+      "end": 91.6,
+      "dur": 7.1,
+      "kind": "word",
+      "logo": false,
+      "note": "Fold one more \u2014 six reaching far (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "T10",
       "section": "Verse 2",
-      "cast": [
-        "Mimi"
-      ],
-      "start": 90.464,
-      "end": 100.515,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 91.6,
+      "end": 99.04,
+      "dur": 7.44,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] hands close-up, fold to five then four, quiet air, sleepy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Five little fingers",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Five little fingers in the quiet air",
+      "overlays": []
     },
     {
       "clip_id": "T11",
       "section": "Verse 2",
-      "cast": [
-        "Sunny",
-        "Mimi"
-      ],
-      "start": 100.515,
-      "end": 110.567,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 99.04,
+      "end": 107.04,
+      "dur": 8.0,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] fingers fold to three then two, night is deep, barely awake. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Two little fingers",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Three left now, two little fingers",
+      "overlays": []
     },
     {
       "clip_id": "T12",
       "section": "Bridge",
-      "cast": [
-        "Mimi"
-      ],
-      "start": 110.567,
-      "end": 120.618,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 107.04,
+      "end": 113.26,
+      "dur": 6.22,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] extreme close-up on the one last finger, it slowly folds down, heavy and calm. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "One finger left",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "One finger left \u2014 can you feel how heavy?",
+      "overlays": []
     },
     {
       "clip_id": "T13",
       "section": "Bridge",
-      "cast": [
-        "Sunny",
-        "Mimi"
-      ],
-      "start": 120.618,
-      "end": 130.669,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 113.26,
+      "end": 123.24,
+      "dur": 9.98,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] both hands open gently and rest flat palms-down on a soft blanket, all fingers resting. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "All resting now",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Fold it down, open both hands flat",
+      "overlays": []
     },
     {
       "clip_id": "T14",
       "section": "Bridge",
-      "cast": [
-        "Leo"
-      ],
-      "start": 130.669,
-      "end": 140.721,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 123.24,
+      "end": 132.02,
+      "dur": 8.78,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] child's face relaxed, eyes closing, resting peacefully, just like you. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Just like you",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Ten little fingers, all resting now",
+      "overlays": []
     },
     {
       "clip_id": "T15",
       "section": "Outro",
-      "cast": [
-        "Sunny",
-        "Mimi"
-      ],
-      "start": 140.721,
-      "end": 150.773,
-      "dur": 10.052,
-      "kind": "soft",
+      "start": 132.02,
+      "end": 139.0,
+      "dur": 6.98,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] hands flat and still, children lying quiet and breathing softly, room mostly dark, faint glow. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Sleep is coming",
-          0.16,
-          0.86,
-          "soft"
-        ]
-      ]
+      "note": "Shh \u2014 no more fingers in the air",
+      "overlays": []
+    },
+    {
+      "clip_id": "T15",
+      "section": "Outro",
+      "start": 139.0,
+      "end": 145.38,
+      "dur": 6.38,
+      "kind": "word",
+      "logo": false,
+      "note": "Shh \u2014 just breathing (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "T16",
       "section": "Outro",
-      "cast": [
-        "Mimi"
-      ],
-      "start": 150.773,
-      "end": 160.824,
-      "dur": 10.052,
+      "start": 145.38,
+      "end": 153.0,
+      "dur": 7.62,
+      "kind": "word",
+      "logo": false,
+      "note": "Sleep is coming",
+      "overlays": []
+    },
+    {
+      "clip_id": "T16",
+      "section": "Outro",
+      "start": 153.0,
+      "end": 160.82,
+      "dur": 7.82,
       "kind": "end",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] nearly still image, child asleep in dim blue light, peaceful, no movement. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, VERY calm quiet bedtime lullaby mood, cozy dim nighttime bedroom, soft warm nightlight / lamp glow, deep blue and soft purple palette, low contrast, minimal gentle motion, sleepy relaxed faces, blanket and pillow visible, intimate close framing, on-model, theatrical quality. Slow and still \u2014 NO dancing, NO fast movement, NO bright colors, NO big expressions. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Sleep is here",
-          0.16,
-          0.86,
-          "end"
-        ]
-      ]
+      "note": "Sleep is here (reuse, into fade)",
+      "overlays": []
     }
   ]
 }
