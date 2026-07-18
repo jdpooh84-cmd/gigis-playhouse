@@ -2,7 +2,7 @@
   "song": "Lights With Mia",
   "audio": "_staging/audio/lights-with-mia.mp3",
   "duration": 145.3209977324263,
-  "n": 19,
+  "n": 28,
   "out": "sunny-and-the-crew/song-shorts/Lights-With-Mia.mp4",
   "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
   "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
@@ -10,573 +10,310 @@
     {
       "clip_id": "M01",
       "section": "Intro",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Koda"
-      ],
       "start": 0.0,
-      "end": 8.0,
-      "dur": 8.0,
+      "end": 7.6,
+      "dur": 7.6,
       "kind": "title",
       "logo": true,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia stands front and center holding up a small fan of three plain colored game cards \u2014 one red, one green, one yellow \u2014 smiling at the camera; Sunny stands beside her and Koda just behind, ready to play. ONLY Mia, Sunny, Koda are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Lights With Mia",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Two languages \u2014 one game",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "Lights With Mia, two languages one game",
+      "overlays": []
     },
     {
       "clip_id": "M02",
       "section": "Intro",
-      "cast": [
-        "Sunny",
-        "Mia",
-        "Leo"
-      ],
-      "start": 8.0,
-      "end": 16.0,
-      "dur": 8.0,
+      "start": 7.6,
+      "end": 15.26,
+      "dur": 7.66,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. MEDIUM shot: Sunny gestures warmly toward Mia introducing the game while Leo stands ready beside them, everyone excited, Mia front and center. ONLY Sunny, Mia, Leo are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Mia's got her colors ready",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Red and green and yellow",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "colors ready, red and green and yellow",
+      "overlays": []
     },
     {
       "clip_id": "M03",
-      "section": "Verse 1 \u2014 Colors",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Mimi"
-      ],
-      "start": 16.0,
-      "end": 24.0,
-      "dur": 8.0,
+      "section": "V1 Colors",
+      "start": 15.26,
+      "end": 19.5,
+      "dur": 4.24,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia front and center holds up the RED game card clearly toward camera; Sunny and Mimi beside her plant their feet, ready to freeze. ONLY Mia, Sunny, Mimi are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "PPAL-gan = red",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Watch the light!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "PPAL-gan = red, watch the light",
+      "overlays": []
     },
     {
       "clip_id": "M04",
-      "section": "Verse 1 \u2014 Colors",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Pipa"
-      ],
-      "start": 24.0,
-      "end": 32.0,
-      "dur": 8.0,
+      "section": "V1 Colors",
+      "start": 19.5,
+      "end": 23.34,
+      "dur": 3.84,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia holds up the GREEN game card; Sunny and Pipa beside her jog and run in place with big happy energy. ONLY Mia, Sunny, Pipa are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "CHO-rok = green",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Here we go!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "CHO-rok = green, here we go",
+      "overlays": []
     },
     {
       "clip_id": "M05",
-      "section": "Verse 1 \u2014 Colors",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Bram"
-      ],
-      "start": 32.0,
-      "end": 40.0,
-      "dur": 8.0,
+      "section": "V1 Colors",
+      "start": 23.34,
+      "end": 27.32,
+      "dur": 3.98,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia holds up the YELLOW game card; Sunny and Bram beside her move in slow exaggerated slow-motion. ONLY Mia, Sunny, Bram are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "NO-rang = yellow",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Three colors \u2014 Korean \u2014 Mia's way",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "NO-rang = yellow",
+      "overlays": []
+    },
+    {
+      "clip_id": "M03",
+      "section": "V1 Colors",
+      "start": 27.32,
+      "end": 31.24,
+      "dur": 3.92,
+      "kind": "word",
+      "logo": false,
+      "note": "three colors, Mia's way (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "M06",
       "section": "Pre-Chorus 1",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Koda"
-      ],
-      "start": 40.0,
-      "end": 50.0,
-      "dur": 10.0,
+      "start": 31.24,
+      "end": 37.1,
+      "dur": 5.86,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia raises both hands about to call the game; Sunny and Koda beside her bounce with anticipation, mid-run but ready to freeze. ONLY Mia, Sunny, Koda are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Colors calling \u2014 feel the beat",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Nobody move until it stops!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "colors calling, feel the beat",
+      "overlays": []
+    },
+    {
+      "clip_id": "M06",
+      "section": "Pre-Chorus 1",
+      "start": 37.1,
+      "end": 41.12,
+      "dur": 4.02,
+      "kind": "word",
+      "logo": false,
+      "note": "nobody move until it stops (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "M07",
       "section": "Chorus 1",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Leo"
-      ],
-      "start": 50.0,
-      "end": 59.0,
-      "dur": 9.0,
+      "start": 41.12,
+      "end": 46.88,
+      "dur": 5.76,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia holds up a flat STOP hand; Sunny and Leo instantly FREEZE mid-step, a crisp clean freeze, everyone still. ONLY Mia, Sunny, Leo are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "PPAL-gan \u2014 red light \u2014 TING (stop)",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Freeze!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "PPAL-gan red TING stop, CHO-rok green POW go",
+      "overlays": []
     },
     {
       "clip_id": "M08",
       "section": "Chorus 1",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Mimi"
-      ],
-      "start": 59.0,
-      "end": 68.0,
-      "dur": 9.0,
+      "start": 46.88,
+      "end": 52.2,
+      "dur": 5.32,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia waves everyone on; Sunny and Mimi burst into running in place then melt into slow-motion, joyful. ONLY Mia, Sunny, Mimi are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "CHO-rok \u2014 green \u2014 POW (go)",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "NO-rang \u2014 yellow \u2014 MAHN-mahn (slow)",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "NO-rang yellow MAHN-mahn slow, Mia steals the show",
+      "overlays": []
+    },
+    {
+      "clip_id": "M07",
+      "section": "Chorus 1",
+      "start": 52.2,
+      "end": 55.12,
+      "dur": 2.92,
+      "kind": "word",
+      "logo": false,
+      "note": "Mia taught us all (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "M09",
-      "section": "Verse 2 \u2014 Commands",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Pipa"
-      ],
-      "start": 68.0,
-      "end": 75.0,
-      "dur": 7.0,
+      "section": "V2 Commands",
+      "start": 55.12,
+      "end": 60.0,
+      "dur": 4.88,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia makes a firm flat-hand STOP gesture front and center; Sunny and Pipa freeze completely, still as statues, smiling. ONLY Mia, Sunny, Pipa are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "TING = stop",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Freeze right there!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "TING = stop, freeze right there",
+      "overlays": []
     },
     {
       "clip_id": "M10",
-      "section": "Verse 2 \u2014 Commands",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Bram"
-      ],
-      "start": 75.0,
-      "end": 82.0,
-      "dur": 7.0,
+      "section": "V2 Commands",
+      "start": 60.0,
+      "end": 65.0,
+      "dur": 5.0,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia waves everyone forward with a big GO gesture; Sunny and Bram run energetically in place, feet moving fast and safe. ONLY Mia, Sunny, Bram are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "POW = go",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Move your feet!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "POW = go, move your feet",
+      "overlays": []
     },
     {
       "clip_id": "M11",
-      "section": "Verse 2 \u2014 Commands",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Koda"
-      ],
-      "start": 82.0,
-      "end": 88.0,
-      "dur": 6.0,
+      "section": "V2 Commands",
+      "start": 65.0,
+      "end": 69.3,
+      "dur": 4.3,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia makes a gentle slow-down gesture with both hands; Sunny and Koda move in easy exaggerated slow-motion, calm and playful. ONLY Mia, Sunny, Koda are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "MAHN-mahn = slow",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Three commands \u2014 Chinese \u2014 Mia's side",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "MAHN-mahn = slow, three commands",
+      "overlays": []
     },
     {
       "clip_id": "M12",
       "section": "Pre-Chorus 2",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Leo"
-      ],
-      "start": 88.0,
-      "end": 96.0,
-      "dur": 8.0,
+      "start": 69.3,
+      "end": 75.0,
+      "dur": 5.7,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia grins and raises her hands to call the next round; Sunny and Leo jitter with excitement, ready to play. ONLY Mia, Sunny, Leo are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Commands calling \u2014 feel the beat",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Nobody move until it STOPS!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "commands calling, feel the beat",
+      "overlays": []
+    },
+    {
+      "clip_id": "M12",
+      "section": "Pre-Chorus 2",
+      "start": 75.0,
+      "end": 82.04,
+      "dur": 7.04,
+      "kind": "word",
+      "logo": false,
+      "note": "nobody move until it stops (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "M13",
       "section": "Chorus 2",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Mimi"
-      ],
-      "start": 96.0,
-      "end": 104.0,
-      "dur": 8.0,
+      "start": 82.04,
+      "end": 87.84,
+      "dur": 5.8,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia calls red then STOP and Sunny and Mimi freeze, then Mia calls green and they burst into running in place. ONLY Mia, Sunny, Mimi are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "PPAL-gan \u2014 TING (freeze)",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "CHO-rok \u2014 POW (go)",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "PPAL-gan TING, CHO-rok POW",
+      "overlays": []
     },
     {
       "clip_id": "M14",
       "section": "Chorus 2",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Pipa"
-      ],
-      "start": 104.0,
-      "end": 112.0,
-      "dur": 8.0,
+      "start": 87.84,
+      "end": 93.18,
+      "dur": 5.34,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia calls yellow and Sunny and Pipa go into slow-motion, then everyone bursts back to full running in place, joyful. ONLY Mia, Sunny, Pipa are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "NO-rang \u2014 MAHN-mahn (slow)",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Six words \u2014 two worlds \u2014 watch them glow!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "NO-rang MAHN-mahn, six words two worlds",
+      "overlays": []
+    },
+    {
+      "clip_id": "M13",
+      "section": "Chorus 2",
+      "start": 93.18,
+      "end": 96.96,
+      "dur": 3.78,
+      "kind": "word",
+      "logo": false,
+      "note": "watch them glow (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "M15",
       "section": "Bridge",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Bram"
-      ],
-      "start": 112.0,
-      "end": 120.0,
-      "dur": 8.0,
+      "start": 96.96,
+      "end": 100.32,
+      "dur": 3.36,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: game climax \u2014 Mia calls green and Sunny and Bram run hard in place toward Mia with huge happy go-go-go energy. ONLY Mia, Sunny, Bram are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "CHO-rok \u2014 POW (go)",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "GO GO GO!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "CHO-rok POW, go go go",
+      "overlays": []
     },
     {
       "clip_id": "M16",
       "section": "Bridge",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Koda"
-      ],
-      "start": 120.0,
-      "end": 128.0,
-      "dur": 8.0,
+      "start": 100.32,
+      "end": 107.34,
+      "dur": 7.02,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM shot: Mia calls red then STOP; Sunny and Koda FREEZE mid-run and hold completely still; the camera holds on Mia and the frozen players. ONLY Mia, Sunny, Koda are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "PPAL-gan \u2014 TING (freeze)",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "JIN-jja... nobody moving!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "PPAL-gan TING, nobody moving",
+      "overlays": []
     },
     {
       "clip_id": "M17",
       "section": "Final Chorus",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Leo",
-        "Mimi"
-      ],
-      "start": 128.0,
-      "end": 134.0,
-      "dur": 6.0,
+      "start": 107.34,
+      "end": 112.24,
+      "dur": 4.9,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM group shot: Mia front and center with Sunny, Leo and Mimi close beside her doing a synchronized freeze-run-slow cycle, bright and celebratory. ONLY Mia, Sunny, Leo, Mimi are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "PPAL-gan / CHO-rok / NO-rang",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "TING / POW / MAHN-mahn",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "PPAL-gan red, CHO-rok green, NO-rang yellow",
+      "overlays": []
     },
     {
       "clip_id": "M18",
       "section": "Final Chorus",
-      "cast": [
-        "Mia",
-        "Sunny",
-        "Pipa",
-        "Bram"
-      ],
-      "start": 134.0,
-      "end": 140.0,
-      "dur": 6.0,
+      "start": 112.24,
+      "end": 116.84,
+      "dur": 4.6,
       "kind": "word",
       "logo": false,
-      "reuse": false,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. MEDIUM group shot: on 'take a bow' Mia with Sunny, Pipa and Bram close beside her do a playful bow to the camera together, beaming. ONLY Mia, Sunny, Pipa, Bram are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Six words \u2014 ONE game",
-          0.05,
-          0.47,
-          "word"
-        ],
-        [
-          "Mia's light game \u2014 never done!",
-          0.52,
-          0.95,
-          "word"
-        ]
-      ]
+      "note": "MAHN-mahn slow, Mia steals the show",
+      "overlays": []
+    },
+    {
+      "clip_id": "M17",
+      "section": "Final Chorus",
+      "start": 116.84,
+      "end": 121.4,
+      "dur": 4.56,
+      "kind": "word",
+      "logo": false,
+      "note": "TING POW MAHN-mahn, take a bow (reuse)",
+      "overlays": []
+    },
+    {
+      "clip_id": "M18",
+      "section": "Final Chorus",
+      "start": 121.4,
+      "end": 126.14,
+      "dur": 4.74,
+      "kind": "word",
+      "logo": false,
+      "note": "six words, two worlds (reuse)",
+      "overlays": []
+    },
+    {
+      "clip_id": "M17",
+      "section": "Final Chorus",
+      "start": 126.14,
+      "end": 130.98,
+      "dur": 4.84,
+      "kind": "word",
+      "logo": false,
+      "note": "Mia's light game, never done (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "M19",
       "section": "Outro",
-      "cast": [
-        "Mia",
-        "Sunny"
-      ],
-      "start": 140.0,
-      "end": 145.321,
-      "dur": 5.321,
+      "start": 130.98,
+      "end": 138.68,
+      "dur": 7.7,
+      "kind": "word",
+      "logo": false,
+      "note": "red green yellow, stop go slow",
+      "overlays": []
+    },
+    {
+      "clip_id": "M19",
+      "section": "Outro",
+      "start": 138.68,
+      "end": 145.32,
+      "dur": 6.64,
       "kind": "end",
       "logo": false,
-      "reuse": true,
-      "prompt": "[Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the base of her skull tied with small TEAL scrunchies \u2014 NOT a bun, NOT a ponytail, NOT a topknot \u2014 with a teal long-sleeve shirt (small yellow star on the left sleeve), a light grey polka-dot skirt over white leggings, and a teal star crossbody bag. Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. calm close-up: Mia and Sunny side by side facing the camera, saying the words together, then a gentle wave and a warm little smile. ONLY Mia, Sunny are present in the frame \u2014 no other children, no background kids, no crowd, no extra people. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright friendly grassy SCHOOLYARD play field on a sunny day with a simple chalk start line and a couple of soft cones, warm daylight, cheerful kids'-game mood. MEDIUM shot \u2014 the characters are large and close so every face is clear and on-model. Mia is a happy CHILD leading a running-and-freezing game. Big but SAFE kid movement \u2014 running in place, short sprints, clean freezes, gentle slow-motion, no collisions, no falls, no adult dance. NO traffic lights, NO stoplight, NO cars, NO roads. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Mia's world",
-          0.05,
-          0.47,
-          "end"
-        ],
-        [
-          "Now you know!",
-          0.52,
-          0.95,
-          "end"
-        ]
-      ]
+      "note": "now you know (reuse, into fade)",
+      "overlays": []
     }
   ]
 }
