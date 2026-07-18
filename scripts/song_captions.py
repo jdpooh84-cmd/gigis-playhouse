@@ -1,55 +1,62 @@
 #!/usr/bin/env python3
 """Turn a word-timestamped transcript into short, audio-synced caption lines.
 
-Usage: python3 scripts/song_captions.py <transcript_json> <out_captions_json> [max_words] [max_chars]
+Usage: python3 scripts/song_captions.py <transcript_json> <out_captions_json> [max_chars] [max_words]
 
 Output: [[t0, t1, "TEXT"], ...] on the REAL audio timeline. Each line is shown exactly while
-those words are sung, so the on-screen lyric matches the audio. Long sung phrases are split into
-short karaoke-style lines (<= max_words / max_chars), each with its own [t0,t1] from the words it
-contains. A tiny lead-in / hold-out is added for readability without overlapping the next line.
+those words are sung, so the on-screen lyric matches the audio.
+
+Segment-first: whisper already returns natural sung phrases, so each segment becomes ONE caption
+line when it fits the width budget. Only genuinely long segments are split by word timestamps into
+balanced chunks — and never in a way that leaves a 1-2 word orphan dangling on its own line.
 """
 import json, sys, re
 
 def clean(w):
     return re.sub(r"\s+", " ", w).strip()
 
+def split_words(words, max_chars, max_words):
+    """Balanced split of a long word list into chunks, avoiding tiny orphans."""
+    n = len(words)
+    # how many chunks do we need to respect the budget?
+    import math
+    txt = clean(" ".join(w["w"] for w in words))
+    k = max(1, math.ceil(len(txt) / max_chars), math.ceil(n / max_words))
+    if k <= 1:
+        return [words]
+    # even split by word count so no chunk is far smaller than the others (kills orphans)
+    per = math.ceil(n / k)
+    chunks = [words[i:i + per] for i in range(0, n, per)]
+    # if the last chunk is a lone orphan, fold it back into the previous chunk
+    if len(chunks) > 1 and len(chunks[-1]) < 2:
+        chunks[-2] += chunks[-1]
+        chunks.pop()
+    return chunks
+
 def main():
     tr = json.load(open(sys.argv[1]))
     out_path = sys.argv[2]
-    max_words = int(sys.argv[3]) if len(sys.argv) > 3 else 6
-    max_chars = int(sys.argv[4]) if len(sys.argv) > 4 else 30
+    max_chars = int(sys.argv[3]) if len(sys.argv) > 3 else 40
+    max_words = int(sys.argv[4]) if len(sys.argv) > 4 else 8
 
-    # flatten all words across segments, keeping segment boundaries as forced line breaks
     lines = []
     for seg in tr["segments"]:
-        words = seg.get("words") or []
-        if not words:
-            t = clean(seg["text"])
-            if t:
-                lines.append([round(seg["start"], 3), round(seg["end"], 3), t])
+        text = clean(seg["text"])
+        if not text:
             continue
-        cur = []
-        def flush():
-            if not cur:
-                return
-            txt = clean(" ".join(w["w"] for w in cur))
-            if txt:
-                lines.append([round(cur[0]["s"], 3), round(cur[-1]["e"], 3), txt])
-            cur.clear()
-        for w in words:
-            prospective = cur + [w]
-            txt = clean(" ".join(x["w"] for x in prospective))
-            # break on word/char budget, or a big sung gap (new musical phrase)
-            gap = (w["s"] - cur[-1]["e"]) if cur else 0.0
-            if cur and (len(prospective) > max_words or len(txt) > max_chars or gap > 0.9):
-                flush()
-                cur.append(w)
-            else:
-                cur.append(w)
-        flush()
+        words = seg.get("words") or []
+        # whole segment fits (or we have no word timings) -> one clean caption line
+        if len(text) <= max_chars or not words:
+            lines.append([round(seg["start"], 3), round(seg["end"], 3), text])
+            continue
+        # long segment -> balanced word-timed chunks
+        for ch in split_words(words, max_chars, max_words):
+            if ch:
+                lines.append([round(ch[0]["s"], 3), round(ch[-1]["e"], 3),
+                              clean(" ".join(w["w"] for w in ch))])
 
     # readability polish: min duration, small lead-in/hold-out, no overlap with next line
-    LEAD, HOLD, MINDUR = 0.15, 0.25, 0.8
+    LEAD, HOLD, MINDUR = 0.15, 0.30, 0.9
     polished = []
     for i, (t0, t1, txt) in enumerate(lines):
         a = max(0.0, t0 - LEAD)
