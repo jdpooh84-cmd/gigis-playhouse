@@ -37,6 +37,23 @@ def line_break_words(words):
         sub.append(cur)
     return sub
 
+def comma_split(words, max_chars, max_words):
+    """Split a too-long line at the comma nearest its middle (a natural phrase
+    boundary), recursing until each piece fits. Falls back to a balanced word
+    split when there is no usable comma. Keeps captions from breaking mid-clause.
+    """
+    txt = clean(" ".join(w["w"] for w in words))
+    if len(txt) <= max_chars and len(words) <= max_words:
+        return [words]
+    # candidate break points = right after a word that ends in a comma
+    mid = len(words) / 2.0
+    commas = [i for i, w in enumerate(words[:-1]) if w["w"].rstrip().endswith(",")]
+    if commas:
+        j = min(commas, key=lambda i: abs(i + 1 - mid))
+        left, right = words[:j + 1], words[j + 1:]
+        return comma_split(left, max_chars, max_words) + comma_split(right, max_chars, max_words)
+    return split_words(words, max_chars, max_words)
+
 def split_words(words, max_chars, max_words):
     """Balanced split of a long word list into chunks, avoiding tiny orphans."""
     n = len(words)
@@ -90,7 +107,7 @@ def main():
             if len(gtext) <= max_chars:
                 lines.append([round(g[0]["s"], 3), round(g[-1]["e"], 3), gtext])
             else:
-                for ch in split_words(g, max_chars, max_words):
+                for ch in comma_split(g, max_chars, max_words):
                     if ch:
                         lines.append([round(ch[0]["s"], 3), round(ch[-1]["e"], 3),
                                       clean(" ".join(w["w"] for w in ch))])
