@@ -2,8 +2,7 @@
   "song": "Move Like the Animal",
   "audio": "_staging/audio/move-like-the-animal.mp3",
   "duration": 124.32,
-  "n": 20,
-  "slot": 6.216,
+  "n": 26,
   "out": "sunny-and-the-crew/song-shorts/Move-Like-the-Animal.mp4",
   "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
   "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
@@ -11,482 +10,288 @@
     {
       "clip_id": "A01",
       "section": "Intro",
-      "cast": [
-        "Sunny",
-        "Koda",
-        "Mia"
-      ],
       "start": 0.0,
-      "end": 6.216,
-      "dur": 6.216,
+      "end": 6.96,
+      "dur": 6.96,
       "kind": "title",
       "logo": true,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] step and bounce in place to a drum beat, clap to the groove, warm inviting smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Every animal's got a move!",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Boom da boom, every animal's gotta move",
+      "overlays": []
     },
     {
       "clip_id": "A02",
       "section": "Intro",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Leo"
-      ],
-      "start": 6.216,
-      "end": 12.432,
-      "dur": 6.216,
+      "start": 6.96,
+      "end": 11.3,
+      "dur": 4.34,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] gesture invitingly to the camera, ready to start, cheerful. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Come on, what is yours?",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Come on, what is yours?",
+      "overlays": []
     },
     {
       "clip_id": "A03",
       "section": "Verse 1",
-      "cast": [
-        "Sunny",
-        "Bram",
-        "Mia"
-      ],
-      "start": 12.432,
-      "end": 18.648,
-      "dur": 6.216,
+      "start": 11.3,
+      "end": 15.78,
+      "dur": 4.48,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] heavy elephant-style stomps, big controlled foot stamps, feeling the beat. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "STOMP your feet",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Elephant stomps, stomp your feet",
+      "overlays": []
     },
     {
       "clip_id": "A04",
       "section": "Verse 1",
-      "cast": [
-        "Koda",
-        "Leo",
-        "Pipa"
-      ],
-      "start": 18.648,
-      "end": 24.864,
-      "dur": 6.216,
+      "start": 15.78,
+      "end": 20.48,
+      "dur": 4.7,
       "kind": "word",
       "logo": false,
-      "prompt": "[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] swing arms side to side like a monkey swinging, playful. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Swing your arms",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Monkey swings, swing your arms",
+      "overlays": []
     },
     {
       "clip_id": "A05",
       "section": "Verse 1",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Mia"
-      ],
-      "start": 24.864,
-      "end": 31.08,
-      "dur": 6.216,
+      "start": 20.48,
+      "end": 25.02,
+      "dur": 4.54,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] crouch down low then jump up high reaching for the sky, frog style. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "JUMP so high",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Frogs jump so high, touch the sky",
+      "overlays": []
     },
     {
       "clip_id": "A06",
       "section": "Pre-chorus 1",
-      "cast": [
-        "Sunny",
-        "Koda",
-        "Bram",
-        "Leo"
-      ],
-      "start": 31.08,
-      "end": 37.296,
-      "dur": 6.216,
+      "start": 25.02,
+      "end": 30.0,
+      "dur": 4.98,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] ready listening stance, hands to ears to the drum, then start to move. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Listen for the drum",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Listen for the drum, ready?",
+      "overlays": []
+    },
+    {
+      "clip_id": "A06",
+      "section": "Pre-chorus 1",
+      "start": 30.0,
+      "end": 34.72,
+      "dur": 4.72,
+      "kind": "word",
+      "logo": false,
+      "note": "Move your body, the animals know what to do (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "A07",
       "section": "Chorus 1",
-      "cast": [
-        "Sunny",
-        "Mia",
-        "Mimi",
-        "Leo"
-      ],
-      "start": 37.296,
-      "end": 43.512,
-      "dur": 6.216,
+      "start": 34.72,
+      "end": 39.28,
+      "dur": 4.56,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] group picks animal moves, stomp and swing together, joyful. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Move like the animal",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Move like the animal, which one are you?",
+      "overlays": []
     },
     {
       "clip_id": "A08",
       "section": "Chorus 1",
-      "cast": [
-        "Koda",
-        "Bram",
-        "Pipa",
-        "Sunny"
-      ],
-      "start": 43.512,
-      "end": 49.728,
-      "dur": 6.216,
+      "start": 39.28,
+      "end": 43.42,
+      "dur": 4.14,
       "kind": "word",
       "logo": false,
-      "prompt": "[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] jump and gentle spin, pick-your-animal energy, big smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Pick your animal and begin!",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Move like the animal, I'm moving too",
+      "overlays": []
+    },
+    {
+      "clip_id": "A07",
+      "section": "Chorus 1",
+      "start": 43.42,
+      "end": 48.64,
+      "dur": 5.22,
+      "kind": "word",
+      "logo": false,
+      "note": "Stomp or swing or jump or spin (reuse)",
+      "overlays": []
+    },
+    {
+      "clip_id": "A08",
+      "section": "Chorus 1",
+      "start": 48.64,
+      "end": 53.24,
+      "dur": 4.6,
+      "kind": "word",
+      "logo": false,
+      "note": "Pick your animal and begin, go! (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "A09",
       "section": "Verse 2",
-      "cast": [
-        "Mimi",
-        "Pipa"
-      ],
-      "start": 49.728,
-      "end": 55.944,
-      "dur": 6.216,
+      "start": 53.24,
+      "end": 57.94,
+      "dur": 4.7,
       "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] tiny wobbling penguin steps, wobble left and right, arms at sides. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Wobble left",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Penguin walks with tiny steps, wobble left",
+      "overlays": []
     },
     {
       "clip_id": "A10",
       "section": "Verse 2",
-      "cast": [
-        "Bram",
-        "Leo",
-        "Mia"
-      ],
-      "start": 55.944,
-      "end": 62.16,
-      "dur": 6.216,
+      "start": 57.94,
+      "end": 62.1,
+      "dur": 4.16,
       "kind": "word",
       "logo": false,
-      "prompt": "[Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] sharp crocodile clap with both arms, clap twice. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "CLAP your hands",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Crocodile snaps, clap your hands",
+      "overlays": []
     },
     {
       "clip_id": "A11",
       "section": "Verse 2",
-      "cast": [
-        "Sunny",
-        "Koda",
-        "Mia"
-      ],
-      "start": 62.16,
-      "end": 68.376,
-      "dur": 6.216,
+      "start": 62.1,
+      "end": 66.88,
+      "dur": 4.78,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] big lion stretch, arms opening out wide on every side. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Lion stretches",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Lion stretches, opens wide",
+      "overlays": []
     },
     {
       "clip_id": "A12",
       "section": "Pre-chorus 2",
-      "cast": [
-        "Mimi",
-        "Leo",
-        "Bram",
-        "Pipa"
-      ],
-      "start": 68.376,
-      "end": 74.592,
-      "dur": 6.216,
+      "start": 66.88,
+      "end": 71.54,
+      "dur": 4.66,
       "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] ready listening pose to the drum, building energy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Move your body",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Listen for the drum, ready?",
+      "overlays": []
+    },
+    {
+      "clip_id": "A12",
+      "section": "Pre-chorus 2",
+      "start": 71.54,
+      "end": 76.54,
+      "dur": 5.0,
+      "kind": "word",
+      "logo": false,
+      "note": "Move your body, and so do you (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "A13",
       "section": "Chorus 2",
-      "cast": [
-        "Sunny",
-        "Mia",
-        "Koda",
-        "Pipa"
-      ],
-      "start": 74.592,
-      "end": 80.808,
-      "dur": 6.216,
+      "start": 76.54,
+      "end": 81.04,
+      "dur": 4.5,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] group animal moves again, stomp swing jump, community energy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Move like the animal",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Move like the animal, which one are you?",
+      "overlays": []
     },
     {
       "clip_id": "A14",
       "section": "Chorus 2",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Leo",
-        "Bram"
-      ],
-      "start": 80.808,
-      "end": 87.024,
-      "dur": 6.216,
+      "start": 81.04,
+      "end": 84.94,
+      "dur": 3.9,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] gentle spin and jump together, go energy. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Move like the animal \u2014 go!",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Move like the animal, I'm moving too",
+      "overlays": []
+    },
+    {
+      "clip_id": "A13",
+      "section": "Chorus 2",
+      "start": 84.94,
+      "end": 90.44,
+      "dur": 5.5,
+      "kind": "word",
+      "logo": false,
+      "note": "Stomp or swing or jump or spin (reuse)",
+      "overlays": []
+    },
+    {
+      "clip_id": "A14",
+      "section": "Chorus 2",
+      "start": 90.44,
+      "end": 94.44,
+      "dur": 4.0,
+      "kind": "word",
+      "logo": false,
+      "note": "Move like the animal, go! (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "A15",
       "section": "Bridge",
-      "cast": [
-        "Sunny",
-        "Bram"
-      ],
-      "start": 87.024,
-      "end": 93.24,
-      "dur": 6.216,
+      "start": 94.44,
+      "end": 100.8,
+      "dur": 6.36,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] big elephant stomps then monkey arm swings, call and response. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Elephant \u2014 STOMP",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Elephant STOMP, monkey SWING",
+      "overlays": []
     },
     {
       "clip_id": "A16",
       "section": "Bridge",
-      "cast": [
-        "Koda",
-        "Mia"
-      ],
-      "start": 93.24,
-      "end": 99.456,
-      "dur": 6.216,
+      "start": 100.8,
+      "end": 104.68,
+      "dur": 3.88,
       "kind": "word",
       "logo": false,
-      "prompt": "[Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] crouch-and-jump like a frog then tiny penguin wobble. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Frog \u2014 JUMP",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Frog JUMP, penguin WOBBLE",
+      "overlays": []
     },
     {
       "clip_id": "A17",
       "section": "Bridge",
-      "cast": [
-        "Leo",
-        "Pipa"
-      ],
-      "start": 99.456,
-      "end": 105.672,
-      "dur": 6.216,
+      "start": 104.68,
+      "end": 108.02,
+      "dur": 3.34,
       "kind": "word",
       "logo": false,
-      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] crocodile clap clap then wide lion stretch and gentle roar gesture. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Lion \u2014 ROAR & stretch",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Crocodile SNAP, lion ROAR and stretch",
+      "overlays": []
     },
     {
       "clip_id": "A18",
       "section": "Bridge",
-      "cast": [
-        "Sunny",
-        "Mia",
-        "Koda",
-        "Mimi",
-        "Leo",
-        "Bram",
-        "Pipa"
-      ],
-      "start": 105.672,
-      "end": 111.888,
-      "dur": 6.216,
-      "kind": "freeze",
+      "start": 108.02,
+      "end": 113.12,
+      "dur": 5.1,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] whole crew moving all together in the same space, big joyful finish. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "ALL TOGETHER!",
-          0.35,
-          0.95,
-          "freeze"
-        ]
-      ]
+      "note": "All together!",
+      "overlays": []
     },
     {
       "clip_id": "A19",
       "section": "Outro",
-      "cast": [
-        "Sunny",
-        "Mia",
-        "Koda",
-        "Mimi",
-        "Leo",
-        "Bram",
-        "Pipa"
-      ],
-      "start": 111.888,
-      "end": 118.104,
-      "dur": 6.216,
+      "start": 113.12,
+      "end": 117.98,
+      "dur": 4.86,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] movement winds down, gentle swaying to the drum, calm happy poses. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "We gave our best",
-          0.14,
-          0.9,
-          "word"
-        ]
-      ]
+      "note": "Boom da boom, the animals rest, we gave our best",
+      "overlays": []
     },
     {
       "clip_id": "A20",
       "section": "Outro",
-      "cast": [
-        "Sunny",
-        "Mia",
-        "Koda",
-        "Mimi",
-        "Leo",
-        "Bram",
-        "Pipa"
-      ],
-      "start": 118.104,
+      "start": 117.98,
       "end": 124.32,
-      "dur": 6.216,
+      "dur": 6.34,
       "kind": "end",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] soft waves and little bows, warm goodnight, settling calm. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, warm natural daylight, gentle depth of field, friendly outdoor community yard / open plaza with warm earthy tones and bright accent colors, room to move, on-model, clear happy faces, theatrical quality. The kids PERFORM playful animal-inspired moves themselves (no real or scary animals). Absolutely NO text, no words, no letters, no captions, no signs anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Goodnight",
-          0.14,
-          0.9,
-          "word"
-        ],
-        [
-          "Goodnight",
-          0.3,
-          1.0,
-          "end"
-        ]
-      ]
+      "note": "Every animal says goodnight",
+      "overlays": []
     }
   ]
 }
