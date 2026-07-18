@@ -25,12 +25,27 @@ ELEM = {
     "Leo":   "ab579f47-e94f-406e-ae63-dd4fd6dd1b18",
     "Mia":   "36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590",
 }
+ANCHOR = {
+ "Sunny": ("Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, "
+           "yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts."),
+ "Mia": ("Mia has light golden-beige skin and PURE BLACK straight hair in TWO LOW pigtails at the "
+         "base of her skull tied with small TEAL scrunchies — NOT a bun — with a teal long-sleeve "
+         "shirt (small yellow star on the sleeve) and a grey polka-dot skirt over white leggings."),
+}
+# Canon enforcement — the exact defects the creator flagged on prior songs (Sunny too tall/older,
+# non-canon multicolor hair, duplicate characters). Injected into every prompt.
+REINF = ("CANON: every character is a little PRESCHOOL child, all the SAME small child height and "
+         "proportions — Sunny is NOT taller, NOT older, NOT an adult. Sunny's hair is DARK BROWN in "
+         "two puff buns — never pink, never orange, never rainbow, never multicolor (only her hair "
+         "TIES are pink and yellow). Show EXACTLY ONE of each named child — never duplicate a "
+         "character, only ONE Sunny and ONE Mia per frame.")
 STYLE = ("polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, "
          "rounded dimensional forms, cozy warm playroom / classroom corner — soft cushions, round "
          "rug, friendly feelings posters with simple emoji-style happy/sad/mad/scared faces on the "
          "wall, a little mirror, warm daytime light, bright soft yellows blues and pinks, calm safe "
-         "inviting space for little kids. Clear readable facial expressions, gentle and reassuring, "
-         "on-model, theatrical quality. All movement is small, soft and safe for very young children "
+         "inviting space for little kids. MEDIUM shot — characters large and close so every face is "
+         "clear and on-model. Clear readable facial expressions, gentle and reassuring, on-model, "
+         "theatrical quality. All movement is small, soft and safe for very young children "
          "— tiny in-place steps, gentle gestures, no hitting, no throwing, no aggression, no "
          "frightening or exaggerated scary faces. Absolutely NO text, no words, no letters, no "
          "captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.")
@@ -73,7 +88,7 @@ SHOTS = [
  (92.0,100.0,"Bridge","Sunny,Bram,Koda",
   "kids switch to a safe strong mad face, then a slightly wide-eyed scared face with a small self-hug (gentle, not frightening), then relax",
   ["Show me mad!","Show me scared!"],"word",False),
- (100.0,110.0,"Final Hook","Sunny,Mimi,Leo,Mia,Pipa",
+ (100.0,110.0,"Final Hook","Sunny,Mimi,Leo,Mia",
   "each child shows one feeling then slowly relaxes into a calm neutral face; Sunny nods warmly and gives a reassuring thumbs-up that all feelings are okay",
   ["Every feeling has a show","Every single feeling's right!"],"word",False),
  (110.0,999,"Outro","Sunny,Koda,Bram,Mia",
@@ -81,13 +96,16 @@ SHOTS = [
   ["All your feelings","Perfectly there!"],"end",False),
 ]
 
-def tokens(cast):
-    return " ".join("[%s <<<%s>>>]"%(n, ELEM[n]) for n in cast.split(","))
+def tokens(names):
+    return " ".join("[%s <<<%s>>>]"%(n, ELEM[n]) for n in names)
 
 clips=[]
 for i,(start,end,sec,cast,action,lines,kind,logo) in enumerate(SHOTS):
     s=round(start,3); e=round(min(end,DUR),3); slot=round(e-s,3)
-    prompt="%s %s. %s"%(tokens(cast), action, STYLE)
+    names=cast.split(",")
+    anch=" ".join(ANCHOR[n] for n in names if n in ANCHOR)
+    cap="ONLY %s are present in the frame — no other children, no background kids, no crowd."%(", ".join(names))
+    prompt="%s %s %s. %s %s %s"%(tokens(names), anch, action, cap, REINF, STYLE)
     okind = "end" if kind=="end" else "word"
     ov=[]
     if len(lines)==1:
@@ -95,7 +113,7 @@ for i,(start,end,sec,cast,action,lines,kind,logo) in enumerate(SHOTS):
     else:
         ov.append([lines[0],0.05,0.47,okind])
         ov.append([lines[1],0.52,0.95,okind])
-    clips.append({"clip_id":"F%02d"%(i+1),"section":sec,"cast":cast.split(","),
+    clips.append({"clip_id":"F%02d"%(i+1),"section":sec,"cast":names,
                   "start":s,"end":e,"dur":slot,"kind":kind,"logo":logo,
                   "prompt":prompt,"overlays":ov})
 

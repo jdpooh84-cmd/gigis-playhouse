@@ -73,7 +73,8 @@ for i,c in enumerate(SPEC["clips"]):
     url=RES.get(cid)
     if not url: sys.exit("missing video url for %s"%cid)
     src=f"{WORK}/src_{i:02d}.mp4"; base=f"{WORK}/base_{i:02d}.mp4"; cut=f"{WORK}/cut_{i:02d}.mp4"
-    run(["curl","-sL","-A","Mozilla/5.0","-o",src,url])
+    run(["curl","-sL","--retry","5","--retry-all-errors","--retry-delay","3",
+         "--connect-timeout","30","--max-time","300","-A","Mozilla/5.0","-o",src,url])
     if os.path.getsize(src)<10000: sys.exit("video too small: %s"%cid)
     vlen=probe(src); base_len=min(slot,vlen)
     vf=VF+",trim=end=%.3f,setpts=PTS-STARTPTS"%base_len
