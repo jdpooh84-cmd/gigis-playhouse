@@ -1,0 +1,30 @@
+name: Caption + Assemble How Do You Feel
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths: ["_staging/feelings/caption.trigger"]
+permissions:
+  contents: write
+jobs:
+  caption-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Install faster-whisper
+        run: pip install --quiet faster-whisper
+      - name: Transcribe audio (real sung lyrics + timestamps)
+        run: python3 scripts/transcribe.py _staging/audio/how-do-you-feel.mp3 _staging/feelings/transcript.json small
+      - name: Build caption lines from transcript
+        run: python3 scripts/song_captions.py _staging/feelings/transcript.json _staging/feelings/captions.json 6 30
+      - name: Assemble with audio-synced captions
+        run: python3 scripts/feelings_build.py
+      - name: Commit result
+        run: |
+          git config user.name "feelings-build-bot"
+          git config user.email "actions@github.com"
+          git add _staging/feelings/transcript.json _staging/feelings/captions.json sunny-and-the-crew/song-shorts/How-Do-You-Feel.mp4
+          git commit -m "How Do You Feel?: audio-synced captions from transcript (auto)"
+          git push
