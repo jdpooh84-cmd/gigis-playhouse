@@ -16,6 +16,8 @@ import json, os, subprocess, sys
 
 SPEC = json.load(open("_staging/jump/shot_spec.json"))
 RES  = json.load(open("_staging/jump/video_results.json"))
+CAPS_PATH = "_staging/jump/captions.json"
+CAPS = json.load(open(CAPS_PATH)) if os.path.exists(CAPS_PATH) else None
 AUDIO = SPEC["audio"]
 LOGO  = SPEC["logo"]
 OUT  = SPEC["out"]
@@ -67,19 +69,31 @@ def ov_draw(kind, text, t0, t1):
     return (",drawtext=%s:y=h-150:fontsize=%d:fontcolor=white:borderw=6:"
             "bordercolor=0x2EC4B6:shadowcolor=black@0.5:shadowx=3:shadowy=3" % (common, fit_fs(text,82)))
 
+def cap_draw(text, t0, t1):
+    # ABSOLUTE-timeline caption (from the real transcript), lower-third, teal border, quick fade.
+    en = "between(t\\,%.3f\\,%.3f)" % (t0, t1)
+    al = "alpha='clip(min((t-%.3f)/0.25\\,(%.3f-t)/0.25)\\,0\\,1)'" % (t0, t1)
+    return ("drawtext=fontfile='%s':text='%s':enable='%s':%s:x=(w-tw)/2:y=h-150:"
+            "fontsize=%d:fontcolor=white:borderw=6:bordercolor=0x2EC4B6:"
+            "shadowcolor=black@0.5:shadowx=3:shadowy=3"
+            % (FONT, esc(text), en, al, fit_fs(text, 82)))
+
 parts=[]; total=0.0
 for i,c in enumerate(SPEC["clips"]):
     cid=c["clip_id"]; slot=c["dur"]
     url=RES.get(cid)
     if not url: sys.exit("missing video url for %s"%cid)
     src=f"{WORK}/src_{i:02d}.mp4"; base=f"{WORK}/base_{i:02d}.mp4"; cut=f"{WORK}/cut_{i:02d}.mp4"
-    run(["curl","-sL","-A","Mozilla/5.0","-o",src,url])
+    run(["curl","-sL","--retry","5","--retry-all-errors","--retry-delay","3",
+         "--connect-timeout","30","--max-time","300","-A","Mozilla/5.0","-o",src,url])
     if os.path.getsize(src)<10000: sys.exit("video too small: %s"%cid)
     vlen=probe(src); base_len=min(slot,vlen)
     vf=VF+",trim=end=%.3f,setpts=PTS-STARTPTS"%base_len
-    for ov in c["overlays"]:
-        text,f0,f1,kind = ov[0],ov[1],ov[2],ov[3]
-        vf+=ov_draw(kind,text,f0*slot,f1*slot)
+    # transcript-derived captions burned globally after concat; else fall back to spec overlays
+    if CAPS is None:
+        for ov in c["overlays"]:
+            text,f0,f1,kind = ov[0],ov[1],ov[2],ov[3]
+            vf+=ov_draw(kind,text,f0*slot,f1*slot)
     if c.get("logo"):
         # composite real transparent logo, centered upper-third, held ~2.5s then fade ~1s
         fc=("[0:v]%s[v];"
@@ -116,6 +130,14 @@ if adur > vdur + 0.05:
     run(["ffmpeg","-y","-v","error","-i",vid,"-vf","tpad=stop_mode=clone:stop_duration=%.3f"%(adur-vdur),
          "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",vpad])
     vid=vpad; vdur=probe(vid)
+# burn the transcript-timed caption track onto the full timeline (guarantees lyric/audio sync)
+if CAPS:
+    chain=",".join(cap_draw(t[2],float(t[0]),float(t[1])) for t in CAPS if t[2].strip())
+    vcap=f"{WORK}/video_cap.mp4"
+    run(["ffmpeg","-y","-v","error","-i",vid,"-vf",chain,
+         "-c:v","libx264","-preset","veryfast","-crf","20","-pix_fmt","yuv420p",vcap])
+    vid=vcap; vdur=probe(vid)
+    print("burned %d transcript-timed captions"%len(CAPS))
 # mux song, re-encode to AAC + faststart for universal/Drive playback
 run(["ffmpeg","-y","-v","error","-i",vid,"-i",AUDIO,"-map","0:v:0","-map","1:a:0",
      "-c:v","copy","-c:a","aac","-b:a","192k","-movflags","+faststart","-shortest",OUT])
