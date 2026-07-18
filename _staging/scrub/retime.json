@@ -1,0 +1,20 @@
+[
+ ["S01",   6.64, "Intro",       "It's bath time friends, jump right in"],
+ ["S02",  10.30, "Intro",       "Let's scrub scrub scrub, let's begin"],
+ ["S03",  16.76, "Verse 1",     "Scrub your hands, scrub scrub scrub"],
+ ["S04",  24.00, "Verse 1",     "Scrub your arms, rub-a-dub-dub"],
+ ["S05",  30.26, "Hook 1",      "Scrub them up, scrub them down, cleanest hands in town"],
+ ["S06",  37.24, "Hook 1",      "Scrub, wash, scrub, rub-a-dub-dub"],
+ ["S05",  43.76, "Hook 1",      "Scrub, clean, squeaky clean (reuse)"],
+ ["S07",  50.58, "Verse 2",     "Scrub your tummy, scrub scrub scrub"],
+ ["S08",  57.52, "Verse 2",     "Scrub your toes, rub-a-dub-dub"],
+ ["S08",  64.10, "Verse 2",     "Wiggle those toes, one two three (reuse)"],
+ ["S09",  71.00, "Hook 2",      "Scrub, wash, scrub, rub-a-dub-dub"],
+ ["S10",  77.52, "Hook 2",      "Scrub, clean, squeaky clean"],
+ ["S11",  84.46, "Bridge",      "Now rinse it off — whoosh, all the bubbles"],
+ ["S12",  91.26, "Bridge",      "Look how shiny, that's the new you"],
+ ["S13",  97.86, "Final Hook",  "Scrub all done, squeaky clean, take a bow"],
+ ["S14", 101.10, "Final Hook",  "Warm and cozy, dry and done"],
+ ["S15", 107.50, "Outro",       "Bath time was so much fun"],
+ ["S15", 113.40, "Outro",       "Goodnight bath time (reuse, into fade)"]
+]

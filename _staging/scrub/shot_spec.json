@@ -2,8 +2,7 @@
   "song": "Scrub Scrub Scrub",
   "audio": "_staging/audio/scrub-scrub-scrub.mp3",
   "duration": 113.4,
-  "n": 15,
-  "slot": 7.56,
+  "n": 18,
   "out": "sunny-and-the-crew/song-shorts/Scrub-Scrub-Scrub.mp4",
   "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
   "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
@@ -11,337 +10,200 @@
     {
       "clip_id": "S01",
       "section": "Intro",
-      "cast": [
-        "Sunny",
-        "Mimi"
-      ],
       "start": 0.0,
-      "end": 7.56,
-      "dur": 7.56,
+      "end": 6.64,
+      "dur": 6.64,
       "kind": "title",
       "logo": true,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] gather happily in the bright bathroom beside a tub full of bubbles and toys, fully dressed, waving and holding a yellow rubber duck. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Bath time friends",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "It's bath time friends, jump right in",
+      "overlays": []
     },
     {
       "clip_id": "S02",
       "section": "Intro",
-      "cast": [
-        "Sunny",
-        "Leo"
-      ],
-      "start": 7.56,
-      "end": 15.12,
-      "dur": 7.56,
+      "start": 6.64,
+      "end": 10.3,
+      "dur": 3.66,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] fully dressed at the sink, rolling up their sleeves, holding soap and a rubber duck, cheerful and ready to wash. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Scrub scrub scrub",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Let's scrub scrub scrub, let's begin",
+      "overlays": []
     },
     {
       "clip_id": "S03",
       "section": "Verse 1",
-      "cast": [
-        "Mimi",
-        "Bram"
-      ],
-      "start": 15.12,
-      "end": 22.68,
-      "dur": 7.56,
+      "start": 10.3,
+      "end": 16.76,
+      "dur": 6.46,
       "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] close-up scrubbing their own hands together with soapy white suds at the sink, fully dressed, slow and clear. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Scrub your hands",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Scrub your hands, scrub scrub scrub",
+      "overlays": []
     },
     {
       "clip_id": "S04",
       "section": "Verse 1",
-      "cast": [
-        "Sunny",
-        "Leo"
-      ],
-      "start": 22.68,
-      "end": 30.24,
-      "dur": 7.56,
+      "start": 16.76,
+      "end": 24.0,
+      "dur": 7.24,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] wash their forearms with soapy bubbles, sleeves rolled up, gentle up-and-down circular motions. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Scrub your arms",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Scrub your arms, rub-a-dub-dub",
+      "overlays": []
     },
     {
       "clip_id": "S05",
       "section": "Hook 1",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Leo"
-      ],
-      "start": 30.24,
-      "end": 37.8,
-      "dur": 7.56,
+      "start": 24.0,
+      "end": 30.26,
+      "dur": 6.26,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] group at the sink doing happy scrubbing motions, holding up clean soapy hands, bubbles, fully dressed. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Wash wash wash",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Scrub them up, scrub them down, cleanest hands in town",
+      "overlays": []
     },
     {
       "clip_id": "S06",
       "section": "Hook 1",
-      "cast": [
-        "Mimi",
-        "Bram",
-        "Mia"
-      ],
-      "start": 37.8,
-      "end": 45.36,
-      "dur": 7.56,
+      "start": 30.26,
+      "end": 37.24,
+      "dur": 6.98,
       "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] hold up clean soapy hands covered in fluffy bubbles, big smiles, squeaky-clean gesture, fully dressed. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Squeaky clean",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Scrub, wash, scrub, rub-a-dub-dub",
+      "overlays": []
+    },
+    {
+      "clip_id": "S05",
+      "section": "Hook 1",
+      "start": 37.24,
+      "end": 43.76,
+      "dur": 6.52,
+      "kind": "word",
+      "logo": false,
+      "note": "Scrub, clean, squeaky clean (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "S07",
       "section": "Verse 2",
-      "cast": [
-        "Leo",
-        "Mia"
-      ],
-      "start": 45.36,
-      "end": 52.92,
-      "dur": 7.56,
+      "start": 43.76,
+      "end": 50.58,
+      "dur": 6.82,
       "kind": "word",
       "logo": false,
-      "prompt": "[Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] wash a yellow rubber duck toy in a small bubbly basin, gently scrubbing the toy duck's tummy with a soft sponge, fully dressed, giggly. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Scrub your tummy",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Scrub your tummy, scrub scrub scrub",
+      "overlays": []
     },
     {
       "clip_id": "S08",
       "section": "Verse 2",
-      "cast": [
-        "Mimi",
-        "Sunny"
-      ],
-      "start": 52.92,
-      "end": 60.48,
-      "dur": 7.56,
+      "start": 50.58,
+      "end": 57.52,
+      "dur": 6.94,
       "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] wash the rubber duck toy's little feet and wiggle them, counting on their fingers, playful, dressed at the basin. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Wiggle those toes \u2014 1 2 3",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Scrub your toes, rub-a-dub-dub",
+      "overlays": []
+    },
+    {
+      "clip_id": "S08",
+      "section": "Verse 2",
+      "start": 57.52,
+      "end": 64.1,
+      "dur": 6.58,
+      "kind": "word",
+      "logo": false,
+      "note": "Wiggle those toes, one two three (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "S09",
       "section": "Hook 2",
-      "cast": [
-        "Sunny",
-        "Bram",
-        "Pipa"
-      ],
-      "start": 60.48,
-      "end": 68.04,
-      "dur": 7.56,
+      "start": 64.1,
+      "end": 71.0,
+      "dur": 6.9,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] happy scrubbing of hands and the toy duck with a soapy washcloth, bubbles, smiles, fully dressed. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Scrub scrub scrub",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Scrub, wash, scrub, rub-a-dub-dub",
+      "overlays": []
     },
     {
       "clip_id": "S10",
       "section": "Hook 2",
-      "cast": [
-        "Mimi",
-        "Leo",
-        "Koda"
-      ],
-      "start": 68.04,
-      "end": 75.6,
-      "dur": 7.56,
+      "start": 71.0,
+      "end": 77.52,
+      "dur": 6.52,
       "kind": "word",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] hold up clean hands and the clean shiny rubber duck, bubbles, squeaky-clean celebration, dressed. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Clean clean clean",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Scrub, clean, squeaky clean",
+      "overlays": []
     },
     {
       "clip_id": "S11",
       "section": "Bridge",
-      "cast": [
-        "Sunny",
-        "Mimi"
-      ],
-      "start": 75.6,
-      "end": 83.16,
-      "dur": 7.56,
-      "kind": "soft",
+      "start": 77.52,
+      "end": 84.46,
+      "dur": 6.94,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] SLOWER calm moment, gently rinse soapy hands and the rubber duck under a soft tap, bubbles rinsing away, relaxed, fully dressed. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft gentle yellow lighting, cozy and calm, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, calm relaxed happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Rinse it off",
-          0.15,
-          0.88,
-          "soft"
-        ]
-      ]
+      "note": "Now rinse it off \u2014 whoosh, all the bubbles",
+      "overlays": []
     },
     {
       "clip_id": "S12",
       "section": "Bridge",
-      "cast": [
-        "Sunny",
-        "Leo"
-      ],
-      "start": 83.16,
-      "end": 90.72,
-      "dur": 7.56,
-      "kind": "soft",
+      "start": 84.46,
+      "end": 91.26,
+      "dur": 6.8,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] hold up the shiny clean rubber duck proudly, soft warm light, relaxed and happy, fully dressed. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft gentle yellow lighting, cozy and calm, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, calm relaxed happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "That's the new YOU!",
-          0.15,
-          0.88,
-          "soft"
-        ]
-      ]
+      "note": "Look how shiny, that's the new you",
+      "overlays": []
     },
     {
       "clip_id": "S13",
       "section": "Final Hook",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Bram"
-      ],
-      "start": 90.72,
-      "end": 98.28,
-      "dur": 7.56,
+      "start": 91.26,
+      "end": 97.86,
+      "dur": 6.6,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] dry their hands and wrap the clean rubber duck in a fluffy towel, gentle little bow / ta-da pose, warm smiles, dressed. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Warm and cozy",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Scrub all done, squeaky clean, take a bow",
+      "overlays": []
     },
     {
       "clip_id": "S14",
       "section": "Final Hook",
-      "cast": [
-        "Sunny",
-        "Leo",
-        "Mia"
-      ],
-      "start": 98.28,
-      "end": 105.84,
-      "dur": 7.56,
+      "start": 97.86,
+      "end": 101.1,
+      "dur": 3.24,
       "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] cozy in comfy pajamas holding the clean duck wrapped in a towel, happy and calm, warm light. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft yellow and teal lighting, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, clear happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Bath time was so much fun!",
-          0.15,
-          0.88,
-          "word"
-        ]
-      ]
+      "note": "Warm and cozy, dry and done",
+      "overlays": []
     },
     {
       "clip_id": "S15",
       "section": "Outro",
-      "cast": [
-        "Mimi"
-      ],
-      "start": 105.84,
+      "start": 101.1,
+      "end": 107.5,
+      "dur": 6.4,
+      "kind": "word",
+      "logo": false,
+      "note": "Bath time was so much fun",
+      "overlays": []
+    },
+    {
+      "clip_id": "S15",
+      "section": "Outro",
+      "start": 107.5,
       "end": 113.4,
-      "dur": 7.56,
+      "dur": 5.9,
       "kind": "end",
       "logo": false,
-      "prompt": "[Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] very calm ending, the clean rubber duck resting on a folded towel beside a cozy dressed child, soft warm light, still and calm. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, bright cheerful child-friendly bathroom, warm soft gentle yellow lighting, cozy and calm, a sink and counter with a bowl of fluffy soap bubbles, a bubbly toy tub and colorful bath toys as props, a yellow rubber duck, colorful hanging towels. The kids are FULLY DRESSED in normal colorful clothes with sleeves; they cheerfully demonstrate a hand-washing and toy-washing routine. No child is in a bath, no bare skin, everyone stays fully clothed the whole time. Simple safe controlled motion \u2014 NO wild splashing, NO running. On-model, calm relaxed happy faces, theatrical quality. Absolutely NO text, no words, no letters, no captions anywhere in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Goodnight bath time",
-          0.15,
-          0.88,
-          "end"
-        ]
-      ]
+      "note": "Goodnight bath time (reuse, into fade)",
+      "overlays": []
     }
   ]
 }
