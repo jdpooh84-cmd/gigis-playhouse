@@ -1,0 +1,30 @@
+name: Caption + Assemble The Potty Dance
+on:
+  push:
+    branches: ["claude/sunny-crew-ep1-assembly-8hg5om"]
+    paths: ["_staging/potty/caption.trigger"]
+permissions:
+  contents: write
+jobs:
+  caption-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Install faster-whisper
+        run: pip install --quiet faster-whisper
+      - name: Transcribe audio (real sung lyrics + timestamps)
+        run: python3 scripts/transcribe.py _staging/audio/the-potty-dance.mp3 _staging/potty/transcript.json small
+      - name: Build caption lines from transcript
+        run: python3 scripts/song_captions.py _staging/potty/transcript.json _staging/potty/captions.json 40 8
+      - name: Assemble with audio-synced captions
+        run: python3 scripts/potty_build.py
+      - name: Commit result
+        run: |
+          git config user.name "potty-build-bot"
+          git config user.email "actions@github.com"
+          git add _staging/potty/transcript.json _staging/potty/captions.json sunny-and-the-crew/song-shorts/The-Potty-Dance.mp4
+          git commit -m "The Potty Dance: audio-synced captions from transcript (auto)"
+          git push
