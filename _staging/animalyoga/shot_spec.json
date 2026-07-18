@@ -2,7 +2,7 @@
   "song": "Animal Yoga",
   "audio": "_staging/audio/animal-yoga.mp3",
   "duration": 194.88,
-  "n": 16,
+  "n": 18,
   "out": "sunny-and-the-crew/song-shorts/Animal-Yoga.mp4",
   "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
   "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
@@ -10,477 +10,200 @@
     {
       "clip_id": "Y01",
       "section": "Intro",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Leo",
-        "Koda"
-      ],
       "start": 0.0,
-      "end": 10.0,
-      "dur": 10.0,
-      "kind": "soft",
+      "end": 11.0,
+      "dur": 11.0,
+      "kind": "title",
       "logo": true,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] wide calm shot of the forest yoga clearing; Sunny and a few kids sit cross-legged on mats, hands at heart center, breathing gently and smiling softly, warm morning light. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Animal yoga \u2014 safe and calm",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Welcome to the forest camp",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "welcome to the forest camp, animal yoga safe and calm",
+      "overlays": []
     },
     {
       "clip_id": "Y02",
       "section": "Intro",
-      "cast": [
-        "Sunny",
-        "Pipa",
-        "Bram",
-        "Mia"
-      ],
-      "start": 10.0,
-      "end": 20.0,
-      "dur": 10.0,
-      "kind": "soft",
+      "start": 11.0,
+      "end": 26.14,
+      "dur": 15.14,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] the group sits tall on their mats, hands resting on knees, taking a slow calm breath together, gentle smiles, peaceful forest around them. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Stretch and breathe and take it slow",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Follow animals as we go",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "stretch and breathe, take it slow, follow animals (+intro)",
+      "overlays": []
     },
     {
       "clip_id": "Y03",
-      "section": "Verse 1 \u2014 Cat",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Leo"
-      ],
-      "start": 20.0,
-      "end": 36.0,
-      "dur": 16.0,
-      "kind": "soft",
+      "section": "Cat",
+      "start": 26.14,
+      "end": 40.62,
+      "dur": 14.48,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] on hands and knees on the mat: slowly round the back up like a stretching cat, then softly drop the belly and lift the head \u2014 gentle cat/cow stretch, very slow and calm. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Cat stretch",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Round our back \u2014 be calm",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "be a cat, round our back, cat stretch be calm",
+      "overlays": []
     },
     {
       "clip_id": "Y04",
-      "section": "Verse 1 \u2014 Dog",
-      "cast": [
-        "Sunny",
-        "Koda",
-        "Bram"
-      ],
-      "start": 36.0,
-      "end": 52.0,
-      "dur": 16.0,
-      "kind": "soft",
+      "section": "Dog",
+      "start": 40.62,
+      "end": 54.5,
+      "dur": 13.88,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] kid-level downward-facing dog: hands and feet grounded on the mat, hips gently lifted into a soft V-shape, slow deep breath in and slow breath out, calm and steady. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Dog pose \u2014 make a V",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Breathe in deep, breathe out slow",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "be a dog, make a V, breathe out feel the peace",
+      "overlays": []
     },
     {
       "clip_id": "Y05",
       "section": "Pre-Chorus 1",
-      "cast": [
-        "Sunny",
-        "Pipa",
-        "Mia"
-      ],
-      "start": 52.0,
-      "end": 60.0,
-      "dur": 8.0,
-      "kind": "soft",
+      "start": 54.5,
+      "end": 61.68,
+      "dur": 7.18,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] kneeling tall on the mat, arms stretch slowly up overhead then float gently down; a clear, calm slow breath in through the nose, easy breath out. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Stretch stretch \u2014 breathe breathe",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "In through nose \u2014 out with ease",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "stretch stretch breathe breathe, in nose out ease",
+      "overlays": []
     },
     {
       "clip_id": "Y06",
       "section": "Chorus 1",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Koda",
-        "Leo"
-      ],
-      "start": 60.0,
-      "end": 72.0,
-      "dur": 12.0,
-      "kind": "soft",
+      "start": 61.68,
+      "end": 68.54,
+      "dur": 6.86,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] gentle group flow slowly alternating between the cat/cow stretch and the downward dog, everyone moving softly and in time, calm and rhythmic. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Animal yoga \u2014 move and rest",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Cat and dog \u2014 we do our best",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "animal yoga move and rest, cat and dog",
+      "overlays": []
     },
     {
       "clip_id": "Y07",
       "section": "Chorus 1",
-      "cast": [
-        "Sunny",
-        "Bram",
-        "Pipa",
-        "Mia"
-      ],
-      "start": 72.0,
-      "end": 84.0,
-      "dur": 12.0,
-      "kind": "soft",
+      "start": 68.54,
+      "end": 82.02,
+      "dur": 13.48,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] the group settles into a soft resting child's pose, knees folded, arms forward, foreheads gently down, calm slow breathing. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Soft and slow",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Feel your body stretch and grow",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "animal yoga soft and slow, feel your body grow (+instr)",
+      "overlays": []
     },
     {
       "clip_id": "Y08",
-      "section": "Verse 2 \u2014 Butterfly",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Pipa"
-      ],
-      "start": 84.0,
-      "end": 100.0,
-      "dur": 16.0,
-      "kind": "soft",
+      "section": "Butterfly",
+      "start": 82.02,
+      "end": 98.0,
+      "dur": 15.98,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] seated butterfly pose: soles of the feet together, knees gently open to each side, slowly flapping the knees like soft wings, calm and smiling. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Butterfly pose",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Flap your legs like gentle wings",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "be a butterfly, knees open, flap and glide",
+      "overlays": []
     },
     {
       "clip_id": "Y09",
-      "section": "Verse 2 \u2014 Tree",
-      "cast": [
-        "Sunny",
-        "Leo",
-        "Koda"
-      ],
-      "start": 100.0,
-      "end": 116.0,
-      "dur": 16.0,
-      "kind": "soft",
+      "section": "Tree",
+      "start": 98.0,
+      "end": 110.56,
+      "dur": 12.56,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] gentle kid tree pose: standing tall and still, one foot resting low on the ankle or calf, hands reaching up softly like branches; some tap a toe down for balance \u2014 safe and steady. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Tree pose \u2014 stand tall and still",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Hands like branches reaching high",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "be a tree, stand tall and still, branches high",
+      "overlays": []
     },
     {
       "clip_id": "Y10",
       "section": "Pre-Chorus 2",
-      "cast": [
-        "Sunny",
-        "Bram",
-        "Mia"
-      ],
-      "start": 116.0,
-      "end": 124.0,
-      "dur": 8.0,
-      "kind": "soft",
+      "start": 110.56,
+      "end": 117.56,
+      "dur": 7.0,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] flap the butterfly knees a few times, then rise slowly to a grounded mountain pose, feet planted, arms softly at the sides, feeling steady on the forest floor. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Flap flap \u2014 stand stand",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Ground your feet in forest land",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "flap flap stand stand, ground your feet",
+      "overlays": []
     },
     {
       "clip_id": "Y11",
       "section": "Chorus 2",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Leo",
-        "Pipa"
-      ],
-      "start": 124.0,
-      "end": 136.0,
-      "dur": 12.0,
-      "kind": "soft",
+      "start": 117.56,
+      "end": 124.48,
+      "dur": 6.92,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] gentle group flow slowly alternating between the seated butterfly pose and the standing tree pose, calm slow transitions cued together. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Animal yoga \u2014 move and rest",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Butterfly and tree \u2014 we do our best",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "animal yoga move and rest, butterfly and tree",
+      "overlays": []
     },
     {
       "clip_id": "Y12",
       "section": "Chorus 2",
-      "cast": [
-        "Sunny",
-        "Koda",
-        "Bram",
-        "Mia"
-      ],
-      "start": 136.0,
-      "end": 148.0,
-      "dur": 12.0,
-      "kind": "soft",
+      "start": 124.48,
+      "end": 131.28,
+      "dur": 6.8,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] soft slow transitions between poses, everyone breathing calmly and stretching gently, warm and peaceful. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Soft and slow",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Feel your body stretch and grow",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "animal yoga soft and slow, feel your body grow",
+      "overlays": []
     },
     {
       "clip_id": "Y13",
-      "section": "Bridge \u2014 Star",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Leo",
-        "Koda",
-        "Pipa"
-      ],
-      "start": 148.0,
-      "end": 168.0,
-      "dur": 20.0,
-      "kind": "soft",
+      "section": "Star",
+      "start": 131.28,
+      "end": 145.56,
+      "dur": 14.28,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] calm star pose: kids lie down flat on their mats, arms and legs spread gently and comfortably, eyes softly closed, breathing slowly; tiny sparkles of forest starlight shimmer softly overhead. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Star pose",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Forest stars are shining bright",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "star pose: lie flat and breathe, arms and legs reach",
+      "overlays": []
+    },
+    {
+      "clip_id": "Y13",
+      "section": "Star",
+      "start": 145.56,
+      "end": 159.96,
+      "dur": 14.4,
+      "kind": "word",
+      "logo": false,
+      "note": "close your eyes, forest stars shining bright (reuse)",
+      "overlays": []
     },
     {
       "clip_id": "Y14",
       "section": "Final Chorus",
-      "cast": [
-        "Sunny",
-        "Bram",
-        "Mia",
-        "Mimi"
-      ],
-      "start": 168.0,
-      "end": 178.0,
-      "dur": 10.0,
-      "kind": "soft",
+      "start": 159.96,
+      "end": 169.06,
+      "dur": 9.1,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] a short slow flow moving gently from cat, to dog, to a soft tree pose, calmer and slower than before, breathing together. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Cat and dog and tree in flow",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Animal yoga \u2014 calm and free",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "animal yoga now we know, cat dog tree in flow",
+      "overlays": []
     },
     {
       "clip_id": "Y15",
       "section": "Final Chorus",
-      "cast": [
-        "Sunny",
-        "Leo",
-        "Koda",
-        "Pipa"
-      ],
-      "start": 178.0,
-      "end": 186.0,
-      "dur": 8.0,
-      "kind": "soft",
+      "start": 169.06,
+      "end": 177.58,
+      "dur": 8.52,
+      "kind": "word",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Leo <<<ab579f47-e94f-406e-ae63-dd4fd6dd1b18>>>] [Koda <<<7ce52e05-5bba-43f0-bb1e-8ca11974038c>>>] [Pipa <<<8849bdb4-d5a1-419d-9abc-c7e36188750c>>>] settle into a comfortable seated pose, hands at heart center, one slow calm breath together, peaceful proud smiles. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Take one breath",
-          0.05,
-          0.47,
-          "soft"
-        ],
-        [
-          "Feel the peace",
-          0.52,
-          0.95,
-          "soft"
-        ]
-      ]
+      "note": "take one breath, hug your knees, roll to side",
+      "overlays": []
     },
     {
       "clip_id": "Y16",
       "section": "Outro",
-      "cast": [
-        "Sunny",
-        "Mimi",
-        "Bram",
-        "Mia"
-      ],
+      "start": 177.58,
+      "end": 186.0,
+      "dur": 8.42,
+      "kind": "word",
+      "logo": false,
+      "note": "sit up slow with quiet pride",
+      "overlays": []
+    },
+    {
+      "clip_id": "Y16",
+      "section": "Outro",
       "start": 186.0,
       "end": 194.88,
       "dur": 8.88,
       "kind": "end",
       "logo": false,
-      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] [Mimi <<<7b005b4b-da34-4bac-908b-ceb76f9d6247>>>] [Bram <<<e80f7f4d-2563-4d1a-b950-196df45dcbf7>>>] [Mia <<<36f55b8e-a9ee-4a9c-a3f5-9cd42f85f590>>>] hug the knees in gently, roll slowly to one side, then sit up slow and tall cross-legged with hands at heart, quiet proud smiles, calm goodbye. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, gentle warm forest-camp yoga clearing \u2014 soft grass, tall friendly trees, a cozy tent and soft blankets/yoga mats, warm golden daylight, soft greens and browns, calm soothing mood, no harsh contrast. Kids do slow, simple, SAFE kid-level yoga poses, clearly and gently, on their own mats, calm happy faces, on-model, theatrical quality. Slow controlled mindful movement only \u2014 no advanced poses, no headstands, no deep backbends, no arm balances, no fast or jerky motion, no roughhousing, feet and hands grounded and safe. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
-      "overlays": [
-        [
-          "Sit up slow with quiet pride",
-          0.05,
-          0.47,
-          "end"
-        ],
-        [
-          "Animal yoga \u2014 way to go!",
-          0.52,
-          0.95,
-          "end"
-        ]
-      ]
+      "note": "it's animal yoga, way to go (reuse, held)",
+      "overlays": []
     }
   ]
 }
