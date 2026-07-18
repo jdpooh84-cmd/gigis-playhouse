@@ -1,0 +1,389 @@
+{
+  "song": "The Potty Dance",
+  "audio": "_staging/audio/the-potty-dance.mp3",
+  "duration": 131.2,
+  "n": 14,
+  "out": "sunny-and-the-crew/song-shorts/The-Potty-Dance.mp4",
+  "logo": "sunny-and-the-crew/brand/logo-sunny-and-the-crew.png",
+  "style": "polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+  "clips": [
+    {
+      "clip_id": "P01",
+      "section": "SC-01 Intro",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 0.0,
+      "end": 8.0,
+      "dur": 8.0,
+      "kind": "title",
+      "logo": true,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. wide shot of the cheerful bedroom: Sunny sits cross-legged on a colorful rug with Teddy and Fluffy propped upright in front of her like tiny students; the camera eases in and their little bear feet hop nervously left and right in a quick shuffle; pan up to Sunny's wide knowing smile. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "The Potty Dance",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Uh oh... look at those feet go!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P02",
+      "section": "SC-02 Verse 1",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 8.0,
+      "end": 18.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. Sunny kneels on the rug leaning toward Teddy with a delighted amused expression, pointing at Teddy's hopping feet; close insert of Teddy's cute squinty 'I need to go' face, still happy not distressed; Fluffy makes the same face, feet bouncing. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "That's the potty dance",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Look at those feet!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P03",
+      "section": "SC-02 Verse 1",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 18.0,
+      "end": 28.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. Sunny stands in teacher mode pointing at each bear with an encouraging nod; on the beat a bright speech bubble pops above Teddy reading POTTY in bold cheerful block letters as colorful confetti bursts; Sunny claps once and laughs. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Say the word",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "POTTY!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P04",
+      "section": "SC-03 Pre-Hook",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 28.0,
+      "end": 37.0,
+      "dur": 9.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. medium shot: Sunny performs the potty dance herself, hopping left and right with playful exaggerated energy, pointing down at her own feet then laughing; she opens her arms toward Teddy and Fluffy and pumps a gentle encouraging fist; the two bears nod back with determination. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "That's the Potty Dance",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Say it proud",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P05",
+      "section": "SC-04 Hook 1",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 37.0,
+      "end": 45.5,
+      "dur": 8.5,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. all three bears \u2014 Teddy, Fluffy and Mr. Buttons \u2014 hop in a synchronized line on the rug while Sunny stands just behind them cheering; a red POTTY speech bubble pops over one bear, then a blue one over the next, each bursting like a confetti pop, carnival energy. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Hop hop hop",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Say POTTY!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P06",
+      "section": "SC-04 Hook 1",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 45.5,
+      "end": 54.0,
+      "dur": 8.5,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. Sunny steps forward and gently takes Teddy and Fluffy by the paws; all three begin walking together toward the small yellow toy potty chair in the bedroom corner; camera follows near floor level showing their feet walking in step. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Do the Potty Dance",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Walk the hall",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P07",
+      "section": "SC-05 Verse 2",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 54.0,
+      "end": 63.0,
+      "dur": 9.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. follow shot from behind as Sunny walks Teddy and Fluffy by the paws to the little yellow toy potty chair; then a SIDE-ANGLE only: Teddy (fully dressed in overalls) sits on the small yellow toy potty chair with feet dangling, Fluffy beside him giving a thumbs-up; bouncy numbers 1 to 10 float in the air as Sunny counts on her fingers, a gold star pops at ten. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Sit right down \u2014 that's all",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Count to ten",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P08",
+      "section": "SC-05 Verse 2",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 63.0,
+      "end": 72.0,
+      "dur": 9.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. Teddy stands at a small white play sink with a rubber duck on the ledge; he presses the duck and an enormous comical mountain of soap bubbles erupts from the basin; Teddy rubs his paws together with exaggerated seriousness while Fluffy watches wide-eyed. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Wash your paws",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Bubbles everywhere!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P09",
+      "section": "SC-05 Verse 2",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 72.0,
+      "end": 82.0,
+      "dur": 10.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. Teddy shakes his paws dry and soap bubbles fly everywhere, one landing on Sunny's nose; he holds up clean paws in a happy jazz-hands pose; Teddy and Fluffy bow deeply, Mr. Buttons tries to bow and topples sideways, Sunny catches him and everyone laughs. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Clean paws!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Great job, bears!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P10",
+      "section": "SC-06 Hook 2",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 82.0,
+      "end": 90.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. fast, happy montage feel synced to the percussion: bears hopping on the rug, then Teddy's POTTY confetti bubble bursting, then Sunny walking the bears to the potty corner with paws held, then a side-angle of the yellow toy potty chair with a gold star sparkling above it. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "POTTY DANCE!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Bears all did it",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P11",
+      "section": "SC-06 Hook 2",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 90.0,
+      "end": 98.0,
+      "dur": 8.0,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. a huge friendly bubble explosion from the play sink, then Teddy's clean paws in jazz-hands; final beat: Sunny turns to face the camera, points one finger warmly at the viewer and nods with a confident smile, Teddy Fluffy and Mr. Buttons crowd in beside her all looking at camera, confetti falling. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "YOU can too!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Your turn!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P12",
+      "section": "SC-07 Final Hook",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 98.0,
+      "end": 108.5,
+      "dur": 10.5,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. the bedroom feels like a mini carnival: all three bears march in a synchronized parade line doing the potty-dance hop \u2014 left, right, left, right, arms and paws pumping \u2014 and Sunny dances alongside them celebrating with full joy; bright confetti rains from above, big bouncy POTTY letters pop and dissolve into golden sparkles. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "POTTY DANCE!",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "Do the Potty Dance!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P13",
+      "section": "SC-07 Final Hook",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 108.5,
+      "end": 119.0,
+      "dur": 10.5,
+      "kind": "word",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. the parade builds: on the beat Sunny and all three bears point directly at the camera together, then everyone jumps with arms and paws raised in a big joyful freeze, golden sparkles showering down, maximum happy carnival energy. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "Every time those feet go hop",
+          0.05,
+          0.47,
+          "word"
+        ],
+        [
+          "YOU know what to do!",
+          0.52,
+          0.95,
+          "word"
+        ]
+      ]
+    },
+    {
+      "clip_id": "P14",
+      "section": "SC-08 Outro",
+      "cast": [
+        "Sunny"
+      ],
+      "start": 119.0,
+      "end": 131.2,
+      "dur": 12.2,
+      "kind": "end",
+      "logo": false,
+      "prompt": "[Sunny <<<a40e2d56-573f-4bf2-bdcd-28c64014fdb9>>>] Sunny has warm medium-brown skin and TWO LARGE HIGH puff buns (pink tie on the right, yellow tie on the left) and a yellow t-shirt with a white cloud emblem and orange shorts. The three stuffed bears are Teddy (brown bear in denim overalls), Fluffy (cream bear in a floral dress) and Mr. Buttons (gray bear in a button-up shirt) \u2014 all fully clothed. calm warm landing: Teddy, Fluffy and Mr. Buttons sit back on their shelf relaxed and proud \u2014 Teddy's clean paws crossed, Fluffy grinning, Mr. Buttons wearing a small gold star sticker; Sunny sits on the rug below looking up with quiet pride, then turns and gives one warm unhurried nod to the camera; the view slowly pulls back to the whole cozy bedroom with the little yellow toy potty chair in the corner and one twinkling star above it, golden afternoon light, everything at rest. The stuffed bears stay FULLY CLOTHED at all times, no clothing removal. The small yellow TOY potty chair is shown only from a side or front-flat angle, never from above, never a front-down view. This is a cheerful bedroom full of toys \u2014 NO real bathroom, NO human child on a potty, NO anatomical detail. Warm, funny and celebratory, never clinical. polished stylized 3D CGI animated preschool feature look, soft subsurface skin shading, rounded dimensional forms, soft rim lighting, gently saturated child-safe warm colors. Setting: Sunny's colorful bedroom \u2014 warm wood floors, pastel walls, soft natural daylight from a window at the left of frame, a small yellow toy potty chair in the corner. Absolutely NO text, no words, no letters, no captions in the frame. NOT 2D, NOT flat, NOT outlined, NOT storybook.",
+      "overlays": [
+        [
+          "The Potty Dance",
+          0.05,
+          0.47,
+          "end"
+        ],
+        [
+          "is waiting there for YOU",
+          0.52,
+          0.95,
+          "end"
+        ]
+      ]
+    }
+  ]
+}
