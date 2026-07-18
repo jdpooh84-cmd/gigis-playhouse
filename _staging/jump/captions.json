@@ -1,23 +1,78 @@
 [
  [
   0.0,
+  1.15,
+  "Jump!"
+ ],
+ [
+  1.05,
+  1.83,
+  "Jump!"
+ ],
+ [
+  1.73,
+  2.13,
+  "Jump!"
+ ],
+ [
+  2.01,
+  2.67,
+  "Jump!"
+ ],
+ [
+  2.57,
   3.53,
-  "Jump! Jump! Jump! Jump! With me!"
+  "With me!"
  ],
  [
   3.43,
+  4.09,
+  "Jump!"
+ ],
+ [
+  3.99,
+  4.39,
+  "Jump!"
+ ],
+ [
+  4.29,
   5.59,
-  "Jump! Jump! Happy and free!"
+  "Happy and free!"
  ],
  [
   5.49,
+  6.33,
+  "Jump!"
+ ],
+ [
+  6.23,
+  6.71,
+  "Jump!"
+ ],
+ [
+  6.61,
+  7.21,
+  "Jump!"
+ ],
+ [
+  7.11,
   8.05,
-  "Jump! Jump! Jump! With me!"
+  "With me!"
  ],
  [
   7.95,
+  8.61,
+  "Jump!"
+ ],
+ [
+  8.51,
+  8.91,
+  "Jump!"
+ ],
+ [
+  8.81,
   10.09,
-  "Jump! Jump! Happy and free!"
+  "Happy and free!"
  ],
  [
   9.99,
@@ -61,28 +116,43 @@
  ],
  [
   27.47,
-  31.73,
-  "Ready, ready, here we go. Everybody let me"
+  30.28,
+  "Ready, ready, here we go."
  ],
  [
-  31.63,
-  34.89,
-  "know. Can you jump? Yes I can. Jump"
+  30.39,
+  32.37,
+  "Everybody let me know."
  ],
  [
-  34.79,
+  32.27,
+  33.51,
+  "Can you jump?"
+ ],
+ [
+  33.41,
+  34.65,
+  "Yes I can."
+ ],
+ [
+  34.55,
   36.97,
-  "with me and clap your hands."
+  "Jump with me and clap your hands."
  ],
  [
   36.87,
-  40.49,
-  "Jump with me, jump with me. Everybody jump"
+  39.3,
+  "Jump with me, jump with me."
  ],
  [
-  40.39,
+  39.41,
+  41.41,
+  "Everybody jump with me."
+ ],
+ [
+  41.31,
   43.73,
-  "with me. Jump so high, touch the sky."
+  "Jump so high, touch the sky."
  ],
  [
   43.63,

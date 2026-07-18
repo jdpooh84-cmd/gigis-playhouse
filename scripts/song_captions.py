@@ -49,11 +49,24 @@ def main():
         if len(text) <= max_chars or not words:
             lines.append([round(seg["start"], 3), round(seg["end"], 3), text])
             continue
-        # long segment -> balanced word-timed chunks
-        for ch in split_words(words, max_chars, max_words):
-            if ch:
-                lines.append([round(ch[0]["s"], 3), round(ch[-1]["e"], 3),
-                              clean(" ".join(w["w"] for w in ch))])
+        # long segment -> first break at sentence-final punctuation (. ? !) so lines never start
+        # mid-clause; then word-split any sentence that is still too long.
+        sentence, groups = [], []
+        for w in words:
+            sentence.append(w)
+            if w["w"].rstrip().endswith((".", "?", "!")):
+                groups.append(sentence); sentence = []
+        if sentence:
+            groups.append(sentence)
+        for g in groups:
+            gtext = clean(" ".join(w["w"] for w in g))
+            if len(gtext) <= max_chars:
+                lines.append([round(g[0]["s"], 3), round(g[-1]["e"], 3), gtext])
+            else:
+                for ch in split_words(g, max_chars, max_words):
+                    if ch:
+                        lines.append([round(ch[0]["s"], 3), round(ch[-1]["e"], 3),
+                                      clean(" ".join(w["w"] for w in ch))])
 
     # readability polish: min duration, small lead-in/hold-out, no overlap with next line
     LEAD, HOLD, MINDUR = 0.15, 0.30, 0.9
