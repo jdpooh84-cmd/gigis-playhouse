@@ -121,7 +121,10 @@ def main():
         if b - a < MINDUR:
             b = a + MINDUR
         if i + 1 < len(lines):
-            nxt = lines[i + 1][0] - 0.05
+            # the next line becomes visible at its own displayed start (its raw
+            # start pulled earlier by LEAD). Trim THIS line to end before that, so
+            # two captions are never on screen at once (no overlapping render).
+            nxt = (lines[i + 1][0] - LEAD) - 0.05
             if b > nxt:
                 b = max(a + 0.4, nxt)
         polished.append([round(a, 3), round(b, 3), txt])
